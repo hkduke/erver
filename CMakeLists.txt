@@ -36,7 +36,7 @@ ADD_SUBDIRECTORY(logic_jznc_score)
 ADD_SUBDIRECTORY(logic_jznc_score_android)
 #ADD_SUBDIRECTORY(logic_fish)
 
-#ADD_SUBDIRECTORY(DipServer)
+ADD_SUBDIRECTORY(DipServer)
 ADD_SUBDIRECTORY(MaintainService)
 ADD_SUBDIRECTORY(CustomerServer)
 #ADD_SUBDIRECTORY(redisTodb)
