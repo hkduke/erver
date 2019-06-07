@@ -1,0 +1,24 @@
+
+service server {
+# 	服务器ID
+	server_id = 30
+	
+#	是否使用公网IP连接游戏服和登录服
+	use_public_ip = 0
+	
+#	服务名称
+	server_name = 代理服务器30
+#	服务地址
+	local_addr = 0.0.0.0:8001
+#	中心服地址
+	center_addr = 0.0.0.0:5001
+#	db服地址
+	dbserver_addr = 0.0.0.0:6001
+	
+#	redis信息
+	redis_addr = 127.0.0.1:8567
+	redis_pwd = huijin@8888.com
+	rediscon_timeout = 10
+	redisrw_timeout = 10
+}
+

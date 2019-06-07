@@ -1,0 +1,25 @@
+Log file created at: 2019/05/21 20:19:33
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0521 20:19:33.159684 175076800 GameServer.cpp:45] 正在启动游戏服务器...
+I0521 20:19:33.162063 175076800 NetModule.h:71] Init NetModule Finished.
+I0521 20:19:33.162281 175076800 NetModule.h:78] start work thread 0...
+I0521 20:19:33.162292 175076800 NetModule.cpp:69] Start Run NetModule...
+I0521 20:19:33.162307 175076800 NetModule.cpp:88] NetModule Already Startover.
+I0521 20:19:33.162317 175076800 NetModule.cpp:220] add one connector: 127.0.0.1:5001 succeed...
+I0521 20:19:33.162323 175076800 NetModule.cpp:220] add one connector: 127.0.0.1:6001 succeed...
+I0521 20:19:33.162328 175076800 NetModule.cpp:136] Create one server...
+I0521 20:19:33.664192 175076800 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0521 20:19:33.664239 175076800 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0521 20:19:33.666474 97161216 GameServerThread.cpp:113] connect to db server succ!
+I0521 20:19:35.762689 97161216 AndroidUserMgr.cpp:845] set active android count: 0
+I0521 20:19:35.762729 97161216 AndroidUserMgr.cpp:845] set active android count: 20
+I0521 20:19:35.864444 175076800 NetServer.cpp:55] accept io...127.0.0.1:53029
+I0521 20:19:36.278435 97161216 GameServerThread.cpp:1990] load benefit config succ!
+I0521 20:19:37.148639 97161216 GameServerThread.cpp:1910] load android parameter succ, android count : 240
+W0521 20:19:37.298072 97161216 GameTableManager.cpp:613] update br game server black list, server id: 993
+I0521 20:19:37.298379 97161216 GameServerThread.cpp:1564] init server succ!
+I0521 20:19:37.298434 97161216 GameServerThread.cpp:146] bind one connect: 127.0.0.1:53029
+I0521 20:19:37.298445 97161216 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:53029
+W0521 20:19:45.025856 97161216 GameServerThread.cpp:2760] can not enter room, in other room, user id: 85505405
+I0521 20:25:00.724416 175076800 NetServer.cpp:88] delete io...127.0.0.1:53029

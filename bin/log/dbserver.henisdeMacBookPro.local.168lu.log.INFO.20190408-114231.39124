@@ -1,0 +1,265 @@
+Log file created at: 2019/04/08 11:42:31
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0408 11:42:31.922184 461964736 DBBufferServer.cpp:55] 正在启动DB服务器...
+I0408 11:42:31.926424 461964736 DBBufferServer.cpp:31] start build db thread...
+W0408 11:42:31.926470 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+I0408 11:42:31.927783 461964736 NetModule.h:71] Init NetModule Finished.
+I0408 11:42:31.928730 461964736 NetModule.h:78] start work thread 0...
+I0408 11:42:31.928750 461964736 NetModule.cpp:69] Start Run NetModule...
+I0408 11:42:31.928772 461964736 NetModule.cpp:88] NetModule Already Startover.
+I0408 11:42:31.928778 461964736 NetModule.cpp:136] Create one server...
+I0408 11:42:36.686087 461964736 NetServer.cpp:55] accept io...127.0.0.1:62480
+I0408 11:42:36.686175 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:62480
+I0408 11:42:40.668864 461964736 NetServer.cpp:55] accept io...127.0.0.1:62485
+I0408 11:42:50.971668 461964736 NetServer.cpp:55] accept io...127.0.0.1:62494
+W0408 11:43:36.688488 96059392 DBThread.cpp:5644] get platform db handle fail.
+W0408 11:43:36.688583 96059392 DBThread.cpp:209] main db server set time ok!
+I0408 11:43:36.688614 96059392 DBThread.cpp:234] init db server succ!
+I0408 11:43:37.358683 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:62485
+I0408 11:43:37.358737 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:62494
+W0408 12:42:36.457551 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0408 13:42:40.989786 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+I0408 14:21:43.306927 461964736 NetServer.cpp:88] delete io...127.0.0.1:62494
+I0408 14:21:54.959691 461964736 NetServer.cpp:55] accept io...127.0.0.1:62673
+I0408 14:21:54.961824 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:62673
+W0408 14:42:45.496733 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0408 15:42:49.982475 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+I0408 16:24:44.811228 461964736 NetServer.cpp:88] delete io...127.0.0.1:62673
+I0408 16:25:14.205885 461964736 NetServer.cpp:55] accept io...127.0.0.1:64727
+I0408 16:25:14.207901 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:64727
+I0408 16:30:45.177947 461964736 NetServer.cpp:88] delete io...127.0.0.1:64727
+I0408 16:31:26.245478 461964736 NetServer.cpp:55] accept io...127.0.0.1:64804
+I0408 16:31:26.247479 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:64804
+I0408 16:34:16.892797 461964736 NetServer.cpp:88] delete io...127.0.0.1:64804
+I0408 16:34:22.135659 461964736 NetServer.cpp:55] accept io...127.0.0.1:64896
+I0408 16:34:22.136121 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:64896
+I0408 16:39:37.462182 461964736 NetServer.cpp:88] delete io...127.0.0.1:64896
+I0408 16:39:45.632414 461964736 NetServer.cpp:55] accept io...127.0.0.1:64996
+I0408 16:39:45.634347 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:64996
+W0408 16:42:54.515851 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+I0408 16:42:55.322938 461964736 NetServer.cpp:88] delete io...127.0.0.1:64996
+I0408 16:46:19.049232 461964736 NetServer.cpp:55] accept io...127.0.0.1:65066
+I0408 16:46:19.050200 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:65066
+I0408 16:47:05.346771 461964736 NetServer.cpp:88] delete io...127.0.0.1:65066
+I0408 16:49:20.714550 461964736 NetServer.cpp:55] accept io...127.0.0.1:65162
+I0408 16:49:20.716745 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:65162
+I0408 16:51:25.738014 461964736 NetServer.cpp:88] delete io...127.0.0.1:65162
+I0408 16:52:47.840373 461964736 NetServer.cpp:55] accept io...127.0.0.1:65220
+I0408 16:52:47.841315 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:65220
+W0408 16:59:18.061295 96059392 DBThread.cpp:7320] insert mail fail. errno: 1366, error msg: Incorrect string value: '\xE3\xE8\x8E\xB7\xE5\xBE...' for column 'content' at row 1
+W0408 17:04:49.866744 96059392 DBThread.cpp:7320] insert mail fail. errno: 1366, error msg: Incorrect string value: '\xE3\xE8\x8E\xB7\xE5\xBE...' for column 'content' at row 1
+I0408 17:22:55.141824 461964736 NetServer.cpp:88] delete io...127.0.0.1:65220
+I0408 17:26:25.650111 461964736 NetServer.cpp:55] accept io...127.0.0.1:49374
+I0408 17:26:25.652189 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:49374
+I0408 17:26:34.619736 461964736 NetServer.cpp:88] delete io...127.0.0.1:49374
+I0408 17:27:00.906363 461964736 NetServer.cpp:55] accept io...127.0.0.1:49392
+I0408 17:27:00.907783 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:49392
+I0408 17:28:09.469815 461964736 NetServer.cpp:55] accept io...127.0.0.1:49411
+I0408 17:28:09.471886 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:49411
+I0408 17:30:53.560595 461964736 NetServer.cpp:88] delete io...127.0.0.1:49392
+I0408 17:31:03.296566 461964736 NetServer.cpp:55] accept io...127.0.0.1:49452
+I0408 17:31:03.297773 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:49452
+I0408 17:31:09.581696 461964736 NetServer.cpp:88] delete io...127.0.0.1:49411
+I0408 17:31:11.685467 461964736 NetServer.cpp:55] accept io...127.0.0.1:49458
+I0408 17:31:11.687480 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:49458
+I0408 17:39:38.491315 461964736 NetServer.cpp:88] delete io...127.0.0.1:49452
+I0408 17:40:19.913441 461964736 NetServer.cpp:88] delete io...127.0.0.1:49458
+I0408 17:40:36.337177 461964736 NetServer.cpp:55] accept io...127.0.0.1:49639
+I0408 17:40:36.338531 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:49639
+W0408 17:42:59.020572 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+I0408 18:10:14.663668 461964736 NetServer.cpp:88] delete io...127.0.0.1:49639
+I0408 18:10:17.177856 461964736 NetServer.cpp:55] accept io...127.0.0.1:50097
+I0408 18:10:17.179462 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:50097
+I0408 18:15:01.550005 461964736 NetServer.cpp:88] delete io...127.0.0.1:50097
+I0408 18:15:03.335153 461964736 NetServer.cpp:55] accept io...127.0.0.1:50215
+I0408 18:15:03.337294 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:50215
+I0408 18:22:02.059285 461964736 NetServer.cpp:88] delete io...127.0.0.1:50215
+I0408 18:22:03.909186 461964736 NetServer.cpp:55] accept io...127.0.0.1:50298
+I0408 18:22:03.910715 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:50298
+I0408 18:22:08.886533 461964736 NetServer.cpp:88] delete io...127.0.0.1:50298
+I0408 18:22:16.047204 461964736 NetServer.cpp:55] accept io...127.0.0.1:50306
+I0408 18:22:16.048807 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:50306
+I0408 18:23:39.295959 461964736 NetServer.cpp:88] delete io...127.0.0.1:50306
+I0408 18:23:41.366101 461964736 NetServer.cpp:55] accept io...127.0.0.1:50326
+I0408 18:23:41.367977 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:50326
+I0408 18:26:05.953835 461964736 NetServer.cpp:88] delete io...127.0.0.1:50326
+I0408 18:26:07.251343 461964736 NetServer.cpp:55] accept io...127.0.0.1:50366
+I0408 18:26:07.251492 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:50366
+I0408 18:31:11.520766 461964736 NetServer.cpp:88] delete io...127.0.0.1:50366
+I0408 18:31:13.221192 461964736 NetServer.cpp:55] accept io...127.0.0.1:50490
+I0408 18:31:13.221947 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:50490
+I0408 18:33:16.860997 461964736 NetServer.cpp:88] delete io...127.0.0.1:50490
+I0408 18:33:28.851270 461964736 NetServer.cpp:55] accept io...127.0.0.1:50519
+I0408 18:33:28.852952 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:50519
+I0408 18:36:53.067826 461964736 NetServer.cpp:88] delete io...127.0.0.1:50519
+I0408 18:37:08.273005 461964736 NetServer.cpp:55] accept io...127.0.0.1:50574
+I0408 18:37:40.529850 461964736 NetServer.cpp:88] delete io...127.0.0.1:50574
+I0408 18:37:44.593178 461964736 NetServer.cpp:55] accept io...127.0.0.1:50583
+I0408 18:37:53.167860 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:50583
+I0408 18:39:26.339438 461964736 NetServer.cpp:88] delete io...127.0.0.1:50583
+I0408 18:39:43.826807 461964736 NetServer.cpp:55] accept io...127.0.0.1:50613
+I0408 18:39:43.827401 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:50613
+I0408 18:40:23.921492 461964736 NetServer.cpp:88] delete io...127.0.0.1:50613
+I0408 18:40:27.883246 461964736 NetServer.cpp:55] accept io...127.0.0.1:50631
+I0408 18:40:27.885000 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:50631
+W0408 18:43:03.567684 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0408 19:43:08.086210 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0408 20:43:12.621668 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+I0408 21:12:45.389303 461964736 NetServer.cpp:55] accept io...127.0.0.1:54619
+I0408 21:12:45.391461 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:54619
+W0408 21:43:17.308693 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0408 22:43:21.855618 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0408 23:43:26.360266 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0409 00:43:30.884892 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0409 01:43:35.400106 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0409 02:43:39.933894 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0409 03:43:44.488997 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0409 04:43:49.014580 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0409 05:43:53.528108 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0409 06:43:58.086422 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0409 07:44:02.629977 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0409 08:44:07.171619 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0409 09:44:11.678841 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0409 09:45:13.696264 95522816 BuildDBThread.cpp:135] open :58.82.239.150:3306@mysql error!
+W0409 10:45:14.752243 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+I0409 10:48:35.558871 461964736 NetServer.cpp:88] delete io...127.0.0.1:54619
+W0409 11:45:19.284164 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0409 12:45:23.837288 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0409 13:45:28.344254 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+I0409 13:51:04.124357 461964736 NetServer.cpp:88] delete io...127.0.0.1:50631
+I0409 13:55:04.202834 461964736 NetServer.cpp:55] accept io...127.0.0.1:56079
+I0409 13:55:04.204519 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:56079
+I0409 13:58:06.173018 461964736 NetServer.cpp:88] delete io...127.0.0.1:56079
+I0409 13:58:16.638885 461964736 NetServer.cpp:55] accept io...127.0.0.1:56094
+I0409 13:58:16.641083 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:56094
+I0409 14:01:09.014436 461964736 NetServer.cpp:55] accept io...127.0.0.1:56106
+I0409 14:01:09.016283 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:56106
+I0409 14:21:11.329330 461964736 NetServer.cpp:88] delete io...127.0.0.1:56106
+I0409 14:21:39.298075 461964736 NetServer.cpp:55] accept io...127.0.0.1:56127
+I0409 14:21:39.299746 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:56127
+I0409 14:22:35.680651 461964736 NetServer.cpp:88] delete io...127.0.0.1:56127
+I0409 14:22:43.335175 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:56136
+I0409 14:22:43.335182 461964736 NetServer.cpp:55] accept io...127.0.0.1:56136
+I0409 14:36:41.306044 461964736 NetServer.cpp:88] delete io...127.0.0.1:56136
+I0409 14:40:35.131673 461964736 NetServer.cpp:55] accept io...127.0.0.1:56178
+I0409 14:40:35.133615 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:56178
+W0409 14:45:32.876334 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0409 15:04:24.158510 96059392 DBThread.cpp:6772] insert record_score.record_draw_info fail, error = 2003, error msg: Can't connect to MySQL server on '58.82.239.150' (60)
+W0409 15:45:37.383793 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0409 16:45:41.896605 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+I0409 16:55:49.065862 461964736 NetServer.cpp:88] delete io...127.0.0.1:56178
+W0409 17:45:46.458525 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0409 18:45:50.987829 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0409 18:46:54.467540 95522816 BuildDBThread.cpp:219] open :58.82.239.150:3306@mysql error!
+W0409 19:46:54.492815 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0409 20:46:59.026504 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0409 21:47:03.584117 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0409 22:47:08.117274 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0409 23:47:12.626034 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0410 00:47:17.177171 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0410 01:47:21.795326 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0410 02:47:26.400810 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0410 03:47:30.995692 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0410 04:47:35.616487 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0410 05:47:40.186888 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0410 06:47:44.788949 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0410 07:47:49.422451 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0410 08:47:56.008107 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0410 09:48:09.015372 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0410 10:48:13.692999 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0410 11:48:18.190697 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0410 12:48:22.721262 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0410 13:48:27.274045 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0410 14:48:31.813807 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0410 15:48:36.318715 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0410 16:48:40.814987 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0410 17:48:45.343928 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0410 18:48:49.867136 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0410 19:48:54.388221 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0410 20:48:58.893249 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0410 21:49:03.402143 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0410 22:49:07.959035 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0410 23:49:12.495409 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0411 00:49:17.024405 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0411 01:49:21.545831 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0411 02:49:26.085258 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0411 03:49:30.627522 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0411 04:49:35.187481 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0411 05:49:39.714277 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0411 06:49:44.290776 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0411 07:49:48.917232 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0411 08:49:53.455935 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0411 09:49:57.973098 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0411 10:50:02.224417 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0411 11:50:06.731806 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0411 12:50:11.245290 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0411 13:50:15.770084 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+I0411 14:23:28.968919 461964736 NetServer.cpp:55] accept io...127.0.0.1:52398
+I0411 14:23:28.969656 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:52398
+W0411 14:50:20.331775 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+I0411 15:47:10.970108 461964736 NetServer.cpp:88] delete io...127.0.0.1:52398
+I0411 15:47:16.670459 461964736 NetServer.cpp:55] accept io...127.0.0.1:52903
+I0411 15:47:16.672453 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:52903
+W0411 15:50:24.842072 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+I0411 15:58:31.218803 461964736 NetServer.cpp:88] delete io...127.0.0.1:52903
+I0411 15:58:55.223104 461964736 NetServer.cpp:55] accept io...127.0.0.1:52941
+I0411 15:58:55.223281 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:52941
+I0411 16:36:38.179814 461964736 NetServer.cpp:88] delete io...127.0.0.1:52941
+I0411 16:37:37.642880 461964736 NetServer.cpp:55] accept io...127.0.0.1:53069
+I0411 16:37:37.643350 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:53069
+I0411 16:47:23.885390 461964736 NetServer.cpp:88] delete io...127.0.0.1:53069
+I0411 16:47:42.561431 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:53110
+I0411 16:47:42.561549 461964736 NetServer.cpp:55] accept io...127.0.0.1:53110
+I0411 16:49:57.577677 461964736 NetServer.cpp:88] delete io...127.0.0.1:53110
+I0411 16:50:28.775955 461964736 NetServer.cpp:55] accept io...127.0.0.1:53127
+I0411 16:50:28.777873 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:53127
+W0411 16:50:29.337615 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+I0411 16:57:05.990185 461964736 NetServer.cpp:88] delete io...127.0.0.1:53127
+I0411 16:59:07.079596 461964736 NetServer.cpp:55] accept io...127.0.0.1:53166
+I0411 16:59:07.080772 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:53166
+I0411 17:25:01.947458 461964736 NetServer.cpp:88] delete io...127.0.0.1:53166
+I0411 17:25:30.652272 461964736 NetServer.cpp:55] accept io...127.0.0.1:53250
+I0411 17:25:30.654227 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:53250
+I0411 17:29:31.991757 461964736 NetServer.cpp:88] delete io...127.0.0.1:53250
+I0411 17:30:02.115289 461964736 NetServer.cpp:55] accept io...127.0.0.1:53265
+I0411 17:30:02.116837 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:53265
+I0411 17:30:41.266281 461964736 NetServer.cpp:88] delete io...127.0.0.1:53265
+W0411 17:50:33.817981 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0411 18:50:38.341933 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+I0411 18:58:23.496994 461964736 NetServer.cpp:55] accept io...127.0.0.1:53521
+I0411 18:58:23.497346 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:53521
+I0411 19:00:13.100719 461964736 NetServer.cpp:88] delete io...127.0.0.1:53521
+I0411 19:02:15.295764 461964736 NetServer.cpp:55] accept io...127.0.0.1:53549
+I0411 19:02:15.296669 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:53549
+I0411 19:02:16.195760 461964736 NetServer.cpp:88] delete io...127.0.0.1:53549
+I0411 19:02:22.481065 461964736 NetServer.cpp:55] accept io...127.0.0.1:53555
+I0411 19:02:22.482611 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:53555
+I0411 19:03:33.678241 461964736 NetServer.cpp:88] delete io...127.0.0.1:53555
+I0411 19:03:48.713865 461964736 NetServer.cpp:55] accept io...127.0.0.1:53567
+I0411 19:03:48.715232 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:53567
+I0411 19:25:13.285022 461964736 NetServer.cpp:88] delete io...127.0.0.1:53567
+I0411 19:25:50.378489 461964736 NetServer.cpp:55] accept io...127.0.0.1:53642
+I0411 19:25:50.379873 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:53642
+I0411 19:43:30.016669 461964736 NetServer.cpp:88] delete io...127.0.0.1:53642
+I0411 19:44:10.956037 461964736 NetServer.cpp:55] accept io...127.0.0.1:53697
+I0411 19:44:10.956338 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:53697
+I0411 19:48:51.081252 461964736 NetServer.cpp:88] delete io...127.0.0.1:53697
+I0411 19:49:03.742542 461964736 NetServer.cpp:55] accept io...127.0.0.1:53718
+I0411 19:49:03.743535 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:53718
+W0411 19:50:42.891367 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+I0411 20:48:10.625071 461964736 NetServer.cpp:88] delete io...127.0.0.1:62480
+I0411 20:48:14.426204 461964736 NetServer.cpp:88] delete io...127.0.0.1:53718
+I0411 20:48:38.408287 461964736 NetServer.cpp:55] accept io...127.0.0.1:54205
+I0411 20:48:38.409271 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:54205
+W0411 20:50:47.395035 95522816 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+I0411 21:00:30.567787 461964736 NetServer.cpp:88] delete io...127.0.0.1:54205
+I0411 21:00:42.646679 461964736 NetServer.cpp:55] accept io...127.0.0.1:54497
+I0411 21:00:42.648643 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:54497
+I0411 21:03:20.310477 461964736 NetServer.cpp:88] delete io...127.0.0.1:54497
+I0411 21:03:37.723217 461964736 NetServer.cpp:55] accept io...127.0.0.1:54591
+I0411 21:03:37.724891 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:54591
+I0411 21:04:54.184981 461964736 NetServer.cpp:88] delete io...127.0.0.1:54591
+I0411 21:05:05.947432 461964736 NetServer.cpp:55] accept io...127.0.0.1:54624
+I0411 21:05:05.949617 96059392 DBThread.cpp:104] bind one connect: 127.0.0.1:54624
+I0411 21:19:14.319396 461964736 NetServer.cpp:88] delete io...127.0.0.1:54624

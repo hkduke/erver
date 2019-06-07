@@ -1,0 +1,33 @@
+Log file created at: 2018/12/15 21:22:03
+Running on machine: henisdeMacBook-Pro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W1215 21:22:03.091797 89899008 BuildDBThread.cpp:295] CBuildDBThread run, begin build database ..
+W1215 21:22:17.022495 90435584 DBThread.cpp:205] main db server set time ok!
+W1215 21:28:33.308661 90435584 DBThread.cpp:3544] insert src_user_stat fail, user id: 83527842, errno: 1054, error: Unknown column 'gameid' in 'field list'
+W1215 21:28:33.426472 90435584 DBThread.cpp:3544] insert src_user_stat fail, user id: 83516815, errno: 1054, error: Unknown column 'gameid' in 'field list'
+W1215 21:28:33.535890 90435584 DBThread.cpp:3544] insert src_user_stat fail, user id: 85010705, errno: 1054, error: Unknown column 'gameid' in 'field list'
+W1215 21:30:00.242940 90435584 DBThread.cpp:3544] insert src_user_stat fail, user id: 85010705, errno: 1054, error: Unknown column 'gameid' in 'field list'
+W1215 21:30:00.352551 90435584 DBThread.cpp:3544] insert src_user_stat fail, user id: 83516815, errno: 1054, error: Unknown column 'gameid' in 'field list'
+W1215 21:30:00.476101 90435584 DBThread.cpp:3544] insert src_user_stat fail, user id: 83527842, errno: 1054, error: Unknown column 'gameid' in 'field list'
+W1215 21:34:33.912201 90435584 DBThread.cpp:3544] insert src_user_stat fail, user id: 83516815, errno: 1054, error: Unknown column 'gameid' in 'field list'
+W1215 21:34:34.021582 90435584 DBThread.cpp:3544] insert src_user_stat fail, user id: 83527842, errno: 1054, error: Unknown column 'gameid' in 'field list'
+W1215 21:34:34.131042 90435584 DBThread.cpp:3544] insert src_user_stat fail, user id: 85010705, errno: 1054, error: Unknown column 'gameid' in 'field list'
+W1215 23:03:27.518239 90435584 DBThread.cpp:1978] start  AcrossTheDayEvent...
+W1215 23:03:31.476181 90435584 DBThread.cpp:1983] SwitchTodayScoreRank use time : 3958
+W1215 23:03:41.924551 90435584 DBThread.cpp:1988] ResetTodayScoreRankInCache use time : 10448
+W1215 23:03:42.262266 90435584 DBThread.cpp:5857] account count: 10
+W1215 23:03:43.371781 90435584 DBThread.cpp:5865] vecAccountInfo use time: 1109
+W1215 23:03:43.371989 90435584 DBThread.cpp:1993] ResetTodayRank use time : 1447
+W1216 09:48:19.711426 90435584 DBThread.cpp:1673] reset daily task start. 
+W1216 09:48:46.308817 90435584 DBThread.cpp:1676] reset daily task end. user time: 26596
+W1216 10:24:44.849043 89899008 BuildDBThread.cpp:295] CBuildDBThread run, begin build database ..
+W1217 01:33:29.099860 90435584 DBThread.cpp:1978] start  AcrossTheDayEvent...
+W1217 01:33:32.996624 90435584 DBThread.cpp:1983] SwitchTodayScoreRank use time : 3896
+W1217 01:33:43.460026 90435584 DBThread.cpp:1988] ResetTodayScoreRankInCache use time : 10464
+W1217 01:33:43.796308 90435584 DBThread.cpp:5857] account count: 3
+W1217 01:33:44.128168 90435584 DBThread.cpp:5865] vecAccountInfo use time: 332
+W1217 01:33:44.128374 90435584 DBThread.cpp:1993] ResetTodayRank use time : 668
+W1217 07:35:43.647187 90435584 DBThread.cpp:8289] select quanmin channel fail, errno:-1, error: mysql not opened yet!
+W1217 10:03:23.763866 90435584 DBThread.cpp:5407] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1217 10:03:23.765978 90435584 DBThread.cpp:5644] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1217 10:03:23.766100 90435584 DBThread.cpp:5741] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!

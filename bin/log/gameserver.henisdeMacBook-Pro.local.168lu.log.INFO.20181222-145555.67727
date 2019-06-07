@@ -1,0 +1,27 @@
+Log file created at: 2018/12/22 14:55:55
+Running on machine: henisdeMacBook-Pro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1222 14:55:55.792826 388150720 GameServer.cpp:45] 正在启动游戏服务器...
+I1222 14:55:55.794878 388150720 NetModule.h:71] Init NetModule Finished.
+I1222 14:55:55.795102 388150720 NetModule.h:77] start work thread 0...
+I1222 14:55:55.795112 388150720 NetModule.cpp:64] Start Run NetModule...
+I1222 14:55:55.795130 388150720 NetModule.cpp:76] NetModule Already Startover.
+I1222 14:55:55.795140 388150720 NetModule.cpp:200] add one connector: 0.0.0.0:5001 succeed...
+I1222 14:55:55.795146 388150720 NetModule.cpp:200] add one connector: 0.0.0.0:6001 succeed...
+I1222 14:55:55.795151 388150720 NetModule.cpp:118] Create one server...
+I1222 14:55:56.296238 388150720 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I1222 14:55:56.296279 388150720 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1222 14:55:56.298135 132493312 GameServerThread.cpp:113] connect to db server succ!
+I1222 14:56:08.505538 132493312 AndroidUserMgr.cpp:693] set active android count: 0
+I1222 14:56:08.505575 132493312 AndroidUserMgr.cpp:693] set active android count: 0
+I1222 14:56:08.701781 388150720 NetServer.cpp:55] accept io...127.0.0.1:53437
+I1222 14:56:08.968588 132493312 GameServerThread.cpp:1884] load benefit config succ!
+I1222 14:56:09.879786 132493312 GameServerThread.cpp:1804] load android parameter succ, android count : 687
+I1222 14:56:09.879812 132493312 GameServerThread.cpp:1813] SET DDZ AI TIMER.
+W1222 14:56:09.998558 132493312 GameTableManager.cpp:561] update br game server black list, server id: 100
+I1222 14:56:09.998839 132493312 GameServerThread.cpp:1458] init server succ!
+I1222 14:56:09.998850 132493312 GameServerThread.cpp:146] bind one connect: 127.0.0.1:53437
+I1222 14:56:09.998864 132493312 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:53437
+W1222 15:02:59.374296 132493312 TableFrameForScore.cpp:1637] game process message fail? subid: 2
+W1222 15:04:48.409231 132493312 TableFrameForScore.cpp:1637] game process message fail? subid: 3
+W1222 15:15:08.510313 132493312 TableFrameForScore.cpp:1637] game process message fail? subid: 3

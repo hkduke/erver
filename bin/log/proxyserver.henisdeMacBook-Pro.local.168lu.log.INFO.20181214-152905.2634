@@ -1,0 +1,26 @@
+Log file created at: 2018/12/14 15:29:05
+Running on machine: henisdeMacBook-Pro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1214 15:29:05.645653 323876288 ProxyServer.cpp:45] 正在启动代理服务器...
+I1214 15:29:05.648669 323876288 NetModule.h:71] Init NetModule Finished.
+I1214 15:29:05.648736 323876288 NetModule.h:77] start work thread 0...
+I1214 15:29:05.648747 323876288 NetModule.cpp:64] Start Run NetModule...
+I1214 15:29:05.648766 323876288 NetModule.cpp:76] NetModule Already Startover.
+I1214 15:29:05.649197 323876288 NetModule.cpp:118] Create one server...
+I1214 15:29:05.649317 323876288 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1214 15:29:05.649333 323876288 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1214 15:29:05.659303 28852224 ProxyThread.cpp:66] connect to center server succ.
+I1214 15:29:05.659344 28852224 ProxyThread.cpp:92] connect to db server succ
+I1214 15:29:05.696804 28852224 ProxyThread.cpp:538] get game server list finish!
+I1214 15:29:05.696852 28852224 ProxyThread.cpp:509] get login server list finish!
+I1214 15:29:05.696869 28852224 ProxyThread.cpp:567] get customer server list finish!
+I1214 15:29:20.821666 28852224 NetModule.cpp:200] add one connector: 0.0.0.0:7003 succeed...
+W1214 15:29:20.821727 28852224 ServerMgr.cpp:78] add login server, login server id:10
+I1214 15:29:21.195405 323876288 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I1214 15:29:21.195578 28852224 ProxyThread.cpp:76] connect to login server succ, server id:10
+I1214 15:29:29.555742 28852224 NetModule.cpp:200] add one connector: 127.0.0.1:11001 succeed...
+W1214 15:29:29.555775 28852224 ServerMgr.cpp:40] add game server, game server id:1101
+I1214 15:29:29.713073 323876288 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I1214 15:29:29.714982 28852224 ProxyThread.cpp:86] connect to game server succ, server id:1101
+I1214 15:29:37.091102 323876288 NetServer.cpp:55] accept io...192.168.10.106:50695
+W1214 17:37:46.376755 28852224 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!

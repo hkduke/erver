@@ -1,0 +1,25 @@
+Log file created at: 2019/05/28 14:11:00
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0528 14:11:00.843513 314320320 GameServer.cpp:45] 正在启动游戏服务器...
+I0528 14:11:00.846436 314320320 NetModule.h:71] Init NetModule Finished.
+I0528 14:11:00.846721 314320320 NetModule.h:78] start work thread 0...
+I0528 14:11:00.846735 314320320 NetModule.cpp:69] Start Run NetModule...
+I0528 14:11:00.846753 314320320 NetModule.cpp:88] NetModule Already Startover.
+I0528 14:11:00.846767 314320320 NetModule.cpp:220] add one connector: 127.0.0.1:5001 succeed...
+I0528 14:11:00.846774 314320320 NetModule.cpp:220] add one connector: 127.0.0.1:6001 succeed...
+I0528 14:11:00.846779 314320320 NetModule.cpp:136] Create one server...
+I0528 14:11:01.347337 314320320 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0528 14:11:01.347378 314320320 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0528 14:11:01.349416 148180992 GameServerThread.cpp:113] connect to db server succ!
+I0528 14:11:05.780895 148180992 AndroidUserMgr.cpp:845] set active android count: 0
+I0528 14:11:05.780936 148180992 AndroidUserMgr.cpp:845] set active android count: 7
+I0528 14:11:06.188961 314320320 NetServer.cpp:55] accept io...127.0.0.1:62948
+I0528 14:11:07.174823 148180992 GameServerThread.cpp:1990] load benefit config succ!
+I0528 14:11:09.000972 148180992 GameServerThread.cpp:1910] load android parameter succ, android count : 30
+W0528 14:11:09.288980 148180992 GameTableManager.cpp:613] update br game server black list, server id: 10001
+I0528 14:11:09.289324 148180992 GameServerThread.cpp:1564] init server succ!
+I0528 14:11:09.289408 148180992 GameServerThread.cpp:146] bind one connect: 127.0.0.1:62948
+I0528 14:11:09.289419 148180992 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:62948
+I0528 14:17:56.460628 314320320 NetServer.cpp:88] delete io...127.0.0.1:62948
+W0528 14:19:20.862862 148180992 ServerMgr.cpp:67] remove one proxy server, id: 30

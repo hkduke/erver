@@ -1,0 +1,125 @@
+Log file created at: 2018/12/27 09:53:34
+Running on machine: henisdeMacBook-Pro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1227 09:53:34.909592 431392192 LoginServer.cpp:45] 正在启动登录服务器...
+I1227 09:53:34.911494 431392192 NetModule.h:71] Init NetModule Finished.
+I1227 09:53:34.911808 431392192 NetModule.h:77] start work thread 0...
+I1227 09:53:34.911818 431392192 NetModule.cpp:64] Start Run NetModule...
+I1227 09:53:34.911835 431392192 NetModule.cpp:76] NetModule Already Startover.
+W1227 09:53:34.912315 431392192 LoginServer.cpp:65] listen at: 0.0.0.0:7003
+I1227 09:53:34.913900 431392192 NetModule.cpp:118] Create one server...
+I1227 09:53:34.913997 431392192 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1227 09:53:35.427271 431392192 NetServer.cpp:55] accept io...127.0.0.1:51982
+I1227 09:53:35.429610 206995456 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:51982
+I1227 09:53:35.449270 206995456 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:51982
+I1227 09:53:36.890686 206995456 LoginServerThread.cpp:7364] load game kind succ!
+I1227 09:53:37.019685 206995456 LoginServerThread.cpp:7475] load game room kind succ!
+I1227 09:53:37.464062 206995456 LoginServerThread.cpp:7839] load system status succ!
+I1227 09:53:37.574959 206995456 LoginServerThread.cpp:7510] load sign in config succ!
+I1227 09:53:37.686831 206995456 LoginServerThread.cpp:7544] load vip config succ!
+I1227 09:53:37.795500 206995456 LoginServerThread.cpp:7576] load vip2 config succ!
+I1227 09:53:37.992559 206995456 LoginServerThread.cpp:7864] load channel show exchange succ!
+I1227 09:53:38.101636 206995456 LoginServerThread.cpp:7894] load exchange info succ!
+I1227 09:53:38.240435 206995456 LoginServerThread.cpp:7921] load channel prsent score succ!
+I1227 09:53:38.380934 206995456 LoginServerThread.cpp:7945] load channel register mail succ!
+I1227 09:53:38.492580 206995456 LoginServerThread.cpp:7668] load game version succ!
+W1227 15:42:20.080960 206995456 LoginServerThread.cpp:5017] select expire mail fail, error no: 2003, sql:select mailid from mail where userid = '83516815' and mailType = 2 and expireTime < now()
+W1227 15:43:20.090553 207532032 LoginRecordThread.cpp:101] insert user login record fail. errno: 2003, error msg: Can't connect to MySQL server on '58.82.239.150' (60)
+I1227 22:04:56.236403 431392192 NetServer.cpp:88] delete io...127.0.0.1:51982
+W1227 22:04:56.237673 206995456 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1227 22:04:56.237706 206995456 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+I1227 22:04:59.729434 431392192 NetServer.cpp:55] accept io...127.0.0.1:53557
+I1227 22:04:59.731420 206995456 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:53557
+I1227 22:04:59.737555 206995456 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:53557
+W1227 22:05:06.761886 431392192 NetModule.cpp:703] ready reconnect server, server id: 10
+I1227 22:05:06.762146 431392192 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1227 22:56:01.257865 431392192 NetServer.cpp:88] delete io...127.0.0.1:53557
+W1227 22:56:01.259284 206995456 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1227 22:56:01.259325 206995456 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+I1227 22:56:04.756585 431392192 NetServer.cpp:55] accept io...127.0.0.1:53575
+I1227 22:56:04.758646 206995456 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:53575
+I1227 22:56:04.780190 206995456 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:53575
+W1227 22:56:11.276182 431392192 NetModule.cpp:703] ready reconnect server, server id: 10
+I1227 22:56:11.276443 431392192 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+W1228 00:56:54.268255 206995456 LoginServerThread.cpp:511] login server is across day.
+I1228 00:56:54.287798 431392192 NetServer.cpp:88] delete io...127.0.0.1:53575
+I1228 00:56:57.784386 431392192 NetServer.cpp:55] accept io...127.0.0.1:53586
+I1228 02:57:47.317762 431392192 NetServer.cpp:88] delete io...127.0.0.1:53586
+W1228 02:57:49.658690 206995456 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1228 02:57:49.658826 206995456 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+W1228 02:57:49.658901 206995456 ServerMgr.cpp:88] remove one proxy server, id: 30
+I1228 02:57:50.817265 431392192 NetServer.cpp:55] accept io...127.0.0.1:53599
+I1228 02:57:50.819268 206995456 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:53599
+I1228 02:57:50.834559 206995456 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:53599
+W1228 02:57:59.850281 431392192 NetModule.cpp:703] ready reconnect server, server id: 10
+I1228 02:57:59.850544 431392192 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1228 04:58:40.361992 431392192 NetServer.cpp:88] delete io...127.0.0.1:53599
+W1228 04:58:40.363976 206995456 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1228 04:58:40.364032 206995456 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+I1228 04:58:43.857929 431392192 NetServer.cpp:55] accept io...127.0.0.1:53617
+I1228 04:58:43.859884 206995456 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:53617
+I1228 04:58:43.868119 206995456 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:53617
+W1228 04:58:50.884992 431392192 NetModule.cpp:703] ready reconnect server, server id: 10
+I1228 04:58:50.885258 431392192 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1228 06:59:33.394790 431392192 NetServer.cpp:88] delete io...127.0.0.1:53617
+W1228 06:59:33.394943 206995456 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1228 06:59:33.394982 206995456 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+I1228 06:59:36.887671 431392192 NetServer.cpp:55] accept io...127.0.0.1:53638
+I1228 06:59:36.888304 206995456 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:53638
+I1228 06:59:36.915769 206995456 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:53638
+W1228 06:59:43.927243 431392192 NetModule.cpp:703] ready reconnect server, server id: 10
+I1228 06:59:43.927500 431392192 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1228 09:00:26.429571 431392192 NetServer.cpp:88] delete io...127.0.0.1:53638
+W1228 09:00:26.431562 206995456 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1228 09:00:26.431633 206995456 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+I1228 09:00:29.922430 431392192 NetServer.cpp:55] accept io...127.0.0.1:53650
+I1228 09:00:29.923655 206995456 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:53650
+I1228 09:00:29.956303 206995456 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:53650
+W1228 09:00:36.958015 431392192 NetModule.cpp:703] ready reconnect server, server id: 10
+I1228 09:00:36.958287 431392192 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1228 09:45:02.475770 431392192 NetServer.cpp:88] delete io...127.0.0.1:53650
+W1228 09:45:02.475793 206995456 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1228 09:45:02.478718 206995456 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+I1228 09:45:05.966120 431392192 NetServer.cpp:55] accept io...127.0.0.1:53660
+I1228 09:45:05.968387 206995456 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:53660
+I1228 09:45:05.991679 206995456 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:53660
+W1228 09:45:12.999689 431392192 NetModule.cpp:703] ready reconnect server, server id: 10
+I1228 09:45:12.999940 431392192 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+W1228 09:59:09.488898 206995456 LoginServerThread.cpp:3811] set user earn score fail, user id: 83516815
+W1228 09:59:19.610273 206995456 LoginServerThread.cpp:3795] set user task fail, user id: 83516815
+W1228 09:59:29.832592 206995456 LoginServerThread.cpp:3920] set user today rank info fail, user id: 83516815
+W1228 09:59:39.948377 206995456 LoginServerThread.cpp:3724] set benefit failed, userid: 83516815
+W1228 10:12:14.378629 206995456 LoginServerThread.cpp:6564] login sql: SELECT userid, platformId, loginpass, salt, status FROM `user` where userid = '83527842' LIMIT 1
+W1228 10:12:14.378839 206995456 LoginServerThread.cpp:6565] user login fail, user name: 18999999999, user pwd: 96e79218965eb72c92a549dd5a330112, after add salt: 9db06bcff9248837f86d1a6bcf41c9e7, db md5 pwd: , client ip: 192.168.10.114
+W1228 10:12:14.823776 206995456 LoginServerThread.cpp:6564] login sql: SELECT userid, platformId, loginpass, salt, status FROM `user` where userid = '83527842' LIMIT 1
+W1228 10:12:14.823909 206995456 LoginServerThread.cpp:6565] user login fail, user name: 18999999999, user pwd: 96e79218965eb72c92a549dd5a330112, after add salt: 9db06bcff9248837f86d1a6bcf41c9e7, db md5 pwd: , client ip: 192.168.10.114
+W1228 10:12:15.046855 206995456 LoginServerThread.cpp:6564] login sql: SELECT userid, platformId, loginpass, salt, status FROM `user` where userid = '83527842' LIMIT 1
+W1228 10:12:15.047019 206995456 LoginServerThread.cpp:6565] user login fail, user name: 18999999999, user pwd: 96e79218965eb72c92a549dd5a330112, after add salt: 9db06bcff9248837f86d1a6bcf41c9e7, db md5 pwd: , client ip: 192.168.10.114
+W1228 10:38:38.145632 206995456 LoginServerThread.cpp:3811] set user earn score fail, user id: 83516815
+W1228 11:04:10.488013 206995456 LoginServerThread.cpp:5017] select expire mail fail, error no: -1, sql:select mailid from mail where userid = '83516815' and mailType = 2 and expireTime < now()
+W1228 13:59:56.414512 206995456 LoginServerThread.cpp:3811] set user earn score fail, user id: 83516815
+W1228 15:19:44.602460 206995456 LoginServerThread.cpp:6564] login sql: SELECT userid, platformId, loginpass, salt, status FROM `user` where userid = '83527842' LIMIT 1
+W1228 15:19:44.602663 206995456 LoginServerThread.cpp:6565] user login fail, user name: 18999999999, user pwd: 96e79218965eb72c92a549dd5a330112, after add salt: 9db06bcff9248837f86d1a6bcf41c9e7, db md5 pwd: , client ip: 192.168.10.114
+W1228 15:19:54.721161 206995456 LoginServerThread.cpp:6564] login sql: SELECT userid, platformId, loginpass, salt, status FROM `user` where userid = '83527842' LIMIT 1
+W1228 15:19:54.721295 206995456 LoginServerThread.cpp:6565] user login fail, user name: 18999999999, user pwd: 96e79218965eb72c92a549dd5a330112, after add salt: 9db06bcff9248837f86d1a6bcf41c9e7, db md5 pwd: , client ip: 192.168.10.114
+W1228 15:20:04.849606 206995456 LoginServerThread.cpp:6564] login sql: SELECT userid, platformId, loginpass, salt, status FROM `user` where userid = '83527842' LIMIT 1
+W1228 15:20:04.849769 206995456 LoginServerThread.cpp:6565] user login fail, user name: 18999999999, user pwd: 96e79218965eb72c92a549dd5a330112, after add salt: 9db06bcff9248837f86d1a6bcf41c9e7, db md5 pwd: , client ip: 192.168.10.114
+W1228 15:20:14.998035 206995456 LoginServerThread.cpp:6564] login sql: SELECT userid, platformId, loginpass, salt, status FROM `user` where userid = '83527842' LIMIT 1
+W1228 15:20:14.998217 206995456 LoginServerThread.cpp:6565] user login fail, user name: 18999999999, user pwd: 96e79218965eb72c92a549dd5a330112, after add salt: 9db06bcff9248837f86d1a6bcf41c9e7, db md5 pwd: , client ip: 192.168.10.114
+W1228 15:20:25.160673 206995456 LoginServerThread.cpp:6564] login sql: SELECT userid, platformId, loginpass, salt, status FROM `user` where userid = '83527842' LIMIT 1
+W1228 15:20:25.160806 206995456 LoginServerThread.cpp:6565] user login fail, user name: 18999999999, user pwd: 96e79218965eb72c92a549dd5a330112, after add salt: 9db06bcff9248837f86d1a6bcf41c9e7, db md5 pwd: , client ip: 192.168.10.114
+W1228 15:20:25.652830 206995456 LoginServerThread.cpp:6564] login sql: SELECT userid, platformId, loginpass, salt, status FROM `user` where userid = '83527842' LIMIT 1
+W1228 15:20:25.652964 206995456 LoginServerThread.cpp:6565] user login fail, user name: 18999999999, user pwd: 96e79218965eb72c92a549dd5a330112, after add salt: 9db06bcff9248837f86d1a6bcf41c9e7, db md5 pwd: , client ip: 192.168.10.114
+W1228 15:20:25.878605 206995456 LoginServerThread.cpp:6530] user login can not find account info c, user name : 18999999999, pid: 1
+W1228 15:20:32.741160 206995456 LoginServerThread.cpp:6530] user login can not find account info c, user name : 18999999999, pid: 1
+W1228 15:20:40.601392 206995456 LoginServerThread.cpp:6564] login sql: SELECT userid, platformId, loginpass, salt, status FROM `user` where platformId = '1' AND mobileNum = '18888888888' LIMIT 1
+W1228 15:20:40.601531 206995456 LoginServerThread.cpp:6565] user login fail, user name: 18888888888, user pwd: e10adc3949ba59abbe56e057f20f883e, after add salt: 654ebb8bff3e0d1671c653b28e89eb71, db md5 pwd: c7aafef02cfeae7fe9b7e385f5277331, client ip: 192.168.10.114
+W1228 15:20:47.065876 206995456 LoginServerThread.cpp:6564] login sql: SELECT userid, platformId, loginpass, salt, status FROM `user` where platformId = '1' AND mobileNum = '18888888888' LIMIT 1
+W1228 15:20:47.066030 206995456 LoginServerThread.cpp:6565] user login fail, user name: 18888888888, user pwd: cf1c5ebe0b3949680c635e5545b0d9e1, after add salt: 78bb6701e90dea99d04a093ab5d5f18d, db md5 pwd: c7aafef02cfeae7fe9b7e385f5277331, client ip: 192.168.10.114
+W1228 15:20:53.105473 206995456 LoginServerThread.cpp:6564] login sql: SELECT userid, platformId, loginpass, salt, status FROM `user` where platformId = '1' AND mobileNum = '18888888888' LIMIT 1
+W1228 15:20:53.105599 206995456 LoginServerThread.cpp:6565] user login fail, user name: 18888888888, user pwd: e882b72bccfc2ad578c27b0d9b472a14, after add salt: 1203b701073fe0ed96528a5c20c95cd4, db md5 pwd: c7aafef02cfeae7fe9b7e385f5277331, client ip: 192.168.10.114
+W1228 15:20:59.753295 206995456 LoginServerThread.cpp:6564] login sql: SELECT userid, platformId, loginpass, salt, status FROM `user` where platformId = '1' AND mobileNum = '18888888888' LIMIT 1
+W1228 15:20:59.753420 206995456 LoginServerThread.cpp:6565] user login fail, user name: 18888888888, user pwd: e10adc3949ba59abbe56e057f20f883e, after add salt: 654ebb8bff3e0d1671c653b28e89eb71, db md5 pwd: c7aafef02cfeae7fe9b7e385f5277331, client ip: 192.168.10.114
+W1228 15:21:05.179858 206995456 LoginServerThread.cpp:6564] login sql: SELECT userid, platformId, loginpass, salt, status FROM `user` where platformId = '1' AND mobileNum = '18888888888' LIMIT 1
+W1228 15:21:05.180021 206995456 LoginServerThread.cpp:6565] user login fail, user name: 18888888888, user pwd: 96e79218965eb72c92a549dd5a330112, after add salt: f7b83bc2130611a8710b899b3d590827, db md5 pwd: c7aafef02cfeae7fe9b7e385f5277331, client ip: 192.168.10.114
+W1228 15:22:15.406847 206995456 LoginServerThread.cpp:6564] login sql: SELECT userid, platformId, loginpass, salt, status FROM `user` where userid = '83527842' LIMIT 1

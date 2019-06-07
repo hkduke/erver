@@ -1,0 +1,49 @@
+
+service server {
+# 	服务器ID
+	server_id = 504
+#	服务名称
+	server_name = 海王捕鱼小资场1
+	
+#	服务地址
+	local_addr = 0.0.0.0:9504
+	public_addr = 0.0.0.0:9504
+#	中心服地址
+	center_addr = 0.0.0.0:5001
+#	DB服地址
+	dbserver_addr = 0.0.0.0:6001
+	
+#	游戏GameID
+	game_id = 168
+#	游戏子类型（地方玩法）
+	kind_id = 3
+#	房间类型（房卡房0，初级房1，中级房2，高级房3）
+	room_kind = 1
+	
+#	平台库信息
+	platformdb_ip = 58.82.239.150
+	platformdb_user = root
+	platformdb_pwd = wanhe_mysql
+	platformdb_name = platform
+	platformdb_port = 3306
+	
+#	帐号库信息
+	accountdb_ip = 58.82.239.150
+	accountdb_user = root
+	accountdb_pwd = wanhe_mysql
+	accountdb_name = account
+	accountdb_port = 3306
+	
+#	记录库信息
+	recorddb_ip = 58.82.239.150
+	recorddb_user = root
+	recorddb_pwd = wanhe_mysql
+	recorddb_name = record
+	recorddb_port = 3306
+	
+#	redis信息
+	redis_addr = 127.0.0.1:8567
+	redis_pwd = huijin@8888.com
+	rediscon_timeout = 10
+	redisrw_timeout = 10
+}

@@ -1,0 +1,988 @@
+Log file created at: 2018/12/29 21:15:39
+Running on machine: henisdeMacBook-Pro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W1229 21:15:39.428409 214851584 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W1229 21:15:54.188410 215388160 DBThread.cpp:205] main db server set time ok!
+W1229 21:16:46.414652 215388160 DBThread.cpp:4626] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '3-1-2-355' for key 'PRIMARY'
+W1229 23:58:44.192200 215388160 DBThread.cpp:1990] start  AcrossTheDayEvent...
+W1229 23:58:47.844867 215388160 DBThread.cpp:1995] SwitchTodayScoreRank use time : 3652
+W1229 23:58:50.391315 215388160 DBThread.cpp:2000] ResetTodayScoreRankInCache use time : 2547
+W1229 23:58:51.066051 215388160 DBThread.cpp:5885] account count: 3560
+W1230 01:05:34.492007 215388160 DBThread.cpp:5893] vecAccountInfo use time: 4003426
+W1230 01:05:34.493391 215388160 DBThread.cpp:2005] ResetTodayRank use time : 4004102
+W1230 01:50:24.674780 215388160 DBThread.cpp:1685] reset daily task start. 
+W1230 01:50:51.416584 215388160 DBThread.cpp:1688] reset daily task end. user time: 26742
+W1230 01:50:51.634236 215388160 DBThread.cpp:4626] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-3-1-425' for key 'PRIMARY'
+W1230 04:01:08.759429 214851584 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W1230 06:40:36.665951 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1230 06:40:36.666255 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 06:40:36.666486 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 06:40:36.666705 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1230 06:41:02.853020 215388160 DBThread.cpp:6132] SELECT DISTINCT(platformId) FROM stat_pcu
+W1230 06:41:02.853116 215388160 DBThread.cpp:6133] select pcu platformId fail. errno: -1, err msg: mysql not opened yet!
+W1230 06:41:30.021509 215388160 DBThread.cpp:7984] select recharge channel info fail, errno:-1, error: mysql not opened yet!
+W1230 06:42:34.042974 215388160 DBThread.cpp:8247] select generalize promoter info platform id fail, errno:-1, error: mysql not opened yet!
+W1230 06:42:40.053133 215388160 DBThread.cpp:8332] select exchange channel status fail, errno:-1, error: mysql not opened yet!
+W1230 06:42:46.087719 215388160 DBThread.cpp:8461] select quanmin channel fail, errno:-1, error: mysql not opened yet!
+W1230 06:42:52.097504 215388160 DBThread.cpp:8514] select client channel domain fail, errno:-1, error: mysql not opened yet!
+W1230 06:42:58.205297 215388160 DBThread.cpp:8619] select vip2 config fail.
+W1230 06:43:04.226766 215388160 DBThread.cpp:8572] select channel show exchange condition fail, errno:-1, error: mysql not opened yet!
+W1230 06:43:10.287711 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 06:43:16.296741 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 06:43:16.296892 215388160 DBThread.cpp:4105] get platform db handle fail.
+W1230 06:43:16.296964 215388160 DBThread.cpp:4201] get platform db handle fail.
+W1230 06:43:16.297027 215388160 DBThread.cpp:4268] get platform db handle fail.
+W1230 06:43:22.386651 215388160 DBThread.cpp:4355] select wealth god coming id fail. errno: -1, error: mysql not opened yet!
+W1230 06:43:28.516358 215388160 DBThread.cpp:8073] select recharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1230 06:43:34.559020 215388160 DBThread.cpp:8400] select excharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1230 06:43:34.559248 215388160 DBThread.cpp:4729] get platform db handle fail.
+W1230 06:43:40.589247 215388160 DBThread.cpp:4819] select duobao_data fail. errno: -1, error: mysql not opened yet!
+W1230 06:43:52.607205 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1230 06:43:58.621704 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 06:44:04.687417 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 06:44:10.641693 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1230 06:44:16.705193 215388160 DBThread.cpp:6132] SELECT DISTINCT(platformId) FROM stat_pcu
+W1230 06:44:16.705324 215388160 DBThread.cpp:6133] select pcu platformId fail. errno: -1, err msg: mysql not opened yet!
+W1230 06:44:16.705412 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W1230 06:44:22.750555 215388160 DBThread.cpp:8247] select generalize promoter info platform id fail, errno:-1, error: mysql not opened yet!
+W1230 06:44:22.750707 215388160 DBThread.cpp:8316] get record score db handle fail.
+W1230 06:44:28.763244 215388160 DBThread.cpp:8461] select quanmin channel fail, errno:-1, error: mysql not opened yet!
+W1230 06:44:34.770712 215388160 DBThread.cpp:8514] select client channel domain fail, errno:-1, error: mysql not opened yet!
+W1230 06:44:34.770982 215388160 DBThread.cpp:8610] get platform db handle fail.
+W1230 06:44:40.786176 215388160 DBThread.cpp:8572] select channel show exchange condition fail, errno:-1, error: mysql not opened yet!
+W1230 06:44:46.800434 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 06:44:52.810750 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 06:44:52.810914 215388160 DBThread.cpp:4105] get platform db handle fail.
+W1230 06:44:52.811000 215388160 DBThread.cpp:4201] get platform db handle fail.
+W1230 06:44:52.811076 215388160 DBThread.cpp:4268] get platform db handle fail.
+W1230 06:44:58.817196 215388160 DBThread.cpp:4355] select wealth god coming id fail. errno: -1, error: mysql not opened yet!
+W1230 06:45:04.910104 215388160 DBThread.cpp:8073] select recharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1230 06:45:10.931377 215388160 DBThread.cpp:8400] select excharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1230 06:45:10.931557 215388160 DBThread.cpp:4729] get platform db handle fail.
+W1230 06:45:16.936710 215388160 DBThread.cpp:4819] select duobao_data fail. errno: -1, error: mysql not opened yet!
+W1230 06:50:33.915658 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1230 06:50:33.918898 215388160 DBThread.cpp:6132] SELECT DISTINCT(platformId) FROM stat_pcu
+W1230 06:50:33.919047 215388160 DBThread.cpp:6133] select pcu platformId fail. errno: -1, err msg: mysql not opened yet!
+W1230 06:50:33.919160 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W1230 06:50:33.919427 215388160 DBThread.cpp:8247] select generalize promoter info platform id fail, errno:-1, error: mysql not opened yet!
+W1230 06:50:33.919551 215388160 DBThread.cpp:8316] get record score db handle fail.
+W1230 06:50:33.919787 215388160 DBThread.cpp:8461] select quanmin channel fail, errno:-1, error: mysql not opened yet!
+W1230 06:50:33.920053 215388160 DBThread.cpp:8514] select client channel domain fail, errno:-1, error: mysql not opened yet!
+W1230 06:50:33.920177 215388160 DBThread.cpp:8610] get platform db handle fail.
+W1230 06:50:33.928400 215388160 DBThread.cpp:8572] select channel show exchange condition fail, errno:-1, error: mysql not opened yet!
+W1230 06:50:33.928798 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 06:50:33.929112 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 06:50:33.929239 215388160 DBThread.cpp:4105] get platform db handle fail.
+W1230 06:50:33.929329 215388160 DBThread.cpp:4201] get platform db handle fail.
+W1230 06:50:33.929416 215388160 DBThread.cpp:4268] get platform db handle fail.
+W1230 06:50:33.929651 215388160 DBThread.cpp:4355] select wealth god coming id fail. errno: -1, error: mysql not opened yet!
+W1230 06:50:33.930028 215388160 DBThread.cpp:8073] select recharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1230 06:50:33.930282 215388160 DBThread.cpp:8400] select excharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1230 06:50:33.930393 215388160 DBThread.cpp:4729] get platform db handle fail.
+W1230 06:50:33.930611 215388160 DBThread.cpp:4819] select duobao_data fail. errno: -1, error: mysql not opened yet!
+W1230 07:36:30.691902 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1230 07:36:30.692565 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 07:36:30.692993 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 07:36:32.203352 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1230 07:36:32.203493 215388160 DBThread.cpp:6132] SELECT DISTINCT(platformId) FROM stat_pcu
+W1230 07:36:32.203526 215388160 DBThread.cpp:6133] select pcu platformId fail. errno: -1, err msg: mysql not opened yet!
+W1230 07:36:32.203554 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W1230 07:36:32.203630 215388160 DBThread.cpp:8247] select generalize promoter info platform id fail, errno:-1, error: mysql not opened yet!
+W1230 07:36:32.203662 215388160 DBThread.cpp:8316] get record score db handle fail.
+W1230 07:36:32.203729 215388160 DBThread.cpp:8461] select quanmin channel fail, errno:-1, error: mysql not opened yet!
+W1230 07:36:32.203804 215388160 DBThread.cpp:8514] select client channel domain fail, errno:-1, error: mysql not opened yet!
+W1230 07:36:32.203833 215388160 DBThread.cpp:8610] get platform db handle fail.
+W1230 07:36:32.203898 215388160 DBThread.cpp:8572] select channel show exchange condition fail, errno:-1, error: mysql not opened yet!
+W1230 07:36:32.203975 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 07:36:32.204047 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 07:36:32.204078 215388160 DBThread.cpp:4105] get platform db handle fail.
+W1230 07:36:32.204102 215388160 DBThread.cpp:4201] get platform db handle fail.
+W1230 07:36:32.204124 215388160 DBThread.cpp:4268] get platform db handle fail.
+W1230 07:36:32.204190 215388160 DBThread.cpp:4355] select wealth god coming id fail. errno: -1, error: mysql not opened yet!
+W1230 07:36:32.204264 215388160 DBThread.cpp:8073] select recharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1230 07:36:32.204336 215388160 DBThread.cpp:8400] select excharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1230 07:36:32.204366 215388160 DBThread.cpp:4729] get platform db handle fail.
+W1230 07:36:32.204430 215388160 DBThread.cpp:4819] select duobao_data fail. errno: -1, error: mysql not opened yet!
+W1230 08:41:34.357841 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1230 08:41:34.358124 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 08:41:34.358302 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 08:41:35.879190 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1230 08:41:35.879349 215388160 DBThread.cpp:6132] SELECT DISTINCT(platformId) FROM stat_pcu
+W1230 08:41:35.879384 215388160 DBThread.cpp:6133] select pcu platformId fail. errno: -1, err msg: mysql not opened yet!
+W1230 08:41:35.879415 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W1230 08:41:35.879499 215388160 DBThread.cpp:8247] select generalize promoter info platform id fail, errno:-1, error: mysql not opened yet!
+W1230 08:41:35.879544 215388160 DBThread.cpp:8316] get record score db handle fail.
+W1230 08:41:35.879670 215388160 DBThread.cpp:8461] select quanmin channel fail, errno:-1, error: mysql not opened yet!
+W1230 08:41:35.879762 215388160 DBThread.cpp:8514] select client channel domain fail, errno:-1, error: mysql not opened yet!
+W1230 08:41:35.879809 215388160 DBThread.cpp:8610] get platform db handle fail.
+W1230 08:41:35.879887 215388160 DBThread.cpp:8572] select channel show exchange condition fail, errno:-1, error: mysql not opened yet!
+W1230 08:41:35.879976 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 08:41:35.880059 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 08:41:35.880089 215388160 DBThread.cpp:4105] get platform db handle fail.
+W1230 08:41:35.880110 215388160 DBThread.cpp:4201] get platform db handle fail.
+W1230 08:41:35.880131 215388160 DBThread.cpp:4268] get platform db handle fail.
+W1230 08:41:35.880187 215388160 DBThread.cpp:4355] select wealth god coming id fail. errno: -1, error: mysql not opened yet!
+W1230 08:41:35.880247 215388160 DBThread.cpp:8073] select recharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1230 08:41:35.880311 215388160 DBThread.cpp:8400] select excharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1230 08:41:35.880339 215388160 DBThread.cpp:4729] get platform db handle fail.
+W1230 08:41:35.880394 215388160 DBThread.cpp:4819] select duobao_data fail. errno: -1, error: mysql not opened yet!
+W1230 09:45:02.365291 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1230 09:45:02.365630 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 09:45:02.365746 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 09:45:03.891469 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1230 09:45:03.891739 215388160 DBThread.cpp:6132] SELECT DISTINCT(platformId) FROM stat_pcu
+W1230 09:45:03.891825 215388160 DBThread.cpp:6133] select pcu platformId fail. errno: -1, err msg: mysql not opened yet!
+W1230 09:45:03.891902 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W1230 09:45:03.892092 215388160 DBThread.cpp:8247] select generalize promoter info platform id fail, errno:-1, error: mysql not opened yet!
+W1230 09:45:03.892196 215388160 DBThread.cpp:8316] get record score db handle fail.
+W1230 09:45:03.892313 215388160 DBThread.cpp:8461] select quanmin channel fail, errno:-1, error: mysql not opened yet!
+W1230 09:45:03.892433 215388160 DBThread.cpp:8514] select client channel domain fail, errno:-1, error: mysql not opened yet!
+W1230 09:45:03.892488 215388160 DBThread.cpp:8610] get platform db handle fail.
+W1230 09:45:03.892594 215388160 DBThread.cpp:8572] select channel show exchange condition fail, errno:-1, error: mysql not opened yet!
+W1230 09:45:03.892714 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 09:45:03.892832 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 09:45:03.892885 215388160 DBThread.cpp:4105] get platform db handle fail.
+W1230 09:45:03.892925 215388160 DBThread.cpp:4201] get platform db handle fail.
+W1230 09:45:03.892963 215388160 DBThread.cpp:4268] get platform db handle fail.
+W1230 09:45:03.893064 215388160 DBThread.cpp:4355] select wealth god coming id fail. errno: -1, error: mysql not opened yet!
+W1230 09:45:03.893177 215388160 DBThread.cpp:8073] select recharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1230 09:45:03.893293 215388160 DBThread.cpp:8400] select excharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1230 09:45:03.893347 215388160 DBThread.cpp:4729] get platform db handle fail.
+W1230 09:45:03.893447 215388160 DBThread.cpp:4819] select duobao_data fail. errno: -1, error: mysql not opened yet!
+W1230 09:55:02.451524 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1230 09:55:02.453236 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 09:55:02.453498 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 10:05:02.463610 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1230 10:05:02.465327 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 10:05:02.465590 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 10:15:02.561031 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1230 10:15:02.562378 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 10:15:02.562635 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 10:20:00.899825 215388160 DBThread.cpp:5100] update duo bao data fail, errno: -1, error: mysql not opened yet!
+W1230 10:20:00.901681 215388160 DBThread.cpp:5100] update duo bao data fail, errno: -1, error: mysql not opened yet!
+W1230 10:20:00.902022 215388160 DBThread.cpp:5100] update duo bao data fail, errno: -1, error: mysql not opened yet!
+W1230 10:20:00.902356 215388160 DBThread.cpp:5100] update duo bao data fail, errno: -1, error: mysql not opened yet!
+W1230 10:20:00.902551 215388160 DBThread.cpp:5100] update duo bao data fail, errno: -1, error: mysql not opened yet!
+W1230 10:20:00.902712 215388160 DBThread.cpp:5100] update duo bao data fail, errno: -1, error: mysql not opened yet!
+W1230 10:20:03.968801 215388160 DBThread.cpp:4571] get platform db handle fail.
+W1230 10:20:03.969192 215388160 DBThread.cpp:4626] INSERT wealth_god_data fail, errno: -1, error: mysql not opened yet!
+W1230 10:20:21.617566 214851584 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W1230 10:20:23.619104 214851584 BuildDBThread.cpp:133] open :58.82.239.150:3306@mysql error!
+W1230 10:20:23.619349 214851584 BuildDBThread.cpp:217] open :58.82.239.150:3306@mysql error!
+W1230 10:25:02.644335 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1230 10:25:02.645923 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 10:25:02.646186 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 10:35:02.671658 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1230 10:35:02.674870 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 10:35:02.675132 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 10:40:05.010176 215388160 DBThread.cpp:4571] get platform db handle fail.
+W1230 10:40:05.013383 215388160 DBThread.cpp:4626] INSERT wealth_god_data fail, errno: -1, error: mysql not opened yet!
+W1230 10:45:02.672194 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1230 10:45:02.673840 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 10:45:02.674067 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 11:45:04.385046 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1230 11:45:04.385237 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 11:45:04.385357 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 11:45:05.904827 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1230 11:45:05.904969 215388160 DBThread.cpp:6132] SELECT DISTINCT(platformId) FROM stat_pcu
+W1230 11:45:05.904995 215388160 DBThread.cpp:6133] select pcu platformId fail. errno: -1, err msg: mysql not opened yet!
+W1230 11:45:05.905020 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W1230 11:45:05.905081 215388160 DBThread.cpp:8247] select generalize promoter info platform id fail, errno:-1, error: mysql not opened yet!
+W1230 11:45:05.905108 215388160 DBThread.cpp:8316] get record score db handle fail.
+W1230 11:45:05.905166 215388160 DBThread.cpp:8461] select quanmin channel fail, errno:-1, error: mysql not opened yet!
+W1230 11:45:05.905232 215388160 DBThread.cpp:8514] select client channel domain fail, errno:-1, error: mysql not opened yet!
+W1230 11:45:05.905262 215388160 DBThread.cpp:8610] get platform db handle fail.
+W1230 11:45:05.905319 215388160 DBThread.cpp:8572] select channel show exchange condition fail, errno:-1, error: mysql not opened yet!
+W1230 11:45:05.905405 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 11:45:05.905469 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 11:45:05.905495 215388160 DBThread.cpp:4105] get platform db handle fail.
+W1230 11:45:05.905514 215388160 DBThread.cpp:4201] get platform db handle fail.
+W1230 11:45:05.905534 215388160 DBThread.cpp:4268] get platform db handle fail.
+W1230 11:45:05.905586 215388160 DBThread.cpp:4355] select wealth god coming id fail. errno: -1, error: mysql not opened yet!
+W1230 11:45:05.905644 215388160 DBThread.cpp:8073] select recharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1230 11:45:05.905706 215388160 DBThread.cpp:8400] select excharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1230 11:45:05.905735 215388160 DBThread.cpp:4729] get platform db handle fail.
+W1230 11:45:05.905791 215388160 DBThread.cpp:4819] select duobao_data fail. errno: -1, error: mysql not opened yet!
+W1230 12:50:44.386554 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1230 12:50:44.413797 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 12:50:44.413892 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 12:50:45.909482 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1230 12:50:45.909744 215388160 DBThread.cpp:6132] SELECT DISTINCT(platformId) FROM stat_pcu
+W1230 12:50:45.909822 215388160 DBThread.cpp:6133] select pcu platformId fail. errno: -1, err msg: mysql not opened yet!
+W1230 12:50:45.909898 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W1230 12:50:45.910084 215388160 DBThread.cpp:8247] select generalize promoter info platform id fail, errno:-1, error: mysql not opened yet!
+W1230 12:50:45.910185 215388160 DBThread.cpp:8316] get record score db handle fail.
+W1230 12:50:45.910297 215388160 DBThread.cpp:8461] select quanmin channel fail, errno:-1, error: mysql not opened yet!
+W1230 12:50:45.910418 215388160 DBThread.cpp:8514] select client channel domain fail, errno:-1, error: mysql not opened yet!
+W1230 12:50:45.910473 215388160 DBThread.cpp:8610] get platform db handle fail.
+W1230 12:50:45.910579 215388160 DBThread.cpp:8572] select channel show exchange condition fail, errno:-1, error: mysql not opened yet!
+W1230 12:50:45.910701 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 12:50:45.910818 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 12:50:45.910873 215388160 DBThread.cpp:4105] get platform db handle fail.
+W1230 12:50:45.910914 215388160 DBThread.cpp:4201] get platform db handle fail.
+W1230 12:50:45.910953 215388160 DBThread.cpp:4268] get platform db handle fail.
+W1230 12:50:45.911093 215388160 DBThread.cpp:4355] select wealth god coming id fail. errno: -1, error: mysql not opened yet!
+W1230 12:50:45.911201 215388160 DBThread.cpp:8073] select recharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1230 12:50:45.911314 215388160 DBThread.cpp:8400] select excharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1230 12:50:45.911362 215388160 DBThread.cpp:4729] get platform db handle fail.
+W1230 12:50:45.911458 215388160 DBThread.cpp:4819] select duobao_data fail. errno: -1, error: mysql not opened yet!
+W1230 13:56:24.387327 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1230 13:56:24.431677 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 13:56:24.431823 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 13:56:25.920900 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1230 13:56:25.921180 215388160 DBThread.cpp:6132] SELECT DISTINCT(platformId) FROM stat_pcu
+W1230 13:56:25.921272 215388160 DBThread.cpp:6133] select pcu platformId fail. errno: -1, err msg: mysql not opened yet!
+W1230 13:56:25.921350 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W1230 13:56:25.921583 215388160 DBThread.cpp:8247] select generalize promoter info platform id fail, errno:-1, error: mysql not opened yet!
+W1230 13:56:25.921645 215388160 DBThread.cpp:8316] get record score db handle fail.
+W1230 13:56:25.921751 215388160 DBThread.cpp:8461] select quanmin channel fail, errno:-1, error: mysql not opened yet!
+W1230 13:56:25.921870 215388160 DBThread.cpp:8514] select client channel domain fail, errno:-1, error: mysql not opened yet!
+W1230 13:56:25.921927 215388160 DBThread.cpp:8610] get platform db handle fail.
+W1230 13:56:25.922034 215388160 DBThread.cpp:8572] select channel show exchange condition fail, errno:-1, error: mysql not opened yet!
+W1230 13:56:25.922153 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 13:56:25.922268 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 13:56:25.922323 215388160 DBThread.cpp:4105] get platform db handle fail.
+W1230 13:56:25.922365 215388160 DBThread.cpp:4201] get platform db handle fail.
+W1230 13:56:25.922403 215388160 DBThread.cpp:4268] get platform db handle fail.
+W1230 13:56:25.922504 215388160 DBThread.cpp:4355] select wealth god coming id fail. errno: -1, error: mysql not opened yet!
+W1230 13:56:25.922616 215388160 DBThread.cpp:8073] select recharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1230 13:56:25.922734 215388160 DBThread.cpp:8400] select excharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1230 13:56:25.922792 215388160 DBThread.cpp:4729] get platform db handle fail.
+W1230 13:56:25.922894 215388160 DBThread.cpp:4819] select duobao_data fail. errno: -1, error: mysql not opened yet!
+W1230 15:02:04.390743 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1230 15:02:04.417805 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 15:02:04.418329 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 15:02:05.913565 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1230 15:02:05.913810 215388160 DBThread.cpp:6132] SELECT DISTINCT(platformId) FROM stat_pcu
+W1230 15:02:05.913864 215388160 DBThread.cpp:6133] select pcu platformId fail. errno: -1, err msg: mysql not opened yet!
+W1230 15:02:05.913914 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W1230 15:02:05.914044 215388160 DBThread.cpp:8247] select generalize promoter info platform id fail, errno:-1, error: mysql not opened yet!
+W1230 15:02:05.914167 215388160 DBThread.cpp:8316] get record score db handle fail.
+W1230 15:02:05.914295 215388160 DBThread.cpp:8461] select quanmin channel fail, errno:-1, error: mysql not opened yet!
+W1230 15:02:05.914418 215388160 DBThread.cpp:8514] select client channel domain fail, errno:-1, error: mysql not opened yet!
+W1230 15:02:05.914470 215388160 DBThread.cpp:8610] get platform db handle fail.
+W1230 15:02:05.914572 215388160 DBThread.cpp:8572] select channel show exchange condition fail, errno:-1, error: mysql not opened yet!
+W1230 15:02:05.914687 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 15:02:05.914798 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 15:02:05.914847 215388160 DBThread.cpp:4105] get platform db handle fail.
+W1230 15:02:05.914883 215388160 DBThread.cpp:4201] get platform db handle fail.
+W1230 15:02:05.914917 215388160 DBThread.cpp:4268] get platform db handle fail.
+W1230 15:02:05.915012 215388160 DBThread.cpp:4355] select wealth god coming id fail. errno: -1, error: mysql not opened yet!
+W1230 15:02:05.915118 215388160 DBThread.cpp:8073] select recharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1230 15:02:05.915226 215388160 DBThread.cpp:8400] select excharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1230 15:02:05.915275 215388160 DBThread.cpp:4729] get platform db handle fail.
+W1230 15:02:05.915371 215388160 DBThread.cpp:4819] select duobao_data fail. errno: -1, error: mysql not opened yet!
+W1230 16:07:45.394562 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1230 16:07:45.419023 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 16:07:45.419131 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 16:07:46.921586 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1230 16:07:46.921834 215388160 DBThread.cpp:6132] SELECT DISTINCT(platformId) FROM stat_pcu
+W1230 16:07:46.921911 215388160 DBThread.cpp:6133] select pcu platformId fail. errno: -1, err msg: mysql not opened yet!
+W1230 16:07:46.921981 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W1230 16:07:46.922161 215388160 DBThread.cpp:8247] select generalize promoter info platform id fail, errno:-1, error: mysql not opened yet!
+W1230 16:07:46.922262 215388160 DBThread.cpp:8316] get record score db handle fail.
+W1230 16:07:46.922403 215388160 DBThread.cpp:8461] select quanmin channel fail, errno:-1, error: mysql not opened yet!
+W1230 16:07:46.922524 215388160 DBThread.cpp:8514] select client channel domain fail, errno:-1, error: mysql not opened yet!
+W1230 16:07:46.922580 215388160 DBThread.cpp:8610] get platform db handle fail.
+W1230 16:07:46.922684 215388160 DBThread.cpp:8572] select channel show exchange condition fail, errno:-1, error: mysql not opened yet!
+W1230 16:07:46.922808 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 16:07:46.922925 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 16:07:46.922981 215388160 DBThread.cpp:4105] get platform db handle fail.
+W1230 16:07:46.923022 215388160 DBThread.cpp:4201] get platform db handle fail.
+W1230 16:07:46.923060 215388160 DBThread.cpp:4268] get platform db handle fail.
+W1230 16:07:46.923159 215388160 DBThread.cpp:4355] select wealth god coming id fail. errno: -1, error: mysql not opened yet!
+W1230 16:07:46.923270 215388160 DBThread.cpp:8073] select recharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1230 16:07:46.923386 215388160 DBThread.cpp:8400] select excharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1230 16:07:46.923440 215388160 DBThread.cpp:4729] get platform db handle fail.
+W1230 16:07:46.923544 215388160 DBThread.cpp:4819] select duobao_data fail. errno: -1, error: mysql not opened yet!
+W1230 16:10:45.622381 215388160 DBThread.cpp:4571] get platform db handle fail.
+W1230 16:10:45.622877 215388160 DBThread.cpp:4626] INSERT wealth_god_data fail, errno: -1, error: mysql not opened yet!
+W1230 17:13:26.394300 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1230 17:13:26.394727 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 17:13:26.394912 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 17:13:27.927965 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1230 17:13:27.928140 215388160 DBThread.cpp:6132] SELECT DISTINCT(platformId) FROM stat_pcu
+W1230 17:13:27.928198 215388160 DBThread.cpp:6133] select pcu platformId fail. errno: -1, err msg: mysql not opened yet!
+W1230 17:13:27.928234 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W1230 17:13:27.928320 215388160 DBThread.cpp:8247] select generalize promoter info platform id fail, errno:-1, error: mysql not opened yet!
+W1230 17:13:27.928361 215388160 DBThread.cpp:8316] get record score db handle fail.
+W1230 17:13:27.928444 215388160 DBThread.cpp:8461] select quanmin channel fail, errno:-1, error: mysql not opened yet!
+W1230 17:13:27.928537 215388160 DBThread.cpp:8514] select client channel domain fail, errno:-1, error: mysql not opened yet!
+W1230 17:13:27.928580 215388160 DBThread.cpp:8610] get platform db handle fail.
+W1230 17:13:27.928663 215388160 DBThread.cpp:8572] select channel show exchange condition fail, errno:-1, error: mysql not opened yet!
+W1230 17:13:27.928755 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 17:13:27.928845 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 17:13:27.928886 215388160 DBThread.cpp:4105] get platform db handle fail.
+W1230 17:13:27.928917 215388160 DBThread.cpp:4201] get platform db handle fail.
+W1230 17:13:27.928948 215388160 DBThread.cpp:4268] get platform db handle fail.
+W1230 17:13:27.929028 215388160 DBThread.cpp:4355] select wealth god coming id fail. errno: -1, error: mysql not opened yet!
+W1230 17:13:27.929116 215388160 DBThread.cpp:8073] select recharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1230 17:13:27.929206 215388160 DBThread.cpp:8400] select excharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1230 17:13:27.929250 215388160 DBThread.cpp:4729] get platform db handle fail.
+W1230 17:13:27.929329 215388160 DBThread.cpp:4819] select duobao_data fail. errno: -1, error: mysql not opened yet!
+W1230 18:19:06.393563 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1230 18:19:06.393806 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 18:19:06.393949 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 18:19:07.910663 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1230 18:19:07.910773 215388160 DBThread.cpp:6132] SELECT DISTINCT(platformId) FROM stat_pcu
+W1230 18:19:07.910809 215388160 DBThread.cpp:6133] select pcu platformId fail. errno: -1, err msg: mysql not opened yet!
+W1230 18:19:07.910837 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W1230 18:19:07.910902 215388160 DBThread.cpp:8247] select generalize promoter info platform id fail, errno:-1, error: mysql not opened yet!
+W1230 18:19:07.910931 215388160 DBThread.cpp:8316] get record score db handle fail.
+W1230 18:19:07.910989 215388160 DBThread.cpp:8461] select quanmin channel fail, errno:-1, error: mysql not opened yet!
+W1230 18:19:07.911054 215388160 DBThread.cpp:8514] select client channel domain fail, errno:-1, error: mysql not opened yet!
+W1230 18:19:07.911113 215388160 DBThread.cpp:8610] get platform db handle fail.
+W1230 18:19:07.911171 215388160 DBThread.cpp:8572] select channel show exchange condition fail, errno:-1, error: mysql not opened yet!
+W1230 18:19:07.911236 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 18:19:07.911298 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 18:19:07.911324 215388160 DBThread.cpp:4105] get platform db handle fail.
+W1230 18:19:07.911343 215388160 DBThread.cpp:4201] get platform db handle fail.
+W1230 18:19:07.911361 215388160 DBThread.cpp:4268] get platform db handle fail.
+W1230 18:19:07.911415 215388160 DBThread.cpp:4355] select wealth god coming id fail. errno: -1, error: mysql not opened yet!
+W1230 18:19:07.911473 215388160 DBThread.cpp:8073] select recharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1230 18:19:07.911535 215388160 DBThread.cpp:8400] select excharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1230 18:19:07.911563 215388160 DBThread.cpp:4729] get platform db handle fail.
+W1230 18:19:07.911617 215388160 DBThread.cpp:4819] select duobao_data fail. errno: -1, error: mysql not opened yet!
+W1230 18:20:03.640689 214851584 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W1230 18:20:05.646764 214851584 BuildDBThread.cpp:133] open :58.82.239.150:3306@mysql error!
+W1230 18:20:05.647017 214851584 BuildDBThread.cpp:217] open :58.82.239.150:3306@mysql error!
+W1230 19:24:47.400609 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1230 19:24:47.400835 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 19:24:47.400971 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 19:24:48.924417 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1230 19:24:48.924695 215388160 DBThread.cpp:6132] SELECT DISTINCT(platformId) FROM stat_pcu
+W1230 19:24:48.924777 215388160 DBThread.cpp:6133] select pcu platformId fail. errno: -1, err msg: mysql not opened yet!
+W1230 19:24:48.924862 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W1230 19:24:48.924993 215388160 DBThread.cpp:8247] select generalize promoter info platform id fail, errno:-1, error: mysql not opened yet!
+W1230 19:24:48.925058 215388160 DBThread.cpp:8316] get record score db handle fail.
+W1230 19:24:48.925181 215388160 DBThread.cpp:8461] select quanmin channel fail, errno:-1, error: mysql not opened yet!
+W1230 19:24:48.925303 215388160 DBThread.cpp:8514] select client channel domain fail, errno:-1, error: mysql not opened yet!
+W1230 19:24:48.925361 215388160 DBThread.cpp:8610] get platform db handle fail.
+W1230 19:24:48.925470 215388160 DBThread.cpp:8572] select channel show exchange condition fail, errno:-1, error: mysql not opened yet!
+W1230 19:24:48.925593 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 19:24:48.925714 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 19:24:48.925766 215388160 DBThread.cpp:4105] get platform db handle fail.
+W1230 19:24:48.925806 215388160 DBThread.cpp:4201] get platform db handle fail.
+W1230 19:24:48.925843 215388160 DBThread.cpp:4268] get platform db handle fail.
+W1230 19:24:48.925943 215388160 DBThread.cpp:4355] select wealth god coming id fail. errno: -1, error: mysql not opened yet!
+W1230 19:24:48.926055 215388160 DBThread.cpp:8073] select recharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1230 19:24:48.926175 215388160 DBThread.cpp:8400] select excharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1230 19:24:48.926230 215388160 DBThread.cpp:4729] get platform db handle fail.
+W1230 19:24:48.926376 215388160 DBThread.cpp:4819] select duobao_data fail. errno: -1, error: mysql not opened yet!
+W1230 20:01:11.399534 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1230 20:01:11.399868 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 20:01:11.400053 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 20:01:12.914189 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1230 20:01:12.914415 215388160 DBThread.cpp:6132] SELECT DISTINCT(platformId) FROM stat_pcu
+W1230 20:01:12.914486 215388160 DBThread.cpp:6133] select pcu platformId fail. errno: -1, err msg: mysql not opened yet!
+W1230 20:01:12.914553 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W1230 20:01:12.914710 215388160 DBThread.cpp:8247] select generalize promoter info platform id fail, errno:-1, error: mysql not opened yet!
+W1230 20:01:12.914788 215388160 DBThread.cpp:8316] get record score db handle fail.
+W1230 20:01:12.914947 215388160 DBThread.cpp:8461] select quanmin channel fail, errno:-1, error: mysql not opened yet!
+W1230 20:01:12.915061 215388160 DBThread.cpp:8514] select client channel domain fail, errno:-1, error: mysql not opened yet!
+W1230 20:01:12.915117 215388160 DBThread.cpp:8610] get platform db handle fail.
+W1230 20:01:12.915220 215388160 DBThread.cpp:8572] select channel show exchange condition fail, errno:-1, error: mysql not opened yet!
+W1230 20:01:12.915340 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 20:01:12.915455 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 20:01:12.915506 215388160 DBThread.cpp:4105] get platform db handle fail.
+W1230 20:01:12.915545 215388160 DBThread.cpp:4201] get platform db handle fail.
+W1230 20:01:12.915582 215388160 DBThread.cpp:4268] get platform db handle fail.
+W1230 20:01:12.915680 215388160 DBThread.cpp:4355] select wealth god coming id fail. errno: -1, error: mysql not opened yet!
+W1230 20:01:12.915788 215388160 DBThread.cpp:8073] select recharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1230 20:01:12.915902 215388160 DBThread.cpp:8400] select excharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1230 20:01:12.915956 215388160 DBThread.cpp:4729] get platform db handle fail.
+W1230 20:01:12.916057 215388160 DBThread.cpp:4819] select duobao_data fail. errno: -1, error: mysql not opened yet!
+W1230 21:06:14.403406 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1230 21:06:14.403669 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 21:06:14.403815 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 21:06:15.912135 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1230 21:06:15.912237 215388160 DBThread.cpp:6132] SELECT DISTINCT(platformId) FROM stat_pcu
+W1230 21:06:15.912273 215388160 DBThread.cpp:6133] select pcu platformId fail. errno: -1, err msg: mysql not opened yet!
+W1230 21:06:15.912304 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W1230 21:06:15.912379 215388160 DBThread.cpp:8247] select generalize promoter info platform id fail, errno:-1, error: mysql not opened yet!
+W1230 21:06:15.912413 215388160 DBThread.cpp:8316] get record score db handle fail.
+W1230 21:06:15.912488 215388160 DBThread.cpp:8461] select quanmin channel fail, errno:-1, error: mysql not opened yet!
+W1230 21:06:15.912569 215388160 DBThread.cpp:8514] select client channel domain fail, errno:-1, error: mysql not opened yet!
+W1230 21:06:15.912606 215388160 DBThread.cpp:8610] get platform db handle fail.
+W1230 21:06:15.912678 215388160 DBThread.cpp:8572] select channel show exchange condition fail, errno:-1, error: mysql not opened yet!
+W1230 21:06:15.912758 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 21:06:15.912868 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 21:06:15.912899 215388160 DBThread.cpp:4105] get platform db handle fail.
+W1230 21:06:15.912922 215388160 DBThread.cpp:4201] get platform db handle fail.
+W1230 21:06:15.912945 215388160 DBThread.cpp:4268] get platform db handle fail.
+W1230 21:06:15.913009 215388160 DBThread.cpp:4355] select wealth god coming id fail. errno: -1, error: mysql not opened yet!
+W1230 21:06:15.913081 215388160 DBThread.cpp:8073] select recharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1230 21:06:15.913154 215388160 DBThread.cpp:8400] select excharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1230 21:06:15.913204 215388160 DBThread.cpp:4729] get platform db handle fail.
+W1230 21:06:15.913270 215388160 DBThread.cpp:4819] select duobao_data fail. errno: -1, error: mysql not opened yet!
+W1230 22:11:54.406697 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1230 22:11:54.407119 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 22:11:54.407464 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 22:11:55.918057 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1230 22:11:55.918164 215388160 DBThread.cpp:6132] SELECT DISTINCT(platformId) FROM stat_pcu
+W1230 22:11:55.918190 215388160 DBThread.cpp:6133] select pcu platformId fail. errno: -1, err msg: mysql not opened yet!
+W1230 22:11:55.918215 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W1230 22:11:55.918273 215388160 DBThread.cpp:8247] select generalize promoter info platform id fail, errno:-1, error: mysql not opened yet!
+W1230 22:11:55.918309 215388160 DBThread.cpp:8316] get record score db handle fail.
+W1230 22:11:55.918361 215388160 DBThread.cpp:8461] select quanmin channel fail, errno:-1, error: mysql not opened yet!
+W1230 22:11:55.918421 215388160 DBThread.cpp:8514] select client channel domain fail, errno:-1, error: mysql not opened yet!
+W1230 22:11:55.918449 215388160 DBThread.cpp:8610] get platform db handle fail.
+W1230 22:11:55.918507 215388160 DBThread.cpp:8572] select channel show exchange condition fail, errno:-1, error: mysql not opened yet!
+W1230 22:11:55.918573 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 22:11:55.918642 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 22:11:55.918674 215388160 DBThread.cpp:4105] get platform db handle fail.
+W1230 22:11:55.918706 215388160 DBThread.cpp:4201] get platform db handle fail.
+W1230 22:11:55.918735 215388160 DBThread.cpp:4268] get platform db handle fail.
+W1230 22:11:55.918838 215388160 DBThread.cpp:4355] select wealth god coming id fail. errno: -1, error: mysql not opened yet!
+W1230 22:11:55.918918 215388160 DBThread.cpp:8073] select recharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1230 22:11:55.918995 215388160 DBThread.cpp:8400] select excharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1230 22:11:55.919026 215388160 DBThread.cpp:4729] get platform db handle fail.
+W1230 22:11:55.919080 215388160 DBThread.cpp:4819] select duobao_data fail. errno: -1, error: mysql not opened yet!
+W1230 23:17:45.409672 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1230 23:17:45.409912 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 23:17:45.410048 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 23:17:45.410109 215388160 DBThread.cpp:1990] start  AcrossTheDayEvent...
+W1230 23:17:45.410289 215388160 DBThread.cpp:5343] delete yesterdayEarnScore fail. errno: -1, err msg: mysql not opened yet!
+W1230 23:17:45.410413 215388160 DBThread.cpp:1995] SwitchTodayScoreRank use time : 0
+W1230 23:17:45.410625 215388160 DBThread.cpp:2000] ResetTodayScoreRankInCache use time : 0
+W1230 23:17:45.410754 215388160 DBThread.cpp:5852] delete from today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 23:17:45.410885 215388160 DBThread.cpp:2005] ResetTodayRank use time : 0
+W1230 23:17:46.939579 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1230 23:17:46.939796 215388160 DBThread.cpp:6132] SELECT DISTINCT(platformId) FROM stat_pcu
+W1230 23:17:46.939860 215388160 DBThread.cpp:6133] select pcu platformId fail. errno: -1, err msg: mysql not opened yet!
+W1230 23:17:46.939921 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W1230 23:17:46.940079 215388160 DBThread.cpp:8247] select generalize promoter info platform id fail, errno:-1, error: mysql not opened yet!
+W1230 23:17:46.940155 215388160 DBThread.cpp:8316] get record score db handle fail.
+W1230 23:17:46.940325 215388160 DBThread.cpp:8461] select quanmin channel fail, errno:-1, error: mysql not opened yet!
+W1230 23:17:46.940438 215388160 DBThread.cpp:8514] select client channel domain fail, errno:-1, error: mysql not opened yet!
+W1230 23:17:46.940488 215388160 DBThread.cpp:8610] get platform db handle fail.
+W1230 23:17:46.940588 215388160 DBThread.cpp:8572] select channel show exchange condition fail, errno:-1, error: mysql not opened yet!
+W1230 23:17:46.940708 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 23:17:46.940860 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1230 23:17:46.940907 215388160 DBThread.cpp:4105] get platform db handle fail.
+W1230 23:17:46.940949 215388160 DBThread.cpp:4201] get platform db handle fail.
+W1230 23:17:46.940986 215388160 DBThread.cpp:4268] get platform db handle fail.
+W1230 23:17:46.941069 215388160 DBThread.cpp:4355] select wealth god coming id fail. errno: -1, error: mysql not opened yet!
+W1230 23:17:46.941164 215388160 DBThread.cpp:8073] select recharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1230 23:17:46.941252 215388160 DBThread.cpp:8400] select excharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1230 23:17:46.941292 215388160 DBThread.cpp:4729] get platform db handle fail.
+W1230 23:17:46.941368 215388160 DBThread.cpp:4819] select duobao_data fail. errno: -1, error: mysql not opened yet!
+W1231 00:23:42.420261 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1231 00:23:42.420630 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1231 00:23:42.420720 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1231 00:23:53.476133 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1231 00:23:53.476436 215388160 DBThread.cpp:6132] SELECT DISTINCT(platformId) FROM stat_pcu
+W1231 00:23:53.476521 215388160 DBThread.cpp:6133] select pcu platformId fail. errno: -1, err msg: mysql not opened yet!
+W1231 00:23:53.476599 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W1231 00:23:53.476821 215388160 DBThread.cpp:8247] select generalize promoter info platform id fail, errno:-1, error: mysql not opened yet!
+W1231 00:23:53.476891 215388160 DBThread.cpp:8316] get record score db handle fail.
+W1231 00:23:53.477005 215388160 DBThread.cpp:8461] select quanmin channel fail, errno:-1, error: mysql not opened yet!
+W1231 00:23:53.477129 215388160 DBThread.cpp:8514] select client channel domain fail, errno:-1, error: mysql not opened yet!
+W1231 00:23:53.477187 215388160 DBThread.cpp:8610] get platform db handle fail.
+W1231 00:23:53.477298 215388160 DBThread.cpp:8572] select channel show exchange condition fail, errno:-1, error: mysql not opened yet!
+W1231 00:23:53.477465 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1231 00:23:53.477578 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1231 00:23:53.477627 215388160 DBThread.cpp:4105] get platform db handle fail.
+W1231 00:23:53.477663 215388160 DBThread.cpp:4201] get platform db handle fail.
+W1231 00:23:53.477695 215388160 DBThread.cpp:4268] get platform db handle fail.
+W1231 00:23:53.477790 215388160 DBThread.cpp:4355] select wealth god coming id fail. errno: -1, error: mysql not opened yet!
+W1231 00:23:53.477898 215388160 DBThread.cpp:8073] select recharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1231 00:23:53.478008 215388160 DBThread.cpp:8400] select excharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1231 00:23:53.478060 215388160 DBThread.cpp:4729] get platform db handle fail.
+W1231 00:23:53.478158 215388160 DBThread.cpp:4819] select duobao_data fail. errno: -1, error: mysql not opened yet!
+W1231 01:29:22.413223 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1231 01:29:22.413457 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1231 01:29:22.413599 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1231 01:29:23.949818 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1231 01:29:23.950021 215388160 DBThread.cpp:6132] SELECT DISTINCT(platformId) FROM stat_pcu
+W1231 01:29:23.950083 215388160 DBThread.cpp:6133] select pcu platformId fail. errno: -1, err msg: mysql not opened yet!
+W1231 01:29:23.950134 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W1231 01:29:23.950280 215388160 DBThread.cpp:8247] select generalize promoter info platform id fail, errno:-1, error: mysql not opened yet!
+W1231 01:29:23.950354 215388160 DBThread.cpp:8316] get record score db handle fail.
+W1231 01:29:23.950495 215388160 DBThread.cpp:8461] select quanmin channel fail, errno:-1, error: mysql not opened yet!
+W1231 01:29:23.950652 215388160 DBThread.cpp:8514] select client channel domain fail, errno:-1, error: mysql not opened yet!
+W1231 01:29:23.950711 215388160 DBThread.cpp:8610] get platform db handle fail.
+W1231 01:29:23.950817 215388160 DBThread.cpp:8572] select channel show exchange condition fail, errno:-1, error: mysql not opened yet!
+W1231 01:29:23.950939 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1231 01:29:23.951057 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1231 01:29:23.951110 215388160 DBThread.cpp:4105] get platform db handle fail.
+W1231 01:29:23.951150 215388160 DBThread.cpp:4201] get platform db handle fail.
+W1231 01:29:23.951189 215388160 DBThread.cpp:4268] get platform db handle fail.
+W1231 01:29:23.951287 215388160 DBThread.cpp:4355] select wealth god coming id fail. errno: -1, error: mysql not opened yet!
+W1231 01:29:23.951411 215388160 DBThread.cpp:8073] select recharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1231 01:29:23.951500 215388160 DBThread.cpp:8400] select excharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1231 01:29:23.951545 215388160 DBThread.cpp:4729] get platform db handle fail.
+W1231 01:29:23.951625 215388160 DBThread.cpp:4819] select duobao_data fail. errno: -1, error: mysql not opened yet!
+W1231 02:35:03.416534 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1231 02:35:03.416765 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1231 02:35:03.416878 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1231 02:35:04.948639 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1231 02:35:04.948808 215388160 DBThread.cpp:6132] SELECT DISTINCT(platformId) FROM stat_pcu
+W1231 02:35:04.948843 215388160 DBThread.cpp:6133] select pcu platformId fail. errno: -1, err msg: mysql not opened yet!
+W1231 02:35:04.948874 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W1231 02:35:04.948954 215388160 DBThread.cpp:8247] select generalize promoter info platform id fail, errno:-1, error: mysql not opened yet!
+W1231 02:35:04.948992 215388160 DBThread.cpp:8316] get record score db handle fail.
+W1231 02:35:04.949069 215388160 DBThread.cpp:8461] select quanmin channel fail, errno:-1, error: mysql not opened yet!
+W1231 02:35:04.949156 215388160 DBThread.cpp:8514] select client channel domain fail, errno:-1, error: mysql not opened yet!
+W1231 02:35:04.949195 215388160 DBThread.cpp:8610] get platform db handle fail.
+W1231 02:35:04.949273 215388160 DBThread.cpp:8572] select channel show exchange condition fail, errno:-1, error: mysql not opened yet!
+W1231 02:35:04.949362 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1231 02:35:04.949446 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1231 02:35:04.949484 215388160 DBThread.cpp:4105] get platform db handle fail.
+W1231 02:35:04.949512 215388160 DBThread.cpp:4201] get platform db handle fail.
+W1231 02:35:04.949538 215388160 DBThread.cpp:4268] get platform db handle fail.
+W1231 02:35:04.949612 215388160 DBThread.cpp:4355] select wealth god coming id fail. errno: -1, error: mysql not opened yet!
+W1231 02:35:04.949695 215388160 DBThread.cpp:8073] select recharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1231 02:35:04.949779 215388160 DBThread.cpp:8400] select excharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1231 02:35:04.949820 215388160 DBThread.cpp:4729] get platform db handle fail.
+W1231 02:35:04.949894 215388160 DBThread.cpp:4819] select duobao_data fail. errno: -1, error: mysql not opened yet!
+W1231 03:40:43.416347 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1231 03:40:43.417037 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1231 03:40:43.417157 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1231 03:40:44.946504 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1231 03:40:44.946677 215388160 DBThread.cpp:6132] SELECT DISTINCT(platformId) FROM stat_pcu
+W1231 03:40:44.946727 215388160 DBThread.cpp:6133] select pcu platformId fail. errno: -1, err msg: mysql not opened yet!
+W1231 03:40:44.946774 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W1231 03:40:44.946884 215388160 DBThread.cpp:8247] select generalize promoter info platform id fail, errno:-1, error: mysql not opened yet!
+W1231 03:40:44.946938 215388160 DBThread.cpp:8316] get record score db handle fail.
+W1231 03:40:44.947048 215388160 DBThread.cpp:8461] select quanmin channel fail, errno:-1, error: mysql not opened yet!
+W1231 03:40:44.947170 215388160 DBThread.cpp:8514] select client channel domain fail, errno:-1, error: mysql not opened yet!
+W1231 03:40:44.947226 215388160 DBThread.cpp:8610] get platform db handle fail.
+W1231 03:40:44.947335 215388160 DBThread.cpp:8572] select channel show exchange condition fail, errno:-1, error: mysql not opened yet!
+W1231 03:40:44.947459 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1231 03:40:44.947579 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1231 03:40:44.947633 215388160 DBThread.cpp:4105] get platform db handle fail.
+W1231 03:40:44.947672 215388160 DBThread.cpp:4201] get platform db handle fail.
+W1231 03:40:44.947712 215388160 DBThread.cpp:4268] get platform db handle fail.
+W1231 03:40:44.947855 215388160 DBThread.cpp:4355] select wealth god coming id fail. errno: -1, error: mysql not opened yet!
+W1231 03:40:44.947962 215388160 DBThread.cpp:8073] select recharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1231 03:40:44.952893 215388160 DBThread.cpp:8400] select excharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1231 03:40:44.952950 215388160 DBThread.cpp:4729] get platform db handle fail.
+W1231 03:40:44.953037 215388160 DBThread.cpp:4819] select duobao_data fail. errno: -1, error: mysql not opened yet!
+W1231 04:46:24.418076 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1231 04:46:24.418447 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1231 04:46:24.418599 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1231 04:46:25.934877 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1231 04:46:25.934970 215388160 DBThread.cpp:6132] SELECT DISTINCT(platformId) FROM stat_pcu
+W1231 04:46:25.934998 215388160 DBThread.cpp:6133] select pcu platformId fail. errno: -1, err msg: mysql not opened yet!
+W1231 04:46:25.935024 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W1231 04:46:25.935083 215388160 DBThread.cpp:8247] select generalize promoter info platform id fail, errno:-1, error: mysql not opened yet!
+W1231 04:46:25.935112 215388160 DBThread.cpp:8316] get record score db handle fail.
+W1231 04:46:25.935168 215388160 DBThread.cpp:8461] select quanmin channel fail, errno:-1, error: mysql not opened yet!
+W1231 04:46:25.935231 215388160 DBThread.cpp:8514] select client channel domain fail, errno:-1, error: mysql not opened yet!
+W1231 04:46:25.935261 215388160 DBThread.cpp:8610] get platform db handle fail.
+W1231 04:46:25.935317 215388160 DBThread.cpp:8572] select channel show exchange condition fail, errno:-1, error: mysql not opened yet!
+W1231 04:46:25.935380 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1231 04:46:25.935441 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1231 04:46:25.935470 215388160 DBThread.cpp:4105] get platform db handle fail.
+W1231 04:46:25.935492 215388160 DBThread.cpp:4201] get platform db handle fail.
+W1231 04:46:25.935513 215388160 DBThread.cpp:4268] get platform db handle fail.
+W1231 04:46:25.935565 215388160 DBThread.cpp:4355] select wealth god coming id fail. errno: -1, error: mysql not opened yet!
+W1231 04:46:25.935624 215388160 DBThread.cpp:8073] select recharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1231 04:46:25.935684 215388160 DBThread.cpp:8400] select excharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1231 04:46:25.935714 215388160 DBThread.cpp:4729] get platform db handle fail.
+W1231 04:46:25.935768 215388160 DBThread.cpp:4819] select duobao_data fail. errno: -1, error: mysql not opened yet!
+W1231 04:50:28.300515 214851584 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W1231 04:50:30.302608 214851584 BuildDBThread.cpp:133] open :58.82.239.150:3306@mysql error!
+W1231 04:50:30.302855 214851584 BuildDBThread.cpp:217] open :58.82.239.150:3306@mysql error!
+W1231 05:52:04.421048 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1231 05:52:04.421279 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1231 05:52:04.421424 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1231 05:52:05.955137 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1231 05:52:05.955240 215388160 DBThread.cpp:6132] SELECT DISTINCT(platformId) FROM stat_pcu
+W1231 05:52:05.955266 215388160 DBThread.cpp:6133] select pcu platformId fail. errno: -1, err msg: mysql not opened yet!
+W1231 05:52:05.955315 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W1231 05:52:05.955374 215388160 DBThread.cpp:8247] select generalize promoter info platform id fail, errno:-1, error: mysql not opened yet!
+W1231 05:52:05.955397 215388160 DBThread.cpp:8316] get record score db handle fail.
+W1231 05:52:05.955448 215388160 DBThread.cpp:8461] select quanmin channel fail, errno:-1, error: mysql not opened yet!
+W1231 05:52:05.955507 215388160 DBThread.cpp:8514] select client channel domain fail, errno:-1, error: mysql not opened yet!
+W1231 05:52:05.955534 215388160 DBThread.cpp:8610] get platform db handle fail.
+W1231 05:52:05.955585 215388160 DBThread.cpp:8572] select channel show exchange condition fail, errno:-1, error: mysql not opened yet!
+W1231 05:52:05.955644 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1231 05:52:05.955701 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1231 05:52:05.955725 215388160 DBThread.cpp:4105] get platform db handle fail.
+W1231 05:52:05.955742 215388160 DBThread.cpp:4201] get platform db handle fail.
+W1231 05:52:05.955760 215388160 DBThread.cpp:4268] get platform db handle fail.
+W1231 05:52:05.955809 215388160 DBThread.cpp:4355] select wealth god coming id fail. errno: -1, error: mysql not opened yet!
+W1231 05:52:05.955862 215388160 DBThread.cpp:8073] select recharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1231 05:52:05.955920 215388160 DBThread.cpp:8400] select excharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1231 05:52:05.955946 215388160 DBThread.cpp:4729] get platform db handle fail.
+W1231 05:52:05.955997 215388160 DBThread.cpp:4819] select duobao_data fail. errno: -1, error: mysql not opened yet!
+W1231 06:57:45.425129 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1231 06:57:45.425499 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1231 06:57:45.425696 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1231 06:57:46.955086 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1231 06:57:46.955410 215388160 DBThread.cpp:6132] SELECT DISTINCT(platformId) FROM stat_pcu
+W1231 06:57:46.955520 215388160 DBThread.cpp:6133] select pcu platformId fail. errno: -1, err msg: mysql not opened yet!
+W1231 06:57:46.955648 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W1231 06:57:46.955886 215388160 DBThread.cpp:8247] select generalize promoter info platform id fail, errno:-1, error: mysql not opened yet!
+W1231 06:57:46.955971 215388160 DBThread.cpp:8316] get record score db handle fail.
+W1231 06:57:46.956091 215388160 DBThread.cpp:8461] select quanmin channel fail, errno:-1, error: mysql not opened yet!
+W1231 06:57:46.956252 215388160 DBThread.cpp:8514] select client channel domain fail, errno:-1, error: mysql not opened yet!
+W1231 06:57:46.956315 215388160 DBThread.cpp:8610] get platform db handle fail.
+W1231 06:57:46.956403 215388160 DBThread.cpp:8572] select channel show exchange condition fail, errno:-1, error: mysql not opened yet!
+W1231 06:57:46.956513 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1231 06:57:46.956614 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1231 06:57:46.956697 215388160 DBThread.cpp:4105] get platform db handle fail.
+W1231 06:57:46.956729 215388160 DBThread.cpp:4201] get platform db handle fail.
+W1231 06:57:46.956759 215388160 DBThread.cpp:4268] get platform db handle fail.
+W1231 06:57:46.956843 215388160 DBThread.cpp:4355] select wealth god coming id fail. errno: -1, error: mysql not opened yet!
+W1231 06:57:46.956936 215388160 DBThread.cpp:8073] select recharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1231 06:57:46.957065 215388160 DBThread.cpp:8400] select excharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1231 06:57:46.957108 215388160 DBThread.cpp:4729] get platform db handle fail.
+W1231 06:57:46.957185 215388160 DBThread.cpp:4819] select duobao_data fail. errno: -1, error: mysql not opened yet!
+W1231 08:03:27.426131 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1231 08:03:27.426359 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1231 08:03:27.426496 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1231 08:03:28.938765 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1231 08:03:28.939013 215388160 DBThread.cpp:6132] SELECT DISTINCT(platformId) FROM stat_pcu
+W1231 08:03:28.939090 215388160 DBThread.cpp:6133] select pcu platformId fail. errno: -1, err msg: mysql not opened yet!
+W1231 08:03:28.939159 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W1231 08:03:28.939338 215388160 DBThread.cpp:8247] select generalize promoter info platform id fail, errno:-1, error: mysql not opened yet!
+W1231 08:03:28.939447 215388160 DBThread.cpp:8316] get record score db handle fail.
+W1231 08:03:28.939568 215388160 DBThread.cpp:8461] select quanmin channel fail, errno:-1, error: mysql not opened yet!
+W1231 08:03:28.939684 215388160 DBThread.cpp:8514] select client channel domain fail, errno:-1, error: mysql not opened yet!
+W1231 08:03:28.939738 215388160 DBThread.cpp:8610] get platform db handle fail.
+W1231 08:03:28.939842 215388160 DBThread.cpp:8572] select channel show exchange condition fail, errno:-1, error: mysql not opened yet!
+W1231 08:03:28.939961 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1231 08:03:28.940074 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1231 08:03:28.940126 215388160 DBThread.cpp:4105] get platform db handle fail.
+W1231 08:03:28.940165 215388160 DBThread.cpp:4201] get platform db handle fail.
+W1231 08:03:28.940203 215388160 DBThread.cpp:4268] get platform db handle fail.
+W1231 08:03:28.940302 215388160 DBThread.cpp:4355] select wealth god coming id fail. errno: -1, error: mysql not opened yet!
+W1231 08:03:28.940414 215388160 DBThread.cpp:8073] select recharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1231 08:03:28.940546 215388160 DBThread.cpp:8400] select excharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1231 08:03:28.940604 215388160 DBThread.cpp:4729] get platform db handle fail.
+W1231 08:03:28.940706 215388160 DBThread.cpp:4819] select duobao_data fail. errno: -1, error: mysql not opened yet!
+W1231 09:09:07.427126 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1231 09:09:07.427412 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1231 09:09:07.427593 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1231 09:09:08.944934 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1231 09:09:08.945058 215388160 DBThread.cpp:6132] SELECT DISTINCT(platformId) FROM stat_pcu
+W1231 09:09:08.945091 215388160 DBThread.cpp:6133] select pcu platformId fail. errno: -1, err msg: mysql not opened yet!
+W1231 09:09:08.945123 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W1231 09:09:08.945197 215388160 DBThread.cpp:8247] select generalize promoter info platform id fail, errno:-1, error: mysql not opened yet!
+W1231 09:09:08.945233 215388160 DBThread.cpp:8316] get record score db handle fail.
+W1231 09:09:08.945302 215388160 DBThread.cpp:8461] select quanmin channel fail, errno:-1, error: mysql not opened yet!
+W1231 09:09:08.945381 215388160 DBThread.cpp:8514] select client channel domain fail, errno:-1, error: mysql not opened yet!
+W1231 09:09:08.945421 215388160 DBThread.cpp:8610] get platform db handle fail.
+W1231 09:09:08.945490 215388160 DBThread.cpp:8572] select channel show exchange condition fail, errno:-1, error: mysql not opened yet!
+W1231 09:09:08.945570 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1231 09:09:08.945646 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1231 09:09:08.945682 215388160 DBThread.cpp:4105] get platform db handle fail.
+W1231 09:09:08.945708 215388160 DBThread.cpp:4201] get platform db handle fail.
+W1231 09:09:08.945732 215388160 DBThread.cpp:4268] get platform db handle fail.
+W1231 09:09:08.945797 215388160 DBThread.cpp:4355] select wealth god coming id fail. errno: -1, error: mysql not opened yet!
+W1231 09:09:08.945883 215388160 DBThread.cpp:8073] select recharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1231 09:09:08.945987 215388160 DBThread.cpp:8400] select excharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1231 09:09:08.946019 215388160 DBThread.cpp:4729] get platform db handle fail.
+W1231 09:09:08.946076 215388160 DBThread.cpp:4819] select duobao_data fail. errno: -1, error: mysql not opened yet!
+W1231 09:10:07.465737 215388160 DBThread.cpp:4571] get platform db handle fail.
+W1231 09:10:07.466202 215388160 DBThread.cpp:4626] INSERT wealth_god_data fail, errno: -1, error: mysql not opened yet!
+W1231 09:49:46.443578 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1231 09:49:46.443735 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1231 09:49:46.443832 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1231 09:49:47.953579 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1231 09:49:47.953722 215388160 DBThread.cpp:6132] SELECT DISTINCT(platformId) FROM stat_pcu
+W1231 09:49:47.953760 215388160 DBThread.cpp:6133] select pcu platformId fail. errno: -1, err msg: mysql not opened yet!
+W1231 09:49:47.953801 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W1231 09:49:47.953893 215388160 DBThread.cpp:8247] select generalize promoter info platform id fail, errno:-1, error: mysql not opened yet!
+W1231 09:49:47.953940 215388160 DBThread.cpp:8316] get record score db handle fail.
+W1231 09:49:47.954025 215388160 DBThread.cpp:8461] select quanmin channel fail, errno:-1, error: mysql not opened yet!
+W1231 09:49:47.954118 215388160 DBThread.cpp:8514] select client channel domain fail, errno:-1, error: mysql not opened yet!
+W1231 09:49:47.954161 215388160 DBThread.cpp:8610] get platform db handle fail.
+W1231 09:49:47.954252 215388160 DBThread.cpp:8572] select channel show exchange condition fail, errno:-1, error: mysql not opened yet!
+W1231 09:49:47.954346 215388160 DBThread.cpp:5672] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1231 09:49:47.954440 215388160 DBThread.cpp:5769] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W1231 09:49:47.954480 215388160 DBThread.cpp:4105] get platform db handle fail.
+W1231 09:49:47.954516 215388160 DBThread.cpp:4201] get platform db handle fail.
+W1231 09:49:47.954551 215388160 DBThread.cpp:4268] get platform db handle fail.
+W1231 09:49:47.954634 215388160 DBThread.cpp:4355] select wealth god coming id fail. errno: -1, error: mysql not opened yet!
+W1231 09:49:47.954725 215388160 DBThread.cpp:8073] select recharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1231 09:49:47.954816 215388160 DBThread.cpp:8400] select excharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W1231 09:49:47.954860 215388160 DBThread.cpp:4729] get platform db handle fail.
+W1231 09:49:47.954946 215388160 DBThread.cpp:4819] select duobao_data fail. errno: -1, error: mysql not opened yet!
+W1231 10:20:48.114622 215388160 DBThread.cpp:4571] get platform db handle fail.
+W1231 10:20:48.241632 215388160 DBThread.cpp:4626] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '3-1-2-358' for key 'PRIMARY'
+W1231 10:25:18.996116 214851584 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W1231 10:42:42.294700 215388160 DBThread.cpp:4571] get platform db handle fail.
+W1231 10:42:42.404155 215388160 DBThread.cpp:4626] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '2-1-1-36' for key 'PRIMARY'
+W1231 11:11:30.163522 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1231 11:25:23.471693 214851584 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W1231 11:30:52.312877 215388160 DBThread.cpp:4571] get platform db handle fail.
+W1231 12:25:28.038894 214851584 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W1231 12:40:56.033166 215388160 DBThread.cpp:4571] get platform db handle fail.
+W1231 12:40:56.143350 215388160 DBThread.cpp:4626] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '5-1-3-239' for key 'PRIMARY'
+W1231 13:01:15.538704 215388160 DBThread.cpp:4571] get platform db handle fail.
+W1231 13:01:15.682080 215388160 DBThread.cpp:4626] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-1-1-363' for key 'PRIMARY'
+W1231 13:25:32.803987 214851584 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W1231 13:51:48.651376 215388160 DBThread.cpp:4571] get platform db handle fail.
+W1231 13:51:48.785213 215388160 DBThread.cpp:4626] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '4-3-1-6' for key 'PRIMARY'
+W1231 14:25:37.456828 214851584 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W1231 15:01:01.573026 215388160 DBThread.cpp:4571] get platform db handle fail.
+W1231 15:01:01.765122 215388160 DBThread.cpp:4626] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '6-1-2-335' for key 'PRIMARY'
+W1231 15:25:42.030382 214851584 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W1231 15:30:04.733913 215388160 DBThread.cpp:4571] get platform db handle fail.
+W1231 15:30:04.844256 215388160 DBThread.cpp:4626] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-3-1-428' for key 'PRIMARY'
+W1231 16:13:00.224485 215388160 DBThread.cpp:4571] get platform db handle fail.
+W1231 16:13:00.335062 215388160 DBThread.cpp:4626] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '3-1-1-487' for key 'PRIMARY'
+W1231 16:25:46.543393 214851584 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W1231 17:21:25.976804 215388160 DBThread.cpp:4571] get platform db handle fail.
+W1231 17:21:26.088102 215388160 DBThread.cpp:4626] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '6-1-2-336' for key 'PRIMARY'
+W1231 17:25:51.079383 214851584 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W1231 18:26:30.666478 214851584 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W1231 18:31:01.277065 215388160 DBThread.cpp:4571] get platform db handle fail.
+W1231 19:26:35.186875 214851584 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W1231 19:41:33.532286 215388160 DBThread.cpp:4571] get platform db handle fail.
+W1231 19:41:33.645834 215388160 DBThread.cpp:4626] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-4-1-309' for key 'PRIMARY'
+W1231 19:51:26.128008 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1231 20:00:58.495963 215388160 DBThread.cpp:4571] get platform db handle fail.
+W1231 20:00:58.634686 215388160 DBThread.cpp:4626] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '2-1-2-9' for key 'PRIMARY'
+W1231 20:26:39.675987 214851584 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W1231 20:31:25.687417 215388160 DBThread.cpp:4571] get platform db handle fail.
+W1231 20:31:25.803001 215388160 DBThread.cpp:4626] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '3-1-2-359' for key 'PRIMARY'
+W1231 21:11:36.188493 215388160 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1231 21:26:44.218966 214851584 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W1231 22:20:43.993162 215388160 DBThread.cpp:4571] get platform db handle fail.
+W1231 22:22:12.548516 215388160 DBThread.cpp:4626] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-1-2-281' for key 'PRIMARY'
+W1231 22:22:34.111539 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W1231 22:22:34.997586 215388160 DBThread.cpp:8316] get record score db handle fail.
+W1231 22:22:36.225755 215388160 DBThread.cpp:8610] get platform db handle fail.
+W1231 22:22:36.648496 215388160 DBThread.cpp:4105] get platform db handle fail.
+W1231 22:22:36.648551 215388160 DBThread.cpp:4201] get platform db handle fail.
+W1231 22:22:36.648576 215388160 DBThread.cpp:4268] get platform db handle fail.
+W1231 22:22:52.750952 215388160 DBThread.cpp:4729] get platform db handle fail.
+W1231 23:26:39.222352 215388160 DBThread.cpp:1990] start  AcrossTheDayEvent...
+W1231 23:26:43.183215 215388160 DBThread.cpp:1995] SwitchTodayScoreRank use time : 3960
+W1231 23:26:44.248522 215388160 DBThread.cpp:2000] ResetTodayScoreRankInCache use time : 1065
+W1231 23:26:45.039525 215388160 DBThread.cpp:5885] account count: 3560
+W0101 00:33:46.786013 215388160 DBThread.cpp:5893] vecAccountInfo use time: 4021747
+W0101 00:33:46.786747 215388160 DBThread.cpp:2005] ResetTodayRank use time : 4022538
+W0101 01:35:52.617429 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W0101 01:36:28.174754 215388160 DBThread.cpp:8316] get record score db handle fail.
+W0101 01:36:28.830219 215388160 DBThread.cpp:8610] get platform db handle fail.
+W0101 01:37:50.917183 215388160 DBThread.cpp:4105] get platform db handle fail.
+W0101 01:37:50.917340 215388160 DBThread.cpp:4201] get platform db handle fail.
+W0101 01:37:50.917397 215388160 DBThread.cpp:4268] get platform db handle fail.
+W0101 01:38:07.153098 215388160 DBThread.cpp:4729] get platform db handle fail.
+W0101 01:38:24.454583 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W0101 01:38:24.786669 215388160 DBThread.cpp:8316] get record score db handle fail.
+W0101 01:38:25.353533 215388160 DBThread.cpp:8610] get platform db handle fail.
+W0101 01:38:25.778614 215388160 DBThread.cpp:4105] get platform db handle fail.
+W0101 01:38:25.778714 215388160 DBThread.cpp:4201] get platform db handle fail.
+W0101 01:38:25.778765 215388160 DBThread.cpp:4268] get platform db handle fail.
+W0101 01:38:41.509302 215388160 DBThread.cpp:4729] get platform db handle fail.
+W0101 01:38:48.556061 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W0101 01:38:48.884836 215388160 DBThread.cpp:8316] get record score db handle fail.
+W0101 01:38:49.463500 215388160 DBThread.cpp:8610] get platform db handle fail.
+W0101 01:38:49.887428 215388160 DBThread.cpp:4105] get platform db handle fail.
+W0101 01:38:49.887527 215388160 DBThread.cpp:4201] get platform db handle fail.
+W0101 01:38:49.887579 215388160 DBThread.cpp:4268] get platform db handle fail.
+W0101 01:39:05.611475 215388160 DBThread.cpp:4729] get platform db handle fail.
+W0101 02:41:58.075845 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W0101 02:42:34.172739 215388160 DBThread.cpp:8316] get record score db handle fail.
+W0101 02:42:34.836653 215388160 DBThread.cpp:8610] get platform db handle fail.
+W0101 02:42:35.254981 215388160 DBThread.cpp:4105] get platform db handle fail.
+W0101 02:42:35.255079 215388160 DBThread.cpp:4201] get platform db handle fail.
+W0101 02:42:35.255131 215388160 DBThread.cpp:4268] get platform db handle fail.
+W0101 02:42:51.088133 215388160 DBThread.cpp:4729] get platform db handle fail.
+W0101 03:47:44.130019 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W0101 03:48:45.016324 215388160 DBThread.cpp:8316] get record score db handle fail.
+W0101 03:48:45.591491 215388160 DBThread.cpp:8610] get platform db handle fail.
+W0101 03:48:46.010648 215388160 DBThread.cpp:4105] get platform db handle fail.
+W0101 03:48:46.010756 215388160 DBThread.cpp:4201] get platform db handle fail.
+W0101 03:48:46.010816 215388160 DBThread.cpp:4268] get platform db handle fail.
+W0101 03:49:01.858884 215388160 DBThread.cpp:4729] get platform db handle fail.
+W0101 04:51:57.968634 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W0101 04:52:39.812234 215388160 DBThread.cpp:8316] get record score db handle fail.
+W0101 04:52:40.384268 215388160 DBThread.cpp:8610] get platform db handle fail.
+W0101 04:52:40.804242 215388160 DBThread.cpp:4105] get platform db handle fail.
+W0101 04:52:40.804289 215388160 DBThread.cpp:4201] get platform db handle fail.
+W0101 04:52:40.804313 215388160 DBThread.cpp:4268] get platform db handle fail.
+W0101 04:52:56.572999 215388160 DBThread.cpp:4729] get platform db handle fail.
+W0101 05:57:12.448508 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W0101 05:57:50.648139 215388160 DBThread.cpp:8316] get record score db handle fail.
+W0101 05:57:51.298617 215388160 DBThread.cpp:8610] get platform db handle fail.
+W0101 05:57:51.716414 215388160 DBThread.cpp:4105] get platform db handle fail.
+W0101 05:57:51.716507 215388160 DBThread.cpp:4201] get platform db handle fail.
+W0101 05:57:51.716560 215388160 DBThread.cpp:4268] get platform db handle fail.
+W0101 05:58:07.408116 215388160 DBThread.cpp:4729] get platform db handle fail.
+W0101 07:02:11.334101 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W0101 07:03:12.216861 215388160 DBThread.cpp:8316] get record score db handle fail.
+W0101 07:03:12.788074 215388160 DBThread.cpp:8610] get platform db handle fail.
+W0101 07:03:13.206883 215388160 DBThread.cpp:4105] get platform db handle fail.
+W0101 07:03:13.206933 215388160 DBThread.cpp:4201] get platform db handle fail.
+W0101 07:03:13.206956 215388160 DBThread.cpp:4268] get platform db handle fail.
+W0101 07:03:29.045459 215388160 DBThread.cpp:4729] get platform db handle fail.
+W0101 07:05:15.987763 214851584 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0101 08:07:05.757073 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W0101 08:07:41.995347 215388160 DBThread.cpp:8316] get record score db handle fail.
+W0101 08:07:42.568724 215388160 DBThread.cpp:8610] get platform db handle fail.
+W0101 08:07:42.986814 215388160 DBThread.cpp:4105] get platform db handle fail.
+W0101 08:07:42.986920 215388160 DBThread.cpp:4201] get platform db handle fail.
+W0101 08:07:42.986971 215388160 DBThread.cpp:4268] get platform db handle fail.
+W0101 08:07:58.786279 215388160 DBThread.cpp:4729] get platform db handle fail.
+W0101 09:12:09.352918 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W0101 09:12:49.678761 215388160 DBThread.cpp:8316] get record score db handle fail.
+W0101 09:12:50.253108 215388160 DBThread.cpp:8610] get platform db handle fail.
+W0101 09:12:50.675065 215388160 DBThread.cpp:4105] get platform db handle fail.
+W0101 09:12:50.675168 215388160 DBThread.cpp:4201] get platform db handle fail.
+W0101 09:12:50.675220 215388160 DBThread.cpp:4268] get platform db handle fail.
+W0101 09:13:06.565752 215388160 DBThread.cpp:4729] get platform db handle fail.
+W0101 09:47:15.093775 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W0101 09:47:52.897428 215388160 DBThread.cpp:8316] get record score db handle fail.
+W0101 09:47:53.468516 215388160 DBThread.cpp:8610] get platform db handle fail.
+W0101 09:47:53.890477 215388160 DBThread.cpp:4105] get platform db handle fail.
+W0101 09:47:53.890538 215388160 DBThread.cpp:4201] get platform db handle fail.
+W0101 09:47:53.890559 215388160 DBThread.cpp:4268] get platform db handle fail.
+W0101 09:48:09.789090 215388160 DBThread.cpp:4729] get platform db handle fail.
+W0101 10:20:07.648018 215388160 DBThread.cpp:4571] get platform db handle fail.
+W0101 10:20:07.759389 215388160 DBThread.cpp:4626] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '3-1-2-360' for key 'PRIMARY'
+W0101 10:34:54.597530 214851584 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0101 10:40:08.682374 215388160 DBThread.cpp:4571] get platform db handle fail.
+W0101 10:40:08.809442 215388160 DBThread.cpp:4626] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '2-1-1-37' for key 'PRIMARY'
+W0101 11:30:11.520992 215388160 DBThread.cpp:4571] get platform db handle fail.
+W0101 11:30:11.728214 215388160 DBThread.cpp:4626] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-1-2-282' for key 'PRIMARY'
+W0101 11:34:59.432487 214851584 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0101 12:35:03.917754 214851584 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0101 12:40:14.884909 215388160 DBThread.cpp:4571] get platform db handle fail.
+W0101 12:40:14.995805 215388160 DBThread.cpp:4626] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '5-1-3-240' for key 'PRIMARY'
+W0101 13:00:16.038301 215388160 DBThread.cpp:4571] get platform db handle fail.
+W0101 13:00:16.149185 215388160 DBThread.cpp:4626] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-1-1-365' for key 'PRIMARY'
+W0101 13:35:08.418329 214851584 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0101 13:45:38.408346 215388160 DBThread.cpp:3384] add db score fail, add score: 114, user id: 85598984
+W0101 13:50:18.934389 215388160 DBThread.cpp:4571] get platform db handle fail.
+W0101 13:50:19.043400 215388160 DBThread.cpp:4626] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '4-3-1-7' for key 'PRIMARY'
+W0101 14:35:12.910429 214851584 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0101 15:00:22.586817 215388160 DBThread.cpp:4571] get platform db handle fail.
+W0101 15:00:22.698854 215388160 DBThread.cpp:4626] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '6-1-2-337' for key 'PRIMARY'
+W0101 15:30:24.204509 215388160 DBThread.cpp:4571] get platform db handle fail.
+W0101 15:35:17.401384 214851584 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0101 16:10:26.167578 215388160 DBThread.cpp:4571] get platform db handle fail.
+W0101 16:35:21.899674 214851584 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0101 17:34:23.955500 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W0101 17:34:24.728914 215388160 DBThread.cpp:8316] get record score db handle fail.
+W0101 17:34:25.969102 215388160 DBThread.cpp:8610] get platform db handle fail.
+W0101 17:34:26.398053 215388160 DBThread.cpp:4105] get platform db handle fail.
+W0101 17:34:26.398185 215388160 DBThread.cpp:4201] get platform db handle fail.
+W0101 17:34:26.398252 215388160 DBThread.cpp:4268] get platform db handle fail.
+W0101 17:34:43.357545 215388160 DBThread.cpp:4729] get platform db handle fail.
+W0101 18:39:00.660990 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W0101 18:39:37.746346 215388160 DBThread.cpp:8316] get record score db handle fail.
+W0101 18:39:38.323000 215388160 DBThread.cpp:8610] get platform db handle fail.
+W0101 18:39:38.743841 215388160 DBThread.cpp:4105] get platform db handle fail.
+W0101 18:39:38.743973 215388160 DBThread.cpp:4201] get platform db handle fail.
+W0101 18:39:38.744038 215388160 DBThread.cpp:4268] get platform db handle fail.
+W0101 18:39:55.459460 215388160 DBThread.cpp:4729] get platform db handle fail.
+W0101 19:43:57.484696 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W0101 19:44:33.119962 215388160 DBThread.cpp:8316] get record score db handle fail.
+W0101 19:44:33.691952 215388160 DBThread.cpp:8610] get platform db handle fail.
+W0101 19:44:34.116307 215388160 DBThread.cpp:4105] get platform db handle fail.
+W0101 19:44:34.116444 215388160 DBThread.cpp:4201] get platform db handle fail.
+W0101 19:44:34.116513 215388160 DBThread.cpp:4268] get platform db handle fail.
+W0101 19:44:50.728307 215388160 DBThread.cpp:4729] get platform db handle fail.
+W0101 20:23:40.969180 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W0101 20:24:16.055258 215388160 DBThread.cpp:8316] get record score db handle fail.
+W0101 20:24:16.630785 215388160 DBThread.cpp:8610] get platform db handle fail.
+W0101 20:24:17.057538 215388160 DBThread.cpp:4105] get platform db handle fail.
+W0101 20:24:17.057605 215388160 DBThread.cpp:4201] get platform db handle fail.
+W0101 20:24:17.057641 215388160 DBThread.cpp:4268] get platform db handle fail.
+W0101 20:24:33.648587 215388160 DBThread.cpp:4729] get platform db handle fail.
+W0101 21:28:42.795248 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W0101 21:29:19.467829 215388160 DBThread.cpp:8316] get record score db handle fail.
+W0101 21:29:20.137063 215388160 DBThread.cpp:8610] get platform db handle fail.
+W0101 21:29:20.563743 215388160 DBThread.cpp:4105] get platform db handle fail.
+W0101 21:29:20.563905 215388160 DBThread.cpp:4201] get platform db handle fail.
+W0101 21:29:20.563971 215388160 DBThread.cpp:4268] get platform db handle fail.
+W0101 21:29:37.172375 215388160 DBThread.cpp:4729] get platform db handle fail.
+W0101 22:34:33.102715 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W0101 22:35:34.001983 215388160 DBThread.cpp:8316] get record score db handle fail.
+W0101 22:35:34.660224 215388160 DBThread.cpp:8610] get platform db handle fail.
+W0101 22:35:35.081303 215388160 DBThread.cpp:4105] get platform db handle fail.
+W0101 22:35:35.081436 215388160 DBThread.cpp:4201] get platform db handle fail.
+W0101 22:35:35.081501 215388160 DBThread.cpp:4268] get platform db handle fail.
+W0101 22:35:51.693920 215388160 DBThread.cpp:4729] get platform db handle fail.
+W0101 23:38:26.126075 215388160 DBThread.cpp:1990] start  AcrossTheDayEvent...
+W0101 23:38:30.009202 215388160 DBThread.cpp:1995] SwitchTodayScoreRank use time : 3883
+W0101 23:38:40.020144 215388160 DBThread.cpp:2000] ResetTodayScoreRankInCache use time : 10011
+W0101 23:38:50.249228 215388160 DBThread.cpp:2005] ResetTodayRank use time : 10229
+W0101 23:39:13.819463 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W0101 23:40:14.707870 215388160 DBThread.cpp:8316] get record score db handle fail.
+W0101 23:40:15.285734 215388160 DBThread.cpp:8610] get platform db handle fail.
+W0101 23:40:15.715248 215388160 DBThread.cpp:4105] get platform db handle fail.
+W0101 23:40:15.715344 215388160 DBThread.cpp:4201] get platform db handle fail.
+W0101 23:40:15.715394 215388160 DBThread.cpp:4268] get platform db handle fail.
+W0101 23:40:31.494099 214851584 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0101 23:40:32.363947 215388160 DBThread.cpp:4729] get platform db handle fail.
+W0102 00:43:39.459421 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W0102 00:44:14.634104 215388160 DBThread.cpp:8316] get record score db handle fail.
+W0102 00:44:15.215265 215388160 DBThread.cpp:8610] get platform db handle fail.
+W0102 00:44:15.638404 215388160 DBThread.cpp:4105] get platform db handle fail.
+W0102 00:44:15.638537 215388160 DBThread.cpp:4201] get platform db handle fail.
+W0102 00:44:15.638602 215388160 DBThread.cpp:4268] get platform db handle fail.
+W0102 00:44:32.252713 215388160 DBThread.cpp:4729] get platform db handle fail.
+W0102 01:48:54.730083 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W0102 01:49:32.926815 215388160 DBThread.cpp:8316] get record score db handle fail.
+W0102 01:49:33.586652 215388160 DBThread.cpp:8610] get platform db handle fail.
+W0102 01:49:34.007889 215388160 DBThread.cpp:4105] get platform db handle fail.
+W0102 01:49:34.008021 215388160 DBThread.cpp:4201] get platform db handle fail.
+W0102 01:49:34.008085 215388160 DBThread.cpp:4268] get platform db handle fail.
+W0102 01:49:50.640400 215388160 DBThread.cpp:4729] get platform db handle fail.
+W0102 02:54:01.522766 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W0102 02:55:02.418277 215388160 DBThread.cpp:8316] get record score db handle fail.
+W0102 02:55:03.116608 215388160 DBThread.cpp:8610] get platform db handle fail.
+W0102 02:55:03.539649 215388160 DBThread.cpp:4105] get platform db handle fail.
+W0102 02:55:03.539782 215388160 DBThread.cpp:4201] get platform db handle fail.
+W0102 02:55:03.539845 215388160 DBThread.cpp:4268] get platform db handle fail.
+W0102 02:55:20.233098 215388160 DBThread.cpp:4729] get platform db handle fail.
+W0102 03:59:01.467738 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W0102 03:59:41.288499 215388160 DBThread.cpp:8316] get record score db handle fail.
+W0102 03:59:42.131657 215388160 DBThread.cpp:8610] get platform db handle fail.
+W0102 03:59:42.554257 215388160 DBThread.cpp:4105] get platform db handle fail.
+W0102 03:59:42.554392 215388160 DBThread.cpp:4201] get platform db handle fail.
+W0102 03:59:42.554456 215388160 DBThread.cpp:4268] get platform db handle fail.
+W0102 03:59:59.213773 215388160 DBThread.cpp:4729] get platform db handle fail.
+W0102 05:04:30.502164 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W0102 05:05:31.392515 215388160 DBThread.cpp:8316] get record score db handle fail.
+W0102 05:05:31.967687 215388160 DBThread.cpp:8610] get platform db handle fail.
+W0102 05:05:32.398327 215388160 DBThread.cpp:4105] get platform db handle fail.
+W0102 05:05:32.398461 215388160 DBThread.cpp:4201] get platform db handle fail.
+W0102 05:05:32.398525 215388160 DBThread.cpp:4268] get platform db handle fail.
+W0102 05:05:49.146975 215388160 DBThread.cpp:4729] get platform db handle fail.
+W0102 06:09:05.745507 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W0102 06:09:44.523555 215388160 DBThread.cpp:8316] get record score db handle fail.
+W0102 06:09:45.092121 215388160 DBThread.cpp:8610] get platform db handle fail.
+W0102 06:09:45.531000 215388160 DBThread.cpp:4105] get platform db handle fail.
+W0102 06:09:45.531132 215388160 DBThread.cpp:4201] get platform db handle fail.
+W0102 06:09:45.531198 215388160 DBThread.cpp:4268] get platform db handle fail.
+W0102 06:10:02.242427 215388160 DBThread.cpp:4729] get platform db handle fail.
+W0102 07:15:31.290453 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W0102 07:16:07.959064 215388160 DBThread.cpp:8316] get record score db handle fail.
+W0102 07:16:08.619849 215388160 DBThread.cpp:8610] get platform db handle fail.
+W0102 07:16:09.035923 215388160 DBThread.cpp:4105] get platform db handle fail.
+W0102 07:16:09.036056 215388160 DBThread.cpp:4201] get platform db handle fail.
+W0102 07:16:09.036121 215388160 DBThread.cpp:4268] get platform db handle fail.
+W0102 07:16:25.707192 215388160 DBThread.cpp:4729] get platform db handle fail.
+W0102 08:19:05.753082 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W0102 08:20:06.641058 215388160 DBThread.cpp:8316] get record score db handle fail.
+W0102 08:20:07.313129 215388160 DBThread.cpp:8610] get platform db handle fail.
+W0102 08:20:07.732280 215388160 DBThread.cpp:4105] get platform db handle fail.
+W0102 08:20:07.732444 215388160 DBThread.cpp:4201] get platform db handle fail.
+W0102 08:20:07.732528 215388160 DBThread.cpp:4268] get platform db handle fail.
+W0102 08:20:24.437079 215388160 DBThread.cpp:4729] get platform db handle fail.
+W0102 09:24:11.756116 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W0102 09:25:12.652946 215388160 DBThread.cpp:8316] get record score db handle fail.
+W0102 09:25:13.234781 215388160 DBThread.cpp:8610] get platform db handle fail.
+W0102 09:25:13.661947 215388160 DBThread.cpp:4105] get platform db handle fail.
+W0102 09:25:13.662070 215388160 DBThread.cpp:4201] get platform db handle fail.
+W0102 09:25:13.662134 215388160 DBThread.cpp:4268] get platform db handle fail.
+W0102 09:25:30.549376 215388160 DBThread.cpp:4729] get platform db handle fail.
+W0102 09:58:39.323633 215388160 DBThread.cpp:7910] get platform score db handle fail.
+W0102 09:59:18.601064 215388160 DBThread.cpp:8316] get record score db handle fail.
+W0102 09:59:19.250073 215388160 DBThread.cpp:8610] get platform db handle fail.
+W0102 09:59:19.674547 215388160 DBThread.cpp:4105] get platform db handle fail.
+W0102 09:59:19.674679 215388160 DBThread.cpp:4201] get platform db handle fail.
+W0102 09:59:19.674752 215388160 DBThread.cpp:4268] get platform db handle fail.
+W0102 09:59:36.398766 215388160 DBThread.cpp:4729] get platform db handle fail.
+W0102 10:08:44.921725 214851584 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0102 10:20:24.240453 215388160 DBThread.cpp:4571] get platform db handle fail.

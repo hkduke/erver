@@ -1,0 +1,69 @@
+
+service server {
+#	服务地址
+	local_addr = 0.0.0.0:6001
+#	中心服地址
+	center_addr = 0.0.0.0:5001
+#	帐号库信息
+	accountdb_ip = 58.82.239.150
+	accountdb_user = root
+	accountdb_pwd = wanhe_mysql
+	accountdb_name = account
+	accountdb_port = 3306
+
+#	记录库信息
+	recorddb_ip = 58.82.239.150
+	recorddb_user = root
+	recorddb_pwd = wanhe_mysql
+	recorddb_name = record
+	recorddb_port = 3306
+
+#	记录库信息
+	recordscoredb_ip = 58.82.239.150
+	recordscoredb_user = root
+	recordscoredb_pwd = wanhe_mysql
+	recordscoredb_name = record_score
+	recordscoredb_port = 3306
+
+#	回放库信息
+	playbackdb_ip = 58.82.239.150
+	playbackdb_user = root
+	playbackdb_pwd = wanhe_mysql
+	playbackdb_name = playback
+	playbackdb_port = 3306
+
+#	代理库信息
+	promotiondb_ip = 58.82.239.150
+	promotiondb_user = root
+	promotiondb_pwd = wanhe_mysql
+	promotiondb_name = promotion
+	promotiondb_port = 3306
+
+#	游戏库信息
+	gamedb_ip = 58.82.239.150
+	gamedb_user = root
+	gamedb_pwd = wanhe_mysql
+	gamedb_name = game
+	gamedb_port = 3306
+
+#	平台库信息
+	platformdb_ip = 58.82.239.150
+	platformdb_user = root
+	platformdb_pwd = wanhe_mysql
+	platformdb_name = platform
+	platformdb_port = 3306
+
+#	redis信息
+	redis_addr = 127.0.0.1:8567
+	redis_pwd = huijin@8888.com
+	rediscon_timeout = 10
+	redisrw_timeout = 10
+
+#	主DB服务器
+	main_dbserver = 1
+
+#	工作线程数量
+	workthread_num = 1
+
+}
+

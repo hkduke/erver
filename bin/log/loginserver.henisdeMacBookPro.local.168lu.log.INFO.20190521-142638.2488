@@ -1,0 +1,35 @@
+Log file created at: 2019/05/21 14:26:38
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0521 14:26:38.455961 370730432 LoginServer.cpp:45] 正在启动登录服务器...
+I0521 14:26:38.458279 370730432 NetModule.h:71] Init NetModule Finished.
+I0521 14:26:38.458619 370730432 NetModule.h:78] start work thread 0...
+I0521 14:26:38.458632 370730432 NetModule.cpp:69] Start Run NetModule...
+I0521 14:26:38.458653 370730432 NetModule.cpp:88] NetModule Already Startover.
+W0521 14:26:38.459053 370730432 LoginServer.cpp:65] listen at: 0.0.0.0:7001
+I0521 14:26:38.459343 370730432 NetModule.cpp:136] Create one server...
+I0521 14:26:38.459441 370730432 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I0521 14:26:38.930193 370730432 NetServer.cpp:55] accept io...127.0.0.1:49594
+I0521 14:26:38.932116 11964416 LoginServerThread.cpp:198] bind one connect: 127.0.0.1:49594
+I0521 14:26:38.953240 11964416 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:49594
+I0521 14:26:40.230357 11964416 LoginServerThread.cpp:7914] load game kind succ!
+I0521 14:26:40.345902 11964416 LoginServerThread.cpp:8025] load game room kind succ!
+I0521 14:26:40.928491 11964416 LoginServerThread.cpp:8407] load system status succ!
+I0521 14:26:41.046018 11964416 LoginServerThread.cpp:8094] load vip config succ!
+I0521 14:26:41.162066 11964416 LoginServerThread.cpp:8126] load vip2 config succ!
+I0521 14:26:41.278766 11964416 LoginServerThread.cpp:8432] load channel show exchange succ!
+I0521 14:26:41.391541 11964416 LoginServerThread.cpp:8462] load exchange info succ!
+I0521 14:26:41.515295 11964416 LoginServerThread.cpp:8489] load channel prsent score succ!
+I0521 14:26:41.632019 11964416 LoginServerThread.cpp:8513] load channel register mail succ!
+I0521 14:26:41.757128 11964416 LoginServerThread.cpp:8154] load benefit config succ!
+I0521 14:26:41.873512 11964416 LoginServerThread.cpp:8221] load game version succ!
+W0521 14:26:42.213368 11964416 LoginServerThread.cpp:336] loginserver start succ.
+I0521 19:41:09.253392 370730432 NetServer.cpp:88] delete io...127.0.0.1:49594
+W0521 19:41:09.253590 11964416 ServerMgr.cpp:88] remove one proxy server, id: 30
+I0521 19:41:11.316308 370730432 NetServer.cpp:55] accept io...127.0.0.1:52828
+I0521 19:41:11.318148 11964416 LoginServerThread.cpp:198] bind one connect: 127.0.0.1:52828
+I0521 19:41:11.325676 11964416 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:52828
+W0521 19:43:01.902393 11964416 LoginServerThread.cpp:5446] select expire mail fail, error no: -1, sql:select mailid from mail where userid = '85501464' and mailType = 2 and expireTime < now()
+W0522 00:00:06.301836 11964416 LoginServerThread.cpp:547] login server is across day.
+W0523 00:00:17.416406 11964416 LoginServerThread.cpp:547] login server is across day.
+W0523 10:10:53.010152 11964416 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!

@@ -1,0 +1,39 @@
+Log file created at: 2019/04/11 21:29:27
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0411 21:29:27.207140 183764416 DBBufferServer.cpp:55] 正在启动DB服务器...
+I0411 21:29:27.208725 183764416 DBBufferServer.cpp:31] start build db thread...
+W0411 21:29:27.208758 67272704 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+I0411 21:29:27.210317 183764416 NetModule.h:71] Init NetModule Finished.
+I0411 21:29:27.211182 183764416 NetModule.h:78] start work thread 0...
+I0411 21:29:27.211200 183764416 NetModule.cpp:69] Start Run NetModule...
+I0411 21:29:27.211225 183764416 NetModule.cpp:88] NetModule Already Startover.
+I0411 21:29:27.211233 183764416 NetModule.cpp:136] Create one server...
+I0411 21:29:27.795779 183764416 NetServer.cpp:55] accept io...127.0.0.1:55312
+I0411 21:29:27.797847 67809280 DBThread.cpp:104] bind one connect: 127.0.0.1:55312
+I0411 21:29:28.155376 183764416 NetServer.cpp:55] accept io...127.0.0.1:55315
+W0411 21:29:28.625557 67809280 DBThread.cpp:209] main db server set time ok!
+I0411 21:29:28.625619 67809280 DBThread.cpp:234] init db server succ!
+I0411 21:29:30.431339 183764416 NetServer.cpp:55] accept io...127.0.0.1:55320
+I0411 21:30:03.772819 67809280 DBThread.cpp:104] bind one connect: 127.0.0.1:55315
+I0411 21:30:03.772898 67809280 DBThread.cpp:104] bind one connect: 127.0.0.1:55320
+I0411 21:31:37.249575 183764416 NetServer.cpp:88] delete io...127.0.0.1:55312
+W0411 22:29:31.756685 67272704 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0411 23:00:43.292701 67809280 DBThread.cpp:2081] start  AcrossTheDayEvent...
+W0411 23:00:47.236460 67809280 DBThread.cpp:2086] SwitchTodayScoreRank use time : 3943
+W0411 23:00:47.238644 67809280 DBThread.cpp:2091] ResetTodayScoreRankInCache use time : 2
+W0411 23:00:47.645725 67809280 DBThread.cpp:6361] account count: 241
+W0411 23:00:47.656865 67809280 DBThread.cpp:6369] vecAccountInfo use time: 11
+W0411 23:00:47.656939 67809280 DBThread.cpp:2096] ResetTodayRank use time : 418
+W0411 23:29:36.306751 67272704 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0412 00:29:40.842917 67272704 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0412 01:29:45.403888 67272704 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0412 02:29:49.916914 67272704 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0412 03:29:54.463912 67272704 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0412 04:29:59.038583 67272704 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0412 05:30:03.589766 67272704 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0412 06:30:08.134289 67272704 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0412 07:30:12.671998 67272704 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0412 08:30:17.226146 67272704 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0412 09:30:21.803876 67272704 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+I0412 09:58:07.247025 183764416 NetServer.cpp:55] accept io...127.0.0.1:53926

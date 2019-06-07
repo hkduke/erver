@@ -1,0 +1,196 @@
+Log file created at: 2018/12/24 15:56:43
+Running on machine: henisdeMacBook-Pro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1224 15:56:43.377617 420070848 DBBufferServer.cpp:55] 正在启动DB服务器...
+I1224 15:56:43.378624 420070848 DBBufferServer.cpp:31] start build db thread...
+W1224 15:56:43.378664 235614208 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+I1224 15:56:43.379745 420070848 NetModule.h:71] Init NetModule Finished.
+I1224 15:56:43.379937 420070848 NetModule.h:77] start work thread 0...
+I1224 15:56:43.379947 420070848 NetModule.cpp:64] Start Run NetModule...
+I1224 15:56:43.379967 420070848 NetModule.cpp:76] NetModule Already Startover.
+I1224 15:56:43.379972 420070848 NetModule.cpp:118] Create one server...
+I1224 15:56:44.121656 420070848 NetServer.cpp:55] accept io...127.0.0.1:59099
+I1224 15:56:44.122911 236150784 DBThread.cpp:100] bind one connect: 127.0.0.1:59099
+I1224 15:56:44.703426 420070848 NetServer.cpp:55] accept io...127.0.0.1:59101
+I1224 15:56:44.747414 420070848 NetServer.cpp:55] accept io...127.0.0.1:59102
+W1224 15:56:54.908919 236150784 DBThread.cpp:205] main db server set time ok!
+I1224 15:56:54.909005 236150784 DBThread.cpp:230] init db server succ!
+I1224 15:56:54.909016 236150784 DBThread.cpp:100] bind one connect: 127.0.0.1:59101
+I1224 15:57:28.180533 236150784 DBThread.cpp:100] bind one connect: 127.0.0.1:59102
+I1224 16:11:52.368193 420070848 NetServer.cpp:88] delete io...127.0.0.1:59102
+I1224 16:11:58.786465 420070848 NetServer.cpp:55] accept io...127.0.0.1:59147
+I1224 16:11:58.787602 236150784 DBThread.cpp:100] bind one connect: 127.0.0.1:59147
+I1224 16:14:48.883666 420070848 NetServer.cpp:88] delete io...127.0.0.1:59147
+I1224 16:14:55.190976 420070848 NetServer.cpp:55] accept io...127.0.0.1:59159
+I1224 16:14:55.192564 236150784 DBThread.cpp:100] bind one connect: 127.0.0.1:59159
+I1224 16:20:27.853039 420070848 NetServer.cpp:88] delete io...127.0.0.1:59159
+I1224 16:20:33.113706 420070848 NetServer.cpp:55] accept io...127.0.0.1:59185
+I1224 16:20:33.115782 236150784 DBThread.cpp:100] bind one connect: 127.0.0.1:59185
+I1224 16:20:34.859282 420070848 NetServer.cpp:88] delete io...127.0.0.1:59185
+I1224 16:21:37.845620 420070848 NetServer.cpp:55] accept io...127.0.0.1:59188
+I1224 16:21:37.846391 236150784 DBThread.cpp:100] bind one connect: 127.0.0.1:59188
+I1224 16:23:13.500255 420070848 NetServer.cpp:88] delete io...127.0.0.1:59188
+I1224 16:23:18.596289 420070848 NetServer.cpp:55] accept io...127.0.0.1:59201
+I1224 16:23:18.598098 236150784 DBThread.cpp:100] bind one connect: 127.0.0.1:59201
+I1224 16:27:37.083555 420070848 NetServer.cpp:88] delete io...127.0.0.1:59201
+I1224 16:27:41.977569 420070848 NetServer.cpp:55] accept io...127.0.0.1:59215
+I1224 16:29:45.715023 236150784 DBThread.cpp:100] bind one connect: 127.0.0.1:59215
+W1224 16:56:47.941910 235614208 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W1224 16:56:56.112659 236150784 DBThread.cpp:5435] select today earn score rank fail . errno: 1146, err msg: Table 'game.todayEarnScore' doesn't exist
+W1224 16:58:06.318920 236150784 DBThread.cpp:6783] update android status fail. errno: 1146, error msg: Table 'account.androidCfg' doesn't exist
+W1224 16:58:06.430099 236150784 DBThread.cpp:6783] update android status fail. errno: 1146, error msg: Table 'account.androidCfg' doesn't exist
+W1224 16:59:47.440750 236150784 DBThread.cpp:6783] update android status fail. errno: 1146, error msg: Table 'account.androidCfg' doesn't exist
+W1224 16:59:47.550285 236150784 DBThread.cpp:6783] update android status fail. errno: 1146, error msg: Table 'account.androidCfg' doesn't exist
+W1224 16:59:55.395944 236150784 DBThread.cpp:6783] update android status fail. errno: 1146, error msg: Table 'account.androidCfg' doesn't exist
+W1224 16:59:56.193329 236150784 DBThread.cpp:6783] update android status fail. errno: 1146, error msg: Table 'account.androidCfg' doesn't exist
+I1224 17:01:23.926270 420070848 NetServer.cpp:88] delete io...127.0.0.1:59215
+I1224 17:07:10.309948 420070848 NetServer.cpp:55] accept io...127.0.0.1:59294
+W1224 17:07:51.972126 236150784 DBThread.cpp:5435] select today earn score rank fail . errno: 1146, err msg: Table 'game.todayEarnScore' doesn't exist
+I1224 17:08:12.203783 236150784 DBThread.cpp:100] bind one connect: 127.0.0.1:59294
+I1224 17:11:49.827786 420070848 NetServer.cpp:88] delete io...127.0.0.1:59294
+I1224 17:11:53.701179 420070848 NetServer.cpp:55] accept io...127.0.0.1:59305
+I1224 17:11:53.702951 236150784 DBThread.cpp:100] bind one connect: 127.0.0.1:59305
+W1224 17:21:22.099331 236150784 DBThread.cpp:4626] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '6-1-2-320' for key 'PRIMARY'
+I1224 17:23:15.412566 420070848 NetServer.cpp:88] delete io...127.0.0.1:59305
+I1224 17:23:19.233119 420070848 NetServer.cpp:55] accept io...127.0.0.1:59342
+I1224 17:23:19.234571 236150784 DBThread.cpp:100] bind one connect: 127.0.0.1:59342
+I1224 17:25:39.632984 420070848 NetServer.cpp:88] delete io...127.0.0.1:59342
+I1224 17:25:44.603327 420070848 NetServer.cpp:55] accept io...127.0.0.1:59359
+I1224 17:25:44.603512 236150784 DBThread.cpp:100] bind one connect: 127.0.0.1:59359
+I1224 17:32:54.164762 420070848 NetServer.cpp:88] delete io...127.0.0.1:59359
+I1224 17:32:59.819975 420070848 NetServer.cpp:55] accept io...127.0.0.1:59385
+I1224 17:32:59.821713 236150784 DBThread.cpp:100] bind one connect: 127.0.0.1:59385
+I1224 17:46:30.865252 420070848 NetServer.cpp:88] delete io...127.0.0.1:59385
+I1224 17:46:35.973228 420070848 NetServer.cpp:55] accept io...127.0.0.1:59431
+I1224 17:46:35.974997 236150784 DBThread.cpp:100] bind one connect: 127.0.0.1:59431
+W1224 17:57:02.604480 235614208 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+I1224 18:31:16.328258 420070848 NetServer.cpp:88] delete io...127.0.0.1:59431
+W1224 18:31:18.101158 236150784 DBThread.cpp:4626] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-1-1-347' for key 'PRIMARY'
+I1224 18:31:21.494436 420070848 NetServer.cpp:55] accept io...127.0.0.1:59485
+I1224 18:31:21.495640 236150784 DBThread.cpp:100] bind one connect: 127.0.0.1:59485
+I1224 18:34:24.855777 420070848 NetServer.cpp:88] delete io...127.0.0.1:59485
+I1224 18:52:10.205498 420070848 NetServer.cpp:55] accept io...127.0.0.1:59516
+I1224 18:52:10.207237 236150784 DBThread.cpp:100] bind one connect: 127.0.0.1:59516
+I1224 18:53:12.371353 420070848 NetServer.cpp:88] delete io...127.0.0.1:59516
+I1224 18:53:59.887959 420070848 NetServer.cpp:55] accept io...127.0.0.1:59527
+I1224 18:53:59.889302 236150784 DBThread.cpp:100] bind one connect: 127.0.0.1:59527
+W1224 18:57:07.094046 235614208 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+I1224 18:57:45.080479 420070848 NetServer.cpp:88] delete io...127.0.0.1:59527
+I1224 18:59:15.731281 420070848 NetServer.cpp:55] accept io...127.0.0.1:59549
+I1224 18:59:15.732187 236150784 DBThread.cpp:100] bind one connect: 127.0.0.1:59549
+I1224 19:00:17.863617 420070848 NetServer.cpp:88] delete io...127.0.0.1:59549
+I1224 19:00:34.612740 420070848 NetServer.cpp:55] accept io...127.0.0.1:59556
+I1224 19:00:34.614684 236150784 DBThread.cpp:100] bind one connect: 127.0.0.1:59556
+I1224 19:03:45.123746 420070848 NetServer.cpp:88] delete io...127.0.0.1:59556
+I1224 19:04:53.978310 420070848 NetServer.cpp:55] accept io...127.0.0.1:59571
+I1224 19:04:53.980600 236150784 DBThread.cpp:100] bind one connect: 127.0.0.1:59571
+I1224 19:05:02.940599 420070848 NetServer.cpp:88] delete io...127.0.0.1:59571
+I1224 19:05:06.873179 420070848 NetServer.cpp:55] accept io...127.0.0.1:59578
+I1224 19:05:06.875337 236150784 DBThread.cpp:100] bind one connect: 127.0.0.1:59578
+I1224 19:15:09.764830 420070848 NetServer.cpp:88] delete io...127.0.0.1:59578
+I1224 19:15:15.085518 420070848 NetServer.cpp:55] accept io...127.0.0.1:59597
+I1224 19:15:15.087723 236150784 DBThread.cpp:100] bind one connect: 127.0.0.1:59597
+I1224 19:20:38.283076 420070848 NetServer.cpp:88] delete io...127.0.0.1:59597
+I1224 19:21:03.779562 420070848 NetServer.cpp:55] accept io...127.0.0.1:59612
+I1224 19:21:03.781689 236150784 DBThread.cpp:100] bind one connect: 127.0.0.1:59612
+I1224 19:21:12.830943 420070848 NetServer.cpp:88] delete io...127.0.0.1:59612
+I1224 19:21:17.924284 420070848 NetServer.cpp:55] accept io...127.0.0.1:59620
+I1224 19:21:17.924880 236150784 DBThread.cpp:100] bind one connect: 127.0.0.1:59620
+I1224 19:25:03.312397 420070848 NetServer.cpp:88] delete io...127.0.0.1:59620
+I1224 19:25:08.205585 420070848 NetServer.cpp:55] accept io...127.0.0.1:59629
+I1224 19:25:08.207783 236150784 DBThread.cpp:100] bind one connect: 127.0.0.1:59629
+I1224 19:26:55.294848 420070848 NetServer.cpp:88] delete io...127.0.0.1:59629
+I1224 19:27:30.043300 420070848 NetServer.cpp:55] accept io...127.0.0.1:59638
+I1224 19:27:55.938936 236150784 DBThread.cpp:100] bind one connect: 127.0.0.1:59638
+I1224 19:32:09.919308 420070848 NetServer.cpp:88] delete io...127.0.0.1:59638
+I1224 19:32:35.678975 420070848 NetServer.cpp:55] accept io...127.0.0.1:59660
+I1224 19:32:35.680317 236150784 DBThread.cpp:100] bind one connect: 127.0.0.1:59660
+W1224 19:41:24.956746 236150784 DBThread.cpp:4626] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-4-1-295' for key 'PRIMARY'
+I1224 19:42:20.628280 420070848 NetServer.cpp:88] delete io...127.0.0.1:59660
+I1224 19:42:26.614342 420070848 NetServer.cpp:55] accept io...127.0.0.1:59677
+I1224 19:42:26.616648 236150784 DBThread.cpp:100] bind one connect: 127.0.0.1:59677
+W1224 19:57:11.589957 235614208 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W1224 20:01:01.184460 236150784 DBThread.cpp:4626] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '2-1-2-1' for key 'PRIMARY'
+I1224 20:12:55.772416 420070848 NetServer.cpp:88] delete io...127.0.0.1:59677
+I1224 20:22:54.812137 420070848 NetServer.cpp:55] accept io...127.0.0.1:59768
+I1224 20:22:54.813107 236150784 DBThread.cpp:100] bind one connect: 127.0.0.1:59768
+I1224 20:23:42.228287 420070848 NetServer.cpp:88] delete io...127.0.0.1:59768
+I1224 20:23:46.218534 420070848 NetServer.cpp:55] accept io...127.0.0.1:59779
+I1224 20:23:46.218977 236150784 DBThread.cpp:100] bind one connect: 127.0.0.1:59779
+W1224 20:32:06.915668 236150784 DBThread.cpp:4626] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '3-1-2-337' for key 'PRIMARY'
+W1224 20:57:16.104838 235614208 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+I1224 22:08:50.195281 420070848 NetServer.cpp:88] delete io...127.0.0.1:59779
+I1224 22:08:50.196887 420070848 NetServer.cpp:88] delete io...127.0.0.1:59101
+I1224 22:08:50.196941 420070848 NetServer.cpp:88] delete io...127.0.0.1:59099
+I1224 22:08:51.675886 420070848 NetServer.cpp:55] accept io...127.0.0.1:60040
+I1224 22:08:51.684247 420070848 NetServer.cpp:55] accept io...127.0.0.1:60042
+I1224 22:08:53.682919 420070848 NetServer.cpp:55] accept io...127.0.0.1:60048
+I1224 23:01:32.261431 420070848 NetServer.cpp:88] delete io...127.0.0.1:60042
+I1224 23:01:32.261528 420070848 NetServer.cpp:88] delete io...127.0.0.1:60048
+I1224 23:01:32.261554 420070848 NetServer.cpp:88] delete io...127.0.0.1:60040
+I1224 23:01:33.739524 420070848 NetServer.cpp:55] accept io...127.0.0.1:60078
+I1224 23:01:33.739578 420070848 NetServer.cpp:55] accept io...127.0.0.1:60079
+W1224 23:01:34.256078 236150784 DBThread.cpp:1990] start  AcrossTheDayEvent...
+I1224 23:01:35.752948 420070848 NetServer.cpp:55] accept io...127.0.0.1:60081
+W1224 23:01:38.259882 236150784 DBThread.cpp:1995] SwitchTodayScoreRank use time : 4003
+W1224 23:01:49.588068 236150784 DBThread.cpp:2000] ResetTodayScoreRankInCache use time : 11329
+W1224 23:01:50.168686 236150784 DBThread.cpp:5885] account count: 3722
+I1225 01:02:25.296689 420070848 NetServer.cpp:88] delete io...127.0.0.1:60081
+I1225 01:02:25.296897 420070848 NetServer.cpp:88] delete io...127.0.0.1:60079
+I1225 01:02:25.296939 420070848 NetServer.cpp:88] delete io...127.0.0.1:60078
+I1225 01:02:26.778740 420070848 NetServer.cpp:55] accept io...127.0.0.1:60101
+I1225 01:02:28.784368 420070848 NetServer.cpp:55] accept io...127.0.0.1:60105
+I1225 01:02:37.327222 420070848 NetServer.cpp:55] accept io...127.0.0.1:60112
+I1225 03:03:18.335849 420070848 NetServer.cpp:88] delete io...127.0.0.1:60112
+I1225 03:03:18.335955 420070848 NetServer.cpp:88] delete io...127.0.0.1:60105
+I1225 03:03:18.335984 420070848 NetServer.cpp:88] delete io...127.0.0.1:60101
+I1225 03:03:19.821997 420070848 NetServer.cpp:55] accept io...127.0.0.1:60126
+I1225 03:03:19.822190 420070848 NetServer.cpp:55] accept io...127.0.0.1:60128
+I1225 03:03:21.834511 420070848 NetServer.cpp:55] accept io...127.0.0.1:60129
+I1225 05:04:11.351792 420070848 NetServer.cpp:88] delete io...127.0.0.1:60128
+I1225 05:04:11.351894 420070848 NetServer.cpp:88] delete io...127.0.0.1:60129
+I1225 05:04:11.351928 420070848 NetServer.cpp:88] delete io...127.0.0.1:60126
+I1225 05:04:12.839134 420070848 NetServer.cpp:55] accept io...127.0.0.1:60154
+I1225 05:04:12.839216 420070848 NetServer.cpp:55] accept io...127.0.0.1:60155
+I1225 05:04:14.845082 420070848 NetServer.cpp:55] accept io...127.0.0.1:60157
+I1225 07:05:04.386152 420070848 NetServer.cpp:88] delete io...127.0.0.1:60157
+I1225 07:05:04.386255 420070848 NetServer.cpp:88] delete io...127.0.0.1:60155
+I1225 07:05:04.386277 420070848 NetServer.cpp:88] delete io...127.0.0.1:60154
+I1225 07:05:05.867965 420070848 NetServer.cpp:55] accept io...127.0.0.1:60174
+I1225 07:05:05.872565 420070848 NetServer.cpp:55] accept io...127.0.0.1:60176
+I1225 07:05:07.886622 420070848 NetServer.cpp:55] accept io...127.0.0.1:60178
+I1225 09:05:58.430836 420070848 NetServer.cpp:88] delete io...127.0.0.1:60178
+I1225 09:05:58.430935 420070848 NetServer.cpp:88] delete io...127.0.0.1:60176
+I1225 09:05:58.430968 420070848 NetServer.cpp:88] delete io...127.0.0.1:60174
+I1225 09:05:59.917297 420070848 NetServer.cpp:55] accept io...127.0.0.1:60204
+I1225 09:05:59.917663 420070848 NetServer.cpp:55] accept io...127.0.0.1:60206
+I1225 09:06:01.925557 420070848 NetServer.cpp:55] accept io...127.0.0.1:60207
+I1225 09:45:02.475224 420070848 NetServer.cpp:88] delete io...127.0.0.1:60206
+I1225 09:45:02.475323 420070848 NetServer.cpp:88] delete io...127.0.0.1:60207
+I1225 09:45:02.475368 420070848 NetServer.cpp:88] delete io...127.0.0.1:60204
+I1225 09:45:03.962898 420070848 NetServer.cpp:55] accept io...127.0.0.1:60242
+I1225 09:45:03.962978 420070848 NetServer.cpp:55] accept io...127.0.0.1:60243
+I1225 09:45:05.974478 420070848 NetServer.cpp:55] accept io...127.0.0.1:60245
+W1225 09:48:36.826001 236150784 DBThread.cpp:5893] vecAccountInfo use time: 38806658
+W1225 09:48:36.826656 236150784 DBThread.cpp:2005] ResetTodayRank use time : 38807238
+I1225 09:52:49.825454 236150784 DBThread.cpp:100] bind one connect: 127.0.0.1:60242
+I1225 09:53:22.155267 236150784 DBThread.cpp:100] bind one connect: 127.0.0.1:60242
+I1225 09:54:58.907409 236150784 DBThread.cpp:100] bind one connect: 127.0.0.1:60242
+I1225 09:55:00.763398 236150784 DBThread.cpp:100] bind one connect: 127.0.0.1:60242
+I1225 09:55:34.006043 236150784 DBThread.cpp:100] bind one connect: 127.0.0.1:60242
+I1225 09:55:34.006104 236150784 DBThread.cpp:100] bind one connect: 127.0.0.1:60243
+I1225 09:56:05.827677 236150784 DBThread.cpp:100] bind one connect: 127.0.0.1:60245
+W1225 09:57:43.141679 235614208 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W1225 10:21:04.299307 236150784 DBThread.cpp:4626] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '3-1-2-339' for key 'PRIMARY'
+W1225 10:41:53.794275 236150784 DBThread.cpp:4626] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '2-1-1-24' for key 'PRIMARY'
+W1225 10:57:47.539902 235614208 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W1225 11:31:45.566376 236150784 DBThread.cpp:4626] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-1-2-266' for key 'PRIMARY'
+W1225 11:57:51.969784 235614208 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W1225 12:42:03.624127 236150784 DBThread.cpp:4626] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '5-1-3-233' for key 'PRIMARY'
+W1225 12:57:56.417893 235614208 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W1225 13:51:58.919430 236150784 DBThread.cpp:4626] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-1-1-348' for key 'PRIMARY'
+W1225 13:58:00.900952 235614208 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+I1225 14:30:04.929626 420070848 NetServer.cpp:88] delete io...127.0.0.1:60242
+I1225 14:30:10.566304 420070848 NetServer.cpp:55] accept io...127.0.0.1:61041
+I1225 14:30:10.568531 236150784 DBThread.cpp:100] bind one connect: 127.0.0.1:61041
+W1225 14:45:10.244886 236150784 DBThread.cpp:7524] insert playback record fail, error = -1, error info: mysql not opened yet!, draw id: 14006509

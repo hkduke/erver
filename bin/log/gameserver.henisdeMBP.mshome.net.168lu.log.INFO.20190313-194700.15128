@@ -1,0 +1,26 @@
+Log file created at: 2019/03/13 19:47:00
+Running on machine: henisdeMBP.mshome.net
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0313 19:47:00.197748 238261696 GameServer.cpp:45] 正在启动游戏服务器...
+I0313 19:47:00.200675 238261696 NetModule.h:71] Init NetModule Finished.
+I0313 19:47:00.200889 238261696 NetModule.h:78] start work thread 0...
+I0313 19:47:00.200898 238261696 NetModule.cpp:69] Start Run NetModule...
+I0313 19:47:00.200914 238261696 NetModule.cpp:88] NetModule Already Startover.
+I0313 19:47:00.200925 238261696 NetModule.cpp:220] add one connector: 127.0.0.1:5001 succeed...
+I0313 19:47:00.200932 238261696 NetModule.cpp:220] add one connector: 127.0.0.1:6001 succeed...
+I0313 19:47:00.200935 238261696 NetModule.cpp:136] Create one server...
+I0313 19:47:00.705188 238261696 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0313 19:47:00.705360 238261696 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0313 19:47:00.707083 172257280 GameServerThread.cpp:113] connect to db server succ!
+I0313 19:47:03.312345 172257280 AndroidUserMgr.cpp:832] set active android count: 0
+I0313 19:47:03.312429 172257280 AndroidUserMgr.cpp:832] set active android count: 90
+I0313 19:47:03.756067 238261696 NetServer.cpp:55] accept io...127.0.0.1:50669
+I0313 19:47:03.835161 172257280 GameServerThread.cpp:1910] load benefit config succ!
+I0313 19:47:04.989002 172257280 GameServerThread.cpp:1830] load android parameter succ, android count : 240
+W0313 19:47:05.185910 172257280 GameTableManager.cpp:565] update br game server black list, server id: 993
+I0313 19:47:05.186300 172257280 GameServerThread.cpp:1484] init server succ!
+I0313 19:47:05.186316 172257280 GameServerThread.cpp:146] bind one connect: 127.0.0.1:50669
+I0313 19:47:05.186324 172257280 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:50669
+I0313 19:51:48.101840 238261696 NetServer.cpp:88] delete io...127.0.0.1:50669
+I0313 19:51:51.804929 238261696 NetServer.cpp:55] accept io...127.0.0.1:50696
+I0313 19:52:50.004729 238261696 NetServer.cpp:88] delete io...127.0.0.1:50696

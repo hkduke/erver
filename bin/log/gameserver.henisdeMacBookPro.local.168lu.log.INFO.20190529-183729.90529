@@ -1,0 +1,32 @@
+Log file created at: 2019/05/29 18:37:29
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0529 18:37:29.771724 322704832 GameServer.cpp:45] 正在启动游戏服务器...
+I0529 18:37:29.774544 322704832 NetModule.h:71] Init NetModule Finished.
+I0529 18:37:29.774883 322704832 NetModule.h:78] start work thread 0...
+I0529 18:37:29.774901 322704832 NetModule.cpp:69] Start Run NetModule...
+I0529 18:37:29.774930 322704832 NetModule.cpp:88] NetModule Already Startover.
+I0529 18:37:29.774950 322704832 NetModule.cpp:220] add one connector: 127.0.0.1:5001 succeed...
+I0529 18:37:29.774960 322704832 NetModule.cpp:220] add one connector: 127.0.0.1:6001 succeed...
+I0529 18:37:29.774969 322704832 NetModule.cpp:136] Create one server...
+I0529 18:37:30.276513 322704832 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0529 18:37:30.276551 322704832 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0529 18:37:30.278743 75268096 GameServerThread.cpp:113] connect to db server succ!
+I0529 18:37:32.487767 75268096 AndroidUserMgr.cpp:943] set active android count: 0
+I0529 18:37:32.487813 75268096 AndroidUserMgr.cpp:943] set active android count: 4
+I0529 18:37:32.937152 322704832 NetServer.cpp:55] accept io...127.0.0.1:53460
+I0529 18:37:33.160674 75268096 GameServerThread.cpp:1990] load benefit config succ!
+I0529 18:37:33.870548 75268096 GameServerThread.cpp:1910] load android parameter succ, android count : 30
+W0529 18:37:33.991924 75268096 GameTableManager.cpp:613] update br game server black list, server id: 10001
+I0529 18:37:33.992242 75268096 GameServerThread.cpp:1564] init server succ!
+I0529 18:37:33.992300 75268096 GameServerThread.cpp:146] bind one connect: 127.0.0.1:53460
+I0529 18:37:33.992311 75268096 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:53460
+W0529 18:37:43.067088 75268096 AndroidUserMgr.cpp:290] need android count: 4
+W0529 18:38:37.030565 75268096 AndroidUserMgr.cpp:290] need android count: 4
+I0529 18:38:37.031103 322704832 NetServer.cpp:88] delete io...127.0.0.1:53460
+W0529 18:38:48.718227 75268096 ServerMgr.cpp:67] remove one proxy server, id: 30
+W0529 18:38:48.718881 75268096 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0529 18:38:48.718919 75268096 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0529 18:38:50.134126 75268096 AndroidUserMgr.cpp:290] need android count: 4
+W0529 18:38:51.574117 75268096 AndroidUserMgr.cpp:290] need android count: 4
+W0529 18:39:12.292201 75268096 AndroidUserMgr.cpp:290] need android count: 4

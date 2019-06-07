@@ -1,0 +1,27 @@
+Log file created at: 2019/06/01 16:37:26
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0601 16:37:26.685423 239953344 GameServer.cpp:45] 正在启动游戏服务器...
+I0601 16:37:26.688032 239953344 NetModule.h:71] Init NetModule Finished.
+I0601 16:37:26.688344 239953344 NetModule.h:78] start work thread 0...
+I0601 16:37:26.688361 239953344 NetModule.cpp:69] Start Run NetModule...
+I0601 16:37:26.688382 239953344 NetModule.cpp:88] NetModule Already Startover.
+I0601 16:37:26.688395 239953344 NetModule.cpp:220] add one connector: 127.0.0.1:5001 succeed...
+I0601 16:37:26.688402 239953344 NetModule.cpp:220] add one connector: 127.0.0.1:6001 succeed...
+I0601 16:37:26.688407 239953344 NetModule.cpp:136] Create one server...
+I0601 16:37:27.189319 239953344 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0601 16:37:27.189406 239953344 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0601 16:37:28.351198 99667968 AndroidUserMgr.cpp:946] set active android count: 0
+I0601 16:37:28.351241 99667968 AndroidUserMgr.cpp:946] set active android count: 7
+I0601 16:37:28.701277 239953344 NetServer.cpp:55] accept io...127.0.0.1:54906
+I0601 16:37:28.702396 239953344 NetServer.cpp:55] accept io...127.0.0.1:54907
+I0601 16:37:28.931362 99667968 GameServerThread.cpp:2098] load benefit config succ!
+I0601 16:37:29.615425 99667968 GameServerThread.cpp:2018] load android parameter succ, android count : 30
+W0601 16:37:29.730815 99667968 GameTableManager.cpp:613] update br game server black list, server id: 10004
+I0601 16:37:29.731160 99667968 GameServerThread.cpp:1672] init server succ!
+I0601 16:37:29.731171 99667968 GameServerThread.cpp:115] connect to db server succ!
+I0601 16:37:29.731245 99667968 GameServerThread.cpp:148] bind one connect: 127.0.0.1:54906
+I0601 16:37:29.731253 99667968 GameServerThread.cpp:148] bind one connect: 127.0.0.1:54907
+I0601 16:37:29.731264 99667968 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:54907
+W0601 16:37:29.731271 99667968 ServerMgr.cpp:24] repeat bind proxy server, server id :30
+W0601 21:20:25.098829 99667968 GameServerThread.cpp:133] center server is disconnect, after 1s will be reconnect!

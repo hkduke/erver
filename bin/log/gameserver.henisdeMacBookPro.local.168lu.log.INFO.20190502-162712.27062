@@ -1,0 +1,32 @@
+Log file created at: 2019/05/02 16:27:12
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0502 16:27:12.420287 265598400 GameServer.cpp:45] 正在启动游戏服务器...
+I0502 16:27:12.422821 265598400 NetModule.h:71] Init NetModule Finished.
+I0502 16:27:12.423075 265598400 NetModule.h:78] start work thread 0...
+I0502 16:27:12.423087 265598400 NetModule.cpp:69] Start Run NetModule...
+I0502 16:27:12.423110 265598400 NetModule.cpp:88] NetModule Already Startover.
+I0502 16:27:12.423130 265598400 NetModule.cpp:220] add one connector: 127.0.0.1:5001 succeed...
+I0502 16:27:12.423141 265598400 NetModule.cpp:220] add one connector: 127.0.0.1:6001 succeed...
+I0502 16:27:12.423148 265598400 NetModule.cpp:136] Create one server...
+I0502 16:27:12.927443 265598400 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0502 16:27:12.927469 265598400 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0502 16:27:12.929391 69476352 GameServerThread.cpp:113] connect to db server succ!
+I0502 16:27:15.201334 69476352 AndroidUserMgr.cpp:832] set active android count: 0
+I0502 16:27:15.201413 69476352 AndroidUserMgr.cpp:832] set active android count: 0
+I0502 16:27:15.422601 265598400 NetServer.cpp:55] accept io...127.0.0.1:56892
+I0502 16:27:15.713703 69476352 GameServerThread.cpp:1933] load benefit config succ!
+I0502 16:27:51.562638 69476352 GameServerThread.cpp:1853] load android parameter succ, android count : 0
+W0502 16:27:51.682389 69476352 GameTableManager.cpp:566] update br game server black list, server id: 11
+I0502 16:27:51.682638 69476352 GameServerThread.cpp:1507] init server succ!
+I0502 16:27:51.682648 69476352 GameServerThread.cpp:146] bind one connect: 127.0.0.1:56892
+I0502 16:27:51.682659 69476352 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:56892
+W0502 16:33:11.545658 69476352 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0502 16:33:12.701306 265598400 NetModule.cpp:723] ready reconnect server, server id: 11
+W0502 16:33:12.701828 69476352 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0502 16:33:14.205605 265598400 NetModule.cpp:723] ready reconnect server, server id: 11
+W0502 16:33:14.207474 69476352 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0502 16:33:15.714234 265598400 NetModule.cpp:723] ready reconnect server, server id: 11
+I0502 16:33:15.714501 265598400 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0502 16:33:15.716976 69476352 GameServerThread.cpp:109] connect to center server succ!
+W0502 16:36:47.927877 69476352 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!

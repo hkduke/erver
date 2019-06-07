@@ -1,0 +1,1457 @@
+Log file created at: 2019/05/07 20:11:26
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0507 20:11:26.576145 309814720 GameServer.cpp:45] 正在启动游戏服务器...
+I0507 20:11:26.578694 309814720 NetModule.h:71] Init NetModule Finished.
+I0507 20:11:26.578933 309814720 NetModule.h:78] start work thread 0...
+I0507 20:11:26.578946 309814720 NetModule.cpp:69] Start Run NetModule...
+I0507 20:11:26.578968 309814720 NetModule.cpp:88] NetModule Already Startover.
+I0507 20:11:26.578982 309814720 NetModule.cpp:220] add one connector: 127.0.0.1:5001 succeed...
+I0507 20:11:26.578990 309814720 NetModule.cpp:220] add one connector: 127.0.0.1:6001 succeed...
+I0507 20:11:26.578997 309814720 NetModule.cpp:136] Create one server...
+I0507 20:11:27.079720 309814720 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0507 20:11:27.079766 309814720 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0507 20:11:27.080488 76533760 GameServerThread.cpp:113] connect to db server succ!
+I0507 20:11:28.229976 76533760 AndroidUserMgr.cpp:832] set active android count: 0
+I0507 20:11:28.230058 76533760 AndroidUserMgr.cpp:832] set active android count: 90
+I0507 20:11:28.615043 309814720 NetServer.cpp:55] accept io...127.0.0.1:51380
+I0507 20:11:28.686817 76533760 GameServerThread.cpp:1933] load benefit config succ!
+I0507 20:11:29.376483 76533760 GameServerThread.cpp:1853] load android parameter succ, android count : 20
+W0507 20:11:29.492054 76533760 GameTableManager.cpp:566] update br game server black list, server id: 992
+I0507 20:11:29.492583 76533760 GameServerThread.cpp:1507] init server succ!
+I0507 20:11:29.492604 76533760 GameServerThread.cpp:146] bind one connect: 127.0.0.1:51380
+I0507 20:11:29.492630 76533760 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:51380
+W0507 20:57:28.106252 76533760 TableFrameForScore.cpp:1814] delete user online info fail, userid:85538002
+W0508 21:01:23.971657 76533760 TableFrameForScore.cpp:1722] game process message fail? subid: 3
+W0508 21:01:36.236620 76533760 TableFrameForScore.cpp:1722] game process message fail? subid: 3
+W0508 21:03:17.788841 76533760 TableFrameForScore.cpp:1722] game process message fail? subid: 3
+W0508 21:42:56.925130 76533760 TableFrameForScore.cpp:1722] game process message fail? subid: 3
+W0508 23:02:57.623899 76533760 TableFrameForScore.cpp:1722] game process message fail? subid: 3
+W0508 23:04:13.491569 76533760 TableFrameForScore.cpp:1722] game process message fail? subid: 3
+W0508 23:04:24.752296 76533760 TableFrameForScore.cpp:1722] game process message fail? subid: 3
+W0508 23:23:53.432868 76533760 TableFrameForScore.cpp:1722] game process message fail? subid: 3
+W0510 02:38:13.920446 76533760 TableFrameForScore.cpp:1722] game process message fail? subid: 3
+W0510 02:38:42.600316 76533760 TableFrameForScore.cpp:1722] game process message fail? subid: 3
+W0510 02:59:14.084638 76533760 TableFrameForScore.cpp:1722] game process message fail? subid: 3
+W0510 02:59:26.377703 76533760 TableFrameForScore.cpp:1722] game process message fail? subid: 3
+W0510 04:00:09.197629 76533760 TableFrameForScore.cpp:1722] game process message fail? subid: 3
+W0510 18:34:41.861949 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0510 18:34:43.058512 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+I0510 18:34:43.058645 309814720 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0510 18:34:43.059365 76533760 GameServerThread.cpp:109] connect to center server succ!
+W0510 18:34:47.358896 76533760 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0510 18:34:48.578352 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0510 18:34:48.579773 76533760 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0510 18:34:50.082310 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+I0510 18:34:50.082412 309814720 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0510 18:34:50.083590 76533760 GameServerThread.cpp:113] connect to db server succ!
+W0510 18:35:28.659459 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.659708 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.659770 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.659822 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.659873 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.659924 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.659973 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.660027 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.660079 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.660132 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.660187 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.660243 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.660295 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.660346 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.660418 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.660454 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.660487 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.661381 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.661432 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.661463 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.661491 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.661520 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.661548 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.661576 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.661604 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.661633 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.661664 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.661693 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.661767 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.661804 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.661833 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.661862 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.661893 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.661921 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.661953 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.661983 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.662293 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.662392 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.662427 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.662456 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.662484 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.662511 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.662539 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.662566 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.662814 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.662865 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.662896 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.662925 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.662952 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.662979 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.663007 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.663033 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.663218 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.663296 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.663331 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.663380 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.663403 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.663424 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.663446 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.663468 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.663715 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.663755 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.663779 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.663801 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.663822 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.663844 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.663866 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.663887 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.663908 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.664045 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.664075 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.664098 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.664120 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.664170 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.664193 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.664216 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.664237 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.664430 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.664469 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.664494 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.664515 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.664537 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.664558 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.664580 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.664602 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.664773 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.664814 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.664839 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.664861 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.664911 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.664935 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.664958 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.664979 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.665109 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.665149 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.665174 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.665197 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.665220 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.665241 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.665262 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.665283 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.665505 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.665545 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.665571 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.665593 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.665614 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.665635 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.665657 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.665678 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.665729 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.665830 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.665870 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.665894 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.665917 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.665940 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.665961 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.665982 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.666003 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.666234 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.666272 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.666296 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.666318 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.666340 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.666362 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.666383 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.666424 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.666606 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.666646 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.666671 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0510 18:35:28.666695 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.666718 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.666739 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.666760 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.666782 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.666975 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.667007 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.667027 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.667047 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.667064 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.667083 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.667099 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.667117 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.667258 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.667291 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.667311 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.667359 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.667378 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.667397 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.667414 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.667433 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.667449 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.667578 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.667601 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.667619 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.667637 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.667655 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.667673 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.667691 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.667708 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.667891 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.667913 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.667948 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.667968 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.667985 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.668002 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.668020 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.668037 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.668161 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.668180 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.668197 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.668215 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.668233 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.668251 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.668267 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.668285 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.668452 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.668475 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.668493 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.668511 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.668529 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.668546 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.668583 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.668603 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.668789 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.668821 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.668841 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.668860 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.668877 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.668895 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.668913 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.668931 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.668948 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.669137 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.669160 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.669178 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.669195 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.669214 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.669243 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.669262 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.669281 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.669428 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.669447 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.669466 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.669482 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.669500 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.669517 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.669535 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.669553 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.669739 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.669757 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.669775 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.669793 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.669811 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.669828 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.669845 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.669863 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.670028 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.670064 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.670083 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.670101 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.670120 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.670137 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.670155 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.670172 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.670337 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.670356 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.670374 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.670392 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.670409 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.670428 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.670444 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.670462 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.670665 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.670694 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.670712 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.670730 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.670748 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.670765 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.670783 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.670801 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.670819 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.671005 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.671023 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.671041 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.671058 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.671077 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.671094 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.671111 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.671129 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.671319 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.671344 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.671361 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.671380 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.671416 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.671434 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.671452 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.671469 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.671630 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.671663 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.671684 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.671702 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.671720 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.671737 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.671756 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.671773 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.671954 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.671977 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.671995 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.672025 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.672044 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.672061 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.672080 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.672096 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.672240 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.672272 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.672293 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.672312 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.672329 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.672346 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.672364 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.672381 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.672399 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.672575 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.672597 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.672616 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.672632 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.672649 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.672667 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.672683 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.672719 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.672857 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.672874 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.672891 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.672907 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.672924 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.672941 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.672958 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.672976 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.673143 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.673164 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.673182 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.673198 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.673215 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.673233 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.673260 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.673279 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.673418 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.673439 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.673456 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.673473 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.673491 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.673507 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.673524 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.673542 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.673703 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.673722 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.673740 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.673758 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.673774 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.673791 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.673808 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.673825 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.673842 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.673986 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.674005 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.674039 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.674057 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.674074 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.674091 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.674108 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.674125 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.674315 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.674336 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.674355 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.674371 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.674388 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.674405 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.674422 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.674439 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.674618 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.674646 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.674664 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.674681 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0510 18:35:28.674698 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:30:30.218444 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:30:31.450914 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:30:31.453213 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:30:32.955366 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:30:32.957674 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:30:34.461050 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:30:34.461766 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:30:35.967531 309814720 NetConnector.cpp:287] open connect: 127.0.0.1:5001 fail.
+W0511 14:30:35.967941 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:30:35.969259 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:30:37.470763 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:30:37.472365 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:30:38.977543 309814720 NetConnector.cpp:287] open connect: 127.0.0.1:5001 fail.
+W0511 14:30:38.977692 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:30:38.979684 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:30:40.480147 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:30:40.482753 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:30:41.983130 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:30:41.985167 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:30:43.489455 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:30:43.490414 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:30:44.994787 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:30:44.995412 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:30:46.502065 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:30:46.503674 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:30:48.005874 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:30:48.006886 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:30:49.510819 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:30:49.513324 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:30:51.015628 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:30:51.017477 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:30:52.522542 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:30:52.523486 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:30:54.023679 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:30:54.025156 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:30:55.525959 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:30:55.527305 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:30:57.026726 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:30:57.028606 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:30:58.529211 309814720 NetConnector.cpp:287] open connect: 127.0.0.1:5001 fail.
+W0511 14:30:58.529425 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:30:58.529695 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:31:00.032742 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:31:00.034615 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:31:01.542173 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:31:01.543068 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:31:03.044150 309814720 NetConnector.cpp:287] open connect: 127.0.0.1:5001 fail.
+W0511 14:31:03.044219 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:31:03.045709 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:31:04.547610 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:31:04.549207 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:31:06.054164 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:31:06.056010 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:31:07.557853 309814720 NetConnector.cpp:287] open connect: 127.0.0.1:5001 fail.
+W0511 14:31:07.557921 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:31:07.559587 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:31:09.062657 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:31:09.064803 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:31:10.564432 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:31:10.566234 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:31:12.071755 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:31:12.072914 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:31:13.578953 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:31:13.579427 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:31:15.083472 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:31:15.085772 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:31:16.588603 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:31:16.590423 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:31:18.096974 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:31:18.098834 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:31:19.600131 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:31:19.601949 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:31:21.106451 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:31:21.107345 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:31:22.611562 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:31:22.613909 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:31:24.114003 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:31:24.115965 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:31:25.621282 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:31:25.623536 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:31:27.124063 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:31:27.125494 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:31:28.631362 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:31:28.632530 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:31:30.136868 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:31:30.139117 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:31:31.638659 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:31:31.640997 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:31:33.142658 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:31:33.144821 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:31:34.649514 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:31:34.651747 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:31:36.153589 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:31:36.155759 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:31:37.658113 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:31:37.660233 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:31:39.161118 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:31:39.162998 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:31:40.666496 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:31:40.668664 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:31:42.167454 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:31:42.170104 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:31:43.672176 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:31:43.674602 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:31:45.175282 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:31:45.177573 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:31:46.679278 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:31:46.681562 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:31:48.184864 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:31:48.185313 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:31:49.688330 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:31:49.690435 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:31:51.190393 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:31:51.192807 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:31:52.694712 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:31:52.696256 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:31:54.198313 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:31:54.199987 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:31:55.704527 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:31:55.709000 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:31:57.211917 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:31:57.214144 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:31:58.719110 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:31:58.719614 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:32:00.223220 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:32:00.224804 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:32:01.727661 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:32:01.729974 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:32:03.229934 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:32:03.232583 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:32:04.732863 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:32:04.734835 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:32:06.238589 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:32:06.239058 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:32:07.744871 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:32:07.747056 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:32:09.249980 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:32:09.252238 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:32:10.752027 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:32:10.753646 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:32:12.254914 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:32:12.257161 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:32:13.760365 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:32:13.762012 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:32:15.264138 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:32:15.266296 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:32:16.770731 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:32:16.773059 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:32:18.275038 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:32:18.277276 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:32:19.781255 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:32:19.783491 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:32:21.283499 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:32:21.284021 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:32:22.788941 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:32:22.790841 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:32:24.294876 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:32:24.297219 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:32:25.798384 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:32:25.800652 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:32:27.303299 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:32:27.305593 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:32:28.808177 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:32:28.810369 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:32:30.310891 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:32:30.311923 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:32:31.817792 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:32:31.819124 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:32:33.319588 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:32:33.322299 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:32:34.823724 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:32:34.825990 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:32:36.331555 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:32:36.333845 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:32:37.837205 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:32:37.837756 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:32:39.339103 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:32:39.341358 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:32:40.848070 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:32:40.849892 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:32:42.359125 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:32:42.361435 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:32:43.864542 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:32:43.866498 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:32:45.370749 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:32:45.372978 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:32:46.876121 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:32:46.878386 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:32:48.378320 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:32:48.380622 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:32:49.882823 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:32:49.883348 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:32:51.391036 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:32:51.393326 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:32:52.897112 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:32:52.898231 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:32:54.398164 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:32:54.400776 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:32:55.902180 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:32:55.904561 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:32:57.407394 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:32:57.409669 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:32:58.912416 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:32:58.914723 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:33:00.415488 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:33:00.417765 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:33:01.918705 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:33:01.920537 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:33:03.421398 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:33:03.422590 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:33:04.923213 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:33:04.925513 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:33:06.427691 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:33:06.428016 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:33:07.930459 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:33:07.932693 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:33:09.435281 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 14:33:09.438012 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 14:33:10.939079 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+I0511 14:33:10.939195 309814720 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0511 14:33:10.941399 76533760 GameServerThread.cpp:109] connect to center server succ!
+W0511 14:35:55.687672 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.687768 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.687789 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.687806 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.687824 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.687840 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.687857 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.687875 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.687891 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.687907 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.687924 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.687942 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.687958 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.687974 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.687991 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.688007 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.688024 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.688060 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.688076 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.688089 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.688112 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.688127 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.688140 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.688154 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.688167 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.688181 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.688194 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.688208 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.688302 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.688328 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.688344 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.688357 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.688371 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.688385 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.688400 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.688413 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.688472 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.688508 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.688524 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.688539 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.688554 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.688567 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.688581 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.688596 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.688676 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.688704 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.688719 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.688733 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.688747 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.688761 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.688776 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.688789 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.688817 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.688833 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.688848 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.688861 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.688875 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.688889 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.688904 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.688917 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.689005 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.689033 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.689049 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.689064 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.689077 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.689091 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.689105 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.689119 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.689142 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.689158 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.689172 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.689186 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.689200 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.689226 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.689241 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.689256 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.689359 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.689388 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.689402 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.689417 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.689431 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.689446 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.689460 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.689474 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.689553 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.689580 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.689596 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.689610 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.689628 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.689643 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.689657 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.689671 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.689685 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.689700 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.689714 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.689728 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.689743 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.689756 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.689769 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.689785 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.689904 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.689934 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.689949 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.689965 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.689978 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.689992 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.690006 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.690021 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.690050 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.690078 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.690093 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.690109 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.690122 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.690136 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.690150 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.690165 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.690268 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.690294 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.690310 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.690325 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.690338 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.690352 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.690366 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.690380 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.690423 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.690439 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.690454 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.690467 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.690481 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 14:35:55.690511 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.690526 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.690539 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.690650 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.690678 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.690696 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.690716 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.690734 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.690757 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.690773 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.690789 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.690811 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.690971 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.691026 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.691051 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.691068 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.691114 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.691134 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.691151 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.691169 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.691370 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.691429 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.691447 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.691462 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.691479 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.691495 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.691511 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.691527 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.691793 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.691861 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.691877 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.691900 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.691915 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.691931 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.691946 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.691962 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.692117 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.692159 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.692175 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.692189 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.692203 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.692219 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.692232 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.692247 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.692402 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.692446 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.692471 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.692486 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.692500 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.692515 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.692533 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.692548 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.692590 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.692754 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.692803 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.692821 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.692836 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.692852 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.692867 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.692883 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.692898 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.693209 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.693277 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.693296 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.693312 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.693328 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.693344 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.693372 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.693392 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.693549 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.693596 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.693614 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.693630 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.693666 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.693681 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.693696 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.693711 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.693830 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.693861 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.693879 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.693894 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.693908 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.693923 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.693938 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.693951 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.694053 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.694079 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.694095 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.694120 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.694135 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.694150 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.694164 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.694178 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.694193 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.694207 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.694221 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.694236 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.694250 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.694264 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.694278 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.694295 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.694413 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.694442 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.694461 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.694478 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.694492 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.694506 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.694520 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.694535 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.694613 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.694640 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.694658 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.694672 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.694686 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.694700 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.694715 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.694730 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.694808 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.694835 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.694852 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.694869 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.694891 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.694911 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.694926 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.694955 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.694972 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.694985 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.695000 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.695014 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.695029 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.695044 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.695057 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.695155 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.695183 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.695199 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.695214 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.695228 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.695243 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.695257 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.695276 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.695300 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.695317 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.695331 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.695346 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.695360 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.695375 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.695389 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.695405 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.695528 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.695556 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.695572 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.695587 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.695601 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.695616 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.695631 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.695644 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.695720 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.695747 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.695765 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.695778 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.695804 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.695819 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.695834 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.695848 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.695863 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.695878 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.695892 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.695906 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.695921 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.695935 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.695950 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.695964 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.696072 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.696101 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.696118 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.696136 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.696151 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.696166 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.696180 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.696194 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.696223 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.696239 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.696254 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.696269 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.696283 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.696297 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.696312 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.696326 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.696441 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.696468 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.696485 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.696499 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.696513 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.696528 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.696542 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.696557 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.696585 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.696601 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.696615 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.696630 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.696643 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.696658 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.696672 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.696687 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.696785 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.696806 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.696820 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.696835 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.696849 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.696863 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.696877 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.696897 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.696998 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.697018 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 14:35:55.697033 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:26:46.690819 76533760 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0511 15:26:47.967661 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+W0511 15:26:47.969918 76533760 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0511 15:26:49.472815 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+I0511 15:26:49.472965 309814720 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0511 15:26:49.473953 76533760 GameServerThread.cpp:113] connect to db server succ!
+W0511 15:27:26.750897 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.751094 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.751160 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.751217 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.751273 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.751329 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.751389 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.751446 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.751556 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.751726 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.751817 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.751876 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.751942 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.751976 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.752008 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.752041 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.752130 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.752192 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.752230 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.752264 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.752297 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.752331 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.752363 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.752396 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.752580 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.752640 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.752679 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.752713 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.752751 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.752786 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.752820 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.752852 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.752997 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.753055 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.753091 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.753125 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.753156 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.753208 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.753243 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.753275 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.753409 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.753449 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.753482 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.753515 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.753545 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.753577 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.753609 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.753641 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.753878 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.753937 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.753975 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.754009 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.754042 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.754076 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.754107 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.754140 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.754174 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.754274 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.754331 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.754369 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.754406 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.754448 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.754474 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.754500 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.754529 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.754698 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.754743 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.754772 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.754798 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.754823 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.754849 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.754874 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.754899 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.755024 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.755069 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.755100 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.755125 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.755151 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.755177 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.755201 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.755226 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.755350 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.755394 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.755424 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.755450 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.755475 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.755499 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.755524 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.755550 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.755684 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.755729 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.755759 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.755784 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.755810 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.755833 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.755858 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.755883 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.755908 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.755972 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.756018 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.756050 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.756078 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.756104 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.756130 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.756156 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.756181 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.756366 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.756412 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.756440 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.756481 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.756510 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.756538 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.756564 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.756589 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.756697 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.756742 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.756772 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.756798 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.756825 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.756851 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.756877 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.756903 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.757028 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.757073 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.757102 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.757128 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.757154 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.757180 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.757206 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500011
+W0511 15:27:26.757236 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.757313 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.757364 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.757395 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.757422 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.757449 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.757475 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.757504 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.757530 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.757556 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.757692 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.757737 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.757766 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.757791 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.757817 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.757843 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.757882 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.757908 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.758038 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.758074 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.758098 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.758121 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.758141 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.758162 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.758183 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.758203 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.758281 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.758318 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.758343 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.758365 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.758386 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.758407 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.758428 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.758450 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.758574 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.758612 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.758636 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.758658 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.758679 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.758702 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.758723 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.758744 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.758817 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.758857 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.758882 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.758903 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.758925 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.758947 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.758968 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.758989 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.759011 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.759107 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.759157 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.759181 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.759202 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.759223 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.759244 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.759265 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.759285 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.759398 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.759436 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.759461 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.759483 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.759505 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.759526 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.759546 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.759567 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.759688 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.759727 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.759752 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.759773 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.759794 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.759815 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.759836 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.759857 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.759948 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.759975 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.759997 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.760018 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.760042 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.760064 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.760085 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.760107 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.760285 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.760323 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.760346 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.760406 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.760432 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.760468 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.760490 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.760512 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.760534 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.760555 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.760576 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.760596 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.760618 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.760639 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.760660 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.760752 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.760776 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.760798 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.760819 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.760840 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.760861 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.760882 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.760903 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.761034 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.761060 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.761082 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.761103 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.761124 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.761145 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.761168 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.761188 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.761368 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.761397 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.761420 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.761440 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.761461 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.761482 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.761503 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.761524 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.761674 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.761698 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.761730 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.761752 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.761773 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.761795 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.761816 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.761837 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.761955 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.762049 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.762086 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.762110 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.762132 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.762153 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.762176 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.762197 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.762218 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.762239 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.762261 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.762282 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.762305 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.762326 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.762346 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.762367 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.762388 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.762593 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.762630 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.762653 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.762675 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.762719 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.762738 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.762755 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.762773 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.762895 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.762928 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.762946 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.762964 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.762982 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.763032 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.763052 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.763069 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.763120 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.763152 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.763171 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.763190 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.763206 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.763223 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.763240 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.763257 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.763407 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.763439 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.763458 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.763475 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.763492 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.763509 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.763526 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.763543 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.763681 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.763720 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.763742 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.763761 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.763778 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.763795 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.763813 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.763830 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.763850 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.763937 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.763955 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.763973 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.763990 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.764008 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.764024 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.764042 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.764060 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.785516 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.785567 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.785588 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.785606 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.785624 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.785640 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.785658 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.785676 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.785786 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.785818 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.785837 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.785856 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.785872 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.785889 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.785907 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.785923 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.785982 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.786017 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.786037 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500012
+W0511 15:27:26.786059 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:27:26.786077 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:27:26.786094 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:27:26.786110 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:27:26.786128 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:27:26.786182 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:27:26.786214 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:27:26.786233 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:27:26.786255 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:27:26.786273 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:27:26.786289 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:27:26.786306 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:27:26.786324 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:27:26.786339 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:27:26.786434 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:27:26.786465 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:27:26.786484 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:27:26.786511 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:27:26.786530 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:27:26.786546 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:27:26.786563 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:27:26.786581 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:27:26.786676 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:27:26.786707 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:27:26.786726 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:27:26.786743 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:27:26.786761 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:27:26.786777 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:27:26.786793 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:27:26.786809 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:27:26.786887 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:27:26.786909 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:27:26.786926 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:27:26.786943 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:27:26.786959 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:27:26.786975 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:27:26.786993 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:27:26.787009 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:27:26.787137 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:27:26.787166 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:27:26.787186 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:27:26.787204 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:27:26.787220 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:27:40.537050 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 15:27:41.611449 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+I0511 15:27:41.611547 309814720 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0511 15:27:41.611690 76533760 GameServerThread.cpp:109] connect to center server succ!
+W0511 15:28:15.028642 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:28:15.028760 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:28:15.028789 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:28:15.028813 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:28:15.028836 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:28:15.028859 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:28:15.028882 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:28:15.028906 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:28:15.028929 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:28:15.028951 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:28:15.028975 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:28:15.028997 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:28:15.029022 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:28:15.029109 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:28:15.029153 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:28:15.029178 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:28:15.029201 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:28:15.029222 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:28:15.029243 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:28:15.029265 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:28:15.029287 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:28:15.029310 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:28:15.029332 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:28:15.029354 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:28:15.029376 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:28:15.029397 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:28:15.029418 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:28:15.029439 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:28:15.029460 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:28:15.029577 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:28:15.029614 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:28:15.029639 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:28:15.029660 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:28:15.029681 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:28:15.029703 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:28:15.029728 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:28:15.029750 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:28:15.029784 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:28:15.029806 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:28:15.029827 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:28:15.029848 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:28:15.029870 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:28:15.029891 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:29:40.500435 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 15:29:41.968768 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+I0511 15:29:41.968905 309814720 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0511 15:29:41.969096 76533760 GameServerThread.cpp:109] connect to center server succ!
+W0511 15:30:14.296958 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:30:14.297031 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:30:14.297053 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:30:14.297071 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:30:14.297091 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:30:14.297109 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:30:14.297127 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:30:14.297145 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:30:14.297163 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:30:14.297180 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:30:14.297199 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:30:14.297215 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:30:14.297233 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:30:14.297338 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:30:14.297369 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:30:14.297390 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:30:14.297408 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:30:14.297426 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:30:14.297446 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:30:14.297463 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:30:14.297482 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:30:14.297593 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:30:14.297626 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:30:14.297646 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:30:14.297667 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:30:14.297691 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:30:14.297713 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:30:14.297732 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:30:14.297750 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:30:14.297832 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:30:14.297863 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:30:14.297883 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:30:14.297902 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:30:14.297920 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:30:14.297937 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:30:14.297955 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:30:14.297973 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:30:14.298002 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:30:14.298022 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:30:14.298039 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:30:14.298056 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:30:14.298074 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+W0511 15:30:14.298091 76533760 GroupMgr.cpp:35] insert group user fail, can not find group info. group id: 500017
+I0511 15:30:29.666568 309814720 NetServer.cpp:88] delete io...127.0.0.1:51380
+W0511 15:30:29.668730 76533760 ServerMgr.cpp:67] remove one proxy server, id: 30
+I0511 15:30:31.795735 309814720 NetServer.cpp:55] accept io...127.0.0.1:61664
+I0511 15:30:31.797838 76533760 GameServerThread.cpp:146] bind one connect: 127.0.0.1:61664
+I0511 15:30:31.802945 76533760 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:61664
+W0511 15:37:57.473378 76533760 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0511 15:37:59.066354 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+I0511 15:37:59.066802 309814720 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0511 15:37:59.067804 76533760 GameServerThread.cpp:113] connect to db server succ!
+W0511 15:40:10.018759 76533760 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0511 15:40:11.529950 309814720 NetModule.cpp:723] ready reconnect server, server id: 992
+I0511 15:40:11.530064 309814720 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0511 15:40:11.530962 76533760 GameServerThread.cpp:109] connect to center server succ!
+I0511 15:41:09.645997 309814720 NetServer.cpp:88] delete io...127.0.0.1:61664

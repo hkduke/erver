@@ -1,0 +1,29 @@
+Log file created at: 2019/04/04 19:33:28
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0404 19:33:28.019227 129091008 GameServer.cpp:45] 正在启动游戏服务器...
+I0404 19:33:28.021004 129091008 NetModule.h:71] Init NetModule Finished.
+I0404 19:33:28.021214 129091008 NetModule.h:78] start work thread 0...
+I0404 19:33:28.021222 129091008 NetModule.cpp:69] Start Run NetModule...
+I0404 19:33:28.021237 129091008 NetModule.cpp:88] NetModule Already Startover.
+I0404 19:33:28.021250 129091008 NetModule.cpp:220] add one connector: 127.0.0.1:5001 succeed...
+I0404 19:33:28.021255 129091008 NetModule.cpp:220] add one connector: 127.0.0.1:6001 succeed...
+I0404 19:33:28.021260 129091008 NetModule.cpp:136] Create one server...
+I0404 19:33:28.525161 129091008 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0404 19:33:28.525202 129091008 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0404 19:33:28.526074 234606592 GameServerThread.cpp:113] connect to db server succ!
+I0404 19:34:05.660503 234606592 AndroidUserMgr.cpp:832] set active android count: 0
+I0404 19:34:05.660655 234606592 AndroidUserMgr.cpp:832] set active android count: 100
+I0404 19:34:06.177660 234606592 GameServerThread.cpp:1933] load benefit config succ!
+I0404 19:34:06.233547 129091008 NetServer.cpp:55] accept io...127.0.0.1:52566
+I0404 19:34:06.858579 234606592 GameServerThread.cpp:1853] load android parameter succ, android count : 140
+W0404 19:34:06.996582 234606592 GameTableManager.cpp:566] update br game server black list, server id: 991
+I0404 19:34:06.997141 234606592 GameServerThread.cpp:1507] init server succ!
+I0404 19:34:06.997162 234606592 GameServerThread.cpp:146] bind one connect: 127.0.0.1:52566
+I0404 19:34:06.997184 234606592 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:52566
+I0404 19:37:47.798405 129091008 NetServer.cpp:88] delete io...127.0.0.1:52566
+W0404 19:37:47.799291 234606592 ServerMgr.cpp:67] remove one proxy server, id: 30
+I0404 19:37:50.876211 129091008 NetServer.cpp:55] accept io...127.0.0.1:52571
+I0404 19:37:50.878208 234606592 GameServerThread.cpp:146] bind one connect: 127.0.0.1:52571
+I0404 19:37:50.883317 234606592 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:52571
+I0404 19:52:01.567504 129091008 NetServer.cpp:88] delete io...127.0.0.1:52571

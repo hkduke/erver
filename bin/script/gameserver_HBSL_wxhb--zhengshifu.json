@@ -1,0 +1,493 @@
+{
+	"配置文件申明":"红包扫雷无限红包------------------在此配置文件涉及的钱单位都是元，不支持小数",
+	"iGrabLastOneHBProba_comment":"机器人抢最后一个红包的概率",
+	"iGrabLastOneHBProba":100,
+	"HBRoomBaseCfg_comment":"基础配置",
+    "HBRoomBaseCfg": [
+        {
+            "iHBAllotCount": 10,
+            "fMultiple": 1.0,
+            "dwHBLowerLimit": 20,
+            "dwHBUpperLimit": 300
+		},
+		{
+            "iHBAllotCount": 5,
+            "fMultiple": 2.0,
+            "dwHBLowerLimit": 20,
+            "dwHBUpperLimit": 300
+		},
+        {
+            "iHBAllotCount": 7,
+            "fMultiple": 1.5,
+            "dwHBLowerLimit": 20,
+            "dwHBUpperLimit": 300
+        }
+	],
+	"RobotGrabHBCfg_comment":"机器人抢红包配置",
+	"RobotGrabHBCfg": [{
+		"iHBAllotCount": 10,
+		"vRobotGrabHBTable": [{
+				"iRealLowerLimit": 0,
+				"iRealUpperLimit": 2,
+				"iRobotLowerLimit": 9,
+				"iRobotUpperLimit": 11,
+				"iRobotTimeLowerLimit_comment":"时间下限，单位：秒",
+				"iRobotTimeLowerLimit": 4,
+				"iRobotTimeUpperLimit": 8
+			},
+			{
+				"iRealLowerLimit": 2,
+				"iRealUpperLimit": 5,
+				"iRobotLowerLimit": 5,
+				"iRobotUpperLimit": 11,
+				"iRobotTimeLowerLimit": 4,
+				"iRobotTimeUpperLimit": 9
+			},
+			{
+				"iRealLowerLimit": 5,
+				"iRealUpperLimit": 10,
+				"iRobotLowerLimit": 3,
+				"iRobotUpperLimit": 7,
+				"iRobotTimeLowerLimit": 4,
+				"iRobotTimeUpperLimit": 10
+			},
+			{
+				"iRealLowerLimit": 10,
+				"iRealUpperLimit": 20,
+				"iRobotLowerLimit": 3,
+				"iRobotUpperLimit": 9,
+				"iRobotTimeLowerLimit": 20,
+				"iRobotTimeUpperLimit": 40
+			}
+		]
+	},
+	{
+		"iHBAllotCount": 7,
+		"vRobotGrabHBTable": [{
+				"iRealLowerLimit": 0,
+				"iRealUpperLimit": 2,
+				"iRobotLowerLimit": 6,
+				"iRobotUpperLimit": 9,
+				"iRobotTimeLowerLimit_comment":"时间下限，单位：秒",
+				"iRobotTimeLowerLimit": 3,
+				"iRobotTimeUpperLimit": 8
+			},
+			{
+				"iRealLowerLimit": 2,
+				"iRealUpperLimit": 4,
+				"iRobotLowerLimit": 4,
+				"iRobotUpperLimit": 8,
+				"iRobotTimeLowerLimit": 3,
+				"iRobotTimeUpperLimit": 9
+			},
+			{
+				"iRealLowerLimit": 4,
+				"iRealUpperLimit": 7,
+				"iRobotLowerLimit": 2,
+				"iRobotUpperLimit": 5,
+				"iRobotTimeLowerLimit": 4,
+				"iRobotTimeUpperLimit": 10
+			},
+			{
+				"iRealLowerLimit": 8,
+				"iRealUpperLimit": 20,
+				"iRobotLowerLimit": 2,
+				"iRobotUpperLimit": 6,
+				"iRobotTimeLowerLimit": 20,
+				"iRobotTimeUpperLimit": 40
+			}
+		]
+	},
+	{
+		"iHBAllotCount": 5,
+		"vRobotGrabHBTable": [{
+				"iRealLowerLimit": 0,
+				"iRealUpperLimit": 2,
+				"iRobotLowerLimit": 4,
+				"iRobotUpperLimit": 6,
+				"iRobotTimeLowerLimit_comment":"时间下限，单位：秒",
+				"iRobotTimeLowerLimit": 3,
+				"iRobotTimeUpperLimit": 8
+			},
+			{
+				"iRealLowerLimit": 2,
+				"iRealUpperLimit": 3,
+				"iRobotLowerLimit": 2,
+				"iRobotUpperLimit": 5,
+				"iRobotTimeLowerLimit": 3,
+				"iRobotTimeUpperLimit": 9
+			},
+			{
+				"iRealLowerLimit": 3,
+				"iRealUpperLimit": 6,
+				"iRobotLowerLimit": 1,
+				"iRobotUpperLimit": 3,
+				"iRobotTimeLowerLimit": 4,
+				"iRobotTimeUpperLimit": 10
+			},
+			{
+				"iRealLowerLimit": 6,
+				"iRealUpperLimit": 20,
+				"iRobotLowerLimit": 2,
+				"iRobotUpperLimit": 4,
+				"iRobotTimeLowerLimit": 20,
+				"iRobotTimeUpperLimit": 40
+			}
+		]
+	}
+	],
+	"RobotFaHBAmountCfg_comment":"机器人发红包金额配置",
+	"RobotFaHBAmountCfg": [
+		{
+			"iHBAllotCount": 10,
+			"vRobotFaHBAmountTable": [{
+					"dwHBAmount": 20,
+					"iProba": 35
+				}
+				,
+				{
+					"dwHBAmount": 30,
+					"iProba": 20
+				}
+				,
+				{
+					"dwHBAmount": 40,
+					"iProba": 15
+				},
+				{
+					"dwHBAmount": 50,
+					"iProba": 10
+				},
+				{
+					"dwHBAmount": 70,
+					"iProba": 10
+				}
+				,
+				{
+					"dwHBAmount": 100,
+					"iProba": 5
+				},
+				{
+					"dwHBAmount": 200,
+					"iProba": 5
+				}]
+		},
+		{
+			"iHBAllotCount": 7,
+			"vRobotFaHBAmountTable": [{
+				"dwHBAmount": 20,
+				"iProba": 35
+			}
+			,
+			{
+				"dwHBAmount": 30,
+				"iProba": 20
+			}
+			,
+			{
+				"dwHBAmount": 40,
+				"iProba": 15
+			},
+			{
+				"dwHBAmount": 50,
+				"iProba": 10
+			},
+			{
+				"dwHBAmount": 70,
+				"iProba": 10
+			}
+			,
+			{
+				"dwHBAmount": 100,
+				"iProba": 5
+			},
+			{
+				"dwHBAmount": 200,
+				"iProba": 5
+			}]
+		}
+		,
+		{
+			"iHBAllotCount": 5,
+			"vRobotFaHBAmountTable": [{
+				"dwHBAmount": 20,
+				"iProba": 35
+			}
+			,
+			{
+				"dwHBAmount": 30,
+				"iProba": 20
+			}
+			,
+			{
+				"dwHBAmount": 40,
+				"iProba": 15
+			},
+			{
+				"dwHBAmount": 50,
+				"iProba": 10
+			},
+			{
+				"dwHBAmount": 70,
+				"iProba": 10
+			}
+			,
+			{
+				"dwHBAmount": 100,
+				"iProba": 5
+			},
+			{
+				"dwHBAmount": 200,
+				"iProba": 5
+			}]
+		}
+	],
+	"RobotApplyFaHBCfg_comment":"机器人申请发红包配置",
+	"RobotApplyFaHBCfg": [{
+			"iApplyListLenLowerLimit_comment":"未抢完的红包下限",
+			"iApplyListLenLowerLimit": 0,
+			"iApplyListLenUpperLimit_comment":"未抢完的红包上限",
+			"iApplyListLenUpperLimit": 2,
+			"iProba": 100,
+			"iFaHBRobotCount": 2
+		},
+		{
+			"iApplyListLenLowerLimit": 2,
+			"iApplyListLenUpperLimit": 4,
+			"iProba": 80,
+			"iFaHBRobotCount": 1
+		},
+		{
+			"iApplyListLenLowerLimit": 4,
+			"iApplyListLenUpperLimit": 10,
+			"iProba": 40,
+			"iFaHBRobotCount": 1
+		},
+		{
+			"iApplyListLenLowerLimit": 10,
+			"iApplyListLenUpperLimit": 20,
+			"iProba": 10,
+			"iFaHBRobotCount": 1
+		}
+	],
+	"RobotQuitCfg_comment":"机器人退出配置",
+	"RobotQuitCfg": {
+		"llRemainScore_comment":"机器人身上金币低于此值退出，单位是元",
+        "llRemainScore": 100,
+        "RobotQuitTable": [{
+				"iOnlineTime_comment":"在线时间，单位：分钟",
+				"iOnlineTime": 5,
+				"iQuitProba_comment":"退出概率：0-100",
+                "iQuitProba": 50
+            },
+            {
+                "iOnlineTime": 7,
+                "iQuitProba": 60
+            },
+            {
+                "iOnlineTime": 9,
+                "iQuitProba": 70
+            },
+            {
+                "iOnlineTime": 11,
+                "iQuitProba": 80
+            },
+            {
+                "iOnlineTime": 13,
+                "iQuitProba": 90
+            },
+            {
+                "iOnlineTime": 15,
+                "iQuitProba": 100
+            }
+        ]
+	},
+	"StockKillScoreCfg_comment":"机器人库存杀分配置",
+	"StockKillScoreCfg": 
+	{
+		"iRobotFaHBRobotThunderProba_comment":"在杀分阶段，机器人发红包，其他机器人中雷，概率",
+		"iRobotFaHBRobotThunderProba":70,
+		"iRealFaHBRobotThunderProba_comment":"在杀分阶段，真人发红包，其他机器人中雷，概率",
+		"iRealFaHBRobotThunderProba":30,
+		"i7HBLevelNoThunderProba_comment":"杀分阶段，7包场5包场没雷概率",
+		"i7HBLevelNoThunderProba":50,
+		"i10HBLevelNoThunderProba_comment":"杀分阶段，10包场没雷概率",
+		"i10HBLevelNoThunderProba":0,
+		"vKillScoreTable":[{
+				"iTriggerStockLowerLimit_comment":"此值不需要乘以100，代表库存输赢多少钱，单位为元",
+				"iTriggerStockLowerLimit": -500,
+				"iTriggerStockUpperLimit": 0,
+				"iKillScoreProba": 40
+			},
+			{
+				"iTriggerStockLowerLimit": -1000,
+				"iTriggerStockUpperLimit": -500,
+				"iKillScoreProba": 50
+			},
+			{
+				"iTriggerStockLowerLimit": -1500,
+				"iTriggerStockUpperLimit": -1000,
+				"iKillScoreProba": 80
+			},
+			{
+				"iTriggerStockLowerLimit": -2000,
+				"iTriggerStockUpperLimit": -1500,
+				"iKillScoreProba": 90
+			},
+			{
+				"iTriggerStockLowerLimit": -2147483647,
+				"iTriggerStockUpperLimit": -2000,
+				"iKillScoreProba": 100
+			}
+		]
+	},
+	"BatchHBCountVIPCfg_comment":"批量发红包数量与VIp的关系",
+	"BatchHBCountVIPCfg":[
+		{
+			"iVIPLevel":0,
+			"iMaxFaHB":5
+		},
+		{
+			"iVIPLevel":1,
+			"iMaxFaHB":8
+		}
+		,
+		{
+			"iVIPLevel":2,
+			"iMaxFaHB":10
+		}
+		,
+		{
+			"iVIPLevel":3,
+			"iMaxFaHB":12
+		}
+		,
+		{
+			"iVIPLevel":4,
+			"iMaxFaHB":14
+		}
+		,
+		{
+			"iVIPLevel":5,
+			"iMaxFaHB":18
+		}
+		,
+		{
+			"iVIPLevel":6,
+			"iMaxFaHB_comment":"此值不能大于20，如果要大于20要改代码中的MAX_FA_HB_COUNT宏",
+			"iMaxFaHB":20
+		}
+	],
+	"PointCtrlCfg_comment":"点控配置",
+	"PointCtrlCfg": 
+	{
+		"iExeProba_comment":"点控执行概率",
+		"iExeProba":50,
+		"vPointCtrlTable":[
+			{
+				"llChgScoreLowerLimit_comment":"当用户输赢在llChgScoreLowerLimit到llChgScoreUpperLimit范围内时，按照iProba概率加入到点控队列",
+				"llChgScoreLowerLimit":1000,
+				"llChgScoreUpperLimit_comment":"此值不需要乘以100，代表玩家输赢多少钱，单位为元",
+				"llChgScoreUpperLimit":2000,
+				"iProba":10,
+				"iCtlChgPstLowerLimit_comment":"控制玩家输赢分数为玩家之前总输赢*30%-40%范围内随机",
+				"iCtlChgPstLowerLimit":20,
+				"iCtlChgPstUpperLimit":40,
+				"iCtrlType_comment":"控制方式为：-1控制玩家赢钱，1控制玩家输钱",
+				"iCtrlType":1
+			},
+			{
+				"llChgScoreLowerLimit_comment":"当用户输赢在llChgScoreLowerLimit到llChgScoreUpperLimit范围内时，按照iProba概率加入到点控队列",
+				"llChgScoreLowerLimit":3000,
+				"llChgScoreUpperLimit_comment":"此值不需要乘以100，代表玩家输赢多少钱，单位为元",
+				"llChgScoreUpperLimit":4000,
+				"iProba":20,
+				"iCtlChgPstLowerLimit_comment":"控制玩家输赢分数为玩家之前总输赢*30%-40%范围内随机",
+				"iCtlChgPstLowerLimit":30,
+				"iCtlChgPstUpperLimit":50,
+				"iCtrlType_comment":"控制方式为：-1控制玩家赢钱，1控制玩家输钱",
+				"iCtrlType":1
+			},
+			{
+				"llChgScoreLowerLimit":5000,
+				"llChgScoreUpperLimit":7000,
+				"iProba":30,
+				"iCtlChgPstLowerLimit":40,
+				"iCtlChgPstUpperLimit":50,
+				"iCtrlType":1
+			},
+			{
+				"llChgScoreLowerLimit":8000,
+				"llChgScoreUpperLimit":11000,
+				"iProba":40,
+				"iCtlChgPstLowerLimit":40,
+				"iCtlChgPstUpperLimit":50,
+				"iCtrlType":1
+			},
+			{
+				"llChgScoreLowerLimit":11000,
+				"llChgScoreUpperLimit_comment":"此值配0表示正的无穷大",
+				"llChgScoreUpperLimit":0,
+				"iProba":50,
+				"iCtlChgPstLowerLimit":50,
+				"iCtlChgPstUpperLimit":70,
+				"iCtrlType":1
+			},
+			{
+				"llChgScoreLowerLimit":-2000,
+				"llChgScoreUpperLimit":-1000,
+				"iProba":10,
+				"iCtlChgPstLowerLimit":20,
+				"iCtlChgPstUpperLimit":40,
+				"iCtrlType":-1
+			},
+			{
+				"llChgScoreLowerLimit":-4000,
+				"llChgScoreUpperLimit":-3000,
+				"iProba":20,
+				"iCtlChgPstLowerLimit":30,
+				"iCtlChgPstUpperLimit":50,
+				"iCtrlType":-1
+			},
+			{
+				"llChgScoreLowerLimit":-7000,
+				"llChgScoreUpperLimit":-5000,
+				"iProba":30,
+				"iCtlChgPstLowerLimit":30,
+				"iCtlChgPstUpperLimit":50,
+				"iCtrlType":-1
+			},
+			{
+				"llChgScoreLowerLimit":-11000,
+				"llChgScoreUpperLimit":-8000,
+				"iProba":40,
+				"iCtlChgPstLowerLimit":40,
+				"iCtlChgPstUpperLimit":50,
+				"iCtrlType":-1
+			},
+			{
+				"llChgScoreLowerLimit_comment":"此值配0表示负的无穷大",
+				"llChgScoreLowerLimit":0,
+				"llChgScoreUpperLimit":-11000,
+				"iProba":50,
+				"iCtlChgPstLowerLimit":50,
+				"iCtlChgPstUpperLimit":70,
+				"iCtrlType":-1
+			}
+		]
+	}
+	,
+	"RobotFaHBAllotCfg_comment":"机器人发红包种类配置",
+	"RobotFaHBAllotCfg": [{
+		"iHBAllotCount": 10,
+		"iProba": 40
+	}, 
+	{
+		"iHBAllotCount": 7,
+		"iProba": 30
+	}, 
+	{
+		"iHBAllotCount": 5,
+		"iProba": 30
+	}]
+}

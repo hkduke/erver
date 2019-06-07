@@ -1,0 +1,249 @@
+Log file created at: 2018/12/14 21:07:25
+Running on machine: henisdeMacBook-Pro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1214 21:07:25.753191 291976640 CenterServer.cpp:32] 正在启动中心服务器...
+I1214 21:07:25.754935 291976640 NetModule.h:71] Init NetModule Finished.
+I1214 21:07:25.755060 291976640 NetModule.h:77] start work thread 0...
+I1214 21:07:25.755069 291976640 NetModule.cpp:64] Start Run NetModule...
+I1214 21:07:25.755100 291976640 NetModule.cpp:76] NetModule Already Startover.
+I1214 21:07:25.755110 291976640 NetModule.cpp:200] add one connector: 0.0.0.0:6001 succeed...
+I1214 21:07:25.755115 291976640 NetModule.cpp:118] Create one server...
+I1214 21:07:26.256075 291976640 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I1214 21:07:26.257966 198402048 CenterThread.cpp:87] connect to db server succ!
+I1214 21:07:28.475878 291976640 NetServer.cpp:55] accept io...127.0.0.1:53111
+I1214 21:07:28.499596 198402048 ServerMgr.cpp:54] register one proxy server: 127.0.0.1:53111
+W1214 21:07:30.146826 198402048 CenterThread.cpp:3921] OnSubLoadWealthGodHistoryData: 10
+W1214 21:07:30.685844 198402048 CenterThread.cpp:3921] OnSubLoadWealthGodHistoryData: 10
+W1214 21:07:31.167007 198402048 CenterThread.cpp:3921] OnSubLoadWealthGodHistoryData: 10
+I1214 21:07:31.231658 291976640 NetServer.cpp:55] accept io...127.0.0.1:53114
+I1214 21:07:31.346742 198402048 ServerMgr.cpp:469] register one login server: 127.0.0.1:53114
+W1214 21:07:31.628978 198402048 CenterThread.cpp:3921] OnSubLoadWealthGodHistoryData: 10
+W1214 21:07:32.187732 198402048 CenterThread.cpp:3921] OnSubLoadWealthGodHistoryData: 10
+W1214 21:07:32.757131 198402048 CenterThread.cpp:3921] OnSubLoadWealthGodHistoryData: 10
+W1214 21:07:33.241410 198402048 CenterThread.cpp:3921] OnSubLoadWealthGodHistoryData: 10
+W1214 21:07:33.730140 198402048 CenterThread.cpp:3921] OnSubLoadWealthGodHistoryData: 10
+W1214 21:07:34.189240 198402048 CenterThread.cpp:3921] OnSubLoadWealthGodHistoryData: 10
+W1214 21:07:34.679883 198402048 CenterThread.cpp:3921] OnSubLoadWealthGodHistoryData: 10
+W1214 21:07:35.167912 198402048 CenterThread.cpp:3921] OnSubLoadWealthGodHistoryData: 10
+I1214 21:07:35.990289 291976640 NetServer.cpp:55] accept io...127.0.0.1:53119
+I1214 21:07:36.644934 198402048 ServerMgr.cpp:187] register one game server: 127.0.0.1:53119
+W1214 21:07:39.364670 198402048 DuoBaoMgr.cpp:94] has the same doing data? id: 2
+W1214 21:07:39.364822 198402048 DuoBaoMgr.cpp:94] has the same doing data? id: 3
+W1214 21:07:39.364884 198402048 DuoBaoMgr.cpp:94] has the same doing data? id: 26
+W1214 21:07:39.364940 198402048 DuoBaoMgr.cpp:94] has the same doing data? id: 28
+W1214 21:07:39.364995 198402048 DuoBaoMgr.cpp:94] has the same doing data? id: 29
+W1214 21:07:39.365064 198402048 DuoBaoMgr.cpp:175] load duo bao data finish.
+I1214 21:44:24.037636 291976640 NetServer.cpp:88] delete io...127.0.0.1:53119
+I1214 21:44:24.037891 291976640 NetServer.cpp:88] delete io...127.0.0.1:53114
+I1214 21:44:24.037930 291976640 NetServer.cpp:88] delete io...127.0.0.1:53111
+W1214 21:44:24.039588 198402048 ServerMgr.cpp:827] remove one game server, id:1101
+W1214 21:44:24.039655 198402048 ServerMgr.cpp:843] remove one login server, id:10
+W1214 21:44:24.039695 198402048 ServerMgr.cpp:866] remove one proxy server, id:30
+W1214 21:44:24.039727 198402048 CenterThread.cpp:120] db server is disconnect, after 1s will be reconnect!
+W1214 21:44:25.520393 291976640 NetModule.cpp:703] ready reconnect server, server id: 0
+I1214 21:44:25.520573 291976640 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1214 21:44:25.520886 291976640 NetServer.cpp:55] accept io...127.0.0.1:53315
+I1214 21:44:25.523180 198402048 CenterThread.cpp:87] connect to db server succ!
+I1214 21:44:25.543153 198402048 ServerMgr.cpp:187] register one game server: 127.0.0.1:53315
+I1214 21:44:27.527530 291976640 NetServer.cpp:55] accept io...127.0.0.1:53316
+I1214 21:44:27.555361 198402048 ServerMgr.cpp:54] register one proxy server: 127.0.0.1:53316
+I1214 21:44:34.550621 291976640 NetServer.cpp:55] accept io...127.0.0.1:53323
+I1214 21:44:34.556064 198402048 ServerMgr.cpp:469] register one login server: 127.0.0.1:53323
+I1214 21:50:01.001586 291976640 NetServer.cpp:88] delete io...127.0.0.1:53315
+I1214 21:50:01.001791 291976640 NetServer.cpp:88] delete io...127.0.0.1:53323
+I1214 21:50:01.001858 291976640 NetServer.cpp:88] delete io...127.0.0.1:53316
+W1214 21:50:01.003638 198402048 ServerMgr.cpp:827] remove one game server, id:1101
+W1214 21:50:01.003674 198402048 ServerMgr.cpp:843] remove one login server, id:10
+W1214 21:50:01.003695 198402048 ServerMgr.cpp:866] remove one proxy server, id:30
+W1214 21:50:01.003712 198402048 CenterThread.cpp:120] db server is disconnect, after 1s will be reconnect!
+W1214 21:50:02.488736 291976640 NetModule.cpp:703] ready reconnect server, server id: 0
+I1214 21:50:02.488914 291976640 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1214 21:50:02.491541 198402048 CenterThread.cpp:87] connect to db server succ!
+I1214 21:50:02.492403 291976640 NetServer.cpp:55] accept io...127.0.0.1:53333
+I1214 21:50:02.503778 198402048 ServerMgr.cpp:187] register one game server: 127.0.0.1:53333
+I1214 21:50:04.497579 291976640 NetServer.cpp:55] accept io...127.0.0.1:53334
+I1214 21:50:04.529412 198402048 ServerMgr.cpp:54] register one proxy server: 127.0.0.1:53334
+I1214 21:50:11.528754 291976640 NetServer.cpp:55] accept io...127.0.0.1:53340
+I1214 21:50:11.534132 198402048 ServerMgr.cpp:469] register one login server: 127.0.0.1:53340
+I1214 21:55:37.954773 291976640 NetServer.cpp:88] delete io...127.0.0.1:53333
+I1214 21:55:37.954849 291976640 NetServer.cpp:88] delete io...127.0.0.1:53334
+I1214 21:55:37.954870 291976640 NetServer.cpp:88] delete io...127.0.0.1:53340
+W1214 21:55:37.956799 198402048 ServerMgr.cpp:827] remove one game server, id:1101
+W1214 21:55:37.956831 198402048 ServerMgr.cpp:866] remove one proxy server, id:30
+W1214 21:55:37.956849 198402048 ServerMgr.cpp:843] remove one login server, id:10
+W1214 21:55:37.956866 198402048 CenterThread.cpp:120] db server is disconnect, after 1s will be reconnect!
+I1214 21:55:39.432387 291976640 NetServer.cpp:55] accept io...127.0.0.1:53349
+I1214 21:55:39.437685 198402048 ServerMgr.cpp:187] register one game server: 127.0.0.1:53349
+W1214 21:55:39.439388 291976640 NetModule.cpp:703] ready reconnect server, server id: 0
+I1214 21:55:39.439574 291976640 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1214 21:55:39.439965 198402048 CenterThread.cpp:87] connect to db server succ!
+I1214 21:55:41.441920 291976640 NetServer.cpp:55] accept io...127.0.0.1:53353
+I1214 21:55:41.471876 198402048 ServerMgr.cpp:54] register one proxy server: 127.0.0.1:53353
+I1214 21:55:48.474336 291976640 NetServer.cpp:55] accept io...127.0.0.1:53358
+I1214 21:55:48.488912 198402048 ServerMgr.cpp:469] register one login server: 127.0.0.1:53358
+I1214 22:01:14.906292 291976640 NetServer.cpp:88] delete io...127.0.0.1:53349
+I1214 22:01:14.906353 291976640 NetServer.cpp:88] delete io...127.0.0.1:53353
+I1214 22:01:14.906375 291976640 NetServer.cpp:88] delete io...127.0.0.1:53358
+W1214 22:01:14.907129 198402048 ServerMgr.cpp:827] remove one game server, id:1101
+W1214 22:01:14.907166 198402048 ServerMgr.cpp:866] remove one proxy server, id:30
+W1214 22:01:14.907186 198402048 ServerMgr.cpp:843] remove one login server, id:10
+W1214 22:01:14.907203 198402048 CenterThread.cpp:120] db server is disconnect, after 1s will be reconnect!
+W1214 22:01:16.386818 291976640 NetModule.cpp:703] ready reconnect server, server id: 0
+I1214 22:01:16.386999 291976640 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1214 22:01:16.389569 198402048 CenterThread.cpp:87] connect to db server succ!
+I1214 22:01:16.393129 291976640 NetServer.cpp:55] accept io...127.0.0.1:53365
+I1214 22:01:16.415782 198402048 ServerMgr.cpp:187] register one game server: 127.0.0.1:53365
+I1214 22:01:18.399580 291976640 NetServer.cpp:55] accept io...127.0.0.1:53366
+I1214 22:01:18.426671 198402048 ServerMgr.cpp:54] register one proxy server: 127.0.0.1:53366
+I1214 22:01:24.932060 291976640 NetServer.cpp:55] accept io...127.0.0.1:53370
+I1214 22:01:24.952857 198402048 ServerMgr.cpp:469] register one login server: 127.0.0.1:53370
+I1214 22:06:51.892262 291976640 NetServer.cpp:88] delete io...127.0.0.1:53370
+I1214 22:06:51.892364 291976640 NetServer.cpp:88] delete io...127.0.0.1:53365
+I1214 22:06:51.892396 291976640 NetServer.cpp:88] delete io...127.0.0.1:53366
+W1214 22:06:51.894636 198402048 ServerMgr.cpp:843] remove one login server, id:10
+W1214 22:06:51.894686 198402048 ServerMgr.cpp:827] remove one game server, id:1101
+W1214 22:06:51.894709 198402048 ServerMgr.cpp:866] remove one proxy server, id:30
+W1214 22:06:51.894728 198402048 CenterThread.cpp:120] db server is disconnect, after 1s will be reconnect!
+W1214 22:06:53.373347 291976640 NetModule.cpp:703] ready reconnect server, server id: 0
+I1214 22:06:53.373558 291976640 NetServer.cpp:55] accept io...127.0.0.1:53383
+I1214 22:06:53.373633 291976640 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1214 22:06:53.376045 198402048 CenterThread.cpp:87] connect to db server succ!
+I1214 22:06:53.394361 198402048 ServerMgr.cpp:187] register one game server: 127.0.0.1:53383
+I1214 22:06:55.386565 291976640 NetServer.cpp:55] accept io...127.0.0.1:53385
+I1214 22:06:55.404314 198402048 ServerMgr.cpp:54] register one proxy server: 127.0.0.1:53385
+I1214 22:07:01.932533 291976640 NetServer.cpp:55] accept io...127.0.0.1:53390
+I1214 22:07:01.949110 198402048 ServerMgr.cpp:469] register one login server: 127.0.0.1:53390
+I1214 22:41:06.506778 291976640 NetServer.cpp:88] delete io...127.0.0.1:53390
+I1214 22:41:06.506846 291976640 NetServer.cpp:88] delete io...127.0.0.1:53385
+I1214 22:41:06.506880 291976640 NetServer.cpp:88] delete io...127.0.0.1:53383
+W1214 22:41:06.508599 198402048 ServerMgr.cpp:843] remove one login server, id:10
+W1214 22:41:06.508641 198402048 ServerMgr.cpp:866] remove one proxy server, id:30
+W1214 22:41:06.508663 198402048 ServerMgr.cpp:827] remove one game server, id:1101
+W1214 22:41:06.508682 198402048 CenterThread.cpp:120] db server is disconnect, after 1s will be reconnect!
+W1214 22:41:07.994662 291976640 NetModule.cpp:703] ready reconnect server, server id: 0
+I1214 22:41:07.994837 291976640 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1214 22:41:07.995252 291976640 NetServer.cpp:55] accept io...127.0.0.1:53420
+I1214 22:41:07.997426 198402048 CenterThread.cpp:87] connect to db server succ!
+I1214 22:41:08.009621 198402048 ServerMgr.cpp:187] register one game server: 127.0.0.1:53420
+I1214 22:41:10.002858 291976640 NetServer.cpp:55] accept io...127.0.0.1:53425
+I1214 22:41:10.017158 198402048 ServerMgr.cpp:54] register one proxy server: 127.0.0.1:53425
+I1214 22:41:16.534454 291976640 NetServer.cpp:55] accept io...127.0.0.1:53434
+I1214 22:41:16.545954 198402048 ServerMgr.cpp:469] register one login server: 127.0.0.1:53434
+W1215 02:15:47.495848 198402048 CenterThread.cpp:304] center server is across day.
+I1215 02:15:47.513134 291976640 NetServer.cpp:88] delete io...127.0.0.1:53420
+I1215 02:15:47.513192 291976640 NetServer.cpp:88] delete io...127.0.0.1:53434
+I1215 02:15:47.513228 291976640 NetServer.cpp:88] delete io...127.0.0.1:53425
+I1215 02:15:48.999001 291976640 NetServer.cpp:55] accept io...127.0.0.1:53462
+I1215 02:15:51.018358 291976640 NetServer.cpp:55] accept io...127.0.0.1:53463
+W1215 02:16:03.396767 198402048 ServerMgr.cpp:827] remove one game server, id:1101
+W1215 02:16:03.396951 198402048 ServerMgr.cpp:843] remove one login server, id:10
+W1215 02:16:03.397064 198402048 ServerMgr.cpp:866] remove one proxy server, id:30
+W1215 02:16:03.397150 198402048 CenterThread.cpp:120] db server is disconnect, after 1s will be reconnect!
+I1215 02:16:03.397264 198402048 ServerMgr.cpp:187] register one game server: 127.0.0.1:53462
+I1215 02:16:03.397325 198402048 ServerMgr.cpp:54] register one proxy server: 127.0.0.1:53463
+W1215 02:16:04.578341 291976640 NetModule.cpp:703] ready reconnect server, server id: 0
+I1215 02:16:04.578827 291976640 NetServer.cpp:55] accept io...127.0.0.1:53477
+I1215 02:16:04.578884 291976640 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1215 02:16:04.580962 198402048 CenterThread.cpp:87] connect to db server succ!
+I1215 02:16:04.604562 198402048 ServerMgr.cpp:469] register one login server: 127.0.0.1:53477
+I1215 09:45:02.507088 291976640 NetServer.cpp:88] delete io...127.0.0.1:53477
+I1215 09:45:02.507184 291976640 NetServer.cpp:88] delete io...127.0.0.1:53462
+I1215 09:45:02.507217 291976640 NetServer.cpp:88] delete io...127.0.0.1:53463
+W1215 09:45:02.509351 198402048 ServerMgr.cpp:843] remove one login server, id:10
+W1215 09:45:02.509438 198402048 ServerMgr.cpp:827] remove one game server, id:1101
+W1215 09:45:02.509476 198402048 ServerMgr.cpp:866] remove one proxy server, id:30
+W1215 09:45:02.509508 198402048 CenterThread.cpp:120] db server is disconnect, after 1s will be reconnect!
+W1215 09:45:03.981847 291976640 NetModule.cpp:703] ready reconnect server, server id: 0
+I1215 09:45:03.981999 291976640 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1215 09:45:03.983594 198402048 CenterThread.cpp:87] connect to db server succ!
+I1215 09:45:03.987267 291976640 NetServer.cpp:55] accept io...127.0.0.1:53506
+I1215 09:45:04.016214 198402048 ServerMgr.cpp:187] register one game server: 127.0.0.1:53506
+I1215 09:45:05.994796 291976640 NetServer.cpp:55] accept io...127.0.0.1:53507
+I1215 09:45:06.019893 198402048 ServerMgr.cpp:54] register one proxy server: 127.0.0.1:53507
+I1215 09:45:12.534410 291976640 NetServer.cpp:55] accept io...127.0.0.1:53514
+I1215 09:45:12.553023 198402048 ServerMgr.cpp:469] register one login server: 127.0.0.1:53514
+W1215 10:08:19.846416 198402048 CenterThread.cpp:120] db server is disconnect, after 1s will be reconnect!
+W1215 10:08:21.128082 291976640 NetModule.cpp:703] ready reconnect server, server id: 0
+W1215 10:08:21.130050 198402048 CenterThread.cpp:120] db server is disconnect, after 1s will be reconnect!
+W1215 10:08:22.632494 291976640 NetModule.cpp:703] ready reconnect server, server id: 0
+I1215 10:08:22.632686 291976640 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1215 10:08:22.634692 198402048 CenterThread.cpp:87] connect to db server succ!
+W1215 10:14:03.038880 198402048 CenterThread.cpp:120] db server is disconnect, after 1s will be reconnect!
+W1215 10:14:04.307704 291976640 NetModule.cpp:703] ready reconnect server, server id: 0
+I1215 10:14:04.307811 291976640 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1215 10:14:04.309607 198402048 CenterThread.cpp:87] connect to db server succ!
+W1215 10:14:13.593600 198402048 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 2
+W1215 10:14:13.593683 198402048 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 1
+W1215 10:14:13.593713 198402048 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 7
+W1215 10:14:13.593739 198402048 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 4
+W1215 10:14:13.593763 198402048 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 5
+W1215 10:14:13.593787 198402048 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 6
+W1215 10:14:13.593811 198402048 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 3
+W1215 10:14:13.593837 198402048 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 8
+W1215 10:14:13.593860 198402048 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 9
+W1215 10:14:13.593884 198402048 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 10
+W1215 10:14:13.593909 198402048 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 12
+W1215 10:14:13.593933 198402048 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 11
+W1215 10:14:13.593957 198402048 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 13
+W1215 10:14:13.594040 198402048 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 14
+W1215 10:14:13.594087 198402048 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 15
+W1215 10:14:13.594115 198402048 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 16
+W1215 10:14:13.594141 198402048 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 17
+W1215 10:14:13.594164 198402048 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 28
+W1215 10:14:13.594188 198402048 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 18
+W1215 10:14:14.641527 198402048 CenterThread.cpp:3921] OnSubLoadWealthGodHistoryData: 10
+W1215 10:14:16.109544 198402048 CenterThread.cpp:3921] OnSubLoadWealthGodHistoryData: 10
+W1215 10:14:17.341379 198402048 CenterThread.cpp:3921] OnSubLoadWealthGodHistoryData: 10
+W1215 10:14:18.567389 198402048 CenterThread.cpp:3921] OnSubLoadWealthGodHistoryData: 10
+W1215 10:14:20.013572 198402048 CenterThread.cpp:3921] OnSubLoadWealthGodHistoryData: 10
+W1215 10:14:21.274030 198402048 CenterThread.cpp:3921] OnSubLoadWealthGodHistoryData: 10
+W1215 10:14:22.727819 198402048 CenterThread.cpp:3921] OnSubLoadWealthGodHistoryData: 10
+W1215 10:14:25.388797 198402048 CenterThread.cpp:3921] OnSubLoadWealthGodHistoryData: 10
+W1215 10:14:25.429173 198402048 CenterThread.cpp:3921] OnSubLoadWealthGodHistoryData: 10
+W1215 10:14:26.642608 198402048 CenterThread.cpp:3921] OnSubLoadWealthGodHistoryData: 10
+W1215 10:14:28.115767 198402048 CenterThread.cpp:3921] OnSubLoadWealthGodHistoryData: 10
+W1215 10:14:29.615936 198402048 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 1
+W1215 10:14:29.616211 198402048 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 2
+W1215 10:14:29.616302 198402048 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 3
+W1215 10:14:29.616365 198402048 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 26
+W1215 10:14:29.616437 198402048 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 28
+W1215 10:14:29.616494 198402048 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 29
+W1215 10:14:29.616570 198402048 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 30
+W1215 10:14:29.616611 198402048 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 31
+W1215 10:14:29.616654 198402048 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 32
+W1215 10:14:41.653940 198402048 DuoBaoMgr.cpp:94] has the same doing data? id: 1
+W1215 10:14:41.654090 198402048 DuoBaoMgr.cpp:94] has the same doing data? id: 2
+W1215 10:14:41.654142 198402048 DuoBaoMgr.cpp:94] has the same doing data? id: 2
+W1215 10:14:41.654189 198402048 DuoBaoMgr.cpp:94] has the same doing data? id: 3
+W1215 10:14:41.654237 198402048 DuoBaoMgr.cpp:94] has the same doing data? id: 3
+W1215 10:14:41.654284 198402048 DuoBaoMgr.cpp:94] has the same doing data? id: 26
+W1215 10:14:41.654337 198402048 DuoBaoMgr.cpp:94] has the same doing data? id: 26
+W1215 10:14:41.654386 198402048 DuoBaoMgr.cpp:94] has the same doing data? id: 28
+W1215 10:14:41.654434 198402048 DuoBaoMgr.cpp:94] has the same doing data? id: 28
+W1215 10:14:41.654484 198402048 DuoBaoMgr.cpp:94] has the same doing data? id: 29
+W1215 10:14:41.654534 198402048 DuoBaoMgr.cpp:94] has the same doing data? id: 29
+W1215 10:14:41.654587 198402048 DuoBaoMgr.cpp:94] has the same doing data? id: 30
+W1215 10:14:41.654635 198402048 DuoBaoMgr.cpp:94] has the same doing data? id: 31
+W1215 10:14:41.654682 198402048 DuoBaoMgr.cpp:94] has the same doing data? id: 32
+W1215 10:14:41.654736 198402048 DuoBaoMgr.cpp:175] load duo bao data finish.
+I1215 21:08:31.488508 291976640 NetServer.cpp:88] delete io...127.0.0.1:53506
+W1215 21:08:31.488912 198402048 ServerMgr.cpp:827] remove one game server, id:1101
+I1215 21:09:30.532263 291976640 NetServer.cpp:55] accept io...127.0.0.1:58656
+I1215 21:09:37.339030 291976640 NetServer.cpp:88] delete io...127.0.0.1:58656
+I1215 21:10:06.420706 291976640 NetServer.cpp:55] accept io...127.0.0.1:58667
+I1215 21:10:14.948628 291976640 NetServer.cpp:88] delete io...127.0.0.1:58667
+I1215 21:10:55.474119 291976640 NetServer.cpp:55] accept io...127.0.0.1:58677
+I1215 21:11:09.524965 291976640 NetServer.cpp:88] delete io...127.0.0.1:58677
+I1215 21:11:28.007105 291976640 NetServer.cpp:55] accept io...127.0.0.1:58686
+I1215 21:11:30.296762 198402048 ServerMgr.cpp:187] register one game server: 127.0.0.1:58686
+I1215 21:12:19.913552 291976640 NetServer.cpp:88] delete io...127.0.0.1:58686
+W1215 21:12:19.916064 198402048 ServerMgr.cpp:827] remove one game server, id:1101
+I1215 21:12:37.385066 291976640 NetServer.cpp:55] accept io...127.0.0.1:58695
+I1215 21:12:39.878706 198402048 ServerMgr.cpp:187] register one game server: 127.0.0.1:58695
+I1215 21:19:01.897392 291976640 NetServer.cpp:88] delete io...127.0.0.1:58695
+W1215 21:19:01.898958 198402048 ServerMgr.cpp:827] remove one game server, id:1101
+I1215 21:19:13.565196 291976640 NetServer.cpp:55] accept io...127.0.0.1:58808
+I1215 21:20:15.947347 291976640 NetServer.cpp:88] delete io...127.0.0.1:58808
+I1215 21:20:26.020118 291976640 NetServer.cpp:55] accept io...127.0.0.1:58822
+I1215 21:20:28.339778 198402048 ServerMgr.cpp:187] register one game server: 127.0.0.1:58822
+I1215 21:21:53.049657 291976640 NetServer.cpp:88] delete io...127.0.0.1:58822

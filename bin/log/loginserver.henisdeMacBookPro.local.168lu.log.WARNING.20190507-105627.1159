@@ -1,0 +1,8 @@
+Log file created at: 2019/05/07 10:56:27
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0507 10:56:27.001201 48080320 LoginServer.cpp:65] listen at: 0.0.0.0:7001
+W0507 10:56:30.673300 28139520 LoginServerThread.cpp:336] loginserver start succ.
+W0507 20:56:42.498420 28139520 LoginServerThread.cpp:5414] select expire mail fail, error no: -1, sql:select mailid from mail where userid = '85505405' and mailType = 2 and expireTime < now()
+W0507 20:58:32.738646 28676096 LoginRecordThread.cpp:101] insert user login record fail. errno: -1, error msg: mysql not opened yet!
+W0508 00:00:06.647192 28139520 LoginServerThread.cpp:547] login server is across day.

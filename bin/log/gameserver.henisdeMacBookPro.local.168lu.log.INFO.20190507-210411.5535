@@ -1,0 +1,37 @@
+Log file created at: 2019/05/07 21:04:11
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0507 21:04:11.736168 211154368 GameServer.cpp:45] 正在启动游戏服务器...
+I0507 21:04:11.738194 211154368 NetModule.h:71] Init NetModule Finished.
+I0507 21:04:11.738420 211154368 NetModule.h:78] start work thread 0...
+I0507 21:04:11.738430 211154368 NetModule.cpp:69] Start Run NetModule...
+I0507 21:04:11.738447 211154368 NetModule.cpp:88] NetModule Already Startover.
+I0507 21:04:11.738461 211154368 NetModule.cpp:220] add one connector: 127.0.0.1:5001 succeed...
+I0507 21:04:11.738466 211154368 NetModule.cpp:220] add one connector: 127.0.0.1:6001 succeed...
+I0507 21:04:11.738471 211154368 NetModule.cpp:136] Create one server...
+I0507 21:04:12.240120 211154368 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0507 21:04:12.240147 211154368 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0507 21:04:12.242601 163209216 GameServerThread.cpp:113] connect to db server succ!
+I0507 21:04:14.562888 163209216 AndroidUserMgr.cpp:832] set active android count: 0
+I0507 21:04:14.563014 163209216 AndroidUserMgr.cpp:832] set active android count: 99
+I0507 21:04:15.060575 211154368 NetServer.cpp:55] accept io...127.0.0.1:51532
+I0507 21:04:15.081239 163209216 GameServerThread.cpp:1933] load benefit config succ!
+I0507 21:04:15.759490 163209216 GameServerThread.cpp:1853] load android parameter succ, android count : 140
+W0507 21:04:15.898499 163209216 GameTableManager.cpp:566] update br game server black list, server id: 991
+I0507 21:04:15.898828 163209216 GameServerThread.cpp:1507] init server succ!
+I0507 21:04:15.898840 163209216 GameServerThread.cpp:146] bind one connect: 127.0.0.1:51532
+I0507 21:04:15.898852 163209216 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:51532
+I0507 21:09:45.938153 211154368 NetServer.cpp:88] delete io...127.0.0.1:51532
+W0507 21:09:45.938261 163209216 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0507 21:09:46.498667 163209216 ServerMgr.cpp:67] remove one proxy server, id: 30
+W0507 21:09:46.498937 163209216 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0507 21:09:48.028261 211154368 NetModule.cpp:723] ready reconnect server, server id: 991
+W0507 21:09:48.028540 211154368 NetModule.cpp:723] ready reconnect server, server id: 991
+I0507 21:09:48.028745 211154368 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0507 21:09:48.028790 211154368 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0507 21:09:48.030516 163209216 GameServerThread.cpp:113] connect to db server succ!
+I0507 21:09:48.030609 163209216 GameServerThread.cpp:109] connect to center server succ!
+I0507 21:09:48.556094 211154368 NetServer.cpp:55] accept io...127.0.0.1:51543
+I0507 21:09:48.556936 163209216 GameServerThread.cpp:146] bind one connect: 127.0.0.1:51543
+I0507 21:09:48.581634 163209216 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:51543
+I0507 21:13:32.894874 211154368 NetServer.cpp:88] delete io...127.0.0.1:51543

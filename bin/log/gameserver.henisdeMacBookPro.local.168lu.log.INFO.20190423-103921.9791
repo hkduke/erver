@@ -1,0 +1,25 @@
+Log file created at: 2019/04/23 10:39:21
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0423 10:39:21.722432 291931584 GameServer.cpp:45] 正在启动游戏服务器...
+I0423 10:39:21.724782 291931584 NetModule.h:71] Init NetModule Finished.
+I0423 10:39:21.724993 291931584 NetModule.h:78] start work thread 0...
+I0423 10:39:21.725003 291931584 NetModule.cpp:69] Start Run NetModule...
+I0423 10:39:21.725019 291931584 NetModule.cpp:88] NetModule Already Startover.
+I0423 10:39:21.725033 291931584 NetModule.cpp:220] add one connector: 127.0.0.1:5001 succeed...
+I0423 10:39:21.725039 291931584 NetModule.cpp:220] add one connector: 127.0.0.1:6001 succeed...
+I0423 10:39:21.725042 291931584 NetModule.cpp:136] Create one server...
+I0423 10:39:22.226662 291931584 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0423 10:39:22.226725 291931584 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0423 10:39:22.228956 223776768 GameServerThread.cpp:113] connect to db server succ!
+I0423 10:39:24.382414 223776768 AndroidUserMgr.cpp:832] set active android count: 0
+I0423 10:39:24.382450 223776768 AndroidUserMgr.cpp:832] set active android count: 20
+I0423 10:39:24.670423 291931584 NetServer.cpp:55] accept io...127.0.0.1:51844
+I0423 10:39:24.879686 223776768 GameServerThread.cpp:1933] load benefit config succ!
+I0423 10:39:25.675499 223776768 GameServerThread.cpp:1853] load android parameter succ, android count : 240
+W0423 10:39:25.806535 223776768 GameTableManager.cpp:566] update br game server black list, server id: 993
+I0423 10:39:25.806807 223776768 GameServerThread.cpp:1507] init server succ!
+I0423 10:39:25.806818 223776768 GameServerThread.cpp:146] bind one connect: 127.0.0.1:51844
+I0423 10:39:25.806828 223776768 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:51844
+W0423 10:39:49.700498 223776768 GameServerThread.cpp:2571] can not enter room, in other room, user id: 85593361
+W0423 10:39:53.055806 223776768 GameServerThread.cpp:2571] can not enter room, in other room, user id: 85593361

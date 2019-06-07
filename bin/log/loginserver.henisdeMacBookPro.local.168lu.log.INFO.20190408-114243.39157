@@ -1,0 +1,69 @@
+Log file created at: 2019/04/08 11:42:43
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0408 11:42:43.843894 226870720 LoginServer.cpp:45] 正在启动登录服务器...
+I0408 11:42:43.852109 226870720 NetModule.h:71] Init NetModule Finished.
+I0408 11:42:43.854455 226870720 NetModule.h:78] start work thread 0...
+I0408 11:42:43.854490 226870720 NetModule.cpp:69] Start Run NetModule...
+I0408 11:42:43.854530 226870720 NetModule.cpp:88] NetModule Already Startover.
+W0408 11:42:43.855139 226870720 LoginServer.cpp:65] listen at: 0.0.0.0:7001
+I0408 11:42:43.855851 226870720 NetModule.cpp:136] Create one server...
+I0408 11:42:43.856209 226870720 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I0408 11:42:44.187340 226870720 NetServer.cpp:55] accept io...127.0.0.1:62490
+I0408 11:42:44.189396 232620032 LoginServerThread.cpp:198] bind one connect: 127.0.0.1:62490
+I0408 11:42:44.209782 232620032 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:62490
+I0408 11:42:45.591892 232620032 LoginServerThread.cpp:7868] load game kind succ!
+I0408 11:42:45.705714 232620032 LoginServerThread.cpp:7979] load game room kind succ!
+I0408 11:42:46.269325 232620032 LoginServerThread.cpp:8361] load system status succ!
+I0408 11:42:46.380422 232620032 LoginServerThread.cpp:8048] load vip config succ!
+I0408 11:42:46.491713 232620032 LoginServerThread.cpp:8080] load vip2 config succ!
+I0408 11:42:46.605566 232620032 LoginServerThread.cpp:8386] load channel show exchange succ!
+I0408 11:42:46.719044 232620032 LoginServerThread.cpp:8416] load exchange info succ!
+I0408 11:42:46.833549 232620032 LoginServerThread.cpp:8443] load channel prsent score succ!
+I0408 11:42:46.945436 232620032 LoginServerThread.cpp:8467] load channel register mail succ!
+I0408 11:42:47.056674 232620032 LoginServerThread.cpp:8108] load benefit config succ!
+I0408 11:42:47.170567 232620032 LoginServerThread.cpp:8175] load game version succ!
+W0408 11:42:47.507320 232620032 LoginServerThread.cpp:336] loginserver start succ.
+W0408 17:25:18.722743 233156608 LoginRecordThread.cpp:101] insert user login record fail. errno: -1, error msg: mysql not opened yet!
+W0409 00:00:23.197930 232620032 LoginServerThread.cpp:547] login server is across day.
+W0409 14:42:18.585410 232620032 LoginServerThread.cpp:5409] select expire mail fail, error no: -1, sql:select mailid from mail where userid = '85539866' and mailType = 2 and expireTime < now()
+W0410 00:00:35.855165 232620032 LoginServerThread.cpp:547] login server is across day.
+W0411 00:00:49.539162 232620032 LoginServerThread.cpp:547] login server is across day.
+W0411 20:48:10.627435 232620032 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0411 20:48:39.979974 226870720 NetModule.cpp:723] ready reconnect server, server id: 0
+I0411 20:48:39.980087 226870720 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+W0411 21:00:30.568763 232620032 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0411 21:00:40.988199 226870720 NetModule.cpp:723] ready reconnect server, server id: 0
+W0411 21:00:40.990456 232620032 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0411 21:00:51.517359 226870720 NetModule.cpp:723] ready reconnect server, server id: 0
+I0411 21:00:51.517473 226870720 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+W0411 21:03:20.310799 232620032 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0411 21:03:30.473265 226870720 NetModule.cpp:723] ready reconnect server, server id: 0
+W0411 21:03:30.475546 232620032 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0411 21:03:41.011179 226870720 NetModule.cpp:723] ready reconnect server, server id: 0
+I0411 21:03:41.011330 226870720 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+W0411 21:05:04.469015 232620032 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0411 21:05:14.808827 226870720 NetModule.cpp:723] ready reconnect server, server id: 0
+I0411 21:05:14.808980 226870720 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+W0411 21:26:57.671959 232620032 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0411 21:27:08.095770 226870720 NetModule.cpp:723] ready reconnect server, server id: 0
+I0411 21:27:08.096163 226870720 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+W0411 21:28:31.608744 232620032 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0411 21:28:41.876104 226870720 NetModule.cpp:723] ready reconnect server, server id: 0
+W0411 21:28:41.877804 232620032 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0411 21:28:52.407176 226870720 NetModule.cpp:723] ready reconnect server, server id: 0
+I0411 21:28:52.407289 226870720 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+W0411 21:29:12.823565 232620032 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0411 21:29:23.006078 226870720 NetModule.cpp:723] ready reconnect server, server id: 0
+I0411 21:29:23.006183 226870720 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+W0412 00:00:03.689076 232620032 LoginServerThread.cpp:547] login server is across day.
+W0412 09:58:01.519469 232620032 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0412 09:58:11.764611 226870720 NetModule.cpp:723] ready reconnect server, server id: 0
+I0412 09:58:11.764757 226870720 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+W0412 10:11:33.766093 232620032 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0412 10:11:44.086716 226870720 NetModule.cpp:723] ready reconnect server, server id: 0
+I0412 10:11:44.087118 226870720 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+W0412 10:28:34.976765 232620032 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0412 10:28:45.216069 226870720 NetModule.cpp:723] ready reconnect server, server id: 0
+I0412 10:28:45.216320 226870720 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I0412 11:04:40.989620 226870720 NetServer.cpp:88] delete io...127.0.0.1:62490

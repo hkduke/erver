@@ -1,0 +1,28 @@
+Log file created at: 2018/12/14 11:25:48
+Running on machine: henisdeMacBook-Pro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1214 11:25:48.611057 368866752 ProxyServer.cpp:45] 正在启动代理服务器...
+I1214 11:25:48.614742 368866752 NetModule.h:71] Init NetModule Finished.
+I1214 11:25:48.614820 368866752 NetModule.h:77] start work thread 0...
+I1214 11:25:48.614832 368866752 NetModule.cpp:64] Start Run NetModule...
+I1214 11:25:48.614852 368866752 NetModule.cpp:76] NetModule Already Startover.
+I1214 11:25:48.615380 368866752 NetModule.cpp:118] Create one server...
+I1214 11:25:48.615499 368866752 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1214 11:25:48.615519 368866752 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1214 11:25:48.625447 115318784 ProxyThread.cpp:66] connect to center server succ.
+I1214 11:25:48.625481 115318784 ProxyThread.cpp:92] connect to db server succ
+I1214 11:25:48.644784 115318784 ProxyThread.cpp:538] get game server list finish!
+I1214 11:25:48.644843 115318784 ProxyThread.cpp:509] get login server list finish!
+I1214 11:25:48.644908 115318784 ProxyThread.cpp:567] get customer server list finish!
+I1214 11:25:51.550581 115318784 NetModule.cpp:200] add one connector: 0.0.0.0:7003 succeed...
+W1214 11:25:51.550648 115318784 ServerMgr.cpp:78] add login server, login server id:10
+I1214 11:25:51.626065 368866752 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I1214 11:25:51.627158 115318784 ProxyThread.cpp:76] connect to login server succ, server id:10
+W1214 11:26:32.135015 115318784 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W1214 11:26:32.137759 115318784 ServerMgr.cpp:163] remove one login server, login server id:10
+W1214 11:26:35.161211 115318784 ServerMgr.cpp:333] disconnect login or game server is remove or register again, no server reconnect...
+I1214 11:27:06.333112 115318784 NetModule.cpp:200] add one connector: 0.0.0.0:7003 succeed...
+W1214 11:27:06.333282 115318784 ServerMgr.cpp:78] add login server, login server id:10
+I1214 11:27:06.833050 368866752 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I1214 11:27:06.835011 115318784 ProxyThread.cpp:76] connect to login server succ, server id:10
+W1214 11:55:00.888969 115318784 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!

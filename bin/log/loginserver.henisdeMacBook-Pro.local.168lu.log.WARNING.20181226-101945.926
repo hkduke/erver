@@ -1,0 +1,5 @@
+Log file created at: 2018/12/26 10:19:45
+Running on machine: henisdeMacBook-Pro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W1226 10:19:45.773891 204809664 LoginServer.cpp:65] listen at: 0.0.0.0:7003
+W1226 18:56:57.816049 68382720 LoginServerThread.cpp:5017] select expire mail fail, error no: -1, sql:select mailid from mail where userid = '83516815' and mailType = 2 and expireTime < now()

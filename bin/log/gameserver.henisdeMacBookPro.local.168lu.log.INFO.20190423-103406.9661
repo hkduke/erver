@@ -1,0 +1,92 @@
+Log file created at: 2019/04/23 10:34:06
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0423 10:34:06.907214 227145152 GameServer.cpp:45] 正在启动游戏服务器...
+I0423 10:34:06.910527 227145152 NetModule.h:71] Init NetModule Finished.
+I0423 10:34:06.910768 227145152 NetModule.h:78] start work thread 0...
+I0423 10:34:06.910781 227145152 NetModule.cpp:69] Start Run NetModule...
+I0423 10:34:06.910802 227145152 NetModule.cpp:88] NetModule Already Startover.
+I0423 10:34:06.910817 227145152 NetModule.cpp:220] add one connector: 127.0.0.1:5001 succeed...
+I0423 10:34:06.910825 227145152 NetModule.cpp:220] add one connector: 127.0.0.1:6001 succeed...
+I0423 10:34:06.910831 227145152 NetModule.cpp:136] Create one server...
+I0423 10:34:07.414638 227145152 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0423 10:34:07.414691 227145152 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0423 10:34:07.415207 63168512 GameServerThread.cpp:113] connect to db server succ!
+I0423 10:34:08.635177 63168512 AndroidUserMgr.cpp:832] set active android count: 0
+I0423 10:34:08.635226 63168512 AndroidUserMgr.cpp:832] set active android count: 99
+I0423 10:34:09.093451 63168512 GameServerThread.cpp:1933] load benefit config succ!
+I0423 10:34:09.117614 227145152 NetServer.cpp:55] accept io...127.0.0.1:51818
+I0423 10:34:09.788722 63168512 GameServerThread.cpp:1853] load android parameter succ, android count : 140
+W0423 10:34:09.904531 63168512 GameTableManager.cpp:566] update br game server black list, server id: 991
+I0423 10:34:09.904834 63168512 GameServerThread.cpp:1507] init server succ!
+I0423 10:34:09.904844 63168512 GameServerThread.cpp:146] bind one connect: 127.0.0.1:51818
+I0423 10:34:09.904855 63168512 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:51818
+W0424 15:01:48.552878 63168512 GameServerThread.cpp:2571] can not enter room, in other room, user id: 85593361
+W0425 10:18:18.819169 63168512 GameServerThread.cpp:2571] can not enter room, in other room, user id: 80302031
+W0425 10:18:19.666935 63168512 GameServerThread.cpp:2571] can not enter room, in other room, user id: 80302031
+W0425 10:22:22.301961 63168512 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0425 10:22:23.583698 227145152 NetModule.cpp:723] ready reconnect server, server id: 991
+W0425 10:22:23.585750 63168512 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0425 10:22:25.087421 227145152 NetModule.cpp:723] ready reconnect server, server id: 991
+I0425 10:22:25.087586 227145152 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0425 10:22:25.089032 63168512 GameServerThread.cpp:113] connect to db server succ!
+W0425 10:24:10.298213 63168512 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0425 10:24:11.403617 227145152 NetModule.cpp:723] ready reconnect server, server id: 991
+W0425 10:24:11.405551 63168512 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0425 10:24:12.906752 227145152 NetModule.cpp:723] ready reconnect server, server id: 991
+I0425 10:24:12.906879 227145152 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0425 10:24:12.907784 63168512 GameServerThread.cpp:113] connect to db server succ!
+W0425 11:26:21.209563 63168512 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0425 11:26:22.371552 227145152 NetModule.cpp:723] ready reconnect server, server id: 991
+W0425 11:26:22.373975 63168512 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0425 11:26:23.875416 227145152 NetModule.cpp:723] ready reconnect server, server id: 991
+I0425 11:26:23.875507 227145152 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0425 11:26:23.877782 63168512 GameServerThread.cpp:113] connect to db server succ!
+W0425 11:26:27.619984 63168512 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0425 11:26:28.886351 227145152 NetModule.cpp:723] ready reconnect server, server id: 991
+W0425 11:26:28.888789 63168512 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0425 11:26:30.395252 227145152 NetModule.cpp:723] ready reconnect server, server id: 991
+I0425 11:26:30.395349 227145152 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0425 11:26:30.397619 63168512 GameServerThread.cpp:113] connect to db server succ!
+W0425 11:26:34.154619 63168512 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0425 11:26:35.409735 227145152 NetModule.cpp:723] ready reconnect server, server id: 991
+I0425 11:26:35.409904 227145152 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0425 11:26:35.412122 63168512 GameServerThread.cpp:113] connect to db server succ!
+W0425 11:26:37.788537 63168512 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0425 11:26:38.919690 227145152 NetModule.cpp:723] ready reconnect server, server id: 991
+W0425 11:26:38.920644 63168512 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0425 11:26:40.424510 227145152 NetModule.cpp:723] ready reconnect server, server id: 991
+I0425 11:26:40.424723 227145152 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0425 11:26:40.426537 63168512 GameServerThread.cpp:113] connect to db server succ!
+W0425 11:26:48.297438 63168512 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0425 11:26:49.453994 227145152 NetModule.cpp:723] ready reconnect server, server id: 991
+W0425 11:26:49.454815 63168512 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0425 11:26:50.957794 227145152 NetModule.cpp:723] ready reconnect server, server id: 991
+W0425 11:26:50.958493 63168512 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0425 11:26:52.459429 227145152 NetModule.cpp:723] ready reconnect server, server id: 991
+W0425 11:26:52.462040 63168512 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0425 11:26:53.962044 227145152 NetModule.cpp:723] ready reconnect server, server id: 991
+W0425 11:26:53.964576 63168512 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0425 11:26:55.467136 227145152 NetModule.cpp:723] ready reconnect server, server id: 991
+W0425 11:26:55.470319 63168512 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0425 11:26:56.974709 227145152 NetModule.cpp:723] ready reconnect server, server id: 991
+W0425 11:26:56.977056 63168512 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0425 11:26:58.481811 227145152 NetModule.cpp:723] ready reconnect server, server id: 991
+W0425 11:26:58.483582 63168512 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0425 11:26:59.985396 227145152 NetModule.cpp:723] ready reconnect server, server id: 991
+W0425 11:26:59.985600 63168512 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0425 11:27:01.489985 227145152 NetModule.cpp:723] ready reconnect server, server id: 991
+W0425 11:27:01.492302 63168512 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0425 11:27:02.999059 227145152 NetModule.cpp:723] ready reconnect server, server id: 991
+W0425 11:27:02.999619 63168512 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0425 11:27:04.505029 227145152 NetConnector.cpp:287] open connect: 127.0.0.1:6001 fail.
+W0425 11:27:04.506091 227145152 NetModule.cpp:723] ready reconnect server, server id: 991
+W0425 11:27:04.506456 63168512 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0425 11:27:06.007354 227145152 NetModule.cpp:723] ready reconnect server, server id: 991
+W0425 11:27:06.008857 63168512 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0425 11:27:07.512919 227145152 NetModule.cpp:723] ready reconnect server, server id: 991
+W0425 11:27:07.515563 63168512 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0425 11:27:09.019690 227145152 NetModule.cpp:723] ready reconnect server, server id: 991
+I0425 11:27:09.019860 227145152 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0425 11:27:09.021664 63168512 GameServerThread.cpp:113] connect to db server succ!
+W0425 11:30:39.799198 63168512 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!

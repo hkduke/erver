@@ -1,0 +1,30 @@
+Log file created at: 2019/05/29 19:50:23
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0529 19:50:23.886281 462984640 GameServer.cpp:45] 正在启动游戏服务器...
+I0529 19:50:23.888833 462984640 NetModule.h:71] Init NetModule Finished.
+I0529 19:50:23.889070 462984640 NetModule.h:78] start work thread 0...
+I0529 19:50:23.889081 462984640 NetModule.cpp:69] Start Run NetModule...
+I0529 19:50:23.889097 462984640 NetModule.cpp:88] NetModule Already Startover.
+I0529 19:50:23.889109 462984640 NetModule.cpp:220] add one connector: 127.0.0.1:5001 succeed...
+I0529 19:50:23.889114 462984640 NetModule.cpp:220] add one connector: 127.0.0.1:6001 succeed...
+I0529 19:50:23.889119 462984640 NetModule.cpp:136] Create one server...
+I0529 19:50:24.390425 462984640 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0529 19:50:24.390458 462984640 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0529 19:50:24.392927 14127104 GameServerThread.cpp:113] connect to db server succ!
+I0529 19:50:26.592046 14127104 AndroidUserMgr.cpp:945] set active android count: 0
+I0529 19:50:26.592090 14127104 AndroidUserMgr.cpp:945] set active android count: 4
+I0529 19:50:26.991758 462984640 NetServer.cpp:55] accept io...127.0.0.1:54110
+I0529 19:50:27.299280 14127104 GameServerThread.cpp:1990] load benefit config succ!
+I0529 19:50:27.977669 14127104 GameServerThread.cpp:1910] load android parameter succ, android count : 30
+W0529 19:50:28.106022 14127104 GameTableManager.cpp:613] update br game server black list, server id: 10001
+I0529 19:50:28.106397 14127104 GameServerThread.cpp:1564] init server succ!
+I0529 19:50:28.106461 14127104 GameServerThread.cpp:146] bind one connect: 127.0.0.1:54110
+I0529 19:50:28.106473 14127104 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:54110
+W0529 19:51:07.253154 14127104 AndroidUserMgr.cpp:292] need android count: 4
+W0529 19:51:30.582464 14127104 AndroidUserMgr.cpp:292] need android count: 4
+W0529 19:51:40.788903 14127104 TableFrameForScore.cpp:1781] game process message fail? subid: 1
+W0529 19:52:10.130162 14127104 AndroidUserMgr.cpp:292] need android count: 4
+W0529 19:52:21.422469 14127104 TableFrameForScore.cpp:1781] game process message fail? subid: 1
+W0529 19:53:04.857875 14127104 AndroidUserMgr.cpp:292] need android count: 4
+W0529 19:54:52.393328 14127104 AndroidUserMgr.cpp:292] need android count: 4

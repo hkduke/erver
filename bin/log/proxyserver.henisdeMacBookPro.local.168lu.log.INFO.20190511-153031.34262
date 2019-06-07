@@ -1,0 +1,55 @@
+Log file created at: 2019/05/11 15:30:31
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0511 15:30:31.289752 164894144 ProxyServer.cpp:45] 正在启动代理服务器...
+I0511 15:30:31.293289 164894144 NetModule.h:71] Init NetModule Finished.
+I0511 15:30:31.293359 164894144 NetModule.h:78] start work thread 0...
+I0511 15:30:31.293370 164894144 NetModule.cpp:69] Start Run NetModule...
+I0511 15:30:31.293390 164894144 NetModule.cpp:88] NetModule Already Startover.
+I0511 15:30:31.293896 164894144 NetModule.cpp:136] Create one server...
+I0511 15:30:31.294023 164894144 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I0511 15:30:31.294042 164894144 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0511 15:30:31.305658 196214784 ProxyThread.cpp:66] connect to center server succ.
+I0511 15:30:31.305677 196214784 ProxyThread.cpp:92] connect to db server succ
+I0511 15:30:31.322110 196214784 NetModule.cpp:220] add one connector: 127.0.0.1:11001 succeed...
+W0511 15:30:31.322144 196214784 ServerMgr.cpp:40] add game server, game server id:11
+I0511 15:30:31.322554 196214784 NetModule.cpp:220] add one connector: 127.0.0.1:9902 succeed...
+W0511 15:30:31.322564 196214784 ServerMgr.cpp:40] add game server, game server id:992
+I0511 15:30:31.322597 196214784 ProxyThread.cpp:543] get game server list finish!
+I0511 15:30:31.322609 196214784 NetModule.cpp:220] add one connector: 0.0.0.0:7001 succeed...
+W0511 15:30:31.322615 196214784 ServerMgr.cpp:79] add login server, login server id:10
+I0511 15:30:31.322649 196214784 ProxyThread.cpp:514] get login server list finish!
+I0511 15:30:31.322655 196214784 ProxyThread.cpp:572] get customer server list finish!
+I0511 15:30:31.795831 164894144 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I0511 15:30:31.795883 164894144 NetConnector.cpp:216] connect to: 127.0.0.1:9902 success! 
+I0511 15:30:31.795902 164894144 NetConnector.cpp:216] connect to: 127.0.0.1:7001 success! 
+I0511 15:30:31.797864 196214784 ProxyThread.cpp:86] connect to game server succ, server id:11
+I0511 15:30:31.797889 196214784 ProxyThread.cpp:86] connect to game server succ, server id:992
+I0511 15:30:31.797905 196214784 ProxyThread.cpp:76] connect to login server succ, server id:10
+I0511 15:30:32.047214 164894144 NetServer.cpp:55] accept io...192.168.10.129:52322
+I0511 15:30:35.425705 164894144 NetServer.cpp:88] delete io...192.168.10.129:52322
+W0511 15:30:35.640660 196214784 ProxyThread.cpp:854] client socket not found, main id: 6, sub id: 660
+I0511 15:30:40.508159 164894144 NetServer.cpp:55] accept io...192.168.10.174:49178
+I0511 15:30:42.992266 164894144 NetServer.cpp:55] accept io...192.168.10.104:54092
+I0511 15:30:49.146685 164894144 NetServer.cpp:55] accept io...192.168.10.129:52324
+I0511 15:31:28.973242 164894144 NetServer.cpp:88] delete io...192.168.10.174:49178
+I0511 15:31:43.851105 164894144 NetServer.cpp:55] accept io...192.168.10.174:49179
+I0511 15:35:49.387661 164894144 NetServer.cpp:88] delete io...192.168.10.174:49179
+I0511 15:35:58.221186 164894144 NetServer.cpp:55] accept io...192.168.10.174:49184
+W0511 15:37:57.473258 196214784 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W0511 15:38:00.720448 164894144 NetModule.cpp:723] ready reconnect server, server id: 1
+I0511 15:38:00.720654 164894144 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0511 15:38:00.722829 196214784 ProxyThread.cpp:92] connect to db server succ
+W0511 15:39:09.716102 196214784 ProxyThread.cpp:908] can not find hall user!, user id: 0, main id: 25, sub id: 25064
+W0511 15:39:09.716218 196214784 ProxyThread.cpp:908] can not find hall user!, user id: 0, main id: 25, sub id: 25064
+W0511 15:39:09.716270 196214784 ProxyThread.cpp:908] can not find hall user!, user id: 0, main id: 25, sub id: 25064
+W0511 15:39:09.716455 196214784 ProxyThread.cpp:908] can not find hall user!, user id: 0, main id: 25, sub id: 25064
+W0511 15:39:09.716509 196214784 ProxyThread.cpp:908] can not find hall user!, user id: 0, main id: 25, sub id: 25064
+W0511 15:39:09.716548 196214784 ProxyThread.cpp:908] can not find hall user!, user id: 0, main id: 25, sub id: 25064
+W0511 15:39:09.716594 196214784 ProxyThread.cpp:908] can not find hall user!, user id: 0, main id: 25, sub id: 25064
+W0511 15:39:09.716631 196214784 ProxyThread.cpp:908] can not find hall user!, user id: 0, main id: 25, sub id: 25064
+W0511 15:39:09.716678 196214784 ProxyThread.cpp:908] can not find hall user!, user id: 0, main id: 25, sub id: 25064
+W0511 15:39:09.716715 196214784 ProxyThread.cpp:908] can not find hall user!, user id: 0, main id: 25, sub id: 25064
+W0511 15:39:09.716761 196214784 ProxyThread.cpp:908] can not find hall user!, user id: 0, main id: 25, sub id: 25064
+W0511 15:39:09.716799 196214784 ProxyThread.cpp:908] can not find hall user!, user id: 0, main id: 25, sub id: 25064
+W0511 15:40:10.018754 196214784 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!

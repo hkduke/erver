@@ -1,0 +1,218 @@
+2019年5月31日
+1.在数据库platform中添加表jsfish_control_info。更新到正式服数据库上时，表内容也要拷贝过去。
+2.在数据库game中添加表user_miss.第一次更新到正式服时，表内容为空。
+
+2019年5月8日
+1.重要事情说三遍，account.user表的MobileNum改成varchar类型，并在现在的手机号上+86，account.mobile字段暂时不再更新
+
+2019年3月11日
+1.修改account.group和groupuser表结构
+2.增加platform.group_level_config表
+3.增加record.group_chat表
+4.增加record.group_dir_income和record.group_sub_income和record.group_total_income
+5.增加treasure.exchange_group表
+
+------------------------------------------------------------------------------------------------------------------------
+2019年3月5日
+1.record_score库增加record_hbsl_info和record_hbsl_score
+2.platform库增加black_channel表和announcement_cfg
+3.登录服的loginserver.cf把alarm_addr改成recharge_addr
+4.platform.systemstatus增加chatUploadUrl
+
+2019年3月1日
+1.platform库syscurdaytotalwinlosescore表增加以下字段：
+  SysTodayTotalEnterCount
+  SysTodayTotalWinCount
+  SysTodayTotalPoChanCount
+  SysTodayTotalRewardCount
+  SysTodayTotalXiFenCount
+  SysTodayBigFishInfo
+  SysTodayProInfo
+------------------------------------------------------------------------------------------------------------------------
+
+2019年1月12日
+1. platform库增hongbao_room_config和hongbao_index表
+2. platform库systemstatus表增加smsPid数据和红包的状态和描述信息
+3. game库增加red_packet_grab表
+
+2019年1月21日
+1.game数据库添加表:user_fish_info
+
+------------------------------------------------------------------------------------------------------------------------
+2018年12月13日
+1. game库的user_diankong_data表修改表结构
+2. platform库增加benefit_config表
+3. game库增加record_benefit和record_benefit_detail表
+4. record库修改src_user_stat表和增加src_user_today表
+5. userinsfo表的promoter同时写进user表的promoterid字段
+6. 增加二人麻将和跑得快的财神任务和财神降临
+7. platform增加platform_recharge_cfg表。
+8. stock_control_data增加KuCunStatus字段
+
+------------------------------------------------------------------------------------------------------------------------
+
+2018年11月20日
+1.platform库添加表:fishcurrentkucun,fishstatisticsinfo,stock_control_data,syscurdaytotalwinlosescore
+2.game库添加表:user_diankong_data
+
+2018年10月19日
+1. platform库增加duobao_config表
+2. game库增加duobao_data和duobao_userInfo表
+3. mail表增加scoreType字段
+4. record_draw_info表修改userCount的类型为smallInt
+5. record库增加src_user_stat表
+6. platform.roomserver_blacklist增加controlScore字段
+7. account.userinfo中的headimage增加默认值为空字符串
+------------------------------------------------------------------------------------------------------------------------
+
+2018年10月2日
+1. account.user表的promoterid改成platformId字段，默认值为1，索引值增加platformId
+2. account.userinfo表准备删除manager字段
+3. record.stat_pcu表增加platformId字段，默认值为1，索引值增加platformId
+4. record.stat_machine_online表增加platformId字段，默认值为1
+5. record.stat_game_online表增加platformId字段，默认值为1
+5. treasure.quanmin_kefu表增加platformId字段，默认值为1
+
+------------------------------------------------------------------------------------------------------------------------
+2018年9月26日
+1. platform增加表zjh_card_ratio
+
+2018年9月20日
+1. game.gameScoreData表增加zjhCount,zjhParam, qznnCount, qznnCount, goodCardAdjust四个字段, 默认值都为0
+
+------------------------------------------------------------------------------------------------------------------------
+2018年8月17日
+1. account.androidcfg表增加bigJetton字段
+2. game.wealth_god_userinfo的rank字段由0改为255
+3. channel表增加domain2字段
+
+------------------------------------------------------------------------------------------------------------------------
+2018年8月9日
+1. game.mail表增加chanelid字段
+
+2018年7月25日
+1. treasure库illegal_player增加drawData, 并修改player为varchar类型，增加exchange_amount_cfg和recharge_amount_cfg表
+2. platform库增加wealth_god_config，wealth_god_index，wealth_god_reward三个表
+3. game库增加wealth_god_data和wealth_god_userinfo两个表
+
+2018年7月12日
+1. treasure库修改quanmin_kefu表，增加type字段，1表示是微信 2表示QQ
+
+2018年7月10日
+1. platform库增加roomserver_blacklist和roomserver_operate_ratio表
+
+2018年5月25日
+1. game库增加today_online_time和today_task_count两个表
+
+2018年5月16日 21:56:33
+1.account.userinfo增加showExchange字段
+2.treasure.channel增加howExchangeCond字段
+
+2018年5月11日 
+1. account.userdata增加vip2字段
+
+2018年3月20日
+1.record_score库增加record_score_br_201803表
+2.platform库的gameversion的version字段由字符串修改为整形
+
+2018年2月3日
+1.account库增加是一个channel_ip表
+2.record_score库增加一个record_task_reward
+
+2018年1月24日 
+1.platform库的roomserver表增加一个库存的值stock
+
+2018年1月16日 
+1.platform库的taskConfig有修改
+2.account库的userinfo表的headid修改为1-4
+
+2017年12月20日
+1. account库usercard表删除id字段,以userid作为主键
+
+
+2017年12月18日
+1. record增加一个PCU统计表
+2. record_score库的record_draw_info增加BankerUserID和stock两个字段
+
+2017年12月7日 
+1.game.mail和mail_del的score字段改成bigint
+
+2017年12月6日
+1.platform.systemStatus增加一个bindMobile赠送金币信息
+2.platform.systemStatus增加一个openApplePay是否开通苹果充值
+
+2017年11月9日
+1. userinfo表增加headId字段
+
+///////////////////////////////////////////////////////////////////add in
+2017年11月2日
+1.gameRoomKind 的搞两把牛牛游戏人数限制改为5人，即startMaxPlayer由原来的8改为5
+
+2017年10月20日
+1.dbserver, centerserver, gameserver, loginserver, proxyserver设置redis密码
+
+2017年10月17日
+1. 替换acl头文件
+
+2017年9月28日
+1. account库增加userdata表
+
+2017年9月23日
+1. platform库增加taskConfig表（dbserver需要增加platform连接配置）
+2. game库增加userTask表
+
+2017年9月18日
+1.新增库 record_score
+2.record_score增加record_draw_info表
+3.record_score增加record_draw_score表
+
+2017年9月14日
+1.platform增加taskConfig表
+
+2017年9月12日
+1. platform增加roomServer表
+
+2017年9月11日
+1. account库增加androidCfg表
+
+2017年9月5日
+1.platform.gameRoomKind表增加maxUserCount
+2.牛牛和跑得快的名称修改，同时需要修改platform.gameKind表的serverdllName
+
+2017年8月23日
+1.game库增加gameScoreData表以记录金币场消息
+2.game库增加hongbao和hongbaoRecord表
+
+2017年8月15日
+1.record库增加record_benefit表
+2.record库弃用record_signin_detail表
+3.record库增加record_score_change表
+
+2017年8月14日
+1.platform.signinConfig配置表增加rewardScore
+2.增加platform.benefitConfig配置表
+3.增加platform.exchangeScoreConfig配置表
+4.增加platform.systemStatus配置表
+
+2017年7月19日 
+1.record.record_big_score param字段改为256
+2.record库增加：record_group_room, roomSale, robotConfig, roomConfig
+
+2017年6月28日 
+1.account库增加group和groupuser表
+2.弃用usermap表
+3.user表增加promoterid字段
+4.userinfo表增加score字段
+
+2017年4月12日 
+
+1.record_big_score表增加userid和param两个字段
+
+
+2017年3月16日
+
+1.增加一个game数据库，增加mail和mail_del两个表，用于表示保存邮件和已经阅读过的邮件
+
+mail: okman200406@gmail.com 20180808m*
+apple: okman200406@gmail.com 20180808M*
+parallels: okman200406@gmail.com 20180808m*

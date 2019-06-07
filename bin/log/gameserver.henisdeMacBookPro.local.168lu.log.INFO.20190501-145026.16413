@@ -1,0 +1,25 @@
+Log file created at: 2019/05/01 14:50:26
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0501 14:50:26.060884 261264832 GameServer.cpp:45] 正在启动游戏服务器...
+I0501 14:50:26.063491 261264832 NetModule.h:71] Init NetModule Finished.
+I0501 14:50:26.063729 261264832 NetModule.h:78] start work thread 0...
+I0501 14:50:26.063740 261264832 NetModule.cpp:69] Start Run NetModule...
+I0501 14:50:26.063760 261264832 NetModule.cpp:88] NetModule Already Startover.
+I0501 14:50:26.063772 261264832 NetModule.cpp:220] add one connector: 127.0.0.1:5001 succeed...
+I0501 14:50:26.063778 261264832 NetModule.cpp:220] add one connector: 127.0.0.1:6001 succeed...
+I0501 14:50:26.063784 261264832 NetModule.cpp:136] Create one server...
+I0501 14:50:26.565063 261264832 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0501 14:50:26.565101 261264832 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0501 14:50:26.566936 29700096 GameServerThread.cpp:113] connect to db server succ!
+I0501 14:50:28.714206 29700096 AndroidUserMgr.cpp:832] set active android count: 0
+I0501 14:50:28.714243 29700096 AndroidUserMgr.cpp:832] set active android count: 0
+I0501 14:50:28.807305 261264832 NetServer.cpp:55] accept io...127.0.0.1:54728
+I0501 14:50:29.152657 29700096 GameServerThread.cpp:1933] load benefit config succ!
+I0501 14:50:30.112942 29700096 GameServerThread.cpp:1853] load android parameter succ, android count : 0
+W0501 14:50:30.190227 29700096 GameTableManager.cpp:566] update br game server black list, server id: 11
+I0501 14:50:30.190547 29700096 GameServerThread.cpp:1507] init server succ!
+I0501 14:50:30.190558 29700096 GameServerThread.cpp:146] bind one connect: 127.0.0.1:54728
+I0501 14:50:30.190568 29700096 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:54728
+W0501 14:54:59.637187 29700096 GameServerThread.cpp:2571] can not enter room, in other room, user id: 85505112
+W0501 14:55:39.269950 29700096 TableFrameForScore.cpp:1814] delete user online info fail, userid:85583673

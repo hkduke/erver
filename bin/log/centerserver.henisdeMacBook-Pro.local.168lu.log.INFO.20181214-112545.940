@@ -1,0 +1,25 @@
+Log file created at: 2018/12/14 11:25:45
+Running on machine: henisdeMacBook-Pro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1214 11:25:45.161466 240920000 CenterServer.cpp:32] 正在启动中心服务器...
+I1214 11:25:45.163805 240920000 NetModule.h:71] Init NetModule Finished.
+I1214 11:25:45.163933 240920000 NetModule.h:77] start work thread 0...
+I1214 11:25:45.163944 240920000 NetModule.cpp:64] Start Run NetModule...
+I1214 11:25:45.163962 240920000 NetModule.cpp:76] NetModule Already Startover.
+I1214 11:25:45.163975 240920000 NetModule.cpp:200] add one connector: 0.0.0.0:6001 succeed...
+I1214 11:25:45.163981 240920000 NetModule.cpp:118] Create one server...
+I1214 11:25:45.666662 240920000 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1214 11:25:45.668731 218578944 CenterThread.cpp:87] connect to db server succ!
+I1214 11:25:48.615375 240920000 NetServer.cpp:55] accept io...127.0.0.1:49445
+I1214 11:25:48.639421 218578944 ServerMgr.cpp:54] register one proxy server: 127.0.0.1:49445
+I1214 11:25:51.502056 240920000 NetServer.cpp:55] accept io...127.0.0.1:49447
+I1214 11:25:51.526476 218578944 ServerMgr.cpp:469] register one login server: 127.0.0.1:49447
+I1214 11:25:56.616080 240920000 NetServer.cpp:55] accept io...127.0.0.1:49452
+I1214 11:25:56.627444 240920000 NetServer.cpp:88] delete io...127.0.0.1:49452
+I1214 11:26:19.935487 240920000 NetServer.cpp:55] accept io...127.0.0.1:49459
+I1214 11:26:19.946295 240920000 NetServer.cpp:88] delete io...127.0.0.1:49459
+I1214 11:26:32.132854 240920000 NetServer.cpp:88] delete io...127.0.0.1:49447
+W1214 11:26:32.134820 218578944 ServerMgr.cpp:843] remove one login server, id:10
+I1214 11:27:06.296722 240920000 NetServer.cpp:55] accept io...127.0.0.1:49465
+I1214 11:27:06.323776 218578944 ServerMgr.cpp:469] register one login server: 127.0.0.1:49465
+W1214 11:55:00.888978 218578944 CenterThread.cpp:120] db server is disconnect, after 1s will be reconnect!

@@ -1,0 +1,29 @@
+Log file created at: 2019/05/31 17:14:42
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0531 17:14:42.040920 60417472 LoginServer.cpp:45] 正在启动登录服务器...
+I0531 17:14:42.044754 60417472 NetModule.h:71] Init NetModule Finished.
+I0531 17:14:42.048249 60417472 NetModule.h:78] start work thread 0...
+I0531 17:14:42.048274 60417472 NetModule.cpp:69] Start Run NetModule...
+I0531 17:14:42.048295 60417472 NetModule.cpp:88] NetModule Already Startover.
+W0531 17:14:42.049897 60417472 LoginServer.cpp:65] listen at: 0.0.0.0:7001
+I0531 17:14:42.050808 60417472 NetModule.cpp:136] Create one server...
+I0531 17:14:42.051029 60417472 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0531 17:14:42.136582 60417472 NetServer.cpp:55] accept io...127.0.0.1:63554
+I0531 17:14:42.137650 61050880 LoginServerThread.cpp:198] bind one connect: 127.0.0.1:63554
+I0531 17:14:42.152506 61050880 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:63554
+I0531 17:14:43.765487 61050880 LoginServerThread.cpp:7914] load game kind succ!
+I0531 17:14:43.878017 61050880 LoginServerThread.cpp:8025] load game room kind succ!
+I0531 17:14:44.440776 61050880 LoginServerThread.cpp:8407] load system status succ!
+I0531 17:14:44.554599 61050880 LoginServerThread.cpp:8094] load vip config succ!
+I0531 17:14:44.675201 61050880 LoginServerThread.cpp:8126] load vip2 config succ!
+I0531 17:14:44.790550 61050880 LoginServerThread.cpp:8432] load channel show exchange succ!
+I0531 17:14:44.902712 61050880 LoginServerThread.cpp:8462] load exchange info succ!
+I0531 17:14:45.019699 61050880 LoginServerThread.cpp:8489] load channel prsent score succ!
+I0531 17:14:45.134747 61050880 LoginServerThread.cpp:8513] load channel register mail succ!
+I0531 17:14:45.250530 61050880 LoginServerThread.cpp:8154] load benefit config succ!
+I0531 17:14:45.363198 61050880 LoginServerThread.cpp:8221] load game version succ!
+W0531 17:14:45.704603 61050880 LoginServerThread.cpp:336] loginserver start succ.
+W0531 19:53:56.447196 61050880 LoginServerThread.cpp:6112] query exchange record fail. sql:SELECT * FROM treasure.exchange WHERE userid = '85557200' order by id desc LIMIT 10, errno: -1, err msg: mysql not opened yet!
+W0531 19:54:02.097542 61587456 LoginRecordThread.cpp:101] insert user login record fail. errno: -1, error msg: mysql not opened yet!
+W0601 00:00:02.244163 61050880 LoginServerThread.cpp:547] login server is across day.

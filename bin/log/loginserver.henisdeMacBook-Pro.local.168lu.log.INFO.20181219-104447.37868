@@ -1,0 +1,444 @@
+Log file created at: 2018/12/19 10:44:47
+Running on machine: henisdeMacBook-Pro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1219 10:44:47.337632 207472064 LoginServer.cpp:45] 正在启动登录服务器...
+I1219 10:44:47.340644 207472064 NetModule.h:71] Init NetModule Finished.
+I1219 10:44:47.342370 207472064 NetModule.h:77] start work thread 0...
+I1219 10:44:47.342386 207472064 NetModule.cpp:64] Start Run NetModule...
+I1219 10:44:47.342411 207472064 NetModule.cpp:76] NetModule Already Startover.
+W1219 10:44:47.342808 207472064 LoginServer.cpp:65] listen at: 0.0.0.0:7003
+I1219 10:44:47.343057 207472064 NetModule.cpp:118] Create one server...
+I1219 10:44:47.343148 207472064 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1219 10:44:47.674047 207472064 NetServer.cpp:55] accept io...127.0.0.1:52821
+I1219 10:44:47.674121 198975488 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:52821
+I1219 10:44:47.686494 198975488 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:52821
+I1219 10:44:49.338439 198975488 LoginServerThread.cpp:7364] load game kind succ!
+I1219 10:44:49.448990 198975488 LoginServerThread.cpp:7475] load game room kind succ!
+I1219 10:44:50.119796 198975488 LoginServerThread.cpp:7839] load system status succ!
+I1219 10:44:50.230221 198975488 LoginServerThread.cpp:7510] load sign in config succ!
+I1219 10:44:50.343325 198975488 LoginServerThread.cpp:7544] load vip config succ!
+I1219 10:44:50.453315 198975488 LoginServerThread.cpp:7576] load vip2 config succ!
+I1219 10:44:50.643277 198975488 LoginServerThread.cpp:7864] load channel show exchange succ!
+I1219 10:44:50.763339 198975488 LoginServerThread.cpp:7894] load exchange info succ!
+I1219 10:44:50.903934 198975488 LoginServerThread.cpp:7921] load channel prsent score succ!
+I1219 10:44:51.034653 198975488 LoginServerThread.cpp:7945] load channel register mail succ!
+I1219 10:44:51.143890 198975488 LoginServerThread.cpp:7668] load game version succ!
+W1219 11:53:34.059535 198975488 LoginServerThread.cpp:3811] set user earn score fail, user id: 85010705
+W1219 15:35:46.616760 198975488 LoginServerThread.cpp:5017] select expire mail fail, error no: -1, sql:select mailid from mail where userid = '85010705' and mailType = 2 and expireTime < now()
+W1219 15:37:46.640074 199512064 LoginRecordThread.cpp:101] insert user login record fail. errno: -1, error msg: mysql not opened yet!
+W1219 15:38:16.416051 198975488 LoginServerThread.cpp:5878] select account info failed, user name : 15441525762cfc6627-2b97-fe78-8615-c2b4c85e2a28, errno: -1, error: mysql not opened yet!
+W1219 15:39:26.427706 198975488 LoginServerThread.cpp:5878] select account info failed, user name : 15441525762cfc6627-2b97-fe78-8615-c2b4c85e2a28, errno: -1, error: mysql not opened yet!
+W1219 15:40:36.438043 198975488 LoginServerThread.cpp:5878] select account info failed, user name : 15441525762cfc6627-2b97-fe78-8615-c2b4c85e2a28, errno: -1, error: mysql not opened yet!
+W1219 15:41:46.436043 198975488 LoginServerThread.cpp:5878] select account info failed, user name : 15441525762cfc6627-2b97-fe78-8615-c2b4c85e2a28, errno: -1, error: mysql not opened yet!
+W1219 15:42:49.174785 199512064 LoginRecordThread.cpp:101] insert user login record fail. errno: -1, error msg: mysql not opened yet!
+W1219 15:42:56.679749 199512064 LoginRecordThread.cpp:101] insert user login record fail. errno: -1, error msg: mysql not opened yet!
+W1219 15:43:47.782867 198975488 LoginServerThread.cpp:5878] select account info failed, user name : 15441525762cfc6627-2b97-fe78-8615-c2b4c85e2a28, errno: -1, error: mysql not opened yet!
+W1219 15:43:56.686815 199512064 LoginRecordThread.cpp:101] insert user login record fail. errno: -1, error msg: mysql not opened yet!
+W1219 15:45:05.831478 198975488 LoginServerThread.cpp:5878] select account info failed, user name : 15441525762cfc6627-2b97-fe78-8615-c2b4c85e2a28, errno: -1, error: mysql not opened yet!
+I1219 22:09:11.053833 207472064 NetServer.cpp:88] delete io...127.0.0.1:52821
+W1219 22:09:11.054184 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1219 22:09:11.054308 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+I1219 22:09:14.211525 207472064 NetServer.cpp:55] accept io...127.0.0.1:55900
+I1219 22:09:14.212711 198975488 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:55900
+I1219 22:09:14.226101 198975488 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:55900
+W1219 22:09:21.249941 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+I1219 22:09:21.250033 207472064 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1219 22:42:26.089737 207472064 NetServer.cpp:88] delete io...127.0.0.1:55900
+W1219 22:42:26.089978 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1219 22:42:26.092083 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+I1219 22:42:29.572003 207472064 NetServer.cpp:55] accept io...127.0.0.1:55925
+I1219 22:42:29.573845 198975488 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:55925
+I1219 22:42:29.593333 198975488 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:55925
+W1219 22:42:36.615103 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+I1219 22:42:36.615362 207472064 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+W1220 00:43:19.094377 198975488 LoginServerThread.cpp:511] login server is across day.
+I1220 00:43:19.115197 207472064 NetServer.cpp:88] delete io...127.0.0.1:55925
+W1220 00:43:19.684206 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1220 00:43:19.684253 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+I1220 00:43:22.607098 207472064 NetServer.cpp:55] accept io...127.0.0.1:55951
+I1220 00:43:22.608013 198975488 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:55951
+I1220 00:43:22.621147 198975488 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:55951
+W1220 00:43:30.130596 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+I1220 00:43:30.130856 207472064 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1220 02:44:12.168895 207472064 NetServer.cpp:88] delete io...127.0.0.1:55951
+W1220 02:44:12.171283 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1220 02:44:12.187772 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+I1220 02:44:15.659481 207472064 NetServer.cpp:55] accept io...127.0.0.1:55983
+I1220 02:44:15.661005 198975488 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:55983
+I1220 02:44:15.690268 198975488 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:55983
+W1220 02:44:22.207595 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+I1220 02:44:22.207901 207472064 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1220 04:45:05.202522 207472064 NetServer.cpp:88] delete io...127.0.0.1:55983
+W1220 04:45:05.204486 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1220 04:45:05.204543 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+I1220 04:45:08.697728 207472064 NetServer.cpp:55] accept io...127.0.0.1:56006
+I1220 04:45:08.698940 198975488 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:56006
+I1220 04:45:08.721253 198975488 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:56006
+W1220 04:45:15.221640 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+I1220 04:45:15.221897 207472064 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1220 06:45:58.234045 207472064 NetServer.cpp:88] delete io...127.0.0.1:56006
+W1220 06:45:58.236300 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1220 06:45:58.236351 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+I1220 06:46:01.724360 207472064 NetServer.cpp:55] accept io...127.0.0.1:56030
+I1220 06:46:01.724822 198975488 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:56030
+I1220 06:46:01.755841 198975488 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:56030
+W1220 06:46:08.745142 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+I1220 06:46:08.745391 207472064 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1220 08:46:51.273636 207472064 NetServer.cpp:88] delete io...127.0.0.1:56030
+W1220 08:46:51.275213 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1220 08:46:51.275247 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+I1220 08:46:54.766290 207472064 NetServer.cpp:55] accept io...127.0.0.1:56054
+I1220 08:46:54.768568 198975488 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:56054
+I1220 08:46:54.786494 198975488 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:56054
+W1220 08:47:01.297487 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+I1220 08:47:01.297786 207472064 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1220 09:45:02.316107 207472064 NetServer.cpp:88] delete io...127.0.0.1:56054
+W1220 09:45:02.317768 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1220 09:45:02.317811 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+I1220 09:45:05.814887 207472064 NetServer.cpp:55] accept io...127.0.0.1:56089
+I1220 09:45:05.816819 198975488 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:56089
+I1220 09:45:05.836686 198975488 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:56089
+W1220 09:45:12.828397 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+I1220 09:45:12.828675 207472064 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+W1220 14:33:52.653666 199512064 LoginRecordThread.cpp:101] insert user login record fail. errno: -1, error msg: mysql not opened yet!
+W1220 16:01:36.860060 198975488 LoginServerThread.cpp:5017] select expire mail fail, error no: -1, sql:select mailid from mail where userid = '83516815' and mailType = 2 and expireTime < now()
+I1220 22:20:59.668332 207472064 NetServer.cpp:88] delete io...127.0.0.1:56089
+W1220 22:20:59.669271 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1220 22:20:59.681735 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+I1220 22:21:03.110232 207472064 NetServer.cpp:55] accept io...127.0.0.1:62113
+I1220 22:21:03.111210 198975488 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:62113
+I1220 22:21:03.138763 198975488 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:62113
+W1220 22:21:10.168462 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+I1220 22:21:10.168560 207472064 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+W1220 23:26:02.518479 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+I1220 23:26:02.523763 207472064 NetServer.cpp:88] delete io...127.0.0.1:62113
+W1220 23:26:02.525341 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+I1220 23:26:06.014983 207472064 NetServer.cpp:55] accept io...127.0.0.1:62171
+I1220 23:26:06.015705 198975488 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:62171
+I1220 23:26:06.031997 198975488 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:62171
+W1220 23:26:12.549616 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+I1220 23:26:12.549715 207472064 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+W1221 00:31:05.455205 198975488 LoginServerThread.cpp:511] login server is across day.
+I1221 00:31:05.473258 207472064 NetServer.cpp:88] delete io...127.0.0.1:62171
+W1221 00:31:06.029105 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+W1221 00:31:06.029151 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+I1221 00:31:08.961730 207472064 NetServer.cpp:55] accept io...127.0.0.1:62214
+I1221 00:31:08.963726 198975488 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:62214
+I1221 00:31:08.982404 198975488 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:62214
+W1221 00:31:16.497964 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+I1221 00:31:16.498044 207472064 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1221 01:36:08.577844 207472064 NetServer.cpp:88] delete io...127.0.0.1:62214
+W1221 01:36:08.578328 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1221 01:36:08.582123 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+I1221 01:36:12.082276 207472064 NetServer.cpp:55] accept io...127.0.0.1:62251
+I1221 01:36:12.084076 198975488 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:62251
+I1221 01:36:12.092033 198975488 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:62251
+W1221 01:36:19.115375 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+I1221 01:36:19.115491 207472064 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1221 02:11:11.589004 207472064 NetServer.cpp:88] delete io...127.0.0.1:62251
+W1221 02:11:11.604545 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1221 02:11:11.604785 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+I1221 02:11:15.089423 207472064 NetServer.cpp:55] accept io...127.0.0.1:62295
+I1221 02:11:15.090919 198975488 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:62295
+I1221 02:11:15.108412 198975488 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:62295
+W1221 02:11:22.113533 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+I1221 02:11:22.113656 207472064 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1221 03:16:13.596781 207472064 NetServer.cpp:88] delete io...127.0.0.1:62295
+W1221 03:16:13.598160 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1221 03:16:13.605013 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+I1221 03:16:17.095121 207472064 NetServer.cpp:55] accept io...127.0.0.1:62411
+I1221 03:16:17.097841 198975488 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:62411
+I1221 03:16:17.116745 198975488 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:62411
+W1221 03:16:23.633827 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+I1221 03:16:23.633919 207472064 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1221 04:21:16.624357 207472064 NetServer.cpp:88] delete io...127.0.0.1:62411
+W1221 04:21:16.626396 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1221 04:21:16.626458 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+I1221 04:21:20.113842 207472064 NetServer.cpp:55] accept io...127.0.0.1:62538
+I1221 04:21:20.115890 198975488 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:62538
+I1221 04:21:20.139278 198975488 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:62538
+W1221 04:21:27.142256 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+I1221 04:21:27.142349 207472064 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1221 05:26:19.640759 207472064 NetServer.cpp:88] delete io...127.0.0.1:62538
+W1221 05:26:19.643221 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1221 05:26:19.649308 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+I1221 05:26:23.125191 207472064 NetServer.cpp:55] accept io...127.0.0.1:62660
+I1221 05:26:23.125591 198975488 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:62660
+I1221 05:26:23.136735 198975488 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:62660
+W1221 05:26:30.176254 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+I1221 05:26:30.176347 207472064 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1221 06:03:59.677978 207472064 NetServer.cpp:88] delete io...127.0.0.1:62660
+W1221 06:03:59.679172 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1221 06:03:59.685185 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+I1221 06:04:03.171847 207472064 NetServer.cpp:55] accept io...127.0.0.1:62788
+I1221 06:04:03.173449 198975488 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:62788
+I1221 06:04:03.191673 198975488 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:62788
+W1221 06:04:10.212874 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+I1221 06:04:10.213016 207472064 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1221 07:09:01.693742 207472064 NetServer.cpp:88] delete io...127.0.0.1:62788
+W1221 07:09:01.693773 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1221 07:09:01.699205 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+I1221 07:09:05.175595 207472064 NetServer.cpp:55] accept io...127.0.0.1:62902
+I1221 07:09:05.178319 198975488 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:62902
+I1221 07:09:05.185787 198975488 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:62902
+W1221 07:09:12.229426 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+I1221 07:09:12.229578 207472064 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1221 08:14:03.717442 207472064 NetServer.cpp:88] delete io...127.0.0.1:62902
+W1221 08:14:03.717557 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1221 08:14:03.726194 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+I1221 08:14:07.225642 207472064 NetServer.cpp:55] accept io...127.0.0.1:63020
+I1221 08:14:07.228451 198975488 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:63020
+I1221 08:14:07.249166 198975488 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:63020
+W1221 08:14:14.256577 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+I1221 08:14:14.256688 207472064 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1221 09:19:07.748543 207472064 NetServer.cpp:88] delete io...127.0.0.1:63020
+W1221 09:19:07.749709 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1221 09:19:07.769804 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+I1221 09:19:11.244786 207472064 NetServer.cpp:55] accept io...127.0.0.1:63138
+I1221 09:19:11.245839 198975488 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:63138
+I1221 09:19:11.269351 198975488 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:63138
+W1221 09:19:18.299134 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+I1221 09:19:18.299369 207472064 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1221 09:46:41.889654 207472064 NetServer.cpp:88] delete io...127.0.0.1:63138
+W1221 09:46:41.891203 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1221 09:46:41.904952 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+I1221 09:46:45.379396 207472064 NetServer.cpp:55] accept io...127.0.0.1:63292
+I1221 09:46:45.380803 198975488 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:63292
+I1221 09:46:45.404122 198975488 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:63292
+W1221 09:46:52.409399 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+I1221 09:46:52.409571 207472064 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+W1221 10:43:02.977128 198975488 LoginServerThread.cpp:3811] set user earn score fail, user id: 83516815
+W1221 14:06:35.886445 198975488 LoginServerThread.cpp:3811] set user earn score fail, user id: 83516815
+W1221 17:24:35.934470 198975488 LoginServerThread.cpp:3811] set user earn score fail, user id: 83516815
+W1221 17:24:46.048969 198975488 LoginServerThread.cpp:3795] set user task fail, user id: 83516815
+I1221 21:35:39.878597 207472064 NetServer.cpp:88] delete io...127.0.0.1:63292
+W1221 21:35:39.955698 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1221 21:35:39.955809 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+I1221 21:35:43.255686 207472064 NetServer.cpp:55] accept io...127.0.0.1:52577
+I1221 21:35:43.257349 198975488 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:52577
+I1221 21:35:43.276486 198975488 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:52577
+W1221 21:35:50.296550 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+I1221 21:35:50.296679 207472064 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1221 22:14:49.932898 207472064 NetServer.cpp:88] delete io...127.0.0.1:52577
+W1221 22:14:49.933506 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1221 22:14:49.936100 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+I1221 22:14:53.446300 207472064 NetServer.cpp:55] accept io...127.0.0.1:52601
+I1221 22:14:53.448803 198975488 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:52601
+I1221 22:14:53.469427 198975488 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:52601
+W1221 22:15:00.466233 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+I1221 22:15:00.466573 207472064 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1221 22:51:21.977934 207472064 NetServer.cpp:88] delete io...127.0.0.1:52601
+W1221 22:51:21.980548 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1221 22:51:21.980634 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+I1221 22:51:25.482811 207472064 NetServer.cpp:55] accept io...127.0.0.1:52626
+I1221 22:51:25.484563 198975488 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:52626
+I1221 22:51:25.494944 198975488 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:52626
+W1221 22:51:32.014477 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+I1221 22:51:32.014720 207472064 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+W1222 00:52:15.006456 198975488 LoginServerThread.cpp:511] login server is across day.
+I1222 00:52:15.031379 207472064 NetServer.cpp:88] delete io...127.0.0.1:52626
+W1222 00:52:15.581909 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1222 00:52:15.581964 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+I1222 00:52:18.520771 207472064 NetServer.cpp:55] accept io...127.0.0.1:52656
+I1222 00:52:18.521351 198975488 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:52656
+I1222 00:52:18.551040 198975488 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:52656
+W1222 00:52:26.042075 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+I1222 00:52:26.042327 207472064 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1222 02:53:08.051342 207472064 NetServer.cpp:88] delete io...127.0.0.1:52656
+W1222 02:53:08.051414 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1222 02:53:08.053799 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+I1222 02:53:11.550633 207472064 NetServer.cpp:55] accept io...127.0.0.1:52687
+I1222 02:53:11.552398 198975488 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:52687
+I1222 02:53:11.558650 198975488 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:52687
+W1222 02:53:18.571554 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+I1222 02:53:18.571854 207472064 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1222 04:54:01.070737 207472064 NetServer.cpp:88] delete io...127.0.0.1:52687
+W1222 04:54:01.071487 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1222 04:54:01.071552 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+I1222 04:54:04.558627 207472064 NetServer.cpp:55] accept io...127.0.0.1:52711
+I1222 04:54:04.558905 198975488 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:52711
+I1222 04:54:04.580655 198975488 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:52711
+W1222 04:54:11.097654 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+I1222 04:54:11.097959 207472064 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1222 06:54:54.096294 207472064 NetServer.cpp:88] delete io...127.0.0.1:52711
+W1222 06:54:54.098687 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1222 06:54:54.098758 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+I1222 06:54:57.581503 207472064 NetServer.cpp:55] accept io...127.0.0.1:52736
+I1222 06:54:57.582118 198975488 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:52736
+I1222 06:54:57.597980 198975488 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:52736
+W1222 06:55:04.602826 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+I1222 06:55:04.603122 207472064 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1222 08:55:47.114264 207472064 NetServer.cpp:88] delete io...127.0.0.1:52736
+W1222 08:55:47.116353 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1222 08:55:47.116394 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+I1222 08:55:50.616017 207472064 NetServer.cpp:55] accept io...127.0.0.1:52769
+I1222 08:55:50.618589 198975488 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:52769
+I1222 08:55:50.640367 198975488 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:52769
+W1222 08:55:57.136710 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+I1222 08:55:57.136970 207472064 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1222 09:45:02.166034 207472064 NetServer.cpp:88] delete io...127.0.0.1:52769
+W1222 09:45:02.166330 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1222 09:45:02.168393 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+I1222 09:45:05.650329 207472064 NetServer.cpp:55] accept io...127.0.0.1:52798
+I1222 09:45:05.652850 198975488 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:52798
+I1222 09:45:05.657332 198975488 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:52798
+W1222 09:45:12.678203 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+I1222 09:45:12.678495 207472064 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+W1222 10:27:32.113349 198975488 LoginServerThread.cpp:3811] set user earn score fail, user id: 83516815
+W1222 10:27:42.236893 198975488 LoginServerThread.cpp:3795] set user task fail, user id: 83516815
+W1222 10:27:52.467732 198975488 LoginServerThread.cpp:3920] set user today rank info fail, user id: 83516815
+W1222 10:28:02.588238 198975488 LoginServerThread.cpp:3724] set benefit failed, userid: 83516815
+W1222 14:45:11.812759 198975488 LoginServerThread.cpp:3811] set user earn score fail, user id: 85098063
+W1222 14:45:35.392257 198975488 LoginServerThread.cpp:4589] expire earn score fail, userid: 85098063
+W1222 17:53:32.855196 198975488 LoginServerThread.cpp:5017] select expire mail fail, error no: -1, sql:select mailid from mail where userid = '83516815' and mailType = 2 and expireTime < now()
+I1222 20:16:08.142004 207472064 NetServer.cpp:88] delete io...127.0.0.1:52798
+W1222 20:16:08.142207 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1222 20:16:08.148705 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+I1222 20:16:11.642912 207472064 NetServer.cpp:55] accept io...127.0.0.1:54488
+I1222 20:16:11.644492 198975488 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:54488
+I1222 20:16:11.646711 198975488 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:54488
+W1222 20:16:18.642597 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+I1222 20:16:18.642910 207472064 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1222 20:53:26.176440 207472064 NetServer.cpp:88] delete io...127.0.0.1:54488
+W1222 20:53:26.176806 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1222 20:53:26.177013 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+I1222 20:53:29.670552 207472064 NetServer.cpp:55] accept io...127.0.0.1:54523
+I1222 20:53:29.670603 198975488 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:54523
+I1222 20:53:29.690474 198975488 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:54523
+W1222 20:53:36.208067 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+I1222 20:53:36.208313 207472064 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+W1223 02:08:37.174141 198975488 LoginServerThread.cpp:511] login server is across day.
+W1223 02:08:37.174440 198975488 LoginServerThread.cpp:534] delete record_register_ip error, errno: 2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+I1223 02:08:37.197106 207472064 NetServer.cpp:88] delete io...127.0.0.1:54523
+W1223 02:08:37.199381 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1223 02:08:37.199424 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+I1223 02:08:40.697350 207472064 NetServer.cpp:55] accept io...127.0.0.1:54584
+I1223 02:08:40.698845 198975488 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:54584
+I1223 02:08:40.724136 198975488 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:54584
+W1223 02:08:47.711519 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+I1223 02:08:47.711773 207472064 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1223 10:00:03.177276 207472064 NetServer.cpp:88] delete io...127.0.0.1:54584
+W1223 10:00:03.178135 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1223 10:00:03.187536 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+I1223 10:00:06.671818 207472064 NetServer.cpp:55] accept io...127.0.0.1:54669
+I1223 10:00:06.673194 198975488 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:54669
+I1223 10:00:06.702682 198975488 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:54669
+W1223 10:00:13.199244 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+I1223 10:00:13.199504 207472064 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1223 15:31:20.214706 207472064 NetServer.cpp:88] delete io...127.0.0.1:54669
+W1223 15:31:20.216588 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1223 15:31:20.216639 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+I1223 15:31:23.702941 207472064 NetServer.cpp:55] accept io...127.0.0.1:55406
+I1223 15:31:23.704699 198975488 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:55406
+I1223 15:31:23.722079 198975488 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:55406
+W1223 15:31:30.226433 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+I1223 15:31:30.226686 207472064 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+W1224 09:45:03.232760 198975488 LoginServerThread.cpp:511] login server is across day.
+I1224 09:45:03.256006 207472064 NetServer.cpp:88] delete io...127.0.0.1:55406
+W1224 09:45:03.275234 198975488 LoginServerThread.cpp:534] delete record_register_ip error, errno: 2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W1224 09:45:03.275291 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1224 09:45:03.280359 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+I1224 09:45:06.763356 207472064 NetServer.cpp:55] accept io...127.0.0.1:55986
+I1224 09:45:06.766187 198975488 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:55986
+I1224 09:45:06.794889 198975488 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:55986
+W1224 09:45:13.775936 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+I1224 09:45:13.776212 207472064 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1224 10:00:56.279901 207472064 NetServer.cpp:88] delete io...127.0.0.1:55986
+W1224 10:00:56.282263 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1224 10:00:56.292064 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+I1224 10:00:59.767815 207472064 NetServer.cpp:55] accept io...127.0.0.1:56115
+I1224 10:00:59.769999 198975488 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:56115
+I1224 10:00:59.793339 198975488 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:56115
+W1224 10:01:06.816572 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+I1224 10:01:06.816829 207472064 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+W1224 10:58:02.248616 198975488 LoginServerThread.cpp:3811] set user earn score fail, user id: 83516815
+W1224 10:58:12.373813 198975488 LoginServerThread.cpp:3795] set user task fail, user id: 83516815
+W1224 14:25:52.379794 198975488 LoginServerThread.cpp:3811] set user earn score fail, user id: 83516815
+W1224 14:26:02.511365 198975488 LoginServerThread.cpp:3795] set user task fail, user id: 83516815
+W1224 14:26:12.746634 198975488 LoginServerThread.cpp:3920] set user today rank info fail, user id: 83516815
+W1224 14:26:22.860816 198975488 LoginServerThread.cpp:3724] set benefit failed, userid: 83516815
+W1224 14:26:52.875315 198975488 LoginServerThread.cpp:3648] set proxy server info fail, userid = 83516815
+W1224 15:06:23.895952 198975488 LoginServerThread.cpp:3811] set user earn score fail, user id: 83516815
+W1224 15:06:34.014540 198975488 LoginServerThread.cpp:3795] set user task fail, user id: 83516815
+W1224 15:17:49.132782 198975488 LoginServerThread.cpp:3811] set user earn score fail, user id: 85010705
+W1224 15:37:26.603989 198975488 LoginServerThread.cpp:3811] set user earn score fail, user id: 85010705
+W1224 17:12:24.983752 198975488 LoginServerThread.cpp:5017] select expire mail fail, error no: 2003, sql:select mailid from mail where userid = '83516815' and mailType = 2 and expireTime < now()
+W1224 17:12:25.097884 199512064 LoginRecordThread.cpp:101] insert user login record fail. errno: 2003, error msg: Can't connect to MySQL server on '58.82.239.150' (61)
+W1224 17:35:11.237764 198975488 LoginServerThread.cpp:3811] set user earn score fail, user id: 85010705
+W1224 17:35:21.373781 198975488 LoginServerThread.cpp:3795] set user task fail, user id: 85010705
+W1224 17:35:31.623309 198975488 LoginServerThread.cpp:3920] set user today rank info fail, user id: 85010705
+W1224 17:35:41.745086 198975488 LoginServerThread.cpp:3724] set benefit failed, userid: 85010705
+W1224 17:36:11.757362 198975488 LoginServerThread.cpp:3648] set proxy server info fail, userid = 85010705
+W1224 17:36:21.762162 198975488 LoginServerThread.cpp:3472] set user account data fail, userid = 85010705
+W1224 17:36:31.767324 198975488 LoginServerThread.cpp:3490] set user id failed, account: 15441525762cfc6627-2b97-fe78-8615-c2b4c85e2a28
+W1224 17:36:52.779742 198975488 LoginServerThread.cpp:3811] set user earn score fail, user id: 85010705
+W1224 17:37:02.895238 198975488 LoginServerThread.cpp:3795] set user task fail, user id: 85010705
+W1224 17:37:13.263736 198975488 LoginServerThread.cpp:3920] set user today rank info fail, user id: 85010705
+W1224 17:37:23.373967 198975488 LoginServerThread.cpp:3724] set benefit failed, userid: 85010705
+W1224 17:37:53.383499 198975488 LoginServerThread.cpp:3648] set proxy server info fail, userid = 85010705
+I1224 21:38:26.673600 207472064 NetServer.cpp:88] delete io...127.0.0.1:56115
+W1224 21:38:26.674697 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1224 21:38:26.694622 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+I1224 21:38:30.262015 207472064 NetServer.cpp:55] accept io...127.0.0.1:60036
+I1224 21:38:30.264426 198975488 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:60036
+I1224 21:38:30.286532 198975488 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:60036
+W1224 21:38:36.789494 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+I1224 21:38:36.789775 207472064 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1224 22:08:50.194728 207472064 NetServer.cpp:88] delete io...127.0.0.1:60036
+W1224 22:08:50.194924 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1224 22:08:50.197057 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+I1224 22:08:53.683015 207472064 NetServer.cpp:55] accept io...127.0.0.1:60049
+I1224 22:08:53.684772 198975488 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:60049
+I1224 22:08:53.712467 198975488 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:60049
+W1224 22:09:00.705299 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+I1224 22:09:00.705571 207472064 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1224 23:01:32.261436 207472064 NetServer.cpp:88] delete io...127.0.0.1:60049
+W1224 23:01:32.263502 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1224 23:01:32.263540 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+I1224 23:01:35.753055 207472064 NetServer.cpp:55] accept io...127.0.0.1:60082
+I1224 23:01:35.754757 198975488 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:60082
+I1224 23:01:35.762118 198975488 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:60082
+W1224 23:01:42.789213 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+I1224 23:01:42.789501 207472064 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+W1225 01:02:25.270331 198975488 LoginServerThread.cpp:511] login server is across day.
+I1225 01:02:25.296730 207472064 NetServer.cpp:88] delete io...127.0.0.1:60082
+W1225 01:02:26.707353 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1225 01:02:26.707420 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+I1225 01:02:28.784554 207472064 NetServer.cpp:55] accept io...127.0.0.1:60106
+I1225 01:02:28.787004 198975488 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:60106
+I1225 01:02:28.792086 198975488 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:60106
+W1225 01:02:36.813184 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+I1225 01:02:36.813429 207472064 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1225 03:03:18.335836 207472064 NetServer.cpp:88] delete io...127.0.0.1:60106
+W1225 03:03:18.336840 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1225 03:03:18.336865 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+I1225 03:03:21.834628 207472064 NetServer.cpp:55] accept io...127.0.0.1:60130
+I1225 03:03:21.834867 198975488 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:60130
+I1225 03:03:21.846299 198975488 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:60130
+W1225 03:03:28.854895 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+I1225 03:03:28.855136 207472064 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1225 05:04:11.352146 207472064 NetServer.cpp:88] delete io...127.0.0.1:60130
+W1225 05:04:11.354768 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1225 05:04:11.354809 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+I1225 05:04:14.845245 207472064 NetServer.cpp:55] accept io...127.0.0.1:60158
+I1225 05:04:14.847772 198975488 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:60158
+I1225 05:04:14.856534 198975488 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:60158
+W1225 05:04:21.881376 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+I1225 05:04:21.881639 207472064 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1225 07:05:04.384598 207472064 NetServer.cpp:88] delete io...127.0.0.1:60158
+W1225 07:05:04.386557 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1225 07:05:04.386595 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+I1225 07:05:07.886767 207472064 NetServer.cpp:55] accept io...127.0.0.1:60179
+I1225 07:05:07.889375 198975488 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:60179
+I1225 07:05:07.919018 198975488 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:60179
+W1225 07:05:14.916334 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+I1225 07:05:14.916635 207472064 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1225 09:05:58.422400 207472064 NetServer.cpp:88] delete io...127.0.0.1:60179
+W1225 09:05:58.422946 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1225 09:05:58.431923 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+I1225 09:06:01.925691 207472064 NetServer.cpp:55] accept io...127.0.0.1:60208
+I1225 09:06:01.927386 198975488 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:60208
+I1225 09:06:01.948752 198975488 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:60208
+W1225 09:06:08.959587 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+I1225 09:06:08.959846 207472064 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1225 09:45:02.475363 207472064 NetServer.cpp:88] delete io...127.0.0.1:60208

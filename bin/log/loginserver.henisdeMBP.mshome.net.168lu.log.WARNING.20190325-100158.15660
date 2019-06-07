@@ -1,0 +1,9 @@
+Log file created at: 2019/03/25 10:01:58
+Running on machine: henisdeMBP.mshome.net
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0325 10:01:58.869344 325453248 LoginServer.cpp:65] listen at: 0.0.0.0:7001
+W0325 10:02:02.378749 123092992 LoginServerThread.cpp:336] loginserver start succ.
+W0325 14:54:19.826485 123092992 LoginServerThread.cpp:5159] QueryGamePlayData info fail, user id : 85548712, errno: 1140, error msg: In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'record.src_user_today.gameIndex'; this is incompatible with sql_mode=only_full_group_by
+W0325 15:04:21.621496 123092992 LoginServerThread.cpp:5159] QueryGamePlayData info fail, user id : 85572952, errno: 1140, error msg: In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'record.src_user_today.gameIndex'; this is incompatible with sql_mode=only_full_group_by
+W0325 17:51:42.353952 123092992 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0325 17:51:52.736110 325453248 NetModule.cpp:723] ready reconnect server, server id: 0

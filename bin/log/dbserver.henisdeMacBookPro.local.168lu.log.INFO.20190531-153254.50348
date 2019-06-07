@@ -1,0 +1,31 @@
+Log file created at: 2019/05/31 15:32:54
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0531 15:32:54.775384 320062912 DBBufferServer.cpp:55] 正在启动DB服务器...
+I0531 15:32:54.780625 320062912 DBBufferServer.cpp:31] start build db thread...
+W0531 15:32:54.780644 179703808 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+I0531 15:32:54.782089 320062912 NetModule.h:71] Init NetModule Finished.
+I0531 15:32:54.788832 320062912 NetModule.h:78] start work thread 0...
+I0531 15:32:54.788856 320062912 NetModule.cpp:69] Start Run NetModule...
+I0531 15:32:54.788889 320062912 NetModule.cpp:88] NetModule Already Startover.
+I0531 15:32:54.788895 320062912 NetModule.cpp:136] Create one server...
+I0531 15:32:55.807252 320062912 NetServer.cpp:55] accept io...127.0.0.1:62223
+I0531 15:32:55.809437 180240384 DBThread.cpp:104] bind one connect: 127.0.0.1:62223
+I0531 15:32:55.895876 320062912 NetServer.cpp:55] accept io...127.0.0.1:62225
+I0531 15:32:55.932801 320062912 NetServer.cpp:55] accept io...127.0.0.1:62226
+I0531 15:32:56.329913 320062912 NetServer.cpp:55] accept io...127.0.0.1:62227
+W0531 15:32:56.647852 180240384 DBThread.cpp:209] main db server set time ok!
+I0531 15:32:56.647904 180240384 DBThread.cpp:234] init db server succ!
+W0531 15:33:57.344601 180240384 DBThread.cpp:7705] get record db handle fail.
+I0531 15:34:39.897493 180240384 DBThread.cpp:104] bind one connect: 127.0.0.1:62225
+I0531 15:34:39.897969 180240384 DBThread.cpp:104] bind one connect: 127.0.0.1:62226
+I0531 15:34:39.897979 180240384 DBThread.cpp:104] bind one connect: 127.0.0.1:62227
+I0531 15:34:43.789391 320062912 NetServer.cpp:88] delete io...127.0.0.1:62227
+I0531 15:34:46.647730 320062912 NetServer.cpp:55] accept io...127.0.0.1:62246
+I0531 15:34:46.649188 180240384 DBThread.cpp:104] bind one connect: 127.0.0.1:62246
+W0531 16:12:17.762326 180240384 DBThread.cpp:5784] INSERT wealth god index fail, errno: -1, error: mysql not opened yet!
+W0531 16:12:17.880311 180240384 DBThread.cpp:5824] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '3-1-1-845' for key 'PRIMARY'
+W0531 16:32:59.321813 179703808 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0531 16:45:09.180187 180240384 DBThread.cpp:2895] insert stat_game_online fail,game id: 0, statType: 0, statValue:1, error no: -1, error msg: mysql not opened yet!
+W0531 16:46:09.187155 180240384 DBThread.cpp:2915] insert stat_machine_online fail,machine types: 1, statValue:1, error no: -1, error msg: mysql not opened yet!
+W0531 16:54:40.640813 180240384 DBThread.cpp:7017] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!

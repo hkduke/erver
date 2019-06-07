@@ -1,0 +1,66 @@
+Log file created at: 2019/06/04 19:06:23
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0604 19:06:23.009162 274810304 GameServer.cpp:45] 正在启动游戏服务器...
+I0604 19:06:23.010999 274810304 NetModule.h:71] Init NetModule Finished.
+I0604 19:06:23.011234 274810304 NetModule.h:78] start work thread 0...
+I0604 19:06:23.011246 274810304 NetModule.cpp:69] Start Run NetModule...
+I0604 19:06:23.011262 274810304 NetModule.cpp:88] NetModule Already Startover.
+I0604 19:06:23.011276 274810304 NetModule.cpp:220] add one connector: 127.0.0.1:5001 succeed...
+I0604 19:06:23.011282 274810304 NetModule.cpp:220] add one connector: 127.0.0.1:6001 succeed...
+I0604 19:06:23.011286 274810304 NetModule.cpp:136] Create one server...
+I0604 19:06:23.514389 274810304 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0604 19:06:23.514425 274810304 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0604 19:06:23.514766 138043392 GameServerThread.cpp:115] connect to db server succ!
+I0604 19:06:25.601044 138043392 AndroidUserMgr.cpp:955] set active android count: 0
+I0604 19:06:25.601094 138043392 AndroidUserMgr.cpp:955] set active android count: 4
+I0604 19:06:25.690233 274810304 NetServer.cpp:55] accept io...127.0.0.1:55863
+I0604 19:06:26.224720 138043392 GameServerThread.cpp:2098] load benefit config succ!
+I0604 19:06:26.886617 138043392 GameServerThread.cpp:2018] load android parameter succ, android count : 46
+W0604 19:06:27.009918 138043392 GameTableManager.cpp:613] update br game server black list, server id: 10004
+I0604 19:06:27.010596 138043392 GameServerThread.cpp:1672] init server succ!
+I0604 19:06:27.010745 138043392 GameServerThread.cpp:148] bind one connect: 127.0.0.1:55863
+I0604 19:06:27.010777 138043392 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:55863
+W0604 19:06:39.953680 138043392 AndroidUserMgr.cpp:292] need android count: 0 dwMaxNeedCount:4
+W0604 19:06:39.953822 138043392 AndroidUserMgr.cpp:302] need android count: 2 dwMaxNeedCount:4
+W0604 19:06:56.780648 138043392 AndroidUserMgr.cpp:292] need android count: 0 dwMaxNeedCount:4
+W0604 19:06:56.780761 138043392 AndroidUserMgr.cpp:302] need android count: 2 dwMaxNeedCount:4
+W0604 19:07:11.786108 138043392 AndroidUserMgr.cpp:292] need android count: 0 dwMaxNeedCount:4
+W0604 19:07:11.786229 138043392 AndroidUserMgr.cpp:302] need android count: 3 dwMaxNeedCount:4
+W0604 19:07:26.892586 138043392 AndroidUserMgr.cpp:292] need android count: 0 dwMaxNeedCount:4
+W0604 19:07:26.892685 138043392 AndroidUserMgr.cpp:302] need android count: 2 dwMaxNeedCount:4
+W0604 19:07:42.224519 138043392 AndroidUserMgr.cpp:292] need android count: 0 dwMaxNeedCount:4
+W0604 19:07:42.224640 138043392 AndroidUserMgr.cpp:302] need android count: 2 dwMaxNeedCount:4
+W0604 19:07:57.459272 138043392 AndroidUserMgr.cpp:292] need android count: 0 dwMaxNeedCount:4
+W0604 19:07:57.459414 138043392 AndroidUserMgr.cpp:302] need android count: 2 dwMaxNeedCount:4
+W0604 19:08:12.572736 138043392 AndroidUserMgr.cpp:292] need android count: 0 dwMaxNeedCount:4
+W0604 19:08:12.572858 138043392 AndroidUserMgr.cpp:302] need android count: 3 dwMaxNeedCount:4
+W0604 19:08:27.902729 138043392 AndroidUserMgr.cpp:292] need android count: 0 dwMaxNeedCount:4
+W0604 19:08:27.902844 138043392 AndroidUserMgr.cpp:302] need android count: 3 dwMaxNeedCount:4
+W0604 19:08:43.101835 138043392 AndroidUserMgr.cpp:292] need android count: 0 dwMaxNeedCount:4
+W0604 19:08:43.101919 138043392 AndroidUserMgr.cpp:302] need android count: 2 dwMaxNeedCount:4
+W0604 19:08:58.316128 138043392 AndroidUserMgr.cpp:292] need android count: 0 dwMaxNeedCount:4
+W0604 19:08:58.316275 138043392 AndroidUserMgr.cpp:302] need android count: 2 dwMaxNeedCount:4
+W0604 19:09:13.530236 138043392 AndroidUserMgr.cpp:292] need android count: 0 dwMaxNeedCount:4
+W0604 19:09:13.530372 138043392 AndroidUserMgr.cpp:302] need android count: 2 dwMaxNeedCount:4
+W0604 19:09:29.380198 138043392 AndroidUserMgr.cpp:292] need android count: 0 dwMaxNeedCount:4
+W0604 19:09:29.380340 138043392 AndroidUserMgr.cpp:302] need android count: 3 dwMaxNeedCount:4
+W0604 19:09:43.975355 138043392 AndroidUserMgr.cpp:292] need android count: 0 dwMaxNeedCount:4
+W0604 19:09:43.975474 138043392 AndroidUserMgr.cpp:302] need android count: 3 dwMaxNeedCount:4
+W0604 19:09:59.195080 138043392 AndroidUserMgr.cpp:292] need android count: 0 dwMaxNeedCount:4
+W0604 19:09:59.195161 138043392 AndroidUserMgr.cpp:302] need android count: 2 dwMaxNeedCount:4
+W0604 19:10:14.397182 138043392 AndroidUserMgr.cpp:292] need android count: 0 dwMaxNeedCount:4
+W0604 19:10:14.397318 138043392 AndroidUserMgr.cpp:302] need android count: 2 dwMaxNeedCount:4
+W0604 19:10:29.592258 138043392 AndroidUserMgr.cpp:292] need android count: 0 dwMaxNeedCount:4
+W0604 19:10:29.592378 138043392 AndroidUserMgr.cpp:302] need android count: 2 dwMaxNeedCount:4
+W0604 19:10:43.779104 138043392 AndroidUserMgr.cpp:292] need android count: 0 dwMaxNeedCount:4
+W0604 19:10:43.779233 138043392 AndroidUserMgr.cpp:302] need android count: 3 dwMaxNeedCount:4
+W0604 19:10:58.106488 138043392 AndroidUserMgr.cpp:292] need android count: 0 dwMaxNeedCount:4
+W0604 19:10:58.106643 138043392 AndroidUserMgr.cpp:302] need android count: 2 dwMaxNeedCount:4
+W0604 19:11:13.243373 138043392 AndroidUserMgr.cpp:292] need android count: 0 dwMaxNeedCount:4
+W0604 19:11:13.243464 138043392 AndroidUserMgr.cpp:302] need android count: 3 dwMaxNeedCount:4
+W0604 19:11:28.457901 138043392 AndroidUserMgr.cpp:292] need android count: 0 dwMaxNeedCount:4
+W0604 19:11:28.458017 138043392 AndroidUserMgr.cpp:302] need android count: 3 dwMaxNeedCount:4
+W0604 19:11:43.670915 138043392 AndroidUserMgr.cpp:292] need android count: 0 dwMaxNeedCount:4
+W0604 19:11:43.671025 138043392 AndroidUserMgr.cpp:302] need android count: 3 dwMaxNeedCount:4
+W0604 19:11:58.908015 138043392 AndroidUserMgr.cpp:292] need android count: 0 dwMaxNeedCount:4

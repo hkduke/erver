@@ -1,0 +1,25 @@
+Log file created at: 2018/12/24 16:27:41
+Running on machine: henisdeMacBook-Pro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1224 16:27:41.474421 305046976 GameServer.cpp:45] 正在启动游戏服务器...
+I1224 16:27:41.476595 305046976 NetModule.h:71] Init NetModule Finished.
+I1224 16:27:41.476851 305046976 NetModule.h:77] start work thread 0...
+I1224 16:27:41.476863 305046976 NetModule.cpp:64] Start Run NetModule...
+I1224 16:27:41.476882 305046976 NetModule.cpp:76] NetModule Already Startover.
+I1224 16:27:41.476894 305046976 NetModule.cpp:200] add one connector: 127.0.0.1:5001 succeed...
+I1224 16:27:41.476902 305046976 NetModule.cpp:200] add one connector: 127.0.0.1:6001 succeed...
+I1224 16:27:41.476907 305046976 NetModule.cpp:118] Create one server...
+I1224 16:27:41.977587 305046976 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I1224 16:27:41.977613 305046976 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I1224 16:27:41.978754 40517632 GameServerThread.cpp:113] connect to db server succ!
+I1224 16:27:53.987946 40517632 AndroidUserMgr.cpp:693] set active android count: 0
+I1224 16:27:53.987988 40517632 AndroidUserMgr.cpp:693] set active android count: 2
+I1224 16:27:54.336594 305046976 NetServer.cpp:55] accept io...127.0.0.1:59219
+I1224 16:27:54.459187 40517632 GameServerThread.cpp:1884] load benefit config succ!
+I1224 16:27:55.155560 40517632 GameServerThread.cpp:1804] load android parameter succ, android count : 24
+W1224 16:27:55.273211 40517632 GameTableManager.cpp:561] update br game server black list, server id: 1101
+I1224 16:27:55.273522 40517632 GameServerThread.cpp:1458] init server succ!
+I1224 16:27:55.273535 40517632 GameServerThread.cpp:146] bind one connect: 127.0.0.1:59219
+I1224 16:27:55.273550 40517632 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:59219
+W1224 16:28:38.094250 40517632 TableFrameForScore.cpp:1637] game process message fail? subid: 2
+W1224 16:35:07.116677 40517632 TableFrameForScore.cpp:1637] game process message fail? subid: 2

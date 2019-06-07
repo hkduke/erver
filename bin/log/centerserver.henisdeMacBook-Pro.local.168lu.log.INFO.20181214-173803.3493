@@ -1,0 +1,19 @@
+Log file created at: 2018/12/14 17:38:03
+Running on machine: henisdeMacBook-Pro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1214 17:38:03.993669 241976768 CenterServer.cpp:32] 正在启动中心服务器...
+I1214 17:38:03.996069 241976768 NetModule.h:71] Init NetModule Finished.
+I1214 17:38:03.996206 241976768 NetModule.h:77] start work thread 0...
+I1214 17:38:03.996217 241976768 NetModule.cpp:64] Start Run NetModule...
+I1214 17:38:03.996237 241976768 NetModule.cpp:76] NetModule Already Startover.
+I1214 17:38:03.996253 241976768 NetModule.cpp:200] add one connector: 0.0.0.0:6001 succeed...
+I1214 17:38:03.996259 241976768 NetModule.cpp:118] Create one server...
+I1214 17:38:04.496685 241976768 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1214 17:38:04.498293 16449536 CenterThread.cpp:87] connect to db server succ!
+I1214 17:38:26.695587 241976768 NetServer.cpp:55] accept io...127.0.0.1:51234
+I1214 17:38:26.718116 16449536 ServerMgr.cpp:54] register one proxy server: 127.0.0.1:51234
+I1214 17:38:30.558275 241976768 NetServer.cpp:55] accept io...127.0.0.1:51236
+I1214 17:38:30.583041 16449536 ServerMgr.cpp:469] register one login server: 127.0.0.1:51236
+I1214 17:38:34.406316 241976768 NetServer.cpp:55] accept io...127.0.0.1:51241
+I1214 17:38:34.442744 16449536 ServerMgr.cpp:187] register one game server: 127.0.0.1:51241
+W1214 17:48:34.998163 16449536 CenterThread.cpp:120] db server is disconnect, after 1s will be reconnect!

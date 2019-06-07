@@ -1,0 +1,26 @@
+Log file created at: 2019/06/04 17:11:17
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0604 17:11:17.360447 249968064 GameServer.cpp:45] 正在启动游戏服务器...
+I0604 17:11:17.362318 249968064 NetModule.h:71] Init NetModule Finished.
+I0604 17:11:17.362538 249968064 NetModule.h:78] start work thread 0...
+I0604 17:11:17.362550 249968064 NetModule.cpp:69] Start Run NetModule...
+I0604 17:11:17.362567 249968064 NetModule.cpp:88] NetModule Already Startover.
+I0604 17:11:17.362581 249968064 NetModule.cpp:220] add one connector: 127.0.0.1:5001 succeed...
+I0604 17:11:17.362586 249968064 NetModule.cpp:220] add one connector: 127.0.0.1:6001 succeed...
+I0604 17:11:17.362591 249968064 NetModule.cpp:136] Create one server...
+I0604 17:11:17.862957 249968064 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0604 17:11:17.863013 249968064 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0604 17:11:17.863023 207114240 GameServerThread.cpp:115] connect to db server succ!
+I0604 17:11:19.994789 207114240 AndroidUserMgr.cpp:951] set active android count: 0
+I0604 17:11:19.994839 207114240 AndroidUserMgr.cpp:951] set active android count: 3
+I0604 17:11:20.279014 249968064 NetServer.cpp:55] accept io...127.0.0.1:55700
+I0604 17:11:20.622506 207114240 GameServerThread.cpp:2098] load benefit config succ!
+I0604 17:11:21.296075 207114240 GameServerThread.cpp:2018] load android parameter succ, android count : 46
+W0604 17:11:21.415949 207114240 GameTableManager.cpp:613] update br game server black list, server id: 10004
+I0604 17:11:21.416622 207114240 GameServerThread.cpp:1672] init server succ!
+I0604 17:11:21.416723 207114240 GameServerThread.cpp:148] bind one connect: 127.0.0.1:55700
+I0604 17:11:21.416745 207114240 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:55700
+W0604 17:11:28.492194 207114240 AndroidUserMgr.cpp:298] need android count: 2
+W0604 17:11:48.477334 207114240 AndroidUserMgr.cpp:298] need android count: 2
+W0604 17:12:31.481499 207114240 AndroidUserMgr.cpp:298] need android count: 2

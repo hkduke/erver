@@ -1,0 +1,30 @@
+Log file created at: 2019/03/21 18:37:14
+Running on machine: henisdeMBP.mshome.net
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0321 18:37:14.280210 169579968 GameServer.cpp:45] 正在启动游戏服务器...
+I0321 18:37:14.283239 169579968 NetModule.h:71] Init NetModule Finished.
+I0321 18:37:14.283500 169579968 NetModule.h:78] start work thread 0...
+I0321 18:37:14.283527 169579968 NetModule.cpp:69] Start Run NetModule...
+I0321 18:37:14.283581 169579968 NetModule.cpp:88] NetModule Already Startover.
+I0321 18:37:14.283592 169579968 NetModule.cpp:220] add one connector: 127.0.0.1:5001 succeed...
+I0321 18:37:14.283597 169579968 NetModule.cpp:220] add one connector: 127.0.0.1:6001 succeed...
+I0321 18:37:14.283602 169579968 NetModule.cpp:136] Create one server...
+I0321 18:37:14.784883 169579968 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0321 18:37:14.784924 169579968 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0321 18:37:14.787062 147738624 GameServerThread.cpp:113] connect to db server succ!
+I0321 18:37:15.923312 147738624 AndroidUserMgr.cpp:832] set active android count: 0
+I0321 18:37:15.923390 147738624 AndroidUserMgr.cpp:832] set active android count: 70
+I0321 18:37:16.249806 169579968 NetServer.cpp:55] accept io...127.0.0.1:49359
+I0321 18:37:16.378063 147738624 GameServerThread.cpp:1933] load benefit config succ!
+I0321 18:37:17.054536 147738624 GameServerThread.cpp:1853] load android parameter succ, android count : 40
+W0321 18:37:17.170893 147738624 GameTableManager.cpp:566] update br game server black list, server id: 991
+I0321 18:37:17.171509 147738624 GameServerThread.cpp:1507] init server succ!
+I0321 18:37:17.171547 147738624 GameServerThread.cpp:146] bind one connect: 127.0.0.1:49359
+I0321 18:37:17.171572 147738624 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:49359
+W0322 10:32:57.649154 147738624 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0322 10:32:58.967475 169579968 NetModule.cpp:723] ready reconnect server, server id: 991
+W0322 10:32:58.969790 147738624 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0322 10:33:00.473915 169579968 NetModule.cpp:723] ready reconnect server, server id: 991
+I0322 10:33:00.474345 169579968 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0322 10:33:00.474622 147738624 GameServerThread.cpp:113] connect to db server succ!
+W0322 16:17:31.258888 147738624 GameServerThread.cpp:2571] can not enter room, in other room, user id: 85572952

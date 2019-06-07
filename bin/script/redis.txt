@@ -1,0 +1,62 @@
+1. 帐号数据
+   key: account_userid
+   val: "account"
+	"pfid"
+	"gem"
+	"gender"
+	"nick"
+	"head"
+	"ip"
+
+2. 玩家的帐号与ID
+   key: userid_openid
+   val: userid
+
+		
+3. 玩家session
+	key: session_userid
+	val: uuid
+	
+4. 玩家私人房
+    key: proom_info_num
+	val:"owner": 	房主 
+		"serverid": 服务器ID
+		"gameid":   游戏ID
+		"kindid"：  游戏类型ID
+		"usercount":目前玩家数
+		"playcount":游戏局数
+		"winlimit": 输赢上限
+		"endlimit": 结束上限
+		"vip": 	    是否VIP房间
+		"otherparam": 其他参数
+		"time":     创建时间
+	
+	同时还保存了一份：
+	key: proom_userid
+	val: "roomnum"
+	
+5. 玩家在线信息
+	key: online_userid(数字)
+	val:	"gameid":	游戏ID
+		"kindid":	类型ID
+		"roomkind": 	房间类型ID
+		"roomnum": 	房间ID(如果是金币房，则是服务器ID)
+	
+6. 玩家在代理服的信息
+   key: psinfo_userid
+   val: "psid":	代理服ID
+	"gameid": 登录的游戏ID
+	"netaddr": 客户端地址
+
+7. 玩家的大局信息
+	key: gameround_userid
+	val: gameroundcount
+	     "gameid:kindid": count
+
+8. 玩家在线统计
+   key: totalonline
+   val: hall_gameid: 人数
+	game_gameid: 人数
+
+
+	

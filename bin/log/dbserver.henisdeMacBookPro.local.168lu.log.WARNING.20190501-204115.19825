@@ -1,0 +1,1406 @@
+Log file created at: 2019/05/01 20:41:15
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0501 20:41:15.167302 107188224 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0501 20:41:17.055694 107724800 DBThread.cpp:209] main db server set time ok!
+W0501 23:34:19.001571 107724800 DBThread.cpp:7355] update android status fail. errno: -1, error msg: mysql not opened yet!
+W0501 23:34:19.001698 107724800 DBThread.cpp:3505] set db score fail, add score: 33045816, user id: 85563583
+W0501 23:34:19.001765 107724800 DBThread.cpp:7355] update android status fail. errno: -1, error msg: mysql not opened yet!
+E0502 01:34:52.865248 107724800 DBThread.cpp:8661] Save Fish Control Data Fail, ServerID: 8200 TotalWinScore: 0 TotalLoseScore: 0 KuCun: 0 BlackTax: 0 BloodPoolDianKongLoseWin: 0, kucun status: 0, db->get_errno(): -1 db->get_error():mysql not opened yet!
+E0502 01:34:52.867785 107724800 DBThread.cpp:8621] SaveFishCurrentKuCun fail ServerID: 8200 data: 1556721277 KuCun: 0 db->get_errno(): -1 db->get_error():mysql not opened yet!
+E0502 01:34:52.867885 107724800 DBThread.cpp:8661] Save Fish Control Data Fail, ServerID: 8201 TotalWinScore: 0 TotalLoseScore: 0 KuCun: 0 BlackTax: 0 BloodPoolDianKongLoseWin: 0, kucun status: 1, db->get_errno(): -1 db->get_error():mysql not opened yet!
+E0502 01:34:52.867966 107724800 DBThread.cpp:8621] SaveFishCurrentKuCun fail ServerID: 8201 data: 1556721277 KuCun: 0 db->get_errno(): -1 db->get_error():mysql not opened yet!
+E0502 01:34:52.868048 107724800 DBThread.cpp:8661] Save Fish Control Data Fail, ServerID: 8202 TotalWinScore: 0 TotalLoseScore: 0 KuCun: 0 BlackTax: 0 BloodPoolDianKongLoseWin: 0, kucun status: 1, db->get_errno(): -1 db->get_error():mysql not opened yet!
+E0502 01:34:52.868124 107724800 DBThread.cpp:8621] SaveFishCurrentKuCun fail ServerID: 8202 data: 1556721277 KuCun: 0 db->get_errno(): -1 db->get_error():mysql not opened yet!
+E0502 01:34:52.875190 107724800 DBThread.cpp:8661] Save Fish Control Data Fail, ServerID: 8203 TotalWinScore: 0 TotalLoseScore: 0 KuCun: 0 BlackTax: 0 BloodPoolDianKongLoseWin: 0, kucun status: 1, db->get_errno(): -1 db->get_error():mysql not opened yet!
+E0502 01:34:52.875286 107724800 DBThread.cpp:8621] SaveFishCurrentKuCun fail ServerID: 8203 data: 1556721277 KuCun: 0 db->get_errno(): -1 db->get_error():mysql not opened yet!
+W0502 03:35:20.992244 107724800 DBThread.cpp:2818] insert stat_machine_online fail,machine types: 2, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0502 03:35:20.992377 107724800 DBThread.cpp:2798] insert stat_game_online fail,game id: 0, statType: 0, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0502 03:35:20.992450 107724800 DBThread.cpp:2818] insert stat_machine_online fail,machine types: 1, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0502 03:35:20.992533 107724800 DBThread.cpp:2798] insert stat_game_online fail,game id: 0, statType: 0, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0502 03:35:20.992602 107724800 DBThread.cpp:2798] insert stat_game_online fail,game id: 0, statType: 2, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0502 03:35:20.992671 107724800 DBThread.cpp:2798] insert stat_game_online fail,game id: 0, statType: 2, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0502 05:35:34.434594 107724800 DBThread.cpp:5909] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0502 05:35:34.435237 107724800 DBThread.cpp:6146] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0502 05:35:34.435775 107724800 DBThread.cpp:6243] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W0502 05:35:34.435818 107724800 DBThread.cpp:2081] start  AcrossTheDayEvent...
+W0502 05:35:34.435880 107724800 DBThread.cpp:5817] delete yesterdayEarnScore fail. errno: -1, err msg: mysql not opened yet!
+W0502 05:35:34.435902 107724800 DBThread.cpp:2086] SwitchTodayScoreRank use time : 0
+W0502 05:35:34.447712 107724800 DBThread.cpp:2091] ResetTodayScoreRankInCache use time : 12
+W0502 05:35:34.447800 107724800 DBThread.cpp:6326] delete from today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0502 05:35:34.449417 107724800 DBThread.cpp:6361] account count: 239
+W0502 05:35:34.459213 107724800 DBThread.cpp:6369] vecAccountInfo use time: 9
+W0502 05:35:34.459277 107724800 DBThread.cpp:2096] ResetTodayRank use time : 12
+W0502 05:35:34.459777 107724800 DBThread.cpp:5909] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0502 05:35:34.459837 107724800 DBThread.cpp:6608] SELECT DISTINCT(platformId) FROM stat_pcu
+W0502 05:35:34.459856 107724800 DBThread.cpp:6609] select pcu platformId fail. errno: -1, err msg: mysql not opened yet!
+W0502 05:35:34.459919 107724800 DBThread.cpp:9123] select recharge channel info fail, errno:-1, error: mysql not opened yet!
+W0502 07:36:01.528445 107724800 DBThread.cpp:9387] select generalize promoter info platform id fail, errno:-1, error: mysql not opened yet!
+W0502 07:36:01.528561 107724800 DBThread.cpp:9472] select exchange channel status fail, errno:-1, error: mysql not opened yet!
+W0502 07:36:01.528641 107724800 DBThread.cpp:9601] select quanmin channel fail, errno:-1, error: mysql not opened yet!
+W0502 07:36:01.528695 107724800 DBThread.cpp:9654] select client channel domain fail, errno:-1, error: mysql not opened yet!
+W0502 07:36:01.528750 107724800 DBThread.cpp:9820] select vip2 config fail.
+W0502 07:36:01.528800 107724800 DBThread.cpp:9712] select channel show exchange condition fail, errno:-1, error: mysql not opened yet!
+W0502 07:36:01.528851 107724800 DBThread.cpp:6146] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0502 07:36:01.528937 107724800 DBThread.cpp:6243] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W0502 07:36:01.528987 107724800 DBThread.cpp:4203] load wealth god coming fail. errno: -1, error: mysql not opened yet!
+W0502 07:36:01.529036 107724800 DBThread.cpp:4299] load wealth god coming reward fail. errno: -1, error: mysql not opened yet!
+W0502 07:36:01.533715 107724800 DBThread.cpp:4367] load wealth god coming index fail. errno: -1, error: mysql not opened yet!
+W0502 07:36:01.534180 107724800 DBThread.cpp:4444] select wealth god coming id fail. errno: -1, error: mysql not opened yet!
+W0502 07:36:01.534241 107724800 DBThread.cpp:9213] select recharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W0502 07:36:01.534296 107724800 DBThread.cpp:9540] select excharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W0502 07:36:01.534346 107724800 DBThread.cpp:5214] select score mode fail, error: -1
+W0502 07:36:01.534395 107724800 DBThread.cpp:5293] select duobao_data fail. errno: -1, error: mysql not opened yet!
+W0502 07:36:01.534443 107724800 DBThread.cpp:9873] select benefit config fail.
+W0502 07:36:01.534463 107724800 DBThread.cpp:9749] get platform db handle fail.
+W0502 07:36:01.534483 107724800 DBThread.cpp:4818] get platform db handle fail.
+W0502 07:36:01.539232 107724800 DBThread.cpp:4879] get platform db handle fail.
+W0502 07:36:01.539299 107724800 DBThread.cpp:4943] get platform db handle fail.
+W0502 07:36:01.539342 107724800 DBThread.cpp:9917] get platform db handle fail.
+W0502 07:36:01.539381 107724800 DBThread.cpp:9964] get platform db handle fail.
+W0502 07:36:01.539618 107724800 DBThread.cpp:3505] set db score fail, add score: 75001054, user id: 85506731
+W0502 07:36:01.539690 107724800 DBThread.cpp:7355] update android status fail. errno: -1, error msg: mysql not opened yet!
+W0502 09:00:29.637624 107724800 DBThread.cpp:6772] insert record_score.record_draw_info fail, error = -1, error msg: mysql not opened yet!
+W0502 09:00:29.637691 107724800 DBThread.cpp:7376] get platform db handle fail.
+W0502 09:00:29.638458 107724800 DBThread.cpp:7175] insert record_score.record_hbsl_info fail, error = -1, error msg: mysql not opened yet!
+W0502 09:00:29.638550 107724800 DBThread.cpp:6772] insert record_score.record_draw_info fail, error = -1, error msg: mysql not opened yet!
+W0502 09:00:29.638578 107724800 DBThread.cpp:7376] get platform db handle fail.
+W0502 09:00:29.638676 107724800 DBThread.cpp:7175] insert record_score.record_hbsl_info fail, error = -1, error msg: mysql not opened yet!
+W0502 09:00:29.638747 107724800 DBThread.cpp:3505] set db score fail, add score: 74181414, user id: 85536483
+W0502 09:00:29.638809 107724800 DBThread.cpp:7355] update android status fail. errno: -1, error msg: mysql not opened yet!
+W0502 09:00:29.638866 107724800 DBThread.cpp:3505] set db score fail, add score: 59956292, user id: 85561747
+W0502 09:00:29.638922 107724800 DBThread.cpp:7355] update android status fail. errno: -1, error msg: mysql not opened yet!
+W0502 09:00:29.638978 107724800 DBThread.cpp:3505] set db score fail, add score: 91097623, user id: 85530370
+W0502 09:00:29.639034 107724800 DBThread.cpp:7355] update android status fail. errno: -1, error msg: mysql not opened yet!
+W0502 09:00:29.639088 107724800 DBThread.cpp:3505] set db score fail, add score: 77146428, user id: 85598732
+W0502 09:00:29.639144 107724800 DBThread.cpp:7355] update android status fail. errno: -1, error msg: mysql not opened yet!
+W0502 09:00:29.639199 107724800 DBThread.cpp:3505] set db score fail, add score: 22613233, user id: 85550519
+W0502 09:00:29.639253 107724800 DBThread.cpp:7355] update android status fail. errno: -1, error msg: mysql not opened yet!
+W0502 09:00:29.639308 107724800 DBThread.cpp:3505] set db score fail, add score: 47118552, user id: 85578812
+W0502 09:00:29.639364 107724800 DBThread.cpp:7355] update android status fail. errno: -1, error msg: mysql not opened yet!
+W0502 09:00:29.643421 107724800 DBThread.cpp:3505] set db score fail, add score: 19411172, user id: 85517109
+W0502 09:00:29.643501 107724800 DBThread.cpp:7355] update android status fail. errno: -1, error msg: mysql not opened yet!
+W0502 09:00:29.643564 107724800 DBThread.cpp:3505] set db score fail, add score: 69596106, user id: 85545294
+W0502 09:00:29.643622 107724800 DBThread.cpp:7355] update android status fail. errno: -1, error msg: mysql not opened yet!
+W0502 09:00:29.643646 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 09:00:29.643663 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 09:00:29.643679 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 09:00:29.643694 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 09:00:29.649091 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 09:00:29.649123 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 09:00:29.649163 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 09:00:29.649179 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 09:00:29.649735 107724800 DBThread.cpp:3505] set db score fail, add score: 71078959, user id: 85557582
+W0502 09:00:29.649825 107724800 DBThread.cpp:7355] update android status fail. errno: -1, error msg: mysql not opened yet!
+W0502 09:00:29.649888 107724800 DBThread.cpp:3505] set db score fail, add score: 53934536, user id: 85595772
+W0502 09:00:29.649946 107724800 DBThread.cpp:7355] update android status fail. errno: -1, error msg: mysql not opened yet!
+W0502 09:00:29.650002 107724800 DBThread.cpp:7355] update android status fail. errno: -1, error msg: mysql not opened yet!
+W0502 09:00:29.650056 107724800 DBThread.cpp:7355] update android status fail. errno: -1, error msg: mysql not opened yet!
+W0502 09:00:29.650112 107724800 DBThread.cpp:3505] set db score fail, add score: 96106533, user id: 85584654
+W0502 09:00:29.650167 107724800 DBThread.cpp:7355] update android status fail. errno: -1, error msg: mysql not opened yet!
+W0502 09:00:29.655055 107724800 DBThread.cpp:3505] set db score fail, add score: 42629831, user id: 85563228
+W0502 09:00:29.655122 107724800 DBThread.cpp:7355] update android status fail. errno: -1, error msg: mysql not opened yet!
+W0502 09:00:29.655211 107724800 DBThread.cpp:3505] set db score fail, add score: 14982405, user id: 85504491
+W0502 09:00:29.655297 107724800 DBThread.cpp:7355] update android status fail. errno: -1, error msg: mysql not opened yet!
+W0502 09:00:29.655354 107724800 DBThread.cpp:3505] set db score fail, add score: 12711111, user id: 85593997
+W0502 09:00:29.655407 107724800 DBThread.cpp:7355] update android status fail. errno: -1, error msg: mysql not opened yet!
+W0502 09:00:29.655462 107724800 DBThread.cpp:3505] set db score fail, add score: 59789248, user id: 85556044
+W0502 09:00:29.655514 107724800 DBThread.cpp:7355] update android status fail. errno: -1, error msg: mysql not opened yet!
+W0502 09:00:29.656349 107724800 DBThread.cpp:2818] insert stat_machine_online fail,machine types: 2, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0502 09:00:29.656432 107724800 DBThread.cpp:2798] insert stat_game_online fail,game id: 0, statType: 0, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0502 09:00:29.656497 107724800 DBThread.cpp:2818] insert stat_machine_online fail,machine types: 1, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0502 09:00:29.656574 107724800 DBThread.cpp:2798] insert stat_game_online fail,game id: 0, statType: 0, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0502 09:00:29.656636 107724800 DBThread.cpp:2798] insert stat_game_online fail,game id: 0, statType: 2, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0502 09:00:29.656697 107724800 DBThread.cpp:2798] insert stat_game_online fail,game id: 0, statType: 2, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0502 09:00:29.661094 107724800 DBThread.cpp:5909] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0502 09:00:29.661190 107724800 DBThread.cpp:6146] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0502 09:00:29.661264 107724800 DBThread.cpp:6243] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W0502 09:00:29.661334 107724800 DBThread.cpp:5909] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0502 09:00:29.661383 107724800 DBThread.cpp:6608] SELECT DISTINCT(platformId) FROM stat_pcu
+W0502 09:00:29.661401 107724800 DBThread.cpp:6609] select pcu platformId fail. errno: -1, err msg: mysql not opened yet!
+W0502 09:00:29.661417 107724800 DBThread.cpp:8965] get platform score db handle fail.
+W0502 09:00:29.661468 107724800 DBThread.cpp:9387] select generalize promoter info platform id fail, errno:-1, error: mysql not opened yet!
+W0502 09:00:29.662511 107724800 DBThread.cpp:9456] get record score db handle fail.
+W0502 09:00:29.662609 107724800 DBThread.cpp:9601] select quanmin channel fail, errno:-1, error: mysql not opened yet!
+W0502 09:00:29.662667 107724800 DBThread.cpp:9654] select client channel domain fail, errno:-1, error: mysql not opened yet!
+W0502 09:00:29.662691 107724800 DBThread.cpp:9809] get platform db handle fail.
+W0502 09:00:29.662756 107724800 DBThread.cpp:9712] select channel show exchange condition fail, errno:-1, error: mysql not opened yet!
+W0502 09:00:29.662809 107724800 DBThread.cpp:6146] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0502 09:00:29.662874 107724800 DBThread.cpp:6243] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W0502 09:00:29.662896 107724800 DBThread.cpp:4194] get platform db handle fail.
+W0502 09:00:29.662912 107724800 DBThread.cpp:4290] get platform db handle fail.
+W0502 09:00:29.662993 107724800 DBThread.cpp:4357] get platform db handle fail.
+W0502 09:00:29.663089 107724800 DBThread.cpp:4444] select wealth god coming id fail. errno: -1, error: mysql not opened yet!
+W0502 09:00:29.663151 107724800 DBThread.cpp:9213] select recharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W0502 09:00:29.663205 107724800 DBThread.cpp:9540] select excharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W0502 09:00:29.663228 107724800 DBThread.cpp:5203] get platform db handle fail.
+W0502 09:00:29.663314 107724800 DBThread.cpp:5293] select duobao_data fail. errno: -1, error: mysql not opened yet!
+W0502 09:00:29.663347 107724800 DBThread.cpp:9864] get platform db handle fail.
+W0502 09:00:29.663363 107724800 DBThread.cpp:9749] get platform db handle fail.
+W0502 09:00:29.663383 107724800 DBThread.cpp:4818] get platform db handle fail.
+W0502 09:00:29.664021 107724800 DBThread.cpp:4879] get platform db handle fail.
+W0502 09:00:29.664047 107724800 DBThread.cpp:4943] get platform db handle fail.
+W0502 09:00:29.664063 107724800 DBThread.cpp:9917] get platform db handle fail.
+W0502 09:00:29.664078 107724800 DBThread.cpp:9964] get platform db handle fail.
+W0502 09:00:29.664103 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 09:00:29.664119 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 09:00:29.664134 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 09:00:29.664149 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 09:00:29.664165 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 09:00:29.664180 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 09:00:29.665700 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 09:00:29.665761 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 09:00:29.665995 107724800 DBThread.cpp:2818] insert stat_machine_online fail,machine types: 2, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0502 09:00:29.666107 107724800 DBThread.cpp:2798] insert stat_game_online fail,game id: 0, statType: 0, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0502 09:00:29.666173 107724800 DBThread.cpp:2818] insert stat_machine_online fail,machine types: 1, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0502 09:00:29.666249 107724800 DBThread.cpp:2798] insert stat_game_online fail,game id: 0, statType: 0, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0502 09:00:29.666332 107724800 DBThread.cpp:2798] insert stat_game_online fail,game id: 0, statType: 2, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0502 09:00:29.667124 107724800 DBThread.cpp:2798] insert stat_game_online fail,game id: 0, statType: 2, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0502 09:00:29.667196 107724800 DBThread.cpp:5909] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0502 09:00:29.667249 107724800 DBThread.cpp:6146] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0502 09:00:29.667301 107724800 DBThread.cpp:6243] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W0502 09:00:29.667372 107724800 DBThread.cpp:5909] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0502 09:00:29.667440 107724800 DBThread.cpp:6608] SELECT DISTINCT(platformId) FROM stat_pcu
+W0502 09:00:29.667457 107724800 DBThread.cpp:6609] select pcu platformId fail. errno: -1, err msg: mysql not opened yet!
+W0502 09:00:29.667475 107724800 DBThread.cpp:8965] get platform score db handle fail.
+W0502 09:00:29.667520 107724800 DBThread.cpp:9387] select generalize promoter info platform id fail, errno:-1, error: mysql not opened yet!
+W0502 09:00:29.667539 107724800 DBThread.cpp:9456] get record score db handle fail.
+W0502 09:00:29.667583 107724800 DBThread.cpp:9601] select quanmin channel fail, errno:-1, error: mysql not opened yet!
+W0502 09:00:29.667631 107724800 DBThread.cpp:9654] select client channel domain fail, errno:-1, error: mysql not opened yet!
+W0502 09:00:29.667678 107724800 DBThread.cpp:9809] get platform db handle fail.
+W0502 09:00:29.667750 107724800 DBThread.cpp:9712] select channel show exchange condition fail, errno:-1, error: mysql not opened yet!
+W0502 09:00:29.667801 107724800 DBThread.cpp:6146] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0502 09:00:29.669142 107724800 DBThread.cpp:6243] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W0502 09:00:29.669183 107724800 DBThread.cpp:4194] get platform db handle fail.
+W0502 09:00:29.669226 107724800 DBThread.cpp:4290] get platform db handle fail.
+W0502 09:00:29.669257 107724800 DBThread.cpp:4357] get platform db handle fail.
+W0502 09:00:29.669306 107724800 DBThread.cpp:4444] select wealth god coming id fail. errno: -1, error: mysql not opened yet!
+W0502 09:00:29.669358 107724800 DBThread.cpp:9213] select recharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W0502 09:00:29.669425 107724800 DBThread.cpp:9540] select excharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W0502 09:00:29.669446 107724800 DBThread.cpp:5203] get platform db handle fail.
+W0502 09:00:29.669490 107724800 DBThread.cpp:5293] select duobao_data fail. errno: -1, error: mysql not opened yet!
+W0502 09:00:29.671852 107724800 DBThread.cpp:9864] get platform db handle fail.
+W0502 09:00:29.671877 107724800 DBThread.cpp:9749] get platform db handle fail.
+W0502 09:00:29.671895 107724800 DBThread.cpp:4818] get platform db handle fail.
+W0502 09:00:29.671910 107724800 DBThread.cpp:4879] get platform db handle fail.
+W0502 09:00:29.671924 107724800 DBThread.cpp:4943] get platform db handle fail.
+W0502 09:00:29.671939 107724800 DBThread.cpp:9917] get platform db handle fail.
+W0502 09:00:29.671954 107724800 DBThread.cpp:9964] get platform db handle fail.
+W0502 09:00:29.671970 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 09:00:29.671986 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 09:00:29.672003 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 09:00:29.672874 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 09:00:29.672899 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 09:00:29.672917 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 09:00:29.672933 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 09:00:29.672948 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 09:00:29.673148 107724800 DBThread.cpp:2818] insert stat_machine_online fail,machine types: 2, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0502 09:00:29.673224 107724800 DBThread.cpp:2798] insert stat_game_online fail,game id: 0, statType: 0, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0502 09:00:29.673291 107724800 DBThread.cpp:2818] insert stat_machine_online fail,machine types: 1, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0502 09:00:29.673472 107724800 DBThread.cpp:2798] insert stat_game_online fail,game id: 0, statType: 0, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0502 09:00:29.673557 107724800 DBThread.cpp:2798] insert stat_game_online fail,game id: 0, statType: 2, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0502 09:00:29.673620 107724800 DBThread.cpp:2798] insert stat_game_online fail,game id: 0, statType: 2, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0502 09:00:29.673727 107724800 DBThread.cpp:5909] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0502 09:00:29.673779 107724800 DBThread.cpp:6146] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0502 09:00:29.673848 107724800 DBThread.cpp:6243] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W0502 09:00:29.673903 107724800 DBThread.cpp:5909] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0502 09:00:29.674482 107724800 DBThread.cpp:6608] SELECT DISTINCT(platformId) FROM stat_pcu
+W0502 09:00:29.674505 107724800 DBThread.cpp:6609] select pcu platformId fail. errno: -1, err msg: mysql not opened yet!
+W0502 09:00:29.674566 107724800 DBThread.cpp:8965] get platform score db handle fail.
+W0502 09:00:29.674616 107724800 DBThread.cpp:9387] select generalize promoter info platform id fail, errno:-1, error: mysql not opened yet!
+W0502 09:00:29.674638 107724800 DBThread.cpp:9456] get record score db handle fail.
+W0502 09:00:29.674695 107724800 DBThread.cpp:9601] select quanmin channel fail, errno:-1, error: mysql not opened yet!
+W0502 09:00:29.674764 107724800 DBThread.cpp:9654] select client channel domain fail, errno:-1, error: mysql not opened yet!
+W0502 09:00:29.674787 107724800 DBThread.cpp:9809] get platform db handle fail.
+W0502 09:00:29.674875 107724800 DBThread.cpp:9712] select channel show exchange condition fail, errno:-1, error: mysql not opened yet!
+W0502 09:00:29.674985 107724800 DBThread.cpp:6146] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0502 09:00:29.675053 107724800 DBThread.cpp:6243] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W0502 09:00:29.675076 107724800 DBThread.cpp:4194] get platform db handle fail.
+W0502 09:00:29.675091 107724800 DBThread.cpp:4290] get platform db handle fail.
+W0502 09:00:29.675107 107724800 DBThread.cpp:4357] get platform db handle fail.
+W0502 09:00:29.675151 107724800 DBThread.cpp:4444] select wealth god coming id fail. errno: -1, error: mysql not opened yet!
+W0502 09:00:29.675287 107724800 DBThread.cpp:9213] select recharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W0502 09:00:29.675336 107724800 DBThread.cpp:9540] select excharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W0502 09:00:29.675359 107724800 DBThread.cpp:5203] get platform db handle fail.
+W0502 09:00:29.675402 107724800 DBThread.cpp:5293] select duobao_data fail. errno: -1, error: mysql not opened yet!
+W0502 09:00:29.675422 107724800 DBThread.cpp:9864] get platform db handle fail.
+W0502 09:00:29.675438 107724800 DBThread.cpp:9749] get platform db handle fail.
+W0502 09:00:29.675453 107724800 DBThread.cpp:4818] get platform db handle fail.
+W0502 09:00:29.675467 107724800 DBThread.cpp:4879] get platform db handle fail.
+W0502 09:00:29.675482 107724800 DBThread.cpp:4943] get platform db handle fail.
+W0502 09:00:29.675498 107724800 DBThread.cpp:9917] get platform db handle fail.
+W0502 09:00:29.675513 107724800 DBThread.cpp:9964] get platform db handle fail.
+W0502 09:00:29.675529 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 09:00:29.676939 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 09:00:29.676966 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 09:00:29.676985 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 09:00:29.677000 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 09:00:29.677017 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 09:00:29.677033 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 09:00:29.677067 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 09:00:29.677305 107724800 DBThread.cpp:2818] insert stat_machine_online fail,machine types: 2, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0502 09:00:29.677381 107724800 DBThread.cpp:2798] insert stat_game_online fail,game id: 0, statType: 0, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0502 09:00:29.678642 107724800 DBThread.cpp:2818] insert stat_machine_online fail,machine types: 1, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0502 09:00:29.678730 107724800 DBThread.cpp:2798] insert stat_game_online fail,game id: 0, statType: 0, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0502 09:00:29.678797 107724800 DBThread.cpp:2798] insert stat_game_online fail,game id: 0, statType: 2, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0502 09:00:29.678860 107724800 DBThread.cpp:2798] insert stat_game_online fail,game id: 0, statType: 2, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0502 09:00:29.678962 107724800 DBThread.cpp:5909] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0502 09:00:29.679033 107724800 DBThread.cpp:6146] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0502 09:00:29.679742 107724800 DBThread.cpp:6243] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W0502 09:00:29.679811 107724800 DBThread.cpp:5909] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0502 09:00:29.679862 107724800 DBThread.cpp:6608] SELECT DISTINCT(platformId) FROM stat_pcu
+W0502 09:00:29.679878 107724800 DBThread.cpp:6609] select pcu platformId fail. errno: -1, err msg: mysql not opened yet!
+W0502 09:00:29.679896 107724800 DBThread.cpp:8965] get platform score db handle fail.
+W0502 09:00:29.679942 107724800 DBThread.cpp:9387] select generalize promoter info platform id fail, errno:-1, error: mysql not opened yet!
+W0502 09:00:29.679963 107724800 DBThread.cpp:9456] get record score db handle fail.
+W0502 09:00:29.680142 107724800 DBThread.cpp:9601] select quanmin channel fail, errno:-1, error: mysql not opened yet!
+W0502 09:00:29.680196 107724800 DBThread.cpp:9654] select client channel domain fail, errno:-1, error: mysql not opened yet!
+W0502 09:00:29.680217 107724800 DBThread.cpp:9809] get platform db handle fail.
+W0502 09:00:29.680263 107724800 DBThread.cpp:9712] select channel show exchange condition fail, errno:-1, error: mysql not opened yet!
+W0502 09:00:29.680315 107724800 DBThread.cpp:6146] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0502 09:00:29.680363 107724800 DBThread.cpp:6243] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W0502 09:00:29.680384 107724800 DBThread.cpp:4194] get platform db handle fail.
+W0502 09:00:29.680399 107724800 DBThread.cpp:4290] get platform db handle fail.
+W0502 09:00:29.680415 107724800 DBThread.cpp:4357] get platform db handle fail.
+W0502 09:00:29.680689 107724800 DBThread.cpp:4444] select wealth god coming id fail. errno: -1, error: mysql not opened yet!
+W0502 09:00:29.680739 107724800 DBThread.cpp:9213] select recharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W0502 09:00:29.680790 107724800 DBThread.cpp:9540] select excharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W0502 09:00:29.680812 107724800 DBThread.cpp:5203] get platform db handle fail.
+W0502 09:00:29.680856 107724800 DBThread.cpp:5293] select duobao_data fail. errno: -1, error: mysql not opened yet!
+W0502 09:00:29.680877 107724800 DBThread.cpp:9864] get platform db handle fail.
+W0502 09:00:29.680893 107724800 DBThread.cpp:9749] get platform db handle fail.
+W0502 09:00:29.680908 107724800 DBThread.cpp:4818] get platform db handle fail.
+W0502 09:00:29.680923 107724800 DBThread.cpp:4879] get platform db handle fail.
+W0502 09:00:29.682926 107724800 DBThread.cpp:4943] get platform db handle fail.
+W0502 09:00:29.682968 107724800 DBThread.cpp:9917] get platform db handle fail.
+W0502 09:00:29.682986 107724800 DBThread.cpp:9964] get platform db handle fail.
+W0502 09:00:29.683004 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 09:00:29.683022 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 09:00:29.683038 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 09:00:29.683054 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 09:00:29.683069 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 09:00:29.683095 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 09:00:29.683148 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 09:00:29.683987 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 09:00:29.684245 107724800 DBThread.cpp:2818] insert stat_machine_online fail,machine types: 2, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0502 09:00:29.684335 107724800 DBThread.cpp:2798] insert stat_game_online fail,game id: 0, statType: 0, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0502 09:00:29.684401 107724800 DBThread.cpp:2818] insert stat_machine_online fail,machine types: 1, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0502 09:00:29.684486 107724800 DBThread.cpp:2798] insert stat_game_online fail,game id: 0, statType: 0, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0502 09:00:29.684548 107724800 DBThread.cpp:2798] insert stat_game_online fail,game id: 0, statType: 2, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0502 09:00:29.684609 107724800 DBThread.cpp:2798] insert stat_game_online fail,game id: 0, statType: 2, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0502 09:00:29.686369 107724800 DBThread.cpp:5909] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0502 09:00:29.686460 107724800 DBThread.cpp:6146] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0502 09:00:29.686959 107724800 DBThread.cpp:6243] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W0502 09:00:29.687033 107724800 DBThread.cpp:5909] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0502 09:00:29.687083 107724800 DBThread.cpp:6608] SELECT DISTINCT(platformId) FROM stat_pcu
+W0502 09:00:29.687100 107724800 DBThread.cpp:6609] select pcu platformId fail. errno: -1, err msg: mysql not opened yet!
+W0502 09:00:29.687119 107724800 DBThread.cpp:8965] get platform score db handle fail.
+W0502 09:00:29.687177 107724800 DBThread.cpp:9387] select generalize promoter info platform id fail, errno:-1, error: mysql not opened yet!
+W0502 09:00:29.687198 107724800 DBThread.cpp:9456] get record score db handle fail.
+W0502 09:00:29.695981 107724800 DBThread.cpp:9601] select quanmin channel fail, errno:-1, error: mysql not opened yet!
+W0502 09:00:29.696082 107724800 DBThread.cpp:9654] select client channel domain fail, errno:-1, error: mysql not opened yet!
+W0502 09:00:29.696106 107724800 DBThread.cpp:9809] get platform db handle fail.
+W0502 09:00:29.696156 107724800 DBThread.cpp:9712] select channel show exchange condition fail, errno:-1, error: mysql not opened yet!
+W0502 09:00:29.696208 107724800 DBThread.cpp:6146] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0502 09:00:29.696275 107724800 DBThread.cpp:6243] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W0502 09:00:29.696296 107724800 DBThread.cpp:4194] get platform db handle fail.
+W0502 09:00:29.696312 107724800 DBThread.cpp:4290] get platform db handle fail.
+W0502 09:00:29.697113 107724800 DBThread.cpp:4357] get platform db handle fail.
+W0502 09:00:29.697178 107724800 DBThread.cpp:4444] select wealth god coming id fail. errno: -1, error: mysql not opened yet!
+W0502 09:00:29.697232 107724800 DBThread.cpp:9213] select recharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W0502 09:00:29.697283 107724800 DBThread.cpp:9540] select excharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W0502 09:00:29.697305 107724800 DBThread.cpp:5203] get platform db handle fail.
+W0502 09:00:29.697350 107724800 DBThread.cpp:5293] select duobao_data fail. errno: -1, error: mysql not opened yet!
+W0502 09:00:29.697371 107724800 DBThread.cpp:9864] get platform db handle fail.
+W0502 09:00:29.697386 107724800 DBThread.cpp:9749] get platform db handle fail.
+W0502 09:00:29.697401 107724800 DBThread.cpp:4818] get platform db handle fail.
+W0502 09:00:29.697415 107724800 DBThread.cpp:4879] get platform db handle fail.
+W0502 09:00:29.698078 107724800 DBThread.cpp:4943] get platform db handle fail.
+W0502 09:00:29.698105 107724800 DBThread.cpp:9917] get platform db handle fail.
+W0502 09:00:29.698122 107724800 DBThread.cpp:9964] get platform db handle fail.
+W0502 09:00:29.698151 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 09:00:29.698166 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 09:00:29.698226 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 09:00:29.698241 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 09:00:29.698257 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 09:00:29.699189 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 09:00:29.699215 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 09:00:29.699234 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 09:35:11.378720 107724800 DBThread.cpp:2818] insert stat_machine_online fail,machine types: 2, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0502 09:35:11.378948 107724800 DBThread.cpp:2798] insert stat_game_online fail,game id: 0, statType: 0, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0502 09:35:11.379125 107724800 DBThread.cpp:2818] insert stat_machine_online fail,machine types: 1, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0502 09:35:11.404489 107724800 DBThread.cpp:2798] insert stat_game_online fail,game id: 0, statType: 0, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0502 09:35:11.404628 107724800 DBThread.cpp:2798] insert stat_game_online fail,game id: 0, statType: 2, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0502 09:35:11.404758 107724800 DBThread.cpp:2798] insert stat_game_online fail,game id: 0, statType: 2, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0502 09:35:11.404899 107724800 DBThread.cpp:5909] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0502 09:35:11.423576 107724800 DBThread.cpp:6146] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0502 09:35:11.423684 107724800 DBThread.cpp:6243] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W0502 09:35:12.912691 107724800 DBThread.cpp:5909] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0502 09:35:12.912760 107724800 DBThread.cpp:6608] SELECT DISTINCT(platformId) FROM stat_pcu
+W0502 09:35:12.912780 107724800 DBThread.cpp:6609] select pcu platformId fail. errno: -1, err msg: mysql not opened yet!
+W0502 09:35:12.912798 107724800 DBThread.cpp:8965] get platform score db handle fail.
+W0502 09:35:12.912847 107724800 DBThread.cpp:9387] select generalize promoter info platform id fail, errno:-1, error: mysql not opened yet!
+W0502 09:35:12.912871 107724800 DBThread.cpp:9456] get record score db handle fail.
+W0502 09:35:12.912919 107724800 DBThread.cpp:9601] select quanmin channel fail, errno:-1, error: mysql not opened yet!
+W0502 09:35:12.912969 107724800 DBThread.cpp:9654] select client channel domain fail, errno:-1, error: mysql not opened yet!
+W0502 09:35:12.912992 107724800 DBThread.cpp:9809] get platform db handle fail.
+W0502 09:35:12.913038 107724800 DBThread.cpp:9712] select channel show exchange condition fail, errno:-1, error: mysql not opened yet!
+W0502 09:35:12.913090 107724800 DBThread.cpp:6146] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0502 09:35:12.913142 107724800 DBThread.cpp:6243] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W0502 09:35:12.913163 107724800 DBThread.cpp:4194] get platform db handle fail.
+W0502 09:35:12.913180 107724800 DBThread.cpp:4290] get platform db handle fail.
+W0502 09:35:12.913195 107724800 DBThread.cpp:4357] get platform db handle fail.
+W0502 09:35:12.913239 107724800 DBThread.cpp:4444] select wealth god coming id fail. errno: -1, error: mysql not opened yet!
+W0502 09:35:12.913288 107724800 DBThread.cpp:9213] select recharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W0502 09:35:12.913339 107724800 DBThread.cpp:9540] select excharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W0502 09:35:12.913381 107724800 DBThread.cpp:5203] get platform db handle fail.
+W0502 09:35:12.913429 107724800 DBThread.cpp:5293] select duobao_data fail. errno: -1, error: mysql not opened yet!
+W0502 09:35:12.913450 107724800 DBThread.cpp:9864] get platform db handle fail.
+W0502 09:35:12.913465 107724800 DBThread.cpp:9749] get platform db handle fail.
+W0502 09:35:12.913480 107724800 DBThread.cpp:4818] get platform db handle fail.
+W0502 09:35:12.913506 107724800 DBThread.cpp:4879] get platform db handle fail.
+W0502 09:35:12.913522 107724800 DBThread.cpp:4943] get platform db handle fail.
+W0502 09:35:12.913537 107724800 DBThread.cpp:9917] get platform db handle fail.
+W0502 09:35:12.913553 107724800 DBThread.cpp:9964] get platform db handle fail.
+W0502 09:35:23.831706 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 09:35:23.831874 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 09:35:23.831969 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 09:35:23.832049 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 09:35:23.832129 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 09:35:23.832207 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 09:35:23.832286 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 09:35:23.832365 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:02:43.926450 107724800 DBThread.cpp:2818] insert stat_machine_online fail,machine types: 2, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0502 10:02:43.932165 107724800 DBThread.cpp:2798] insert stat_game_online fail,game id: 0, statType: 0, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0502 10:02:43.932258 107724800 DBThread.cpp:2818] insert stat_machine_online fail,machine types: 1, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0502 10:02:43.932355 107724800 DBThread.cpp:2798] insert stat_game_online fail,game id: 0, statType: 0, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0502 10:02:43.937762 107724800 DBThread.cpp:2798] insert stat_game_online fail,game id: 0, statType: 2, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0502 10:02:43.937947 107724800 DBThread.cpp:2798] insert stat_game_online fail,game id: 0, statType: 2, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0502 10:02:43.938083 107724800 DBThread.cpp:5909] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0502 10:02:43.938182 107724800 DBThread.cpp:6146] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0502 10:02:43.938272 107724800 DBThread.cpp:6243] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W0502 10:02:45.411451 107724800 DBThread.cpp:5909] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0502 10:02:45.411532 107724800 DBThread.cpp:6608] SELECT DISTINCT(platformId) FROM stat_pcu
+W0502 10:02:45.411552 107724800 DBThread.cpp:6609] select pcu platformId fail. errno: -1, err msg: mysql not opened yet!
+W0502 10:02:45.411572 107724800 DBThread.cpp:8965] get platform score db handle fail.
+W0502 10:02:45.411623 107724800 DBThread.cpp:9387] select generalize promoter info platform id fail, errno:-1, error: mysql not opened yet!
+W0502 10:02:45.411646 107724800 DBThread.cpp:9456] get record score db handle fail.
+W0502 10:02:45.411693 107724800 DBThread.cpp:9601] select quanmin channel fail, errno:-1, error: mysql not opened yet!
+W0502 10:02:45.411747 107724800 DBThread.cpp:9654] select client channel domain fail, errno:-1, error: mysql not opened yet!
+W0502 10:02:45.411770 107724800 DBThread.cpp:9809] get platform db handle fail.
+W0502 10:02:45.411818 107724800 DBThread.cpp:9712] select channel show exchange condition fail, errno:-1, error: mysql not opened yet!
+W0502 10:02:45.412245 107724800 DBThread.cpp:6146] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0502 10:02:45.412315 107724800 DBThread.cpp:6243] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W0502 10:02:45.412339 107724800 DBThread.cpp:4194] get platform db handle fail.
+W0502 10:02:45.412356 107724800 DBThread.cpp:4290] get platform db handle fail.
+W0502 10:02:45.412372 107724800 DBThread.cpp:4357] get platform db handle fail.
+W0502 10:02:45.412433 107724800 DBThread.cpp:4444] select wealth god coming id fail. errno: -1, error: mysql not opened yet!
+W0502 10:02:45.412489 107724800 DBThread.cpp:9213] select recharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W0502 10:02:45.412550 107724800 DBThread.cpp:9540] select excharge amount cfg fail, errno:-1, error: mysql not opened yet!
+W0502 10:02:45.412605 107724800 DBThread.cpp:5203] get platform db handle fail.
+W0502 10:02:45.413141 107724800 DBThread.cpp:5293] select duobao_data fail. errno: -1, error: mysql not opened yet!
+W0502 10:02:45.413164 107724800 DBThread.cpp:9864] get platform db handle fail.
+W0502 10:02:45.413180 107724800 DBThread.cpp:9749] get platform db handle fail.
+W0502 10:02:45.413197 107724800 DBThread.cpp:4818] get platform db handle fail.
+W0502 10:02:45.413211 107724800 DBThread.cpp:4879] get platform db handle fail.
+W0502 10:02:45.413228 107724800 DBThread.cpp:4943] get platform db handle fail.
+W0502 10:02:45.413242 107724800 DBThread.cpp:9917] get platform db handle fail.
+W0502 10:02:45.413260 107724800 DBThread.cpp:9964] get platform db handle fail.
+W0502 10:02:49.113582 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:02:49.113644 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:02:49.113667 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:02:49.113682 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:02:49.113698 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:02:49.113715 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:02:49.113730 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:02:49.113746 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:03:20.004068 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:03:20.004125 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:03:20.004144 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:03:20.004161 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:03:20.004178 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:03:20.004194 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:03:20.004209 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:03:20.004225 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:03:50.474556 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:03:50.474632 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:03:50.474653 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:03:50.474670 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:03:50.474689 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:03:50.474706 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:03:50.474725 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:03:50.474742 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:04:06.479429 107188224 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0502 10:04:20.918727 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:04:20.918820 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:04:20.918844 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:04:20.918864 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:04:20.918884 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:04:20.918902 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:04:20.918943 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:04:20.918962 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:04:51.368259 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:04:51.368314 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:04:51.368332 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:04:51.368348 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:04:51.368364 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:04:51.368381 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:04:51.368396 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:04:51.368412 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:05:21.820756 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:05:21.820859 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:05:21.820878 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:05:21.820894 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:05:21.820910 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:05:21.820926 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:05:21.820942 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:05:21.820958 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:05:52.275306 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:05:52.275374 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:05:52.275393 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:05:52.275409 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:05:52.275425 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:05:52.275441 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:05:52.275457 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:05:52.275472 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:06:22.739145 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:06:22.739215 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:06:22.739233 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:06:22.739250 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:06:22.739266 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:06:22.739282 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:06:22.739297 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:06:22.739313 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:06:53.201934 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:06:53.201999 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:06:53.202019 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:06:53.202035 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:06:53.202052 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:06:53.202069 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:06:53.202083 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:06:53.202100 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:07:23.649214 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:07:23.649312 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:07:23.649338 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:07:23.649363 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:07:23.649389 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:07:23.649412 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:07:23.649436 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:07:23.649473 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:07:54.096987 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:07:54.097038 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:07:54.097057 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:07:54.097074 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:07:54.097090 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:07:54.097105 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:07:54.097121 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:07:54.097136 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:08:24.550251 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:08:24.550355 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:08:24.550374 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:08:24.550391 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:08:24.550407 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:08:24.550423 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:08:24.550438 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:08:24.550454 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:08:55.000471 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:08:55.000538 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:08:55.000558 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:08:55.000574 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:08:55.000591 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:08:55.000607 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:08:55.000623 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:08:55.000639 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:09:25.449331 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:09:25.449426 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:09:25.449445 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:09:25.449461 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:09:25.449477 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:09:25.449493 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:09:25.449508 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:09:25.449524 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:09:55.881121 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:09:55.881244 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:09:55.881266 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:09:55.881292 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:09:55.881309 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:09:55.881325 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:09:55.881340 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:09:55.881356 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:10:26.368455 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:10:26.368527 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:10:26.368546 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:10:26.368562 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:10:26.368613 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:10:26.368628 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:10:26.368644 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:10:26.368660 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:10:56.814301 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:10:56.814407 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:10:56.814426 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:10:56.814442 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:10:56.814458 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:10:56.814474 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:10:56.814491 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:10:56.814505 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:11:27.247841 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:11:27.247896 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:11:27.247916 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:11:27.247933 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:11:27.247951 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:11:27.247967 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:11:27.247982 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:11:27.247999 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:11:57.688261 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:11:57.688320 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:11:57.688340 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:11:57.688359 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:11:57.688374 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:11:57.688391 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:11:57.688408 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:11:57.688424 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:12:28.439759 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:12:28.439828 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:12:28.439849 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:12:28.439865 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:12:28.439882 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:12:28.439908 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:12:28.439924 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:12:28.439940 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:12:59.806505 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:12:59.806560 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:12:59.806578 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:12:59.806594 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:12:59.806612 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:12:59.806627 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:12:59.806643 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:12:59.806659 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:13:30.886268 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:13:30.886322 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:13:30.886342 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:13:30.886358 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:13:30.886373 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:13:30.886389 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:13:30.886405 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:13:30.886420 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:14:01.913193 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:14:01.913259 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:14:01.913278 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:14:01.913295 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:14:01.913311 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:14:01.913326 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:14:01.913341 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:14:01.913357 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:14:32.819202 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:14:32.819257 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:14:32.819275 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:14:32.819293 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:14:32.819308 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:14:32.819325 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:14:32.819341 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:14:32.819357 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:15:03.830562 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:15:03.830663 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:15:03.830688 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:15:03.830713 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:15:03.830736 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:15:03.830760 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:15:03.830785 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:15:03.830808 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:15:34.815954 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:15:34.816004 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:15:34.816023 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:15:34.816040 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:15:34.816054 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:15:34.816071 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:15:34.816085 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:15:34.816102 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:16:05.938891 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:16:05.939087 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:16:05.939108 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:16:05.939126 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:16:05.939141 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:16:05.939157 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:16:05.939173 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:16:05.939189 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:16:36.970187 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:16:36.970240 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:16:36.970258 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:16:36.970274 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:16:36.970290 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:16:36.970305 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:16:36.970321 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:16:36.970336 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:17:07.935963 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:17:07.936024 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:17:07.936043 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:17:07.936060 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:17:07.936076 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:17:07.936094 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:17:07.936110 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:17:07.936125 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:17:38.388079 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:17:38.388136 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:17:38.388156 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:17:38.388172 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:17:38.388188 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:17:38.388204 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:17:38.388221 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:17:38.388236 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:18:08.897990 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:18:08.898042 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:18:08.898077 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:18:08.898095 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:18:08.898113 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:18:08.898128 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:18:08.898144 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:18:08.898161 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:18:39.337572 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:18:39.337641 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:18:39.337662 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:18:39.337679 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:18:39.337695 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:18:39.337713 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:18:39.337728 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:18:39.337744 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:19:09.811197 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:19:09.811298 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:19:09.811326 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:19:09.811348 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:19:09.811372 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:19:09.811394 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:19:09.811419 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:19:09.811444 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:19:40.300185 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:19:40.300257 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:19:40.300277 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:19:40.300293 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:19:40.300309 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:19:40.300325 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:19:40.300341 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:19:40.300357 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:20:10.779063 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:20:10.779117 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:20:10.779136 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:20:10.779153 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:20:10.779170 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:20:10.779186 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:20:10.779201 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:20:10.779217 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:20:41.234735 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:20:41.234802 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:20:41.234822 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:20:41.234839 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:20:41.234855 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:20:41.234872 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:20:41.234889 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:20:41.234905 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:20:44.780133 107724800 DBThread.cpp:4660] get platform db handle fail.
+W0502 10:21:49.080639 107724800 DBThread.cpp:4715] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '3-1-2-651' for key 'PRIMARY'
+W0502 10:21:49.080734 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:21:49.080762 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:21:49.080787 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:21:49.080811 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:21:49.080832 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:21:49.080855 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:21:49.080878 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:21:49.080901 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:21:49.080924 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:21:49.080945 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:21:49.080968 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:21:49.080991 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:21:49.081014 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:21:49.081037 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:21:49.081058 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:21:49.081081 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:22:12.615535 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:22:12.615629 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:22:12.615648 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:22:12.615665 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:22:12.615680 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:22:12.615696 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:22:12.615712 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:22:12.615728 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:22:43.067288 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:22:43.067451 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:22:43.067474 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:22:43.067492 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:22:43.067507 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:22:43.067523 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:22:43.067538 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:22:43.067554 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:23:13.549827 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:23:13.549896 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:23:13.549918 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:23:13.549935 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:23:13.549952 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:23:13.549969 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:23:13.549985 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:23:13.550001 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:23:44.012147 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:23:44.012205 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:23:44.012225 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:23:44.012241 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:23:44.012257 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:23:44.012274 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:23:44.012290 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:23:44.012305 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:24:14.483963 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:24:14.484017 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:24:14.484037 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:24:14.484055 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:24:14.484071 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:24:14.484086 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:24:14.484102 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:24:14.484118 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:24:44.950230 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:24:44.950287 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:24:44.950306 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:24:44.950322 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:24:44.950338 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:24:44.950354 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:24:44.950369 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:24:44.950386 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:25:15.387490 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:25:15.387542 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:25:15.387562 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:25:15.387578 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:25:15.387594 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:25:15.387610 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:25:15.387625 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:25:15.387642 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:25:45.848070 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:25:45.848147 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:25:45.848168 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:25:45.848186 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:25:45.848201 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:25:45.848217 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:25:45.848233 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:25:45.848250 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:26:16.312911 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:26:16.312981 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:26:16.313005 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:26:16.313027 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:26:16.313047 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:26:16.313068 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:26:16.313088 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:26:16.313108 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:26:46.818114 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:26:46.818181 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:26:46.818200 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:26:46.818217 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:26:46.818233 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:26:46.818249 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:26:46.818265 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:26:46.818281 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:27:17.307538 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:27:17.307598 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:27:17.307617 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:27:17.307634 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:27:17.307651 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:27:17.307667 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:27:17.307682 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:27:17.307698 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:27:47.793545 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:27:47.793608 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:27:47.793627 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:27:47.793644 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:27:47.793670 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:27:47.793686 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:27:47.793704 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:27:47.793720 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:28:18.259671 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:28:18.259773 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:28:18.259793 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:28:18.259826 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:28:18.259842 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:28:18.259858 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:28:18.259874 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:28:18.259891 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:28:48.696049 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:28:48.696178 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:28:48.696205 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:28:48.696223 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:28:48.696239 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:28:48.696255 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:28:48.696271 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:28:48.696287 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:29:19.176673 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:29:19.176728 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:29:19.176746 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:29:19.176764 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:29:19.176779 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:29:19.176795 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:29:19.176811 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:29:19.176827 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:29:49.646127 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:29:49.646183 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:29:49.646203 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:29:49.646219 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:29:49.646235 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:29:49.646252 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:29:49.646268 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:29:49.646284 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:30:20.110301 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:30:20.110457 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:30:20.110496 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:30:20.110512 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:30:20.110527 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:30:20.110543 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:30:20.110559 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:30:20.110574 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:30:50.555375 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:30:50.555451 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:30:50.555472 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:30:50.555490 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:30:50.555505 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:30:50.555521 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:30:50.555538 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:30:50.555554 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:31:20.999985 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:31:21.000049 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:31:21.000071 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:31:21.000087 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:31:21.000105 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:31:21.000123 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:31:21.000138 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:31:21.000154 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:31:51.459340 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:31:51.459408 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:31:51.459429 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:31:51.459445 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:31:51.459462 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:31:51.459480 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:31:51.459496 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:31:51.459519 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:32:21.907202 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:32:21.907315 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:32:21.907563 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:32:21.907580 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:32:21.907610 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:32:21.907625 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:32:21.907641 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:32:21.907656 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:35:30.381441 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:35:30.381528 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:35:30.381551 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:35:30.381569 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:35:30.381587 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:35:30.381603 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:35:30.381620 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:35:30.381637 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:35:30.381654 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:35:30.381671 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:35:30.381690 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:35:30.381706 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:35:30.381723 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:35:30.381741 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:35:30.381758 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:35:30.381835 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:35:30.381855 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:35:30.381873 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:35:30.381889 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:35:30.381906 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:35:30.381923 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:35:30.381940 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:35:30.381958 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:35:30.381978 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:35:30.381994 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:35:30.382066 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:35:30.382086 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:35:30.382102 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:35:30.382119 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:35:30.382136 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:35:30.382153 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:35:30.382169 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:35:30.382186 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:35:30.382203 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:35:30.382310 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:35:30.382342 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:35:30.382362 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:35:30.382380 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:35:30.382397 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:35:30.382414 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:35:30.382431 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:35:30.382447 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:35:30.382463 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:35:30.382480 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:35:30.382511 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:35:30.382530 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:35:30.382556 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:35:30.382580 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:35:55.079432 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:35:55.079505 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:35:55.079527 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:35:55.079546 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:35:55.079563 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:35:55.079581 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:35:55.079598 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:35:55.079617 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:36:25.551652 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:36:25.551712 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:36:25.551731 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:36:25.551748 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:36:25.551764 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:36:25.551780 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:36:25.551797 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:36:25.551813 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:36:56.016371 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:36:56.016436 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:36:56.016455 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:36:56.016472 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:36:56.016489 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:36:56.016505 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:36:56.016520 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:36:56.016536 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:37:26.477253 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:37:26.477313 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:37:26.477332 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:37:26.477349 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:37:26.477365 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:37:26.477380 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:37:26.477396 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:37:26.477411 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:37:56.964524 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:37:56.964589 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:37:56.964609 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:37:56.964625 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:37:56.964642 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:37:56.964658 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:37:56.964673 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:37:56.964689 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:38:27.436619 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:38:27.436697 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:38:27.436717 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:38:27.436733 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:38:27.436749 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:38:27.436764 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:38:27.436780 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:38:27.436796 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:38:57.893481 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:38:57.893535 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:38:57.893554 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:38:57.893573 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:38:57.893589 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:38:57.893606 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:38:57.893622 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:38:57.893640 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:39:28.362080 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:39:28.362149 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:39:28.362170 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:39:28.362188 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:39:28.362205 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:39:28.362221 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:39:28.362236 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:39:28.362252 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:39:58.772023 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:39:58.772155 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:39:58.772174 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:39:58.772192 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:39:58.772210 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:39:58.772228 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:39:58.772245 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:39:58.772264 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:40:29.265525 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:40:29.265636 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:40:29.265678 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:40:29.265733 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:40:29.265769 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:40:29.265805 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:40:29.265841 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:40:29.265877 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:40:45.994408 107724800 DBThread.cpp:4660] get platform db handle fail.
+W0502 10:42:18.961093 107724800 DBThread.cpp:4715] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '2-1-1-199' for key 'PRIMARY'
+W0502 10:42:18.961177 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:42:18.961200 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:42:18.961220 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:42:18.961238 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:42:18.961256 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:42:18.961274 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:42:18.961293 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:42:18.961311 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:42:18.961340 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:42:18.961408 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:42:18.961427 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:42:18.961446 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:42:18.961463 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:42:18.961482 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:42:18.961500 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:42:18.961519 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:42:18.961537 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:42:18.961555 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:42:18.961573 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:42:18.961591 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:42:18.961612 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:42:18.961632 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:42:18.961649 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:42:18.961666 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:42:31.184325 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:42:31.184381 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:42:31.184412 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:42:31.184439 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:42:31.184468 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:42:31.184496 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:42:31.184525 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:42:31.184602 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:43:01.640568 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:43:01.640631 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:43:01.640653 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:43:01.640672 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:43:01.640691 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:43:01.640709 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:43:01.640727 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:43:01.640745 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:43:32.087030 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:43:32.087095 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:43:32.087117 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:43:32.087136 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:43:32.087155 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:43:32.087174 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:43:32.087193 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:43:32.087211 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:44:02.586081 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:44:02.586158 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:44:02.586187 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:44:02.586215 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:44:02.586241 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:44:02.586267 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:44:02.586297 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:44:02.586326 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:44:33.016566 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:44:33.016630 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:44:33.016654 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:44:33.016674 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:44:33.016692 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:44:33.016711 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:44:33.016731 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:44:33.016750 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:45:03.481779 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:45:03.481845 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:45:03.481868 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:45:03.481886 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:45:03.481904 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:45:03.481923 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:45:03.481942 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:45:03.481961 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:45:33.975841 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:45:33.975934 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:45:33.975962 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:45:33.975987 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:45:33.976011 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:45:33.976034 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:45:33.976058 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:45:33.976080 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:46:04.433599 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:46:04.433717 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:46:04.433743 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:46:04.433763 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:46:04.433784 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:46:04.433804 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:46:04.433826 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:46:04.433846 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:46:34.902856 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:46:34.902921 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:46:34.902942 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:46:34.902961 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:46:34.902981 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:46:34.902998 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:46:34.903017 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:46:34.903035 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:47:05.378566 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:47:05.378640 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:47:05.378665 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:47:05.378686 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:47:05.378707 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:47:05.378728 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:47:05.378748 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:47:05.378769 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:47:35.871650 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:47:35.871726 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:47:35.871750 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:47:35.871771 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:47:35.871791 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:47:35.871812 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:47:35.871832 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:47:35.871853 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:48:06.371332 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:48:06.371409 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:48:06.371433 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:48:06.371454 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:48:06.371475 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:48:06.371496 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:48:06.371516 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:48:06.371537 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:48:36.896975 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:48:36.897051 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:48:36.897074 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:48:36.897094 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:48:36.897112 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:48:36.897131 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:48:36.897150 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:48:36.897168 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:49:07.353781 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:49:07.353848 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:49:07.353869 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:49:07.353888 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:49:07.353906 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:49:07.353925 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:49:07.353945 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:49:07.353962 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:49:37.818884 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:49:37.818954 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:49:37.818976 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:49:37.818995 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:49:37.819015 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:49:37.819034 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:49:37.819053 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:49:37.819072 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:50:08.306614 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:50:08.306737 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:50:08.306761 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:50:08.306783 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:50:08.306802 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:50:08.306821 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:50:08.306839 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:50:08.306857 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:50:38.786382 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:50:38.786458 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:50:38.786480 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:50:38.786500 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:50:38.786518 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:50:38.786537 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:50:38.786556 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:50:38.786574 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:51:09.267618 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:51:09.267683 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:51:09.267705 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:51:09.267724 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:51:09.267743 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:51:09.267762 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:51:09.267781 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:51:09.267798 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:51:39.769348 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:51:39.769412 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:51:39.769433 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:51:39.769453 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:51:39.769470 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:51:39.769488 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:51:39.769507 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:51:39.769526 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:52:10.229650 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:52:10.229714 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:52:10.229737 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:52:10.229755 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:52:10.229774 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:52:10.229792 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:52:10.229811 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:52:10.229830 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:52:40.702929 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:52:40.703001 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:52:40.703024 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:52:40.703043 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:52:40.703063 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:52:40.703083 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:52:40.703101 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:52:40.703120 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:54:37.669953 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:54:37.670017 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:54:37.670037 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:54:37.670058 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:54:37.670076 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:54:37.670094 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:54:37.670112 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:54:37.670131 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:54:37.670150 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:54:37.670167 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:54:37.670186 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:54:37.670204 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:54:37.670222 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:54:37.670241 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:54:37.670259 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:54:37.670277 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:54:37.670296 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:54:37.670315 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:54:37.670332 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:54:37.670351 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:54:37.670369 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:54:37.670387 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:54:37.670405 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:54:37.670426 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:54:42.586411 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:54:42.586529 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:54:42.586561 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:54:42.586588 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:54:42.586613 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:54:42.586639 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:54:42.586664 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:54:42.586689 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:55:13.050415 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:55:13.050547 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:55:13.050573 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:55:13.050593 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:55:13.050612 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:55:13.050631 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:55:13.050649 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:55:13.050668 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:55:43.515147 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:55:43.515210 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:55:43.515233 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:55:43.515251 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:55:43.515269 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:55:43.515288 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:55:43.515306 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:55:43.515324 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:56:14.018558 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:56:14.018646 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:56:14.018679 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:56:14.018703 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:56:14.018724 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:56:14.018745 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:56:14.018766 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:56:14.018786 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:56:44.467407 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:56:44.468080 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:56:44.468106 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:56:44.468125 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:56:44.468143 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:56:44.468164 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:56:44.468183 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:56:44.468201 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:57:14.958142 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:57:14.958209 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:57:14.958230 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:57:14.958250 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:57:14.958269 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:57:14.958288 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:57:14.958333 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:57:14.958357 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:57:45.460170 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:57:45.460233 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:57:45.460255 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:57:45.460274 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:57:45.460292 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:57:45.460311 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:57:45.460330 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:57:45.460348 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:58:15.900928 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:58:15.903225 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:58:15.903436 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:58:15.903537 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:58:15.903616 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:58:15.903697 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:58:15.903779 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:58:15.903843 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:58:46.380115 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:58:46.380198 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:58:46.380221 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:58:46.380241 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:58:46.380260 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:58:46.380278 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:58:46.380297 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:58:46.380316 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:59:16.837280 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:59:16.837401 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:59:16.837424 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:59:16.837442 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:59:16.837461 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:59:16.837479 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:59:16.837498 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:59:16.837517 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:59:47.323889 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:59:47.323962 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:59:47.323985 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:59:47.324005 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:59:47.324024 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:59:47.324043 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 10:59:47.324062 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 10:59:47.324082 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 11:00:17.799510 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 11:00:17.799651 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 11:00:17.799682 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 11:00:17.799703 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 11:00:17.799738 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 11:00:17.799757 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 11:00:17.799775 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 11:00:17.799794 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 11:00:48.267367 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 11:00:48.267433 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 11:00:48.267457 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 11:00:48.267474 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 11:00:48.267493 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 11:00:48.267520 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 11:00:48.267537 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 11:00:48.267552 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 11:01:18.755527 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 11:01:18.755597 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 11:01:18.755620 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 11:01:18.755637 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 11:01:18.755656 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 11:01:18.755674 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 11:01:18.755692 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 11:01:18.755712 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 11:01:49.249686 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 11:01:49.249759 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 11:01:49.249783 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 11:01:49.249800 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 11:01:49.249819 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 11:01:49.249837 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 11:01:49.249855 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 11:01:49.249872 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 11:02:19.755479 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 11:02:19.755568 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 11:02:19.755597 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 11:02:19.755621 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 11:02:19.755645 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 11:02:19.755671 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 11:02:19.755707 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 11:02:19.755744 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 11:04:11.550168 107188224 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0502 11:05:13.262243 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 11:05:13.262308 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 11:05:13.262331 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 11:05:13.262351 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 11:05:13.262368 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 11:05:13.262387 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 11:05:13.262405 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 11:05:13.262424 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 11:05:13.262444 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 11:05:13.262461 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 11:05:13.262480 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 11:05:13.262500 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 11:05:13.262517 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 11:05:13.262537 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 11:05:13.262557 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 11:05:13.262575 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 11:05:13.262907 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 11:05:13.262936 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 11:05:13.262957 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 11:05:13.262976 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 11:05:13.262995 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 11:05:13.263013 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 11:05:13.263031 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 11:05:13.263049 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 11:05:13.263068 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 11:05:13.263087 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 11:05:13.263322 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 11:05:13.263358 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 11:05:13.263381 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 11:05:13.263399 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 11:05:13.263417 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 11:05:13.263437 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 11:05:13.263455 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 11:05:13.263474 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 11:05:13.263492 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 11:05:13.263844 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 11:05:13.263875 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 11:05:13.263901 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 11:05:13.263924 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 11:05:13.263954 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 11:05:22.601447 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 11:05:22.601513 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 11:05:22.601536 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 11:05:22.601554 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 11:05:22.601583 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 11:05:22.601603 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.
+W0502 11:05:22.601620 107724800 DBThread.cpp:8644] SaveFishControlData get game db handle fail.
+W0502 11:05:22.601639 107724800 DBThread.cpp:8599] SaveFishCurrentKuCun get game db handle fail.

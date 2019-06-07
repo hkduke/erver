@@ -1,0 +1,26 @@
+
+service server {
+# 	服务器ID
+	server_id = 1001
+#	服务名称
+	server_name = 客服服务器
+#	服务地址
+	local_addr = 0.0.0.0:8999
+	public_addr = 0.0.0.0:8999 
+#	中心服地址
+	center_addr = 0.0.0.0:5001
+	
+#	OA库信息
+	oadb_ip = 58.82.239.150
+	oadb_user = root
+	oadb_pwd = wanhe_mysql
+	oadb_name = oa
+	oadb_port = 3306
+	
+#	redis信息
+	redis_addr = 127.0.0.1:8567
+	redis_pwd = huijin@8888.com
+	rediscon_timeout = 10
+	redisrw_timeout = 10
+}
+

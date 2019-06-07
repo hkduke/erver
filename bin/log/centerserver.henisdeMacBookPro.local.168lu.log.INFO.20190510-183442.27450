@@ -1,0 +1,107 @@
+Log file created at: 2019/05/10 18:34:42
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0510 18:34:42.947404 325678528 CenterServer.cpp:32] 正在启动中心服务器...
+I0510 18:34:42.950269 325678528 NetModule.h:71] Init NetModule Finished.
+I0510 18:34:42.950412 325678528 NetModule.h:78] start work thread 0...
+I0510 18:34:42.950423 325678528 NetModule.cpp:69] Start Run NetModule...
+I0510 18:34:42.950444 325678528 NetModule.cpp:88] NetModule Already Startover.
+I0510 18:34:42.950455 325678528 NetModule.cpp:220] add one connector: 0.0.0.0:6001 succeed...
+I0510 18:34:42.950462 325678528 NetModule.cpp:136] Create one server...
+I0510 18:34:43.058784 325678528 NetServer.cpp:55] accept io...127.0.0.1:59854
+I0510 18:34:43.064108 144404480 ServerMgr.cpp:187] register one game server: 127.0.0.1:59854
+I0510 18:34:43.452714 325678528 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0510 18:34:43.453727 144404480 CenterThread.cpp:95] connect to db server succ!
+I0510 18:34:45.348891 325678528 NetServer.cpp:55] accept io...127.0.0.1:59858
+I0510 18:34:45.360205 144404480 ServerMgr.cpp:54] register one proxy server: 127.0.0.1:59858
+W0510 18:34:47.358183 144404480 CenterThread.cpp:129] db server is disconnect, after 1s will be reconnect!
+W0510 18:34:48.465302 325678528 NetModule.cpp:723] ready reconnect server, server id: 0
+W0510 18:34:48.467335 144404480 CenterThread.cpp:129] db server is disconnect, after 1s will be reconnect!
+W0510 18:34:49.966881 325678528 NetModule.cpp:723] ready reconnect server, server id: 0
+I0510 18:34:49.967001 325678528 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0510 18:34:49.968327 144404480 CenterThread.cpp:95] connect to db server succ!
+I0510 18:34:52.156867 325678528 NetServer.cpp:55] accept io...127.0.0.1:59869
+I0510 18:34:52.166416 144404480 ServerMgr.cpp:492] register one login server: 127.0.0.1:59869
+W0510 18:34:58.599144 144404480 CenterThread.cpp:3724] OnSubLoadWealthGodHistoryData: 10
+W0510 18:34:59.861119 144404480 CenterThread.cpp:3724] OnSubLoadWealthGodHistoryData: 10
+W0510 18:35:01.124904 144404480 CenterThread.cpp:3724] OnSubLoadWealthGodHistoryData: 10
+W0510 18:35:02.363229 144404480 CenterThread.cpp:3724] OnSubLoadWealthGodHistoryData: 10
+W0510 18:35:03.619884 144404480 CenterThread.cpp:3724] OnSubLoadWealthGodHistoryData: 10
+W0510 18:35:04.870118 144404480 CenterThread.cpp:3724] OnSubLoadWealthGodHistoryData: 10
+W0510 18:35:06.141538 144404480 CenterThread.cpp:3724] OnSubLoadWealthGodHistoryData: 10
+W0510 18:35:07.393021 144404480 CenterThread.cpp:3724] OnSubLoadWealthGodHistoryData: 10
+W0510 18:35:08.633340 144404480 CenterThread.cpp:3724] OnSubLoadWealthGodHistoryData: 10
+W0510 18:35:09.897315 144404480 CenterThread.cpp:3724] OnSubLoadWealthGodHistoryData: 10
+W0510 18:35:11.145416 144404480 CenterThread.cpp:3724] OnSubLoadWealthGodHistoryData: 10
+W0510 18:35:12.394507 144404480 CenterThread.cpp:3724] OnSubLoadWealthGodHistoryData: 10
+W0510 18:35:13.648138 144404480 CenterThread.cpp:3724] OnSubLoadWealthGodHistoryData: 10
+W0510 18:35:26.039026 144404480 DuoBaoMgr.cpp:175] load duo bao data finish.
+W0510 18:35:26.933526 144404480 ConfigOption.cpp:1009] set chat upload url: http://test.upload.lerengu.com
+W0510 18:35:28.637006 144404480 Group.cpp:77] group userid : 85559569, parent userid : 0
+W0510 18:35:28.637176 144404480 Group.cpp:77] group userid : 85597831, parent userid : 85559569
+W0510 18:35:28.637271 144404480 Group.cpp:89] insert dir user: 85559569, 85597831
+W0510 18:35:28.637342 144404480 Group.cpp:77] group userid : 85501020, parent userid : 85559569
+W0510 18:35:28.637403 144404480 Group.cpp:89] insert dir user: 85559569, 85501020
+W0510 18:35:28.637468 144404480 Group.cpp:77] group userid : 85597742, parent userid : 85559569
+W0510 18:35:28.637531 144404480 Group.cpp:89] insert dir user: 85559569, 85597742
+W0510 18:35:28.637598 144404480 Group.cpp:77] group userid : 85561680, parent userid : 85559569
+W0510 18:35:28.637658 144404480 Group.cpp:89] insert dir user: 85559569, 85561680
+W0510 18:35:28.637720 144404480 Group.cpp:77] group userid : 85554182, parent userid : 85561680
+W0510 18:35:28.637784 144404480 Group.cpp:89] insert dir user: 85561680, 85554182
+W0510 18:35:28.637840 144404480 Group.cpp:97] insert sub user: 85559569, 85554182
+W0510 18:35:28.637903 144404480 Group.cpp:77] group userid : 85589188, parent userid : 85559569
+W0510 18:35:28.638002 144404480 Group.cpp:89] insert dir user: 85559569, 85589188
+W0510 18:35:28.638051 144404480 Group.cpp:77] group userid : 85529251, parent userid : 85559569
+W0510 18:35:28.638087 144404480 Group.cpp:89] insert dir user: 85559569, 85529251
+W0510 18:35:28.638128 144404480 Group.cpp:77] group userid : 85577316, parent userid : 85559569
+W0510 18:35:28.638164 144404480 Group.cpp:89] insert dir user: 85559569, 85577316
+W0510 18:35:28.638206 144404480 Group.cpp:77] group userid : 85571120, parent userid : 85559569
+W0510 18:35:28.638242 144404480 Group.cpp:89] insert dir user: 85559569, 85571120
+W0510 18:35:28.638283 144404480 Group.cpp:77] group userid : 85538140, parent userid : 85559569
+W0510 18:35:28.638321 144404480 Group.cpp:89] insert dir user: 85559569, 85538140
+W0510 18:35:28.638367 144404480 Group.cpp:77] group userid : 84199281, parent userid : 0
+W0510 18:35:28.638411 144404480 Group.cpp:77] group userid : 85551386, parent userid : 0
+W0510 18:35:28.638453 144404480 Group.cpp:77] group userid : 85520214, parent userid : 85551386
+W0510 18:35:28.638514 144404480 Group.cpp:89] insert dir user: 85551386, 85520214
+W0510 18:35:28.638552 144404480 Group.cpp:77] group userid : 85566607, parent userid : 85520214
+W0510 18:35:28.638586 144404480 Group.cpp:89] insert dir user: 85520214, 85566607
+W0510 18:35:28.638617 144404480 Group.cpp:97] insert sub user: 85551386, 85566607
+W0510 18:35:28.638653 144404480 Group.cpp:77] group userid : 85502242, parent userid : 85566607
+W0510 18:35:28.638685 144404480 Group.cpp:89] insert dir user: 85566607, 85502242
+W0510 18:35:28.638717 144404480 Group.cpp:97] insert sub user: 85520214, 85502242
+W0510 18:35:28.638748 144404480 Group.cpp:97] insert sub user: 85551386, 85502242
+W0510 18:35:28.638783 144404480 Group.cpp:77] group userid : 85530181, parent userid : 85502242
+W0510 18:35:28.638816 144404480 Group.cpp:89] insert dir user: 85502242, 85530181
+W0510 18:35:28.638847 144404480 Group.cpp:97] insert sub user: 85566607, 85530181
+W0510 18:35:28.638878 144404480 Group.cpp:97] insert sub user: 85520214, 85530181
+W0510 18:35:28.638908 144404480 Group.cpp:97] insert sub user: 85551386, 85530181
+W0510 18:35:28.638943 144404480 Group.cpp:77] group userid : 85530624, parent userid : 85551386
+W0510 18:35:28.638975 144404480 Group.cpp:89] insert dir user: 85551386, 85530624
+W0510 18:35:28.639014 144404480 Group.cpp:77] group userid : 80166375, parent userid : 0
+W0510 18:35:28.639057 144404480 Group.cpp:77] group userid : 85600191, parent userid : 80166375
+W0510 18:35:28.639092 144404480 Group.cpp:89] insert dir user: 80166375, 85600191
+W0510 18:35:28.639128 144404480 Group.cpp:77] group userid : 85592156, parent userid : 80166375
+W0510 18:35:28.639160 144404480 Group.cpp:89] insert dir user: 80166375, 85592156
+W0510 18:35:28.639243 144404480 Group.cpp:77] group userid : 85556707, parent userid : 80166375
+W0510 18:35:28.639279 144404480 Group.cpp:89] insert dir user: 80166375, 85556707
+W0510 18:35:28.639315 144404480 Group.cpp:77] group userid : 85510463, parent userid : 80166375
+W0510 18:35:28.639348 144404480 Group.cpp:89] insert dir user: 80166375, 85510463
+W0510 18:35:28.639382 144404480 Group.cpp:77] group userid : 85566356, parent userid : 80166375
+W0510 18:35:28.639415 144404480 Group.cpp:89] insert dir user: 80166375, 85566356
+W0510 18:35:28.639451 144404480 Group.cpp:77] group userid : 85570025, parent userid : 80166375
+W0510 18:35:28.639482 144404480 Group.cpp:89] insert dir user: 80166375, 85570025
+W0510 18:35:28.639518 144404480 Group.cpp:77] group userid : 85555932, parent userid : 80166375
+W0510 18:35:28.639549 144404480 Group.cpp:89] insert dir user: 80166375, 85555932
+W0510 18:35:28.639585 144404480 Group.cpp:77] group userid : 85589513, parent userid : 85555932
+W0510 18:35:28.639617 144404480 Group.cpp:89] insert dir user: 85555932, 85589513
+W0510 18:35:28.639649 144404480 Group.cpp:97] insert sub user: 80166375, 85589513
+W0510 18:35:28.639684 144404480 Group.cpp:77] group userid : 85520563, parent userid : 85589513
+W0510 18:35:28.639719 144404480 Group.cpp:89] insert dir user: 85589513, 85520563
+W0510 18:35:28.639750 144404480 Group.cpp:97] insert sub user: 85555932, 85520563
+W0510 18:35:28.639780 144404480 Group.cpp:97] insert sub user: 80166375, 85520563
+W0510 18:35:28.639817 144404480 Group.cpp:77] group userid : 85586411, parent userid : 0
+W0510 18:35:28.639855 144404480 Group.cpp:77] group userid : 85558230, parent userid : 0
+W0510 18:35:28.639894 144404480 Group.cpp:77] group userid : 85564850, parent userid : 0
+W0510 18:35:39.551105 144404480 Group.cpp:118] insert group chat, from user id: 85559569, to user id: 85597831, msg id: 12
+W0510 18:35:39.551246 144404480 Group.cpp:118] insert group chat, from user id: 85559569, to user id: 85597831, msg id: 20
+W0511 00:00:59.433197 144404480 CenterThread.cpp:330] center server is across day.

@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="utility">
+      <UniqueIdentifier>{ad852efc-f8f7-431e-b785-769da4e0dbe5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NetConnector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NetServer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadWriteBuffer.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="glog_wrapper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Base64.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DataQueue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="exam_assert.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="File.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FileAPI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IFile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ipv4Address.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ipv6Address.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MemPool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MesBlock.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Mutex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NetModule.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjPool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Parse.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sysdata.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="socket_include.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketAddress.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sockets-config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkThread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Semaphoreex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PaseIni.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDBConnector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NetEncrypt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="timeFunction.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="ipFunction.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MemPool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MesBlock.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="exam_assert.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadWriteBuffer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkThread.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NetModule.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Base64.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ipv4Address.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ipv6Address.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FileAPI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="File.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Parse.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NetConnector.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NetServer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Semaphoreex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PaseIni.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDBConnector.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Mutex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NetEncrypt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="timeFunction.cpp">
+      <Filter>utility</Filter>
+    </ClCompile>
+    <ClCompile Include="ipFunction.cpp">
+      <Filter>utility</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

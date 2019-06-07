@@ -1,0 +1,104 @@
+Log file created at: 2019/04/12 09:58:06
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0412 09:58:06.740716 311952832 CenterServer.cpp:32] 正在启动中心服务器...
+I0412 09:58:06.745373 311952832 NetModule.h:71] Init NetModule Finished.
+I0412 09:58:06.745930 311952832 NetModule.h:78] start work thread 0...
+I0412 09:58:06.745986 311952832 NetModule.cpp:69] Start Run NetModule...
+I0412 09:58:06.746013 311952832 NetModule.cpp:88] NetModule Already Startover.
+I0412 09:58:06.746027 311952832 NetModule.cpp:220] add one connector: 0.0.0.0:6001 succeed...
+I0412 09:58:06.746035 311952832 NetModule.cpp:136] Create one server...
+I0412 09:58:07.104573 311952832 NetServer.cpp:55] accept io...127.0.0.1:53925
+I0412 09:58:07.130250 101982208 ServerMgr.cpp:187] register one game server: 127.0.0.1:53925
+I0412 09:58:07.246986 311952832 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0412 09:58:07.249336 101982208 CenterThread.cpp:92] connect to db server succ!
+I0412 09:58:08.156433 311952832 NetServer.cpp:55] accept io...127.0.0.1:53928
+I0412 09:58:08.170825 101982208 ServerMgr.cpp:54] register one proxy server: 127.0.0.1:53928
+I0412 09:58:11.710813 311952832 NetServer.cpp:55] accept io...127.0.0.1:53930
+I0412 09:58:11.726729 101982208 ServerMgr.cpp:553] register one dip server: 127.0.0.1:53930
+I0412 09:58:11.764839 311952832 NetServer.cpp:55] accept io...127.0.0.1:53931
+I0412 09:58:11.769441 101982208 ServerMgr.cpp:492] register one login server: 127.0.0.1:53931
+W0412 09:58:24.633877 101982208 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0412 09:58:25.789376 311952832 NetModule.cpp:723] ready reconnect server, server id: 0
+W0412 09:58:25.790673 101982208 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0412 09:58:27.296288 311952832 NetModule.cpp:723] ready reconnect server, server id: 0
+I0412 09:58:27.296403 311952832 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0412 09:58:27.298436 101982208 CenterThread.cpp:92] connect to db server succ!
+W0412 09:58:34.571717 101982208 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0412 09:58:35.827981 101982208 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0412 09:58:37.087697 101982208 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0412 09:58:38.331352 101982208 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0412 09:58:39.589247 101982208 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0412 09:58:40.858013 101982208 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0412 09:58:42.124812 101982208 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0412 09:58:43.381590 101982208 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0412 09:58:44.868453 101982208 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0412 09:58:46.143214 101982208 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0412 09:58:47.400543 101982208 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0412 09:58:48.686638 101982208 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0412 09:58:49.947003 101982208 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0412 10:11:33.741700 101982208 DuoBaoMgr.cpp:175] load duo bao data finish.
+W0412 10:11:33.741905 101982208 ConfigOption.cpp:1009] set chat upload url: http://test.upload.lerengu.com
+W0412 10:11:33.742115 101982208 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+I0412 10:11:33.764008 311952832 NetServer.cpp:88] delete io...127.0.0.1:53925
+I0412 10:11:33.764128 311952832 NetServer.cpp:88] delete io...127.0.0.1:53928
+I0412 10:11:33.764205 311952832 NetServer.cpp:88] delete io...127.0.0.1:53930
+I0412 10:11:33.764264 311952832 NetServer.cpp:88] delete io...127.0.0.1:53931
+W0412 10:11:33.766165 101982208 ServerMgr.cpp:850] remove one game server, id:991
+W0412 10:11:33.766270 101982208 ServerMgr.cpp:889] remove one proxy server, id:30
+W0412 10:11:33.766335 101982208 ServerMgr.cpp:897] remove one dip server, id:1000
+W0412 10:11:33.766386 101982208 ServerMgr.cpp:866] remove one login server, id:10
+I0412 10:11:34.964752 311952832 NetServer.cpp:55] accept io...127.0.0.1:54253
+I0412 10:11:34.988647 101982208 ServerMgr.cpp:187] register one game server: 127.0.0.1:54253
+W0412 10:11:35.246457 311952832 NetModule.cpp:723] ready reconnect server, server id: 0
+I0412 10:11:35.246596 311952832 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0412 10:11:35.248504 101982208 CenterThread.cpp:92] connect to db server succ!
+I0412 10:11:36.971770 311952832 NetServer.cpp:55] accept io...127.0.0.1:54256
+I0412 10:11:36.997876 101982208 ServerMgr.cpp:54] register one proxy server: 127.0.0.1:54256
+I0412 10:11:43.971016 311952832 NetServer.cpp:55] accept io...127.0.0.1:54259
+I0412 10:11:43.996584 101982208 ServerMgr.cpp:553] register one dip server: 127.0.0.1:54259
+I0412 10:11:44.087296 311952832 NetServer.cpp:55] accept io...127.0.0.1:54260
+I0412 10:11:44.104521 101982208 ServerMgr.cpp:492] register one login server: 127.0.0.1:54260
+W0412 10:12:32.127498 101982208 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 2
+W0412 10:12:32.127746 101982208 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 1
+W0412 10:12:32.127801 101982208 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 7
+W0412 10:12:32.127846 101982208 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 4
+W0412 10:12:32.127890 101982208 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 5
+W0412 10:12:32.127933 101982208 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 6
+W0412 10:12:32.127975 101982208 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 29
+W0412 10:12:32.128020 101982208 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 3
+W0412 10:12:32.128062 101982208 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 8
+W0412 10:12:32.128104 101982208 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 9
+W0412 10:12:32.128145 101982208 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 31
+W0412 10:12:32.128192 101982208 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 10
+W0412 10:12:32.128237 101982208 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 12
+W0412 10:12:32.128280 101982208 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 11
+W0412 10:12:32.128324 101982208 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 13
+W0412 10:12:32.128365 101982208 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 14
+W0412 10:12:32.128435 101982208 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 15
+W0412 10:12:32.128473 101982208 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 30
+W0412 10:12:32.128525 101982208 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 16
+W0412 10:12:32.128549 101982208 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 17
+W0412 10:12:32.128574 101982208 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 18
+W0412 10:12:32.596740 101982208 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0412 10:12:33.858657 101982208 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0412 10:12:35.114327 101982208 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0412 10:12:36.394347 101982208 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0412 10:12:37.638103 101982208 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0412 10:12:38.910017 101982208 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0412 10:12:40.157707 101982208 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0412 10:12:41.400117 101982208 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0412 10:12:42.653410 101982208 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0412 10:12:43.914964 101982208 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0412 10:12:45.169759 101982208 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0412 10:12:46.434094 101982208 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0412 10:12:47.681571 101982208 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0412 10:12:49.179946 101982208 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 1
+W0412 10:12:49.180019 101982208 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 2
+W0412 10:12:49.180042 101982208 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 3
+W0412 10:12:49.180059 101982208 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 4
+W0412 10:12:49.180076 101982208 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 5
+W0412 10:12:49.180094 101982208 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 30
+W0412 10:12:49.180110 101982208 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 31
+W0412 10:12:49.180127 101982208 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 32
+W0412 10:12:49.180145 10

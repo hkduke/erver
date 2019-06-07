@@ -1,0 +1,14 @@
+Log file created at: 2019/05/28 19:51:00
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0528 19:51:00.096166 112444864 LoginServer.cpp:65] listen at: 0.0.0.0:7001
+W0528 19:51:03.827147 65970176 LoginServerThread.cpp:336] loginserver start succ.
+W0529 00:00:12.185624 65970176 LoginServerThread.cpp:547] login server is across day.
+W0529 10:19:51.474622 65970176 LoginServerThread.cpp:5809] select earn score fail. errno: 2003, err msg: Can't connect to MySQL server on '58.82.239.150' (60)
+W0530 00:00:23.019572 65970176 LoginServerThread.cpp:547] login server is across day.
+W0530 14:18:51.991194 65970176 LoginServerThread.cpp:5446] select expire mail fail, error no: -1, sql:select mailid from mail where userid = '85505405' and mailType = 2 and expireTime < now()
+W0530 14:19:53.116837 65970176 LoginServerThread.cpp:5446] select expire mail fail, error no: -1, sql:select mailid from mail where userid = '85505405' and mailType = 2 and expireTime < now()
+W0530 16:13:39.660271 65970176 LoginServerThread.cpp:5357] update score change info fail, user id: 85501464, type: 8, change score: -901500, errno: -1, error: mysql not opened yet!
+W0530 16:15:09.756250 65970176 LoginServerThread.cpp:5446] select expire mail fail, error no: -1, sql:select mailid from mail where userid = '85501464' and mailType = 2 and expireTime < now()
+W0531 00:00:33.661985 65970176 LoginServerThread.cpp:547] login server is across day.
+W0531 15:34:43.792121 65970176 ServerMgr.cpp:88] remove one proxy server, id: 30

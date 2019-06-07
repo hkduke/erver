@@ -1,0 +1,32 @@
+Log file created at: 2019/05/23 10:11:10
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0523 10:11:10.226711 241554880 LoginServer.cpp:45] 正在启动登录服务器...
+I0523 10:11:10.230118 241554880 NetModule.h:71] Init NetModule Finished.
+I0523 10:11:10.230485 241554880 NetModule.h:78] start work thread 0...
+I0523 10:11:10.230497 241554880 NetModule.cpp:69] Start Run NetModule...
+I0523 10:11:10.230516 241554880 NetModule.cpp:88] NetModule Already Startover.
+W0523 10:11:10.230917 241554880 LoginServer.cpp:65] listen at: 0.0.0.0:7001
+I0523 10:11:10.231199 241554880 NetModule.cpp:136] Create one server...
+I0523 10:11:10.231288 241554880 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I0523 10:11:10.724164 241554880 NetServer.cpp:55] accept io...127.0.0.1:57202
+I0523 10:11:10.724675 74641408 LoginServerThread.cpp:198] bind one connect: 127.0.0.1:57202
+I0523 10:11:10.748834 74641408 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:57202
+I0523 10:11:11.946204 74641408 LoginServerThread.cpp:7914] load game kind succ!
+I0523 10:11:12.060808 74641408 LoginServerThread.cpp:8025] load game room kind succ!
+I0523 10:11:12.627038 74641408 LoginServerThread.cpp:8407] load system status succ!
+I0523 10:11:12.743561 74641408 LoginServerThread.cpp:8094] load vip config succ!
+I0523 10:11:12.856793 74641408 LoginServerThread.cpp:8126] load vip2 config succ!
+I0523 10:11:12.972117 74641408 LoginServerThread.cpp:8432] load channel show exchange succ!
+I0523 10:11:13.087841 74641408 LoginServerThread.cpp:8462] load exchange info succ!
+I0523 10:11:13.225369 74641408 LoginServerThread.cpp:8489] load channel prsent score succ!
+I0523 10:11:13.353704 74641408 LoginServerThread.cpp:8513] load channel register mail succ!
+I0523 10:11:13.477917 74641408 LoginServerThread.cpp:8154] load benefit config succ!
+I0523 10:11:13.592187 74641408 LoginServerThread.cpp:8221] load game version succ!
+W0523 10:11:13.933130 74641408 LoginServerThread.cpp:336] loginserver start succ.
+W0523 12:55:46.681452 74641408 LoginServerThread.cpp:5446] select expire mail fail, error no: -1, sql:select mailid from mail where userid = '85538002' and mailType = 2 and expireTime < now()
+W0523 16:24:42.726442 75177984 LoginRecordThread.cpp:101] insert user login record fail. errno: -1, error msg: mysql not opened yet!
+W0523 19:37:42.556752 74641408 LoginServerThread.cpp:5446] select expire mail fail, error no: -1, sql:select mailid from mail where userid = '85501464' and mailType = 2 and expireTime < now()
+W0524 00:00:53.036190 74641408 LoginServerThread.cpp:547] login server is across day.
+W0524 18:01:20.622509 74641408 LoginServerThread.cpp:5446] select expire mail fail, error no: -1, sql:select mailid from mail where userid = '85577836' and mailType = 2 and expireTime < now()
+W0525 00:00:06.719027 74641408 LoginServerThread.cpp:547] login server is across day.

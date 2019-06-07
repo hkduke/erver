@@ -1,0 +1,23 @@
+Log file created at: 2019/04/26 15:42:28
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0426 15:42:28.136040 117256192 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0426 15:42:29.039510 117792768 DBThread.cpp:209] main db server set time ok!
+W0426 16:42:32.626883 117256192 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0426 17:20:46.315775 117792768 DBThread.cpp:4715] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '6-1-2-590' for key 'PRIMARY'
+W0426 17:42:37.137580 117256192 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0426 18:31:34.298702 117792768 DBThread.cpp:4715] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-1-1-640' for key 'PRIMARY'
+W0426 18:42:41.687448 117256192 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+E0426 18:56:52.807821 117792768 DBThread.cpp:8661] Save Fish Control Data Fail, ServerID: 8201 TotalWinScore: 0 TotalLoseScore: 0 KuCun: 0 BlackTax: 0 BloodPoolDianKongLoseWin: 0, kucun status: 1, db->get_errno(): -1 db->get_error():mysql not opened yet!
+E0426 18:57:52.817821 117792768 DBThread.cpp:8621] SaveFishCurrentKuCun fail ServerID: 8201 data: 1556279729 KuCun: 0 db->get_errno(): -1 db->get_error():mysql not opened yet!
+E0426 18:58:52.825472 117792768 DBThread.cpp:8661] Save Fish Control Data Fail, ServerID: 8202 TotalWinScore: 0 TotalLoseScore: 0 KuCun: 0 BlackTax: 0 BloodPoolDianKongLoseWin: 0, kucun status: 1, db->get_errno(): -1 db->get_error():mysql not opened yet!
+E0426 18:59:52.829041 117792768 DBThread.cpp:8621] SaveFishCurrentKuCun fail ServerID: 8202 data: 1556279729 KuCun: 0 db->get_errno(): -1 db->get_error():mysql not opened yet!
+E0426 19:00:52.836364 117792768 DBThread.cpp:8661] Save Fish Control Data Fail, ServerID: 8203 TotalWinScore: 0 TotalLoseScore: 0 KuCun: 0 BlackTax: 0 BloodPoolDianKongLoseWin: 0, kucun status: 1, db->get_errno(): -1 db->get_error():mysql not opened yet!
+E0426 19:01:52.843142 117792768 DBThread.cpp:8621] SaveFishCurrentKuCun fail ServerID: 8203 data: 1556279729 KuCun: 0 db->get_errno(): -1 db->get_error():mysql not opened yet!
+W0426 19:03:19.465489 117792768 DBThread.cpp:7355] update android status fail. errno: -1, error msg: mysql not opened yet!
+W0426 19:04:41.305364 117792768 DBThread.cpp:6772] insert record_score.record_draw_info fail, error = -1, error msg: mysql not opened yet!
+W0426 19:05:41.312346 117792768 DBThread.cpp:7405] update room server stock fail. errno: -1, error msg: mysql not opened yet!
+W0426 19:06:41.314939 117792768 DBThread.cpp:7175] insert record_score.record_hbsl_info fail, error = -1, error msg: mysql not opened yet!
+W0426 19:07:41.320734 117792768 DBThread.cpp:7355] update android status fail. errno: -1, error msg: mysql not opened yet!
+W0426 19:08:41.327726 117792768 DBThread.cpp:7355] update android status fail. errno: -1, error msg: mysql not opened yet!
+W0426 19:09:41.333838 117792768 DBThread.cpp:6772] insert record_score.record_draw_info fail, error = -1, error msg: mysql not opened yet!

@@ -1,0 +1,25 @@
+Log file created at: 2018/12/21 20:58:49
+Running on machine: henisdeMacBook-Pro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1221 20:58:49.569612 225957312 GameServer.cpp:45] 正在启动游戏服务器...
+I1221 20:58:49.573081 225957312 NetModule.h:71] Init NetModule Finished.
+I1221 20:58:49.573369 225957312 NetModule.h:77] start work thread 0...
+I1221 20:58:49.573382 225957312 NetModule.cpp:64] Start Run NetModule...
+I1221 20:58:49.573401 225957312 NetModule.cpp:76] NetModule Already Startover.
+I1221 20:58:49.573413 225957312 NetModule.cpp:200] add one connector: 127.0.0.1:5001 succeed...
+I1221 20:58:49.573421 225957312 NetModule.cpp:200] add one connector: 127.0.0.1:6001 succeed...
+I1221 20:58:49.573426 225957312 NetModule.cpp:118] Create one server...
+I1221 20:58:50.075871 225957312 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I1221 20:58:50.075903 225957312 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I1221 20:58:50.076620 249434112 GameServerThread.cpp:113] connect to db server succ!
+I1221 20:59:02.240005 249434112 AndroidUserMgr.cpp:693] set active android count: 0
+I1221 20:59:02.240043 249434112 AndroidUserMgr.cpp:693] set active android count: 2
+I1221 20:59:02.720401 249434112 GameServerThread.cpp:1884] load benefit config succ!
+I1221 20:59:03.870728 249434112 GameServerThread.cpp:1804] load android parameter succ, android count : 24
+W1221 20:59:03.987630 249434112 GameTableManager.cpp:561] update br game server black list, server id: 1101
+I1221 20:59:03.987956 249434112 GameServerThread.cpp:1458] init server succ!
+I1221 20:59:15.344496 225957312 NetServer.cpp:55] accept io...127.0.0.1:52460
+I1221 20:59:15.346331 249434112 GameServerThread.cpp:146] bind one connect: 127.0.0.1:52460
+I1221 20:59:15.369375 249434112 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:52460
+W1221 21:00:18.499307 249434112 GameServerThread.cpp:853] User ready enter room. user id: 83516815
+I1221 21:01:47.779307 225957312 NetServer.cpp:88] delete io...127.0.0.1:52460

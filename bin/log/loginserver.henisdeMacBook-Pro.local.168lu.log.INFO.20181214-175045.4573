@@ -1,0 +1,83 @@
+Log file created at: 2018/12/14 17:50:45
+Running on machine: henisdeMacBook-Pro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1214 17:50:45.485350 437691840 LoginServer.cpp:45] 正在启动登录服务器...
+I1214 17:50:45.487220 437691840 NetModule.h:71] Init NetModule Finished.
+I1214 17:50:45.487489 437691840 NetModule.h:77] start work thread 0...
+I1214 17:50:45.487499 437691840 NetModule.cpp:64] Start Run NetModule...
+I1214 17:50:45.487519 437691840 NetModule.cpp:76] NetModule Already Startover.
+W1214 17:50:45.487828 437691840 LoginServer.cpp:65] listen at: 0.0.0.0:7003
+I1214 17:50:45.488024 437691840 NetModule.cpp:118] Create one server...
+I1214 17:50:45.488121 437691840 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1214 17:50:46.031729 437691840 NetServer.cpp:55] accept io...127.0.0.1:51315
+I1214 17:50:46.033870 210817024 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:51315
+I1214 17:50:46.057821 210817024 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:51315
+I1214 17:50:48.300034 210817024 LoginServerThread.cpp:7353] load game kind succ!
+I1214 17:50:48.300529 210817024 LoginServerThread.cpp:7464] load game room kind succ!
+I1214 17:50:48.301268 210817024 LoginServerThread.cpp:7828] load system status succ!
+I1214 17:50:48.301460 210817024 LoginServerThread.cpp:7499] load sign in config succ!
+I1214 17:50:48.301641 210817024 LoginServerThread.cpp:7533] load vip config succ!
+I1214 17:50:48.301831 210817024 LoginServerThread.cpp:7565] load vip2 config succ!
+I1214 17:50:48.302129 210817024 LoginServerThread.cpp:7853] load channel show exchange succ!
+I1214 17:50:48.302316 210817024 LoginServerThread.cpp:7883] load exchange info succ!
+I1214 17:50:48.302494 210817024 LoginServerThread.cpp:7910] load channel prsent score succ!
+I1214 17:50:48.302695 210817024 LoginServerThread.cpp:7934] load channel register mail succ!
+I1214 17:50:48.302881 210817024 LoginServerThread.cpp:7657] load game version succ!
+I1214 17:53:15.226248 437691840 NetServer.cpp:88] delete io...127.0.0.1:51315
+W1214 17:53:15.228653 210817024 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1214 17:53:15.229053 210817024 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+W1214 17:53:25.790175 437691840 NetModule.cpp:703] ready reconnect server, server id: 10
+I1214 17:53:25.790315 437691840 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1214 17:53:25.980245 437691840 NetServer.cpp:55] accept io...127.0.0.1:51322
+I1214 17:53:25.982167 210817024 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:51322
+I1214 17:53:25.998585 210817024 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:51322
+I1214 17:55:07.000838 437691840 NetServer.cpp:88] delete io...127.0.0.1:51322
+W1214 17:55:07.002787 210817024 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1214 17:55:07.002851 210817024 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+W1214 17:55:17.539590 437691840 NetModule.cpp:703] ready reconnect server, server id: 10
+I1214 17:55:17.539723 437691840 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1214 17:55:17.819700 437691840 NetServer.cpp:55] accept io...127.0.0.1:51324
+I1214 17:55:17.821972 210817024 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:51324
+I1214 17:55:17.841490 210817024 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:51324
+I1214 17:59:20.667207 437691840 NetServer.cpp:88] delete io...127.0.0.1:51324
+W1214 17:59:20.669255 210817024 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1214 17:59:20.669410 210817024 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+W1214 17:59:31.216955 437691840 NetModule.cpp:703] ready reconnect server, server id: 10
+I1214 17:59:31.217128 437691840 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1214 17:59:31.558357 437691840 NetServer.cpp:55] accept io...127.0.0.1:51330
+I1214 17:59:31.559654 210817024 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:51330
+I1214 17:59:31.579334 210817024 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:51330
+I1214 18:00:27.768877 437691840 NetServer.cpp:88] delete io...127.0.0.1:51330
+W1214 18:00:27.770117 210817024 ServerMgr.cpp:88] remove one proxy server, id: 30
+I1214 18:00:31.242565 437691840 NetServer.cpp:55] accept io...127.0.0.1:51333
+I1214 18:00:31.244585 210817024 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:51333
+I1214 18:00:31.249680 210817024 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:51333
+I1214 18:52:57.836302 437691840 NetServer.cpp:88] delete io...127.0.0.1:51333
+W1214 18:52:57.836971 210817024 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+W1214 18:52:57.837332 210817024 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1214 18:53:08.365257 437691840 NetModule.cpp:703] ready reconnect server, server id: 10
+I1214 18:53:08.365422 437691840 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1214 18:53:08.530315 437691840 NetServer.cpp:55] accept io...127.0.0.1:51637
+I1214 18:53:08.530354 210817024 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:51637
+I1214 18:53:08.538014 210817024 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:51637
+I1214 20:37:19.855758 437691840 NetServer.cpp:88] delete io...127.0.0.1:51637
+W1214 20:37:19.859688 210817024 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1214 20:37:19.859889 210817024 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+W1214 20:37:30.383818 437691840 NetModule.cpp:703] ready reconnect server, server id: 10
+I1214 20:37:30.383924 437691840 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I1214 20:37:30.417146 437691840 NetServer.cpp:55] accept io...127.0.0.1:53006
+I1214 20:37:30.417456 210817024 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:53006
+I1214 20:37:30.422493 210817024 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:53006
+W1214 20:37:34.101878 210817024 LoginServerThread.cpp:6030] insert user info fail, user name: 264FDBBC-4838-4336-B431-73DD81D8CB0A, error: 1364, error: Field 'headimage' doesn't have a default value
+W1214 20:37:35.541520 210817024 LoginServerThread.cpp:5369] select earn score fail. errno: 1146, err msg: Table 'game.todayEarnScore' doesn't exist
+W1214 20:37:35.542438 210817024 LoginServerThread.cpp:5243] query user task info fail, errno: 1146, error msg: Table 'game.userTask' doesn't exist
+W1214 20:38:22.767487 210817024 LoginServerThread.cpp:4569] expire task fail, userid: 6801940
+W1214 20:43:46.513342 210817024 LoginServerThread.cpp:4501] expire user account name fail, userid: 6801940
+W1214 20:43:46.513722 210817024 LoginServerThread.cpp:4509] expire user account info fail, userid: 6801940
+W1214 20:43:46.514026 210817024 LoginServerThread.cpp:4569] expire task fail, userid: 6801940
+W1214 20:43:51.263765 210817024 LoginServerThread.cpp:5369] select earn score fail. errno: 1146, err msg: Table 'game.todayEarnScore' doesn't exist
+W1214 20:43:51.264310 210817024 LoginServerThread.cpp:5243] query user task info fail, errno: 1146, error msg: Table 'game.userTask' doesn't exist
+W1214 20:44:46.234721 210817024 LoginServerThread.cpp:4569] expire task fail, userid: 6801940
+W1214 20:45:37.634593 210817024 LoginServerThread.cpp:4569] expire task fail, userid: 6801940
+W1214 20:45:57.394068 210817024 LoginServerThread.cpp:4569] expire task fail, userid: 6801940
+W1214 20:46:15.308732 210817024 LoginServerThread.cpp:4569] expire task fail, userid: 6801940

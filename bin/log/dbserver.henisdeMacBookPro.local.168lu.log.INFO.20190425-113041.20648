@@ -1,0 +1,123 @@
+Log file created at: 2019/04/25 11:30:41
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0425 11:30:41.568681 405566912 DBBufferServer.cpp:55] 正在启动DB服务器...
+I0425 11:30:41.572423 405566912 DBBufferServer.cpp:31] start build db thread...
+W0425 11:30:41.572466 84733952 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+I0425 11:30:41.573730 405566912 NetModule.h:71] Init NetModule Finished.
+I0425 11:30:41.575493 405566912 NetModule.h:78] start work thread 0...
+I0425 11:30:41.575515 405566912 NetModule.cpp:69] Start Run NetModule...
+I0425 11:30:41.575542 405566912 NetModule.cpp:88] NetModule Already Startover.
+I0425 11:30:41.575996 405566912 NetModule.cpp:136] Create one server...
+I0425 11:30:42.518836 405566912 NetServer.cpp:55] accept io...127.0.0.1:58248
+I0425 11:30:42.519753 85270528 DBThread.cpp:104] bind one connect: 127.0.0.1:58248
+I0425 11:30:42.681516 405566912 NetServer.cpp:55] accept io...127.0.0.1:58250
+I0425 11:30:42.746798 405566912 NetServer.cpp:55] accept io...127.0.0.1:58251
+I0425 11:30:42.874933 405566912 NetServer.cpp:55] accept io...127.0.0.1:58252
+W0425 11:30:43.343832 85270528 DBThread.cpp:209] main db server set time ok!
+I0425 11:30:43.343895 85270528 DBThread.cpp:234] init db server succ!
+I0425 11:30:49.779276 405566912 NetServer.cpp:55] accept io...127.0.0.1:58260
+I0425 11:30:59.526183 405566912 NetServer.cpp:88] delete io...127.0.0.1:58260
+I0425 11:31:10.323422 405566912 NetServer.cpp:55] accept io...127.0.0.1:58270
+I0425 11:31:17.740823 85270528 DBThread.cpp:104] bind one connect: 127.0.0.1:58250
+I0425 11:31:17.741763 85270528 DBThread.cpp:104] bind one connect: 127.0.0.1:58251
+I0425 11:31:17.741791 85270528 DBThread.cpp:104] bind one connect: 127.0.0.1:58252
+I0425 11:31:18.794479 85270528 DBThread.cpp:104] bind one connect: 127.0.0.1:58270
+W0425 11:32:13.379493 85270528 DBThread.cpp:689] get record score db handle fail.
+W0425 11:32:13.606242 85270528 DBThread.cpp:7152] get record score db handle fail.
+W0425 11:32:20.853912 85270528 DBThread.cpp:8148] get record score db handle fail.
+W0425 11:32:21.077525 85270528 DBThread.cpp:8279] get record score db handle fail.
+W0425 11:38:01.909544 85270528 DBThread.cpp:7355] update android status fail. errno: 1053, error msg: Server shutdown in progress
+W0425 11:38:03.125686 85270528 DBThread.cpp:7355] update android status fail. errno: 2003, error msg: Can't connect to MySQL server on '58.82.239.150' (61)
+W0425 11:42:25.018419 85270528 DBThread.cpp:7355] update android status fail. errno: 2003, error msg: Can't connect to MySQL server on '58.82.239.150' (61)
+W0425 11:42:26.508816 85270528 DBThread.cpp:6772] insert record_score.record_draw_info fail, error = 2003, error msg: Can't connect to MySQL server on '58.82.239.150' (61)
+W0425 11:42:26.621759 85270528 DBThread.cpp:7405] update room server stock fail. errno: 2003, error msg: Can't connect to MySQL server on '58.82.239.150' (61)
+W0425 11:42:26.734935 85270528 DBThread.cpp:7175] insert record_score.record_hbsl_info fail, error = 2003, error msg: Can't connect to MySQL server on '58.82.239.150' (61)
+W0425 11:42:26.848151 85270528 DBThread.cpp:6772] insert record_score.record_draw_info fail, error = 2003, error msg: Can't connect to MySQL server on '58.82.239.150' (61)
+W0425 11:42:26.960350 85270528 DBThread.cpp:7405] update room server stock fail. errno: 2003, error msg: Can't connect to MySQL server on '58.82.239.150' (61)
+W0425 11:42:27.071233 85270528 DBThread.cpp:7175] insert record_score.record_hbsl_info fail, error = 2003, error msg: Can't connect to MySQL server on '58.82.239.150' (61)
+W0425 11:42:27.515671 85270528 DBThread.cpp:7355] update android status fail. errno: 2003, error msg: Can't connect to MySQL server on '58.82.239.150' (61)
+W0425 11:42:27.630360 85270528 DBThread.cpp:3505] set db score fail, add score: 57534204, user id: 85594648
+W0425 11:42:27.744040 85270528 DBThread.cpp:7355] update android status fail. errno: 2003, error msg: Can't connect to MySQL server on '58.82.239.150' (61)
+I0425 11:58:28.122985 405566912 NetServer.cpp:88] delete io...127.0.0.1:58270
+I0425 11:58:38.391224 405566912 NetServer.cpp:55] accept io...127.0.0.1:58357
+I0425 11:58:38.393041 85270528 DBThread.cpp:104] bind one connect: 127.0.0.1:58357
+I0425 12:10:52.754665 405566912 NetServer.cpp:88] delete io...127.0.0.1:58357
+I0425 12:10:57.636533 405566912 NetServer.cpp:55] accept io...127.0.0.1:58386
+I0425 12:11:31.055181 85270528 DBThread.cpp:104] bind one connect: 127.0.0.1:58386
+I0425 12:24:50.340029 405566912 NetServer.cpp:88] delete io...127.0.0.1:58386
+I0425 12:24:54.328254 405566912 NetServer.cpp:55] accept io...127.0.0.1:58410
+I0425 12:24:54.329160 85270528 DBThread.cpp:104] bind one connect: 127.0.0.1:58410
+W0425 12:30:46.094244 84733952 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+I0425 12:32:16.072232 405566912 NetServer.cpp:88] delete io...127.0.0.1:58410
+I0425 12:32:30.281863 405566912 NetServer.cpp:55] accept io...127.0.0.1:58438
+I0425 12:32:30.283567 85270528 DBThread.cpp:104] bind one connect: 127.0.0.1:58438
+I0425 12:34:45.594307 405566912 NetServer.cpp:88] delete io...127.0.0.1:58438
+I0425 12:34:49.288729 405566912 NetServer.cpp:55] accept io...127.0.0.1:58450
+I0425 12:34:49.290818 85270528 DBThread.cpp:104] bind one connect: 127.0.0.1:58450
+W0425 12:40:17.655753 85270528 DBThread.cpp:4715] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '5-1-3-381' for key 'PRIMARY'
+W0425 13:01:08.401422 85270528 DBThread.cpp:4715] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-1-1-637' for key 'PRIMARY'
+I0425 13:09:32.115465 405566912 NetServer.cpp:88] delete io...127.0.0.1:58450
+I0425 13:09:35.881690 405566912 NetServer.cpp:55] accept io...127.0.0.1:58512
+I0425 13:09:35.883042 85270528 DBThread.cpp:104] bind one connect: 127.0.0.1:58512
+I0425 13:12:48.185611 405566912 NetServer.cpp:88] delete io...127.0.0.1:58512
+I0425 13:13:00.816164 405566912 NetServer.cpp:55] accept io...127.0.0.1:58528
+I0425 13:13:00.818284 85270528 DBThread.cpp:104] bind one connect: 127.0.0.1:58528
+I0425 13:15:38.243304 405566912 NetServer.cpp:88] delete io...127.0.0.1:58528
+I0425 13:15:42.394088 405566912 NetServer.cpp:55] accept io...127.0.0.1:58540
+I0425 13:15:42.395972 85270528 DBThread.cpp:104] bind one connect: 127.0.0.1:58540
+I0425 13:19:31.542945 405566912 NetServer.cpp:88] delete io...127.0.0.1:58540
+I0425 13:19:40.485975 405566912 NetServer.cpp:88] delete io...127.0.0.1:58250
+I0425 13:19:57.852406 405566912 NetServer.cpp:55] accept io...127.0.0.1:58553
+I0425 13:19:57.852764 85270528 DBThread.cpp:104] bind one connect: 127.0.0.1:58553
+I0425 13:22:02.602757 405566912 NetServer.cpp:88] delete io...127.0.0.1:58553
+I0425 13:23:28.192800 405566912 NetServer.cpp:55] accept io...127.0.0.1:58561
+I0425 13:23:28.193356 85270528 DBThread.cpp:104] bind one connect: 127.0.0.1:58561
+I0425 13:24:52.648491 405566912 NetServer.cpp:88] delete io...127.0.0.1:58561
+I0425 13:26:56.628911 405566912 NetServer.cpp:55] accept io...127.0.0.1:58567
+I0425 13:26:56.629012 85270528 DBThread.cpp:104] bind one connect: 127.0.0.1:58567
+W0425 13:30:50.608486 84733952 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0425 13:51:56.878427 85270528 DBThread.cpp:4715] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '4-3-1-191' for key 'PRIMARY'
+I0425 13:56:03.062908 405566912 NetServer.cpp:88] delete io...127.0.0.1:58567
+I0425 13:56:31.176895 405566912 NetServer.cpp:55] accept io...127.0.0.1:58648
+I0425 13:56:31.178767 85270528 DBThread.cpp:104] bind one connect: 127.0.0.1:58648
+I0425 13:56:48.366190 405566912 NetServer.cpp:55] accept io...127.0.0.1:58656
+I0425 13:56:48.366358 85270528 DBThread.cpp:104] bind one connect: 127.0.0.1:58656
+W0425 14:00:35.573647 85270528 DBThread.cpp:7405] update room server stock fail. errno: -1, error msg: mysql not opened yet!
+W0425 14:10:02.278518 85270528 DBThread.cpp:6834] insert record_score.record_draw_score fail, error = -1, error msg: mysql not opened yet!
+W0425 14:10:02.278681 85270528 DBThread.cpp:6835] insert into record_draw_score_201904 (drawid, userid, chairid, score, revenue, fixdate, isbot, location) values (1370703,85531746,0,-1783,0,1556176179,1,'未知'),(1370703,85594486,1,185,9,1556176179,1,'未知'),(1370703,85594648,2,304,15,1556176179,1,'未知'),(1370703,85600233,3,265,13,1556176179,1,'未知'),(1370703,85519346,4,215,10,1556176179,1,'未知'),(1370703,85596385,5,290,14,1556176179,1,'未知'),(1370703,85518617,6,165,8,1556176179,1,'未知'),(1370703,85542280,7,142,7,1556176179,1,'新加坡'),(1370703,85513636,8,410,10,1556176179,1,'未知')
+W0425 14:10:26.534951 85270528 DBThread.cpp:7405] update room server stock fail. errno: -1, error msg: mysql not opened yet!
+W0425 14:10:26.535547 85270528 DBThread.cpp:7175] insert record_score.record_hbsl_info fail, error = -1, error msg: mysql not opened yet!
+W0425 14:10:51.803417 85270528 DBThread.cpp:7355] update android status fail. errno: -1, error msg: mysql not opened yet!
+W0425 14:10:51.804747 85270528 DBThread.cpp:3505] set db score fail, add score: 444241, user id: 85579788
+W0425 14:10:51.805065 85270528 DBThread.cpp:7355] update android status fail. errno: -1, error msg: mysql not opened yet!
+W0425 14:10:51.805435 85270528 DBThread.cpp:6772] insert record_score.record_draw_info fail, error = -1, error msg: mysql not opened yet!
+W0425 14:10:51.805605 85270528 DBThread.cpp:7405] update room server stock fail. errno: -1, error msg: mysql not opened yet!
+W0425 14:10:51.805812 85270528 DBThread.cpp:7175] insert record_score.record_hbsl_info fail, error = -1, error msg: mysql not opened yet!
+W0425 14:10:51.805954 85270528 DBThread.cpp:7355] update android status fail. errno: -1, error msg: mysql not opened yet!
+W0425 14:10:51.806087 85270528 DBThread.cpp:3505] set db score fail, add score: 261369, user id: 85563528
+W0425 14:10:51.806219 85270528 DBThread.cpp:7355] update android status fail. errno: -1, error msg: mysql not opened yet!
+W0425 14:10:51.806350 85270528 DBThread.cpp:3505] set db score fail, add score: 62549817, user id: 85535948
+W0425 14:10:51.806483 85270528 DBThread.cpp:7355] update android status fail. errno: -1, error msg: mysql not opened yet!
+W0425 14:11:13.410763 85270528 DBThread.cpp:5909] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0425 14:11:13.412014 85270528 DBThread.cpp:6146] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0425 14:11:13.412274 85270528 DBThread.cpp:6243] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W0425 14:11:39.095820 85270528 DBThread.cpp:2818] insert stat_machine_online fail,machine types: 2, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0425 14:11:44.117184 85270528 DBThread.cpp:2798] insert stat_game_online fail,game id: 0, statType: 0, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0425 14:12:44.123937 85270528 DBThread.cpp:2818] insert stat_machine_online fail,machine types: 1, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0425 14:30:55.134464 84733952 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0425 15:01:04.457420 85270528 DBThread.cpp:4715] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '6-1-2-587' for key 'PRIMARY'
+W0425 15:30:59.663754 84733952 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0425 15:31:10.420600 85270528 DBThread.cpp:4715] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-3-1-676' for key 'PRIMARY'
+W0425 16:10:45.611631 85270528 DBThread.cpp:4715] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '3-1-1-758' for key 'PRIMARY'
+W0425 16:31:04.215584 84733952 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0425 17:20:32.281646 85270528 DBThread.cpp:4715] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '6-1-2-588' for key 'PRIMARY'
+W0425 17:25:18.430613 85270528 DBThread.cpp:7355] update android status fail. errno: -1, error msg: mysql not opened yet!
+W0425 17:25:18.432289 85270528 DBThread.cpp:7355] update android status fail. errno: -1, error msg: mysql not opened yet!
+W0425 17:25:18.432533 85270528 DBThread.cpp:7355] update android status fail. errno: -1, error msg: mysql not opened yet!
+W0425 17:25:18.432716 85270528 DBThread.cpp:7355] update android status fail. errno: -1, error msg: mysql not opened yet!
+W0425 17:25:39.587448 85270528 DBThread.cpp:6772] insert record_score.record_draw_info fail, error = -1, error msg: mysql not opened yet!
+W0425 17:26:19.907853 85270528 DBThread.cpp:7405] update room server stock fail. errno: -1, error msg: mysql not opened yet!
+W0425 17:27:19.919464 85270528 DBThread.cpp:7175] insert record_score.record_hbsl_info fail, error = -1, error msg: mysql not opened yet!
+W0425 17:31:08.727241 84733952 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0425 18:31:13.265421 84733952 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..

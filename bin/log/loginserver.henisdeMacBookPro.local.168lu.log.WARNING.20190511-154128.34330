@@ -1,0 +1,191 @@
+Log file created at: 2019/05/11 15:41:28
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0511 15:41:28.316609 307336640 LoginServer.cpp:65] listen at: 0.0.0.0:7001
+W0511 15:41:31.884204 22036480 LoginServerThread.cpp:336] loginserver start succ.
+W0511 16:13:44.087344 22036480 LoginServerThread.cpp:5446] select expire mail fail, error no: -1, sql:select mailid from mail where userid = '85501464' and mailType = 2 and expireTime < now()
+W0511 18:08:47.627660 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0511 18:08:47.637676 22036480 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0511 18:08:57.660145 307336640 NetModule.cpp:723] ready reconnect server, server id: 0
+W0511 20:09:10.331566 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0511 20:09:10.331619 22036480 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0511 20:09:20.854403 307336640 NetModule.cpp:723] ready reconnect server, server id: 0
+W0511 20:15:05.325692 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0511 20:15:05.325763 22036480 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0511 22:15:12.705054 307336640 NetModule.cpp:723] ready reconnect server, server id: 0
+W0511 22:15:12.728598 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0512 00:15:24.612877 22036480 LoginServerThread.cpp:547] login server is across day.
+W0512 02:15:40.229408 22036480 LoginServerThread.cpp:570] delete record_register_ip error, errno: -1, error: mysql not opened yet!
+W0512 02:15:40.231323 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0512 02:15:40.231485 22036480 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0512 02:15:40.232514 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0512 04:15:50.417835 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0512 04:15:50.867413 307336640 NetModule.cpp:723] ready reconnect server, server id: 0
+W0512 06:03:00.388651 22036480 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0512 06:03:00.390295 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0512 06:03:10.423985 307336640 NetModule.cpp:723] ready reconnect server, server id: 0
+W0512 08:45:05.353953 22036480 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0512 08:45:05.358300 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0512 08:45:15.876612 307336640 NetModule.cpp:723] ready reconnect server, server id: 0
+W0512 21:30:01.290812 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0512 21:30:01.303028 22036480 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0512 21:30:11.812867 307336640 NetModule.cpp:723] ready reconnect server, server id: 0
+W0513 09:48:52.591017 22036480 LoginServerThread.cpp:547] login server is across day.
+W0513 09:48:52.665486 22036480 LoginServerThread.cpp:570] delete record_register_ip error, errno: -1, error: mysql not opened yet!
+W0513 09:48:52.665557 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0513 09:48:52.665586 22036480 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0513 09:49:03.089030 307336640 NetModule.cpp:723] ready reconnect server, server id: 0
+W0514 00:21:02.541440 22036480 LoginServerThread.cpp:547] login server is across day.
+W0514 02:21:45.787818 22036480 LoginServerThread.cpp:570] delete record_register_ip error, errno: 2003, error: Can't connect to MySQL server on '58.82.239.150' (60)
+W0514 02:21:45.789521 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0514 02:21:45.789672 22036480 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0514 02:21:45.790751 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0514 02:21:56.043684 307336640 NetModule.cpp:723] ready reconnect server, server id: 0
+W0514 04:22:07.654247 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0514 04:22:07.657943 22036480 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0514 04:22:18.162425 307336640 NetModule.cpp:723] ready reconnect server, server id: 0
+W0514 06:22:20.695348 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0514 06:22:20.714759 22036480 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0514 06:22:31.220608 307336640 NetModule.cpp:723] ready reconnect server, server id: 0
+W0514 08:22:33.684940 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0514 08:22:33.701920 22036480 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0514 08:22:44.215550 307336640 NetModule.cpp:723] ready reconnect server, server id: 0
+W0514 08:45:04.670377 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0514 08:45:04.675387 22036480 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0514 08:45:14.706135 307336640 NetModule.cpp:723] ready reconnect server, server id: 0
+W0514 10:05:51.256855 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0514 10:05:51.256888 22036480 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0514 10:06:01.769250 307336640 NetModule.cpp:723] ready reconnect server, server id: 0
+W0514 23:54:22.590596 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0514 23:54:22.606684 22036480 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0514 23:54:33.143370 307336640 NetModule.cpp:723] ready reconnect server, server id: 0
+W0515 01:54:46.120748 22036480 LoginServerThread.cpp:547] login server is across day.
+W0515 01:54:46.509363 22036480 LoginServerThread.cpp:570] delete record_register_ip error, errno: 2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0515 01:54:46.880303 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0515 01:54:46.880596 22036480 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0515 01:54:57.175786 307336640 NetModule.cpp:723] ready reconnect server, server id: 0
+W0515 03:55:24.770267 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0515 03:55:24.831215 22036480 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0515 03:55:35.299688 307336640 NetModule.cpp:723] ready reconnect server, server id: 0
+W0515 05:55:36.765774 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0515 05:55:36.767017 22036480 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0515 05:55:47.284581 307336640 NetModule.cpp:723] ready reconnect server, server id: 0
+W0515 07:55:49.691241 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0515 07:55:49.721936 22036480 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0515 07:56:00.231305 307336640 NetModule.cpp:723] ready reconnect server, server id: 0
+W0515 08:45:05.738318 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0515 08:45:05.751751 22036480 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0515 08:45:16.266247 307336640 NetModule.cpp:723] ready reconnect server, server id: 0
+W0515 09:55:18.581241 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0515 09:55:18.583425 22036480 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0515 09:55:29.121126 307336640 NetModule.cpp:723] ready reconnect server, server id: 0
+W0515 11:06:03.156888 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0515 11:06:03.156937 22036480 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0515 11:06:13.655189 307336640 NetModule.cpp:723] ready reconnect server, server id: 0
+W0516 01:11:38.606812 22036480 LoginServerThread.cpp:547] login server is across day.
+W0516 01:11:38.637073 22036480 LoginServerThread.cpp:570] delete record_register_ip error, errno: 2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0516 01:11:38.637230 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0516 01:11:38.637265 22036480 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0516 01:11:49.147346 307336640 NetModule.cpp:723] ready reconnect server, server id: 0
+W0516 03:11:51.527793 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0516 03:11:51.560247 22036480 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0516 03:12:02.049566 307336640 NetModule.cpp:723] ready reconnect server, server id: 0
+W0516 05:12:03.793299 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0516 05:12:03.795925 22036480 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0516 07:12:16.767858 307336640 NetModule.cpp:723] ready reconnect server, server id: 0
+W0516 07:12:16.793562 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0516 08:00:05.681601 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0516 08:00:05.746484 22036480 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0516 10:00:13.628095 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0516 10:00:14.104518 307336640 NetModule.cpp:723] ready reconnect server, server id: 0
+W0516 10:07:27.728133 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0516 10:07:27.728183 22036480 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0516 10:07:37.740610 307336640 NetModule.cpp:723] ready reconnect server, server id: 0
+W0516 23:28:09.619428 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0516 23:28:09.628626 22036480 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0516 23:28:20.150323 307336640 NetModule.cpp:723] ready reconnect server, server id: 0
+W0517 01:28:23.628240 22036480 LoginServerThread.cpp:547] login server is across day.
+W0517 01:28:24.264430 22036480 LoginServerThread.cpp:570] delete record_register_ip error, errno: 2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0517 01:28:24.615288 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0517 01:28:24.650116 22036480 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0517 03:28:36.924580 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0517 03:28:37.401911 307336640 NetModule.cpp:723] ready reconnect server, server id: 0
+W0517 05:28:48.836437 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0517 05:28:48.843900 22036480 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0517 07:29:01.698798 307336640 NetModule.cpp:723] ready reconnect server, server id: 0
+W0517 07:29:01.721961 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0517 08:45:05.858247 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0517 08:45:05.860842 22036480 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0517 09:29:10.632330 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0517 09:29:11.108281 307336640 NetModule.cpp:723] ready reconnect server, server id: 0
+W0517 09:59:25.647349 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0517 09:59:25.647532 22036480 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0517 09:59:36.179083 307336640 NetModule.cpp:723] ready reconnect server, server id: 0
+W0518 00:55:31.629585 22036480 LoginServerThread.cpp:547] login server is across day.
+W0518 00:55:31.665076 22036480 LoginServerThread.cpp:570] delete record_register_ip error, errno: 2003, error: Can't connect to MySQL server on '58.82.239.150' (50)
+W0518 00:55:31.665285 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0518 00:55:31.665323 22036480 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0518 00:55:42.181391 307336640 NetModule.cpp:723] ready reconnect server, server id: 0
+W0518 02:56:00.341444 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0518 02:56:00.341616 22036480 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0518 02:56:10.370024 307336640 NetModule.cpp:723] ready reconnect server, server id: 0
+W0518 04:56:10.348084 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0518 04:56:10.348124 22036480 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0518 04:56:20.875335 307336640 NetModule.cpp:723] ready reconnect server, server id: 0
+W0518 06:56:38.335754 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0518 06:56:38.335801 22036480 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0518 06:56:48.858994 307336640 NetModule.cpp:723] ready reconnect server, server id: 0
+W0518 08:56:48.416894 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0518 08:56:48.416934 22036480 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0518 08:56:58.924909 307336640 NetModule.cpp:723] ready reconnect server, server id: 0
+W0518 10:22:10.479545 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0518 10:22:10.479708 22036480 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0518 10:22:20.985091 307336640 NetModule.cpp:723] ready reconnect server, server id: 0
+W0519 00:20:44.680594 22036480 LoginServerThread.cpp:547] login server is across day.
+W0519 00:20:44.699172 22036480 LoginServerThread.cpp:570] delete record_register_ip error, errno: 2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0519 00:20:44.704138 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0519 00:20:44.704191 22036480 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0519 00:20:55.229959 307336640 NetModule.cpp:723] ready reconnect server, server id: 0
+W0519 02:21:08.154995 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0519 02:21:08.201391 22036480 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0519 02:21:18.653674 307336640 NetModule.cpp:723] ready reconnect server, server id: 0
+W0519 04:21:29.900455 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0519 04:21:29.952832 22036480 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0519 06:21:41.792224 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0519 06:21:42.268095 307336640 NetModule.cpp:723] ready reconnect server, server id: 0
+W0519 08:21:54.785385 22036480 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0519 08:21:54.798632 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0519 08:22:04.808045 307336640 NetModule.cpp:723] ready reconnect server, server id: 0
+W0519 08:45:05.853767 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0519 08:45:05.868453 22036480 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0519 10:21:36.670172 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0519 10:21:37.148795 307336640 NetModule.cpp:723] ready reconnect server, server id: 0
+W0519 23:45:01.723563 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0519 23:45:01.723665 22036480 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0520 10:13:13.554021 22036480 LoginServerThread.cpp:547] login server is across day.
+W0520 10:13:13.807462 22036480 LoginServerThread.cpp:570] delete record_register_ip error, errno: 2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0520 10:13:14.054947 307336640 NetModule.cpp:723] ready reconnect server, server id: 0
+W0520 22:08:14.133111 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0520 22:08:14.136803 22036480 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0520 22:08:24.663652 307336640 NetModule.cpp:723] ready reconnect server, server id: 0
+W0520 23:00:05.164234 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0520 23:00:05.164301 22036480 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0521 01:00:12.687652 22036480 LoginServerThread.cpp:547] login server is across day.
+W0521 01:00:13.171077 307336640 NetModule.cpp:723] ready reconnect server, server id: 0
+W0521 01:00:13.430024 22036480 LoginServerThread.cpp:570] delete record_register_ip error, errno: 2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0521 01:00:13.431877 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0521 03:00:26.539901 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0521 03:00:26.543437 22036480 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0521 03:00:36.962915 307336640 NetModule.cpp:723] ready reconnect server, server id: 0
+W0521 05:00:40.280249 22036480 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0521 05:00:40.286860 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0521 05:00:50.836131 307336640 NetModule.cpp:723] ready reconnect server, server id: 0
+W0521 07:00:54.323937 22036480 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0521 07:00:54.336836 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0521 08:09:18.276257 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0521 08:09:18.756516 307336640 NetModule.cpp:723] ready reconnect server, server id: 0
+W0521 08:30:05.309514 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0521 08:30:05.394908 22036480 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0521 10:06:24.230664 307336640 NetModule.cpp:723] ready reconnect server, server id: 0
+W0521 10:57:22.500741 22036480 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0521 10:57:25.298787 22036480 ServerMgr.cpp:88] remove one proxy server, id: 30

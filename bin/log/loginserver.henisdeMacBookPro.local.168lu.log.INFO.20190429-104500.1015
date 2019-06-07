@@ -1,0 +1,28 @@
+Log file created at: 2019/04/29 10:45:00
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0429 10:45:00.154978 222610880 LoginServer.cpp:45] 正在启动登录服务器...
+I0429 10:45:00.160814 222610880 NetModule.h:71] Init NetModule Finished.
+I0429 10:45:00.162791 222610880 NetModule.h:78] start work thread 0...
+I0429 10:45:00.162817 222610880 NetModule.cpp:69] Start Run NetModule...
+I0429 10:45:00.162845 222610880 NetModule.cpp:88] NetModule Already Startover.
+W0429 10:45:00.163285 222610880 LoginServer.cpp:65] listen at: 0.0.0.0:7001
+I0429 10:45:00.163614 222610880 NetModule.cpp:136] Create one server...
+I0429 10:45:00.163731 222610880 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I0429 10:45:00.663451 222610880 NetServer.cpp:55] accept io...127.0.0.1:50103
+I0429 10:45:00.664000 2703360 LoginServerThread.cpp:198] bind one connect: 127.0.0.1:50103
+I0429 10:45:00.685883 2703360 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:50103
+I0429 10:45:01.933569 2703360 LoginServerThread.cpp:7873] load game kind succ!
+I0429 10:45:02.060343 2703360 LoginServerThread.cpp:7984] load game room kind succ!
+I0429 10:45:02.683866 2703360 LoginServerThread.cpp:8366] load system status succ!
+I0429 10:45:02.808653 2703360 LoginServerThread.cpp:8053] load vip config succ!
+I0429 10:45:02.933588 2703360 LoginServerThread.cpp:8085] load vip2 config succ!
+I0429 10:45:03.061143 2703360 LoginServerThread.cpp:8391] load channel show exchange succ!
+I0429 10:45:03.187180 2703360 LoginServerThread.cpp:8421] load exchange info succ!
+I0429 10:45:03.314844 2703360 LoginServerThread.cpp:8448] load channel prsent score succ!
+I0429 10:45:03.440574 2703360 LoginServerThread.cpp:8472] load channel register mail succ!
+I0429 10:45:03.564419 2703360 LoginServerThread.cpp:8113] load benefit config succ!
+I0429 10:45:03.690250 2703360 LoginServerThread.cpp:8180] load game version succ!
+W0429 10:45:04.064697 2703360 LoginServerThread.cpp:336] loginserver start succ.
+W0429 19:01:24.020534 2703360 LoginServerThread.cpp:5414] select expire mail fail, error no: -1, sql:select mailid from mail where userid = '85505112' and mailType = 2 and expireTime < now()
+W0430 00:00:40.098742 2703360 LoginServerThread.cpp:547] login server is across day.

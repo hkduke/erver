@@ -1,0 +1,25 @@
+Log file created at: 2018/12/22 14:45:55
+Running on machine: henisdeMacBook-Pro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1222 14:45:55.748420 177530304 GameServer.cpp:45] 正在启动游戏服务器...
+I1222 14:45:55.750450 177530304 NetModule.h:71] Init NetModule Finished.
+I1222 14:45:55.750669 177530304 NetModule.h:77] start work thread 0...
+I1222 14:45:55.750679 177530304 NetModule.cpp:64] Start Run NetModule...
+I1222 14:45:55.750697 177530304 NetModule.cpp:76] NetModule Already Startover.
+I1222 14:45:55.750708 177530304 NetModule.cpp:200] add one connector: 0.0.0.0:5001 succeed...
+I1222 14:45:55.750715 177530304 NetModule.cpp:200] add one connector: 0.0.0.0:6001 succeed...
+I1222 14:45:55.750720 177530304 NetModule.cpp:118] Create one server...
+I1222 14:45:56.252017 177530304 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1222 14:45:56.252077 177530304 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1222 14:45:56.252079 22683648 GameServerThread.cpp:113] connect to db server succ!
+I1222 14:46:08.433862 22683648 AndroidUserMgr.cpp:693] set active android count: 0
+I1222 14:46:08.433912 22683648 AndroidUserMgr.cpp:693] set active android count: 0
+I1222 14:46:08.849453 177530304 NetServer.cpp:55] accept io...127.0.0.1:53406
+I1222 14:46:08.897764 22683648 GameServerThread.cpp:1884] load benefit config succ!
+W1222 14:47:08.903911 22683648 GameServerThread.cpp:1765] get account db handle fail.
+W1222 14:47:09.022047 22683648 GameTableManager.cpp:561] update br game server black list, server id: 100
+I1222 14:47:09.022101 22683648 GameServerThread.cpp:1458] init server succ!
+I1222 14:47:09.022112 22683648 GameServerThread.cpp:146] bind one connect: 127.0.0.1:53406
+I1222 14:47:09.022125 22683648 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:53406
+W1222 14:51:22.227443 22683648 GameServerThread.cpp:853] User ready enter room. user id: 85098063
+W1222 14:53:59.599498 22683648 TableFrameForScore.cpp:1637] game process message fail? subid: 2

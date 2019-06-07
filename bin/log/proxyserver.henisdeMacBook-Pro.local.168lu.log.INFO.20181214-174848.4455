@@ -1,0 +1,193 @@
+Log file created at: 2018/12/14 17:48:48
+Running on machine: henisdeMacBook-Pro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1214 17:48:48.164382 433800640 ProxyServer.cpp:45] 正在启动代理服务器...
+I1214 17:48:48.166963 433800640 NetModule.h:71] Init NetModule Finished.
+I1214 17:48:48.167045 433800640 NetModule.h:77] start work thread 0...
+I1214 17:48:48.167057 433800640 NetModule.cpp:64] Start Run NetModule...
+I1214 17:48:48.167080 433800640 NetModule.cpp:76] NetModule Already Startover.
+I1214 17:48:48.167651 433800640 NetModule.cpp:118] Create one server...
+I1214 17:48:48.167770 433800640 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1214 17:48:48.167789 433800640 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1214 17:48:48.177846 140791808 ProxyThread.cpp:66] connect to center server succ.
+I1214 17:48:48.177875 140791808 ProxyThread.cpp:92] connect to db server succ
+I1214 17:48:48.218766 140791808 ProxyThread.cpp:538] get game server list finish!
+I1214 17:48:48.218809 140791808 ProxyThread.cpp:509] get login server list finish!
+I1214 17:48:48.218822 140791808 ProxyThread.cpp:567] get customer server list finish!
+I1214 17:48:51.277900 140791808 NetModule.cpp:200] add one connector: 0.0.0.0:7003 succeed...
+W1214 17:48:51.277947 140791808 ServerMgr.cpp:78] add login server, login server id:10
+I1214 17:48:51.672757 433800640 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I1214 17:48:51.675001 140791808 ProxyThread.cpp:76] connect to login server succ, server id:10
+I1214 17:48:54.763531 140791808 NetModule.cpp:200] add one connector: 127.0.0.1:11001 succeed...
+W1214 17:48:54.763583 140791808 ServerMgr.cpp:40] add game server, game server id:1101
+I1214 17:48:55.190333 433800640 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I1214 17:48:55.192389 140791808 ProxyThread.cpp:86] connect to game server succ, server id:1101
+I1214 17:48:56.841931 433800640 NetServer.cpp:55] accept io...192.168.10.106:50992
+W1214 17:50:29.282135 140791808 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W1214 17:50:29.302448 140791808 ServerMgr.cpp:163] remove one login server, login server id:10
+W1214 17:50:32.372725 140791808 ServerMgr.cpp:333] disconnect login or game server is remove or register again, no server reconnect...
+I1214 17:50:45.535120 140791808 NetModule.cpp:200] add one connector: 0.0.0.0:7003 succeed...
+W1214 17:50:45.535156 140791808 ServerMgr.cpp:78] add login server, login server id:10
+I1214 17:50:46.031692 433800640 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I1214 17:50:46.033862 140791808 ProxyThread.cpp:76] connect to login server succ, server id:10
+W1214 17:52:45.492117 140791808 ServerMgr.cpp:159] remove login server, but the link is alive, login server id:10
+W1214 17:52:45.492287 140791808 ServerMgr.cpp:163] remove one login server, login server id:10
+W1214 17:53:11.599112 140791808 ProxyThread.cpp:2024] can not find one valid login server
+I1214 17:53:11.618822 433800640 NetServer.cpp:88] delete io...192.168.10.106:50992
+I1214 17:53:11.908491 433800640 NetServer.cpp:55] accept io...192.168.10.106:50993
+W1214 17:53:12.832540 140791808 ProxyThread.cpp:2024] can not find one valid login server
+I1214 17:53:12.836746 433800640 NetServer.cpp:88] delete io...192.168.10.106:50993
+I1214 17:53:13.058029 433800640 NetServer.cpp:55] accept io...192.168.10.106:50994
+W1214 17:53:13.443480 140791808 ProxyThread.cpp:2024] can not find one valid login server
+I1214 17:53:13.453778 433800640 NetServer.cpp:88] delete io...192.168.10.106:50994
+I1214 17:53:19.075150 433800640 NetServer.cpp:55] accept io...192.168.10.106:50995
+W1214 17:53:19.611340 140791808 ProxyThread.cpp:2024] can not find one valid login server
+I1214 17:53:19.632563 433800640 NetServer.cpp:88] delete io...192.168.10.106:50995
+I1214 17:53:19.929599 433800640 NetServer.cpp:55] accept io...192.168.10.106:50996
+W1214 17:53:20.310684 140791808 ProxyThread.cpp:2024] can not find one valid login server
+I1214 17:53:20.332810 433800640 NetServer.cpp:88] delete io...192.168.10.106:50996
+I1214 17:53:20.539322 433800640 NetServer.cpp:55] accept io...192.168.10.106:50997
+W1214 17:53:20.842555 140791808 ProxyThread.cpp:2024] can not find one valid login server
+I1214 17:53:20.856274 433800640 NetServer.cpp:88] delete io...192.168.10.106:50997
+I1214 17:53:21.844147 433800640 NetServer.cpp:55] accept io...192.168.10.106:50998
+W1214 17:53:22.248577 140791808 ProxyThread.cpp:2024] can not find one valid login server
+I1214 17:53:22.260221 433800640 NetServer.cpp:88] delete io...192.168.10.106:50998
+I1214 17:53:22.492290 433800640 NetServer.cpp:55] accept io...192.168.10.106:50999
+W1214 17:53:22.868471 140791808 ProxyThread.cpp:2024] can not find one valid login server
+I1214 17:53:22.885720 433800640 NetServer.cpp:88] delete io...192.168.10.106:50999
+I1214 17:53:23.094038 433800640 NetServer.cpp:55] accept io...192.168.10.106:51000
+W1214 17:53:23.399794 140791808 ProxyThread.cpp:2024] can not find one valid login server
+I1214 17:53:23.409199 433800640 NetServer.cpp:88] delete io...192.168.10.106:51000
+I1214 17:53:25.830173 140791808 NetModule.cpp:200] add one connector: 0.0.0.0:7003 succeed...
+W1214 17:53:25.830209 140791808 ServerMgr.cpp:78] add login server, login server id:10
+I1214 17:53:25.980141 433800640 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I1214 17:53:25.980330 140791808 ProxyThread.cpp:76] connect to login server succ, server id:10
+I1214 17:53:54.404561 433800640 NetServer.cpp:55] accept io...192.168.10.106:51001
+W1214 17:55:05.520386 140791808 ServerMgr.cpp:159] remove login server, but the link is alive, login server id:10
+W1214 17:55:05.521275 140791808 ServerMgr.cpp:163] remove one login server, login server id:10
+I1214 17:55:17.568339 140791808 NetModule.cpp:200] add one connector: 0.0.0.0:7003 succeed...
+W1214 17:55:17.568387 140791808 ServerMgr.cpp:78] add login server, login server id:10
+I1214 17:55:17.819660 433800640 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I1214 17:55:17.821945 140791808 ProxyThread.cpp:76] connect to login server succ, server id:10
+W1214 17:58:25.521651 140791808 ServerMgr.cpp:159] remove login server, but the link is alive, login server id:10
+W1214 17:58:25.521785 140791808 ServerMgr.cpp:163] remove one login server, login server id:10
+W1214 17:59:14.133102 140791808 ProxyThread.cpp:2024] can not find one valid login server
+I1214 17:59:14.140233 433800640 NetServer.cpp:88] delete io...192.168.10.106:51001
+I1214 17:59:14.281565 433800640 NetServer.cpp:55] accept io...192.168.10.106:51003
+W1214 17:59:14.715658 140791808 ProxyThread.cpp:2024] can not find one valid login server
+I1214 17:59:14.718895 433800640 NetServer.cpp:88] delete io...192.168.10.106:51003
+I1214 17:59:14.968386 433800640 NetServer.cpp:55] accept io...192.168.10.106:51004
+W1214 17:59:15.332255 140791808 ProxyThread.cpp:2024] can not find one valid login server
+I1214 17:59:15.334441 433800640 NetServer.cpp:88] delete io...192.168.10.106:51004
+I1214 17:59:23.222052 433800640 NetServer.cpp:55] accept io...192.168.10.106:51005
+W1214 17:59:23.624351 140791808 ProxyThread.cpp:2024] can not find one valid login server
+I1214 17:59:23.625300 433800640 NetServer.cpp:88] delete io...192.168.10.106:51005
+I1214 17:59:23.763062 433800640 NetServer.cpp:55] accept io...192.168.10.106:51006
+W1214 17:59:24.139451 140791808 ProxyThread.cpp:2024] can not find one valid login server
+I1214 17:59:24.163242 433800640 NetServer.cpp:88] delete io...192.168.10.106:51006
+I1214 17:59:24.554242 433800640 NetServer.cpp:55] accept io...192.168.10.106:51007
+W1214 17:59:24.963747 140791808 ProxyThread.cpp:2024] can not find one valid login server
+I1214 17:59:24.968137 433800640 NetServer.cpp:88] delete io...192.168.10.106:51007
+I1214 17:59:27.005586 433800640 NetServer.cpp:55] accept io...192.168.10.106:51008
+W1214 17:59:27.312985 140791808 ProxyThread.cpp:2024] can not find one valid login server
+I1214 17:59:27.321005 433800640 NetServer.cpp:88] delete io...192.168.10.106:51008
+I1214 17:59:27.461318 433800640 NetServer.cpp:55] accept io...192.168.10.106:51009
+W1214 17:59:27.821929 140791808 ProxyThread.cpp:2024] can not find one valid login server
+I1214 17:59:27.831342 433800640 NetServer.cpp:88] delete io...192.168.10.106:51009
+I1214 17:59:27.966444 433800640 NetServer.cpp:55] accept io...192.168.10.106:51010
+W1214 17:59:28.294265 140791808 ProxyThread.cpp:2024] can not find one valid login server
+I1214 17:59:28.296298 433800640 NetServer.cpp:88] delete io...192.168.10.106:51010
+I1214 17:59:31.241006 140791808 NetModule.cpp:200] add one connector: 0.0.0.0:7003 succeed...
+W1214 17:59:31.241056 140791808 ServerMgr.cpp:78] add login server, login server id:10
+I1214 17:59:31.446728 433800640 NetServer.cpp:55] accept io...192.168.10.106:51011
+I1214 17:59:31.558295 433800640 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I1214 17:59:31.559654 140791808 ProxyThread.cpp:76] connect to login server succ, server id:10
+W1214 18:00:27.769524 140791808 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W1214 18:00:31.242327 433800640 NetModule.cpp:703] ready reconnect server, server id: 10
+I1214 18:00:31.242537 433800640 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I1214 18:00:31.244604 140791808 ProxyThread.cpp:76] connect to login server succ, server id:10
+W1214 18:01:25.557482 140791808 ServerMgr.cpp:159] remove login server, but the link is alive, login server id:10
+W1214 18:01:25.557616 140791808 ServerMgr.cpp:163] remove one login server, login server id:10
+I1214 18:21:09.116124 433800640 NetServer.cpp:88] delete io...192.168.10.106:51011
+I1214 18:52:44.770761 433800640 NetServer.cpp:55] accept io...192.168.10.106:51016
+W1214 18:52:48.659065 140791808 ProxyThread.cpp:2024] can not find one valid login server
+I1214 18:52:48.664826 433800640 NetServer.cpp:88] delete io...192.168.10.106:51016
+I1214 18:52:48.810246 433800640 NetServer.cpp:55] accept io...192.168.10.106:51017
+W1214 18:52:49.133963 140791808 ProxyThread.cpp:2024] can not find one valid login server
+I1214 18:52:49.134742 433800640 NetServer.cpp:88] delete io...192.168.10.106:51017
+I1214 18:52:49.295883 433800640 NetServer.cpp:55] accept io...192.168.10.106:51018
+W1214 18:52:49.687846 140791808 ProxyThread.cpp:2024] can not find one valid login server
+I1214 18:52:49.703248 433800640 NetServer.cpp:88] delete io...192.168.10.106:51018
+I1214 18:52:49.861646 433800640 NetServer.cpp:55] accept io...192.168.10.106:51019
+W1214 18:52:50.300463 140791808 ProxyThread.cpp:2024] can not find one valid login server
+I1214 18:52:50.305567 433800640 NetServer.cpp:88] delete io...192.168.10.106:51019
+I1214 18:53:00.236160 433800640 NetServer.cpp:55] accept io...192.168.10.106:51020
+W1214 18:53:00.643970 140791808 ProxyThread.cpp:2024] can not find one valid login server
+I1214 18:53:00.664201 433800640 NetServer.cpp:88] delete io...192.168.10.106:51020
+I1214 18:53:00.877792 433800640 NetServer.cpp:55] accept io...192.168.10.106:51021
+W1214 18:53:01.258112 140791808 ProxyThread.cpp:2024] can not find one valid login server
+I1214 18:53:01.278568 433800640 NetServer.cpp:88] delete io...192.168.10.106:51021
+I1214 18:53:01.413107 433800640 NetServer.cpp:55] accept io...192.168.10.106:51022
+W1214 18:53:01.769891 140791808 ProxyThread.cpp:2024] can not find one valid login server
+I1214 18:53:01.787972 433800640 NetServer.cpp:88] delete io...192.168.10.106:51022
+I1214 18:53:03.510133 433800640 NetServer.cpp:55] accept io...192.168.10.106:51023
+W1214 18:53:03.923810 140791808 ProxyThread.cpp:2024] can not find one valid login server
+I1214 18:53:03.930531 433800640 NetServer.cpp:88] delete io...192.168.10.106:51023
+I1214 18:53:04.168411 433800640 NetServer.cpp:55] accept io...192.168.10.106:51024
+W1214 18:53:04.535185 140791808 ProxyThread.cpp:2024] can not find one valid login server
+I1214 18:53:04.535284 433800640 NetServer.cpp:88] delete io...192.168.10.106:51024
+I1214 18:53:04.678164 433800640 NetServer.cpp:55] accept io...192.168.10.106:51025
+W1214 18:53:05.043458 140791808 ProxyThread.cpp:2024] can not find one valid login server
+I1214 18:53:05.059551 433800640 NetServer.cpp:88] delete io...192.168.10.106:51025
+I1214 18:53:06.278216 433800640 NetServer.cpp:55] accept io...192.168.10.106:51026
+W1214 18:53:06.685828 140791808 ProxyThread.cpp:2024] can not find one valid login server
+I1214 18:53:06.688535 433800640 NetServer.cpp:88] delete io...192.168.10.106:51026
+I1214 18:53:06.916009 433800640 NetServer.cpp:55] accept io...192.168.10.106:51027
+W1214 18:53:07.300770 140791808 ProxyThread.cpp:2024] can not find one valid login server
+I1214 18:53:07.308563 433800640 NetServer.cpp:88] delete io...192.168.10.106:51027
+I1214 18:53:07.529203 433800640 NetServer.cpp:55] accept io...192.168.10.106:51028
+W1214 18:53:07.914434 140791808 ProxyThread.cpp:2024] can not find one valid login server
+I1214 18:53:07.917085 433800640 NetServer.cpp:88] delete io...192.168.10.106:51028
+I1214 18:53:08.401268 140791808 NetModule.cpp:200] add one connector: 0.0.0.0:7003 succeed...
+W1214 18:53:08.401317 140791808 ServerMgr.cpp:78] add login server, login server id:10
+I1214 18:53:08.530242 433800640 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I1214 18:53:08.532299 140791808 ProxyThread.cpp:76] connect to login server succ, server id:10
+I1214 18:53:09.449445 433800640 NetServer.cpp:55] accept io...192.168.10.106:51029
+I1214 18:53:12.829303 433800640 NetServer.cpp:88] delete io...192.168.10.106:51029
+I1214 18:53:16.413285 433800640 NetServer.cpp:55] accept io...192.168.10.106:51030
+W1214 18:54:16.118489 140791808 ServerMgr.cpp:159] remove login server, but the link is alive, login server id:10
+W1214 18:54:16.118620 140791808 ServerMgr.cpp:163] remove one login server, login server id:10
+W1214 19:05:00.253942 140791808 ProxyThread.cpp:2024] can not find one valid login server
+I1214 19:05:00.254257 433800640 NetServer.cpp:88] delete io...192.168.10.106:51030
+I1214 19:05:00.388363 433800640 NetServer.cpp:55] accept io...192.168.10.106:51032
+W1214 19:05:00.779152 140791808 ProxyThread.cpp:2024] can not find one valid login server
+I1214 19:05:00.795519 433800640 NetServer.cpp:88] delete io...192.168.10.106:51032
+I1214 19:05:00.942775 433800640 NetServer.cpp:55] accept io...192.168.10.106:51033
+W1214 19:05:01.288257 140791808 ProxyThread.cpp:2024] can not find one valid login server
+I1214 19:05:01.293321 433800640 NetServer.cpp:88] delete io...192.168.10.106:51033
+I1214 19:05:01.453366 433800640 NetServer.cpp:55] accept io...192.168.10.106:51034
+W1214 19:05:01.776425 140791808 ProxyThread.cpp:2024] can not find one valid login server
+I1214 19:05:01.785730 433800640 NetServer.cpp:88] delete io...192.168.10.106:51034
+I1214 20:37:28.444391 433800640 NetServer.cpp:55] accept io...192.168.10.106:51042
+W1214 20:37:29.918819 140791808 ProxyThread.cpp:2024] can not find one valid login server
+I1214 20:37:29.921293 433800640 NetServer.cpp:88] delete io...192.168.10.106:51042
+I1214 20:37:30.058392 433800640 NetServer.cpp:55] accept io...192.168.10.106:51043
+I1214 20:37:30.410200 140791808 NetModule.cpp:200] add one connector: 0.0.0.0:7003 succeed...
+W1214 20:37:30.410354 140791808 ServerMgr.cpp:78] add login server, login server id:10
+W1214 20:37:30.410508 140791808 ProxyThread.cpp:2024] can not find one valid login server
+I1214 20:37:30.417075 433800640 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I1214 20:37:30.417419 140791808 ProxyThread.cpp:76] connect to login server succ, server id:10
+I1214 20:37:30.420125 433800640 NetServer.cpp:88] delete io...192.168.10.106:51043
+I1214 20:37:30.617825 433800640 NetServer.cpp:55] accept io...192.168.10.106:51044
+I1214 20:38:22.740079 433800640 NetServer.cpp:88] delete io...192.168.10.106:51044
+I1214 20:38:26.434245 433800640 NetServer.cpp:55] accept io...192.168.10.106:51045
+I1214 20:43:46.507905 433800640 NetServer.cpp:88] delete io...192.168.10.106:51045
+I1214 20:43:50.306932 433800640 NetServer.cpp:55] accept io...192.168.10.106:51047
+I1214 20:44:46.211305 433800640 NetServer.cpp:88] delete io...192.168.10.106:51047
+I1214 20:44:49.895037 433800640 NetServer.cpp:55] accept io...192.168.10.106:51048
+I1214 20:45:37.609302 433800640 NetServer.cpp:88] delete io...192.168.10.106:51048
+I1214 20:45:42.422703 433800640 NetServer.cpp:55] accept io...192.168.10.106:51049
+I1214 20:45:57.381379 433800640 NetServer.cpp:88] delete io...192.168.10.106:51049
+I1214 20:46:03.320044 433800640 NetServer.cpp:55] accept io...192.168.10.106:51050
+I1214 20:46:15.294754 433800640 NetServer.cpp:88] delete io...192.168.10.106:51050
+W1214 21:06:20.270179 140791808 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10

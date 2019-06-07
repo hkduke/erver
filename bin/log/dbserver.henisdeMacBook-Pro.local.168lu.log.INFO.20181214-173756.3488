@@ -1,0 +1,18 @@
+Log file created at: 2018/12/14 17:37:56
+Running on machine: henisdeMacBook-Pro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1214 17:37:56.231271 345994688 DBBufferServer.cpp:55] 正在启动DB服务器...
+I1214 17:37:56.232671 345994688 DBBufferServer.cpp:31] start build db thread...
+W1214 17:37:56.232743 158162944 BuildDBThread.cpp:295] CBuildDBThread run, begin build database ..
+I1214 17:37:56.234089 345994688 NetModule.h:71] Init NetModule Finished.
+I1214 17:37:56.234323 345994688 NetModule.h:77] start work thread 0...
+I1214 17:37:56.234350 345994688 NetModule.cpp:64] Start Run NetModule...
+I1214 17:37:56.234371 345994688 NetModule.cpp:76] NetModule Already Startover.
+I1214 17:37:56.234380 345994688 NetModule.cpp:118] Create one server...
+I1214 17:38:04.496775 345994688 NetServer.cpp:55] accept io...127.0.0.1:51230
+I1214 17:38:04.498023 158699520 DBThread.cpp:100] bind one connect: 127.0.0.1:51230
+W1214 17:38:04.499644 158699520 DBThread.cpp:5153] select score mode fail, error: 1146
+W1214 17:38:04.499725 158699520 DBThread.cpp:205] main db server set time ok!
+I1214 17:38:04.499754 158699520 DBThread.cpp:230] init db server succ!
+W1214 17:38:04.507210 158699520 DBThread.cpp:3951] select task fail. errno: 1146, err msg: Table 'platform.taskConfig' doesn't exist
+I1214 17:38:26.695691 345994688 NetServer.cpp:55] accept io...127.0.0.1:51235

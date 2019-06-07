@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 场景切换时间	-->
+<GameConfig broadcast_msg="true"  scene_switch_time="600" >
+	<FishMultipleContorl multiple = "70,15,10,5" />
+	<BirdConfig>
+		<Bird name="小黄鱼" kind="0" size="15,48" 			mulriple_min="2" 		mulriple_max="2" 		mulriple_extend = "" 					speed="7" 	capture_probability="0.4" 	distribute_interval_min="50" 	distribute_interval_max="80" 	distribute_count_min="1" 	distribute_count_max="3" 	over_zero_double_prob="0"  	under_zero_double_prob="0" 	path_type="0" />		
+		<Bird name="小绿鱼" kind="1" size="18,40" 			mulriple_min="2" 		mulriple_max="2" 		mulriple_extend = "" 					speed="7" 	capture_probability="0.4" 	distribute_interval_min="50" 	distribute_interval_max="80" 	distribute_count_min="1" 	distribute_count_max="3" 	over_zero_double_prob="0"  	under_zero_double_prob="0" 	path_type="0" />        
+		<Bird name="热带鱼" kind="2" size="36,58" 			mulriple_min="2" 		mulriple_max="2" 		mulriple_extend = "" 					speed="7" 	capture_probability="0.4" 	distribute_interval_min="50" 	distribute_interval_max="80" 	distribute_count_min="1" 	distribute_count_max="3" 	over_zero_double_prob="0"  	under_zero_double_prob="0" 	path_type="0" />     
+		<Bird name="大眼鱼" kind="3" size="42,72" 			mulriple_min="3" 		mulriple_max="3" 		mulriple_extend = "" 					speed="6" 	capture_probability="0.2667" 	distribute_interval_min="50" 	distribute_interval_max="80" 	distribute_count_min="1" 	distribute_count_max="3" 	over_zero_double_prob="0"  	under_zero_double_prob="0" 	path_type="0" />       
+		<Bird name="彩虹鱼" kind="4" size="33,93" 			mulriple_min="3" 		mulriple_max="3" 		mulriple_extend = "" 					speed="6" 	capture_probability="0.2667" 	distribute_interval_min="50" 	distribute_interval_max="80"	distribute_count_min="3" 	distribute_count_max="3" 	over_zero_double_prob="0"  	under_zero_double_prob="0" 	path_type="0" />      
+		<Bird name="小丑鱼" kind="5" size="54,78" 			mulriple_min="3" 		mulriple_max="3" 		mulriple_extend = "" 					speed="6" 	capture_probability="0.2667" 	distribute_interval_min="50" 	distribute_interval_max="80" 	distribute_count_min="1" 	distribute_count_max="3" 	over_zero_double_prob="0"  	under_zero_double_prob="0" 	path_type="0" />         
+		<Bird name="河豚鱼" kind="6" size="37,86" 			mulriple_min="4" 		mulriple_max="4" 		mulriple_extend = "" 					speed="6" 	capture_probability="0.2" 	distribute_interval_min="50" 	distribute_interval_max="80" 	distribute_count_min="1" 	distribute_count_max="3" 	over_zero_double_prob="0"  	under_zero_double_prob="0" 	path_type="0" />         
+		<Bird name="蓝条鱼" kind="7" size="52,97" 			mulriple_min="5" 		mulriple_max="5" 		mulriple_extend = "" 					speed="6" 	capture_probability="0.16" 	distribute_interval_min="50" 	distribute_interval_max="80" 	distribute_count_min="1" 	distribute_count_max="3" 	over_zero_double_prob="0"  	under_zero_double_prob="0" 	path_type="0" />         
+		<Bird name="蓝灯笼鱼" kind="8" size="56,112" 		mulriple_min="6" 		mulriple_max="6" 		mulriple_extend = "" 					speed="5" 	capture_probability="0.1333" 	distribute_interval_min="40" 	distribute_interval_max="45" 	distribute_count_min="1" 	distribute_count_max="3" 	over_zero_double_prob="0"  	under_zero_double_prob="0" 	path_type="1" />         
+		<Bird name="红灯笼鱼" kind="9" size="52,120" 		mulriple_min="8" 		mulriple_max="8" 		mulriple_extend = "" 					speed="5" 	capture_probability="0.1" 	distribute_interval_min="40" 	distribute_interval_max="45" 	distribute_count_min="1" 	distribute_count_max="3" 	over_zero_double_prob="0"  	under_zero_double_prob="0" 	path_type="1" />         
+		<Bird name="神仙鱼" kind="10" size="71,101" 		mulriple_min="10" 		mulriple_max="10" 		mulriple_extend = "" 					speed="5" 	capture_probability="0.08" 	distribute_interval_min="40" 	distribute_interval_max="45" 	distribute_count_min="1" 	distribute_count_max="3" 	over_zero_double_prob="0"  	under_zero_double_prob="0" 	path_type="1" />       
+		<Bird name="海龟" kind="11" size="48,112" 			mulriple_min="12" 		mulriple_max="12" 		mulriple_extend = "" 					speed="5" 	capture_probability="0.0667" 	distribute_interval_min="6" 	distribute_interval_max="10" 	distribute_count_min="1" 	distribute_count_max="2" 	over_zero_double_prob="0"  	under_zero_double_prob="0" 	path_type="1" />         
+		<Bird name="蝴蝶鱼" kind="12" size="112,105" 		mulriple_min="15" 		mulriple_max="15" 		mulriple_extend = "" 					speed="5" 	capture_probability="0.0533" 	distribute_interval_min="8" 	distribute_interval_max="14" 	distribute_count_min="1" 	distribute_count_max="2" 	over_zero_double_prob="0"  	under_zero_double_prob="0" 	path_type="1" />      
+		<Bird name="长尾鱼" kind="13" size="45,157" 		mulriple_min="18" 		mulriple_max="18" 		mulriple_extend = "" 					speed="5" 	capture_probability="0.0444" 	distribute_interval_min="10" 	distribute_interval_max="16" 	distribute_count_min="1" 	distribute_count_max="2" 	over_zero_double_prob="0"  	under_zero_double_prob="0" 	path_type="1" />      
+		<Bird name="剑鱼" kind="14" size="69,209" 			mulriple_min="20" 		mulriple_max="20" 		mulriple_extend = "" 					speed="5" 	capture_probability="0.04" 	distribute_interval_min="10" 	distribute_interval_max="16" 	distribute_count_min="1" 	distribute_count_max="2" 	over_zero_double_prob="0"  	under_zero_double_prob="0" 	path_type="1" />     
+		<Bird name="魔鬼鱼" kind="15" size="187,165" 		mulriple_min="25" 		mulriple_max="25" 		mulriple_extend = "" 					speed="4" 	capture_probability="0.03" 	distribute_interval_min="12" 	distribute_interval_max="20" 	distribute_count_min="1" 	distribute_count_max="2" 	over_zero_double_prob="0"  	under_zero_double_prob="0" 	path_type="2" />     
+		<Bird name="金鲨鱼" kind="16" size="112,270" 		mulriple_min="30" 		mulriple_max="30" 		mulriple_extend = "" 					speed="4" 	capture_probability="0.025" 	distribute_interval_min="14" 	distribute_interval_max="18" 	distribute_count_min="1" 	distribute_count_max="2" 	over_zero_double_prob="0"  	under_zero_double_prob="0" 	path_type="2" />     
+		<Bird name="双头鲸" kind="17" size="112,270" 		mulriple_min="40" 		mulriple_max="40" 		mulriple_extend = "" 					speed="4" 	capture_probability="0.0187" 	distribute_interval_min="14" 	distribute_interval_max="20" 	distribute_count_min="1" 	distribute_count_max="1" 	over_zero_double_prob="0"  	under_zero_double_prob="0" 	path_type="2" />     
+		<Bird name="定海神针" kind="18" size="131,367" 		mulriple_min="50" 		mulriple_max="50" 		mulriple_extend = "" 					speed="3" 	capture_probability="0.015" 	distribute_interval_min="30" 	distribute_interval_max="45" 	distribute_count_min="1" 	distribute_count_max="1" 	over_zero_double_prob="0"  	under_zero_double_prob="0" 	path_type="2" />   
+		<Bird name="金蟾" kind="19" size="157,315" 			mulriple_min="50" 		mulriple_max="75" 		mulriple_extend = "60,65,70,75" 		speed="2" 	capture_probability="0.0112" 	distribute_interval_min="30" 	distribute_interval_max="45" 	distribute_count_min="1" 	distribute_count_max="1" 	over_zero_double_prob="0"  	under_zero_double_prob="0" 	path_type="2" />       
+		<Bird name="不知名蝙蝠鱼" kind="20" size="225,217" mulriple_min="60" 		mulriple_max="90" 		mulriple_extend = "70,80,85,90" 		speed="3" 	capture_probability="0.0093" 	distribute_interval_min="25" 	distribute_interval_max="40" 	distribute_count_min="1" 	distribute_count_max="1" 	over_zero_double_prob="0"  	under_zero_double_prob="0" 	path_type="2" /> 
+		<Bird name="美人鱼" kind="21" size="97,322" 		mulriple_min="70" 		mulriple_max="105" 		mulriple_extend = "80,90,100,105" 		speed="3" 	capture_probability="0.008" 	distribute_interval_min="35" 	distribute_interval_max="45" 	distribute_count_min="1" 	distribute_count_max="1" 	over_zero_double_prob="0"  	under_zero_double_prob="0" 	path_type="2" />    
+		<Bird name="凤凰" kind="22" size="266,352" 			mulriple_min="80" 		mulriple_max="120" 		mulriple_extend = "90,100,110,120" 		speed="4" 	capture_probability="0.007" 	distribute_interval_min="45" 	distribute_interval_max="50" 	distribute_count_min="1" 	distribute_count_max="1" 	over_zero_double_prob="0"  	under_zero_double_prob="0" 	path_type="2" />     
+		<Bird name="金龙" kind="23" size="202,345" 			mulriple_min="100" 		mulriple_max="140" 		mulriple_extend = "110,120,130,140" 	speed="3" 	capture_probability="0.0058" 	distribute_interval_min="55" 	distribute_interval_max="60" 	distribute_count_min="1" 	distribute_count_max="1" 	over_zero_double_prob="0"  	under_zero_double_prob="0" 	path_type="2" />     
+		<Bird name="章鱼" kind="24" size="146,247" 			mulriple_min="120" 		mulriple_max="160" 		mulriple_extend = "130,140,150,160" 	speed="3" 	capture_probability="0.005" 	distribute_interval_min="70" 	distribute_interval_max="80" 	distribute_count_min="1" 	distribute_count_max="1" 	over_zero_double_prob="0"  	under_zero_double_prob="0" 	path_type="2" />    
+		<Bird name="孙悟空" kind="25" size="86,97" 			mulriple_min="160" 		mulriple_max="180" 		mulriple_extend = "165,170,175,180" 	speed="7" 	capture_probability="0.0037" 	distribute_interval_min="40" 	distribute_interval_max="50" 	distribute_count_min="1" 	distribute_count_max="1" 	over_zero_double_prob="10"  under_zero_double_prob="0" path_type="2" />    
+		<Bird name="蚌精" kind="26" size="180,195" 			mulriple_min="180" 		mulriple_max="200" 		mulriple_extend = "185,190,195,200" 	speed="5" 	capture_probability="0.0033" 	distribute_interval_min="50" 	distribute_interval_max="120"	distribute_count_min="1" 	distribute_count_max="1" 	over_zero_double_prob="10"  under_zero_double_prob="0" path_type="2" />    
+		<Bird name="龙王三太子" kind="27" size="180,195" 	mulriple_min="200" 		mulriple_max="220" 		mulriple_extend = "205,210,215,220" 	speed="5" 	capture_probability="0.003" 	distribute_interval_min="100"	distribute_interval_max="150"	distribute_count_min="1" 	distribute_count_max="1" 	over_zero_double_prob="10"  under_zero_double_prob="0" path_type="2"/>
+		<Bird name="炸弹" kind="28" size="180,195" 			mulriple_min="400" 		mulriple_max="600" 		mulriple_extend = "450,500,550,600" 	speed="5" 	capture_probability="0.0012" 	distribute_interval_min="150" 	distribute_interval_max="200"	distribute_count_min="1" 	distribute_count_max="1" 	over_zero_double_prob="0"  	under_zero_double_prob="0" 	path_type="2" />  
+		<Bird name="BOSS" kind="29" size="97,135" 			mulriple_min="1000" 	mulriple_max="1000" 	mulriple_extend = "" 					speed="5" 	capture_probability="0.0005" 	distribute_interval_min="180" 	distribute_interval_max="180"	distribute_count_min="1" 	distribute_count_max="1" 	over_zero_double_prob="0"  	under_zero_double_prob="0" 	path_type="2" />  	
+	</BirdConfig>
+	<!--盘子鱼-->
+	<!--   名字             类型        大小         盘子鱼数量      盘子鱼的类型     最多有几种类型     盘子鱼整体的倍数     整体捕捉概率     		速度		-->
+	<BirdSameConfig>
+		<Bird name="一箭一雕" kind="42" size="120,120" bird_count="1" bird_type_max="10" multiple="1" capture_probability="0.4,0.4,0.4,0.3,0.3,0.3,0.2,0.2,0.15,0.12" speed="6" distribute_interval_min="30" distribute_interval_max="60" distribute_count_min="1" distribute_count_max="1" path_type="2" />
+		<Bird name="一箭双雕" kind="43" size="300,120" bird_count="2" bird_type_max="10" multiple="1" capture_probability="0.2,0.2,0.2,0.15,0.15,0.15,0.1,0.1,0.07,0.06" speed="6" distribute_interval_min="30" distribute_interval_max="60" distribute_count_min="1" distribute_count_max="1" path_type="2" />
+		<Bird name="一箭三雕" kind="44" size="200,200" bird_count="3" bird_type_max="10" multiple="1" capture_probability="0.13,0.13,0.13,0.1,0.1,0.1,0.07,0.07,0.05,0.04" speed="6" distribute_interval_min="25" distribute_interval_max="40" distribute_count_min="1" distribute_count_max="1" path_type="2" />
+		<Bird name="一箭四雕" kind="45" size="220,220" bird_count="4" bird_type_max="10" multiple="1" capture_probability="0.1,0.1,0.1,0.08,0.08,0.08,0.05,0.05,0.035,0.03" speed="6" distribute_interval_min="40" distribute_interval_max="60" distribute_count_min="1" distribute_count_max="1" path_type="2" />
+		<Bird name="一箭五雕" kind="46" size="220,220" bird_count="5" bird_type_max="10" multiple="1" capture_probability="0.08,0.08,0.08,0.06,0.06,0.06,0.04,0.04,0.03,0.024" speed="6" distribute_interval_min="50" distribute_interval_max="80" distribute_count_min="1" distribute_count_max="1" path_type="2" />
+	</BirdSameConfig>
+	<!--特殊鱼交叉鱼群-->
+	<BridSpecialConfig distribute_interval_min="150" distribute_interval_max="200" path_type="3" />
+	<!--小鱼群-->
+	<BirdGroupConfig distribute_interval_min="5" distribute_interval_max="10" distribute_count_min="3" distribute_count_max="7" path_type="0" />
+	<!--连线红鱼-->
+	<BirdRedSeriesConfig bird_type_max="9" capture_probability="0.02,0.02,0.0133,0.01,0.008,0.0067,0.0057,0.005,0.0044" speed="5" red_probability="5" distribute_interval_min="4" distribute_interval_max="10" distribute_count_min="2" distribute_count_max="6" path_type="2" />
+	<!--鼓出红鱼-->
+	<BirdRedBloatingConfig bird_type_max="9" capture_probability="0.001,0.001,0.0006,0.0005,0.0004,0.0003,0.0002,0.0002,0.0002" red_probability="100" distribute_interval_min="150" distribute_interval_max="200" ring_count_min="1" ring_count_max="3" />
+		<BulletConfig>
+		<Bullet kind="0" name="2炮筒" speed="800.0000"  fire_interval="200.0000" />
+		<Bullet kind="1" name="3炮筒" speed="800.0000"  fire_interval="200.0000" />
+		<Bullet kind="2" name="4炮筒" speed="800.0000"  fire_interval="200.0000" />
+		<Bullet kind="3" name="2炮筒" speed="800.0000"  fire_interval="180.0000" />
+		<Bullet kind="4" name="3炮筒" speed="800.0000"  fire_interval="180.0000" />
+		<Bullet kind="5" name="4炮筒" speed="800.0000"  fire_interval="180.0000" />
+		<Bullet kind="6" name="4炮筒" speed="800.0000"  fire_interval="180.0000" />
+		<Bullet kind="7" name="4炮筒" speed="800.0000"  fire_interval="180.0000" />
+		<Bullet kind="8" name="4炮筒" speed="800.0000"  fire_interval="180.0000" />
+		<Bullet kind="9" name="4炮筒" speed="800.0000"  fire_interval="180.0000" />
+	</BulletConfig>
+
+	<!--炮倍-->
+	<CannonMulriple mulriple="10,20,30,40,50,60,70,80,90,100" />
+	<!-- 控制机制生效配置，qfcs中1表示抽大鱼概率；jfkz中1表示被净分控制，qfhb中1表示会强发的鱼-->
+	<FishContrlConfig>
+		<Key kind="0" qfcs="0" jfkz="1" qfhb="0" />
+		<Key kind="1" qfcs="0" jfkz="1" qfhb="0" />
+		<Key kind="2" qfcs="0" jfkz="1" qfhb="0" />
+		<Key kind="3" qfcs="0" jfkz="1" qfhb="0" />
+		<Key kind="4" qfcs="0" jfkz="1" qfhb="0" />
+		<Key kind="5" qfcs="0" jfkz="1" qfhb="0" />
+		<Key kind="6" qfcs="0" jfkz="1" qfhb="0" />
+		<Key kind="7" qfcs="0" jfkz="1" qfhb="0" />
+		<Key kind="8" qfcs="0" jfkz="1" qfhb="0" />
+		<Key kind="9" qfcs="0" jfkz="1" qfhb="0" />
+		<Key kind="10" qfcs="1" jfkz="1" qfhb="0" />
+		<Key kind="11" qfcs="1" jfkz="1" qfhb="0" />
+		<Key kind="12" qfcs="1" jfkz="1" qfhb="0" />
+		<Key kind="13" qfcs="1" jfkz="1" qfhb="0" />
+		<Key kind="14" qfcs="1" jfkz="1" qfhb="0" />
+		<Key kind="15" qfcs="1" jfkz="1" qfhb="1" />
+		<Key kind="16" qfcs="1" jfkz="1" qfhb="1" />
+		<Key kind="17" qfcs="1" jfkz="1" qfhb="1" />
+		<Key kind="18" qfcs="1" jfkz="1" qfhb="1" />
+		<Key kind="19" qfcs="1" jfkz="1" qfhb="1" />
+		<Key kind="20" qfcs="1" jfkz="1" qfhb="1" />
+		<Key kind="21" qfcs="1" jfkz="1" qfhb="1" />
+		<Key kind="22" qfcs="1" jfkz="1" qfhb="0" />
+		<Key kind="23" qfcs="1" jfkz="1" qfhb="0" />
+		<Key kind="24" qfcs="1" jfkz="1" qfhb="0" />
+		<Key kind="25" qfcs="1" jfkz="1" qfhb="0" />
+		<Key kind="26" qfcs="1" jfkz="1" qfhb="0" />
+		<Key kind="27" qfcs="1" jfkz="1" qfhb="0" />
+		<Key kind="28" qfcs="1" jfkz="1" qfhb="0" />
+		<Key kind="29" qfcs="1" jfkz="1" qfhb="0" />	
+	</FishContrlConfig>
+	
+	<!--====系统抽水体系====-->
+	<!--系统抽水万分比-->
+	<GameTaxodd  odd = "25" />	
+	<!--系统纯抽水开关，0：默认关闭，1：开启-->
+	<!--开启纯抽水开关后，被系统抽水的分数将不影响玩家个人净分和库存-->
+	<GameTaxoddSwitch open = "0" />
+	
+
+	<!--====强发控制体系====-->		
+	<!--强发抽水万分比(进入强发库)由qfcs控制大鱼或小鱼-->
+	<ForceLibJoinOdd BigFish = "1000" SmallFish="2000" />
+	<!--有强发回补(qfhb)的鱼，当强发库小于一定比例时，强制补充-->
+	<ForceLibMustOdd Odd = "0.5" />
+	<!--当强发库达到强发触发倍数 * 房间最大鱼倍 * 当前炮倍，开始对强发回补的鱼进行补偿，一直到分数不足才停止-->
+	<ForceLibMutil Mutil = "1" />
+	<!--当连续设定炮数未命中强发回补的鱼，开始对强发回补的鱼进行补偿, 一直到分数不足才停止-->
+	<ForceLib100Hit Count = "100" Mutil = "10" />
+
+
+	<!--====净分控制体系====-->	
+	<!--个人净分抽水万分比-->	
+	<ForceTaxodd odd = "40" />	
+	<!--个人净分控制机制需要配置各个房间数据配置-->
+	<!--                   最大净分系数       最小净分系数			亏损系数		房间最大炮倍			房间最大鱼倍		最大净分系数参数	最小净分系数参数 最大净分生效阈值	最小净分生效阈值 最大净分生效阈值与入场金币倍率 最小净分生效阈值与入场金币倍率 -->
+	<ForceLibControlScore maxwinratio = "2000" minwinratio = "7500" lossratio = "7000" roommaxbet = "20" fishmulitiple = "500" wininf = "4" loseinf = "2" winscore = "-30000" losescore = "10000" winScoreMax = "-3.5" loseScoreMin = "0.7" m_SystemPondTaxodd="25"/>
+
+	
+	<!--====系统库存体系====-->	
+	<!--  系统全局奖池系数 -->
+	<!--系统库存抽水万分比-->
+	<SystemPondTaxodd  odd = "75" />		
+	<!-- 全局奖池线-->
+	<SystemPondLine one = "0" two = "100000" three = "500000" four = "2500000" />
+	<!-- 全局奖池系数 -->
+	<SystemPondCoefficient one = "0.75" two = "1.29" three = "1.36" four = "1.42" five = "1.48" 
+	 oneMin = "0.5" oneMax="1.25" twoMin = "1.25" twoMax="2" threeMin = "1.35" threeMax="2" fourMin = "1.55" fourMax = "2" fiveMin = "1.75" fiveMax = "2.25"/>	
+	<Coefficientkeeptimes  min = "100" max = "500" />
+
+
+	<!-- 是否开启日志 0是关闭 1是开启-->
+	<LogSwitch open="0" goldSwitch="0"/>
+	<!-- 全屏炸弹  大型炸弹  小型炸弹的最高倍数 -->
+	<BombMultipleControl full = "600" large = "400" small = "200"/>
+
+		<!-- 补充鱼的配置 prob代表该类型的鱼死了之后补充的概率（百分比）  intervel代表刷新的最小间隔（秒）-->
+	<AddFishRefreshConfig>
+		<Key kind="0"   prob="0"    interval="0" />
+		<Key kind="1"   prob="0"    interval="0" />
+		<Key kind="2"   prob="0"    interval="0" />
+		<Key kind="3"   prob="0"    interval="0" />
+		<Key kind="4"   prob="0"    interval="0" />
+		<Key kind="5"   prob="0"    interval="0" />
+		<Key kind="6"   prob="0"    interval="0" />
+		<Key kind="7"   prob="0"    interval="0" />
+		<Key kind="8"   prob="0"    interval="0" />
+		<Key kind="9"   prob="0"    interval="0" />
+		<Key kind="10"  prob="0"    interval="0" />
+		<Key kind="11"  prob="0"    interval="0" />
+		<Key kind="12"  prob="0"    interval="0" />
+		<Key kind="13"  prob="0"    interval="0" />
+		<Key kind="14"  prob="0"    interval="0" />
+		<Key kind="15"  prob="0"    interval="0" />
+		<Key kind="16"  prob="50"    interval="10" />
+		<Key kind="17"  prob="50"    interval="10" />
+		<Key kind="18"  prob="50"    interval="10" />
+		<Key kind="19"  prob="50"    interval="10" />
+		<Key kind="20"  prob="40"    interval="10" />
+		<Key kind="21"  prob="40"    interval="10" />
+		<Key kind="22"  prob="40"    interval="10" />
+		<Key kind="23"  prob="40"    interval="10" />
+		<Key kind="24"  prob="40"    interval="10" />
+		<Key kind="25"  prob="40"    interval="20" />
+		<Key kind="26"  prob="40"    interval="20" />
+		<Key kind="27"  prob="40"    interval="20" />
+		<Key kind="28"  prob="40"    interval="20" />
+		<Key kind="29"  prob="40"    interval="20" />
+	</AddFishRefreshConfig>
+	
+	<!-- 强发库保底			入场分数百分比		  当前炮倍的倍数			两次触发之间的炮数间隔-->
+	<ForceScoreProtect enterScorePercent="10"  nowBulletMultiple = "20"	touchInterval = "1000"/>
+	<!-- 入场延迟 -->
+	<TimesDelay min="40" max="80"/>
+	<!-- 输赢强控机制  上限10组 写几组就是几组-->
+	<!-- id，        权重        叠加             分min                  分max                  百分=min            百分max             回min             回max               回叠加                 下一次min           下一次max-->
+	<WinForceControl>
+		<config id="0" prob="100"  addodds="30"  ControlptsMin="500" ControlptsMax="800" ControlperMin="80" ControlperMax="100" RecoverperMin="10" RecoverperMax="20" Recoveraddodds="500" NextDelayMin="35" NextDelayMax="70"/>
+		<config id="1" prob="200"  addodds="50"  ControlptsMin="500" ControlptsMax="900" ControlperMin="80" ControlperMax="100" RecoverperMin="10" RecoverperMax="20" Recoveraddodds="400" NextDelayMin="35" NextDelayMax="70"/>
+		<config id="2" prob="300"  addodds="60"  ControlptsMin="500" ControlptsMax="1000" ControlperMin="80" ControlperMax="100" RecoverperMin="10" RecoverperMax="20" Recoveraddodds="250" NextDelayMin="35" NextDelayMax="70"/>
+		<config id="3" prob="450"  addodds="70"  ControlptsMin="500" ControlptsMax="1100" ControlperMin="80" ControlperMax="110" RecoverperMin="10" RecoverperMax="20" Recoveraddodds="200" NextDelayMin="35" NextDelayMax="70"/>
+		<config id="4" prob="500"  addodds="80"  ControlptsMin="500" ControlptsMax="1200" ControlperMin="80" ControlperMax="120" RecoverperMin="10" RecoverperMax="20" Recoveraddodds="150" NextDelayMin="35" NextDelayMax="70"/>
+		<config id="5" prob="500"  addodds="140"  ControlptsMin="400" ControlptsMax="1000" ControlperMin="50" ControlperMax="120" RecoverperMin="10" RecoverperMax="20" Recoveraddodds="70" NextDelayMin="35" NextDelayMax="70"/>
+		<config id="6" prob="450"  addodds="160"  ControlptsMin="400" ControlptsMax="900" ControlperMin="50" ControlperMax="110" RecoverperMin="10" RecoverperMax="20" Recoveraddodds="70" NextDelayMin="35" NextDelayMax="70"/>
+		<config id="7" prob="300"  addodds="180"  ControlptsMin="400" ControlptsMax="800" ControlperMin="50" ControlperMax="100" RecoverperMin="10" RecoverperMax="20" Recoveraddodds="70" NextDelayMin="35" NextDelayMax="70"/>
+		<config id="8" prob="200"  addodds="200"  ControlptsMin="400" ControlptsMax="700" ControlperMin="55" ControlperMax="90" RecoverperMin="10" RecoverperMax="20" Recoveraddodds="70" NextDelayMin="35" NextDelayMax="70"/>
+		<config id="9" prob="100"  addodds="220"  ControlptsMin="400" ControlptsMax="600" ControlperMin="55" ControlperMax="80" RecoverperMin="10" RecoverperMax="20" Recoveraddodds="60" NextDelayMin="35" NextDelayMax="70"/>
+	</WinForceControl>
+	<!-- 库存对应可选配置组ID -->
+	<!-- 奖池线 最大支持九条 -->
+	<WinForcePondLine>
+		<pond id="0" value="400000"/>
+	</WinForcePondLine>
+	<!-- 对应区间可选择配置的组ID 最大十个区间  id为0的配置对应 奖池<= id为0的奖池线 ，id为1的配置对应 id为0的奖池线<奖池<= id为1的奖池线 -->
+	<WinForceSelectConfig>
+		<config id="0" groupID="5,6,7,8"/>
+		<config id="1" groupID="5,6,7,8,9"/>
+	</WinForceSelectConfig>
+	<!-- 回弹控制 -->
+	<RecoverperControl  WinToLoseAddProb = "1.3" LoseToWinAddProb = "1.4" />
+	<!--文件中所有配置的值 均不可以大于21亿  ！！！-->	
+	<!-- 安全线 = 配置值 * 10倍  为了能配置超过21亿的数字  -->
+	<SafetyLine line="-1000"/>
+	<!--库存自动控制 实际值 =  配置值 * 10倍-->
+	<AutoPond  MaxinvLine = "40000" AutoClear = "20000"/>
+	<!--杀分 放分-->
+	<!--
+	<Kill_Award_Score_low_room     value_A="1000000" value_B="20000000" value_C="22000000" value_D="72000000" nRevenueCount = "100" />
+	<Kill_Award_Score_middle_room  value_A="1000000" value_B="20000000" value_C="22000000" value_D="72000000" nRevenueCount = "100" />
+	<Kill_Award_Score_high_room    value_A="1000000" value_B="20000000" value_C="24000000" value_D="74000000" nRevenueCount = "100" />
+	-->
+	<!--公告-->
+	<Horn one="恭喜<c=1>[%s]</c>在<c=2>[极速捕鱼%s]</c>击败了%s并获得<c=3>[%d]</c>金币，大家一起来玩吧!" tow="恭喜<c=1>[%s]</c>在<c=2>[极速捕鱼%s]</c>一发入魂，斩获大奖，获得了<c=3>[%d]</c>金币，真是霸气外露！"/>
+</GameConfig>

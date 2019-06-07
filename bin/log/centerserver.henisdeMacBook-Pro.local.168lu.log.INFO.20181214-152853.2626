@@ -1,0 +1,36 @@
+Log file created at: 2018/12/14 15:28:53
+Running on machine: henisdeMacBook-Pro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1214 15:28:53.938508 104003008 CenterServer.cpp:32] 正在启动中心服务器...
+I1214 15:28:53.941294 104003008 NetModule.h:71] Init NetModule Finished.
+I1214 15:28:53.941427 104003008 NetModule.h:77] start work thread 0...
+I1214 15:28:53.941437 104003008 NetModule.cpp:64] Start Run NetModule...
+I1214 15:28:53.941457 104003008 NetModule.cpp:76] NetModule Already Startover.
+I1214 15:28:53.941469 104003008 NetModule.cpp:200] add one connector: 0.0.0.0:6001 succeed...
+I1214 15:28:53.941475 104003008 NetModule.cpp:118] Create one server...
+I1214 15:28:54.442920 104003008 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I1214 15:28:54.445053 241500160 CenterThread.cpp:87] connect to db server succ!
+W1214 15:28:58.805964 241500160 CenterThread.cpp:3921] OnSubLoadWealthGodHistoryData: 9
+W1214 15:28:59.330260 241500160 CenterThread.cpp:3921] OnSubLoadWealthGodHistoryData: 10
+W1214 15:29:00.074235 241500160 CenterThread.cpp:3921] OnSubLoadWealthGodHistoryData: 10
+W1214 15:29:01.038002 241500160 CenterThread.cpp:3921] OnSubLoadWealthGodHistoryData: 10
+W1214 15:29:02.065011 241500160 CenterThread.cpp:3921] OnSubLoadWealthGodHistoryData: 10
+W1214 15:29:02.665076 241500160 CenterThread.cpp:3921] OnSubLoadWealthGodHistoryData: 10
+W1214 15:29:03.375618 241500160 CenterThread.cpp:3921] OnSubLoadWealthGodHistoryData: 10
+W1214 15:29:03.984258 241500160 CenterThread.cpp:3921] OnSubLoadWealthGodHistoryData: 10
+W1214 15:29:04.591112 241500160 CenterThread.cpp:3921] OnSubLoadWealthGodHistoryData: 10
+W1214 15:29:05.150519 241500160 CenterThread.cpp:3921] OnSubLoadWealthGodHistoryData: 10
+I1214 15:29:05.649200 104003008 NetServer.cpp:55] accept io...127.0.0.1:49666
+I1214 15:29:05.673943 241500160 ServerMgr.cpp:54] register one proxy server: 127.0.0.1:49666
+W1214 15:29:05.891214 241500160 CenterThread.cpp:3921] OnSubLoadWealthGodHistoryData: 10
+W1214 15:29:17.514999 241500160 DuoBaoMgr.cpp:94] has the same doing data? id: 2
+W1214 15:29:17.515122 241500160 DuoBaoMgr.cpp:94] has the same doing data? id: 3
+W1214 15:29:17.515205 241500160 DuoBaoMgr.cpp:94] has the same doing data? id: 26
+W1214 15:29:17.515241 241500160 DuoBaoMgr.cpp:94] has the same doing data? id: 28
+W1214 15:29:17.515275 241500160 DuoBaoMgr.cpp:94] has the same doing data? id: 29
+W1214 15:29:17.515313 241500160 DuoBaoMgr.cpp:175] load duo bao data finish.
+I1214 15:29:20.004051 104003008 NetServer.cpp:55] accept io...127.0.0.1:49668
+I1214 15:29:20.799978 241500160 ServerMgr.cpp:469] register one login server: 127.0.0.1:49668
+I1214 15:29:28.513061 104003008 NetServer.cpp:55] accept io...127.0.0.1:49673
+I1214 15:29:29.542007 241500160 ServerMgr.cpp:187] register one game server: 127.0.0.1:49673
+W1214 17:37:46.376727 241500160 CenterThread.cpp:120] db server is disconnect, after 1s will be reconnect!

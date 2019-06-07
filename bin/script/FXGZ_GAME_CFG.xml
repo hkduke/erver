@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--0=金锣：SCATTER，免费游戏图标，前3列连续出现将触发免费游戏。
+	1=财神到：WILD，百搭图标，可代替其他普通图标进行赔付。
+	2=财神
+	3=弥勒佛
+	4=太白
+	5=金鱼
+	6=福袋
+	7=如意
+	8=桃子
+	9=包子
+	10=糖葫芦 -->
+<Root>
+	// 旋转最小等待时间（单位：秒）
+	<spinInterval>1</spinInterval>
+	// 赔率基数
+	<payBasicUnit>10</payBasicUnit>
+	// 税收基数
+	<taxBasicUnit>10000</taxBasicUnit>
+	// 收税比例(千分比)
+	<taxRatio>3</taxRatio>
+	// 收税比例2(千分比)
+	<taxRatio2>1</taxRatio2>
+	// 最大不中奖次数
+	<maxUnluckyCount>3</maxUnluckyCount>
+	// 赔率表
+	<iconPayTable>
+		<item iconID="1" five="0" four="0" three="0" />		//!-- 财神到，WILD -->
+		<item iconID="2" five="120" four="60" three="10" /> //!-- 财神 -->
+		<item iconID="3" five="100" four="40" three="6" /> 	//!-- 弥勒佛 -->
+		<item iconID="4" five="100" four="40" three="6" /> 	//!-- 太白 -->
+		<item iconID="5" five="80" four="20" three="6" /> 	//!-- 金鱼 -->
+		<item iconID="6" five="40" four="12" three="2" />   //!-- 福袋 -->
+		<item iconID="7" five="40" four="12" three="2" /> 	//!-- 如意 -->
+		<item iconID="8" five="40" four="8" three="2" /> 	//!-- 桃子 -->
+		<item iconID="9" five="30" four="6" three="2" /> 	//!-- 包子 -->
+		<item iconID="10" five="30" four="6" three="2" /> 	//!-- 糖葫芦 -->
+	</iconPayTable>
+	// 赔率反馈表
+	<payNotify>
+		<level id="0" desc="赢奖" payoutMin="1" payOutMax="50" />
+		<level id="1" desc="大赢奖" payoutMin="50" payOutMax="100" />
+		<level id="2" desc="超级赢奖" payoutMin="100" payOutMax="200" />
+		<level id="3" desc="超级大赢奖" payoutMin="200" payOutMax="300" />
+		<level id="4" desc="无敌大赢奖" payoutMin="300" payOutMax="10000" />
+	</payNotify>
+	// 血控点控方案
+	<cheatCaseCFG>
+		<gameRoom roomId="1">
+			<item cheatType="2" stock="-1000" cheatVal="30" mainGameCaseID="1" /> 	 	//!--吸分_2-->
+			<item cheatType="1" stock="0" cheatVal="10" mainGameCaseID="2" />			//!--吸分_1-->
+			<item cheatType="-1" stock="2000" cheatVal="-10" mainGameCaseID="3" />  	//!--放分_1-->
+			<item cheatType="-2" stock="10000" cheatVal="-30" mainGameCaseID="4" /> 	//!--放分_2-->
+		</gameRoom>
+		<gameRoom roomId="2">
+			<item cheatType="2" stock="-10000" cheatVal="30" mainGameCaseID="1" /> 	 	//!--吸分_2-->
+			<item cheatType="1" stock="0" cheatVal="10" mainGameCaseID="2" />		 	//!--吸分_1-->
+			<item cheatType="-1" stock="20000" cheatVal="-10" mainGameCaseID="3" />  	//!--放分_1-->
+			<item cheatType="-2" stock="100000" cheatVal="-30" mainGameCaseID="4" /> 	//!--放分_2-->
+		</gameRoom>
+		<gameRoom roomId="3">
+			<item cheatType="2" stock="-20000" cheatVal="30" mainGameCaseID="1" /> 	 	//!--吸分_2-->
+			<item cheatType="1" stock="0" cheatVal="10" mainGameCaseID="2" />		 	//!--吸分_1-->
+			<item cheatType="-1" stock="50000" cheatVal="-10" mainGameCaseID="3" />  	//!--放分_1-->
+			<item cheatType="-2" stock="200000" cheatVal="-30" mainGameCaseID="4" /> 	//!--放分_2-->
+		</gameRoom>
+		<gameRoom roomId="4">
+			<item cheatType="2" stock="-100000" cheatVal="30" mainGameCaseID="1" /> 	//!--吸分_2-->
+			<item cheatType="1" stock="0" cheatVal="10" mainGameCaseID="2" />		 	//!--吸分_1-->
+			<item cheatType="-1" stock="300000" cheatVal="-10" mainGameCaseID="3" />  	//!--放分_1-->
+			<item cheatType="-2" stock="1000000" cheatVal="-30" mainGameCaseID="4" /> 	//!--放分_2-->
+		</gameRoom>
+	</cheatCaseCFG>
+	// 点控方案
+	<pointCheatCaseCFG>
+		<item cheatType="2" userWinScore="100000" cheatScore="5000" cheatVal="30" mainGameCaseID="1" /> 			#!-- 吸分_2 -->
+		<item cheatType="1" userWinScore="50000" cheatScore="2000" cheatVal="10" mainGameCaseID="2" /> 			#!-- 吸分_1 -->
+		#!--item cheatType="-1" userWinScore="-5000" cheatScore="1000" cheatVal="-10" mainGameCaseID="3" / --> 	#!-- 放分_1 -->
+		#!--item cheatType="-2" userWinScore="-50000" cheatScore="5000" cheatVal="-30" mainGameCaseID="4" / --> #!-- 放分_2 -->
+	</pointCheatCaseCFG>
+	<gameRoomCFG>
+		<gameRoom roomId="1">
+			// 主游戏返奖方案
+			<mainReturnCaseCFG>
+				// 吸分_2
+				<mainGameCase caseID="1">
+					//!-- 主游戏限制赔付倍数，0表示不限制 -->
+					<limitPayMult> 150 </limitPayMult>
+					<caseStripInfo>
+						<item stripColumnID="1" scatCounts="1" scatRatio="0_1500" iconWeiAreas="1_0;2_385;3_385;4_385;5_385;6_1538;7_1538;8_1538;9_1923;10_1923"  />
+						<item stripColumnID="2" scatCounts="1" scatRatio="0_1500" iconWeiAreas="1_816;2_408;3_408;4_612;5_612;6_816;7_1020;8_1224;9_2041;10_2043" />
+						<item stripColumnID="3" scatCounts="1" scatRatio="0_1500" iconWeiAreas="1_816;2_408;3_408;4_612;5_612;6_816;7_1020;8_1224;9_2041;10_2043" />
+						<item stripColumnID="4" scatCounts="0" scatRatio="0_0" iconWeiAreas="1_400;2_1600;3_1600;4_1600;5_1000;6_1000;7_800;8_800;9_600;10_600" />
+						<item stripColumnID="5" scatCounts="0" scatRatio="0_0" iconWeiAreas="1_400;2_1600;3_1600;4_1600;5_1000;6_1000;7_800;8_800;9_600;10_600" />
+					</caseStripInfo>
+				</mainGameCase>
+				// 吸分_1
+				<mainGameCase caseID="2">
+					//!-- 主游戏限制赔付倍数，0表示不限制 -->
+					<limitPayMult> 200 </limitPayMult>
+					<caseStripInfo>
+						<item stripColumnID="1" scatCounts="1" scatRatio="0_1625" iconWeiAreas="1_0;2_385;3_385;4_385;5_385;6_1538;7_1538;8_1538;9_1923;10_1923"  />
+						<item stripColumnID="2" scatCounts="1" scatRatio="0_1625" iconWeiAreas="1_816;2_408;3_408;4_612;5_612;6_816;7_1020;8_1224;9_2041;10_2043" />
+						<item stripColumnID="3" scatCounts="1" scatRatio="0_1625" iconWeiAreas="1_816;2_408;3_408;4_612;5_612;6_816;7_1020;8_1224;9_2041;10_2043" />
+						<item stripColumnID="4" scatCounts="0" scatRatio="0_0" iconWeiAreas="1_400;2_1600;3_1600;4_1600;5_1000;6_1000;7_800;8_800;9_600;10_600" />
+						<item stripColumnID="5" scatCounts="0" scatRatio="0_0" iconWeiAreas="1_400;2_1600;3_1600;4_1600;5_1000;6_1000;7_800;8_800;9_600;10_600" />
+					</caseStripInfo>
+				</mainGameCase>
+				// 放分_1
+				<mainGameCase caseID="3">
+					//!-- 主游戏限制赔付倍数，0表示不限制 -->
+					<limitPayMult> 390 </limitPayMult>
+					<caseStripInfo>
+						<item stripColumnID="1" scatCounts="1" scatRatio="0_1750" iconWeiAreas="1_0;2_385;3_385;4_385;5_385;6_1538;7_1538;8_1538;9_1923;10_1923"  />
+						<item stripColumnID="2" scatCounts="1" scatRatio="0_1750" iconWeiAreas="1_816;2_408;3_408;4_612;5_612;6_816;7_1020;8_1224;9_2041;10_2043" />
+						<item stripColumnID="3" scatCounts="1" scatRatio="0_1750" iconWeiAreas="1_816;2_408;3_408;4_612;5_612;6_816;7_1020;8_1224;9_2041;10_2043" />
+						<item stripColumnID="4" scatCounts="0" scatRatio="0_0" iconWeiAreas="1_400;2_1600;3_1600;4_1600;5_1000;6_1000;7_800;8_800;9_600;10_600" />
+						<item stripColumnID="5" scatCounts="0" scatRatio="0_0" iconWeiAreas="1_400;2_1600;3_1600;4_1600;5_1000;6_1000;7_800;8_800;9_600;10_600" />
+					</caseStripInfo>
+				</mainGameCase>
+				// 放分_2
+				<mainGameCase caseID="4">
+					//!-- 主游戏限制赔付倍数，0表示不限制 -->
+					<limitPayMult> 800 </limitPayMult>
+					<caseStripInfo>
+						<item stripColumnID="1" scatCounts="1" scatRatio="0_1875" iconWeiAreas="1_0;2_385;3_385;4_385;5_385;6_1538;7_1538;8_1538;9_1923;10_1923"  />
+						<item stripColumnID="2" scatCounts="1" scatRatio="0_1875" iconWeiAreas="1_816;2_408;3_408;4_612;5_612;6_816;7_1020;8_1224;9_2041;10_2043" />
+						<item stripColumnID="3" scatCounts="1" scatRatio="0_1875" iconWeiAreas="1_816;2_408;3_408;4_612;5_612;6_816;7_1020;8_1224;9_2041;10_2043" />
+						<item stripColumnID="4" scatCounts="0" scatRatio="0_0" iconWeiAreas="1_400;2_1600;3_1600;4_1600;5_1000;6_1000;7_800;8_800;9_600;10_600" />
+						<item stripColumnID="5" scatCounts="0" scatRatio="0_0" iconWeiAreas="1_400;2_1600;3_1600;4_1600;5_1000;6_1000;7_800;8_800;9_600;10_600" />
+					</caseStripInfo>
+				</mainGameCase>
+			</mainReturnCaseCFG>
+			// 免费游戏返奖方案
+			<freeReturnCaseCFG>
+				//!-- FG_常规单次限制赔付倍数，0表示不限制 -->
+				<basicLimitPay> 1200 </basicLimitPay>
+				//!-- FG_旋转总限制倍数，0表示不限制 -->
+				<totalLimitPay> 400 </totalLimitPay>
+				//!-- FG_高赔付单次限制倍数，0表示不限制 -->
+				<highLimitPay> 110 </highLimitPay>
+				//!-- FG_再旋转开关，True表示允许再旋转，False表示不允许再旋转 -->
+				<freeRespinOpen> False </freeRespinOpen>
+				//!-- FG图标权重配置 -->
+				<freeStripInfo>
+						<item stripColumnID="1" scatCounts="1" scatRatio="0_0" iconWeiAreas="1_0;2_1111;3_1111;4_1111;5_1111;6_1111;7_1111;8_1111;9_1111;10_1112"  />
+						<item stripColumnID="2" scatCounts="1" scatRatio="0_0" iconWeiAreas="1_1429;2_952;3_952;4_952;5_952;6_952;7_952;8_952;9_952;10_955" />
+						<item stripColumnID="3" scatCounts="1" scatRatio="0_0" iconWeiAreas="1_1220;2_976;3_976;4_976;5_976;6_976;7_976;8_976;9_976;10_972" />
+						<item stripColumnID="4" scatCounts="0" scatRatio="0_0" iconWeiAreas="1_1000;2_1000;3_1000;4_1000;5_1000;6_1000;7_1000;8_1000;9_1000;10_1000" />
+						<item stripColumnID="5" scatCounts="0" scatRatio="0_0" iconWeiAreas="1_769;2_1026;3_1026;4_1026;5_1026;6_1026;7_1026;8_1026;9_1026;10_1023" />
+				</freeStripInfo>
+			</freeReturnCaseCFG>
+		</gameRoom>
+	</gameRoomCFG>
+</Root>

@@ -1,0 +1,25 @@
+Log file created at: 2019/05/29 17:55:01
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0529 17:55:01.617828 97805760 GameServer.cpp:45] 正在启动游戏服务器...
+I0529 17:55:01.620728 97805760 NetModule.h:71] Init NetModule Finished.
+I0529 17:55:01.621026 97805760 NetModule.h:78] start work thread 0...
+I0529 17:55:01.621038 97805760 NetModule.cpp:69] Start Run NetModule...
+I0529 17:55:01.621057 97805760 NetModule.cpp:88] NetModule Already Startover.
+I0529 17:55:01.621070 97805760 NetModule.cpp:220] add one connector: 127.0.0.1:5001 succeed...
+I0529 17:55:01.621076 97805760 NetModule.cpp:220] add one connector: 127.0.0.1:6001 succeed...
+I0529 17:55:01.621081 97805760 NetModule.cpp:136] Create one server...
+I0529 17:55:02.123697 97805760 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0529 17:55:02.123746 97805760 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0529 17:55:02.125983 169951232 GameServerThread.cpp:113] connect to db server succ!
+I0529 17:55:04.365242 169951232 AndroidUserMgr.cpp:845] set active android count: 0
+I0529 17:55:04.365296 169951232 AndroidUserMgr.cpp:845] set active android count: 4
+I0529 17:55:04.874541 169951232 GameServerThread.cpp:1990] load benefit config succ!
+I0529 17:55:04.888479 97805760 NetServer.cpp:55] accept io...127.0.0.1:53244
+I0529 17:55:05.552249 169951232 GameServerThread.cpp:1910] load android parameter succ, android count : 30
+W0529 17:55:05.675060 169951232 GameTableManager.cpp:613] update br game server black list, server id: 10001
+I0529 17:55:05.676187 169951232 GameServerThread.cpp:1564] init server succ!
+I0529 17:55:05.676762 169951232 GameServerThread.cpp:146] bind one connect: 127.0.0.1:53244
+I0529 17:55:05.676908 169951232 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:53244
+W0529 17:56:10.612761 169951232 TableFrameForScore.cpp:1781] game process message fail? subid: 1
+W0529 18:04:36.653190 169951232 GameServerThread.cpp:2895] can not enter room ex, in other room, user id: 85538002

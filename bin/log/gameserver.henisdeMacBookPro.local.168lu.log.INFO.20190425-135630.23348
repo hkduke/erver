@@ -1,0 +1,46 @@
+Log file created at: 2019/04/25 13:56:30
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0425 13:56:30.670820 153429440 GameServer.cpp:45] 正在启动游戏服务器...
+I0425 13:56:30.673027 153429440 NetModule.h:71] Init NetModule Finished.
+I0425 13:56:30.673264 153429440 NetModule.h:78] start work thread 0...
+I0425 13:56:30.673279 153429440 NetModule.cpp:69] Start Run NetModule...
+I0425 13:56:30.673300 153429440 NetModule.cpp:88] NetModule Already Startover.
+I0425 13:56:30.673318 153429440 NetModule.cpp:220] add one connector: 127.0.0.1:5001 succeed...
+I0425 13:56:30.673328 153429440 NetModule.cpp:220] add one connector: 127.0.0.1:6001 succeed...
+I0425 13:56:30.673336 153429440 NetModule.cpp:136] Create one server...
+I0425 13:56:31.176865 153429440 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0425 13:56:31.176900 153429440 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0425 13:56:31.178771 75755520 GameServerThread.cpp:113] connect to db server succ!
+I0425 13:56:32.337358 75755520 AndroidUserMgr.cpp:832] set active android count: 0
+I0425 13:56:32.337404 75755520 AndroidUserMgr.cpp:832] set active android count: 99
+I0425 13:56:32.449431 153429440 NetServer.cpp:55] accept io...127.0.0.1:58652
+I0425 13:56:32.798290 75755520 GameServerThread.cpp:1933] load benefit config succ!
+I0425 13:56:33.475008 75755520 GameServerThread.cpp:1853] load android parameter succ, android count : 140
+W0425 13:56:33.591398 75755520 GameTableManager.cpp:566] update br game server black list, server id: 991
+I0425 13:56:33.591742 75755520 GameServerThread.cpp:1507] init server succ!
+I0425 13:56:33.591753 75755520 GameServerThread.cpp:146] bind one connect: 127.0.0.1:58652
+I0425 13:56:33.591764 75755520 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:58652
+W0425 19:22:03.031347 75755520 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0425 19:22:04.220680 153429440 NetModule.cpp:723] ready reconnect server, server id: 991
+W0425 19:22:04.221889 75755520 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0425 19:22:05.721621 153429440 NetModule.cpp:723] ready reconnect server, server id: 991
+I0425 19:22:05.721743 153429440 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0425 19:22:05.723561 75755520 GameServerThread.cpp:113] connect to db server succ!
+W0426 15:42:26.753567 75755520 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0426 15:42:28.195369 153429440 NetModule.cpp:723] ready reconnect server, server id: 991
+I0426 15:42:28.195732 153429440 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0426 15:42:28.195889 75755520 GameServerThread.cpp:113] connect to db server succ!
+W0426 19:09:59.971731 75755520 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0426 19:10:01.481017 153429440 NetModule.cpp:723] ready reconnect server, server id: 991
+W0426 19:10:01.483366 75755520 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0426 19:10:02.983520 153429440 NetModule.cpp:723] ready reconnect server, server id: 991
+I0426 19:10:02.983651 153429440 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0426 19:10:02.984194 75755520 GameServerThread.cpp:113] connect to db server succ!
+W0426 20:17:03.477249 75755520 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0426 20:17:04.799528 153429440 NetModule.cpp:723] ready reconnect server, server id: 991
+W0426 20:17:04.803234 75755520 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0426 20:17:06.306172 153429440 NetModule.cpp:723] ready reconnect server, server id: 991
+I0426 20:17:06.306275 153429440 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0426 20:17:06.307931 75755520 GameServerThread.cpp:113] connect to db server succ!
+W0427 10:29:57.846516 75755520 GameServerThread.cpp:2571] can not enter room, in other room, user id: 85587560

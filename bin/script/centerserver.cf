@@ -1,0 +1,14 @@
+
+service server {
+#	服务地址
+	local_addr = 0.0.0.0:5001
+#	DB服地址
+	dbserver_addr = 0.0.0.0:6001
+	
+#	redis信息
+	redis_addr = 127.0.0.1:8567
+	redis_pwd = huijin@8888.com
+	rediscon_timeout = 10
+	redisrw_timeout = 10
+}
+

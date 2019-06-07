@@ -1,0 +1,17 @@
+Log file created at: 2019/03/25 17:51:59
+Running on machine: henisdeMBP.mshome.net
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0325 17:51:59.475231 26842560 LoginServer.cpp:65] listen at: 0.0.0.0:7001
+W0325 17:52:02.952580 158543872 LoginServerThread.cpp:336] loginserver start succ.
+W0325 19:48:31.874698 158543872 LoginServerThread.cpp:5159] QueryGamePlayData info fail, user id : 85548712, errno: 1140, error msg: In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'record.src_user_today.gameIndex'; this is incompatible with sql_mode=only_full_group_by
+W0326 00:00:18.804424 158543872 LoginServerThread.cpp:547] login server is across day.
+W0326 10:05:33.928584 158543872 LoginServerThread.cpp:5159] QueryGamePlayData info fail, user id : 85572952, errno: 1140, error msg: In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'record.src_user_today.gameIndex'; this is incompatible with sql_mode=only_full_group_by
+W0326 11:15:09.659271 158543872 LoginServerThread.cpp:5408] select expire mail fail, error no: -1, sql:select mailid from mail where userid = '85572952' and mailType = 2 and expireTime < now()
+W0326 16:50:19.352980 158543872 LoginServerThread.cpp:5159] QueryGamePlayData info fail, user id : 85548712, errno: 1140, error msg: In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'record.src_user_today.gameIndex'; this is incompatible with sql_mode=only_full_group_by
+W0326 16:53:54.327791 158543872 LoginServerThread.cpp:5159] QueryGamePlayData info fail, user id : 85539866, errno: 1140, error msg: In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'record.src_user_today.gameIndex'; this is incompatible with sql_mode=only_full_group_by
+W0326 17:06:59.798777 158543872 LoginServerThread.cpp:5159] QueryGamePlayData info fail, user id : 85598252, errno: 1140, error msg: In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'record.src_user_today.gameIndex'; this is incompatible with sql_mode=only_full_group_by
+W0327 00:00:33.579172 158543872 LoginServerThread.cpp:547] login server is across day.
+W0328 00:00:45.094043 158543872 LoginServerThread.cpp:547] login server is across day.
+W0328 11:55:24.680418 158543872 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0328 11:55:24.687142 158543872 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0328 11:55:35.143411 26842560 NetModule.cpp:723] ready reconnect server, server id: 0

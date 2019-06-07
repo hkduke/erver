@@ -1,0 +1,1790 @@
+Log file created at: 2019/01/15 19:21:59
+Running on machine: henisdeMBP.mshome.net
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0115 19:21:59.332775 246654400 DBBufferServer.cpp:55] 正在启动DB服务器...
+I0115 19:21:59.334223 246654400 DBBufferServer.cpp:31] start build db thread...
+W0115 19:21:59.334269 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+I0115 19:21:59.335359 246654400 NetModule.h:71] Init NetModule Finished.
+I0115 19:21:59.553541 246654400 NetModule.h:78] start work thread 0...
+I0115 19:21:59.767045 246654400 NetModule.h:78] start work thread 1...
+I0115 19:21:59.979429 246654400 NetModule.h:78] start work thread 2...
+I0115 19:22:00.192924 246654400 NetModule.h:78] start work thread 3...
+I0115 19:22:00.192945 246654400 NetModule.cpp:69] Start Run NetModule...
+I0115 19:22:00.192979 246654400 NetModule.cpp:88] NetModule Already Startover.
+I0115 19:22:00.192986 246654400 NetModule.cpp:136] Create one server...
+I0115 19:22:01.437073 246654400 NetServer.cpp:55] accept io...127.0.0.1:51490
+I0115 19:22:01.438026 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:51490
+I0115 19:22:01.496112 246654400 NetServer.cpp:55] accept io...127.0.0.1:51492
+W0115 19:22:02.183643 226553856 DBThread.cpp:209] main db server set time ok!
+I0115 19:22:02.183701 226553856 DBThread.cpp:234] init db server succ!
+I0115 19:22:02.694522 246654400 NetServer.cpp:55] accept io...127.0.0.1:51498
+I0115 19:22:31.751346 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:51492
+I0115 19:22:31.751400 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:51498
+I0115 19:27:17.519440 246654400 NetServer.cpp:88] delete io...127.0.0.1:51492
+I0115 19:27:26.072588 246654400 NetServer.cpp:55] accept io...127.0.0.1:52838
+I0115 19:27:35.191942 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:52838
+I0115 19:28:41.433522 246654400 NetServer.cpp:88] delete io...127.0.0.1:52838
+I0115 19:28:48.592706 246654400 NetServer.cpp:55] accept io...127.0.0.1:53187
+I0115 19:28:48.593876 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:53187
+I0115 19:31:10.806026 246654400 NetServer.cpp:88] delete io...127.0.0.1:53187
+I0115 19:34:27.029191 246654400 NetServer.cpp:55] accept io...127.0.0.1:54588
+I0115 19:34:27.030498 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:54588
+W0115 20:01:08.915681 226553856 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '2-1-2-31' for key 'PRIMARY'
+W0115 20:22:03.717509 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0115 20:31:22.791689 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '3-1-2-398' for key 'PRIMARY'
+W0115 21:22:08.078402 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0115 21:34:13.822683 226553856 DBThread.cpp:2733] insert stat_machine_online fail,machine types: 2, statValue:0, error no: -1, error msg: mysql not opened yet!
+I0115 22:13:11.265070 246654400 NetServer.cpp:88] delete io...127.0.0.1:51498
+I0115 22:13:11.265156 246654400 NetServer.cpp:88] delete io...127.0.0.1:51490
+I0115 22:13:11.265184 246654400 NetServer.cpp:88] delete io...127.0.0.1:54588
+I0115 22:13:12.714588 246654400 NetServer.cpp:55] accept io...127.0.0.1:53171
+I0115 22:13:12.715340 246654400 NetServer.cpp:55] accept io...127.0.0.1:53172
+I0115 22:13:15.337018 246654400 NetServer.cpp:55] accept io...127.0.0.1:53189
+W0115 22:14:24.457811 226553856 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-1-2-309' for key 'PRIMARY'
+I0115 22:14:24.458611 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:53171
+I0115 22:14:24.458622 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:53172
+I0115 22:14:53.128693 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:53189
+I0115 22:51:18.079953 246654400 NetServer.cpp:88] delete io...127.0.0.1:53189
+I0115 22:51:18.080047 246654400 NetServer.cpp:88] delete io...127.0.0.1:53171
+I0115 22:51:18.080078 246654400 NetServer.cpp:88] delete io...127.0.0.1:53172
+I0115 22:51:19.566778 246654400 NetServer.cpp:55] accept io...127.0.0.1:54431
+I0115 22:51:19.574064 246654400 NetServer.cpp:55] accept io...127.0.0.1:54432
+I0115 22:51:21.585551 246654400 NetServer.cpp:55] accept io...127.0.0.1:54448
+I0115 22:51:59.558892 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:54431
+I0115 22:51:59.558959 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:54432
+I0115 22:53:46.605607 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:54448
+I0115 23:56:21.119637 246654400 NetServer.cpp:88] delete io...127.0.0.1:54448
+I0115 23:56:21.119724 246654400 NetServer.cpp:88] delete io...127.0.0.1:54432
+I0115 23:56:21.119758 246654400 NetServer.cpp:88] delete io...127.0.0.1:54431
+I0115 23:56:22.602210 246654400 NetServer.cpp:55] accept io...127.0.0.1:55728
+I0115 23:56:22.608100 246654400 NetServer.cpp:55] accept io...127.0.0.1:55729
+I0115 23:56:24.618961 246654400 NetServer.cpp:55] accept io...127.0.0.1:55746
+W0115 23:57:15.408944 226553856 DBThread.cpp:1996] start  AcrossTheDayEvent...
+W0115 23:57:19.576989 226553856 DBThread.cpp:2001] SwitchTodayScoreRank use time : 4167
+W0115 23:57:19.789880 226553856 DBThread.cpp:2006] ResetTodayScoreRankInCache use time : 213
+W0115 23:57:20.111820 226553856 DBThread.cpp:5892] account count: 152
+W0115 23:57:36.112538 226553856 DBThread.cpp:5900] vecAccountInfo use time: 16001
+W0115 23:57:36.112661 226553856 DBThread.cpp:2011] ResetTodayRank use time : 16323
+I0115 23:57:36.112704 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:55728
+I0115 23:59:01.675314 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:55729
+I0115 23:59:01.675370 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:55746
+I0116 01:01:24.110622 246654400 NetServer.cpp:88] delete io...127.0.0.1:55728
+I0116 01:01:24.110747 246654400 NetServer.cpp:88] delete io...127.0.0.1:55729
+I0116 01:01:24.110785 246654400 NetServer.cpp:88] delete io...127.0.0.1:55746
+I0116 01:01:25.591414 246654400 NetServer.cpp:55] accept io...127.0.0.1:57006
+I0116 01:01:25.591459 246654400 NetServer.cpp:55] accept io...127.0.0.1:57005
+I0116 01:01:27.596494 246654400 NetServer.cpp:55] accept io...127.0.0.1:57023
+I0116 01:02:05.714890 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:57006
+I0116 01:02:05.714943 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:57005
+I0116 01:03:53.383785 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:57023
+I0116 02:06:27.140005 246654400 NetServer.cpp:88] delete io...127.0.0.1:57023
+I0116 02:06:27.140077 246654400 NetServer.cpp:88] delete io...127.0.0.1:57005
+I0116 02:06:27.140103 246654400 NetServer.cpp:88] delete io...127.0.0.1:57006
+I0116 02:06:28.620973 246654400 NetServer.cpp:55] accept io...127.0.0.1:58279
+I0116 02:06:28.626107 246654400 NetServer.cpp:55] accept io...127.0.0.1:58281
+I0116 02:06:30.637713 246654400 NetServer.cpp:55] accept io...127.0.0.1:58294
+I0116 02:06:49.686972 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:58279
+I0116 02:06:49.686996 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:58281
+I0116 02:08:39.616416 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:58294
+I0116 03:11:30.156733 246654400 NetServer.cpp:88] delete io...127.0.0.1:58294
+I0116 03:11:30.170344 246654400 NetServer.cpp:88] delete io...127.0.0.1:58281
+I0116 03:11:30.170378 246654400 NetServer.cpp:88] delete io...127.0.0.1:58279
+I0116 03:11:31.639191 246654400 NetServer.cpp:55] accept io...127.0.0.1:59543
+I0116 03:11:31.639240 246654400 NetServer.cpp:55] accept io...127.0.0.1:59544
+I0116 03:11:33.657712 246654400 NetServer.cpp:55] accept io...127.0.0.1:59559
+I0116 03:12:24.562592 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:59543
+I0116 03:12:24.562677 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:59544
+I0116 03:13:52.580205 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:59559
+I0116 04:16:33.185326 246654400 NetServer.cpp:88] delete io...127.0.0.1:59559
+I0116 04:16:33.200068 246654400 NetServer.cpp:88] delete io...127.0.0.1:59544
+I0116 04:16:33.200104 246654400 NetServer.cpp:88] delete io...127.0.0.1:59543
+I0116 04:16:34.675932 246654400 NetServer.cpp:55] accept io...127.0.0.1:60831
+I0116 04:16:34.676115 246654400 NetServer.cpp:55] accept io...127.0.0.1:60833
+I0116 04:16:36.678122 246654400 NetServer.cpp:55] accept io...127.0.0.1:60846
+I0116 04:17:14.690244 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:60831
+I0116 04:17:14.690305 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:60833
+I0116 04:19:01.971705 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:60846
+I0116 05:21:36.216451 246654400 NetServer.cpp:88] delete io...127.0.0.1:60846
+I0116 05:21:36.216539 246654400 NetServer.cpp:88] delete io...127.0.0.1:60833
+I0116 05:21:36.216569 246654400 NetServer.cpp:88] delete io...127.0.0.1:60831
+I0116 05:21:37.706274 246654400 NetServer.cpp:55] accept io...127.0.0.1:62103
+I0116 05:21:37.706342 246654400 NetServer.cpp:55] accept io...127.0.0.1:62102
+I0116 05:21:39.708283 246654400 NetServer.cpp:55] accept io...127.0.0.1:62119
+I0116 05:22:17.748888 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:62103
+I0116 05:22:17.748942 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:62102
+I0116 05:24:05.368172 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:62119
+I0116 06:26:40.250262 246654400 NetServer.cpp:88] delete io...127.0.0.1:62102
+I0116 06:26:40.250414 246654400 NetServer.cpp:88] delete io...127.0.0.1:62103
+I0116 06:26:40.250447 246654400 NetServer.cpp:88] delete io...127.0.0.1:62119
+I0116 06:26:41.738880 246654400 NetServer.cpp:55] accept io...127.0.0.1:63399
+I0116 06:26:41.741564 246654400 NetServer.cpp:55] accept io...127.0.0.1:63400
+I0116 06:26:43.750025 246654400 NetServer.cpp:55] accept io...127.0.0.1:63415
+I0116 06:27:34.527396 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:63399
+I0116 06:27:34.527532 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:63400
+I0116 06:29:00.804016 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:63415
+W0116 06:29:42.464020 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+I0116 07:31:44.279328 246654400 NetServer.cpp:88] delete io...127.0.0.1:63400
+I0116 07:31:44.279404 246654400 NetServer.cpp:88] delete io...127.0.0.1:63415
+I0116 07:31:44.279454 246654400 NetServer.cpp:88] delete io...127.0.0.1:63399
+I0116 07:31:45.765630 246654400 NetServer.cpp:55] accept io...127.0.0.1:64669
+I0116 07:31:45.766117 246654400 NetServer.cpp:55] accept io...127.0.0.1:64670
+I0116 07:31:47.781843 246654400 NetServer.cpp:55] accept io...127.0.0.1:64688
+I0116 07:32:25.983476 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:64669
+I0116 07:32:25.983531 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:64670
+I0116 07:34:12.861249 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:64688
+I0116 08:36:48.318886 246654400 NetServer.cpp:88] delete io...127.0.0.1:64670
+I0116 08:36:48.318992 246654400 NetServer.cpp:88] delete io...127.0.0.1:64688
+I0116 08:36:48.319021 246654400 NetServer.cpp:88] delete io...127.0.0.1:64669
+I0116 08:36:49.801602 246654400 NetServer.cpp:55] accept io...127.0.0.1:49591
+I0116 08:36:49.801820 246654400 NetServer.cpp:55] accept io...127.0.0.1:49593
+I0116 08:36:51.809917 246654400 NetServer.cpp:55] accept io...127.0.0.1:49608
+I0116 08:37:29.814576 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:49591
+I0116 08:37:29.814631 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:49593
+I0116 08:39:15.862335 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:49608
+I0116 09:41:52.336750 246654400 NetServer.cpp:88] delete io...127.0.0.1:49591
+I0116 09:41:52.336827 246654400 NetServer.cpp:88] delete io...127.0.0.1:49593
+I0116 09:41:52.336860 246654400 NetServer.cpp:88] delete io...127.0.0.1:49608
+I0116 09:41:53.825762 246654400 NetServer.cpp:55] accept io...127.0.0.1:50859
+I0116 09:41:53.827108 246654400 NetServer.cpp:55] accept io...127.0.0.1:50860
+I0116 09:41:55.838445 246654400 NetServer.cpp:55] accept io...127.0.0.1:50875
+I0116 09:42:46.674409 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:50859
+I0116 09:42:46.674468 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:50860
+I0116 09:44:13.929497 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:50875
+W0116 10:29:31.988059 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0116 11:29:36.366852 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0116 11:31:52.436538 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-1-2-310' for key 'PRIMARY'
+W0116 12:23:32.193001 226553856 DBThread.cpp:5442] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0116 12:29:40.727345 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0116 12:40:41.446768 226553856 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '5-1-3-256' for key 'PRIMARY'
+W0116 13:00:56.990972 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-1-1-402' for key 'PRIMARY'
+W0116 13:29:45.117846 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0116 13:50:45.222127 226553856 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '4-3-1-31' for key 'PRIMARY'
+W0116 14:23:33.358656 226553856 DBThread.cpp:5442] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0116 14:29:49.515339 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0116 15:00:49.292784 226553856 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '6-1-2-371' for key 'PRIMARY'
+W0116 15:13:31.117998 226553856 DBThread.cpp:5442] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0116 15:29:53.897137 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0116 15:30:51.382763 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-3-1-464' for key 'PRIMARY'
+W0116 16:10:54.874150 226553856 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '3-1-1-519' for key 'PRIMARY'
+W0116 16:29:58.272028 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0116 17:21:11.748185 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '6-1-2-372' for key 'PRIMARY'
+W0116 17:30:02.632824 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0116 18:30:06.995632 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0116 18:31:01.144222 226553856 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-1-1-403' for key 'PRIMARY'
+W0116 19:30:11.391616 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0116 19:40:25.529745 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-4-1-346' for key 'PRIMARY'
+W0116 20:01:05.726609 226553856 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '2-1-2-32' for key 'PRIMARY'
+W0116 20:30:15.767151 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0116 20:31:33.120743 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '3-1-2-401' for key 'PRIMARY'
+W0116 21:30:20.129871 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0116 21:41:12.927884 226553856 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-1-2-311' for key 'PRIMARY'
+I0116 22:19:48.708858 246654400 NetServer.cpp:88] delete io...127.0.0.1:50860
+I0116 22:19:48.708938 246654400 NetServer.cpp:88] delete io...127.0.0.1:50875
+I0116 22:19:48.708961 246654400 NetServer.cpp:88] delete io...127.0.0.1:50859
+I0116 22:19:50.183945 246654400 NetServer.cpp:55] accept io...127.0.0.1:52794
+I0116 22:19:50.190471 246654400 NetServer.cpp:55] accept io...127.0.0.1:52796
+I0116 22:19:52.194980 246654400 NetServer.cpp:55] accept io...127.0.0.1:52815
+I0116 22:20:56.677402 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:52794
+I0116 22:20:56.677553 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:52796
+I0116 22:21:25.083457 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:52815
+I0116 23:20:24.442035 246654400 NetServer.cpp:88] delete io...127.0.0.1:52815
+I0116 23:20:24.442100 246654400 NetServer.cpp:88] delete io...127.0.0.1:52796
+I0116 23:20:24.442140 246654400 NetServer.cpp:88] delete io...127.0.0.1:52794
+I0116 23:20:25.917235 246654400 NetServer.cpp:55] accept io...127.0.0.1:54061
+I0116 23:20:25.918066 246654400 NetServer.cpp:55] accept io...127.0.0.1:54063
+I0116 23:20:27.926095 246654400 NetServer.cpp:55] accept io...127.0.0.1:54083
+W0116 23:21:18.984357 226553856 DBThread.cpp:1996] start  AcrossTheDayEvent...
+W0116 23:21:22.997946 226553856 DBThread.cpp:2001] SwitchTodayScoreRank use time : 4012
+W0116 23:21:23.208369 226553856 DBThread.cpp:2006] ResetTodayScoreRankInCache use time : 211
+W0116 23:21:23.529824 226553856 DBThread.cpp:5892] account count: 153
+W0116 23:21:39.592136 226553856 DBThread.cpp:5900] vecAccountInfo use time: 16063
+W0116 23:21:39.592350 226553856 DBThread.cpp:2011] ResetTodayRank use time : 16384
+I0116 23:21:39.592458 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:54061
+I0116 23:21:39.592479 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:54063
+I0116 23:23:06.915632 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:54083
+I0117 00:25:28.500077 246654400 NetServer.cpp:88] delete io...127.0.0.1:54083
+I0117 00:25:28.500180 246654400 NetServer.cpp:88] delete io...127.0.0.1:54063
+I0117 00:25:28.500216 246654400 NetServer.cpp:88] delete io...127.0.0.1:54061
+I0117 00:25:29.986320 246654400 NetServer.cpp:55] accept io...127.0.0.1:55342
+I0117 00:25:32.001039 246654400 NetServer.cpp:55] accept io...127.0.0.1:55358
+I0117 00:25:40.035465 246654400 NetServer.cpp:55] accept io...127.0.0.1:55398
+I0117 00:26:23.027290 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:55342
+I0117 00:26:23.028085 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:55358
+I0117 00:26:23.028101 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:55398
+I0117 01:30:32.484572 246654400 NetServer.cpp:88] delete io...127.0.0.1:55342
+I0117 01:30:32.484673 246654400 NetServer.cpp:88] delete io...127.0.0.1:55398
+I0117 01:30:32.484700 246654400 NetServer.cpp:88] delete io...127.0.0.1:55358
+W0117 01:30:32.813185 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: -1, error: mysql not opened yet!
+W0117 01:30:33.756377 227090432 DBThread.cpp:4593] INSERT wealth god index fail, errno: -1, error: mysql not opened yet!
+I0117 01:30:33.970880 246654400 NetServer.cpp:55] accept io...127.0.0.1:56621
+I0117 01:30:33.973654 246654400 NetServer.cpp:55] accept io...127.0.0.1:56622
+I0117 01:30:35.987967 246654400 NetServer.cpp:55] accept io...127.0.0.1:56640
+I0117 01:31:13.971582 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:56621
+I0117 01:31:13.972393 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:56622
+I0117 01:33:02.260087 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:56640
+I0117 02:35:35.510612 246654400 NetServer.cpp:88] delete io...127.0.0.1:56640
+I0117 02:35:35.527626 246654400 NetServer.cpp:88] delete io...127.0.0.1:56621
+I0117 02:35:35.527662 246654400 NetServer.cpp:88] delete io...127.0.0.1:56622
+I0117 02:35:36.991861 246654400 NetServer.cpp:55] accept io...127.0.0.1:57898
+I0117 02:35:36.996349 246654400 NetServer.cpp:55] accept io...127.0.0.1:57900
+I0117 02:35:39.008486 246654400 NetServer.cpp:55] accept io...127.0.0.1:57914
+I0117 02:35:58.330632 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:57898
+I0117 02:35:58.330687 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:57900
+I0117 02:37:46.511894 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:57914
+I0117 03:40:39.537710 246654400 NetServer.cpp:88] delete io...127.0.0.1:57898
+I0117 03:40:39.542527 246654400 NetServer.cpp:88] delete io...127.0.0.1:57914
+I0117 03:40:39.542629 246654400 NetServer.cpp:88] delete io...127.0.0.1:57900
+I0117 03:40:41.024871 246654400 NetServer.cpp:55] accept io...127.0.0.1:59175
+I0117 03:40:41.025022 246654400 NetServer.cpp:55] accept io...127.0.0.1:59176
+I0117 03:40:43.034875 246654400 NetServer.cpp:55] accept io...127.0.0.1:59192
+I0117 03:41:33.981942 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:59175
+I0117 03:41:33.982128 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:59176
+I0117 03:43:00.835124 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:59192
+I0117 04:45:43.568610 246654400 NetServer.cpp:88] delete io...127.0.0.1:59192
+I0117 04:45:43.569031 246654400 NetServer.cpp:88] delete io...127.0.0.1:59176
+I0117 04:45:43.569066 246654400 NetServer.cpp:88] delete io...127.0.0.1:59175
+I0117 04:45:45.048282 246654400 NetServer.cpp:55] accept io...127.0.0.1:60455
+I0117 04:45:45.048409 246654400 NetServer.cpp:55] accept io...127.0.0.1:60456
+I0117 04:45:47.055019 246654400 NetServer.cpp:55] accept io...127.0.0.1:60472
+I0117 04:46:25.031889 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:60455
+I0117 04:46:25.031973 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:60456
+I0117 04:48:12.130591 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:60472
+I0117 05:50:47.587258 246654400 NetServer.cpp:88] delete io...127.0.0.1:60472
+I0117 05:50:47.599676 246654400 NetServer.cpp:88] delete io...127.0.0.1:60456
+I0117 05:50:47.599719 246654400 NetServer.cpp:88] delete io...127.0.0.1:60455
+I0117 05:50:49.072887 246654400 NetServer.cpp:55] accept io...127.0.0.1:61743
+I0117 05:50:49.078305 246654400 NetServer.cpp:55] accept io...127.0.0.1:61744
+I0117 05:50:51.079682 246654400 NetServer.cpp:55] accept io...127.0.0.1:61760
+I0117 05:51:10.314347 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:61743
+I0117 05:51:10.314401 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:61744
+I0117 05:53:01.260545 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:61760
+I0117 06:55:51.629910 246654400 NetServer.cpp:88] delete io...127.0.0.1:61760
+I0117 06:55:51.630635 246654400 NetServer.cpp:88] delete io...127.0.0.1:61743
+I0117 06:55:51.630666 246654400 NetServer.cpp:88] delete io...127.0.0.1:61744
+I0117 06:55:53.107870 246654400 NetServer.cpp:55] accept io...127.0.0.1:63047
+I0117 06:55:53.110956 246654400 NetServer.cpp:55] accept io...127.0.0.1:63049
+I0117 06:55:55.121300 246654400 NetServer.cpp:55] accept io...127.0.0.1:63062
+I0117 06:56:14.057952 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:63047
+I0117 06:56:14.058007 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:63049
+I0117 06:58:10.192729 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:63062
+W0117 07:00:14.298463 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+I0117 08:00:55.643788 246654400 NetServer.cpp:88] delete io...127.0.0.1:63062
+I0117 08:00:55.643853 246654400 NetServer.cpp:88] delete io...127.0.0.1:63047
+I0117 08:00:55.643874 246654400 NetServer.cpp:88] delete io...127.0.0.1:63049
+I0117 08:00:57.126092 246654400 NetServer.cpp:55] accept io...127.0.0.1:64344
+I0117 08:00:57.134876 246654400 NetServer.cpp:55] accept io...127.0.0.1:64346
+I0117 08:00:59.151377 246654400 NetServer.cpp:55] accept io...127.0.0.1:64365
+I0117 08:01:18.376965 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:64344
+I0117 08:01:18.377018 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:64346
+I0117 08:03:06.742116 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:64365
+I0117 09:05:59.686132 246654400 NetServer.cpp:88] delete io...127.0.0.1:64346
+I0117 09:05:59.702440 246654400 NetServer.cpp:88] delete io...127.0.0.1:64365
+I0117 09:05:59.702497 246654400 NetServer.cpp:88] delete io...127.0.0.1:64344
+I0117 09:06:01.162616 246654400 NetServer.cpp:55] accept io...127.0.0.1:49255
+I0117 09:06:01.165648 246654400 NetServer.cpp:55] accept io...127.0.0.1:49256
+I0117 09:06:03.184093 246654400 NetServer.cpp:55] accept io...127.0.0.1:49272
+I0117 09:06:54.204198 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:49255
+I0117 09:06:54.204320 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:49256
+I0117 09:08:20.145488 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:49272
+I0117 09:45:02.706905 246654400 NetServer.cpp:88] delete io...127.0.0.1:49272
+I0117 09:45:02.706997 246654400 NetServer.cpp:88] delete io...127.0.0.1:49256
+I0117 09:45:02.707031 246654400 NetServer.cpp:88] delete io...127.0.0.1:49255
+I0117 09:45:04.196434 246654400 NetServer.cpp:55] accept io...127.0.0.1:50523
+I0117 09:45:04.196604 246654400 NetServer.cpp:55] accept io...127.0.0.1:50524
+I0117 09:45:06.209151 246654400 NetServer.cpp:55] accept io...127.0.0.1:50540
+I0117 09:45:57.122946 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:50523
+I0117 09:45:57.123069 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:50524
+I0117 09:47:22.801909 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:50540
+W0117 10:20:58.590087 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '3-1-2-404' for key 'PRIMARY'
+W0117 10:34:03.048518 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0117 11:31:02.331346 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-1-2-312' for key 'PRIMARY'
+W0117 11:34:07.397938 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0117 12:34:11.778784 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0117 12:36:43.686352 226553856 DBThread.cpp:5442] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0117 12:40:11.690951 226553856 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '5-1-3-257' for key 'PRIMARY'
+W0117 13:01:06.694075 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-1-1-404' for key 'PRIMARY'
+W0117 13:06:44.470775 226553856 DBThread.cpp:5442] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0117 13:34:16.157898 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0117 13:50:28.290607 226553856 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '4-3-1-33' for key 'PRIMARY'
+W0117 14:34:20.538468 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0117 15:00:18.749521 226553856 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '6-1-2-374' for key 'PRIMARY'
+W0117 15:31:00.488299 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-3-1-466' for key 'PRIMARY'
+W0117 15:34:24.921867 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0117 16:01:28.253962 226553856 DBThread.cpp:2733] insert stat_machine_online fail,machine types: 2, statValue:1, error no: -1, error msg: mysql not opened yet!
+W0117 16:10:29.991845 226553856 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '3-1-1-521' for key 'PRIMARY'
+W0117 16:34:29.281510 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0117 17:21:19.208130 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '6-1-2-375' for key 'PRIMARY'
+W0117 17:34:33.661527 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0117 18:27:16.314352 226553856 DBThread.cpp:2733] insert stat_machine_online fail,machine types: 2, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0117 18:30:28.769354 226553856 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-1-1-405' for key 'PRIMARY'
+W0117 18:34:38.048030 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0117 19:34:42.407124 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0117 19:40:32.804888 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-4-1-348' for key 'PRIMARY'
+W0117 20:00:33.597138 226553856 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '2-1-2-33' for key 'PRIMARY'
+W0117 20:16:36.606426 226553856 DBThread.cpp:5442] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0117 20:31:45.621408 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '3-1-2-405' for key 'PRIMARY'
+W0117 20:34:46.782644 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0117 21:34:51.179024 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0117 21:40:38.596148 226553856 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-1-2-313' for key 'PRIMARY'
+I0117 22:11:21.051164 246654400 NetServer.cpp:88] delete io...127.0.0.1:50540
+I0117 22:11:21.058502 246654400 NetServer.cpp:88] delete io...127.0.0.1:50523
+I0117 22:11:21.058542 246654400 NetServer.cpp:88] delete io...127.0.0.1:50524
+W0117 22:11:22.508013 228163584 DBThread.cpp:4593] INSERT wealth god index fail, errno: -1, error: mysql not opened yet!
+I0117 22:11:22.529009 246654400 NetServer.cpp:55] accept io...127.0.0.1:63456
+I0117 22:11:22.529253 246654400 NetServer.cpp:55] accept io...127.0.0.1:63458
+I0117 22:11:24.848793 246654400 NetServer.cpp:55] accept io...127.0.0.1:63476
+I0117 22:12:30.080628 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:63456
+I0117 22:12:30.081447 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:63458
+I0117 22:12:58.485777 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:63476
+I0117 22:56:25.745883 246654400 NetServer.cpp:88] delete io...127.0.0.1:63458
+I0117 22:56:25.746114 246654400 NetServer.cpp:88] delete io...127.0.0.1:63476
+I0117 22:56:25.746136 246654400 NetServer.cpp:88] delete io...127.0.0.1:63456
+I0117 22:56:27.233114 246654400 NetServer.cpp:55] accept io...127.0.0.1:64728
+I0117 22:56:27.233381 246654400 NetServer.cpp:55] accept io...127.0.0.1:64729
+I0117 22:56:29.248678 246654400 NetServer.cpp:55] accept io...127.0.0.1:64749
+I0117 22:57:20.256614 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:64728
+I0117 22:57:20.256671 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:64729
+I0117 22:58:48.463265 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:64749
+W0117 23:00:25.955961 226553856 DBThread.cpp:1996] start  AcrossTheDayEvent...
+W0117 23:00:29.843794 226553856 DBThread.cpp:2001] SwitchTodayScoreRank use time : 3887
+W0117 23:00:30.056129 226553856 DBThread.cpp:2006] ResetTodayScoreRankInCache use time : 213
+W0117 23:00:30.377835 226553856 DBThread.cpp:5892] account count: 159
+W0117 23:00:47.186223 226553856 DBThread.cpp:5900] vecAccountInfo use time: 16809
+W0117 23:00:47.186332 226553856 DBThread.cpp:2011] ResetTodayRank use time : 17130
+I0118 00:01:29.786312 246654400 NetServer.cpp:88] delete io...127.0.0.1:64749
+I0118 00:01:29.786406 246654400 NetServer.cpp:88] delete io...127.0.0.1:64729
+I0118 00:01:29.786444 246654400 NetServer.cpp:88] delete io...127.0.0.1:64728
+I0118 00:01:31.266407 246654400 NetServer.cpp:55] accept io...127.0.0.1:49625
+I0118 00:01:33.289124 246654400 NetServer.cpp:55] accept io...127.0.0.1:49649
+I0118 00:01:50.875412 246654400 NetServer.cpp:55] accept io...127.0.0.1:49740
+I0118 00:02:33.532855 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:49625
+I0118 00:02:33.533638 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:49649
+I0118 00:02:33.533655 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:49740
+I0118 01:06:33.795050 246654400 NetServer.cpp:88] delete io...127.0.0.1:49740
+I0118 01:06:33.807335 246654400 NetServer.cpp:88] delete io...127.0.0.1:49625
+I0118 01:06:33.807373 246654400 NetServer.cpp:88] delete io...127.0.0.1:49649
+I0118 01:06:35.282446 246654400 NetServer.cpp:55] accept io...127.0.0.1:50915
+I0118 01:06:35.284730 246654400 NetServer.cpp:55] accept io...127.0.0.1:50916
+I0118 01:06:37.303145 246654400 NetServer.cpp:55] accept io...127.0.0.1:50932
+I0118 01:06:56.199260 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:50915
+I0118 01:06:56.199286 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:50916
+I0118 01:08:46.815946 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:50932
+I0118 02:11:37.842110 246654400 NetServer.cpp:88] delete io...127.0.0.1:50916
+I0118 02:11:37.857030 246654400 NetServer.cpp:88] delete io...127.0.0.1:50915
+I0118 02:11:37.857079 246654400 NetServer.cpp:88] delete io...127.0.0.1:50932
+I0118 02:11:39.323350 246654400 NetServer.cpp:55] accept io...127.0.0.1:52199
+I0118 02:11:39.326109 246654400 NetServer.cpp:55] accept io...127.0.0.1:52200
+I0118 02:11:41.338366 246654400 NetServer.cpp:55] accept io...127.0.0.1:52222
+I0118 02:12:00.443737 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:52199
+I0118 02:12:00.443763 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:52200
+I0118 02:13:49.103345 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:52222
+I0118 03:16:41.851836 246654400 NetServer.cpp:88] delete io...127.0.0.1:52200
+I0118 03:16:41.851922 246654400 NetServer.cpp:88] delete io...127.0.0.1:52199
+I0118 03:16:41.851953 246654400 NetServer.cpp:88] delete io...127.0.0.1:52222
+I0118 03:16:43.328264 246654400 NetServer.cpp:55] accept io...127.0.0.1:53479
+I0118 03:16:43.328320 246654400 NetServer.cpp:55] accept io...127.0.0.1:53480
+I0118 03:16:45.357344 246654400 NetServer.cpp:55] accept io...127.0.0.1:53499
+I0118 03:17:23.307823 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:53479
+I0118 03:17:23.307883 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:53480
+I0118 03:19:10.187896 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:53499
+I0118 04:21:45.870242 246654400 NetServer.cpp:88] delete io...127.0.0.1:53480
+I0118 04:21:45.870301 246654400 NetServer.cpp:88] delete io...127.0.0.1:53479
+I0118 04:21:45.870332 246654400 NetServer.cpp:88] delete io...127.0.0.1:53499
+I0118 04:21:47.350366 246654400 NetServer.cpp:55] accept io...127.0.0.1:54776
+I0118 04:21:47.355437 246654400 NetServer.cpp:55] accept io...127.0.0.1:54777
+I0118 04:21:49.360232 246654400 NetServer.cpp:55] accept io...127.0.0.1:54795
+I0118 04:22:27.941468 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:54776
+I0118 04:22:27.949908 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:54777
+I0118 04:24:17.262373 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:54795
+I0118 05:26:49.890276 246654400 NetServer.cpp:88] delete io...127.0.0.1:54795
+I0118 05:26:49.890377 246654400 NetServer.cpp:88] delete io...127.0.0.1:54776
+I0118 05:26:49.890429 246654400 NetServer.cpp:88] delete io...127.0.0.1:54777
+I0118 05:26:51.378127 246654400 NetServer.cpp:55] accept io...127.0.0.1:56055
+I0118 05:26:51.378207 246654400 NetServer.cpp:55] accept io...127.0.0.1:56056
+I0118 05:26:53.394567 246654400 NetServer.cpp:55] accept io...127.0.0.1:56072
+I0118 05:27:12.392388 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:56055
+I0118 05:27:12.392418 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:56056
+I0118 05:29:03.118553 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:56072
+I0118 06:31:53.924129 246654400 NetServer.cpp:88] delete io...127.0.0.1:56072
+I0118 06:31:53.924199 246654400 NetServer.cpp:88] delete io...127.0.0.1:56055
+I0118 06:31:53.924239 246654400 NetServer.cpp:88] delete io...127.0.0.1:56056
+I0118 06:31:55.409687 246654400 NetServer.cpp:55] accept io...127.0.0.1:57346
+I0118 06:31:55.412797 246654400 NetServer.cpp:55] accept io...127.0.0.1:57347
+I0118 06:31:57.425170 246654400 NetServer.cpp:55] accept io...127.0.0.1:57364
+I0118 06:32:48.381726 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:57346
+I0118 06:32:48.381786 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:57347
+I0118 06:34:16.427189 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:57364
+I0118 07:36:57.962925 246654400 NetServer.cpp:88] delete io...127.0.0.1:57347
+I0118 07:36:57.962990 246654400 NetServer.cpp:88] delete io...127.0.0.1:57346
+I0118 07:36:57.963021 246654400 NetServer.cpp:88] delete io...127.0.0.1:57364
+I0118 07:36:59.441468 246654400 NetServer.cpp:55] accept io...127.0.0.1:58617
+I0118 07:36:59.444461 246654400 NetServer.cpp:55] accept io...127.0.0.1:58619
+I0118 07:37:01.462415 246654400 NetServer.cpp:55] accept io...127.0.0.1:58634
+I0118 07:37:52.415638 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:58617
+I0118 07:37:52.415726 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:58619
+I0118 07:39:19.603868 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:58634
+I0118 08:42:01.986867 246654400 NetServer.cpp:88] delete io...127.0.0.1:58617
+I0118 08:42:01.986974 246654400 NetServer.cpp:88] delete io...127.0.0.1:58619
+I0118 08:42:01.987007 246654400 NetServer.cpp:88] delete io...127.0.0.1:58634
+I0118 08:42:03.478325 246654400 NetServer.cpp:55] accept io...127.0.0.1:59895
+I0118 08:42:03.485316 246654400 NetServer.cpp:55] accept io...127.0.0.1:59896
+I0118 08:42:05.489703 246654400 NetServer.cpp:55] accept io...127.0.0.1:59915
+I0118 08:42:43.499727 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:59895
+I0118 08:42:43.499791 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:59896
+W0118 08:44:24.221751 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+I0118 08:44:30.703852 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:59915
+I0118 09:45:03.010608 246654400 NetServer.cpp:88] delete io...127.0.0.1:59895
+I0118 09:45:03.010707 246654400 NetServer.cpp:88] delete io...127.0.0.1:59915
+I0118 09:45:03.010743 246654400 NetServer.cpp:88] delete io...127.0.0.1:59896
+I0118 09:45:04.497532 246654400 NetServer.cpp:55] accept io...127.0.0.1:61170
+I0118 09:45:04.497602 246654400 NetServer.cpp:55] accept io...127.0.0.1:61171
+I0118 09:45:06.505472 246654400 NetServer.cpp:55] accept io...127.0.0.1:61187
+I0118 09:45:25.565085 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:61170
+I0118 09:45:25.565110 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:61171
+I0118 09:47:13.251174 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:61187
+W0118 10:20:58.452682 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '3-1-2-407' for key 'PRIMARY'
+W0118 10:42:20.629523 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0118 11:42:25.016538 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0118 12:40:11.616209 226553856 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '5-1-3-258' for key 'PRIMARY'
+W0118 12:42:29.407032 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0118 13:01:06.705572 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-1-1-406' for key 'PRIMARY'
+W0118 13:42:33.776413 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0118 13:50:15.053205 226553856 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '4-3-1-34' for key 'PRIMARY'
+W0118 14:16:44.773293 226553856 DBThread.cpp:5442] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+I0118 14:31:06.605108 246654400 NetServer.cpp:88] delete io...127.0.0.1:61170
+W0118 14:42:38.144438 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0118 15:00:17.907821 226553856 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '6-1-2-376' for key 'PRIMARY'
+W0118 15:30:58.645026 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-3-1-469' for key 'PRIMARY'
+W0118 15:42:42.518821 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0118 15:46:43.568877 226553856 DBThread.cpp:5442] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0118 16:10:21.401842 226553856 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '3-1-1-523' for key 'PRIMARY'
+W0118 16:37:34.511937 226553856 DBThread.cpp:5442] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0118 16:42:46.891280 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0118 17:21:23.230442 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '6-1-2-377' for key 'PRIMARY'
+W0118 17:42:51.270620 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0118 18:31:31.127616 226553856 DBThread.cpp:2733] insert stat_machine_online fail,machine types: 2, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0118 18:32:12.191145 226553856 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-1-1-407' for key 'PRIMARY'
+W0118 18:42:55.628394 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0118 18:46:39.434726 226553856 DBThread.cpp:5442] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0118 19:40:32.323907 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-4-1-351' for key 'PRIMARY'
+W0118 19:42:59.977267 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0118 20:00:32.957826 226553856 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '2-1-2-35' for key 'PRIMARY'
+W0118 20:31:39.266677 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '3-1-2-408' for key 'PRIMARY'
+W0118 20:43:04.317072 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+I0118 22:17:45.333472 246654400 NetServer.cpp:88] delete io...127.0.0.1:61187
+I0118 22:17:45.334462 246654400 NetServer.cpp:88] delete io...127.0.0.1:61171
+I0118 22:17:47.665655 246654400 NetServer.cpp:55] accept io...127.0.0.1:60422
+I0118 22:17:48.673614 246654400 NetServer.cpp:55] accept io...127.0.0.1:60432
+I0118 22:19:10.018407 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:60422
+I0118 22:19:40.387820 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:60432
+W0118 22:21:48.702687 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+I0118 22:59:43.129307 246654400 NetServer.cpp:88] delete io...127.0.0.1:60432
+I0118 22:59:43.129364 246654400 NetServer.cpp:88] delete io...127.0.0.1:60422
+I0118 22:59:44.614336 246654400 NetServer.cpp:55] accept io...127.0.0.1:61747
+I0118 22:59:46.628788 246654400 NetServer.cpp:55] accept io...127.0.0.1:61765
+W0118 23:00:47.628664 226553856 DBThread.cpp:1996] start  AcrossTheDayEvent...
+W0118 23:00:51.785360 226553856 DBThread.cpp:2001] SwitchTodayScoreRank use time : 4157
+W0118 23:00:52.003731 226553856 DBThread.cpp:2006] ResetTodayScoreRankInCache use time : 218
+W0118 23:00:52.328375 226553856 DBThread.cpp:5892] account count: 153
+W0118 23:01:09.023421 226553856 DBThread.cpp:5900] vecAccountInfo use time: 16695
+W0118 23:01:09.024441 226553856 DBThread.cpp:2011] ResetTodayRank use time : 17021
+I0118 23:01:09.025259 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:61747
+W0118 23:03:12.519059 226553856 DBThread.cpp:8257] select generalize promoter info platform id fail, errno:-1, error: mysql not opened yet!
+I0118 23:03:40.964937 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:61765
+I0119 00:04:46.199997 246654400 NetServer.cpp:88] delete io...127.0.0.1:61765
+I0119 00:04:46.214504 246654400 NetServer.cpp:88] delete io...127.0.0.1:61747
+I0119 00:04:49.691972 246654400 NetServer.cpp:55] accept io...127.0.0.1:63043
+I0119 00:04:58.224704 246654400 NetServer.cpp:55] accept io...127.0.0.1:63088
+I0119 00:05:28.438091 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:63043
+I0119 00:05:28.438418 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:63088
+I0119 01:09:49.224999 246654400 NetServer.cpp:88] delete io...127.0.0.1:63088
+I0119 01:09:49.225100 246654400 NetServer.cpp:88] delete io...127.0.0.1:63043
+I0119 01:09:50.706809 246654400 NetServer.cpp:55] accept io...127.0.0.1:64310
+I0119 01:09:52.711861 246654400 NetServer.cpp:55] accept io...127.0.0.1:64322
+I0119 01:10:31.946604 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:64310
+I0119 01:12:50.809639 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:64322
+I0119 02:14:53.246973 246654400 NetServer.cpp:88] delete io...127.0.0.1:64322
+I0119 02:14:53.247062 246654400 NetServer.cpp:88] delete io...127.0.0.1:64310
+I0119 02:14:54.707821 246654400 NetServer.cpp:55] accept io...127.0.0.1:49213
+I0119 02:14:56.717139 246654400 NetServer.cpp:55] accept io...127.0.0.1:49228
+I0119 02:15:49.828481 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:49213
+I0119 02:17:25.396134 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:49228
+I0119 03:19:57.262951 246654400 NetServer.cpp:88] delete io...127.0.0.1:49213
+I0119 03:19:57.263605 246654400 NetServer.cpp:88] delete io...127.0.0.1:49228
+I0119 03:19:58.737936 246654400 NetServer.cpp:55] accept io...127.0.0.1:50487
+I0119 03:20:00.753674 246654400 NetServer.cpp:55] accept io...127.0.0.1:50500
+I0119 03:20:53.691632 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:50487
+I0119 03:22:28.047411 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:50500
+I0119 04:25:01.279319 246654400 NetServer.cpp:88] delete io...127.0.0.1:50500
+I0119 04:25:01.279384 246654400 NetServer.cpp:88] delete io...127.0.0.1:50487
+I0119 04:25:02.768137 246654400 NetServer.cpp:55] accept io...127.0.0.1:51793
+I0119 04:25:04.781888 246654400 NetServer.cpp:55] accept io...127.0.0.1:51806
+I0119 04:25:50.689729 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:51793
+I0119 04:27:43.580492 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:51806
+I0119 05:30:05.302477 246654400 NetServer.cpp:88] delete io...127.0.0.1:51793
+I0119 05:30:05.302578 246654400 NetServer.cpp:88] delete io...127.0.0.1:51806
+I0119 05:30:06.787768 246654400 NetServer.cpp:55] accept io...127.0.0.1:53082
+I0119 05:30:08.799757 246654400 NetServer.cpp:55] accept io...127.0.0.1:53095
+I0119 05:31:05.449398 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:53082
+I0119 05:32:35.964421 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:53095
+I0119 06:35:09.327751 246654400 NetServer.cpp:88] delete io...127.0.0.1:53095
+I0119 06:35:09.330868 246654400 NetServer.cpp:88] delete io...127.0.0.1:53082
+I0119 06:35:10.810479 246654400 NetServer.cpp:55] accept io...127.0.0.1:54375
+I0119 06:35:12.824751 246654400 NetServer.cpp:55] accept io...127.0.0.1:54388
+I0119 06:36:08.781477 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:54375
+I0119 06:37:44.083218 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:54388
+I0119 07:40:13.352274 246654400 NetServer.cpp:88] delete io...127.0.0.1:54375
+I0119 07:40:13.352363 246654400 NetServer.cpp:88] delete io...127.0.0.1:54388
+I0119 07:40:14.834197 246654400 NetServer.cpp:55] accept io...127.0.0.1:55647
+I0119 07:40:16.844053 246654400 NetServer.cpp:55] accept io...127.0.0.1:55659
+I0119 07:40:59.713902 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:55647
+I0119 07:42:56.714516 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:55659
+I0119 08:45:17.378968 246654400 NetServer.cpp:88] delete io...127.0.0.1:55659
+I0119 08:45:17.379078 246654400 NetServer.cpp:88] delete io...127.0.0.1:55647
+I0119 08:45:18.862792 246654400 NetServer.cpp:55] accept io...127.0.0.1:56925
+I0119 08:45:20.872936 246654400 NetServer.cpp:55] accept io...127.0.0.1:56938
+I0119 08:46:18.065537 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:56925
+I0119 08:47:53.384057 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:56938
+I0119 09:45:02.404651 246654400 NetServer.cpp:88] delete io...127.0.0.1:56925
+I0119 09:45:02.404749 246654400 NetServer.cpp:88] delete io...127.0.0.1:56938
+I0119 09:45:03.892683 246654400 NetServer.cpp:55] accept io...127.0.0.1:58193
+I0119 09:45:05.892541 246654400 NetServer.cpp:55] accept io...127.0.0.1:58206
+I0119 09:46:03.400735 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:58193
+I0119 09:47:38.272729 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:58206
+W0119 09:52:25.536453 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0119 10:52:29.968295 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0119 11:31:11.956629 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-1-2-317' for key 'PRIMARY'
+W0119 11:52:34.519654 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0119 12:40:11.857760 226553856 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '5-1-3-259' for key 'PRIMARY'
+W0119 12:52:38.946866 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0119 13:01:08.675290 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-1-1-408' for key 'PRIMARY'
+W0119 13:41:33.977457 226553856 DBThread.cpp:2733] insert stat_machine_online fail,machine types: 2, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0119 13:50:33.647399 226553856 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '4-3-1-35' for key 'PRIMARY'
+W0119 13:52:43.425420 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0119 14:52:48.012629 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0119 15:00:32.374210 226553856 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '6-1-2-378' for key 'PRIMARY'
+W0119 15:31:11.791672 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-3-1-471' for key 'PRIMARY'
+W0119 15:52:52.623744 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0119 16:10:21.551661 226553856 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '3-1-1-525' for key 'PRIMARY'
+W0119 16:52:57.119974 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0119 17:22:21.734549 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '6-1-2-379' for key 'PRIMARY'
+W0119 17:53:01.558861 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0119 18:30:28.305454 226553856 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-1-1-409' for key 'PRIMARY'
+W0119 18:53:06.097185 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0119 19:11:30.879617 226553856 DBThread.cpp:2733] insert stat_machine_online fail,machine types: 2, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0119 19:53:10.546308 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0119 20:53:15.023923 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+I0119 22:08:06.848573 246654400 NetServer.cpp:88] delete io...127.0.0.1:58193
+I0119 22:08:06.851752 246654400 NetServer.cpp:88] delete io...127.0.0.1:58206
+I0119 22:08:09.426123 246654400 NetServer.cpp:55] accept io...127.0.0.1:53815
+I0119 22:08:10.463896 246654400 NetServer.cpp:55] accept io...127.0.0.1:53828
+I0119 22:09:30.782049 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:53815
+I0119 22:10:00.193264 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:53828
+I0119 22:55:16.857298 246654400 NetServer.cpp:88] delete io...127.0.0.1:53815
+I0119 22:55:16.857543 246654400 NetServer.cpp:88] delete io...127.0.0.1:53828
+I0119 22:55:18.343462 246654400 NetServer.cpp:55] accept io...127.0.0.1:55135
+I0119 22:55:20.346323 246654400 NetServer.cpp:55] accept io...127.0.0.1:55152
+I0119 22:56:12.033887 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:55135
+I0119 22:57:47.154595 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:55152
+W0119 23:00:18.509946 226553856 DBThread.cpp:1996] start  AcrossTheDayEvent...
+W0119 23:00:22.459020 226553856 DBThread.cpp:2001] SwitchTodayScoreRank use time : 3948
+W0119 23:00:22.681157 226553856 DBThread.cpp:2006] ResetTodayScoreRankInCache use time : 222
+W0119 23:00:23.006386 226553856 DBThread.cpp:5892] account count: 154
+I0120 00:00:19.912631 246654400 NetServer.cpp:88] delete io...127.0.0.1:55152
+I0120 00:00:19.912837 246654400 NetServer.cpp:88] delete io...127.0.0.1:55135
+I0120 00:00:23.383227 246654400 NetServer.cpp:55] accept io...127.0.0.1:56423
+I0120 00:00:31.445050 246654400 NetServer.cpp:55] accept io...127.0.0.1:56461
+W0120 00:00:57.413187 226553856 DBThread.cpp:5900] vecAccountInfo use time: 3634407
+W0120 00:00:57.414602 226553856 DBThread.cpp:2011] ResetTodayRank use time : 3634733
+I0120 00:02:06.850395 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:56423
+I0120 00:02:06.852308 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:56461
+I0120 01:05:23.935927 246654400 NetServer.cpp:88] delete io...127.0.0.1:56423
+I0120 01:05:23.938072 246654400 NetServer.cpp:88] delete io...127.0.0.1:56461
+I0120 01:05:25.406395 246654400 NetServer.cpp:55] accept io...127.0.0.1:57682
+I0120 01:05:27.425441 246654400 NetServer.cpp:55] accept io...127.0.0.1:57695
+I0120 01:06:20.325737 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:57682
+I0120 01:08:12.982161 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:57695
+I0120 01:40:26.952653 246654400 NetServer.cpp:88] delete io...127.0.0.1:57695
+I0120 01:40:26.954033 246654400 NetServer.cpp:88] delete io...127.0.0.1:57682
+I0120 01:40:28.429574 246654400 NetServer.cpp:55] accept io...127.0.0.1:59032
+I0120 01:40:30.432749 246654400 NetServer.cpp:55] accept io...127.0.0.1:59047
+I0120 01:41:25.270519 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:59032
+I0120 01:42:56.666283 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:59047
+W0120 01:43:47.826874 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+I0120 02:45:29.952925 246654400 NetServer.cpp:88] delete io...127.0.0.1:59047
+I0120 02:45:29.963855 246654400 NetServer.cpp:88] delete io...127.0.0.1:59032
+I0120 02:45:31.440811 246654400 NetServer.cpp:55] accept io...127.0.0.1:60306
+I0120 02:45:33.446386 246654400 NetServer.cpp:55] accept io...127.0.0.1:60318
+I0120 02:46:12.702713 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:60306
+I0120 02:48:10.626955 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:60318
+I0120 03:50:32.975512 246654400 NetServer.cpp:88] delete io...127.0.0.1:60318
+I0120 03:50:32.975603 246654400 NetServer.cpp:88] delete io...127.0.0.1:60306
+I0120 03:50:34.462904 246654400 NetServer.cpp:55] accept io...127.0.0.1:61596
+I0120 03:50:36.471712 246654400 NetServer.cpp:55] accept io...127.0.0.1:61609
+I0120 03:51:45.776001 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:61596
+I0120 03:53:18.980494 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:61609
+I0120 04:55:36.997220 246654400 NetServer.cpp:88] delete io...127.0.0.1:61609
+I0120 04:55:37.001631 246654400 NetServer.cpp:88] delete io...127.0.0.1:61596
+I0120 04:55:38.477623 246654400 NetServer.cpp:55] accept io...127.0.0.1:62876
+I0120 04:55:40.489331 246654400 NetServer.cpp:55] accept io...127.0.0.1:62891
+I0120 04:56:20.151759 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:62876
+I0120 04:58:17.246126 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:62891
+I0120 06:00:40.016075 246654400 NetServer.cpp:88] delete io...127.0.0.1:62891
+I0120 06:00:40.029284 246654400 NetServer.cpp:88] delete io...127.0.0.1:62876
+I0120 06:00:41.502048 246654400 NetServer.cpp:55] accept io...127.0.0.1:64182
+I0120 06:00:43.521710 246654400 NetServer.cpp:55] accept io...127.0.0.1:64198
+I0120 06:01:12.424186 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:64182
+I0120 06:03:10.031762 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:64198
+I0120 07:05:43.055600 246654400 NetServer.cpp:88] delete io...127.0.0.1:64182
+I0120 07:05:43.056949 246654400 NetServer.cpp:88] delete io...127.0.0.1:64198
+I0120 07:05:44.534077 246654400 NetServer.cpp:55] accept io...127.0.0.1:65473
+I0120 07:05:46.545963 246654400 NetServer.cpp:55] accept io...127.0.0.1:65485
+I0120 07:06:33.945061 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:65473
+I0120 07:08:06.364272 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:65485
+I0120 08:10:46.070608 246654400 NetServer.cpp:88] delete io...127.0.0.1:65485
+I0120 08:10:46.070714 246654400 NetServer.cpp:88] delete io...127.0.0.1:65473
+I0120 08:10:47.561030 246654400 NetServer.cpp:55] accept io...127.0.0.1:50372
+I0120 08:10:49.569551 246654400 NetServer.cpp:55] accept io...127.0.0.1:50384
+I0120 08:11:52.018824 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:50372
+I0120 08:13:37.250510 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:50384
+I0120 09:15:49.096990 246654400 NetServer.cpp:88] delete io...127.0.0.1:50372
+I0120 09:15:49.117395 246654400 NetServer.cpp:88] delete io...127.0.0.1:50384
+I0120 09:15:50.586319 246654400 NetServer.cpp:55] accept io...127.0.0.1:51642
+I0120 09:15:52.592340 246654400 NetServer.cpp:55] accept io...127.0.0.1:51654
+I0120 09:16:44.710511 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:51642
+I0120 09:18:19.074020 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:51654
+I0120 09:50:52.131261 246654400 NetServer.cpp:88] delete io...127.0.0.1:51654
+I0120 09:50:52.131503 246654400 NetServer.cpp:88] delete io...127.0.0.1:51642
+I0120 09:50:53.610546 246654400 NetServer.cpp:55] accept io...127.0.0.1:52928
+I0120 09:50:55.628288 246654400 NetServer.cpp:55] accept io...127.0.0.1:52940
+I0120 09:51:48.955737 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:52928
+I0120 09:53:22.273825 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:52940
+W0120 10:02:33.968003 226553856 DBThread.cpp:5442] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0120 10:03:05.862063 226553856 DBThread.cpp:5679] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0120 10:04:05.871677 226553856 DBThread.cpp:5776] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W0120 10:13:01.846384 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+I0120 11:50:53.138120 246654400 NetServer.cpp:88] delete io...127.0.0.1:52940
+I0120 11:50:53.160917 246654400 NetServer.cpp:88] delete io...127.0.0.1:52928
+I0120 11:50:54.628221 246654400 NetServer.cpp:55] accept io...127.0.0.1:51164
+I0120 11:50:56.624322 246654400 NetServer.cpp:55] accept io...127.0.0.1:51177
+I0120 11:51:41.780130 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:51164
+I0120 11:53:18.199828 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:51177
+I0120 12:55:57.245184 246654400 NetServer.cpp:88] delete io...127.0.0.1:51164
+I0120 12:55:57.245276 246654400 NetServer.cpp:88] delete io...127.0.0.1:51177
+I0120 12:55:58.733089 246654400 NetServer.cpp:55] accept io...127.0.0.1:52460
+I0120 12:56:00.735478 246654400 NetServer.cpp:55] accept io...127.0.0.1:52473
+I0120 12:56:40.531028 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:52460
+I0120 12:58:39.383671 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:52473
+I0120 14:01:01.289728 246654400 NetServer.cpp:88] delete io...127.0.0.1:52473
+I0120 14:01:01.289798 246654400 NetServer.cpp:88] delete io...127.0.0.1:52460
+I0120 14:01:02.778291 246654400 NetServer.cpp:55] accept io...127.0.0.1:53741
+I0120 14:01:04.782878 246654400 NetServer.cpp:55] accept io...127.0.0.1:53768
+I0120 14:02:46.750488 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:53741
+I0120 14:04:22.650055 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:53768
+I0120 15:06:05.343567 246654400 NetServer.cpp:88] delete io...127.0.0.1:53768
+I0120 15:06:05.343866 246654400 NetServer.cpp:88] delete io...127.0.0.1:53741
+I0120 15:06:06.807866 246654400 NetServer.cpp:55] accept io...127.0.0.1:55041
+I0120 15:06:08.811563 246654400 NetServer.cpp:55] accept io...127.0.0.1:55057
+I0120 15:06:50.132942 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:55041
+I0120 15:08:44.263113 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:55057
+I0120 16:11:09.355437 246654400 NetServer.cpp:88] delete io...127.0.0.1:55057
+I0120 16:11:09.374296 246654400 NetServer.cpp:88] delete io...127.0.0.1:55041
+I0120 16:11:10.836988 246654400 NetServer.cpp:55] accept io...127.0.0.1:56340
+I0120 16:11:12.852458 246654400 NetServer.cpp:55] accept io...127.0.0.1:56353
+I0120 16:12:09.425719 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:56340
+W0120 16:12:38.813743 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+I0120 16:13:47.155520 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:56353
+I0120 17:16:13.374027 246654400 NetServer.cpp:88] delete io...127.0.0.1:56340
+I0120 17:16:13.391577 246654400 NetServer.cpp:88] delete io...127.0.0.1:56353
+I0120 17:16:14.861227 246654400 NetServer.cpp:55] accept io...127.0.0.1:57612
+I0120 17:16:16.858732 246654400 NetServer.cpp:55] accept io...127.0.0.1:57627
+I0120 17:17:13.205107 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:57612
+I0120 17:20:53.272235 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:57627
+I0120 18:21:17.407410 246654400 NetServer.cpp:88] delete io...127.0.0.1:57627
+I0120 18:21:17.420869 246654400 NetServer.cpp:88] delete io...127.0.0.1:57612
+I0120 18:21:18.892748 246654400 NetServer.cpp:55] accept io...127.0.0.1:58910
+I0120 18:21:20.890669 246654400 NetServer.cpp:55] accept io...127.0.0.1:58924
+W0120 18:21:21.923436 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '6-1-2-383' for key 'PRIMARY'
+I0120 18:22:13.179711 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:58910
+I0120 18:23:53.606149 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:58924
+I0120 19:26:21.432241 246654400 NetServer.cpp:88] delete io...127.0.0.1:58924
+I0120 19:26:21.432333 246654400 NetServer.cpp:88] delete io...127.0.0.1:58910
+I0120 19:26:22.914984 246654400 NetServer.cpp:55] accept io...127.0.0.1:60191
+I0120 19:26:24.932262 246654400 NetServer.cpp:55] accept io...127.0.0.1:60206
+I0120 19:27:03.014223 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:60191
+I0120 19:29:30.665951 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:60206
+I0120 20:31:25.449689 246654400 NetServer.cpp:88] delete io...127.0.0.1:60206
+I0120 20:31:25.449761 246654400 NetServer.cpp:88] delete io...127.0.0.1:60191
+I0120 20:31:26.931407 246654400 NetServer.cpp:55] accept io...127.0.0.1:61494
+I0120 20:31:28.962790 246654400 NetServer.cpp:55] accept io...127.0.0.1:61509
+I0120 20:33:53.368046 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:61494
+I0120 20:35:22.448276 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:61509
+I0120 21:36:29.478943 246654400 NetServer.cpp:88] delete io...127.0.0.1:61509
+I0120 21:36:29.479032 246654400 NetServer.cpp:88] delete io...127.0.0.1:61494
+I0120 21:36:30.956318 246654400 NetServer.cpp:55] accept io...127.0.0.1:62764
+I0120 21:36:32.983175 246654400 NetServer.cpp:55] accept io...127.0.0.1:62776
+I0120 21:37:13.737746 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:62764
+I0120 21:39:29.846530 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:62776
+I0120 22:41:33.510010 246654400 NetServer.cpp:88] delete io...127.0.0.1:62776
+I0120 22:41:33.510108 246654400 NetServer.cpp:88] delete io...127.0.0.1:62764
+I0120 22:41:35.001461 246654400 NetServer.cpp:55] accept io...127.0.0.1:64051
+I0120 22:41:37.017766 246654400 NetServer.cpp:55] accept io...127.0.0.1:64064
+I0120 22:42:05.889816 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:64051
+I0120 22:44:05.963376 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:64064
+I0120 23:46:37.532891 246654400 NetServer.cpp:88] delete io...127.0.0.1:64064
+I0120 23:46:37.532955 246654400 NetServer.cpp:88] delete io...127.0.0.1:64051
+W0120 23:46:38.265686 226553856 DBThread.cpp:1996] start  AcrossTheDayEvent...
+I0120 23:46:39.021384 246654400 NetServer.cpp:55] accept io...127.0.0.1:65344
+I0120 23:46:41.040758 246654400 NetServer.cpp:55] accept io...127.0.0.1:65358
+W0120 23:47:10.277122 226553856 DBThread.cpp:2001] SwitchTodayScoreRank use time : 32009
+W0120 23:47:10.723475 226553856 DBThread.cpp:2006] ResetTodayScoreRankInCache use time : 446
+W0120 23:47:11.059552 226553856 DBThread.cpp:5892] account count: 152
+W0120 23:47:27.673053 226553856 DBThread.cpp:5900] vecAccountInfo use time: 16614
+W0120 23:47:27.673147 226553856 DBThread.cpp:2011] ResetTodayRank use time : 16950
+I0120 23:47:55.394479 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:65344
+I0120 23:49:24.976083 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:65358
+I0121 00:51:41.558357 246654400 NetServer.cpp:88] delete io...127.0.0.1:65358
+I0121 00:51:41.558465 246654400 NetServer.cpp:88] delete io...127.0.0.1:65344
+I0121 00:51:45.067699 246654400 NetServer.cpp:55] accept io...127.0.0.1:50254
+I0121 00:52:02.654935 246654400 NetServer.cpp:55] accept io...127.0.0.1:50333
+I0121 00:52:42.650562 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:50254
+I0121 00:52:42.651170 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:50333
+I0121 01:56:45.602213 246654400 NetServer.cpp:88] delete io...127.0.0.1:50333
+I0121 01:56:45.602767 246654400 NetServer.cpp:88] delete io...127.0.0.1:50254
+I0121 01:56:47.080153 246654400 NetServer.cpp:55] accept io...127.0.0.1:51516
+I0121 01:56:49.075860 246654400 NetServer.cpp:55] accept io...127.0.0.1:51529
+I0121 01:57:57.009317 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:51516
+I0121 01:59:35.230775 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:51529
+I0121 03:01:49.623739 246654400 NetServer.cpp:88] delete io...127.0.0.1:51516
+I0121 03:01:49.623811 246654400 NetServer.cpp:88] delete io...127.0.0.1:51529
+I0121 03:01:51.105994 246654400 NetServer.cpp:55] accept io...127.0.0.1:52810
+I0121 03:01:53.116281 246654400 NetServer.cpp:55] accept io...127.0.0.1:52822
+I0121 03:02:33.995307 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:52810
+I0121 03:04:39.633538 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:52822
+I0121 04:06:53.644618 246654400 NetServer.cpp:88] delete io...127.0.0.1:52810
+I0121 04:06:53.644709 246654400 NetServer.cpp:88] delete io...127.0.0.1:52822
+I0121 04:06:55.129241 246654400 NetServer.cpp:55] accept io...127.0.0.1:54101
+I0121 04:06:57.135445 246654400 NetServer.cpp:55] accept io...127.0.0.1:54116
+I0121 04:07:49.662727 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:54101
+I0121 04:09:22.633728 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:54116
+W0121 04:11:45.239441 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+I0121 05:11:57.667768 246654400 NetServer.cpp:88] delete io...127.0.0.1:54116
+I0121 05:11:57.676628 246654400 NetServer.cpp:88] delete io...127.0.0.1:54101
+I0121 05:11:59.154876 246654400 NetServer.cpp:55] accept io...127.0.0.1:55403
+I0121 05:12:01.158318 246654400 NetServer.cpp:55] accept io...127.0.0.1:55415
+I0121 05:12:39.900907 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:55403
+I0121 05:14:38.882253 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:55415
+I0121 06:17:01.704540 246654400 NetServer.cpp:88] delete io...127.0.0.1:55403
+I0121 06:17:01.715713 246654400 NetServer.cpp:88] delete io...127.0.0.1:55415
+I0121 06:17:03.184119 246654400 NetServer.cpp:55] accept io...127.0.0.1:56668
+I0121 06:17:05.186942 246654400 NetServer.cpp:55] accept io...127.0.0.1:56681
+I0121 06:17:44.435673 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:56668
+I0121 06:19:43.456763 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:56681
+I0121 07:22:05.725248 246654400 NetServer.cpp:88] delete io...127.0.0.1:56681
+I0121 07:22:05.744755 246654400 NetServer.cpp:88] delete io...127.0.0.1:56668
+I0121 07:22:07.207789 246654400 NetServer.cpp:55] accept io...127.0.0.1:57961
+I0121 07:22:09.216894 246654400 NetServer.cpp:55] accept io...127.0.0.1:57976
+I0121 07:23:15.129658 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:57961
+I0121 07:24:51.520035 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:57976
+I0121 08:27:09.747524 246654400 NetServer.cpp:88] delete io...127.0.0.1:57961
+I0121 08:27:09.747779 246654400 NetServer.cpp:88] delete io...127.0.0.1:57976
+I0121 08:27:11.239405 246654400 NetServer.cpp:55] accept io...127.0.0.1:59253
+I0121 08:27:13.242064 246654400 NetServer.cpp:55] accept io...127.0.0.1:59268
+I0121 08:28:08.696871 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:59253
+I0121 08:29:48.063858 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:59268
+I0121 09:32:12.774389 246654400 NetServer.cpp:88] delete io...127.0.0.1:59253
+I0121 09:32:12.774477 246654400 NetServer.cpp:88] delete io...127.0.0.1:59268
+I0121 09:32:14.265166 246654400 NetServer.cpp:55] accept io...127.0.0.1:60532
+I0121 09:32:16.275746 246654400 NetServer.cpp:55] accept io...127.0.0.1:60544
+I0121 09:32:55.471011 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:60532
+I0121 09:35:49.438263 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:60544
+I0121 09:54:49.414837 246654400 NetServer.cpp:88] delete io...127.0.0.1:60544
+I0121 09:54:49.414927 246654400 NetServer.cpp:88] delete io...127.0.0.1:60532
+I0121 09:54:50.893142 246654400 NetServer.cpp:55] accept io...127.0.0.1:61836
+I0121 09:54:52.900264 246654400 NetServer.cpp:55] accept io...127.0.0.1:61860
+I0121 09:55:31.672787 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:61836
+W0121 09:57:03.518421 226553856 DBThread.cpp:6139] SELECT DISTINCT(platformId) FROM stat_pcu
+W0121 09:57:03.520798 226553856 DBThread.cpp:6140] select pcu platformId fail. errno: -1, err msg: mysql not opened yet!
+I0121 09:58:52.494210 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:61860
+W0121 10:28:50.500964 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0121 10:41:36.510730 226553856 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '2-1-1-67' for key 'PRIMARY'
+W0121 11:28:55.005349 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0121 11:32:08.789535 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-1-2-322' for key 'PRIMARY'
+W0121 12:28:59.467957 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0121 12:42:40.977035 226553856 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '5-1-3-261' for key 'PRIMARY'
+W0121 13:01:56.461694 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-1-1-412' for key 'PRIMARY'
+W0121 13:06:43.111328 226553856 DBThread.cpp:5442] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0121 13:29:04.910923 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0121 13:50:56.465270 226553856 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '4-3-1-37' for key 'PRIMARY'
+W0121 14:29:10.334331 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0121 15:01:01.288553 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '6-1-2-384' for key 'PRIMARY'
+W0121 15:29:14.792899 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0121 15:31:12.253823 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-3-1-475' for key 'PRIMARY'
+W0121 16:10:22.228194 226553856 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '3-1-1-529' for key 'PRIMARY'
+W0121 16:29:19.267802 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0121 17:21:20.367969 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '6-1-2-385' for key 'PRIMARY'
+W0121 17:29:23.861495 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0121 18:29:28.341639 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0121 18:30:13.505615 226553856 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-1-1-413' for key 'PRIMARY'
+W0121 19:29:32.851348 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0121 19:40:17.464222 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-4-1-357' for key 'PRIMARY'
+W0121 20:00:17.737406 226553856 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '2-1-2-38' for key 'PRIMARY'
+W0121 20:29:37.339807 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0121 20:31:29.194865 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '3-1-2-416' for key 'PRIMARY'
+W0121 21:29:41.821022 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+I0121 23:31:34.103082 246654400 NetServer.cpp:88] delete io...127.0.0.1:61860
+I0121 23:31:34.105007 246654400 NetServer.cpp:88] delete io...127.0.0.1:61836
+I0121 23:31:36.495820 246654400 NetServer.cpp:55] accept io...127.0.0.1:58776
+I0121 23:31:37.507480 246654400 NetServer.cpp:55] accept io...127.0.0.1:58784
+I0122 01:32:06.886618 246654400 NetServer.cpp:88] delete io...127.0.0.1:58776
+I0122 01:32:06.889083 246654400 NetServer.cpp:88] delete io...127.0.0.1:58784
+I0122 01:32:10.375560 246654400 NetServer.cpp:55] accept io...127.0.0.1:58932
+W0122 01:32:15.115989 226553856 DBThread.cpp:1996] start  AcrossTheDayEvent...
+I0122 01:32:18.913327 246654400 NetServer.cpp:55] accept io...127.0.0.1:58968
+W0122 01:32:18.942375 226553856 DBThread.cpp:2001] SwitchTodayScoreRank use time : 3825
+I0122 03:32:26.897006 246654400 NetServer.cpp:88] delete io...127.0.0.1:58968
+I0122 03:32:26.897677 246654400 NetServer.cpp:88] delete io...127.0.0.1:58932
+I0122 03:32:28.373313 246654400 NetServer.cpp:55] accept io...127.0.0.1:59007
+W0122 03:32:28.839424 226553856 DBThread.cpp:2006] ResetTodayScoreRankInCache use time : 7209897
+I0122 03:32:30.386342 246654400 NetServer.cpp:55] accept io...127.0.0.1:59019
+I0122 05:32:40.922878 246654400 NetServer.cpp:88] delete io...127.0.0.1:59019
+I0122 05:32:40.923010 246654400 NetServer.cpp:88] delete io...127.0.0.1:59007
+I0122 05:32:42.396551 246654400 NetServer.cpp:55] accept io...127.0.0.1:59072
+I0122 05:32:44.401587 246654400 NetServer.cpp:55] accept io...127.0.0.1:59084
+I0122 07:32:54.950825 246654400 NetServer.cpp:88] delete io...127.0.0.1:59084
+I0122 07:32:54.954603 246654400 NetServer.cpp:88] delete io...127.0.0.1:59072
+W0122 07:32:55.894106 226553856 DBThread.cpp:2011] ResetTodayRank use time : 14427055
+I0122 07:32:56.439177 246654400 NetServer.cpp:55] accept io...127.0.0.1:59140
+I0122 07:32:58.439652 246654400 NetServer.cpp:55] accept io...127.0.0.1:59153
+I0122 09:32:30.987629 246654400 NetServer.cpp:88] delete io...127.0.0.1:59153
+I0122 09:32:30.987711 246654400 NetServer.cpp:88] delete io...127.0.0.1:59140
+I0122 09:32:32.470324 246654400 NetServer.cpp:55] accept io...127.0.0.1:59204
+I0122 09:32:34.490062 246654400 NetServer.cpp:55] accept io...127.0.0.1:59216
+I0122 09:48:44.947399 246654400 NetServer.cpp:88] delete io...127.0.0.1:59204
+I0122 09:48:44.947546 246654400 NetServer.cpp:88] delete io...127.0.0.1:59216
+I0122 09:48:46.428443 246654400 NetServer.cpp:55] accept io...127.0.0.1:59329
+W0122 09:48:47.442559 226553856 DBThread.cpp:6139] SELECT DISTINCT(platformId) FROM stat_pcu
+W0122 09:48:47.442816 226553856 DBThread.cpp:6140] select pcu platformId fail. errno: -1, err msg: mysql not opened yet!
+W0122 09:48:47.446166 226553856 DBThread.cpp:7994] select recharge channel info fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0122 09:48:47.448058 226553856 DBThread.cpp:8257] select generalize promoter info platform id fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0122 09:48:47.448200 226553856 DBThread.cpp:8342] select exchange channel status fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0122 09:48:47.448289 226553856 DBThread.cpp:8471] select quanmin channel fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0122 09:48:47.448369 226553856 DBThread.cpp:8524] select client channel domain fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0122 09:48:47.448454 226553856 DBThread.cpp:8690] select vip2 config fail.
+W0122 09:48:47.449630 226553856 DBThread.cpp:8582] select channel show exchange condition fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+I0122 09:48:48.479681 246654400 NetServer.cpp:55] accept io...127.0.0.1:59370
+W0122 09:49:44.327831 226553856 DBThread.cpp:5679] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0122 09:49:44.330341 226553856 DBThread.cpp:5776] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W0122 09:49:44.331105 226553856 DBThread.cpp:4121] load wealth god coming fail. errno: 2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0122 09:49:44.331557 226553856 DBThread.cpp:4217] load wealth god coming reward fail. errno: 2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0122 09:49:44.331640 226553856 DBThread.cpp:4285] load wealth god coming index fail. errno: 2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0122 09:49:44.332228 226553856 DBThread.cpp:4362] select wealth god coming id fail. errno: -1, error: mysql not opened yet!
+W0122 09:49:44.332653 226553856 DBThread.cpp:8083] select recharge amount cfg fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0122 09:49:44.333051 226553856 DBThread.cpp:8410] select excharge amount cfg fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0122 09:49:44.333132 226553856 DBThread.cpp:4747] select score mode fail, error: 2003
+W0122 09:49:44.338500 226553856 DBThread.cpp:4826] select duobao_data fail. errno: -1, error: mysql not opened yet!
+W0122 09:49:44.338605 226553856 DBThread.cpp:8743] select benefit config fail.
+W0122 09:49:44.338644 226553856 DBThread.cpp:8619] get platform db handle fail.
+W0122 09:49:44.339499 226553856 DBThread.cpp:5442] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0122 09:49:44.339583 226553856 DBThread.cpp:5679] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0122 09:49:44.339654 226553856 DBThread.cpp:5776] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W0122 09:49:44.339731 226553856 DBThread.cpp:5442] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0122 09:49:44.339800 226553856 DBThread.cpp:6139] SELECT DISTINCT(platformId) FROM stat_pcu
+W0122 09:49:44.339826 226553856 DBThread.cpp:6140] select pcu platformId fail. errno: -1, err msg: mysql not opened yet!
+W0122 09:49:44.339853 226553856 DBThread.cpp:7920] get platform score db handle fail.
+W0122 09:49:44.339912 226553856 DBThread.cpp:8257] select generalize promoter info platform id fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0122 09:49:44.339943 226553856 DBThread.cpp:8326] get record score db handle fail.
+W0122 09:49:44.340001 226553856 DBThread.cpp:8471] select quanmin channel fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0122 09:49:44.340066 226553856 DBThread.cpp:8524] select client channel domain fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0122 09:49:44.340096 226553856 DBThread.cpp:8679] get platform db handle fail.
+W0122 09:49:44.340154 226553856 DBThread.cpp:8582] select channel show exchange condition fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0122 09:49:44.340222 226553856 DBThread.cpp:5679] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0122 09:49:44.340289 226553856 DBThread.cpp:5776] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W0122 09:49:44.340318 226553856 DBThread.cpp:4112] get platform db handle fail.
+W0122 09:49:44.340342 226553856 DBThread.cpp:4208] get platform db handle fail.
+W0122 09:49:44.340364 226553856 DBThread.cpp:4275] get platform db handle fail.
+W0122 09:49:44.340421 226553856 DBThread.cpp:4362] select wealth god coming id fail. errno: -1, error: mysql not opened yet!
+W0122 09:49:44.340485 226553856 DBThread.cpp:8083] select recharge amount cfg fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0122 09:49:44.340593 226553856 DBThread.cpp:8410] select excharge amount cfg fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0122 09:49:44.340620 226553856 DBThread.cpp:4736] get platform db handle fail.
+W0122 09:49:44.340674 226553856 DBThread.cpp:4826] select duobao_data fail. errno: -1, error: mysql not opened yet!
+W0122 09:49:44.340710 226553856 DBThread.cpp:8734] get platform db handle fail.
+W0122 09:49:44.340730 226553856 DBThread.cpp:8619] get platform db handle fail.
+W0122 09:49:44.340826 226553856 DBThread.cpp:5442] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0122 09:49:44.340885 226553856 DBThread.cpp:5679] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0122 09:49:44.341105 226553856 DBThread.cpp:5776] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W0122 09:49:44.341186 226553856 DBThread.cpp:5442] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0122 09:49:44.341249 226553856 DBThread.cpp:6139] SELECT DISTINCT(platformId) FROM stat_pcu
+W0122 09:49:44.341270 226553856 DBThread.cpp:6140] select pcu platformId fail. errno: -1, err msg: mysql not opened yet!
+W0122 09:49:44.341291 226553856 DBThread.cpp:7920] get platform score db handle fail.
+W0122 09:49:44.341346 226553856 DBThread.cpp:8257] select generalize promoter info platform id fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0122 09:49:44.341372 226553856 DBThread.cpp:8326] get record score db handle fail.
+W0122 09:49:44.341424 226553856 DBThread.cpp:8471] select quanmin channel fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0122 09:49:44.341740 226553856 DBThread.cpp:8524] select client channel domain fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0122 09:49:44.341775 226553856 DBThread.cpp:8679] get platform db handle fail.
+W0122 09:49:44.341835 226553856 DBThread.cpp:8582] select channel show exchange condition fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0122 09:49:44.341902 226553856 DBThread.cpp:5679] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0122 09:49:44.341964 226553856 DBThread.cpp:5776] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W0122 09:49:44.341990 226553856 DBThread.cpp:4112] get platform db handle fail.
+W0122 09:49:44.342010 226553856 DBThread.cpp:4208] get platform db handle fail.
+W0122 09:49:44.342841 226553856 DBThread.cpp:4275] get platform db handle fail.
+W0122 09:49:44.342936 226553856 DBThread.cpp:4362] select wealth god coming id fail. errno: -1, error: mysql not opened yet!
+W0122 09:49:44.343004 226553856 DBThread.cpp:8083] select recharge amount cfg fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0122 09:49:44.343066 226553856 DBThread.cpp:8410] select excharge amount cfg fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0122 09:49:44.343093 226553856 DBThread.cpp:4736] get platform db handle fail.
+W0122 09:49:44.343150 226553856 DBThread.cpp:4826] select duobao_data fail. errno: -1, error: mysql not opened yet!
+W0122 09:49:44.343176 226553856 DBThread.cpp:8734] get platform db handle fail.
+W0122 09:49:44.343195 226553856 DBThread.cpp:8619] get platform db handle fail.
+W0122 09:49:44.343292 226553856 DBThread.cpp:5442] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0122 09:49:44.343353 226553856 DBThread.cpp:5679] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0122 09:49:44.343413 226553856 DBThread.cpp:5776] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W0122 09:49:44.343498 226553856 DBThread.cpp:5442] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0122 09:49:44.343577 226553856 DBThread.cpp:6139] SELECT DISTINCT(platformId) FROM stat_pcu
+W0122 09:49:44.343598 226553856 DBThread.cpp:6140] select pcu platformId fail. errno: -1, err msg: mysql not opened yet!
+W0122 09:49:44.343636 226553856 DBThread.cpp:7920] get platform score db handle fail.
+W0122 09:49:44.343693 226553856 DBThread.cpp:8257] select generalize promoter info platform id fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0122 09:49:44.343730 226553856 DBThread.cpp:8326] get record score db handle fail.
+W0122 09:49:44.343785 226553856 DBThread.cpp:8471] select quanmin channel fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0122 09:49:44.343845 226553856 DBThread.cpp:8524] select client channel domain fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0122 09:49:44.343873 226553856 DBThread.cpp:8679] get platform db handle fail.
+W0122 09:49:44.343933 226553856 DBThread.cpp:8582] select channel show exchange condition fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0122 09:49:44.343997 226553856 DBThread.cpp:5679] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0122 09:49:44.344059 226553856 DBThread.cpp:5776] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W0122 09:49:44.344085 226553856 DBThread.cpp:4112] get platform db handle fail.
+W0122 09:49:44.344105 226553856 DBThread.cpp:4208] get platform db handle fail.
+W0122 09:49:44.344123 226553856 DBThread.cpp:4275] get platform db handle fail.
+W0122 09:49:44.344177 226553856 DBThread.cpp:4362] select wealth god coming id fail. errno: -1, error: mysql not opened yet!
+W0122 09:49:44.344236 226553856 DBThread.cpp:8083] select recharge amount cfg fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0122 09:49:44.344296 226553856 DBThread.cpp:8410] select excharge amount cfg fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0122 09:49:44.344322 226553856 DBThread.cpp:4736] get platform db handle fail.
+W0122 09:49:44.344377 226553856 DBThread.cpp:4826] select duobao_data fail. errno: -1, error: mysql not opened yet!
+W0122 09:49:44.344403 226553856 DBThread.cpp:8734] get platform db handle fail.
+W0122 09:49:44.344440 226553856 DBThread.cpp:8619] get platform db handle fail.
+W0122 09:49:44.344533 226553856 DBThread.cpp:5442] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0122 09:49:44.344594 226553856 DBThread.cpp:5679] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0122 09:49:44.344655 226553856 DBThread.cpp:5776] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W0122 09:49:44.344717 226553856 DBThread.cpp:5442] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0122 09:49:44.344775 226553856 DBThread.cpp:6139] SELECT DISTINCT(platformId) FROM stat_pcu
+W0122 09:49:44.344796 226553856 DBThread.cpp:6140] select pcu platformId fail. errno: -1, err msg: mysql not opened yet!
+W0122 09:49:44.344816 226553856 DBThread.cpp:7920] get platform score db handle fail.
+W0122 09:49:44.344868 226553856 DBThread.cpp:8257] select generalize promoter info platform id fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0122 09:49:44.344893 226553856 DBThread.cpp:8326] get record score db handle fail.
+W0122 09:49:44.344944 226553856 DBThread.cpp:8471] select quanmin channel fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0122 09:49:44.345001 226553856 DBThread.cpp:8524] select client channel domain fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0122 09:49:44.345027 226553856 DBThread.cpp:8679] get platform db handle fail.
+W0122 09:49:44.345079 226553856 DBThread.cpp:8582] select channel show exchange condition fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0122 09:49:44.345140 226553856 DBThread.cpp:5679] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0122 09:49:44.345201 226553856 DBThread.cpp:5776] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W0122 09:49:44.345237 226553856 DBThread.cpp:4112] get platform db handle fail.
+W0122 09:49:44.345257 226553856 DBThread.cpp:4208] get platform db handle fail.
+W0122 09:49:44.345275 226553856 DBThread.cpp:4275] get platform db handle fail.
+W0122 09:49:44.345329 226553856 DBThread.cpp:4362] select wealth god coming id fail. errno: -1, error: mysql not opened yet!
+W0122 09:49:44.345396 226553856 DBThread.cpp:8083] select recharge amount cfg fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0122 09:49:44.345454 226553856 DBThread.cpp:8410] select excharge amount cfg fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0122 09:49:44.345480 226553856 DBThread.cpp:4736] get platform db handle fail.
+W0122 09:49:44.345533 226553856 DBThread.cpp:4826] select duobao_data fail. errno: -1, error: mysql not opened yet!
+W0122 09:49:44.345558 226553856 DBThread.cpp:8734] get platform db handle fail.
+W0122 09:49:44.345577 226553856 DBThread.cpp:8619] get platform db handle fail.
+W0122 09:49:44.345669 226553856 DBThread.cpp:5442] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0122 09:49:44.345736 226553856 DBThread.cpp:5679] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0122 09:49:44.345803 226553856 DBThread.cpp:5776] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W0122 09:49:44.345866 226553856 DBThread.cpp:5442] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0122 09:49:44.345924 226553856 DBThread.cpp:6139] SELECT DISTINCT(platformId) FROM stat_pcu
+W0122 09:49:44.345952 226553856 DBThread.cpp:6140] select pcu platformId fail. errno: -1, err msg: mysql not opened yet!
+W0122 09:49:44.345976 226553856 DBThread.cpp:7920] get platform score db handle fail.
+W0122 09:49:44.346030 226553856 DBThread.cpp:8257] select generalize promoter info platform id fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0122 09:49:44.346055 226553856 DBThread.cpp:8326] get record score db handle fail.
+W0122 09:49:44.346107 226553856 DBThread.cpp:8471] select quanmin channel fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0122 09:49:44.346164 226553856 DBThread.cpp:8524] select client channel domain fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0122 09:49:44.346189 226553856 DBThread.cpp:8679] get platform db handle fail.
+W0122 09:49:44.346241 226553856 DBThread.cpp:8582] select channel show exchange condition fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0122 09:49:44.346302 226553856 DBThread.cpp:5679] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0122 09:49:44.346362 226553856 DBThread.cpp:5776] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W0122 09:49:44.346387 226553856 DBThread.cpp:4112] get platform db handle fail.
+W0122 09:49:44.346406 226553856 DBThread.cpp:4208] get platform db handle fail.
+W0122 09:49:44.346424 226553856 DBThread.cpp:4275] get platform db handle fail.
+W0122 09:49:44.346477 226553856 DBThread.cpp:4362] select wealth god coming id fail. errno: -1, error: mysql not opened yet!
+W0122 09:49:44.346532 226553856 DBThread.cpp:8083] select recharge amount cfg fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0122 09:49:44.346590 226553856 DBThread.cpp:8410] select excharge amount cfg fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0122 09:49:44.346616 226553856 DBThread.cpp:4736] get platform db handle fail.
+W0122 09:49:44.346668 226553856 DBThread.cpp:4826] select duobao_data fail. errno: -1, error: mysql not opened yet!
+W0122 09:49:44.346693 226553856 DBThread.cpp:8734] get platform db handle fail.
+W0122 09:49:44.346712 226553856 DBThread.cpp:8619] get platform db handle fail.
+W0122 09:49:44.346804 226553856 DBThread.cpp:5442] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0122 09:49:44.346879 226553856 DBThread.cpp:5679] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0122 09:49:44.346940 226553856 DBThread.cpp:5776] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+I0122 09:49:44.346964 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:59329
+W0122 09:49:44.347059 226553856 DBThread.cpp:5442] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0122 09:49:44.347118 226553856 DBThread.cpp:6139] SELECT DISTINCT(platformId) FROM stat_pcu
+W0122 09:49:44.347139 226553856 DBThread.cpp:6140] select pcu platformId fail. errno: -1, err msg: mysql not opened yet!
+W0122 09:49:44.347159 226553856 DBThread.cpp:7920] get platform score db handle fail.
+W0122 09:49:44.347211 226553856 DBThread.cpp:8257] select generalize promoter info platform id fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0122 09:49:44.347236 226553856 DBThread.cpp:8326] get record score db handle fail.
+W0122 09:49:44.347287 226553856 DBThread.cpp:8471] select quanmin channel fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0122 09:49:44.347347 226553856 DBThread.cpp:8524] select client channel domain fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0122 09:49:44.347373 226553856 DBThread.cpp:8679] get platform db handle fail.
+W0122 09:49:44.347426 226553856 DBThread.cpp:8582] select channel show exchange condition fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0122 09:49:44.347512 226553856 DBThread.cpp:5679] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0122 09:49:44.347573 226553856 DBThread.cpp:5776] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W0122 09:49:44.347599 226553856 DBThread.cpp:4112] get platform db handle fail.
+W0122 09:49:44.347617 226553856 DBThread.cpp:4208] get platform db handle fail.
+W0122 09:49:44.347636 226553856 DBThread.cpp:4275] get platform db handle fail.
+W0122 09:49:44.347688 226553856 DBThread.cpp:4362] select wealth god coming id fail. errno: -1, error: mysql not opened yet!
+W0122 09:49:44.347745 226553856 DBThread.cpp:8083] select recharge amount cfg fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0122 09:49:44.348359 226553856 DBThread.cpp:8410] select excharge amount cfg fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0122 09:49:44.348399 226553856 DBThread.cpp:4736] get platform db handle fail.
+W0122 09:49:44.348500 226553856 DBThread.cpp:4826] select duobao_data fail. errno: -1, error: mysql not opened yet!
+W0122 09:49:44.348527 226553856 DBThread.cpp:8734] get platform db handle fail.
+W0122 09:49:44.348546 226553856 DBThread.cpp:8619] get platform db handle fail.
+I0122 09:49:44.348564 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:59370
+W0122 09:58:44.982501 226553856 DBThread.cpp:5442] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0122 09:58:44.983336 226553856 DBThread.cpp:5679] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0122 09:58:44.983542 226553856 DBThread.cpp:5776] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W0122 10:08:45.029407 226553856 DBThread.cpp:5442] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0122 10:08:45.031220 226553856 DBThread.cpp:5679] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0122 10:08:45.031358 226553856 DBThread.cpp:5776] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W0122 10:18:45.072927 226553856 DBThread.cpp:5442] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0122 10:18:45.074270 226553856 DBThread.cpp:5679] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0122 10:18:45.074365 226553856 DBThread.cpp:5776] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W0122 10:21:49.616592 227090432 DBThread.cpp:4593] INSERT wealth god index fail, errno: -1, error: mysql not opened yet!
+W0122 10:22:31.545123 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: -1, error: mysql not opened yet!
+W0122 10:28:45.159163 226553856 DBThread.cpp:5442] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0122 10:28:45.159416 226553856 DBThread.cpp:5679] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0122 10:28:45.160307 226553856 DBThread.cpp:5776] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W0122 10:38:45.236912 226553856 DBThread.cpp:5442] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0122 10:38:45.239310 226553856 DBThread.cpp:5679] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0122 10:38:45.239497 226553856 DBThread.cpp:5776] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W0122 10:40:47.351128 226553856 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: -1, error: mysql not opened yet!
+W0122 10:40:47.352072 228163584 DBThread.cpp:4593] INSERT wealth god index fail, errno: 2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0122 10:44:25.211721 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0122 10:44:27.216758 226017280 BuildDBThread.cpp:133] open :58.82.239.150:3306@mysql error!
+W0122 10:44:27.217682 226017280 BuildDBThread.cpp:217] open :58.82.239.150:3306@mysql error!
+W0122 10:48:45.240139 226553856 DBThread.cpp:5442] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0122 10:48:45.242353 226553856 DBThread.cpp:5679] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0122 10:48:45.242537 226553856 DBThread.cpp:5776] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W0122 11:30:50.605907 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-1-2-323' for key 'PRIMARY'
+W0122 11:41:04.948294 226553856 DBThread.cpp:2733] insert stat_machine_online fail,machine types: 2, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0122 11:44:27.211436 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0122 12:40:53.287438 226553856 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '5-1-3-262' for key 'PRIMARY'
+W0122 12:44:31.745450 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0122 13:01:50.502878 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-1-1-414' for key 'PRIMARY'
+W0122 13:44:36.346398 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0122 13:50:57.130360 226553856 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '4-3-1-38' for key 'PRIMARY'
+W0122 14:20:57.643208 226553856 DBThread.cpp:5442] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0122 14:21:57.648097 226553856 DBThread.cpp:5679] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0122 14:44:40.909961 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0122 15:00:56.298791 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '6-1-2-386' for key 'PRIMARY'
+W0122 15:30:52.450994 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-3-1-476' for key 'PRIMARY'
+W0122 15:44:45.425092 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0122 16:10:32.284806 226553856 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '3-1-1-530' for key 'PRIMARY'
+W0122 16:45:25.006105 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0122 17:21:03.353355 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '6-1-2-387' for key 'PRIMARY'
+W0122 17:40:29.146945 226553856 DBThread.cpp:5442] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0122 17:45:29.582497 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0122 18:30:11.538969 226553856 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-1-1-415' for key 'PRIMARY'
+W0122 18:45:34.057670 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0122 19:40:15.791201 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-4-1-359' for key 'PRIMARY'
+W0122 19:45:38.541272 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0122 20:00:16.331610 226553856 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '2-1-2-39' for key 'PRIMARY'
+W0122 20:31:25.603648 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '3-1-2-418' for key 'PRIMARY'
+W0122 20:45:43.111354 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+I0122 23:34:46.358139 246654400 NetServer.cpp:88] delete io...127.0.0.1:59370
+I0122 23:34:46.362076 246654400 NetServer.cpp:88] delete io...127.0.0.1:59329
+I0122 23:34:48.215523 246654400 NetServer.cpp:55] accept io...127.0.0.1:62422
+I0122 23:34:49.725591 246654400 NetServer.cpp:55] accept io...127.0.0.1:62432
+I0123 01:35:02.103708 246654400 NetServer.cpp:88] delete io...127.0.0.1:62432
+I0123 01:35:02.103776 246654400 NetServer.cpp:88] delete io...127.0.0.1:62422
+I0123 01:35:05.605823 246654400 NetServer.cpp:55] accept io...127.0.0.1:62506
+I0123 03:35:18.126322 246654400 NetServer.cpp:88] delete io...127.0.0.1:62506
+I0123 03:35:19.596313 246654400 NetServer.cpp:55] accept io...127.0.0.1:62558
+W0123 03:35:21.105269 226553856 DBThread.cpp:1996] start  AcrossTheDayEvent...
+I0123 03:35:21.603984 246654400 NetServer.cpp:55] accept io...127.0.0.1:62571
+W0123 03:35:25.134207 226553856 DBThread.cpp:2001] SwitchTodayScoreRank use time : 4028
+I0123 05:35:34.140213 246654400 NetServer.cpp:88] delete io...127.0.0.1:62571
+I0123 05:35:34.140276 246654400 NetServer.cpp:88] delete io...127.0.0.1:62558
+I0123 05:35:35.632915 246654400 NetServer.cpp:55] accept io...127.0.0.1:62633
+I0123 05:35:37.632040 246654400 NetServer.cpp:55] accept io...127.0.0.1:62645
+W0123 05:35:44.340078 226553856 DBThread.cpp:2006] ResetTodayScoreRankInCache use time : 7219204
+I0123 07:35:50.164408 246654400 NetServer.cpp:88] delete io...127.0.0.1:62645
+I0123 07:35:50.165035 246654400 NetServer.cpp:88] delete io...127.0.0.1:62633
+I0123 07:35:51.633782 246654400 NetServer.cpp:55] accept io...127.0.0.1:62695
+I0123 07:35:53.649292 246654400 NetServer.cpp:55] accept io...127.0.0.1:62709
+W0123 07:36:03.311728 226553856 DBThread.cpp:2011] ResetTodayRank use time : 7218973
+I0123 09:35:42.202405 246654400 NetServer.cpp:88] delete io...127.0.0.1:62695
+I0123 09:35:42.202567 246654400 NetServer.cpp:88] delete io...127.0.0.1:62709
+I0123 09:35:43.681187 246654400 NetServer.cpp:55] accept io...127.0.0.1:62762
+I0123 09:35:45.695268 246654400 NetServer.cpp:55] accept io...127.0.0.1:62774
+I0123 09:55:39.717694 246654400 NetServer.cpp:88] delete io...127.0.0.1:62774
+I0123 09:55:39.717844 246654400 NetServer.cpp:88] delete io...127.0.0.1:62762
+W0123 09:55:40.748672 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: -1, error: mysql not opened yet!
+W0123 09:55:41.169041 227090432 DBThread.cpp:4593] INSERT wealth god index fail, errno: -1, error: mysql not opened yet!
+I0123 09:55:41.181489 246654400 NetServer.cpp:55] accept io...127.0.0.1:62880
+W0123 09:55:41.930553 226553856 DBThread.cpp:5442] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+I0123 09:55:43.190871 246654400 NetServer.cpp:55] accept io...127.0.0.1:62916
+W0123 09:56:06.612650 226553856 DBThread.cpp:6139] SELECT DISTINCT(platformId) FROM stat_pcu
+W0123 09:56:06.612799 226553856 DBThread.cpp:6140] select pcu platformId fail. errno: -1, err msg: mysql not opened yet!
+W0123 09:56:06.613375 226553856 DBThread.cpp:7920] get platform score db handle fail.
+W0123 09:56:06.617619 226553856 DBThread.cpp:8257] select generalize promoter info platform id fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0123 09:56:06.617780 226553856 DBThread.cpp:8326] get record score db handle fail.
+W0123 09:56:06.617978 226553856 DBThread.cpp:8471] select quanmin channel fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0123 09:56:06.618173 226553856 DBThread.cpp:8524] select client channel domain fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0123 09:56:06.618237 226553856 DBThread.cpp:8679] get platform db handle fail.
+W0123 09:56:06.618345 226553856 DBThread.cpp:8582] select channel show exchange condition fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0123 09:56:06.618516 226553856 DBThread.cpp:5679] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0123 09:56:06.618655 226553856 DBThread.cpp:5776] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W0123 09:56:06.618710 226553856 DBThread.cpp:4112] get platform db handle fail.
+W0123 09:56:06.618762 226553856 DBThread.cpp:4208] get platform db handle fail.
+W0123 09:56:06.618803 226553856 DBThread.cpp:4275] get platform db handle fail.
+W0123 09:56:06.621528 226553856 DBThread.cpp:4362] select wealth god coming id fail. errno: -1, error: mysql not opened yet!
+W0123 09:56:06.622234 226553856 DBThread.cpp:8083] select recharge amount cfg fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0123 09:56:06.622404 226553856 DBThread.cpp:8410] select excharge amount cfg fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0123 09:56:06.622464 226553856 DBThread.cpp:4736] get platform db handle fail.
+W0123 09:56:06.622586 226553856 DBThread.cpp:4826] select duobao_data fail. errno: -1, error: mysql not opened yet!
+W0123 09:56:06.622647 226553856 DBThread.cpp:8734] get platform db handle fail.
+W0123 09:56:06.622689 226553856 DBThread.cpp:8619] get platform db handle fail.
+W0123 09:56:06.623008 226553856 DBThread.cpp:5442] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0123 09:56:06.623140 226553856 DBThread.cpp:5679] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0123 09:56:06.623275 226553856 DBThread.cpp:5776] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W0123 09:56:06.623468 226553856 DBThread.cpp:5442] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0123 09:56:06.623581 226553856 DBThread.cpp:5679] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0123 09:56:06.623668 226553856 DBThread.cpp:5776] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W0123 09:56:06.623759 226553856 DBThread.cpp:5442] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0123 09:56:06.623845 226553856 DBThread.cpp:6139] SELECT DISTINCT(platformId) FROM stat_pcu
+W0123 09:56:06.623874 226553856 DBThread.cpp:6140] select pcu platformId fail. errno: -1, err msg: mysql not opened yet!
+W0123 09:56:06.624317 226553856 DBThread.cpp:7920] get platform score db handle fail.
+W0123 09:56:06.624459 226553856 DBThread.cpp:8257] select generalize promoter info platform id fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0123 09:56:06.624512 226553856 DBThread.cpp:8326] get record score db handle fail.
+W0123 09:56:06.624622 226553856 DBThread.cpp:8471] select quanmin channel fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0123 09:56:06.624740 226553856 DBThread.cpp:8524] select client channel domain fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0123 09:56:06.624790 226553856 DBThread.cpp:8679] get platform db handle fail.
+W0123 09:56:06.624891 226553856 DBThread.cpp:8582] select channel show exchange condition fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0123 09:56:06.625010 226553856 DBThread.cpp:5679] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0123 09:56:06.625125 226553856 DBThread.cpp:5776] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W0123 09:56:06.625171 226553856 DBThread.cpp:4112] get platform db handle fail.
+W0123 09:56:06.625206 226553856 DBThread.cpp:4208] get platform db handle fail.
+W0123 09:56:06.625241 226553856 DBThread.cpp:4275] get platform db handle fail.
+W0123 09:56:06.625349 226553856 DBThread.cpp:4362] select wealth god coming id fail. errno: -1, error: mysql not opened yet!
+W0123 09:56:06.625458 226553856 DBThread.cpp:8083] select recharge amount cfg fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0123 09:56:06.625581 226553856 DBThread.cpp:8410] select excharge amount cfg fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0123 09:56:06.625619 226553856 DBThread.cpp:4736] get platform db handle fail.
+W0123 09:56:06.625699 226553856 DBThread.cpp:4826] select duobao_data fail. errno: -1, error: mysql not opened yet!
+W0123 09:56:06.625737 226553856 DBThread.cpp:8734] get platform db handle fail.
+W0123 09:56:06.625766 226553856 DBThread.cpp:8619] get platform db handle fail.
+W0123 09:56:06.625908 226553856 DBThread.cpp:5442] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0123 09:56:06.626003 226553856 DBThread.cpp:5679] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0123 09:56:06.626091 226553856 DBThread.cpp:5776] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W0123 09:56:06.626184 226553856 DBThread.cpp:5442] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0123 09:56:06.626271 226553856 DBThread.cpp:6139] SELECT DISTINCT(platformId) FROM stat_pcu
+W0123 09:56:06.626302 226553856 DBThread.cpp:6140] select pcu platformId fail. errno: -1, err msg: mysql not opened yet!
+W0123 09:56:06.626332 226553856 DBThread.cpp:7920] get platform score db handle fail.
+W0123 09:56:06.626433 226553856 DBThread.cpp:8257] select generalize promoter info platform id fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0123 09:56:06.626471 226553856 DBThread.cpp:8326] get record score db handle fail.
+W0123 09:56:06.626549 226553856 DBThread.cpp:8471] select quanmin channel fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0123 09:56:06.626636 226553856 DBThread.cpp:8524] select client channel domain fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0123 09:56:06.626673 226553856 DBThread.cpp:8679] get platform db handle fail.
+W0123 09:56:06.626751 226553856 DBThread.cpp:8582] select channel show exchange condition fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0123 09:56:06.626842 226553856 DBThread.cpp:5679] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0123 09:56:06.626931 226553856 DBThread.cpp:5776] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W0123 09:56:06.626984 226553856 DBThread.cpp:4112] get platform db handle fail.
+W0123 09:56:06.627012 226553856 DBThread.cpp:4208] get platform db handle fail.
+W0123 09:56:06.627038 226553856 DBThread.cpp:4275] get platform db handle fail.
+W0123 09:56:06.627116 226553856 DBThread.cpp:4362] select wealth god coming id fail. errno: -1, error: mysql not opened yet!
+W0123 09:56:06.627202 226553856 DBThread.cpp:8083] select recharge amount cfg fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0123 09:56:06.627287 226553856 DBThread.cpp:8410] select excharge amount cfg fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0123 09:56:06.627326 226553856 DBThread.cpp:4736] get platform db handle fail.
+W0123 09:56:06.627403 226553856 DBThread.cpp:4826] select duobao_data fail. errno: -1, error: mysql not opened yet!
+W0123 09:56:06.627439 226553856 DBThread.cpp:8734] get platform db handle fail.
+W0123 09:56:06.627466 226553856 DBThread.cpp:8619] get platform db handle fail.
+W0123 09:56:06.627606 226553856 DBThread.cpp:5442] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0123 09:56:06.627696 226553856 DBThread.cpp:5679] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0123 09:56:06.627784 226553856 DBThread.cpp:5776] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W0123 09:56:06.627899 226553856 DBThread.cpp:5442] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0123 09:56:06.627997 226553856 DBThread.cpp:6139] SELECT DISTINCT(platformId) FROM stat_pcu
+W0123 09:56:06.628028 226553856 DBThread.cpp:6140] select pcu platformId fail. errno: -1, err msg: mysql not opened yet!
+W0123 09:56:06.628059 226553856 DBThread.cpp:7920] get platform score db handle fail.
+W0123 09:56:06.628139 226553856 DBThread.cpp:8257] select generalize promoter info platform id fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0123 09:56:06.628175 226553856 DBThread.cpp:8326] get record score db handle fail.
+W0123 09:56:06.628250 226553856 DBThread.cpp:8471] select quanmin channel fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0123 09:56:06.628336 226553856 DBThread.cpp:8524] select client channel domain fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0123 09:56:06.628373 226553856 DBThread.cpp:8679] get platform db handle fail.
+W0123 09:56:06.628671 226553856 DBThread.cpp:8582] select channel show exchange condition fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0123 09:56:06.628854 226553856 DBThread.cpp:5679] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0123 09:56:06.628988 226553856 DBThread.cpp:5776] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W0123 09:56:06.629027 226553856 DBThread.cpp:4112] get platform db handle fail.
+W0123 09:56:06.629092 226553856 DBThread.cpp:4208] get platform db handle fail.
+W0123 09:56:06.629115 226553856 DBThread.cpp:4275] get platform db handle fail.
+W0123 09:56:06.629192 226553856 DBThread.cpp:4362] select wealth god coming id fail. errno: -1, error: mysql not opened yet!
+W0123 09:56:06.629266 226553856 DBThread.cpp:8083] select recharge amount cfg fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0123 09:56:06.629336 226553856 DBThread.cpp:8410] select excharge amount cfg fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0123 09:56:06.629367 226553856 DBThread.cpp:4736] get platform db handle fail.
+W0123 09:56:06.629431 226553856 DBThread.cpp:4826] select duobao_data fail. errno: -1, error: mysql not opened yet!
+W0123 09:56:06.629460 226553856 DBThread.cpp:8734] get platform db handle fail.
+W0123 09:56:06.629483 226553856 DBThread.cpp:8619] get platform db handle fail.
+W0123 09:56:06.629597 226553856 DBThread.cpp:5442] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0123 09:56:06.629669 226553856 DBThread.cpp:5679] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0123 09:56:06.629755 226553856 DBThread.cpp:5776] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W0123 09:56:06.629840 226553856 DBThread.cpp:5442] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0123 09:56:06.629911 226553856 DBThread.cpp:6139] SELECT DISTINCT(platformId) FROM stat_pcu
+W0123 09:56:06.629935 226553856 DBThread.cpp:6140] select pcu platformId fail. errno: -1, err msg: mysql not opened yet!
+W0123 09:56:06.629959 226553856 DBThread.cpp:7920] get platform score db handle fail.
+W0123 09:56:06.630022 226553856 DBThread.cpp:8257] select generalize promoter info platform id fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0123 09:56:06.630051 226553856 DBThread.cpp:8326] get record score db handle fail.
+W0123 09:56:06.630112 226553856 DBThread.cpp:8471] select quanmin channel fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0123 09:56:06.630182 226553856 DBThread.cpp:8524] select client channel domain fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0123 09:56:06.630213 226553856 DBThread.cpp:8679] get platform db handle fail.
+W0123 09:56:06.630275 226553856 DBThread.cpp:8582] select channel show exchange condition fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0123 09:56:06.630347 226553856 DBThread.cpp:5679] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0123 09:56:06.630416 226553856 DBThread.cpp:5776] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W0123 09:56:06.631369 226553856 DBThread.cpp:4112] get platform db handle fail.
+W0123 09:56:06.631403 226553856 DBThread.cpp:4208] get platform db handle fail.
+W0123 09:56:06.631425 226553856 DBThread.cpp:4275] get platform db handle fail.
+W0123 09:56:06.631500 226553856 DBThread.cpp:4362] select wealth god coming id fail. errno: -1, error: mysql not opened yet!
+W0123 09:56:06.631569 226553856 DBThread.cpp:8083] select recharge amount cfg fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0123 09:56:06.631635 226553856 DBThread.cpp:8410] select excharge amount cfg fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0123 09:56:06.631664 226553856 DBThread.cpp:4736] get platform db handle fail.
+W0123 09:56:06.631721 226553856 DBThread.cpp:4826] select duobao_data fail. errno: -1, error: mysql not opened yet!
+W0123 09:56:06.634740 226553856 DBThread.cpp:8734] get platform db handle fail.
+W0123 09:56:06.634768 226553856 DBThread.cpp:8619] get platform db handle fail.
+W0123 09:56:06.634889 226553856 DBThread.cpp:5442] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0123 09:56:06.634955 226553856 DBThread.cpp:5679] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0123 09:56:06.635036 226553856 DBThread.cpp:5776] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+I0123 09:56:06.635062 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:62880
+W0123 09:56:06.635457 226553856 DBThread.cpp:5442] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0123 09:56:06.635520 226553856 DBThread.cpp:6139] SELECT DISTINCT(platformId) FROM stat_pcu
+W0123 09:56:06.635541 226553856 DBThread.cpp:6140] select pcu platformId fail. errno: -1, err msg: mysql not opened yet!
+W0123 09:56:06.644649 226553856 DBThread.cpp:7920] get platform score db handle fail.
+W0123 09:56:06.644794 226553856 DBThread.cpp:8257] select generalize promoter info platform id fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0123 09:56:06.644827 226553856 DBThread.cpp:8326] get record score db handle fail.
+W0123 09:56:06.644894 226553856 DBThread.cpp:8471] select quanmin channel fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0123 09:56:06.644968 226553856 DBThread.cpp:8524] select client channel domain fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0123 09:56:06.645017 226553856 DBThread.cpp:8679] get platform db handle fail.
+W0123 09:56:06.645081 226553856 DBThread.cpp:8582] select channel show exchange condition fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0123 09:56:06.645159 226553856 DBThread.cpp:5679] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0123 09:56:06.645234 226553856 DBThread.cpp:5776] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W0123 09:56:06.645263 226553856 DBThread.cpp:4112] get platform db handle fail.
+W0123 09:56:06.645285 226553856 DBThread.cpp:4208] get platform db handle fail.
+W0123 09:56:06.645305 226553856 DBThread.cpp:4275] get platform db handle fail.
+W0123 09:56:06.645368 226553856 DBThread.cpp:4362] select wealth god coming id fail. errno: -1, error: mysql not opened yet!
+W0123 09:56:06.645437 226553856 DBThread.cpp:8083] select recharge amount cfg fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0123 09:56:06.645699 226553856 DBThread.cpp:8410] select excharge amount cfg fail, errno:2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W0123 09:56:06.645740 226553856 DBThread.cpp:4736] get platform db handle fail.
+W0123 09:56:06.645812 226553856 DBThread.cpp:4826] select duobao_data fail. errno: -1, error: mysql not opened yet!
+W0123 09:56:06.645843 226553856 DBThread.cpp:8734] get platform db handle fail.
+W0123 09:56:06.645864 226553856 DBThread.cpp:8619] get platform db handle fail.
+I0123 09:56:06.645885 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:62916
+W0123 10:04:53.727556 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0123 10:04:55.735394 226017280 BuildDBThread.cpp:133] open :58.82.239.150:3306@mysql error!
+W0123 10:04:55.735587 226017280 BuildDBThread.cpp:217] open :58.82.239.150:3306@mysql error!
+W0123 10:05:39.688016 226553856 DBThread.cpp:5442] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0123 10:05:39.690030 226553856 DBThread.cpp:5679] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0123 10:05:39.690173 226553856 DBThread.cpp:5776] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W0123 10:15:39.740169 226553856 DBThread.cpp:5442] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0123 10:15:39.741786 226553856 DBThread.cpp:5679] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0123 10:15:39.741932 226553856 DBThread.cpp:5776] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W0123 10:20:41.447540 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '3-1-2-419' for key 'PRIMARY'
+W0123 10:40:50.156652 226553856 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '2-1-1-69' for key 'PRIMARY'
+W0123 11:04:55.748896 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0123 12:05:00.243636 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0123 12:41:19.027081 226553856 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '5-1-3-263' for key 'PRIMARY'
+W0123 13:01:51.365255 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-1-1-416' for key 'PRIMARY'
+W0123 13:05:04.744243 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0123 14:05:09.240286 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0123 15:05:13.782217 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0123 16:05:18.304702 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0123 16:57:30.647738 226553856 DBThread.cpp:5442] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0123 16:58:30.764204 226553856 DBThread.cpp:5679] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0123 16:59:31.088366 226553856 DBThread.cpp:5776] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W0123 17:05:22.809443 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0123 17:06:25.936920 226017280 BuildDBThread.cpp:133] open :58.82.239.150:3306@mysql error!
+W0123 17:06:42.137094 226553856 DBThread.cpp:5442] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0123 17:07:26.043367 226017280 BuildDBThread.cpp:217] open :58.82.239.150:3306@mysql error!
+W0123 17:07:42.248184 226553856 DBThread.cpp:5679] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0123 17:08:43.375461 226553856 DBThread.cpp:5776] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W0123 17:21:24.795287 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '6-1-2-389' for key 'PRIMARY'
+W0123 18:07:26.082110 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0123 18:30:05.807145 226553856 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-1-1-417' for key 'PRIMARY'
+W0123 19:07:30.584856 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0123 20:07:35.101621 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0123 20:28:07.284346 226553856 DBThread.cpp:2733] insert stat_machine_online fail,machine types: 2, statValue:1, error no: -1, error msg: mysql not opened yet!
+W0123 20:37:32.152861 226553856 DBThread.cpp:5442] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0123 20:38:32.161862 226553856 DBThread.cpp:5679] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0123 20:39:32.166767 226553856 DBThread.cpp:5776] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W0123 21:07:39.706264 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+I0123 22:06:19.608531 246654400 NetServer.cpp:88] delete io...127.0.0.1:62916
+I0123 22:06:19.633648 246654400 NetServer.cpp:88] delete io...127.0.0.1:62880
+I0123 22:06:21.486832 246654400 NetServer.cpp:55] accept io...127.0.0.1:49217
+I0123 22:06:23.003492 246654400 NetServer.cpp:55] accept io...127.0.0.1:49230
+I0123 22:07:21.405194 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:49217
+W0123 22:07:43.772557 226553856 DBThread.cpp:7920] get platform score db handle fail.
+W0123 22:07:44.634358 226553856 DBThread.cpp:8326] get record score db handle fail.
+W0123 22:07:45.207171 226553856 DBThread.cpp:8679] get platform db handle fail.
+W0123 22:07:45.627339 226553856 DBThread.cpp:4112] get platform db handle fail.
+W0123 22:07:45.627416 226553856 DBThread.cpp:4208] get platform db handle fail.
+W0123 22:07:45.627446 226553856 DBThread.cpp:4275] get platform db handle fail.
+W0123 22:07:57.783717 226553856 DBThread.cpp:4736] get platform db handle fail.
+W0123 22:07:58.651824 226553856 DBThread.cpp:8734] get platform db handle fail.
+W0123 22:07:58.651885 226553856 DBThread.cpp:8619] get platform db handle fail.
+I0123 22:07:58.651916 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:49230
+I0123 22:45:57.355478 246654400 NetServer.cpp:88] delete io...127.0.0.1:49230
+I0123 22:45:57.355582 246654400 NetServer.cpp:88] delete io...127.0.0.1:49217
+I0123 22:45:58.846184 246654400 NetServer.cpp:55] accept io...127.0.0.1:50483
+I0123 22:46:00.852301 246654400 NetServer.cpp:55] accept io...127.0.0.1:50498
+I0123 22:46:51.973722 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:50483
+W0123 22:46:53.157714 226553856 DBThread.cpp:7920] get platform score db handle fail.
+W0123 22:47:30.295480 226553856 DBThread.cpp:8326] get record score db handle fail.
+W0123 22:47:30.856637 226553856 DBThread.cpp:8679] get platform db handle fail.
+W0123 22:47:31.278411 226553856 DBThread.cpp:4112] get platform db handle fail.
+W0123 22:47:31.278545 226553856 DBThread.cpp:4208] get platform db handle fail.
+W0123 22:47:31.278611 226553856 DBThread.cpp:4275] get platform db handle fail.
+W0123 22:47:43.335544 226553856 DBThread.cpp:4736] get platform db handle fail.
+W0123 22:47:44.196020 226553856 DBThread.cpp:8734] get platform db handle fail.
+W0123 22:47:44.196157 226553856 DBThread.cpp:8619] get platform db handle fail.
+I0123 22:47:44.196221 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:50498
+I0123 23:27:40.396080 246654400 NetServer.cpp:88] delete io...127.0.0.1:50498
+I0123 23:27:40.396957 246654400 NetServer.cpp:88] delete io...127.0.0.1:50483
+W0123 23:27:41.604758 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: -1, error: mysql not opened yet!
+I0123 23:27:41.857323 246654400 NetServer.cpp:55] accept io...127.0.0.1:51751
+I0123 23:27:43.873700 246654400 NetServer.cpp:55] accept io...127.0.0.1:51767
+W0123 23:28:34.966054 226553856 DBThread.cpp:1996] start  AcrossTheDayEvent...
+W0123 23:28:38.634155 226553856 DBThread.cpp:2001] SwitchTodayScoreRank use time : 3667
+W0123 23:28:38.853147 226553856 DBThread.cpp:2006] ResetTodayScoreRankInCache use time : 219
+W0123 23:28:39.177546 226553856 DBThread.cpp:5892] account count: 158
+W0123 23:28:56.171167 226553856 DBThread.cpp:5900] vecAccountInfo use time: 16994
+W0123 23:28:56.172024 226553856 DBThread.cpp:2011] ResetTodayRank use time : 17319
+I0123 23:28:56.172363 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:51751
+W0123 23:28:57.364449 226553856 DBThread.cpp:7920] get platform score db handle fail.
+W0123 23:29:32.443343 226553856 DBThread.cpp:8326] get record score db handle fail.
+W0123 23:29:33.005648 226553856 DBThread.cpp:8679] get platform db handle fail.
+W0123 23:29:33.429127 226553856 DBThread.cpp:4112] get platform db handle fail.
+W0123 23:29:33.429209 226553856 DBThread.cpp:4208] get platform db handle fail.
+W0123 23:29:33.429245 226553856 DBThread.cpp:4275] get platform db handle fail.
+W0123 23:29:45.687427 226553856 DBThread.cpp:4736] get platform db handle fail.
+W0123 23:29:46.552983 226553856 DBThread.cpp:8734] get platform db handle fail.
+W0123 23:29:46.553040 226553856 DBThread.cpp:8619] get platform db handle fail.
+I0123 23:29:46.553071 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:51767
+I0124 00:06:47.421761 246654400 NetServer.cpp:88] delete io...127.0.0.1:51767
+I0124 00:06:47.423318 246654400 NetServer.cpp:88] delete io...127.0.0.1:51751
+I0124 00:06:50.914352 246654400 NetServer.cpp:55] accept io...127.0.0.1:53021
+I0124 00:06:58.958505 246654400 NetServer.cpp:55] accept io...127.0.0.1:53059
+I0124 00:07:41.955323 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:53021
+I0124 00:07:41.956136 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:53059
+W0124 00:07:43.132128 226553856 DBThread.cpp:7920] get platform score db handle fail.
+W0124 00:08:18.729077 226553856 DBThread.cpp:8326] get record score db handle fail.
+W0124 00:08:19.289618 226553856 DBThread.cpp:8679] get platform db handle fail.
+W0124 00:08:19.706346 226553856 DBThread.cpp:4112] get platform db handle fail.
+W0124 00:08:19.706459 226553856 DBThread.cpp:4208] get platform db handle fail.
+W0124 00:08:19.706496 226553856 DBThread.cpp:4275] get platform db handle fail.
+W0124 00:08:31.923317 226553856 DBThread.cpp:4736] get platform db handle fail.
+W0124 00:08:32.778755 226553856 DBThread.cpp:8734] get platform db handle fail.
+W0124 00:08:32.778889 226553856 DBThread.cpp:8619] get platform db handle fail.
+I0124 00:47:39.399816 246654400 NetServer.cpp:88] delete io...127.0.0.1:53021
+I0124 00:47:39.408463 246654400 NetServer.cpp:88] delete io...127.0.0.1:53059
+I0124 00:47:40.891183 246654400 NetServer.cpp:55] accept io...127.0.0.1:54272
+I0124 00:47:42.902431 246654400 NetServer.cpp:55] accept io...127.0.0.1:54285
+I0124 00:48:33.876260 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:54272
+W0124 00:48:35.059918 226553856 DBThread.cpp:7920] get platform score db handle fail.
+W0124 00:49:12.230492 226553856 DBThread.cpp:8326] get record score db handle fail.
+W0124 00:49:12.792309 226553856 DBThread.cpp:8679] get platform db handle fail.
+W0124 00:49:13.206982 226553856 DBThread.cpp:4112] get platform db handle fail.
+W0124 00:49:13.207052 226553856 DBThread.cpp:4208] get platform db handle fail.
+W0124 00:49:13.207082 226553856 DBThread.cpp:4275] get platform db handle fail.
+W0124 00:49:25.525652 226553856 DBThread.cpp:4736] get platform db handle fail.
+W0124 00:49:26.387507 226553856 DBThread.cpp:8734] get platform db handle fail.
+W0124 00:49:26.387605 226553856 DBThread.cpp:8619] get platform db handle fail.
+I0124 00:49:26.387635 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:54285
+I0124 01:23:02.419565 246654400 NetServer.cpp:88] delete io...127.0.0.1:54285
+I0124 01:23:02.419654 246654400 NetServer.cpp:88] delete io...127.0.0.1:54272
+I0124 01:23:03.899282 246654400 NetServer.cpp:55] accept io...127.0.0.1:55524
+I0124 01:23:05.918476 246654400 NetServer.cpp:55] accept io...127.0.0.1:55536
+I0124 01:23:56.945133 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:55524
+W0124 01:23:58.128621 226553856 DBThread.cpp:7920] get platform score db handle fail.
+W0124 01:24:32.678689 226553856 DBThread.cpp:8326] get record score db handle fail.
+W0124 01:24:33.231225 226553856 DBThread.cpp:8679] get platform db handle fail.
+W0124 01:24:33.647099 226553856 DBThread.cpp:4112] get platform db handle fail.
+W0124 01:24:33.647233 226553856 DBThread.cpp:4208] get platform db handle fail.
+W0124 01:24:33.647302 226553856 DBThread.cpp:4275] get platform db handle fail.
+W0124 01:24:45.891147 226553856 DBThread.cpp:4736] get platform db handle fail.
+W0124 01:24:46.745862 226553856 DBThread.cpp:8734] get platform db handle fail.
+W0124 01:24:46.745995 226553856 DBThread.cpp:8619] get platform db handle fail.
+I0124 01:24:46.746062 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:55536
+I0124 02:28:06.428766 246654400 NetServer.cpp:88] delete io...127.0.0.1:55524
+I0124 02:28:06.429327 246654400 NetServer.cpp:88] delete io...127.0.0.1:55536
+I0124 02:28:07.914510 246654400 NetServer.cpp:55] accept io...127.0.0.1:56786
+I0124 02:28:09.917868 246654400 NetServer.cpp:55] accept io...127.0.0.1:56799
+I0124 02:29:01.949296 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:56786
+W0124 02:29:03.138378 226553856 DBThread.cpp:7920] get platform score db handle fail.
+W0124 02:29:41.493693 226553856 DBThread.cpp:8326] get record score db handle fail.
+W0124 02:29:42.045130 226553856 DBThread.cpp:8679] get platform db handle fail.
+W0124 02:29:42.466351 226553856 DBThread.cpp:4112] get platform db handle fail.
+W0124 02:29:42.466490 226553856 DBThread.cpp:4208] get platform db handle fail.
+W0124 02:29:42.466557 226553856 DBThread.cpp:4275] get platform db handle fail.
+W0124 02:29:49.540866 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0124 02:29:54.689098 226553856 DBThread.cpp:4736] get platform db handle fail.
+W0124 02:29:55.545631 226553856 DBThread.cpp:8734] get platform db handle fail.
+W0124 02:29:55.545743 226553856 DBThread.cpp:8619] get platform db handle fail.
+I0124 02:29:55.545799 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:56799
+I0124 03:33:10.445760 246654400 NetServer.cpp:88] delete io...127.0.0.1:56799
+I0124 03:33:10.464536 246654400 NetServer.cpp:88] delete io...127.0.0.1:56786
+I0124 03:33:11.935889 246654400 NetServer.cpp:55] accept io...127.0.0.1:58089
+I0124 03:33:13.941524 246654400 NetServer.cpp:55] accept io...127.0.0.1:58101
+I0124 03:34:05.481642 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:58089
+W0124 03:34:06.673146 226553856 DBThread.cpp:7920] get platform score db handle fail.
+W0124 03:34:42.814591 226553856 DBThread.cpp:8326] get record score db handle fail.
+W0124 03:34:43.482715 226553856 DBThread.cpp:8679] get platform db handle fail.
+W0124 03:34:43.903594 226553856 DBThread.cpp:4112] get platform db handle fail.
+W0124 03:34:43.903659 226553856 DBThread.cpp:4208] get platform db handle fail.
+W0124 03:34:43.903689 226553856 DBThread.cpp:4275] get platform db handle fail.
+W0124 03:34:56.245600 226553856 DBThread.cpp:4736] get platform db handle fail.
+W0124 03:34:57.109788 226553856 DBThread.cpp:8734] get platform db handle fail.
+W0124 03:34:57.109845 226553856 DBThread.cpp:8619] get platform db handle fail.
+I0124 03:34:57.109869 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:58101
+I0124 04:38:14.496032 246654400 NetServer.cpp:88] delete io...127.0.0.1:58089
+I0124 04:38:14.496173 246654400 NetServer.cpp:88] delete io...127.0.0.1:58101
+I0124 04:38:15.960484 246654400 NetServer.cpp:55] accept io...127.0.0.1:59384
+I0124 04:38:17.983856 246654400 NetServer.cpp:55] accept io...127.0.0.1:59398
+I0124 04:39:09.127127 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:59384
+W0124 04:39:10.318742 226553856 DBThread.cpp:7920] get platform score db handle fail.
+W0124 04:39:48.535981 226553856 DBThread.cpp:8326] get record score db handle fail.
+W0124 04:39:49.092993 226553856 DBThread.cpp:8679] get platform db handle fail.
+W0124 04:39:49.514232 226553856 DBThread.cpp:4112] get platform db handle fail.
+W0124 04:39:49.514294 226553856 DBThread.cpp:4208] get platform db handle fail.
+W0124 04:39:49.514319 226553856 DBThread.cpp:4275] get platform db handle fail.
+W0124 04:40:01.813937 226553856 DBThread.cpp:4736] get platform db handle fail.
+W0124 04:40:02.676419 226553856 DBThread.cpp:8734] get platform db handle fail.
+W0124 04:40:02.676517 226553856 DBThread.cpp:8619] get platform db handle fail.
+I0124 04:40:02.676559 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:59398
+I0124 05:43:18.502681 246654400 NetServer.cpp:88] delete io...127.0.0.1:59384
+I0124 05:43:18.502774 246654400 NetServer.cpp:88] delete io...127.0.0.1:59398
+I0124 05:43:19.991775 246654400 NetServer.cpp:55] accept io...127.0.0.1:60653
+I0124 05:43:21.999706 246654400 NetServer.cpp:55] accept io...127.0.0.1:60665
+I0124 05:44:13.026088 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:60653
+W0124 05:44:14.205905 226553856 DBThread.cpp:7920] get platform score db handle fail.
+W0124 05:44:49.418458 226553856 DBThread.cpp:8326] get record score db handle fail.
+W0124 05:44:49.977609 226553856 DBThread.cpp:8679] get platform db handle fail.
+W0124 05:44:50.392146 226553856 DBThread.cpp:4112] get platform db handle fail.
+W0124 05:44:50.392230 226553856 DBThread.cpp:4208] get platform db handle fail.
+W0124 05:44:50.392266 226553856 DBThread.cpp:4275] get platform db handle fail.
+W0124 05:45:02.641208 226553856 DBThread.cpp:4736] get platform db handle fail.
+W0124 05:45:03.498891 226553856 DBThread.cpp:8734] get platform db handle fail.
+W0124 05:45:03.498989 226553856 DBThread.cpp:8619] get platform db handle fail.
+I0124 05:45:03.499032 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:60665
+I0124 06:48:22.535298 246654400 NetServer.cpp:88] delete io...127.0.0.1:60665
+I0124 06:48:22.535396 246654400 NetServer.cpp:88] delete io...127.0.0.1:60653
+I0124 06:48:24.010361 246654400 NetServer.cpp:55] accept io...127.0.0.1:61945
+I0124 06:48:26.027786 246654400 NetServer.cpp:55] accept io...127.0.0.1:61957
+I0124 06:49:17.095894 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:61945
+W0124 06:49:18.278647 226553856 DBThread.cpp:7920] get platform score db handle fail.
+W0124 06:49:54.448767 226553856 DBThread.cpp:8326] get record score db handle fail.
+W0124 06:49:55.008219 226553856 DBThread.cpp:8679] get platform db handle fail.
+W0124 06:49:55.425418 226553856 DBThread.cpp:4112] get platform db handle fail.
+W0124 06:49:55.425552 226553856 DBThread.cpp:4208] get platform db handle fail.
+W0124 06:49:55.425619 226553856 DBThread.cpp:4275] get platform db handle fail.
+W0124 06:50:07.663154 226553856 DBThread.cpp:4736] get platform db handle fail.
+W0124 06:50:08.520937 226553856 DBThread.cpp:8734] get platform db handle fail.
+W0124 06:50:08.521095 226553856 DBThread.cpp:8619] get platform db handle fail.
+I0124 06:50:08.521175 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:61957
+I0124 07:53:26.571168 246654400 NetServer.cpp:88] delete io...127.0.0.1:61957
+I0124 07:53:26.572782 246654400 NetServer.cpp:88] delete io...127.0.0.1:61945
+I0124 07:53:28.042754 246654400 NetServer.cpp:55] accept io...127.0.0.1:63223
+I0124 07:53:30.057935 246654400 NetServer.cpp:55] accept io...127.0.0.1:63238
+I0124 07:54:21.021878 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:63223
+W0124 07:54:22.207640 226553856 DBThread.cpp:7920] get platform score db handle fail.
+W0124 07:54:59.944895 226553856 DBThread.cpp:8326] get record score db handle fail.
+W0124 07:55:00.610227 226553856 DBThread.cpp:8679] get platform db handle fail.
+W0124 07:55:01.030728 226553856 DBThread.cpp:4112] get platform db handle fail.
+W0124 07:55:01.030864 226553856 DBThread.cpp:4208] get platform db handle fail.
+W0124 07:55:01.030937 226553856 DBThread.cpp:4275] get platform db handle fail.
+W0124 07:55:13.450853 226553856 DBThread.cpp:4736] get platform db handle fail.
+W0124 07:55:14.313700 226553856 DBThread.cpp:8734] get platform db handle fail.
+W0124 07:55:14.313838 226553856 DBThread.cpp:8619] get platform db handle fail.
+I0124 07:55:14.313904 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:63238
+I0124 08:58:30.583216 246654400 NetServer.cpp:88] delete io...127.0.0.1:63223
+I0124 08:58:30.587844 246654400 NetServer.cpp:88] delete io...127.0.0.1:63238
+I0124 08:58:32.059986 246654400 NetServer.cpp:55] accept io...127.0.0.1:64501
+I0124 08:58:34.079510 246654400 NetServer.cpp:55] accept io...127.0.0.1:64515
+I0124 08:59:12.086027 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:64501
+W0124 08:59:34.499912 226553856 DBThread.cpp:7920] get platform score db handle fail.
+W0124 09:00:11.668514 226553856 DBThread.cpp:8326] get record score db handle fail.
+W0124 09:00:12.234787 226553856 DBThread.cpp:8679] get platform db handle fail.
+W0124 09:00:12.654006 226553856 DBThread.cpp:4112] get platform db handle fail.
+W0124 09:00:12.654090 226553856 DBThread.cpp:4208] get platform db handle fail.
+W0124 09:00:12.654135 226553856 DBThread.cpp:4275] get platform db handle fail.
+W0124 09:00:25.111833 226553856 DBThread.cpp:4736] get platform db handle fail.
+W0124 09:00:25.968370 226553856 DBThread.cpp:8734] get platform db handle fail.
+W0124 09:00:25.968549 226553856 DBThread.cpp:8619] get platform db handle fail.
+I0124 09:00:25.968626 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:64515
+I0124 09:45:02.603392 246654400 NetServer.cpp:88] delete io...127.0.0.1:64501
+I0124 09:45:02.626396 246654400 NetServer.cpp:88] delete io...127.0.0.1:64515
+I0124 09:45:04.090263 246654400 NetServer.cpp:55] accept io...127.0.0.1:49382
+I0124 09:45:06.101263 246654400 NetServer.cpp:55] accept io...127.0.0.1:49397
+I0124 09:45:57.742550 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:49382
+W0124 09:45:58.923940 226553856 DBThread.cpp:7920] get platform score db handle fail.
+W0124 09:46:35.186774 226553856 DBThread.cpp:8326] get record score db handle fail.
+W0124 09:46:35.747417 226553856 DBThread.cpp:8679] get platform db handle fail.
+W0124 09:46:36.168191 226553856 DBThread.cpp:4112] get platform db handle fail.
+W0124 09:46:36.168263 226553856 DBThread.cpp:4208] get platform db handle fail.
+W0124 09:46:36.168320 226553856 DBThread.cpp:4275] get platform db handle fail.
+W0124 09:46:49.188169 226553856 DBThread.cpp:4736] get platform db handle fail.
+W0124 09:46:50.056257 226553856 DBThread.cpp:8734] get platform db handle fail.
+W0124 09:46:50.056315 226553856 DBThread.cpp:8619] get platform db handle fail.
+I0124 09:46:50.056340 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:49397
+W0124 10:10:45.855954 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0124 10:20:04.927119 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '3-1-2-421' for key 'PRIMARY'
+W0124 11:10:50.242236 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0124 12:10:54.749469 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0124 12:40:09.844120 226553856 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '5-1-3-264' for key 'PRIMARY'
+W0124 13:01:19.074517 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-1-1-418' for key 'PRIMARY'
+W0124 13:10:59.198803 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0124 13:50:12.996177 226553856 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '4-3-1-40' for key 'PRIMARY'
+W0124 14:11:03.842372 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0124 15:01:13.367108 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '6-1-2-390' for key 'PRIMARY'
+W0124 15:11:08.360419 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0124 15:31:00.854225 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-3-1-479' for key 'PRIMARY'
+W0124 16:10:19.157017 226553856 DBThread.cpp:4578] get platform db handle fail.
+W0124 16:11:12.834450 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0124 17:11:17.321504 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0124 17:22:22.961587 228163584 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '6-1-2-391' for key 'PRIMARY'
+W0124 18:11:21.806622 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0124 18:30:25.967170 226553856 DBThread.cpp:4578] get platform db handle fail.
+W0124 18:30:26.523638 227090432 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-1-1-419' for key 'PRIMARY'
+W0124 19:11:26.348590 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0124 19:40:29.842392 228163584 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-4-1-362' for key 'PRIMARY'
+W0124 20:00:30.261322 226553856 DBThread.cpp:4578] get platform db handle fail.
+W0124 20:01:41.999863 227090432 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '2-1-2-41' for key 'PRIMARY'
+W0124 20:11:31.064219 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0124 20:31:41.979588 228163584 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '3-1-2-422' for key 'PRIMARY'
+W0124 21:11:35.592902 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0124 21:26:45.985827 226553856 DBThread.cpp:5442] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+I0124 22:09:05.998519 246654400 NetServer.cpp:88] delete io...127.0.0.1:49397
+I0124 22:09:06.000514 246654400 NetServer.cpp:88] delete io...127.0.0.1:49382
+I0124 22:09:07.483268 246654400 NetServer.cpp:55] accept io...127.0.0.1:63590
+I0124 22:09:09.632742 246654400 NetServer.cpp:55] accept io...127.0.0.1:63599
+W0124 22:10:20.390992 226553856 DBThread.cpp:4578] get platform db handle fail.
+I0124 22:10:20.392262 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:63590
+W0124 22:10:21.586531 226553856 DBThread.cpp:7920] get platform score db handle fail.
+W0124 22:10:22.453521 226553856 DBThread.cpp:8326] get record score db handle fail.
+W0124 22:10:23.779150 226553856 DBThread.cpp:8679] get platform db handle fail.
+W0124 22:10:24.197489 226553856 DBThread.cpp:4112] get platform db handle fail.
+W0124 22:10:24.197561 226553856 DBThread.cpp:4208] get platform db handle fail.
+W0124 22:10:24.197590 226553856 DBThread.cpp:4275] get platform db handle fail.
+W0124 22:10:38.717387 226553856 DBThread.cpp:4736] get platform db handle fail.
+W0124 22:10:39.576722 226553856 DBThread.cpp:8734] get platform db handle fail.
+W0124 22:10:39.576789 226553856 DBThread.cpp:8619] get platform db handle fail.
+I0124 22:10:39.576817 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:63599
+I0124 22:54:48.742004 246654400 NetServer.cpp:88] delete io...127.0.0.1:63590
+I0124 22:54:48.742069 246654400 NetServer.cpp:88] delete io...127.0.0.1:63599
+I0124 22:54:50.224535 246654400 NetServer.cpp:55] accept io...127.0.0.1:64867
+I0124 22:54:52.236039 246654400 NetServer.cpp:55] accept io...127.0.0.1:64885
+I0124 22:55:43.346349 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:64867
+W0124 22:55:44.530999 226553856 DBThread.cpp:7920] get platform score db handle fail.
+W0124 22:56:20.147272 226553856 DBThread.cpp:8326] get record score db handle fail.
+W0124 22:56:20.713358 226553856 DBThread.cpp:8679] get platform db handle fail.
+W0124 22:56:21.138933 226553856 DBThread.cpp:4112] get platform db handle fail.
+W0124 22:56:21.139008 226553856 DBThread.cpp:4208] get platform db handle fail.
+W0124 22:56:21.139039 226553856 DBThread.cpp:4275] get platform db handle fail.
+W0124 22:56:35.698762 226553856 DBThread.cpp:4736] get platform db handle fail.
+W0124 22:56:36.558472 226553856 DBThread.cpp:8734] get platform db handle fail.
+W0124 22:56:36.558545 226553856 DBThread.cpp:8619] get platform db handle fail.
+I0124 22:56:36.558574 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:64885
+I0124 23:59:51.764569 246654400 NetServer.cpp:88] delete io...127.0.0.1:64867
+I0124 23:59:51.785504 246654400 NetServer.cpp:88] delete io...127.0.0.1:64885
+I0124 23:59:53.253993 246654400 NetServer.cpp:55] accept io...127.0.0.1:49775
+I0124 23:59:55.268404 246654400 NetServer.cpp:55] accept io...127.0.0.1:49789
+W0125 00:00:46.376647 226553856 DBThread.cpp:1996] start  AcrossTheDayEvent...
+W0125 00:00:50.300832 226553856 DBThread.cpp:2001] SwitchTodayScoreRank use time : 3922
+W0125 00:00:50.514178 226553856 DBThread.cpp:2006] ResetTodayScoreRankInCache use time : 214
+W0125 00:00:50.836621 226553856 DBThread.cpp:5892] account count: 155
+W0125 00:01:02.804591 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-3-1-480' for key 'PRIMARY'
+W0125 00:01:07.338616 226553856 DBThread.cpp:5900] vecAccountInfo use time: 16502
+W0125 00:01:07.338721 226553856 DBThread.cpp:2011] ResetTodayRank use time : 16824
+I0125 00:01:07.339723 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:49775
+W0125 00:01:08.526629 226553856 DBThread.cpp:7920] get platform score db handle fail.
+W0125 00:01:46.706429 226553856 DBThread.cpp:8326] get record score db handle fail.
+W0125 00:01:47.262265 226553856 DBThread.cpp:8679] get platform db handle fail.
+W0125 00:01:47.683784 226553856 DBThread.cpp:4112] get platform db handle fail.
+W0125 00:01:47.683854 226553856 DBThread.cpp:4208] get platform db handle fail.
+W0125 00:01:47.683892 226553856 DBThread.cpp:4275] get platform db handle fail.
+W0125 00:02:02.406529 226553856 DBThread.cpp:4736] get platform db handle fail.
+W0125 00:02:03.270382 226553856 DBThread.cpp:8734] get platform db handle fail.
+W0125 00:02:03.270444 226553856 DBThread.cpp:8619] get platform db handle fail.
+I0125 00:02:03.270469 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:49789
+I0125 01:04:54.827100 246654400 NetServer.cpp:88] delete io...127.0.0.1:49789
+I0125 01:04:54.827256 246654400 NetServer.cpp:88] delete io...127.0.0.1:49775
+I0125 01:04:56.305949 246654400 NetServer.cpp:55] accept io...127.0.0.1:51058
+I0125 01:04:58.310230 246654400 NetServer.cpp:55] accept io...127.0.0.1:51077
+I0125 01:05:49.395854 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:51058
+W0125 01:05:50.586063 226553856 DBThread.cpp:7920] get platform score db handle fail.
+W0125 01:06:26.735213 226553856 DBThread.cpp:8326] get record score db handle fail.
+W0125 01:06:27.294117 226553856 DBThread.cpp:8679] get platform db handle fail.
+W0125 01:06:27.708478 226553856 DBThread.cpp:4112] get platform db handle fail.
+W0125 01:06:27.708561 226553856 DBThread.cpp:4208] get platform db handle fail.
+W0125 01:06:27.708590 226553856 DBThread.cpp:4275] get platform db handle fail.
+W0125 01:06:42.267238 226553856 DBThread.cpp:4736] get platform db handle fail.
+W0125 01:06:43.123499 226553856 DBThread.cpp:8734] get platform db handle fail.
+W0125 01:06:43.123569 226553856 DBThread.cpp:8619] get platform db handle fail.
+I0125 01:06:43.123597 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:51077
+I0125 01:46:10.807595 246654400 NetServer.cpp:88] delete io...127.0.0.1:51058
+I0125 01:46:10.807732 246654400 NetServer.cpp:88] delete io...127.0.0.1:51077
+I0125 01:46:12.299505 246654400 NetServer.cpp:55] accept io...127.0.0.1:52336
+I0125 01:46:14.313446 246654400 NetServer.cpp:55] accept io...127.0.0.1:52354
+I0125 01:47:05.334384 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:52336
+W0125 01:47:06.521318 226553856 DBThread.cpp:7920] get platform score db handle fail.
+W0125 01:47:42.664166 226553856 DBThread.cpp:8326] get record score db handle fail.
+W0125 01:47:43.219828 226553856 DBThread.cpp:8679] get platform db handle fail.
+W0125 01:47:43.646042 226553856 DBThread.cpp:4112] get platform db handle fail.
+W0125 01:47:43.646111 226553856 DBThread.cpp:4208] get platform db handle fail.
+W0125 01:47:43.646138 226553856 DBThread.cpp:4275] get platform db handle fail.
+W0125 01:47:58.264236 226553856 DBThread.cpp:4736] get platform db handle fail.
+W0125 01:47:59.122038 226553856 DBThread.cpp:8734] get platform db handle fail.
+W0125 01:47:59.122108 226553856 DBThread.cpp:8619] get platform db handle fail.
+I0125 01:47:59.122135 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:52354
+I0125 02:51:14.822522 246654400 NetServer.cpp:88] delete io...127.0.0.1:52354
+I0125 02:51:14.822607 246654400 NetServer.cpp:88] delete io...127.0.0.1:52336
+I0125 02:51:16.313326 246654400 NetServer.cpp:55] accept io...127.0.0.1:53598
+I0125 02:51:18.325354 246654400 NetServer.cpp:55] accept io...127.0.0.1:53614
+I0125 02:52:09.427428 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:53598
+W0125 02:52:10.617178 226553856 DBThread.cpp:7920] get platform score db handle fail.
+W0125 02:52:46.777159 226553856 DBThread.cpp:8326] get record score db handle fail.
+W0125 02:52:47.335376 226553856 DBThread.cpp:8679] get platform db handle fail.
+W0125 02:52:47.751569 226553856 DBThread.cpp:4112] get platform db handle fail.
+W0125 02:52:47.751651 226553856 DBThread.cpp:4208] get platform db handle fail.
+W0125 02:52:47.751677 226553856 DBThread.cpp:4275] get platform db handle fail.
+W0125 02:53:02.331888 226553856 DBThread.cpp:4736] get platform db handle fail.
+W0125 02:53:03.189421 226553856 DBThread.cpp:8734] get platform db handle fail.
+W0125 02:53:03.189504 226553856 DBThread.cpp:8619] get platform db handle fail.
+I0125 02:53:03.189546 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:53614
+I0125 03:56:17.847522 246654400 NetServer.cpp:88] delete io...127.0.0.1:53614
+I0125 03:56:17.868358 246654400 NetServer.cpp:88] delete io...127.0.0.1:53598
+I0125 03:56:19.327432 246654400 NetServer.cpp:55] accept io...127.0.0.1:54887
+I0125 03:56:21.348062 246654400 NetServer.cpp:55] accept io...127.0.0.1:54902
+I0125 03:57:12.357825 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:54887
+W0125 03:57:13.535409 226553856 DBThread.cpp:7920] get platform score db handle fail.
+W0125 03:57:49.691676 226553856 DBThread.cpp:8326] get record score db handle fail.
+W0125 03:57:50.248847 226553856 DBThread.cpp:8679] get platform db handle fail.
+W0125 03:57:50.666123 226553856 DBThread.cpp:4112] get platform db handle fail.
+W0125 03:57:50.666190 226553856 DBThread.cpp:4208] get platform db handle fail.
+W0125 03:57:50.666218 226553856 DBThread.cpp:4275] get platform db handle fail.
+W0125 03:58:05.368026 226553856 DBThread.cpp:4736] get platform db handle fail.
+W0125 03:58:06.231048 226553856 DBThread.cpp:8734] get platform db handle fail.
+W0125 03:58:06.231125 226553856 DBThread.cpp:8619] get platform db handle fail.
+I0125 03:58:06.231153 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:54902
+W0125 03:58:40.511430 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+I0125 05:01:20.880400 246654400 NetServer.cpp:88] delete io...127.0.0.1:54902
+I0125 05:01:20.885156 246654400 NetServer.cpp:88] delete io...127.0.0.1:54887
+I0125 05:01:22.372352 246654400 NetServer.cpp:55] accept io...127.0.0.1:56166
+I0125 05:01:24.371407 246654400 NetServer.cpp:55] accept io...127.0.0.1:56178
+I0125 05:02:15.384349 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:56166
+W0125 05:02:16.558812 226553856 DBThread.cpp:7920] get platform score db handle fail.
+W0125 05:02:53.801348 226553856 DBThread.cpp:8326] get record score db handle fail.
+W0125 05:02:54.348491 226553856 DBThread.cpp:8679] get platform db handle fail.
+W0125 05:02:54.769551 226553856 DBThread.cpp:4112] get platform db handle fail.
+W0125 05:02:54.771939 226553856 DBThread.cpp:4208] get platform db handle fail.
+W0125 05:02:54.771975 226553856 DBThread.cpp:4275] get platform db handle fail.
+W0125 05:03:09.442729 226553856 DBThread.cpp:4736] get platform db handle fail.
+W0125 05:03:10.303205 226553856 DBThread.cpp:8734] get platform db handle fail.
+W0125 05:03:10.303272 226553856 DBThread.cpp:8619] get platform db handle fail.
+I0125 05:03:10.303300 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:56178
+I0125 06:06:24.901505 246654400 NetServer.cpp:88] delete io...127.0.0.1:56178
+I0125 06:06:24.924132 246654400 NetServer.cpp:88] delete io...127.0.0.1:56166
+I0125 06:06:26.398871 246654400 NetServer.cpp:55] accept io...127.0.0.1:57450
+I0125 06:06:28.402906 246654400 NetServer.cpp:55] accept io...127.0.0.1:57464
+I0125 06:07:19.401988 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:57450
+W0125 06:07:20.576498 226553856 DBThread.cpp:7920] get platform score db handle fail.
+W0125 06:07:56.656934 226553856 DBThread.cpp:8326] get record score db handle fail.
+W0125 06:07:57.209522 226553856 DBThread.cpp:8679] get platform db handle fail.
+W0125 06:07:57.627351 226553856 DBThread.cpp:4112] get platform db handle fail.
+W0125 06:07:57.627436 226553856 DBThread.cpp:4208] get platform db handle fail.
+W0125 06:07:57.627468 226553856 DBThread.cpp:4275] get platform db handle fail.
+W0125 06:08:12.252123 226553856 DBThread.cpp:4736] get platform db handle fail.
+W0125 06:08:13.110314 226553856 DBThread.cpp:8734] get platform db handle fail.
+W0125 06:08:13.110385 226553856 DBThread.cpp:8619] get platform db handle fail.
+I0125 06:08:13.110414 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:57464
+I0125 07:11:27.928540 246654400 NetServer.cpp:88] delete io...127.0.0.1:57464
+I0125 07:11:27.938099 246654400 NetServer.cpp:88] delete io...127.0.0.1:57450
+I0125 07:11:29.411914 246654400 NetServer.cpp:55] accept io...127.0.0.1:58730
+I0125 07:11:31.420087 246654400 NetServer.cpp:55] accept io...127.0.0.1:58746
+I0125 07:12:22.510301 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:58730
+W0125 07:12:23.684957 226553856 DBThread.cpp:7920] get platform score db handle fail.
+W0125 07:13:01.350971 226553856 DBThread.cpp:8326] get record score db handle fail.
+W0125 07:13:01.910656 226553856 DBThread.cpp:8679] get platform db handle fail.
+W0125 07:13:02.324632 226553856 DBThread.cpp:4112] get platform db handle fail.
+W0125 07:13:02.324702 226553856 DBThread.cpp:4208] get platform db handle fail.
+W0125 07:13:02.324728 226553856 DBThread.cpp:4275] get platform db handle fail.
+W0125 07:13:17.096406 226553856 DBThread.cpp:4736] get platform db handle fail.
+W0125 07:13:17.956938 226553856 DBThread.cpp:8734] get platform db handle fail.
+W0125 07:13:17.957000 226553856 DBThread.cpp:8619] get platform db handle fail.
+I0125 07:13:17.957023 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:58746
+I0125 08:16:30.963850 246654400 NetServer.cpp:88] delete io...127.0.0.1:58746
+I0125 08:16:30.964128 246654400 NetServer.cpp:88] delete io...127.0.0.1:58730
+I0125 08:16:32.450937 246654400 NetServer.cpp:55] accept io...127.0.0.1:60016
+I0125 08:16:34.450116 246654400 NetServer.cpp:55] accept io...127.0.0.1:60028
+I0125 08:17:25.469002 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:60016
+W0125 08:17:26.641692 226553856 DBThread.cpp:7920] get platform score db handle fail.
+W0125 08:18:03.315112 226553856 DBThread.cpp:8326] get record score db handle fail.
+W0125 08:18:03.871079 226553856 DBThread.cpp:8679] get platform db handle fail.
+W0125 08:18:04.286677 226553856 DBThread.cpp:4112] get platform db handle fail.
+W0125 08:18:04.286747 226553856 DBThread.cpp:4208] get platform db handle fail.
+W0125 08:18:04.286782 226553856 DBThread.cpp:4275] get platform db handle fail.
+W0125 08:18:19.055341 226553856 DBThread.cpp:4736] get platform db handle fail.
+W0125 08:18:19.909871 226553856 DBThread.cpp:8734] get platform db handle fail.
+W0125 08:18:19.909934 226553856 DBThread.cpp:8619] get platform db handle fail.
+I0125 08:18:19.909957 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:60028
+I0125 09:21:35.003113 246654400 NetServer.cpp:88] delete io...127.0.0.1:60016
+I0125 09:21:35.003221 246654400 NetServer.cpp:88] delete io...127.0.0.1:60028
+I0125 09:21:36.488687 246654400 NetServer.cpp:55] accept io...127.0.0.1:61302
+I0125 09:21:38.494657 246654400 NetServer.cpp:55] accept io...127.0.0.1:61318
+I0125 09:22:29.454911 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:61302
+W0125 09:22:30.638171 226553856 DBThread.cpp:7920] get platform score db handle fail.
+W0125 09:23:07.795125 226553856 DBThread.cpp:8326] get record score db handle fail.
+W0125 09:23:08.351397 226553856 DBThread.cpp:8679] get platform db handle fail.
+W0125 09:23:08.771517 226553856 DBThread.cpp:4112] get platform db handle fail.
+W0125 09:23:08.771584 226553856 DBThread.cpp:4208] get platform db handle fail.
+W0125 09:23:08.771611 226553856 DBThread.cpp:4275] get platform db handle fail.
+W0125 09:23:23.605147 226553856 DBThread.cpp:4736] get platform db handle fail.
+W0125 09:23:24.456363 226553856 DBThread.cpp:8734] get platform db handle fail.
+W0125 09:23:24.456426 226553856 DBThread.cpp:8619] get platform db handle fail.
+I0125 09:23:24.456450 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:61318
+I0125 09:47:31.169701 246654400 NetServer.cpp:88] delete io...127.0.0.1:61318
+I0125 09:47:31.169859 246654400 NetServer.cpp:88] delete io...127.0.0.1:61302
+I0125 09:47:32.654492 246654400 NetServer.cpp:55] accept io...127.0.0.1:62581
+I0125 09:47:34.663914 246654400 NetServer.cpp:55] accept io...127.0.0.1:62608
+I0125 09:48:26.678771 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:62581
+W0125 09:48:27.856781 226553856 DBThread.cpp:7920] get platform score db handle fail.
+W0125 09:49:05.096998 226553856 DBThread.cpp:8326] get record score db handle fail.
+W0125 09:49:05.765476 226553856 DBThread.cpp:8679] get platform db handle fail.
+W0125 09:49:06.190855 226553856 DBThread.cpp:4112] get platform db handle fail.
+W0125 09:49:06.190932 226553856 DBThread.cpp:4208] get platform db handle fail.
+W0125 09:49:06.190980 226553856 DBThread.cpp:4275] get platform db handle fail.
+W0125 09:49:21.798722 226553856 DBThread.cpp:4736] get platform db handle fail.
+W0125 09:49:22.670795 226553856 DBThread.cpp:8734] get platform db handle fail.
+W0125 09:49:22.670859 226553856 DBThread.cpp:8619] get platform db handle fail.
+I0125 09:49:22.670886 226553856 DBThread.cpp:104] bind one connect: 127.0.0.1:62608
+W0125 10:19:07.566376 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0125 10:21:38.593495 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '3-1-2-423' for key 'PRIMARY'
+W0125 10:40:33.473716 226553856 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '2-1-1-71' for key 'PRIMARY'
+W0125 11:19:11.969208 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0125 11:31:33.736886 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-1-2-328' for key 'PRIMARY'
+W0125 12:19:16.384223 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0125 12:40:39.261714 226553856 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '5-1-3-265' for key 'PRIMARY'
+W0125 13:01:35.263753 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-1-1-420' for key 'PRIMARY'
+W0125 13:19:20.792940 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0125 13:50:42.396564 226553856 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '4-3-1-41' for key 'PRIMARY'
+W0125 14:19:25.203701 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0125 14:20:27.213162 226017280 BuildDBThread.cpp:133] open :58.82.239.150:3306@mysql error!
+W0125 14:21:27.218533 226017280 BuildDBThread.cpp:217] open :58.82.239.150:3306@mysql error!
+W0125 15:01:40.647774 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '6-1-2-392' for key 'PRIMARY'
+W0125 15:21:27.239243 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0125 15:31:26.594996 227627008 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-3-1-481' for key 'PRIMARY'
+W0125 16:10:49.031922 226553856 DBThread.cpp:4578] get platform db handle fail.
+W0125 16:21:31.644166 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0125 16:29:45.127713 226553856 DBThread.cpp:2733] insert stat_machine_online fail,machine types: 2, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0125 17:21:36.060412 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0125 17:21:48.705544 228163584 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '6-1-2-393' for key 'PRIMARY'
+W0125 18:21:40.511948 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0125 18:30:56.234014 226553856 DBThread.cpp:4578] get platform db handle fail.
+W0125 18:30:56.765456 227090432 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-1-1-421' for key 'PRIMARY'
+W0125 19:21:44.918593 226017280 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W0125 19:40:59.667377 228163584 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-4-1-364' for key 'PRIMARY'
+W0125 20:01:00.042026 226553856 DBThread.cpp:4578] get platform db handle fail.
+W0125 20:02:05.483909 227090432 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '2-1-2-42' for key 'PRIMARY'
+I0125 20:13:04.494640 246654400 NetServer.cpp:88] delete io...127.0.0.1:62608

@@ -1,0 +1,9 @@
+Log file created at: 2019/05/27 14:05:26
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0527 14:05:26.278695 240207296 LoginServer.cpp:65] listen at: 0.0.0.0:7001
+W0527 14:05:29.911180 99094528 LoginServerThread.cpp:336] loginserver start succ.
+W0527 15:24:37.283694 99094528 LoginServerThread.cpp:5446] select expire mail fail, error no: -1, sql:select mailid from mail where userid = '85577836' and mailType = 2 and expireTime < now()
+W0527 20:45:19.196512 99094528 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0527 20:45:27.373862 99094528 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0527 20:45:29.345475 240207296 NetModule.cpp:723] ready reconnect server, server id: 0

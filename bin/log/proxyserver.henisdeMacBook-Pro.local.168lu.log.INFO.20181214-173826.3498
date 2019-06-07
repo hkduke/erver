@@ -1,0 +1,32 @@
+Log file created at: 2018/12/14 17:38:26
+Running on machine: henisdeMacBook-Pro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1214 17:38:26.692541 270525888 ProxyServer.cpp:45] 正在启动代理服务器...
+I1214 17:38:26.694969 270525888 NetModule.h:71] Init NetModule Finished.
+I1214 17:38:26.695031 270525888 NetModule.h:77] start work thread 0...
+I1214 17:38:26.695042 270525888 NetModule.cpp:64] Start Run NetModule...
+I1214 17:38:26.695061 270525888 NetModule.cpp:76] NetModule Already Startover.
+I1214 17:38:26.695575 270525888 NetModule.cpp:118] Create one server...
+I1214 17:38:26.695693 270525888 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1214 17:38:26.695710 270525888 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1214 17:38:26.706555 124125184 ProxyThread.cpp:66] connect to center server succ.
+I1214 17:38:26.706584 124125184 ProxyThread.cpp:92] connect to db server succ
+I1214 17:38:26.726670 124125184 ProxyThread.cpp:538] get game server list finish!
+I1214 17:38:26.726783 124125184 ProxyThread.cpp:509] get login server list finish!
+I1214 17:38:26.726800 124125184 ProxyThread.cpp:567] get customer server list finish!
+I1214 17:38:30.603619 124125184 NetModule.cpp:200] add one connector: 0.0.0.0:7003 succeed...
+W1214 17:38:30.603662 124125184 ServerMgr.cpp:78] add login server, login server id:10
+I1214 17:38:30.706451 270525888 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I1214 17:38:30.709046 124125184 ProxyThread.cpp:76] connect to login server succ, server id:10
+I1214 17:38:34.466939 124125184 NetModule.cpp:200] add one connector: 127.0.0.1:11001 succeed...
+W1214 17:38:34.466970 124125184 ServerMgr.cpp:40] add game server, game server id:1101
+I1214 17:38:34.714253 270525888 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I1214 17:38:34.715454 124125184 ProxyThread.cpp:86] connect to game server succ, server id:1101
+I1214 17:38:55.229279 270525888 NetServer.cpp:55] accept io...192.168.10.106:50714
+I1214 17:38:57.580229 270525888 NetServer.cpp:88] delete io...192.168.10.106:50714
+I1214 17:39:02.482442 270525888 NetServer.cpp:55] accept io...192.168.10.106:50715
+I1214 17:40:27.486210 270525888 NetServer.cpp:88] delete io...192.168.10.106:50715
+I1214 17:42:28.121670 270525888 NetServer.cpp:55] accept io...192.168.10.106:50986
+I1214 17:42:49.423907 270525888 NetServer.cpp:88] delete io...192.168.10.106:50986
+I1214 17:42:57.523628 270525888 NetServer.cpp:55] accept io...192.168.10.106:50987
+W1214 17:48:34.998128 124125184 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!

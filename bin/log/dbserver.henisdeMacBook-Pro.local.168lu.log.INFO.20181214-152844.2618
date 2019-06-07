@@ -1,0 +1,22 @@
+Log file created at: 2018/12/14 15:28:44
+Running on machine: henisdeMacBook-Pro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1214 15:28:44.885998 327763392 DBBufferServer.cpp:55] 正在启动DB服务器...
+I1214 15:28:44.887895 327763392 DBBufferServer.cpp:31] start build db thread...
+W1214 15:28:44.887907 148353024 BuildDBThread.cpp:295] CBuildDBThread run, begin build database ..
+I1214 15:28:44.889183 327763392 NetModule.h:71] Init NetModule Finished.
+I1214 15:28:44.889401 327763392 NetModule.h:77] start work thread 0...
+I1214 15:28:44.889411 327763392 NetModule.cpp:64] Start Run NetModule...
+I1214 15:28:44.889431 327763392 NetModule.cpp:76] NetModule Already Startover.
+I1214 15:28:44.889439 327763392 NetModule.cpp:118] Create one server...
+I1214 15:28:54.442975 327763392 NetServer.cpp:55] accept io...127.0.0.1:49657
+I1214 15:28:54.445036 148889600 DBThread.cpp:100] bind one connect: 127.0.0.1:49657
+W1214 15:28:55.255622 148889600 DBThread.cpp:205] main db server set time ok!
+I1214 15:28:55.255709 148889600 DBThread.cpp:230] init db server succ!
+I1214 15:29:05.649272 327763392 NetServer.cpp:55] accept io...127.0.0.1:49667
+I1214 15:29:17.681313 148889600 DBThread.cpp:100] bind one connect: 127.0.0.1:49667
+I1214 15:29:28.512971 327763392 NetServer.cpp:55] accept io...127.0.0.1:49672
+I1214 15:29:28.515234 148889600 DBThread.cpp:100] bind one connect: 127.0.0.1:49672
+W1214 15:30:54.930177 148889600 DBThread.cpp:4598] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-3-1-390' for key 'PRIMARY'
+W1214 16:28:48.746628 148353024 BuildDBThread.cpp:295] CBuildDBThread run, begin build database ..
+W1214 17:28:51.727525 148353024 BuildDBThread.cpp:295] CBuildDBThread run, begin build database ..

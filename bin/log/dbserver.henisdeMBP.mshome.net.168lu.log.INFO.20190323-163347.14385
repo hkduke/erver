@@ -1,0 +1,26 @@
+Log file created at: 2019/03/23 16:33:47
+Running on machine: henisdeMBP.mshome.net
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0323 16:33:47.787969 433247680 DBBufferServer.cpp:55] 正在启动DB服务器...
+I0323 16:33:47.789923 433247680 DBBufferServer.cpp:31] start build db thread...
+W0323 16:33:47.789997 97112064 BuildDBThread.cpp:295] CBuildDBThread run, begin build database ..
+I0323 16:33:47.791296 433247680 NetModule.h:71] Init NetModule Finished.
+I0323 16:33:47.792120 433247680 NetModule.h:78] start work thread 0...
+I0323 16:33:47.792136 433247680 NetModule.cpp:69] Start Run NetModule...
+I0323 16:33:47.792163 433247680 NetModule.cpp:88] NetModule Already Startover.
+I0323 16:33:47.792171 433247680 NetModule.cpp:136] Create one server...
+I0323 16:33:47.870312 433247680 NetServer.cpp:55] accept io...127.0.0.1:59630
+I0323 16:33:47.871835 97648640 DBThread.cpp:104] bind one connect: 127.0.0.1:59630
+I0323 16:33:47.915344 433247680 NetServer.cpp:55] accept io...127.0.0.1:59632
+I0323 16:33:47.929344 433247680 NetServer.cpp:55] accept io...127.0.0.1:59633
+I0323 16:33:48.075268 433247680 NetServer.cpp:55] accept io...127.0.0.1:59634
+I0323 16:33:48.297273 433247680 NetServer.cpp:55] accept io...127.0.0.1:59635
+W0323 16:33:48.697633 97648640 DBThread.cpp:209] main db server set time ok!
+I0323 16:33:48.697691 97648640 DBThread.cpp:234] init db server succ!
+I0323 16:33:48.697700 97648640 DBThread.cpp:104] bind one connect: 127.0.0.1:59632
+I0323 16:33:48.697706 97648640 DBThread.cpp:104] bind one connect: 127.0.0.1:59633
+I0323 16:33:48.697712 97648640 DBThread.cpp:104] bind one connect: 127.0.0.1:59634
+I0323 16:33:49.478466 97648640 DBThread.cpp:104] bind one connect: 127.0.0.1:59635
+I0323 16:33:50.308681 433247680 NetServer.cpp:55] accept io...127.0.0.1:59640
+I0323 16:34:24.910344 97648640 DBThread.cpp:104] bind one connect: 127.0.0.1:59640
+W0323 16:34:55.574213 97648640 DBThread.cpp:7299] insert mail fail. errno: 1366, error msg: Incorrect string value: '\xE5\xE4\xB8\xAD\xE9\x9B...' for column 'content' at row 1

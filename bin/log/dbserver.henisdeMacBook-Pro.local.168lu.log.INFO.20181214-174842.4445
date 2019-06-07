@@ -1,0 +1,25 @@
+Log file created at: 2018/12/14 17:48:42
+Running on machine: henisdeMacBook-Pro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1214 17:48:42.506770 260203968 DBBufferServer.cpp:55] 正在启动DB服务器...
+I1214 17:48:42.507874 260203968 DBBufferServer.cpp:31] start build db thread...
+W1214 17:48:42.507906 16506880 BuildDBThread.cpp:295] CBuildDBThread run, begin build database ..
+I1214 17:48:42.509166 260203968 NetModule.h:71] Init NetModule Finished.
+I1214 17:48:42.509395 260203968 NetModule.h:77] start work thread 0...
+I1214 17:48:42.509407 260203968 NetModule.cpp:64] Start Run NetModule...
+I1214 17:48:42.509428 260203968 NetModule.cpp:76] NetModule Already Startover.
+I1214 17:48:42.509436 260203968 NetModule.cpp:118] Create one server...
+I1214 17:48:45.920663 260203968 NetServer.cpp:55] accept io...127.0.0.1:51290
+I1214 17:48:45.922786 17043456 DBThread.cpp:100] bind one connect: 127.0.0.1:51290
+W1214 17:48:45.924554 17043456 DBThread.cpp:5153] select score mode fail, error: 1146
+W1214 17:48:45.924618 17043456 DBThread.cpp:205] main db server set time ok!
+I1214 17:48:45.924644 17043456 DBThread.cpp:230] init db server succ!
+W1214 17:48:45.930040 17043456 DBThread.cpp:3951] select task fail. errno: 1146, err msg: Table 'platform.taskConfig' doesn't exist
+I1214 17:48:48.167841 260203968 NetServer.cpp:55] accept io...127.0.0.1:51295
+I1214 17:48:48.168994 17043456 DBThread.cpp:100] bind one connect: 127.0.0.1:51295
+I1214 17:48:54.699896 260203968 NetServer.cpp:55] accept io...127.0.0.1:51300
+I1214 17:48:54.702100 17043456 DBThread.cpp:100] bind one connect: 127.0.0.1:51300
+W1214 18:48:44.565239 16506880 BuildDBThread.cpp:295] CBuildDBThread run, begin build database ..
+W1214 19:48:46.618259 16506880 BuildDBThread.cpp:295] CBuildDBThread run, begin build database ..
+W1214 20:48:48.639823 16506880 BuildDBThread.cpp:295] CBuildDBThread run, begin build database ..
+I1214 21:06:24.859499 260203968 NetServer.cpp:88] delete io...127.0.0.1:51300

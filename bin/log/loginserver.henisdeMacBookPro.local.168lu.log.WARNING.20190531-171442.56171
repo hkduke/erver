@@ -1,0 +1,8 @@
+Log file created at: 2019/05/31 17:14:42
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0531 17:14:42.049897 60417472 LoginServer.cpp:65] listen at: 0.0.0.0:7001
+W0531 17:14:45.704603 61050880 LoginServerThread.cpp:336] loginserver start succ.
+W0531 19:53:56.447196 61050880 LoginServerThread.cpp:6112] query exchange record fail. sql:SELECT * FROM treasure.exchange WHERE userid = '85557200' order by id desc LIMIT 10, errno: -1, err msg: mysql not opened yet!
+W0531 19:54:02.097542 61587456 LoginRecordThread.cpp:101] insert user login record fail. errno: -1, error msg: mysql not opened yet!
+W0601 00:00:02.244163 61050880 LoginServerThread.cpp:547] login server is across day.

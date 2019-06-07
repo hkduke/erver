@@ -1,0 +1,25 @@
+Log file created at: 2019/04/05 15:38:36
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0405 15:38:36.288810 269624768 DBBufferServer.cpp:55] 正在启动DB服务器...
+I0405 15:38:36.291013 269624768 DBBufferServer.cpp:31] start build db thread...
+W0405 15:38:36.291107 27422720 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+I0405 15:38:36.293325 269624768 NetModule.h:71] Init NetModule Finished.
+I0405 15:38:36.296466 269624768 NetModule.h:78] start work thread 0...
+I0405 15:38:36.296499 269624768 NetModule.cpp:69] Start Run NetModule...
+I0405 15:38:36.296542 269624768 NetModule.cpp:88] NetModule Already Startover.
+I0405 15:38:36.296561 269624768 NetModule.cpp:136] Create one server...
+I0405 15:38:37.145159 269624768 NetServer.cpp:55] accept io...127.0.0.1:54081
+I0405 15:38:37.145262 27959296 DBThread.cpp:104] bind one connect: 127.0.0.1:54081
+I0405 15:38:37.180626 269624768 NetServer.cpp:55] accept io...127.0.0.1:54083
+W0405 15:38:37.947350 27959296 DBThread.cpp:209] main db server set time ok!
+I0405 15:38:37.947438 27959296 DBThread.cpp:234] init db server succ!
+I0405 15:38:37.947455 27959296 DBThread.cpp:104] bind one connect: 127.0.0.1:54083
+I0405 15:38:37.954107 269624768 NetServer.cpp:55] accept io...127.0.0.1:54085
+I0405 15:38:40.617471 269624768 NetServer.cpp:88] delete io...127.0.0.1:54083
+I0405 15:38:42.339934 269624768 NetServer.cpp:55] accept io...127.0.0.1:54091
+I0405 15:38:45.529619 269624768 NetServer.cpp:88] delete io...127.0.0.1:54085
+I0405 15:38:46.514621 269624768 NetServer.cpp:55] accept io...127.0.0.1:54095
+I0405 15:39:11.872072 27959296 DBThread.cpp:104] bind one connect: 127.0.0.1:54091
+I0405 15:39:34.052049 269624768 NetServer.cpp:88] delete io...127.0.0.1:54081
+I0405 15:39:43.903733 27959296 DBThread.cpp:104] bind one connect: 127.0.0.1:54095

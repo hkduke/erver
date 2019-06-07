@@ -1,0 +1,67 @@
+Log file created at: 2019/04/22 18:46:13
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0422 18:46:13.073976 278656448 LoginServer.cpp:65] listen at: 0.0.0.0:7001
+W0422 18:46:16.743199 182185984 LoginServerThread.cpp:336] loginserver start succ.
+W0423 00:00:28.751241 182185984 LoginServerThread.cpp:547] login server is across day.
+W0423 17:05:04.845069 182185984 LoginServerThread.cpp:5409] select expire mail fail, error no: -1, sql:select mailid from mail where userid = '85593361' and mailType = 2 and expireTime < now()
+W0423 20:40:38.283882 182722560 LoginRecordThread.cpp:101] insert user login record fail. errno: 2003, error msg: Can't connect to MySQL server on '58.82.239.150' (60)
+W0424 00:00:38.431118 182185984 LoginServerThread.cpp:547] login server is across day.
+W0424 11:04:35.556295 182185984 LoginServerThread.cpp:6348] select account info failed, user name : EABEBB88-177A-435B-BE66-8B45A20A0A9B, errno: -1, error: mysql not opened yet!
+W0424 15:52:50.707754 182722560 LoginRecordThread.cpp:101] insert user login record fail. errno: -1, error msg: mysql not opened yet!
+W0425 00:00:48.350412 182185984 LoginServerThread.cpp:547] login server is across day.
+W0425 11:14:23.109344 182185984 LoginServerThread.cpp:5409] select expire mail fail, error no: -1, sql:select mailid from mail where userid = '80302031' and mailType = 2 and expireTime < now()
+W0425 11:14:23.332896 182185984 LoginServerThread.cpp:5409] select expire mail fail, error no: -1, sql:select mailid from mail where userid = '85505112' and mailType = 2 and expireTime < now()
+W0425 11:14:23.560591 182185984 LoginServerThread.cpp:5409] select expire mail fail, error no: -1, sql:select mailid from mail where userid = '85505112' and mailType = 2 and expireTime < now()
+W0425 11:14:23.790488 182185984 LoginServerThread.cpp:5409] select expire mail fail, error no: -1, sql:select mailid from mail where userid = '80302031' and mailType = 2 and expireTime < now()
+W0425 11:14:24.022550 182185984 LoginServerThread.cpp:5409] select expire mail fail, error no: -1, sql:select mailid from mail where userid = '85505112' and mailType = 2 and expireTime < now()
+W0425 11:14:24.250149 182185984 LoginServerThread.cpp:5409] select expire mail fail, error no: -1, sql:select mailid from mail where userid = '80302031' and mailType = 2 and expireTime < now()
+W0425 11:14:24.480154 182185984 LoginServerThread.cpp:5409] select expire mail fail, error no: -1, sql:select mailid from mail where userid = '85505112' and mailType = 2 and expireTime < now()
+W0425 11:14:39.551895 182185984 LoginServerThread.cpp:5237] add db gem or score fail, add gem: 0,  add score : -78900, user id: 80302031
+W0425 11:14:40.351474 182185984 LoginServerThread.cpp:5320] update score change info fail, user id: 80302031, type: 8, change score: -78900, errno: 1040, error: Too many connections
+W0425 11:14:42.375878 182185984 LoginServerThread.cpp:5320] update score change info fail, user id: 80302031, type: 9, change score: 100000, errno: 1040, error: Too many connections
+W0425 11:15:20.213752 182722560 LoginRecordThread.cpp:101] insert user login record fail. errno: -1, error msg: mysql not opened yet!
+W0425 11:15:20.439815 182722560 LoginRecordThread.cpp:101] insert user login record fail. errno: -1, error msg: mysql not opened yet!
+W0425 11:15:20.663244 182722560 LoginRecordThread.cpp:101] insert user login record fail. errno: -1, error msg: mysql not opened yet!
+W0425 11:15:20.890584 182722560 LoginRecordThread.cpp:101] insert user login record fail. errno: -1, error msg: mysql not opened yet!
+W0425 11:15:21.121148 182722560 LoginRecordThread.cpp:101] insert user login record fail. errno: -1, error msg: mysql not opened yet!
+W0425 11:15:21.345576 182722560 LoginRecordThread.cpp:101] insert user login record fail. errno: -1, error msg: mysql not opened yet!
+W0425 11:15:21.570456 182722560 LoginRecordThread.cpp:101] insert user login record fail. errno: -1, error msg: mysql not opened yet!
+W0425 11:15:50.570379 182722560 LoginRecordThread.cpp:101] insert user login record fail. errno: -1, error msg: mysql not opened yet!
+W0425 11:15:50.911051 182722560 LoginRecordThread.cpp:101] insert user login record fail. errno: -1, error msg: mysql not opened yet!
+W0425 11:22:25.861578 182185984 LoginServerThread.cpp:5237] add db gem or score fail, add gem: 0,  add score : -86800, user id: 80302031
+W0425 11:22:26.086455 182185984 LoginServerThread.cpp:5269] update user bank score fail. errno: -1, err msg: mysql not opened yet!
+W0425 11:22:26.308687 182185984 LoginServerThread.cpp:5320] update score change info fail, user id: 80302031, type: 8, change score: -86800, errno: 1040, error: Too many connections
+W0425 11:22:34.029703 182185984 LoginServerThread.cpp:5237] add db gem or score fail, add gem: 0,  add score : 100000, user id: 80302031
+W0425 11:22:34.255661 182185984 LoginServerThread.cpp:5269] update user bank score fail. errno: -1, err msg: mysql not opened yet!
+W0425 11:22:34.482391 182185984 LoginServerThread.cpp:5320] update score change info fail, user id: 80302031, type: 9, change score: 100000, errno: 1040, error: Too many connections
+W0425 11:25:13.078590 182185984 LoginServerThread.cpp:5409] select expire mail fail, error no: -1, sql:select mailid from mail where userid = '85505112' and mailType = 2 and expireTime < now()
+W0425 11:25:13.305788 182185984 LoginServerThread.cpp:5409] select expire mail fail, error no: -1, sql:select mailid from mail where userid = '80302031' and mailType = 2 and expireTime < now()
+W0425 11:25:13.530899 182185984 LoginServerThread.cpp:5409] select expire mail fail, error no: -1, sql:select mailid from mail where userid = '85505112' and mailType = 2 and expireTime < now()
+W0425 11:26:03.428295 182722560 LoginRecordThread.cpp:101] insert user login record fail. errno: -1, error msg: mysql not opened yet!
+W0425 11:26:03.652999 182722560 LoginRecordThread.cpp:101] insert user login record fail. errno: -1, error msg: mysql not opened yet!
+W0425 11:26:03.879370 182722560 LoginRecordThread.cpp:101] insert user login record fail. errno: -1, error msg: mysql not opened yet!
+W0425 11:26:04.105568 182722560 LoginRecordThread.cpp:101] insert user login record fail. errno: -1, error msg: mysql not opened yet!
+W0425 11:26:06.043877 182722560 LoginRecordThread.cpp:101] insert user login record fail. errno: -1, error msg: mysql not opened yet!
+W0425 14:19:31.049896 182722560 LoginRecordThread.cpp:101] insert user login record fail. errno: -1, error msg: mysql not opened yet!
+W0425 17:27:25.579319 182185984 LoginServerThread.cpp:5409] select expire mail fail, error no: -1, sql:select mailid from mail where userid = '85587560' and mailType = 2 and expireTime < now()
+W0426 00:00:58.078219 182185984 LoginServerThread.cpp:547] login server is across day.
+W0426 15:42:49.343796 182185984 LoginServerThread.cpp:5160] QueryGamePlayData info fail, user id : 85538002, errno: -1, error msg: mysql not opened yet!
+W0426 16:29:31.077634 182722560 LoginRecordThread.cpp:101] insert user login record fail. errno: -1, error msg: mysql not opened yet!
+W0426 16:36:47.778760 182722560 LoginRecordThread.cpp:101] insert user login record fail. errno: -1, error msg: mysql not opened yet!
+W0426 19:07:42.264621 182185984 LoginServerThread.cpp:5409] select expire mail fail, error no: -1, sql:select mailid from mail where userid = '85538002' and mailType = 2 and expireTime < now()
+W0426 19:08:42.272087 182185984 LoginServerThread.cpp:5409] select expire mail fail, error no: -1, sql:select mailid from mail where userid = '85505112' and mailType = 2 and expireTime < now()
+W0426 19:09:24.122257 182722560 LoginRecordThread.cpp:101] insert user login record fail. errno: -1, error msg: mysql not opened yet!
+W0426 19:09:42.278674 182185984 LoginServerThread.cpp:5409] select expire mail fail, error no: -1, sql:select mailid from mail where userid = '85583673' and mailType = 2 and expireTime < now()
+W0426 19:10:24.127988 182722560 LoginRecordThread.cpp:101] insert user login record fail. errno: -1, error msg: mysql not opened yet!
+W0426 19:10:42.288363 182185984 LoginServerThread.cpp:5409] select expire mail fail, error no: -1, sql:select mailid from mail where userid = '85583673' and mailType = 2 and expireTime < now()
+W0426 19:11:24.132982 182722560 LoginRecordThread.cpp:101] insert user login record fail. errno: -1, error msg: mysql not opened yet!
+W0426 19:11:42.302206 182185984 LoginServerThread.cpp:5409] select expire mail fail, error no: -1, sql:select mailid from mail where userid = '85583673' and mailType = 2 and expireTime < now()
+W0426 19:12:24.138985 182722560 LoginRecordThread.cpp:101] insert user login record fail. errno: -1, error msg: mysql not opened yet!
+W0426 19:12:42.315271 182185984 LoginServerThread.cpp:5409] select expire mail fail, error no: -1, sql:select mailid from mail where userid = '85538002' and mailType = 2 and expireTime < now()
+W0426 19:13:24.146152 182722560 LoginRecordThread.cpp:101] insert user login record fail. errno: -1, error msg: mysql not opened yet!
+W0426 19:14:24.150981 182722560 LoginRecordThread.cpp:101] insert user login record fail. errno: -1, error msg: mysql not opened yet!
+W0427 00:00:05.734443 182185984 LoginServerThread.cpp:547] login server is across day.
+W0427 16:13:58.398524 182185984 LoginServerThread.cpp:5409] select expire mail fail, error no: -1, sql:select mailid from mail where userid = '85505112' and mailType = 2 and expireTime < now()
+W0427 19:14:42.245817 182185984 LoginServerThread.cpp:5409] select expire mail fail, error no: -1, sql:select mailid from mail where userid = '85505112' and mailType = 2 and expireTime < now()
+W0427 19:15:48.516342 182185984 LoginServerThread.cpp:5409] select expire mail fail, error no: -1, sql:select mailid from mail where userid = '85583673' and mailType = 2 and expireTime < now()

@@ -1,0 +1,27 @@
+Log file created at: 2019/03/01 19:56:34
+Running on machine: henisdeMBP.mshome.net
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0301 19:56:34.771919 174634432 GameServer.cpp:45] 正在启动游戏服务器...
+I0301 19:56:34.774673 174634432 NetModule.h:71] Init NetModule Finished.
+I0301 19:56:34.774883 174634432 NetModule.h:78] start work thread 0...
+I0301 19:56:34.774893 174634432 NetModule.cpp:69] Start Run NetModule...
+I0301 19:56:34.774910 174634432 NetModule.cpp:88] NetModule Already Startover.
+I0301 19:56:34.774922 174634432 NetModule.cpp:220] add one connector: 127.0.0.1:5001 succeed...
+I0301 19:56:34.774930 174634432 NetModule.cpp:220] add one connector: 127.0.0.1:6001 succeed...
+I0301 19:56:34.774935 174634432 NetModule.cpp:136] Create one server...
+I0301 19:56:35.276227 174634432 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0301 19:56:35.276332 174634432 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0301 19:56:35.278030 161222656 GameServerThread.cpp:113] connect to db server succ!
+I0301 19:56:37.437624 161222656 AndroidUserMgr.cpp:830] set active android count: 0
+I0301 19:56:37.437721 161222656 AndroidUserMgr.cpp:830] set active android count: 2
+I0301 19:56:37.546407 174634432 NetServer.cpp:55] accept io...127.0.0.1:55478
+I0301 19:56:37.715816 161222656 GameServerThread.cpp:1910] load benefit config succ!
+I0301 19:56:38.420850 161222656 GameServerThread.cpp:1830] load android parameter succ, android count : 5
+W0301 19:56:38.559051 161222656 GameTableManager.cpp:564] update br game server black list, server id: 1101
+I0301 19:56:38.559535 161222656 GameServerThread.cpp:1484] init server succ!
+I0301 19:56:38.559553 161222656 GameServerThread.cpp:146] bind one connect: 127.0.0.1:55478
+I0301 19:56:38.559578 161222656 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:55478
+I0301 20:00:33.509083 174634432 NetServer.cpp:88] delete io...127.0.0.1:55478
+W0301 20:06:44.802565 161222656 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0301 20:06:54.788327 161222656 ServerMgr.cpp:67] remove one proxy server, id: 30
+W0301 20:07:29.013041 161222656 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!

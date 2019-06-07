@@ -1,0 +1,23 @@
+Log file created at: 2018/12/10 17:33:47
+Running on machine: henisdeMacBook-Pro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1210 17:33:47.657940 208938432 DBBufferServer.cpp:55] 正在启动DB服务器...
+I1210 17:33:47.660871 208938432 DBBufferServer.cpp:31] start build db thread...
+W1210 17:33:47.660933 175357952 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+I1210 17:33:47.662156 208938432 NetModule.h:71] Init NetModule Finished.
+I1210 17:33:47.662397 208938432 NetModule.h:77] start work thread 0...
+I1210 17:33:47.662410 208938432 NetModule.cpp:64] Start Run NetModule...
+I1210 17:33:47.662432 208938432 NetModule.cpp:76] NetModule Already Startover.
+I1210 17:33:47.662441 208938432 NetModule.cpp:118] Create one server...
+I1210 17:34:02.970589 208938432 NetServer.cpp:55] accept io...127.0.0.1:50455
+I1210 17:34:02.972355 175894528 DBThread.cpp:100] bind one connect: 127.0.0.1:50455
+W1210 17:34:03.370970 175894528 DBThread.cpp:205] main db server set time ok!
+I1210 17:34:03.371042 175894528 DBThread.cpp:230] init db server succ!
+I1210 17:34:18.582857 208938432 NetServer.cpp:55] accept io...127.0.0.1:50463
+I1210 17:34:18.583835 175894528 DBThread.cpp:100] bind one connect: 127.0.0.1:50463
+I1210 17:35:04.067289 208938432 NetServer.cpp:55] accept io...127.0.0.1:50468
+I1210 17:35:04.069141 175894528 DBThread.cpp:100] bind one connect: 127.0.0.1:50468
+W1210 17:40:33.076011 175894528 DBThread.cpp:2715] insert stat_machine_online fail,machine types: 2, statValue:0, error no: -1, error msg: mysql not opened yet!
+W1210 18:33:31.135202 175894528 DBThread.cpp:7366] insert playback record fail, error = -1, error info: mysql not opened yet!, draw id: 2375252
+W1210 18:33:50.624625 175357952 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W1210 18:34:49.699479 175894528 DBThread.cpp:6759] update score change info fail. errno: -1, error: mysql not opened yet!

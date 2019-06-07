@@ -1,0 +1,11 @@
+Log file created at: 2019/05/21 14:26:38
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0521 14:26:38.459053 370730432 LoginServer.cpp:65] listen at: 0.0.0.0:7001
+W0521 14:26:42.213368 11964416 LoginServerThread.cpp:336] loginserver start succ.
+W0521 19:41:09.253590 11964416 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0521 19:43:01.902393 11964416 LoginServerThread.cpp:5446] select expire mail fail, error no: -1, sql:select mailid from mail where userid = '85501464' and mailType = 2 and expireTime < now()
+W0522 00:00:06.301836 11964416 LoginServerThread.cpp:547] login server is across day.
+W0523 00:00:17.416406 11964416 LoginServerThread.cpp:547] login server is across day.
+W0523 10:10:53.010152 11964416 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0523 10:10:55.468621 11964416 ServerMgr.cpp:88] remove one proxy server, id: 30

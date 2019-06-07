@@ -1,0 +1,30 @@
+Log file created at: 2019/03/20 20:16:50
+Running on machine: henisdeMBP.mshome.net
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0320 20:16:50.756022 169489856 GameServer.cpp:45] 正在启动游戏服务器...
+I0320 20:16:50.760151 169489856 NetModule.h:71] Init NetModule Finished.
+I0320 20:16:50.760393 169489856 NetModule.h:78] start work thread 0...
+I0320 20:16:50.760406 169489856 NetModule.cpp:69] Start Run NetModule...
+I0320 20:16:50.760428 169489856 NetModule.cpp:88] NetModule Already Startover.
+I0320 20:16:50.760443 169489856 NetModule.cpp:220] add one connector: 127.0.0.1:5001 succeed...
+I0320 20:16:50.760450 169489856 NetModule.cpp:220] add one connector: 127.0.0.1:6001 succeed...
+I0320 20:16:50.760457 169489856 NetModule.cpp:136] Create one server...
+I0320 20:16:51.262470 169489856 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0320 20:16:51.262516 169489856 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0320 20:16:51.264513 41238528 GameServerThread.cpp:113] connect to db server succ!
+I0320 20:16:52.380353 41238528 AndroidUserMgr.cpp:832] set active android count: 0
+I0320 20:16:52.380403 41238528 AndroidUserMgr.cpp:832] set active android count: 70
+I0320 20:16:52.609007 169489856 NetServer.cpp:55] accept io...127.0.0.1:58036
+I0320 20:16:52.610577 169489856 NetServer.cpp:55] accept io...127.0.0.1:58037
+I0320 20:16:52.823853 41238528 GameServerThread.cpp:1933] load benefit config succ!
+I0320 20:16:53.491909 41238528 GameServerThread.cpp:1853] load android parameter succ, android count : 40
+W0320 20:16:53.603363 41238528 GameTableManager.cpp:566] update br game server black list, server id: 991
+I0320 20:16:53.604640 41238528 GameServerThread.cpp:1507] init server succ!
+I0320 20:16:53.604655 41238528 GameServerThread.cpp:146] bind one connect: 127.0.0.1:58036
+I0320 20:16:53.604661 41238528 GameServerThread.cpp:146] bind one connect: 127.0.0.1:58037
+I0320 20:16:53.604671 41238528 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:58037
+W0320 20:16:53.604677 41238528 ServerMgr.cpp:24] repeat bind proxy server, server id :30
+W0321 14:56:07.478143 41238528 GameServerThread.cpp:2571] can not enter room, in other room, user id: 85572952
+W0321 14:56:08.580206 41238528 GameServerThread.cpp:2571] can not enter room, in other room, user id: 85572952
+W0321 14:56:32.567883 41238528 GameServerThread.cpp:2571] can not enter room, in other room, user id: 85572952
+W0321 14:57:21.802048 41238528 GameServerThread.cpp:2571] can not enter room, in other room, user id: 85572952

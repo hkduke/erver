@@ -1,0 +1,32 @@
+Log file created at: 2019/04/12 09:58:26
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0412 09:58:26.368854 423626176 DBBufferServer.cpp:55] 正在启动DB服务器...
+I0412 09:58:26.370468 423626176 DBBufferServer.cpp:31] start build db thread...
+W0412 09:58:26.370524 17072128 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+I0412 09:58:26.371599 423626176 NetModule.h:71] Init NetModule Finished.
+I0412 09:58:26.372352 423626176 NetModule.h:78] start work thread 0...
+I0412 09:58:26.372366 423626176 NetModule.cpp:69] Start Run NetModule...
+I0412 09:58:26.372387 423626176 NetModule.cpp:88] NetModule Already Startover.
+I0412 09:58:26.372393 423626176 NetModule.cpp:136] Create one server...
+I0412 09:58:27.296424 423626176 NetServer.cpp:55] accept io...127.0.0.1:53940
+I0412 09:58:27.298503 17608704 DBThread.cpp:104] bind one connect: 127.0.0.1:53940
+I0412 09:58:27.663087 423626176 NetServer.cpp:55] accept io...127.0.0.1:53942
+I0412 09:58:27.711807 423626176 NetServer.cpp:55] accept io...127.0.0.1:53943
+W0412 09:58:28.123922 17608704 DBThread.cpp:209] main db server set time ok!
+I0412 09:58:28.123989 17608704 DBThread.cpp:234] init db server succ!
+I0412 09:59:03.401983 17608704 DBThread.cpp:104] bind one connect: 127.0.0.1:53942
+I0412 09:59:03.402084 17608704 DBThread.cpp:104] bind one connect: 127.0.0.1:53943
+I0412 09:59:46.408226 423626176 NetServer.cpp:88] delete io...127.0.0.1:53940
+I0412 10:11:35.246671 423626176 NetServer.cpp:55] accept io...127.0.0.1:54254
+I0412 10:11:35.248509 17608704 DBThread.cpp:104] bind one connect: 127.0.0.1:54254
+I0412 10:28:34.976366 423626176 NetServer.cpp:88] delete io...127.0.0.1:54254
+I0412 10:28:39.490820 423626176 NetServer.cpp:55] accept io...127.0.0.1:54632
+I0412 10:29:01.717993 423626176 NetServer.cpp:55] accept io...127.0.0.1:54645
+I0412 10:29:35.230064 17608704 DBThread.cpp:104] bind one connect: 127.0.0.1:54632
+I0412 10:31:39.778839 17608704 DBThread.cpp:104] bind one connect: 127.0.0.1:54645
+W0412 10:49:08.999521 17608704 DBThread.cpp:5909] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0412 10:49:13.018208 17608704 DBThread.cpp:6146] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0412 10:49:18.039989 17608704 DBThread.cpp:6243] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W0412 10:50:44.530663 17608704 DBThread.cpp:2818] insert stat_machine_online fail,machine types: 2, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0412 10:58:30.881469 17072128 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..

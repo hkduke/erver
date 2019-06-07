@@ -1,0 +1,24 @@
+Log file created at: 2019/05/07 20:11:38
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0507 20:11:38.282615 229012928 GameServer.cpp:45] 正在启动游戏服务器...
+I0507 20:11:38.284818 229012928 NetModule.h:71] Init NetModule Finished.
+I0507 20:11:38.285032 229012928 NetModule.h:78] start work thread 0...
+I0507 20:11:38.285044 229012928 NetModule.cpp:69] Start Run NetModule...
+I0507 20:11:38.285063 229012928 NetModule.cpp:88] NetModule Already Startover.
+I0507 20:11:38.285078 229012928 NetModule.cpp:220] add one connector: 127.0.0.1:5001 succeed...
+I0507 20:11:38.285084 229012928 NetModule.cpp:220] add one connector: 127.0.0.1:6001 succeed...
+I0507 20:11:38.285090 229012928 NetModule.cpp:136] Create one server...
+I0507 20:11:38.787631 229012928 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0507 20:11:38.787672 229012928 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0507 20:11:38.789875 169197568 GameServerThread.cpp:113] connect to db server succ!
+I0507 20:11:40.815884 169197568 AndroidUserMgr.cpp:832] set active android count: 0
+I0507 20:11:40.815969 169197568 AndroidUserMgr.cpp:832] set active android count: 99
+I0507 20:11:41.158390 229012928 NetServer.cpp:55] accept io...127.0.0.1:51388
+I0507 20:11:41.326815 169197568 GameServerThread.cpp:1933] load benefit config succ!
+I0507 20:11:42.007894 169197568 GameServerThread.cpp:1853] load android parameter succ, android count : 140
+W0507 20:11:42.165705 169197568 GameTableManager.cpp:566] update br game server black list, server id: 991
+I0507 20:11:42.166224 169197568 GameServerThread.cpp:1507] init server succ!
+I0507 20:11:42.166245 169197568 GameServerThread.cpp:146] bind one connect: 127.0.0.1:51388
+I0507 20:11:42.166266 169197568 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:51388
+W0507 20:55:18.457237 169197568 GameServerThread.cpp:2571] can not enter room, in other room, user id: 85505405

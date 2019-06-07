@@ -1,0 +1,37 @@
+Log file created at: 2019/04/08 11:42:43
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0408 11:42:43.855139 226870720 LoginServer.cpp:65] listen at: 0.0.0.0:7001
+W0408 11:42:47.507320 232620032 LoginServerThread.cpp:336] loginserver start succ.
+W0408 17:25:18.722743 233156608 LoginRecordThread.cpp:101] insert user login record fail. errno: -1, error msg: mysql not opened yet!
+W0409 00:00:23.197930 232620032 LoginServerThread.cpp:547] login server is across day.
+W0409 14:42:18.585410 232620032 LoginServerThread.cpp:5409] select expire mail fail, error no: -1, sql:select mailid from mail where userid = '85539866' and mailType = 2 and expireTime < now()
+W0410 00:00:35.855165 232620032 LoginServerThread.cpp:547] login server is across day.
+W0411 00:00:49.539162 232620032 LoginServerThread.cpp:547] login server is across day.
+W0411 20:48:10.627435 232620032 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0411 20:48:39.979974 226870720 NetModule.cpp:723] ready reconnect server, server id: 0
+W0411 21:00:30.568763 232620032 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0411 21:00:40.988199 226870720 NetModule.cpp:723] ready reconnect server, server id: 0
+W0411 21:00:40.990456 232620032 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0411 21:00:51.517359 226870720 NetModule.cpp:723] ready reconnect server, server id: 0
+W0411 21:03:20.310799 232620032 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0411 21:03:30.473265 226870720 NetModule.cpp:723] ready reconnect server, server id: 0
+W0411 21:03:30.475546 232620032 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0411 21:03:41.011179 226870720 NetModule.cpp:723] ready reconnect server, server id: 0
+W0411 21:05:04.469015 232620032 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0411 21:05:14.808827 226870720 NetModule.cpp:723] ready reconnect server, server id: 0
+W0411 21:26:57.671959 232620032 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0411 21:27:08.095770 226870720 NetModule.cpp:723] ready reconnect server, server id: 0
+W0411 21:28:31.608744 232620032 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0411 21:28:41.876104 226870720 NetModule.cpp:723] ready reconnect server, server id: 0
+W0411 21:28:41.877804 232620032 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0411 21:28:52.407176 226870720 NetModule.cpp:723] ready reconnect server, server id: 0
+W0411 21:29:12.823565 232620032 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0411 21:29:23.006078 226870720 NetModule.cpp:723] ready reconnect server, server id: 0
+W0412 00:00:03.689076 232620032 LoginServerThread.cpp:547] login server is across day.
+W0412 09:58:01.519469 232620032 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0412 09:58:11.764611 226870720 NetModule.cpp:723] ready reconnect server, server id: 0
+W0412 10:11:33.766093 232620032 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0412 10:11:44.086716 226870720 NetModule.cpp:723] ready reconnect server, server id: 0
+W0412 10:28:34.976765 232620032 LoginServerThread.cpp:188] center server is disconnect, after 10s will be reconnect!
+W0412 10:28:45.216069 226870720 NetModule.cpp:723] ready reconnect server, server id: 0

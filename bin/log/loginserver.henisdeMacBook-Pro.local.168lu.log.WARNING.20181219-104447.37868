@@ -1,0 +1,200 @@
+Log file created at: 2018/12/19 10:44:47
+Running on machine: henisdeMacBook-Pro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W1219 10:44:47.342808 207472064 LoginServer.cpp:65] listen at: 0.0.0.0:7003
+W1219 11:53:34.059535 198975488 LoginServerThread.cpp:3811] set user earn score fail, user id: 85010705
+W1219 15:35:46.616760 198975488 LoginServerThread.cpp:5017] select expire mail fail, error no: -1, sql:select mailid from mail where userid = '85010705' and mailType = 2 and expireTime < now()
+W1219 15:37:46.640074 199512064 LoginRecordThread.cpp:101] insert user login record fail. errno: -1, error msg: mysql not opened yet!
+W1219 15:38:16.416051 198975488 LoginServerThread.cpp:5878] select account info failed, user name : 15441525762cfc6627-2b97-fe78-8615-c2b4c85e2a28, errno: -1, error: mysql not opened yet!
+W1219 15:39:26.427706 198975488 LoginServerThread.cpp:5878] select account info failed, user name : 15441525762cfc6627-2b97-fe78-8615-c2b4c85e2a28, errno: -1, error: mysql not opened yet!
+W1219 15:40:36.438043 198975488 LoginServerThread.cpp:5878] select account info failed, user name : 15441525762cfc6627-2b97-fe78-8615-c2b4c85e2a28, errno: -1, error: mysql not opened yet!
+W1219 15:41:46.436043 198975488 LoginServerThread.cpp:5878] select account info failed, user name : 15441525762cfc6627-2b97-fe78-8615-c2b4c85e2a28, errno: -1, error: mysql not opened yet!
+W1219 15:42:49.174785 199512064 LoginRecordThread.cpp:101] insert user login record fail. errno: -1, error msg: mysql not opened yet!
+W1219 15:42:56.679749 199512064 LoginRecordThread.cpp:101] insert user login record fail. errno: -1, error msg: mysql not opened yet!
+W1219 15:43:47.782867 198975488 LoginServerThread.cpp:5878] select account info failed, user name : 15441525762cfc6627-2b97-fe78-8615-c2b4c85e2a28, errno: -1, error: mysql not opened yet!
+W1219 15:43:56.686815 199512064 LoginRecordThread.cpp:101] insert user login record fail. errno: -1, error msg: mysql not opened yet!
+W1219 15:45:05.831478 198975488 LoginServerThread.cpp:5878] select account info failed, user name : 15441525762cfc6627-2b97-fe78-8615-c2b4c85e2a28, errno: -1, error: mysql not opened yet!
+W1219 22:09:11.054184 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1219 22:09:11.054308 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+W1219 22:09:21.249941 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+W1219 22:42:26.089978 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1219 22:42:26.092083 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+W1219 22:42:36.615103 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+W1220 00:43:19.094377 198975488 LoginServerThread.cpp:511] login server is across day.
+W1220 00:43:19.684206 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1220 00:43:19.684253 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+W1220 00:43:30.130596 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+W1220 02:44:12.171283 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1220 02:44:12.187772 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+W1220 02:44:22.207595 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+W1220 04:45:05.204486 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1220 04:45:05.204543 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+W1220 04:45:15.221640 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+W1220 06:45:58.236300 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1220 06:45:58.236351 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+W1220 06:46:08.745142 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+W1220 08:46:51.275213 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1220 08:46:51.275247 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+W1220 08:47:01.297487 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+W1220 09:45:02.317768 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1220 09:45:02.317811 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+W1220 09:45:12.828397 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+W1220 14:33:52.653666 199512064 LoginRecordThread.cpp:101] insert user login record fail. errno: -1, error msg: mysql not opened yet!
+W1220 16:01:36.860060 198975488 LoginServerThread.cpp:5017] select expire mail fail, error no: -1, sql:select mailid from mail where userid = '83516815' and mailType = 2 and expireTime < now()
+W1220 22:20:59.669271 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1220 22:20:59.681735 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+W1220 22:21:10.168462 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+W1220 23:26:02.518479 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1220 23:26:02.525341 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+W1220 23:26:12.549616 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+W1221 00:31:05.455205 198975488 LoginServerThread.cpp:511] login server is across day.
+W1221 00:31:06.029105 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+W1221 00:31:06.029151 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1221 00:31:16.497964 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+W1221 01:36:08.578328 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1221 01:36:08.582123 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+W1221 01:36:19.115375 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+W1221 02:11:11.604545 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1221 02:11:11.604785 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+W1221 02:11:22.113533 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+W1221 03:16:13.598160 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1221 03:16:13.605013 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+W1221 03:16:23.633827 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+W1221 04:21:16.626396 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1221 04:21:16.626458 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+W1221 04:21:27.142256 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+W1221 05:26:19.643221 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1221 05:26:19.649308 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+W1221 05:26:30.176254 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+W1221 06:03:59.679172 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1221 06:03:59.685185 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+W1221 06:04:10.212874 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+W1221 07:09:01.693773 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1221 07:09:01.699205 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+W1221 07:09:12.229426 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+W1221 08:14:03.717557 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1221 08:14:03.726194 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+W1221 08:14:14.256577 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+W1221 09:19:07.749709 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1221 09:19:07.769804 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+W1221 09:19:18.299134 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+W1221 09:46:41.891203 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1221 09:46:41.904952 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+W1221 09:46:52.409399 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+W1221 10:43:02.977128 198975488 LoginServerThread.cpp:3811] set user earn score fail, user id: 83516815
+W1221 14:06:35.886445 198975488 LoginServerThread.cpp:3811] set user earn score fail, user id: 83516815
+W1221 17:24:35.934470 198975488 LoginServerThread.cpp:3811] set user earn score fail, user id: 83516815
+W1221 17:24:46.048969 198975488 LoginServerThread.cpp:3795] set user task fail, user id: 83516815
+W1221 21:35:39.955698 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1221 21:35:39.955809 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+W1221 21:35:50.296550 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+W1221 22:14:49.933506 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1221 22:14:49.936100 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+W1221 22:15:00.466233 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+W1221 22:51:21.980548 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1221 22:51:21.980634 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+W1221 22:51:32.014477 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+W1222 00:52:15.006456 198975488 LoginServerThread.cpp:511] login server is across day.
+W1222 00:52:15.581909 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1222 00:52:15.581964 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+W1222 00:52:26.042075 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+W1222 02:53:08.051414 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1222 02:53:08.053799 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+W1222 02:53:18.571554 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+W1222 04:54:01.071487 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1222 04:54:01.071552 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+W1222 04:54:11.097654 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+W1222 06:54:54.098687 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1222 06:54:54.098758 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+W1222 06:55:04.602826 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+W1222 08:55:47.116353 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1222 08:55:47.116394 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+W1222 08:55:57.136710 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+W1222 09:45:02.166330 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1222 09:45:02.168393 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+W1222 09:45:12.678203 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+W1222 10:27:32.113349 198975488 LoginServerThread.cpp:3811] set user earn score fail, user id: 83516815
+W1222 10:27:42.236893 198975488 LoginServerThread.cpp:3795] set user task fail, user id: 83516815
+W1222 10:27:52.467732 198975488 LoginServerThread.cpp:3920] set user today rank info fail, user id: 83516815
+W1222 10:28:02.588238 198975488 LoginServerThread.cpp:3724] set benefit failed, userid: 83516815
+W1222 14:45:11.812759 198975488 LoginServerThread.cpp:3811] set user earn score fail, user id: 85098063
+W1222 14:45:35.392257 198975488 LoginServerThread.cpp:4589] expire earn score fail, userid: 85098063
+W1222 17:53:32.855196 198975488 LoginServerThread.cpp:5017] select expire mail fail, error no: -1, sql:select mailid from mail where userid = '83516815' and mailType = 2 and expireTime < now()
+W1222 20:16:08.142207 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1222 20:16:08.148705 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+W1222 20:16:18.642597 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+W1222 20:53:26.176806 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1222 20:53:26.177013 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+W1222 20:53:36.208067 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+W1223 02:08:37.174141 198975488 LoginServerThread.cpp:511] login server is across day.
+W1223 02:08:37.174440 198975488 LoginServerThread.cpp:534] delete record_register_ip error, errno: 2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W1223 02:08:37.199381 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1223 02:08:37.199424 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+W1223 02:08:47.711519 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+W1223 10:00:03.178135 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1223 10:00:03.187536 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+W1223 10:00:13.199244 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+W1223 15:31:20.216588 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1223 15:31:20.216639 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+W1223 15:31:30.226433 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+W1224 09:45:03.232760 198975488 LoginServerThread.cpp:511] login server is across day.
+W1224 09:45:03.275234 198975488 LoginServerThread.cpp:534] delete record_register_ip error, errno: 2003, error: Can't connect to MySQL server on '58.82.239.150' (51)
+W1224 09:45:03.275291 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1224 09:45:03.280359 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+W1224 09:45:13.775936 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+W1224 10:00:56.282263 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1224 10:00:56.292064 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+W1224 10:01:06.816572 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+W1224 10:58:02.248616 198975488 LoginServerThread.cpp:3811] set user earn score fail, user id: 83516815
+W1224 10:58:12.373813 198975488 LoginServerThread.cpp:3795] set user task fail, user id: 83516815
+W1224 14:25:52.379794 198975488 LoginServerThread.cpp:3811] set user earn score fail, user id: 83516815
+W1224 14:26:02.511365 198975488 LoginServerThread.cpp:3795] set user task fail, user id: 83516815
+W1224 14:26:12.746634 198975488 LoginServerThread.cpp:3920] set user today rank info fail, user id: 83516815
+W1224 14:26:22.860816 198975488 LoginServerThread.cpp:3724] set benefit failed, userid: 83516815
+W1224 14:26:52.875315 198975488 LoginServerThread.cpp:3648] set proxy server info fail, userid = 83516815
+W1224 15:06:23.895952 198975488 LoginServerThread.cpp:3811] set user earn score fail, user id: 83516815
+W1224 15:06:34.014540 198975488 LoginServerThread.cpp:3795] set user task fail, user id: 83516815
+W1224 15:17:49.132782 198975488 LoginServerThread.cpp:3811] set user earn score fail, user id: 85010705
+W1224 15:37:26.603989 198975488 LoginServerThread.cpp:3811] set user earn score fail, user id: 85010705
+W1224 17:12:24.983752 198975488 LoginServerThread.cpp:5017] select expire mail fail, error no: 2003, sql:select mailid from mail where userid = '83516815' and mailType = 2 and expireTime < now()
+W1224 17:12:25.097884 199512064 LoginRecordThread.cpp:101] insert user login record fail. errno: 2003, error msg: Can't connect to MySQL server on '58.82.239.150' (61)
+W1224 17:35:11.237764 198975488 LoginServerThread.cpp:3811] set user earn score fail, user id: 85010705
+W1224 17:35:21.373781 198975488 LoginServerThread.cpp:3795] set user task fail, user id: 85010705
+W1224 17:35:31.623309 198975488 LoginServerThread.cpp:3920] set user today rank info fail, user id: 85010705
+W1224 17:35:41.745086 198975488 LoginServerThread.cpp:3724] set benefit failed, userid: 85010705
+W1224 17:36:11.757362 198975488 LoginServerThread.cpp:3648] set proxy server info fail, userid = 85010705
+W1224 17:36:21.762162 198975488 LoginServerThread.cpp:3472] set user account data fail, userid = 85010705
+W1224 17:36:31.767324 198975488 LoginServerThread.cpp:3490] set user id failed, account: 15441525762cfc6627-2b97-fe78-8615-c2b4c85e2a28
+W1224 17:36:52.779742 198975488 LoginServerThread.cpp:3811] set user earn score fail, user id: 85010705
+W1224 17:37:02.895238 198975488 LoginServerThread.cpp:3795] set user task fail, user id: 85010705
+W1224 17:37:13.263736 198975488 LoginServerThread.cpp:3920] set user today rank info fail, user id: 85010705
+W1224 17:37:23.373967 198975488 LoginServerThread.cpp:3724] set benefit failed, userid: 85010705
+W1224 17:37:53.383499 198975488 LoginServerThread.cpp:3648] set proxy server info fail, userid = 85010705
+W1224 21:38:26.674697 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1224 21:38:26.694622 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+W1224 21:38:36.789494 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+W1224 22:08:50.194924 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1224 22:08:50.197057 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+W1224 22:09:00.705299 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+W1224 23:01:32.263502 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1224 23:01:32.263540 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+W1224 23:01:42.789213 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+W1225 01:02:25.270331 198975488 LoginServerThread.cpp:511] login server is across day.
+W1225 01:02:26.707353 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1225 01:02:26.707420 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+W1225 01:02:36.813184 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+W1225 03:03:18.336840 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1225 03:03:18.336865 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+W1225 03:03:28.854895 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+W1225 05:04:11.354768 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1225 05:04:11.354809 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+W1225 05:04:21.881376 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+W1225 07:05:04.386557 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1225 07:05:04.386595 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+W1225 07:05:14.916334 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+W1225 09:05:58.422946 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1225 09:05:58.431923 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+W1225 09:06:08.959587 207472064 NetModule.cpp:703] ready reconnect server, server id: 10
+W1225 09:45:02.476681 198975488 ServerMgr.cpp:88] remove one proxy server, id: 30
+W1225 09:45:02.476718 198975488 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!
+W1225 09:45:12.510608 207472064 NetModule.cpp:703] ready reconnect server, server id: 10

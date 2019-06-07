@@ -1,0 +1,31 @@
+Log file created at: 2019/04/06 10:12:43
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0406 10:12:43.936133 50611648 GameServer.cpp:45] 正在启动游戏服务器...
+I0406 10:12:43.938459 50611648 NetModule.h:71] Init NetModule Finished.
+I0406 10:12:43.938673 50611648 NetModule.h:78] start work thread 0...
+I0406 10:12:43.938685 50611648 NetModule.cpp:69] Start Run NetModule...
+I0406 10:12:43.938702 50611648 NetModule.cpp:88] NetModule Already Startover.
+I0406 10:12:43.938715 50611648 NetModule.cpp:220] add one connector: 127.0.0.1:5001 succeed...
+I0406 10:12:43.938724 50611648 NetModule.cpp:220] add one connector: 127.0.0.1:6001 succeed...
+I0406 10:12:43.938731 50611648 NetModule.cpp:136] Create one server...
+I0406 10:12:44.439440 50611648 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0406 10:12:44.439492 50611648 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0406 10:12:44.441598 183123968 GameServerThread.cpp:113] connect to db server succ!
+I0406 10:12:46.500339 183123968 AndroidUserMgr.cpp:832] set active android count: 0
+I0406 10:12:46.500380 183123968 AndroidUserMgr.cpp:832] set active android count: 100
+I0406 10:12:46.803517 50611648 NetServer.cpp:55] accept io...127.0.0.1:56695
+I0406 10:12:47.021024 183123968 GameServerThread.cpp:1933] load benefit config succ!
+I0406 10:12:47.698262 183123968 GameServerThread.cpp:1853] load android parameter succ, android count : 140
+W0406 10:12:47.828908 183123968 GameTableManager.cpp:566] update br game server black list, server id: 991
+I0406 10:12:47.829200 183123968 GameServerThread.cpp:1507] init server succ!
+I0406 10:12:47.829210 183123968 GameServerThread.cpp:146] bind one connect: 127.0.0.1:56695
+I0406 10:12:47.829222 183123968 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:56695
+W0406 10:26:19.273622 183123968 GameServerThread.cpp:2571] can not enter room, in other room, user id: 85538002
+W0406 10:26:23.929746 183123968 GameServerThread.cpp:2571] can not enter room, in other room, user id: 85538002
+W0406 10:26:26.820953 183123968 GameServerThread.cpp:2571] can not enter room, in other room, user id: 85538002
+W0406 10:26:29.874984 183123968 GameServerThread.cpp:2571] can not enter room, in other room, user id: 85538002
+W0406 10:26:33.152458 183123968 GameServerThread.cpp:2571] can not enter room, in other room, user id: 85538002
+W0406 10:26:51.834040 183123968 GameServerThread.cpp:2571] can not enter room, in other room, user id: 85538002
+W0406 10:26:54.664125 183123968 GameServerThread.cpp:2571] can not enter room, in other room, user id: 85538002
+W0406 10:31:38.341833 183123968 GameServerThread.cpp:2571] can not enter room, in other room, user id: 85538002

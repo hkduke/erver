@@ -1,0 +1,25 @@
+Log file created at: 2019/05/30 10:18:38
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0530 10:18:38.317768 246154688 GameServer.cpp:45] 正在启动游戏服务器...
+I0530 10:18:38.320734 246154688 NetModule.h:71] Init NetModule Finished.
+I0530 10:18:38.321768 246154688 NetModule.h:78] start work thread 0...
+I0530 10:18:38.321787 246154688 NetModule.cpp:69] Start Run NetModule...
+I0530 10:18:38.321816 246154688 NetModule.cpp:88] NetModule Already Startover.
+I0530 10:18:38.321838 246154688 NetModule.cpp:220] add one connector: 127.0.0.1:5001 succeed...
+I0530 10:18:38.321848 246154688 NetModule.cpp:220] add one connector: 127.0.0.1:6001 succeed...
+I0530 10:18:38.321856 246154688 NetModule.cpp:136] Create one server...
+I0530 10:18:38.826333 246154688 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0530 10:18:38.826373 246154688 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0530 10:18:38.828022 258691072 GameServerThread.cpp:113] connect to db server succ!
+I0530 10:18:41.724586 258691072 AndroidUserMgr.cpp:945] set active android count: 0
+I0530 10:18:41.724650 258691072 AndroidUserMgr.cpp:945] set active android count: 4
+I0530 10:18:42.092641 246154688 NetServer.cpp:55] accept io...127.0.0.1:56024
+I0530 10:18:42.412509 258691072 GameServerThread.cpp:1990] load benefit config succ!
+I0530 10:18:43.101013 258691072 GameServerThread.cpp:1910] load android parameter succ, android count : 30
+W0530 10:18:43.226470 258691072 GameTableManager.cpp:613] update br game server black list, server id: 10001
+I0530 10:18:43.226842 258691072 GameServerThread.cpp:1564] init server succ!
+I0530 10:18:43.226904 258691072 GameServerThread.cpp:146] bind one connect: 127.0.0.1:56024
+I0530 10:18:43.226919 258691072 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:56024
+W0530 10:18:47.358269 258691072 AndroidUserMgr.cpp:292] need android count: 4
+W0530 10:19:30.955523 258691072 AndroidUserMgr.cpp:292] need android count: 4

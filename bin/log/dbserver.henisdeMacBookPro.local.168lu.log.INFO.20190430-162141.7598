@@ -1,0 +1,51 @@
+Log file created at: 2019/04/30 16:21:41
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0430 16:21:41.062368 125916608 DBBufferServer.cpp:55] 正在启动DB服务器...
+I0430 16:21:41.064633 125916608 DBBufferServer.cpp:31] start build db thread...
+W0430 16:21:41.064687 140685312 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+I0430 16:21:41.065852 125916608 NetModule.h:71] Init NetModule Finished.
+I0430 16:21:41.066740 125916608 NetModule.h:78] start work thread 0...
+I0430 16:21:41.066763 125916608 NetModule.cpp:69] Start Run NetModule...
+I0430 16:21:41.066789 125916608 NetModule.cpp:88] NetModule Already Startover.
+I0430 16:21:41.066795 125916608 NetModule.cpp:136] Create one server...
+I0430 16:21:41.536976 125916608 NetServer.cpp:55] accept io...127.0.0.1:52694
+I0430 16:21:41.537534 141221888 DBThread.cpp:104] bind one connect: 127.0.0.1:52694
+I0430 16:21:41.984467 125916608 NetServer.cpp:55] accept io...127.0.0.1:52696
+I0430 16:21:42.027900 125916608 NetServer.cpp:55] accept io...127.0.0.1:52697
+I0430 16:21:42.141774 125916608 NetServer.cpp:55] accept io...127.0.0.1:52698
+W0430 16:21:42.400643 141221888 DBThread.cpp:209] main db server set time ok!
+I0430 16:21:42.400710 141221888 DBThread.cpp:234] init db server succ!
+I0430 16:21:42.400722 141221888 DBThread.cpp:104] bind one connect: 127.0.0.1:52696
+I0430 16:21:44.266489 125916608 NetServer.cpp:55] accept io...127.0.0.1:52702
+I0430 16:21:47.978384 125916608 NetServer.cpp:55] accept io...127.0.0.1:52707
+I0430 16:22:19.113914 141221888 DBThread.cpp:104] bind one connect: 127.0.0.1:52697
+I0430 16:22:19.114055 141221888 DBThread.cpp:104] bind one connect: 127.0.0.1:52698
+I0430 16:22:20.075495 141221888 DBThread.cpp:104] bind one connect: 127.0.0.1:52702
+I0430 16:22:20.075549 141221888 DBThread.cpp:104] bind one connect: 127.0.0.1:52707
+I0430 16:43:51.944042 125916608 NetServer.cpp:88] delete io...127.0.0.1:52707
+I0430 16:44:18.899538 125916608 NetServer.cpp:55] accept io...127.0.0.1:52774
+I0430 16:44:18.899788 141221888 DBThread.cpp:104] bind one connect: 127.0.0.1:52774
+I0430 16:51:31.332440 125916608 NetServer.cpp:88] delete io...127.0.0.1:52774
+W0430 16:51:48.890805 141221888 DBThread.cpp:8097] insert playback record fail, error = -1, error info: mysql not opened yet!, draw id: 6088342
+I0430 17:10:04.891865 125916608 NetServer.cpp:55] accept io...127.0.0.1:52921
+I0430 17:10:04.893180 141221888 DBThread.cpp:104] bind one connect: 127.0.0.1:52921
+I0430 17:12:01.518347 125916608 NetServer.cpp:88] delete io...127.0.0.1:52921
+W0430 17:21:26.567914 141221888 DBThread.cpp:4715] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '6-1-2-599' for key 'PRIMARY'
+W0430 17:21:45.737241 140685312 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+I0430 17:39:48.459982 125916608 NetServer.cpp:55] accept io...127.0.0.1:52954
+I0430 17:39:48.462090 141221888 DBThread.cpp:104] bind one connect: 127.0.0.1:52954
+W0430 17:43:34.171988 141221888 DBThread.cpp:5909] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0430 18:21:50.443163 140685312 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+I0430 18:25:37.844949 125916608 NetServer.cpp:88] delete io...127.0.0.1:52954
+I0430 18:25:49.914016 125916608 NetServer.cpp:55] accept io...127.0.0.1:53041
+I0430 18:25:49.914767 141221888 DBThread.cpp:104] bind one connect: 127.0.0.1:53041
+I0430 18:30:12.364929 125916608 NetServer.cpp:88] delete io...127.0.0.1:53041
+W0430 18:31:33.388559 141221888 DBThread.cpp:4715] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-1-1-648' for key 'PRIMARY'
+I0430 18:33:22.975009 125916608 NetServer.cpp:55] accept io...127.0.0.1:53060
+I0430 18:33:22.976706 141221888 DBThread.cpp:104] bind one connect: 127.0.0.1:53060
+I0430 18:38:12.436158 125916608 NetServer.cpp:88] delete io...127.0.0.1:53060
+I0430 18:38:44.945276 125916608 NetServer.cpp:55] accept io...127.0.0.1:53071
+I0430 18:38:44.947425 141221888 DBThread.cpp:104] bind one connect: 127.0.0.1:53071
+I0430 18:47:37.962379 125916608 NetServer.cpp:88] delete io...127.0.0.1:53071
+I0430 18:49:38.304603 125916608 NetServer.cpp:55] accept io...127.0.0.1:53092

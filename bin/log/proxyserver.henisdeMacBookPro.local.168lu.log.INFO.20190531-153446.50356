@@ -1,0 +1,39 @@
+Log file created at: 2019/05/31 15:34:46
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0531 15:34:46.639698 131581376 ProxyServer.cpp:45] 正在启动代理服务器...
+I0531 15:34:46.646929 131581376 NetModule.h:71] Init NetModule Finished.
+I0531 15:34:46.647004 131581376 NetModule.h:78] start work thread 0...
+I0531 15:34:46.647012 131581376 NetModule.cpp:69] Start Run NetModule...
+I0531 15:34:46.647032 131581376 NetModule.cpp:88] NetModule Already Startover.
+I0531 15:34:46.647583 131581376 NetModule.cpp:136] Create one server...
+I0531 15:34:46.647703 131581376 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I0531 15:34:46.647723 131581376 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0531 15:34:46.659139 142774272 ProxyThread.cpp:66] connect to center server succ.
+I0531 15:34:46.659168 142774272 ProxyThread.cpp:92] connect to db server succ
+I0531 15:34:46.689786 142774272 NetModule.cpp:220] add one connector: 127.0.0.1:10003 succeed...
+W0531 15:34:46.689816 142774272 ServerMgr.cpp:40] add game server, game server id:10003
+I0531 15:34:46.691478 142774272 NetModule.cpp:220] add one connector: 127.0.0.1:10001 succeed...
+W0531 15:34:46.691489 142774272 ServerMgr.cpp:40] add game server, game server id:10001
+I0531 15:34:46.691514 142774272 ProxyThread.cpp:543] get game server list finish!
+I0531 15:34:46.691529 142774272 NetModule.cpp:220] add one connector: 0.0.0.0:7001 succeed...
+W0531 15:34:46.691534 142774272 ServerMgr.cpp:79] add login server, login server id:10
+I0531 15:34:46.691561 142774272 ProxyThread.cpp:514] get login server list finish!
+I0531 15:34:46.691570 142774272 ProxyThread.cpp:572] get customer server list finish!
+I0531 15:34:47.147485 131581376 NetConnector.cpp:216] connect to: 127.0.0.1:10001 success! 
+I0531 15:34:47.147554 131581376 NetConnector.cpp:216] connect to: 127.0.0.1:10003 success! 
+I0531 15:34:47.147569 131581376 NetConnector.cpp:216] connect to: 0.0.0.0:7001 success! 
+I0531 15:34:47.147922 142774272 ProxyThread.cpp:86] connect to game server succ, server id:10001
+I0531 15:34:47.147943 142774272 ProxyThread.cpp:86] connect to game server succ, server id:10003
+I0531 15:34:47.147953 142774272 ProxyThread.cpp:76] connect to login server succ, server id:10
+I0531 15:35:16.582875 131581376 NetServer.cpp:55] accept io...192.168.10.102:49769
+I0531 15:47:46.436152 131581376 NetServer.cpp:88] delete io...192.168.10.102:49769
+I0531 15:47:52.610363 131581376 NetServer.cpp:55] accept io...192.168.10.102:49770
+I0531 15:48:08.140714 131581376 NetServer.cpp:88] delete io...192.168.10.102:49770
+W0531 15:48:18.511870 142774272 ProxyThread.cpp:880] client socket not found, main id: 6, sub id: 660
+I0531 17:11:38.472738 131581376 NetServer.cpp:55] accept io...192.168.10.102:49818
+I0531 17:12:07.675140 131581376 NetServer.cpp:88] delete io...192.168.10.102:49818
+W0531 17:12:33.626382 142774272 ProxyThread.cpp:880] client socket not found, main id: 6, sub id: 660
+I0531 17:13:07.612118 131581376 NetServer.cpp:55] accept io...192.168.10.171:49180
+I0531 17:13:21.547808 131581376 NetServer.cpp:55] accept io...192.168.10.102:49819
+W0531 17:13:58.594838 142774272 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!

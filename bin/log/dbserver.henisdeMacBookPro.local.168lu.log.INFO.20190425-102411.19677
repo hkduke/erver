@@ -1,0 +1,80 @@
+Log file created at: 2019/04/25 10:24:11
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0425 10:24:11.593868 247236032 DBBufferServer.cpp:55] 正在启动DB服务器...
+I0425 10:24:11.595629 247236032 DBBufferServer.cpp:31] start build db thread...
+W0425 10:24:11.595670 31526912 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+I0425 10:24:11.597612 247236032 NetModule.h:71] Init NetModule Finished.
+I0425 10:24:11.598696 247236032 NetModule.h:78] start work thread 0...
+I0425 10:24:11.598722 247236032 NetModule.cpp:69] Start Run NetModule...
+I0425 10:24:11.598757 247236032 NetModule.cpp:88] NetModule Already Startover.
+I0425 10:24:11.598767 247236032 NetModule.cpp:136] Create one server...
+I0425 10:24:11.791163 247236032 NetServer.cpp:55] accept io...127.0.0.1:57722
+I0425 10:24:11.791998 32063488 DBThread.cpp:104] bind one connect: 127.0.0.1:57722
+W0425 10:24:12.612674 32063488 DBThread.cpp:209] main db server set time ok!
+I0425 10:24:12.612761 32063488 DBThread.cpp:234] init db server succ!
+I0425 10:24:12.906895 247236032 NetServer.cpp:55] accept io...127.0.0.1:57725
+I0425 10:24:12.953578 247236032 NetServer.cpp:55] accept io...127.0.0.1:57726
+I0425 10:24:12.984827 247236032 NetServer.cpp:55] accept io...127.0.0.1:57727
+I0425 10:24:13.429818 32063488 DBThread.cpp:104] bind one connect: 127.0.0.1:57725
+I0425 10:24:13.429947 32063488 DBThread.cpp:104] bind one connect: 127.0.0.1:57726
+I0425 10:24:13.429971 32063488 DBThread.cpp:104] bind one connect: 127.0.0.1:57727
+I0425 10:24:13.498615 247236032 NetServer.cpp:55] accept io...127.0.0.1:57729
+I0425 10:24:47.753278 32063488 DBThread.cpp:104] bind one connect: 127.0.0.1:57729
+W0425 10:40:11.766372 32063488 DBThread.cpp:4715] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '2-1-1-191' for key 'PRIMARY'
+I0425 11:13:39.709379 247236032 NetServer.cpp:88] delete io...127.0.0.1:57722
+I0425 11:13:44.262002 247236032 NetServer.cpp:55] accept io...127.0.0.1:57890
+I0425 11:13:44.262192 32063488 DBThread.cpp:104] bind one connect: 127.0.0.1:57890
+W0425 11:14:53.956935 32063488 DBThread.cpp:5909] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0425 11:14:54.185062 32063488 DBThread.cpp:6146] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0425 11:14:54.411291 32063488 DBThread.cpp:6243] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+W0425 11:15:17.562460 32063488 DBThread.cpp:2818] insert stat_machine_online fail,machine types: 2, statValue:0, error no: -1, error msg: mysql not opened yet!
+W0425 11:15:17.787902 32063488 DBThread.cpp:2798] insert stat_game_online fail,game id: 0, statType: 0, statValue:2, error no: -1, error msg: mysql not opened yet!
+W0425 11:15:18.015447 32063488 DBThread.cpp:2818] insert stat_machine_online fail,machine types: 1, statValue:2, error no: -1, error msg: mysql not opened yet!
+W0425 11:15:18.245995 32063488 DBThread.cpp:2798] insert stat_game_online fail,game id: 0, statType: 0, statValue:2, error no: -1, error msg: mysql not opened yet!
+W0425 11:15:18.471038 32063488 DBThread.cpp:2798] insert stat_game_online fail,game id: 0, statType: 2, statValue:2, error no: -1, error msg: mysql not opened yet!
+W0425 11:15:21.029383 32063488 DBThread.cpp:7269] update user today online time fail, user id: 80302031
+W0425 11:15:21.256144 32063488 DBThread.cpp:7269] update user today online time fail, user id: 80302031
+W0425 11:15:21.479023 32063488 DBThread.cpp:6496] insert today earn score fail! errno: -1, err msg: mysql not opened yet!
+I0425 11:15:49.208230 247236032 NetServer.cpp:88] delete io...127.0.0.1:57890
+I0425 11:15:54.539391 247236032 NetServer.cpp:55] accept io...127.0.0.1:57933
+I0425 11:15:54.541149 32063488 DBThread.cpp:104] bind one connect: 127.0.0.1:57933
+I0425 11:16:00.639315 247236032 NetServer.cpp:88] delete io...127.0.0.1:57933
+I0425 11:16:04.780221 247236032 NetServer.cpp:55] accept io...127.0.0.1:57942
+I0425 11:16:04.782435 32063488 DBThread.cpp:104] bind one connect: 127.0.0.1:57942
+I0425 11:16:19.288079 247236032 NetServer.cpp:88] delete io...127.0.0.1:57942
+I0425 11:16:23.627084 247236032 NetServer.cpp:55] accept io...127.0.0.1:57951
+I0425 11:16:23.628171 32063488 DBThread.cpp:104] bind one connect: 127.0.0.1:57951
+I0425 11:16:28.263321 247236032 NetServer.cpp:88] delete io...127.0.0.1:57951
+I0425 11:17:07.910367 247236032 NetServer.cpp:55] accept io...127.0.0.1:58001
+I0425 11:17:07.912468 32063488 DBThread.cpp:104] bind one connect: 127.0.0.1:58001
+I0425 11:17:13.994760 247236032 NetServer.cpp:88] delete io...127.0.0.1:58001
+I0425 11:18:43.243160 247236032 NetServer.cpp:55] accept io...127.0.0.1:58022
+I0425 11:18:43.243530 32063488 DBThread.cpp:104] bind one connect: 127.0.0.1:58022
+W0425 11:19:58.099117 32063488 DBThread.cpp:7269] update user today online time fail, user id: 85505112
+W0425 11:21:55.939836 32063488 DBThread.cpp:7269] update user today online time fail, user id: 85505112
+W0425 11:21:56.164832 32063488 DBThread.cpp:7269] update user today online time fail, user id: 85505112
+W0425 11:21:56.390942 32063488 DBThread.cpp:7269] update user today online time fail, user id: 85505112
+W0425 11:21:56.613329 32063488 DBThread.cpp:7269] update user today online time fail, user id: 85505112
+W0425 11:21:56.843330 32063488 DBThread.cpp:7269] update user today online time fail, user id: 85505112
+W0425 11:21:57.068840 32063488 DBThread.cpp:7269] update user today online time fail, user id: 85505112
+W0425 11:21:57.292448 32063488 DBThread.cpp:7269] update user today online time fail, user id: 85505112
+W0425 11:21:57.521400 32063488 DBThread.cpp:7269] update user today online time fail, user id: 85505112
+W0425 11:22:57.525743 32063488 DBThread.cpp:7269] update user today online time fail, user id: 85505112
+W0425 11:22:57.752564 32063488 DBThread.cpp:7269] update user today online time fail, user id: 85505112
+W0425 11:23:51.425894 32063488 DBThread.cpp:7269] update user today online time fail, user id: 80302031
+W0425 11:23:51.653029 32063488 DBThread.cpp:7269] update user today online time fail, user id: 80302031
+W0425 11:23:51.882059 32063488 DBThread.cpp:6496] insert today earn score fail! errno: -1, err msg: mysql not opened yet!
+W0425 11:24:16.166261 31526912 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0425 11:24:18.399732 31526912 BuildDBThread.cpp:135] open :58.82.239.150:3306@mysql error!
+W0425 11:24:18.628875 31526912 BuildDBThread.cpp:219] open :58.82.239.150:3306@mysql error!
+I0425 11:24:45.035517 247236032 NetServer.cpp:88] delete io...127.0.0.1:58022
+I0425 11:24:54.868577 247236032 NetServer.cpp:55] accept io...127.0.0.1:58061
+W0425 11:24:59.169482 32063488 DBThread.cpp:7269] update user today online time fail, user id: 80302031
+W0425 11:24:59.400537 32063488 DBThread.cpp:7269] update user today online time fail, user id: 80302031
+W0425 11:24:59.626188 32063488 DBThread.cpp:6496] insert today earn score fail! errno: -1, err msg: mysql not opened yet!
+W0425 11:25:00.551726 32063488 DBThread.cpp:5909] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W0425 11:25:00.776540 32063488 DBThread.cpp:6146] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W0425 11:25:01.003389 32063488 DBThread.cpp:6243] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+I0425 11:25:10.517777 32063488 DBThread.cpp:104] bind one connect: 127.0.0.1:58061
+I0425 11:25:56.642928 247236032 NetServer.cpp:88] delete io...127.0.0.1:58061

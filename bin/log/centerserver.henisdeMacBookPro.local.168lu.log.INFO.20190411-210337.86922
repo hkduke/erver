@@ -1,0 +1,43 @@
+Log file created at: 2019/04/11 21:03:37
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0411 21:03:37.217928 266958272 CenterServer.cpp:32] 正在启动中心服务器...
+I0411 21:03:37.221622 266958272 NetModule.h:71] Init NetModule Finished.
+I0411 21:03:37.222437 266958272 NetModule.h:78] start work thread 0...
+I0411 21:03:37.222455 266958272 NetModule.cpp:69] Start Run NetModule...
+I0411 21:03:37.222481 266958272 NetModule.cpp:88] NetModule Already Startover.
+I0411 21:03:37.222496 266958272 NetModule.cpp:220] add one connector: 0.0.0.0:6001 succeed...
+I0411 21:03:37.222506 266958272 NetModule.cpp:136] Create one server...
+I0411 21:03:37.430232 266958272 NetServer.cpp:55] accept io...127.0.0.1:54589
+I0411 21:03:37.457741 23375872 ServerMgr.cpp:54] register one proxy server: 127.0.0.1:54589
+I0411 21:03:37.723192 266958272 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0411 21:03:37.724871 23375872 CenterThread.cpp:92] connect to db server succ!
+I0411 21:03:38.159065 266958272 NetServer.cpp:55] accept io...127.0.0.1:54593
+I0411 21:03:38.172462 23375872 ServerMgr.cpp:187] register one game server: 127.0.0.1:54593
+I0411 21:03:40.746397 266958272 NetServer.cpp:55] accept io...127.0.0.1:54594
+I0411 21:03:40.762017 23375872 ServerMgr.cpp:553] register one dip server: 127.0.0.1:54594
+I0411 21:03:41.011276 266958272 NetServer.cpp:55] accept io...127.0.0.1:54596
+I0411 21:03:41.030623 23375872 ServerMgr.cpp:492] register one login server: 127.0.0.1:54596
+W0411 21:05:04.445971 23375872 CenterThread.cpp:4793] update online user fail
+W0411 21:05:04.446846 23375872 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+I0411 21:05:04.467156 266958272 NetServer.cpp:88] delete io...127.0.0.1:54594
+I0411 21:05:04.467315 266958272 NetServer.cpp:88] delete io...127.0.0.1:54596
+I0411 21:05:04.467396 266958272 NetServer.cpp:88] delete io...127.0.0.1:54593
+I0411 21:05:04.467445 266958272 NetServer.cpp:88] delete io...127.0.0.1:54589
+W0411 21:05:04.468439 23375872 ServerMgr.cpp:897] remove one dip server, id:1000
+W0411 21:05:04.469000 23375872 ServerMgr.cpp:866] remove one login server, id:10
+W0411 21:05:04.469142 23375872 ServerMgr.cpp:850] remove one game server, id:991
+W0411 21:05:04.469571 23375872 ServerMgr.cpp:889] remove one proxy server, id:30
+I0411 21:05:05.918926 266958272 NetServer.cpp:55] accept io...127.0.0.1:54623
+I0411 21:05:05.944768 23375872 ServerMgr.cpp:187] register one game server: 127.0.0.1:54623
+W0411 21:05:05.947280 266958272 NetModule.cpp:723] ready reconnect server, server id: 0
+I0411 21:05:05.947387 266958272 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0411 21:05:05.949589 23375872 CenterThread.cpp:92] connect to db server succ!
+I0411 21:05:07.670178 266958272 NetServer.cpp:55] accept io...127.0.0.1:54625
+I0411 21:05:07.685154 23375872 ServerMgr.cpp:54] register one proxy server: 127.0.0.1:54625
+I0411 21:05:14.545495 266958272 NetServer.cpp:55] accept io...127.0.0.1:54628
+I0411 21:05:14.549957 23375872 ServerMgr.cpp:553] register one dip server: 127.0.0.1:54628
+I0411 21:05:14.809113 266958272 NetServer.cpp:55] accept io...127.0.0.1:54630
+I0411 21:05:14.835573 23375872 ServerMgr.cpp:492] register one login server: 127.0.0.1:54630
+W0411 21:16:21.044962 23375872 CenterThread.cpp:4793] update online user fail
+W0411 21:17:00.528453 23375872 CenterThread.cpp:4793] update online user fail

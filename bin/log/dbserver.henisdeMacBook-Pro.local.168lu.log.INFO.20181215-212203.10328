@@ -1,0 +1,199 @@
+Log file created at: 2018/12/15 21:22:03
+Running on machine: henisdeMacBook-Pro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1215 21:22:03.089419 150533568 DBBufferServer.cpp:55] 正在启动DB服务器...
+I1215 21:22:03.091723 150533568 DBBufferServer.cpp:31] start build db thread...
+W1215 21:22:03.091797 89899008 BuildDBThread.cpp:295] CBuildDBThread run, begin build database ..
+I1215 21:22:03.093340 150533568 NetModule.h:71] Init NetModule Finished.
+I1215 21:22:03.093660 150533568 NetModule.h:77] start work thread 0...
+I1215 21:22:03.093675 150533568 NetModule.cpp:64] Start Run NetModule...
+I1215 21:22:03.093703 150533568 NetModule.cpp:76] NetModule Already Startover.
+I1215 21:22:03.093714 150533568 NetModule.cpp:118] Create one server...
+I1215 21:22:06.218904 150533568 NetServer.cpp:55] accept io...127.0.0.1:58835
+I1215 21:22:06.221282 90435584 DBThread.cpp:100] bind one connect: 127.0.0.1:58835
+I1215 21:22:08.310624 150533568 NetServer.cpp:55] accept io...127.0.0.1:58840
+W1215 21:22:17.022495 90435584 DBThread.cpp:205] main db server set time ok!
+I1215 21:22:17.022548 90435584 DBThread.cpp:230] init db server succ!
+I1215 21:22:22.876471 150533568 NetServer.cpp:55] accept io...127.0.0.1:58853
+I1215 21:22:47.553233 90435584 DBThread.cpp:100] bind one connect: 127.0.0.1:58840
+I1215 21:22:47.553284 90435584 DBThread.cpp:100] bind one connect: 127.0.0.1:58853
+W1215 21:28:33.308661 90435584 DBThread.cpp:3544] insert src_user_stat fail, user id: 83527842, errno: 1054, error: Unknown column 'gameid' in 'field list'
+W1215 21:28:33.426472 90435584 DBThread.cpp:3544] insert src_user_stat fail, user id: 83516815, errno: 1054, error: Unknown column 'gameid' in 'field list'
+W1215 21:28:33.535890 90435584 DBThread.cpp:3544] insert src_user_stat fail, user id: 85010705, errno: 1054, error: Unknown column 'gameid' in 'field list'
+I1215 21:29:03.672832 150533568 NetServer.cpp:88] delete io...127.0.0.1:58853
+I1215 21:29:10.048929 150533568 NetServer.cpp:55] accept io...127.0.0.1:58950
+I1215 21:29:10.049978 90435584 DBThread.cpp:100] bind one connect: 127.0.0.1:58950
+W1215 21:30:00.242940 90435584 DBThread.cpp:3544] insert src_user_stat fail, user id: 85010705, errno: 1054, error: Unknown column 'gameid' in 'field list'
+W1215 21:30:00.352551 90435584 DBThread.cpp:3544] insert src_user_stat fail, user id: 83516815, errno: 1054, error: Unknown column 'gameid' in 'field list'
+W1215 21:30:00.476101 90435584 DBThread.cpp:3544] insert src_user_stat fail, user id: 83527842, errno: 1054, error: Unknown column 'gameid' in 'field list'
+I1215 21:33:58.634418 150533568 NetServer.cpp:88] delete io...127.0.0.1:58950
+I1215 21:34:04.996119 150533568 NetServer.cpp:55] accept io...127.0.0.1:58971
+I1215 21:34:04.997985 90435584 DBThread.cpp:100] bind one connect: 127.0.0.1:58971
+W1215 21:34:33.912201 90435584 DBThread.cpp:3544] insert src_user_stat fail, user id: 83516815, errno: 1054, error: Unknown column 'gameid' in 'field list'
+W1215 21:34:34.021582 90435584 DBThread.cpp:3544] insert src_user_stat fail, user id: 83527842, errno: 1054, error: Unknown column 'gameid' in 'field list'
+W1215 21:34:34.131042 90435584 DBThread.cpp:3544] insert src_user_stat fail, user id: 85010705, errno: 1054, error: Unknown column 'gameid' in 'field list'
+I1215 22:06:00.971403 150533568 NetServer.cpp:88] delete io...127.0.0.1:58840
+I1215 22:06:00.971467 150533568 NetServer.cpp:88] delete io...127.0.0.1:58835
+I1215 22:06:00.971503 150533568 NetServer.cpp:88] delete io...127.0.0.1:58971
+I1215 22:06:03.111836 150533568 NetServer.cpp:55] accept io...127.0.0.1:58995
+I1215 22:06:03.123630 150533568 NetServer.cpp:55] accept io...127.0.0.1:58997
+I1215 22:06:04.121332 150533568 NetServer.cpp:55] accept io...127.0.0.1:59005
+I1215 23:03:25.543408 150533568 NetServer.cpp:88] delete io...127.0.0.1:58995
+I1215 23:03:25.543484 150533568 NetServer.cpp:88] delete io...127.0.0.1:59005
+I1215 23:03:25.543509 150533568 NetServer.cpp:88] delete io...127.0.0.1:58997
+I1215 23:03:27.031157 150533568 NetServer.cpp:55] accept io...127.0.0.1:59031
+I1215 23:03:27.031221 150533568 NetServer.cpp:55] accept io...127.0.0.1:59032
+W1215 23:03:27.518239 90435584 DBThread.cpp:1978] start  AcrossTheDayEvent...
+I1215 23:03:29.037048 150533568 NetServer.cpp:55] accept io...127.0.0.1:59041
+W1215 23:03:31.476181 90435584 DBThread.cpp:1983] SwitchTodayScoreRank use time : 3958
+W1215 23:03:41.924551 90435584 DBThread.cpp:1988] ResetTodayScoreRankInCache use time : 10448
+W1215 23:03:42.262266 90435584 DBThread.cpp:5857] account count: 10
+W1215 23:03:43.371781 90435584 DBThread.cpp:5865] vecAccountInfo use time: 1109
+W1215 23:03:43.371989 90435584 DBThread.cpp:1993] ResetTodayRank use time : 1447
+I1216 01:04:18.601845 150533568 NetServer.cpp:88] delete io...127.0.0.1:59032
+I1216 01:04:18.601969 150533568 NetServer.cpp:88] delete io...127.0.0.1:59031
+I1216 01:04:18.602003 150533568 NetServer.cpp:88] delete io...127.0.0.1:59041
+I1216 01:04:20.091747 150533568 NetServer.cpp:55] accept io...127.0.0.1:59070
+I1216 01:04:22.090946 150533568 NetServer.cpp:55] accept io...127.0.0.1:59075
+I1216 01:04:30.635715 150533568 NetServer.cpp:55] accept io...127.0.0.1:59079
+I1216 03:05:11.634884 150533568 NetServer.cpp:88] delete io...127.0.0.1:59075
+I1216 03:05:11.634994 150533568 NetServer.cpp:88] delete io...127.0.0.1:59070
+I1216 03:05:11.635025 150533568 NetServer.cpp:88] delete io...127.0.0.1:59079
+I1216 03:05:13.110201 150533568 NetServer.cpp:55] accept io...127.0.0.1:59102
+I1216 03:05:13.114359 150533568 NetServer.cpp:55] accept io...127.0.0.1:59103
+I1216 03:05:15.124059 150533568 NetServer.cpp:55] accept io...127.0.0.1:59110
+I1216 05:06:06.663817 150533568 NetServer.cpp:88] delete io...127.0.0.1:59103
+I1216 05:06:06.670244 150533568 NetServer.cpp:88] delete io...127.0.0.1:59110
+I1216 05:06:06.670277 150533568 NetServer.cpp:88] delete io...127.0.0.1:59102
+I1216 05:06:08.140034 150533568 NetServer.cpp:55] accept io...127.0.0.1:59138
+I1216 05:06:08.146672 150533568 NetServer.cpp:55] accept io...127.0.0.1:59139
+I1216 05:06:10.145656 150533568 NetServer.cpp:55] accept io...127.0.0.1:59144
+I1216 07:06:59.685279 150533568 NetServer.cpp:88] delete io...127.0.0.1:59138
+I1216 07:06:59.685339 150533568 NetServer.cpp:88] delete io...127.0.0.1:59144
+I1216 07:06:59.685361 150533568 NetServer.cpp:88] delete io...127.0.0.1:59139
+I1216 07:07:01.165472 150533568 NetServer.cpp:55] accept io...127.0.0.1:59164
+I1216 07:07:01.173158 150533568 NetServer.cpp:55] accept io...127.0.0.1:59166
+I1216 07:07:03.176244 150533568 NetServer.cpp:55] accept io...127.0.0.1:59170
+I1216 09:07:53.723492 150533568 NetServer.cpp:88] delete io...127.0.0.1:59170
+I1216 09:07:53.723601 150533568 NetServer.cpp:88] delete io...127.0.0.1:59166
+I1216 09:07:53.723656 150533568 NetServer.cpp:88] delete io...127.0.0.1:59164
+I1216 09:07:55.205081 150533568 NetServer.cpp:55] accept io...127.0.0.1:59199
+I1216 09:07:55.210803 150533568 NetServer.cpp:55] accept io...127.0.0.1:59200
+I1216 09:07:57.226920 150533568 NetServer.cpp:55] accept io...127.0.0.1:59207
+I1216 09:45:02.769484 150533568 NetServer.cpp:88] delete io...127.0.0.1:59207
+I1216 09:45:02.774484 150533568 NetServer.cpp:88] delete io...127.0.0.1:59200
+I1216 09:45:02.774525 150533568 NetServer.cpp:88] delete io...127.0.0.1:59199
+I1216 09:45:04.245515 150533568 NetServer.cpp:55] accept io...127.0.0.1:59230
+I1216 09:45:04.257761 150533568 NetServer.cpp:55] accept io...127.0.0.1:59232
+I1216 09:45:06.267830 150533568 NetServer.cpp:55] accept io...127.0.0.1:59236
+W1216 09:48:19.711426 90435584 DBThread.cpp:1673] reset daily task start. 
+W1216 09:48:46.308817 90435584 DBThread.cpp:1676] reset daily task end. user time: 26596
+I1216 09:51:16.510898 90435584 DBThread.cpp:100] bind one connect: 127.0.0.1:59230
+I1216 09:51:16.512099 90435584 DBThread.cpp:100] bind one connect: 127.0.0.1:59232
+I1216 09:51:44.791566 90435584 DBThread.cpp:100] bind one connect: 127.0.0.1:59236
+W1216 10:24:44.849043 89899008 BuildDBThread.cpp:295] CBuildDBThread run, begin build database ..
+I1216 12:30:05.777159 150533568 NetServer.cpp:88] delete io...127.0.0.1:59236
+I1216 12:30:05.780330 150533568 NetServer.cpp:88] delete io...127.0.0.1:59232
+I1216 12:30:05.780357 150533568 NetServer.cpp:88] delete io...127.0.0.1:59230
+I1216 12:30:07.252182 150533568 NetServer.cpp:55] accept io...127.0.0.1:59384
+I1216 12:30:07.257164 150533568 NetServer.cpp:55] accept io...127.0.0.1:59386
+I1216 12:30:09.268103 150533568 NetServer.cpp:55] accept io...127.0.0.1:59391
+I1216 12:31:17.656658 90435584 DBThread.cpp:100] bind one connect: 127.0.0.1:59384
+I1216 12:31:17.657822 90435584 DBThread.cpp:100] bind one connect: 127.0.0.1:59386
+I1216 12:33:28.197209 90435584 DBThread.cpp:100] bind one connect: 127.0.0.1:59391
+I1216 14:45:09.852262 150533568 NetServer.cpp:88] delete io...127.0.0.1:59384
+I1216 14:45:09.860771 150533568 NetServer.cpp:88] delete io...127.0.0.1:59391
+I1216 14:45:09.860815 150533568 NetServer.cpp:88] delete io...127.0.0.1:59386
+I1216 14:45:11.348486 150533568 NetServer.cpp:55] accept io...127.0.0.1:59710
+I1216 14:45:11.348654 150533568 NetServer.cpp:55] accept io...127.0.0.1:59711
+I1216 14:45:13.352079 150533568 NetServer.cpp:55] accept io...127.0.0.1:59717
+I1216 15:28:33.947497 150533568 NetServer.cpp:88] delete io...127.0.0.1:59711
+I1216 15:28:33.956274 150533568 NetServer.cpp:88] delete io...127.0.0.1:59710
+I1216 15:28:33.956324 150533568 NetServer.cpp:88] delete io...127.0.0.1:59717
+I1216 15:28:35.436030 150533568 NetServer.cpp:55] accept io...127.0.0.1:59746
+I1216 15:28:35.440345 150533568 NetServer.cpp:55] accept io...127.0.0.1:59748
+I1216 15:28:37.452317 150533568 NetServer.cpp:55] accept io...127.0.0.1:59755
+I1216 17:29:26.980595 150533568 NetServer.cpp:88] delete io...127.0.0.1:59755
+I1216 17:29:26.980909 150533568 NetServer.cpp:88] delete io...127.0.0.1:59748
+I1216 17:29:26.980948 150533568 NetServer.cpp:88] delete io...127.0.0.1:59746
+I1216 17:29:28.459872 150533568 NetServer.cpp:55] accept io...127.0.0.1:59785
+I1216 17:29:28.460321 150533568 NetServer.cpp:55] accept io...127.0.0.1:59787
+I1216 17:29:30.477520 150533568 NetServer.cpp:55] accept io...127.0.0.1:59794
+I1216 19:30:20.028645 150533568 NetServer.cpp:88] delete io...127.0.0.1:59787
+I1216 19:30:20.028743 150533568 NetServer.cpp:88] delete io...127.0.0.1:59785
+I1216 19:30:20.028775 150533568 NetServer.cpp:88] delete io...127.0.0.1:59794
+I1216 19:30:21.507218 150533568 NetServer.cpp:55] accept io...127.0.0.1:59826
+I1216 19:30:21.513404 150533568 NetServer.cpp:55] accept io...127.0.0.1:59827
+I1216 19:30:23.527382 150533568 NetServer.cpp:55] accept io...127.0.0.1:59832
+I1216 21:31:13.094583 150533568 NetServer.cpp:88] delete io...127.0.0.1:59827
+I1216 21:31:13.101001 150533568 NetServer.cpp:88] delete io...127.0.0.1:59832
+I1216 21:31:13.101047 150533568 NetServer.cpp:88] delete io...127.0.0.1:59826
+I1216 21:31:14.572826 150533568 NetServer.cpp:55] accept io...127.0.0.1:59867
+I1216 21:31:14.572995 150533568 NetServer.cpp:55] accept io...127.0.0.1:59868
+I1216 21:31:16.588078 150533568 NetServer.cpp:55] accept io...127.0.0.1:59873
+I1216 23:32:07.128258 150533568 NetServer.cpp:88] delete io...127.0.0.1:59873
+I1216 23:32:07.128435 150533568 NetServer.cpp:88] delete io...127.0.0.1:59868
+I1216 23:32:07.128477 150533568 NetServer.cpp:88] delete io...127.0.0.1:59867
+I1216 23:32:08.614835 150533568 NetServer.cpp:55] accept io...127.0.0.1:59903
+I1216 23:32:08.615459 150533568 NetServer.cpp:55] accept io...127.0.0.1:59905
+I1216 23:32:10.627563 150533568 NetServer.cpp:55] accept io...127.0.0.1:59909
+I1217 01:33:00.183879 150533568 NetServer.cpp:88] delete io...127.0.0.1:59905
+I1217 01:33:00.183971 150533568 NetServer.cpp:88] delete io...127.0.0.1:59909
+I1217 01:33:00.184000 150533568 NetServer.cpp:88] delete io...127.0.0.1:59903
+I1217 01:33:01.660332 150533568 NetServer.cpp:55] accept io...127.0.0.1:59946
+I1217 01:33:03.690340 150533568 NetServer.cpp:55] accept io...127.0.0.1:59951
+I1217 01:33:11.718749 150533568 NetServer.cpp:55] accept io...127.0.0.1:59954
+W1217 01:33:29.099860 90435584 DBThread.cpp:1978] start  AcrossTheDayEvent...
+W1217 01:33:32.996624 90435584 DBThread.cpp:1983] SwitchTodayScoreRank use time : 3896
+W1217 01:33:43.460026 90435584 DBThread.cpp:1988] ResetTodayScoreRankInCache use time : 10464
+W1217 01:33:43.796308 90435584 DBThread.cpp:5857] account count: 3
+W1217 01:33:44.128168 90435584 DBThread.cpp:5865] vecAccountInfo use time: 332
+W1217 01:33:44.128374 90435584 DBThread.cpp:1993] ResetTodayRank use time : 668
+I1217 03:33:53.228670 150533568 NetServer.cpp:88] delete io...127.0.0.1:59946
+I1217 03:33:53.228790 150533568 NetServer.cpp:88] delete io...127.0.0.1:59951
+I1217 03:33:53.228817 150533568 NetServer.cpp:88] delete io...127.0.0.1:59954
+I1217 03:33:54.713049 150533568 NetServer.cpp:55] accept io...127.0.0.1:59973
+I1217 03:33:54.721580 150533568 NetServer.cpp:55] accept io...127.0.0.1:59974
+I1217 03:33:56.723317 150533568 NetServer.cpp:55] accept io...127.0.0.1:59979
+I1217 05:34:46.273542 150533568 NetServer.cpp:88] delete io...127.0.0.1:59979
+I1217 05:34:46.273612 150533568 NetServer.cpp:88] delete io...127.0.0.1:59974
+I1217 05:34:46.273640 150533568 NetServer.cpp:88] delete io...127.0.0.1:59973
+I1217 05:34:47.756793 150533568 NetServer.cpp:55] accept io...127.0.0.1:60023
+I1217 05:34:47.760053 150533568 NetServer.cpp:55] accept io...127.0.0.1:60024
+I1217 05:34:49.762217 150533568 NetServer.cpp:55] accept io...127.0.0.1:60031
+I1217 07:35:39.315681 150533568 NetServer.cpp:88] delete io...127.0.0.1:60024
+I1217 07:35:39.315773 150533568 NetServer.cpp:88] delete io...127.0.0.1:60023
+I1217 07:35:39.315805 150533568 NetServer.cpp:88] delete io...127.0.0.1:60031
+I1217 07:35:40.804993 150533568 NetServer.cpp:55] accept io...127.0.0.1:60062
+I1217 07:35:40.807629 150533568 NetServer.cpp:55] accept io...127.0.0.1:60063
+I1217 07:35:42.818326 150533568 NetServer.cpp:55] accept io...127.0.0.1:60068
+W1217 07:35:43.647187 90435584 DBThread.cpp:8289] select quanmin channel fail, errno:-1, error: mysql not opened yet!
+I1217 09:36:32.362902 150533568 NetServer.cpp:88] delete io...127.0.0.1:60068
+I1217 09:36:32.362990 150533568 NetServer.cpp:88] delete io...127.0.0.1:60063
+I1217 09:36:32.363019 150533568 NetServer.cpp:88] delete io...127.0.0.1:60062
+I1217 09:36:33.843116 150533568 NetServer.cpp:55] accept io...127.0.0.1:60102
+I1217 09:36:33.843515 150533568 NetServer.cpp:55] accept io...127.0.0.1:60104
+I1217 09:36:35.860538 150533568 NetServer.cpp:55] accept io...127.0.0.1:60111
+I1217 09:52:50.948848 150533568 NetServer.cpp:88] delete io...127.0.0.1:60111
+I1217 09:52:50.948977 150533568 NetServer.cpp:88] delete io...127.0.0.1:60104
+I1217 09:52:50.949029 150533568 NetServer.cpp:88] delete io...127.0.0.1:60102
+I1217 09:52:52.424234 150533568 NetServer.cpp:55] accept io...127.0.0.1:60162
+I1217 09:52:52.433666 150533568 NetServer.cpp:55] accept io...127.0.0.1:60163
+I1217 09:52:54.433056 150533568 NetServer.cpp:55] accept io...127.0.0.1:60181
+I1217 09:59:04.159746 90435584 DBThread.cpp:100] bind one connect: 127.0.0.1:60181
+I1217 09:59:04.186259 150533568 NetServer.cpp:88] delete io...127.0.0.1:60181
+I1217 09:59:07.485030 150533568 NetServer.cpp:55] accept io...127.0.0.1:60271
+I1217 10:00:05.906600 90435584 DBThread.cpp:100] bind one connect: 127.0.0.1:60162
+I1217 10:00:36.283974 90435584 DBThread.cpp:100] bind one connect: 127.0.0.1:60162
+I1217 10:00:36.284049 90435584 DBThread.cpp:100] bind one connect: 127.0.0.1:60163
+I1217 10:01:07.951330 90435584 DBThread.cpp:100] bind one connect: 127.0.0.1:60271
+W1217 10:03:23.763866 90435584 DBThread.cpp:5407] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1217 10:03:23.765978 90435584 DBThread.cpp:5644] select today online rank fail. errno: -1, err msg: mysql not opened yet!
+W1217 10:03:23.766100 90435584 DBThread.cpp:5741] select today task finish rank fail. errno: -1, err msg: mysql not opened yet!
+I1217 10:10:05.769531 150533568 NetServer.cpp:88] delete io...127.0.0.1:60163
+I1217 10:10:18.037904 150533568 NetServer.cpp:55] accept io...127.0.0.1:60767
+I1217 10:10:18.038839 90435584 DBThread.cpp:100] bind one connect: 127.0.0.1:60767
+I1217 10:10:21.675187 150533568 NetServer.cpp:88] delete io...127.0.0.1:60767
+I1217 10:10:27.496918 150533568 NetServer.cpp:55] accept io...127.0.0.1:60784
+I1217 10:10:27.498805 90435584 DBThread.cpp:100] bind one connect: 127.0.0.1:60784
+I1217 10:10:37.213800 150533568 NetServer.cpp:88] delete io...127.0.0.1:60784

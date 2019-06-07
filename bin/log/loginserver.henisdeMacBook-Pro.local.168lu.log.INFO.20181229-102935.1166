@@ -1,0 +1,29 @@
+Log file created at: 2018/12/29 10:29:35
+Running on machine: henisdeMacBook-Pro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1229 10:29:35.567021 111175104 LoginServer.cpp:45] 正在启动登录服务器...
+I1229 10:29:35.570745 111175104 NetModule.h:71] Init NetModule Finished.
+I1229 10:29:35.572612 111175104 NetModule.h:77] start work thread 0...
+I1229 10:29:35.572624 111175104 NetModule.cpp:64] Start Run NetModule...
+I1229 10:29:35.572645 111175104 NetModule.cpp:76] NetModule Already Startover.
+W1229 10:29:35.572978 111175104 LoginServer.cpp:65] listen at: 0.0.0.0:7003
+I1229 10:29:35.573221 111175104 NetModule.cpp:118] Create one server...
+I1229 10:29:35.573312 111175104 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1229 10:29:45.965598 111175104 NetServer.cpp:55] accept io...127.0.0.1:50031
+I1229 10:29:45.966290 214560768 LoginServerThread.cpp:180] bind one connect: 127.0.0.1:50031
+I1229 10:29:45.989637 214560768 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:50031
+I1229 10:29:47.285053 214560768 LoginServerThread.cpp:7364] load game kind succ!
+I1229 10:29:47.397150 214560768 LoginServerThread.cpp:7475] load game room kind succ!
+I1229 10:29:47.850093 214560768 LoginServerThread.cpp:7839] load system status succ!
+I1229 10:29:47.961179 214560768 LoginServerThread.cpp:7510] load sign in config succ!
+I1229 10:29:48.069675 214560768 LoginServerThread.cpp:7544] load vip config succ!
+I1229 10:29:48.178323 214560768 LoginServerThread.cpp:7576] load vip2 config succ!
+I1229 10:29:48.386013 214560768 LoginServerThread.cpp:7864] load channel show exchange succ!
+I1229 10:29:48.494869 214560768 LoginServerThread.cpp:7894] load exchange info succ!
+I1229 10:29:48.631491 214560768 LoginServerThread.cpp:7921] load channel prsent score succ!
+I1229 10:29:48.766111 214560768 LoginServerThread.cpp:7945] load channel register mail succ!
+I1229 10:29:48.875392 214560768 LoginServerThread.cpp:7668] load game version succ!
+W1229 13:40:00.891358 214560768 LoginServerThread.cpp:3811] set user earn score fail, user id: 83516815
+W1229 13:40:11.007302 214560768 LoginServerThread.cpp:3795] set user task fail, user id: 83516815
+W1229 15:46:52.389006 214560768 LoginServerThread.cpp:5878] select account info failed, user name : 264FDBBC-4838-4336-B431-73DD81D8CB0A, errno: -1, error: mysql not opened yet!
+W1229 18:16:35.299432 214560768 LoginServerThread.cpp:170] center server is disconnect, after 10s will be reconnect!

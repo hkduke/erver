@@ -1,0 +1,36 @@
+Log file created at: 2018/12/10 11:39:34
+Running on machine: henisdeMacBook-Pro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1210 11:39:34.549825 166380992 ProxyServer.cpp:45] 正在启动代理服务器...
+I1210 11:39:34.553781 166380992 NetModule.h:71] Init NetModule Finished.
+I1210 11:39:34.553874 166380992 NetModule.h:77] start work thread 0...
+I1210 11:39:34.553889 166380992 NetModule.cpp:64] Start Run NetModule...
+I1210 11:39:34.553912 166380992 NetModule.cpp:76] NetModule Already Startover.
+I1210 11:39:34.554553 166380992 NetModule.cpp:118] Create one server...
+I1210 11:39:34.554697 166380992 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1210 11:39:34.554719 166380992 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1210 11:39:34.564595 49651712 ProxyThread.cpp:66] connect to center server succ.
+I1210 11:39:34.564643 49651712 ProxyThread.cpp:92] connect to db server succ
+I1210 11:39:34.584290 49651712 ProxyThread.cpp:538] get game server list finish!
+I1210 11:39:34.584336 49651712 ProxyThread.cpp:509] get login server list finish!
+I1210 11:39:34.584347 49651712 ProxyThread.cpp:567] get customer server list finish!
+I1210 11:40:10.216694 49651712 NetModule.cpp:200] add one connector: 0.0.0.0:7003 succeed...
+W1210 11:40:10.216847 49651712 ServerMgr.cpp:78] add login server, login server id:10
+I1210 11:40:10.643636 166380992 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I1210 11:40:10.645448 49651712 ProxyThread.cpp:76] connect to login server succ, server id:10
+I1210 11:40:26.256198 49651712 NetModule.cpp:200] add one connector: 127.0.0.1:11001 succeed...
+W1210 11:40:26.256223 49651712 ServerMgr.cpp:40] add game server, game server id:1101
+I1210 11:40:26.682790 166380992 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I1210 11:40:26.683116 49651712 ProxyThread.cpp:86] connect to game server succ, server id:1101
+I1210 11:40:42.590625 49651712 NetModule.cpp:200] add one connector: 127.0.0.1:11002 succeed...
+W1210 11:40:42.590721 49651712 ServerMgr.cpp:40] add game server, game server id:1102
+I1210 11:40:42.723595 166380992 NetConnector.cpp:216] connect to: 127.0.0.1:11002 success! 
+I1210 11:40:42.725525 49651712 ProxyThread.cpp:86] connect to game server succ, server id:1102
+I1210 11:41:00.088512 49651712 NetModule.cpp:200] add one connector: 127.0.0.1:11003 succeed...
+W1210 11:41:00.088726 49651712 ServerMgr.cpp:40] add game server, game server id:1103
+I1210 11:41:00.266963 166380992 NetConnector.cpp:216] connect to: 127.0.0.1:11003 success! 
+I1210 11:41:00.269215 49651712 ProxyThread.cpp:86] connect to game server succ, server id:1103
+I1210 11:42:38.584159 166380992 NetServer.cpp:55] accept io...192.168.10.141:63154
+I1210 11:43:52.231397 166380992 NetServer.cpp:88] delete io...192.168.10.141:63154
+I1210 11:43:56.654291 166380992 NetServer.cpp:55] accept io...192.168.10.141:63155
+I1210 11:45:27.165024 166380992 NetServer.cpp:88] delete io...192.168.10.141:63155

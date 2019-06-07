@@ -1,0 +1,75 @@
+Log file created at: 2018/12/25 14:47:27
+Running on machine: henisdeMacBook-Pro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1225 14:47:27.920009 136295872 DBBufferServer.cpp:55] 正在启动DB服务器...
+I1225 14:47:27.921696 136295872 DBBufferServer.cpp:31] start build db thread...
+W1225 14:47:27.921708 260354048 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+I1225 14:47:27.922816 136295872 NetModule.h:71] Init NetModule Finished.
+I1225 14:47:27.923110 136295872 NetModule.h:77] start work thread 0...
+I1225 14:47:27.923118 136295872 NetModule.cpp:64] Start Run NetModule...
+I1225 14:47:27.923135 136295872 NetModule.cpp:76] NetModule Already Startover.
+I1225 14:47:27.923141 136295872 NetModule.cpp:118] Create one server...
+I1225 14:47:28.214287 136295872 NetServer.cpp:55] accept io...127.0.0.1:61178
+I1225 14:47:28.216154 260890624 DBThread.cpp:100] bind one connect: 127.0.0.1:61178
+I1225 14:47:28.860515 136295872 NetServer.cpp:55] accept io...127.0.0.1:61181
+W1225 14:47:29.224153 260890624 DBThread.cpp:205] main db server set time ok!
+I1225 14:47:29.224205 260890624 DBThread.cpp:230] init db server succ!
+I1225 14:47:29.581785 136295872 NetServer.cpp:55] accept io...127.0.0.1:61183
+I1225 14:48:01.571171 260890624 DBThread.cpp:100] bind one connect: 127.0.0.1:61181
+I1225 14:48:01.571220 260890624 DBThread.cpp:100] bind one connect: 127.0.0.1:61183
+W1225 15:00:46.821216 260890624 DBThread.cpp:4626] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '6-1-2-323' for key 'PRIMARY'
+I1225 15:21:22.630293 136295872 NetServer.cpp:88] delete io...127.0.0.1:61181
+I1225 15:22:15.249519 136295872 NetServer.cpp:55] accept io...127.0.0.1:61215
+I1225 15:22:15.249927 260890624 DBThread.cpp:100] bind one connect: 127.0.0.1:61215
+W1225 15:30:51.403885 260890624 DBThread.cpp:4626] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-3-1-415' for key 'PRIMARY'
+I1225 15:41:17.613878 136295872 NetServer.cpp:88] delete io...127.0.0.1:61215
+I1225 15:41:22.534755 136295872 NetServer.cpp:55] accept io...127.0.0.1:61247
+I1225 15:41:22.535817 260890624 DBThread.cpp:100] bind one connect: 127.0.0.1:61247
+W1225 15:47:32.426846 260354048 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W1225 16:11:31.622881 260890624 DBThread.cpp:4626] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '3-1-1-473' for key 'PRIMARY'
+I1225 16:40:01.713804 136295872 NetServer.cpp:88] delete io...127.0.0.1:61247
+I1225 16:40:08.029217 136295872 NetServer.cpp:55] accept io...127.0.0.1:61316
+I1225 16:40:08.029355 260890624 DBThread.cpp:100] bind one connect: 127.0.0.1:61316
+I1225 16:45:37.843132 136295872 NetServer.cpp:88] delete io...127.0.0.1:61316
+I1225 16:45:42.888738 136295872 NetServer.cpp:55] accept io...127.0.0.1:61332
+I1225 16:45:42.888893 260890624 DBThread.cpp:100] bind one connect: 127.0.0.1:61332
+W1225 16:47:36.920143 260354048 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+I1225 16:54:28.438858 136295872 NetServer.cpp:88] delete io...127.0.0.1:61332
+I1225 16:54:34.357578 136295872 NetServer.cpp:55] accept io...127.0.0.1:61351
+I1225 16:54:34.359510 260890624 DBThread.cpp:100] bind one connect: 127.0.0.1:61351
+I1225 17:06:38.124925 136295872 NetServer.cpp:88] delete io...127.0.0.1:61351
+I1225 17:06:42.688480 136295872 NetServer.cpp:55] accept io...127.0.0.1:61373
+I1225 17:06:42.688899 260890624 DBThread.cpp:100] bind one connect: 127.0.0.1:61373
+I1225 17:16:41.627869 136295872 NetServer.cpp:88] delete io...127.0.0.1:61373
+I1225 17:16:45.786154 136295872 NetServer.cpp:55] accept io...127.0.0.1:61386
+I1225 17:16:45.788264 260890624 DBThread.cpp:100] bind one connect: 127.0.0.1:61386
+I1225 17:17:20.409762 136295872 NetServer.cpp:88] delete io...127.0.0.1:61386
+I1225 17:17:24.884970 136295872 NetServer.cpp:55] accept io...127.0.0.1:61395
+I1225 17:17:48.307458 260890624 DBThread.cpp:100] bind one connect: 127.0.0.1:61395
+W1225 17:22:23.595814 260890624 DBThread.cpp:4626] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '6-1-2-324' for key 'PRIMARY'
+W1225 17:47:41.425849 260354048 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W1225 18:32:30.796788 260890624 DBThread.cpp:4626] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-1-1-351' for key 'PRIMARY'
+W1225 18:47:45.898980 260354048 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W1225 18:48:49.328847 260354048 BuildDBThread.cpp:217] open :58.82.239.150:3306@mysql error!
+W1225 18:55:41.212937 260890624 DBThread.cpp:6698] update user today online time fail, user id: 83516815
+I1225 19:22:11.558146 136295872 NetServer.cpp:88] delete io...127.0.0.1:61395
+I1225 19:22:16.979581 136295872 NetServer.cpp:55] accept io...127.0.0.1:61671
+I1225 19:22:16.980549 260890624 DBThread.cpp:100] bind one connect: 127.0.0.1:61671
+I1225 19:23:28.918802 136295872 NetServer.cpp:88] delete io...127.0.0.1:61671
+I1225 19:29:00.119523 136295872 NetServer.cpp:55] accept io...127.0.0.1:61714
+I1225 19:29:00.120513 260890624 DBThread.cpp:100] bind one connect: 127.0.0.1:61714
+I1225 19:30:02.337863 136295872 NetServer.cpp:88] delete io...127.0.0.1:61714
+W1225 19:39:47.436753 260890624 DBThread.cpp:2727] insert stat_machine_online fail,machine types: 2, statValue:0, error no: -1, error msg: mysql not opened yet!
+I1225 19:40:08.971654 136295872 NetServer.cpp:55] accept io...127.0.0.1:61757
+I1225 19:40:08.973340 260890624 DBThread.cpp:100] bind one connect: 127.0.0.1:61757
+W1225 19:41:28.327266 260890624 DBThread.cpp:4626] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-4-1-297' for key 'PRIMARY'
+W1225 19:48:49.360440 260354048 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W1225 19:50:30.738255 260890624 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1225 19:59:22.409452 260890624 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!
+W1225 20:02:13.349684 260890624 DBThread.cpp:4626] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '2-1-2-2' for key 'PRIMARY'
+W1225 20:30:14.650090 260890624 DBThread.cpp:2727] insert stat_machine_online fail,machine types: 2, statValue:0, error no: -1, error msg: mysql not opened yet!
+W1225 20:31:29.591944 260890624 DBThread.cpp:4626] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '3-1-2-340' for key 'PRIMARY'
+I1225 20:33:00.413389 136295872 NetServer.cpp:88] delete io...127.0.0.1:61757
+W1225 20:48:53.856267 260354048 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+W1225 20:49:57.286253 260354048 BuildDBThread.cpp:217] open :58.82.239.150:3306@mysql error!
+W1225 21:28:36.228608 260890624 DBThread.cpp:5435] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!

@@ -1,0 +1,28 @@
+Log file created at: 2019/06/01 10:58:57
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0601 10:58:57.766146 166540736 DBBufferServer.cpp:55] 正在启动DB服务器...
+I0601 10:58:57.770015 166540736 DBBufferServer.cpp:31] start build db thread...
+W0601 10:58:57.770062 53731328 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+I0601 10:58:57.771234 166540736 NetModule.h:71] Init NetModule Finished.
+I0601 10:58:57.802129 166540736 NetModule.h:78] start work thread 0...
+I0601 10:58:57.802155 166540736 NetModule.cpp:69] Start Run NetModule...
+I0601 10:58:57.802186 166540736 NetModule.cpp:88] NetModule Already Startover.
+I0601 10:58:57.802193 166540736 NetModule.cpp:136] Create one server...
+I0601 10:58:58.955406 166540736 NetServer.cpp:55] accept io...127.0.0.1:51990
+I0601 10:58:58.957581 54267904 DBThread.cpp:104] bind one connect: 127.0.0.1:51990
+I0601 10:58:59.039602 166540736 NetServer.cpp:55] accept io...127.0.0.1:51992
+I0601 10:58:59.066800 166540736 NetServer.cpp:55] accept io...127.0.0.1:51993
+I0601 10:58:59.160015 166540736 NetServer.cpp:55] accept io...127.0.0.1:51994
+I0601 10:58:59.194638 166540736 NetServer.cpp:55] accept io...127.0.0.1:51995
+W0601 10:58:59.766070 54267904 DBThread.cpp:209] main db server set time ok!
+I0601 10:58:59.766136 54267904 DBThread.cpp:234] init db server succ!
+I0601 10:58:59.766149 54267904 DBThread.cpp:104] bind one connect: 127.0.0.1:51992
+I0601 10:58:59.766155 54267904 DBThread.cpp:104] bind one connect: 127.0.0.1:51993
+I0601 10:58:59.788841 166540736 NetServer.cpp:55] accept io...127.0.0.1:51998
+I0601 10:59:01.028863 166540736 NetServer.cpp:88] delete io...127.0.0.1:51998
+I0601 10:59:01.975603 166540736 NetServer.cpp:55] accept io...127.0.0.1:52002
+I0601 10:59:44.229462 54267904 DBThread.cpp:104] bind one connect: 127.0.0.1:51994
+I0601 10:59:44.229526 54267904 DBThread.cpp:104] bind one connect: 127.0.0.1:51995
+I0601 10:59:44.229535 54267904 DBThread.cpp:104] bind one connect: 127.0.0.1:52002
+W0601 11:22:58.265871 54267904 DBThread.cpp:7880] insert record_score.record_draw_info fail, error = -1, error msg: mysql not opened yet!

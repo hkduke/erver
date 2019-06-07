@@ -1,0 +1,44 @@
+Log file created at: 2019/05/04 15:54:20
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0504 15:54:20.870054 478787008 DBBufferServer.cpp:55] 正在启动DB服务器...
+I0504 15:54:20.872179 478787008 DBBufferServer.cpp:31] start build db thread...
+W0504 15:54:20.872239 32952320 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+I0504 15:54:20.873358 478787008 NetModule.h:71] Init NetModule Finished.
+I0504 15:54:20.875159 478787008 NetModule.h:78] start work thread 0...
+I0504 15:54:20.875178 478787008 NetModule.cpp:69] Start Run NetModule...
+I0504 15:54:20.875207 478787008 NetModule.cpp:88] NetModule Already Startover.
+I0504 15:54:20.875213 478787008 NetModule.cpp:136] Create one server...
+I0504 15:54:22.132355 478787008 NetServer.cpp:55] accept io...127.0.0.1:63646
+I0504 15:54:22.132598 33488896 DBThread.cpp:104] bind one connect: 127.0.0.1:63646
+I0504 15:54:22.328562 478787008 NetServer.cpp:55] accept io...127.0.0.1:63648
+I0504 15:54:22.330119 478787008 NetServer.cpp:55] accept io...127.0.0.1:63649
+I0504 15:54:22.705689 478787008 NetServer.cpp:55] accept io...127.0.0.1:63650
+W0504 15:54:22.945209 33488896 DBThread.cpp:209] main db server set time ok!
+I0504 15:54:22.945294 33488896 DBThread.cpp:234] init db server succ!
+I0504 15:54:57.204448 33488896 DBThread.cpp:104] bind one connect: 127.0.0.1:63648
+I0504 15:54:57.204493 33488896 DBThread.cpp:104] bind one connect: 127.0.0.1:63649
+I0504 15:54:57.204499 33488896 DBThread.cpp:104] bind one connect: 127.0.0.1:63650
+W0504 15:55:27.891083 33488896 DBThread.cpp:4715] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-3-1-696' for key 'PRIMARY'
+W0504 16:11:02.056947 33488896 DBThread.cpp:4715] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '3-1-1-778' for key 'PRIMARY'
+I0504 16:20:07.901243 478787008 NetServer.cpp:88] delete io...127.0.0.1:63649
+I0504 16:20:09.982445 478787008 NetServer.cpp:55] accept io...127.0.0.1:63677
+I0504 16:20:09.983098 33488896 DBThread.cpp:104] bind one connect: 127.0.0.1:63677
+I0504 16:47:55.100663 478787008 NetServer.cpp:88] delete io...127.0.0.1:63648
+I0504 16:47:57.645656 478787008 NetServer.cpp:55] accept io...127.0.0.1:63715
+I0504 16:47:57.645920 33488896 DBThread.cpp:104] bind one connect: 127.0.0.1:63715
+W0504 16:54:25.354588 32952320 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0504 17:05:15.191679 33488896 DBThread.cpp:7355] update android status fail. errno: -1, error msg: mysql not opened yet!
+W0504 17:06:15.197877 33488896 DBThread.cpp:7355] update android status fail. errno: -1, error msg: mysql not opened yet!
+W0504 17:07:37.541546 33488896 DBThread.cpp:6772] insert record_score.record_draw_info fail, error = -1, error msg: mysql not opened yet!
+W0504 17:08:58.867022 33488896 DBThread.cpp:7405] update room server stock fail. errno: -1, error msg: mysql not opened yet!
+W0504 17:09:58.874536 33488896 DBThread.cpp:7175] insert record_score.record_hbsl_info fail, error = -1, error msg: mysql not opened yet!
+W0504 17:10:58.878728 33488896 DBThread.cpp:3505] set db score fail, add score: 21435640, user id: 85598518
+W0504 17:11:58.882760 33488896 DBThread.cpp:7355] update android status fail. errno: -1, error msg: mysql not opened yet!
+W0504 17:12:58.889593 33488896 DBThread.cpp:3505] set db score fail, add score: 85094329, user id: 85564104
+W0504 17:13:58.892710 33488896 DBThread.cpp:7355] update android status fail. errno: -1, error msg: mysql not opened yet!
+W0504 17:14:58.896682 33488896 DBThread.cpp:6772] insert record_score.record_draw_info fail, error = -1, error msg: mysql not opened yet!
+W0504 17:54:29.815742 32952320 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0504 18:54:34.384982 32952320 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0504 19:41:27.786252 33488896 DBThread.cpp:4715] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '100-4-1-597' for key 'PRIMARY'
+W0504 19:54:38.899534 32952320 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..

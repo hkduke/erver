@@ -1,0 +1,25 @@
+Log file created at: 2018/12/20 15:31:45
+Running on machine: henisdeMacBook-Pro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1220 15:31:45.783888 400090560 GameServer.cpp:45] 正在启动游戏服务器...
+I1220 15:31:45.786128 400090560 NetModule.h:71] Init NetModule Finished.
+I1220 15:31:45.786314 400090560 NetModule.h:77] start work thread 0...
+I1220 15:31:45.786324 400090560 NetModule.cpp:64] Start Run NetModule...
+I1220 15:31:45.786339 400090560 NetModule.cpp:76] NetModule Already Startover.
+I1220 15:31:45.786350 400090560 NetModule.cpp:200] add one connector: 127.0.0.1:5001 succeed...
+I1220 15:31:45.786356 400090560 NetModule.cpp:200] add one connector: 127.0.0.1:6001 succeed...
+I1220 15:31:45.786361 400090560 NetModule.cpp:118] Create one server...
+I1220 15:31:46.287174 400090560 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I1220 15:31:46.287228 400090560 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I1220 15:31:46.289078 3284992 GameServerThread.cpp:113] connect to db server succ!
+I1220 15:31:58.404537 3284992 AndroidUserMgr.cpp:693] set active android count: 0
+I1220 15:31:58.404582 3284992 AndroidUserMgr.cpp:693] set active android count: 2
+I1220 15:31:58.432812 400090560 NetServer.cpp:55] accept io...127.0.0.1:59113
+I1220 15:31:58.869766 3284992 GameServerThread.cpp:1884] load benefit config succ!
+I1220 15:31:59.529868 3284992 GameServerThread.cpp:1804] load android parameter succ, android count : 24
+W1220 15:31:59.651813 3284992 GameTableManager.cpp:561] update br game server black list, server id: 1101
+I1220 15:31:59.652276 3284992 GameServerThread.cpp:1458] init server succ!
+I1220 15:31:59.652287 3284992 GameServerThread.cpp:146] bind one connect: 127.0.0.1:59113
+I1220 15:31:59.652297 3284992 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:59113
+W1220 16:00:08.879066 3284992 TableFrameForScore.cpp:1637] game process message fail? subid: 2
+W1220 20:10:26.010900 3284992 TableFrameForScore.cpp:1637] game process message fail? subid: 3

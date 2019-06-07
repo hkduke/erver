@@ -1,0 +1,12 @@
+Log file created at: 2019/05/31 15:32:54
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0531 15:32:54.780644 179703808 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0531 15:32:56.647852 180240384 DBThread.cpp:209] main db server set time ok!
+W0531 15:33:57.344601 180240384 DBThread.cpp:7705] get record db handle fail.
+W0531 16:12:17.762326 180240384 DBThread.cpp:5784] INSERT wealth god index fail, errno: -1, error: mysql not opened yet!
+W0531 16:12:17.880311 180240384 DBThread.cpp:5824] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '3-1-1-845' for key 'PRIMARY'
+W0531 16:32:59.321813 179703808 BuildDBThread.cpp:296] CBuildDBThread run, begin build database ..
+W0531 16:45:09.180187 180240384 DBThread.cpp:2895] insert stat_game_online fail,game id: 0, statType: 0, statValue:1, error no: -1, error msg: mysql not opened yet!
+W0531 16:46:09.187155 180240384 DBThread.cpp:2915] insert stat_machine_online fail,machine types: 1, statValue:1, error no: -1, error msg: mysql not opened yet!
+W0531 16:54:40.640813 180240384 DBThread.cpp:7017] select today earn score rank fail . errno: -1, err msg: mysql not opened yet!

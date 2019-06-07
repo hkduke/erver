@@ -1,0 +1,25 @@
+Log file created at: 2019/03/21 18:36:58
+Running on machine: henisdeMBP.mshome.net
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0321 18:36:58.522778 176899520 GameServer.cpp:45] 正在启动游戏服务器...
+I0321 18:36:58.526477 176899520 NetModule.h:71] Init NetModule Finished.
+I0321 18:36:58.528106 176899520 NetModule.h:78] start work thread 0...
+I0321 18:36:58.528125 176899520 NetModule.cpp:69] Start Run NetModule...
+I0321 18:36:58.528157 176899520 NetModule.cpp:88] NetModule Already Startover.
+I0321 18:36:58.528179 176899520 NetModule.cpp:220] add one connector: 0.0.0.0:5001 succeed...
+I0321 18:36:58.528187 176899520 NetModule.cpp:220] add one connector: 0.0.0.0:6001 succeed...
+I0321 18:36:58.528193 176899520 NetModule.cpp:136] Create one server...
+I0321 18:36:59.030058 176899520 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0321 18:36:59.030122 176899520 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I0321 18:36:59.032248 80351232 GameServerThread.cpp:113] connect to db server succ!
+I0321 18:37:00.162150 80351232 AndroidUserMgr.cpp:832] set active android count: 0
+I0321 18:37:00.162197 80351232 AndroidUserMgr.cpp:832] set active android count: 2
+I0321 18:37:00.216135 176899520 NetServer.cpp:55] accept io...127.0.0.1:49347
+I0321 18:37:00.620276 80351232 GameServerThread.cpp:1933] load benefit config succ!
+I0321 18:37:01.504351 80351232 GameServerThread.cpp:1853] load android parameter succ, android count : 689
+I0321 18:37:01.504382 80351232 GameServerThread.cpp:1862] SET DDZ AI TIMER.
+W0321 18:37:01.619274 80351232 GameTableManager.cpp:566] update br game server black list, server id: 100
+I0321 18:37:01.619624 80351232 GameServerThread.cpp:1507] init server succ!
+I0321 18:37:01.619635 80351232 GameServerThread.cpp:146] bind one connect: 127.0.0.1:49347
+I0321 18:37:01.619652 80351232 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:49347
+W0322 10:32:57.648197 80351232 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!

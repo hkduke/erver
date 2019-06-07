@@ -1,0 +1,512 @@
+Log file created at: 2019/05/17 14:34:48
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0517 14:34:48.184680 155055552 GameServer.cpp:45] 正在启动游戏服务器...
+I0517 14:34:48.186475 155055552 NetModule.h:71] Init NetModule Finished.
+I0517 14:34:48.186657 155055552 NetModule.h:78] start work thread 0...
+I0517 14:34:48.186667 155055552 NetModule.cpp:69] Start Run NetModule...
+I0517 14:34:48.186682 155055552 NetModule.cpp:88] NetModule Already Startover.
+I0517 14:34:48.186693 155055552 NetModule.cpp:220] add one connector: 127.0.0.1:5001 succeed...
+I0517 14:34:48.186699 155055552 NetModule.cpp:220] add one connector: 127.0.0.1:6001 succeed...
+I0517 14:34:48.186704 155055552 NetModule.cpp:136] Create one server...
+I0517 14:34:48.691340 155055552 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0517 14:34:48.691367 155055552 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0517 14:34:48.692920 237457408 GameServerThread.cpp:113] connect to db server succ!
+I0517 14:34:50.530376 237457408 AndroidUserMgr.cpp:832] set active android count: 0
+I0517 14:34:50.530413 237457408 AndroidUserMgr.cpp:832] set active android count: 20
+I0517 14:34:50.969369 237457408 GameServerThread.cpp:1933] load benefit config succ!
+I0517 14:34:51.001024 155055552 NetServer.cpp:55] accept io...127.0.0.1:50371
+I0517 14:34:51.650919 237457408 GameServerThread.cpp:1853] load android parameter succ, android count : 240
+W0517 14:34:51.773741 237457408 GameTableManager.cpp:566] update br game server black list, server id: 993
+I0517 14:34:51.774053 237457408 GameServerThread.cpp:1507] init server succ!
+I0517 14:34:51.774091 237457408 GameServerThread.cpp:146] bind one connect: 127.0.0.1:50371
+I0517 14:34:51.774102 237457408 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:50371
+I0517 14:36:33.945471 155055552 NetServer.cpp:88] delete io...127.0.0.1:50371
+W0517 14:36:36.585605 237457408 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0517 14:36:37.828511 237457408 ServerMgr.cpp:67] remove one proxy server, id: 30
+W0517 14:36:37.828559 237457408 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0517 14:36:39.661307 155055552 NetModule.cpp:723] ready reconnect server, server id: 993
+I0517 14:36:39.661379 155055552 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0517 14:36:39.661484 237457408 GameServerThread.cpp:109] connect to center server succ!
+W0517 14:36:39.696823 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500016
+W0517 14:36:39.697134 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500017
+W0517 14:36:39.697232 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500018
+W0517 14:36:39.697285 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500019
+W0517 14:36:39.697335 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500020
+W0517 14:36:39.697391 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500022
+I0517 14:36:39.792774 155055552 NetServer.cpp:55] accept io...127.0.0.1:50380
+I0517 14:36:39.794703 237457408 GameServerThread.cpp:146] bind one connect: 127.0.0.1:50380
+I0517 14:36:39.807065 237457408 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:50380
+W0517 14:36:40.398751 155055552 NetModule.cpp:723] ready reconnect server, server id: 993
+I0517 14:36:40.398933 155055552 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0517 14:36:40.399446 237457408 GameServerThread.cpp:113] connect to db server succ!
+I0518 00:55:31.648916 155055552 NetServer.cpp:88] delete io...127.0.0.1:50380
+W0518 00:55:31.648983 237457408 ServerMgr.cpp:67] remove one proxy server, id: 30
+W0518 00:55:31.667961 237457408 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0518 00:55:31.668011 237457408 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0518 00:55:33.133914 155055552 NetModule.cpp:723] ready reconnect server, server id: 993
+W0518 00:55:33.134104 155055552 NetModule.cpp:723] ready reconnect server, server id: 993
+I0518 00:55:33.134222 155055552 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0518 00:55:33.134259 155055552 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0518 00:55:33.136210 237457408 GameServerThread.cpp:113] connect to db server succ!
+I0518 00:55:33.136242 237457408 GameServerThread.cpp:109] connect to center server succ!
+W0518 00:55:33.180747 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500016
+W0518 00:55:33.180838 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500017
+W0518 00:55:33.180882 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500018
+W0518 00:55:33.180907 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500019
+W0518 00:55:33.180929 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500020
+W0518 00:55:33.180950 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500022
+I0518 00:55:35.146605 155055552 NetServer.cpp:55] accept io...127.0.0.1:52144
+I0518 00:55:35.147989 237457408 GameServerThread.cpp:146] bind one connect: 127.0.0.1:52144
+I0518 00:55:35.171492 237457408 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:52144
+I0518 02:56:00.339949 155055552 NetServer.cpp:88] delete io...127.0.0.1:52144
+W0518 02:56:00.340782 237457408 ServerMgr.cpp:67] remove one proxy server, id: 30
+W0518 02:56:00.340838 237457408 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0518 02:56:00.340870 237457408 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0518 02:56:01.816475 155055552 NetModule.cpp:723] ready reconnect server, server id: 993
+W0518 02:56:01.816567 155055552 NetModule.cpp:723] ready reconnect server, server id: 993
+I0518 02:56:01.816614 155055552 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0518 02:56:01.816627 155055552 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0518 02:56:01.819388 237457408 GameServerThread.cpp:113] connect to db server succ!
+I0518 02:56:01.819422 237457408 GameServerThread.cpp:109] connect to center server succ!
+W0518 02:56:01.862555 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500016
+W0518 02:56:01.863713 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500017
+W0518 02:56:01.863749 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500018
+W0518 02:56:01.863776 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500019
+W0518 02:56:01.863811 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500020
+W0518 02:56:01.863858 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500022
+I0518 02:56:03.831843 155055552 NetServer.cpp:55] accept io...127.0.0.1:52165
+I0518 02:56:03.833886 237457408 GameServerThread.cpp:146] bind one connect: 127.0.0.1:52165
+I0518 02:56:03.839588 237457408 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:52165
+I0518 04:56:10.345674 155055552 NetServer.cpp:88] delete io...127.0.0.1:52165
+W0518 04:56:10.348054 237457408 ServerMgr.cpp:67] remove one proxy server, id: 30
+W0518 04:56:10.348094 237457408 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0518 04:56:10.348124 237457408 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0518 04:56:11.828840 155055552 NetModule.cpp:723] ready reconnect server, server id: 993
+W0518 04:56:11.829018 155055552 NetModule.cpp:723] ready reconnect server, server id: 993
+I0518 04:56:11.829113 155055552 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0518 04:56:11.829157 155055552 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0518 04:56:11.831691 237457408 GameServerThread.cpp:113] connect to db server succ!
+I0518 04:56:11.831743 237457408 GameServerThread.cpp:109] connect to center server succ!
+W0518 04:56:11.857910 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500016
+W0518 04:56:11.858013 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500017
+W0518 04:56:11.858067 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500018
+W0518 04:56:11.858089 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500019
+W0518 04:56:11.858130 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500020
+W0518 04:56:11.858150 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500022
+I0518 04:56:13.845526 155055552 NetServer.cpp:55] accept io...127.0.0.1:52176
+I0518 04:56:13.847483 237457408 GameServerThread.cpp:146] bind one connect: 127.0.0.1:52176
+I0518 04:56:13.871022 237457408 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:52176
+I0518 06:56:38.334741 155055552 NetServer.cpp:88] delete io...127.0.0.1:52176
+W0518 06:56:38.335405 237457408 ServerMgr.cpp:67] remove one proxy server, id: 30
+W0518 06:56:38.335449 237457408 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0518 06:56:38.335507 237457408 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0518 06:56:39.817430 155055552 NetModule.cpp:723] ready reconnect server, server id: 993
+W0518 06:56:39.817646 155055552 NetModule.cpp:723] ready reconnect server, server id: 993
+I0518 06:56:39.817754 155055552 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0518 06:56:39.817778 155055552 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0518 06:56:39.820497 237457408 GameServerThread.cpp:113] connect to db server succ!
+I0518 06:56:39.820611 237457408 GameServerThread.cpp:109] connect to center server succ!
+W0518 06:56:39.860697 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500016
+W0518 06:56:39.860808 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500017
+W0518 06:56:39.860841 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500018
+W0518 06:56:39.860869 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500019
+W0518 06:56:39.860896 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500020
+W0518 06:56:39.860922 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500022
+I0518 06:56:41.836277 155055552 NetServer.cpp:55] accept io...127.0.0.1:52191
+I0518 06:56:41.836441 237457408 GameServerThread.cpp:146] bind one connect: 127.0.0.1:52191
+I0518 06:56:41.847522 237457408 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:52191
+I0518 08:56:48.416007 155055552 NetServer.cpp:88] delete io...127.0.0.1:52191
+W0518 08:56:48.416723 237457408 ServerMgr.cpp:67] remove one proxy server, id: 30
+W0518 08:56:48.416757 237457408 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0518 08:56:48.416776 237457408 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0518 08:56:49.897665 155055552 NetModule.cpp:723] ready reconnect server, server id: 993
+W0518 08:56:49.897816 155055552 NetModule.cpp:723] ready reconnect server, server id: 993
+I0518 08:56:49.897903 155055552 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0518 08:56:49.897943 155055552 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0518 08:56:49.900899 237457408 GameServerThread.cpp:113] connect to db server succ!
+I0518 08:56:49.900951 237457408 GameServerThread.cpp:109] connect to center server succ!
+W0518 08:56:49.920120 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500016
+W0518 08:56:49.920193 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500017
+W0518 08:56:49.920219 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500018
+W0518 08:56:49.920241 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500019
+W0518 08:56:49.920262 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500020
+W0518 08:56:49.920282 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500022
+I0518 08:56:51.903026 155055552 NetServer.cpp:55] accept io...127.0.0.1:52207
+I0518 08:56:51.904140 237457408 GameServerThread.cpp:146] bind one connect: 127.0.0.1:52207
+I0518 08:56:51.930483 237457408 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:52207
+I0518 10:22:10.479640 155055552 NetServer.cpp:88] delete io...127.0.0.1:52207
+W0518 10:22:10.479671 237457408 ServerMgr.cpp:67] remove one proxy server, id: 30
+W0518 10:22:10.480093 237457408 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0518 10:22:10.480127 237457408 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0518 10:22:11.957424 155055552 NetModule.cpp:723] ready reconnect server, server id: 993
+W0518 10:22:11.957551 155055552 NetModule.cpp:723] ready reconnect server, server id: 993
+I0518 10:22:11.957604 155055552 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0518 10:22:11.957617 155055552 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0518 10:22:11.959440 237457408 GameServerThread.cpp:113] connect to db server succ!
+I0518 10:22:11.959465 237457408 GameServerThread.cpp:109] connect to center server succ!
+W0518 10:22:11.997102 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500016
+W0518 10:22:11.997148 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500017
+W0518 10:22:11.997166 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500018
+W0518 10:22:11.997180 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500019
+W0518 10:22:11.997195 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500020
+W0518 10:22:11.997210 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500022
+I0518 10:22:13.964329 155055552 NetServer.cpp:55] accept io...127.0.0.1:52338
+I0518 10:22:13.965778 237457408 GameServerThread.cpp:146] bind one connect: 127.0.0.1:52338
+I0518 10:22:13.975528 237457408 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:52338
+W0518 10:39:23.618161 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500016
+W0518 10:39:23.618274 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500017
+W0518 10:39:23.618304 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500018
+W0518 10:39:23.618327 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500019
+W0518 10:39:23.618350 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500020
+W0518 10:39:23.618381 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500022
+I0519 00:20:44.696386 155055552 NetServer.cpp:88] delete io...127.0.0.1:52338
+W0519 00:20:44.698422 237457408 ServerMgr.cpp:67] remove one proxy server, id: 30
+W0519 00:20:44.703670 237457408 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0519 00:20:44.703724 237457408 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0519 00:20:46.179539 155055552 NetModule.cpp:723] ready reconnect server, server id: 993
+W0519 00:20:46.179816 155055552 NetModule.cpp:723] ready reconnect server, server id: 993
+I0519 00:20:46.179901 155055552 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0519 00:20:46.179925 155055552 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0519 00:20:46.182298 237457408 GameServerThread.cpp:113] connect to db server succ!
+I0519 00:20:46.182371 237457408 GameServerThread.cpp:109] connect to center server succ!
+W0519 00:20:46.221650 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500016
+W0519 00:20:46.232015 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500017
+W0519 00:20:46.232074 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500018
+W0519 00:20:46.232110 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500019
+W0519 00:20:46.232143 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500020
+W0519 00:20:46.232177 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500021
+W0519 00:20:46.232209 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500022
+W0519 00:20:46.232242 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500023
+I0519 00:20:48.194198 155055552 NetServer.cpp:55] accept io...127.0.0.1:60691
+I0519 00:20:48.195745 237457408 GameServerThread.cpp:146] bind one connect: 127.0.0.1:60691
+I0519 00:20:48.219395 237457408 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:60691
+I0519 02:21:08.164289 155055552 NetServer.cpp:88] delete io...127.0.0.1:60691
+W0519 02:21:08.176290 237457408 ServerMgr.cpp:67] remove one proxy server, id: 30
+W0519 02:21:08.198132 237457408 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0519 02:21:08.200312 237457408 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0519 02:21:09.646023 155055552 NetModule.cpp:723] ready reconnect server, server id: 993
+W0519 02:21:09.649190 155055552 NetModule.cpp:723] ready reconnect server, server id: 993
+I0519 02:21:09.681288 155055552 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0519 02:21:09.681318 155055552 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0519 02:21:09.682528 237457408 GameServerThread.cpp:113] connect to db server succ!
+I0519 02:21:09.682765 237457408 GameServerThread.cpp:109] connect to center server succ!
+W0519 02:21:09.729876 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500016
+W0519 02:21:09.729918 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500017
+W0519 02:21:09.729933 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500018
+W0519 02:21:09.729948 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500019
+W0519 02:21:09.729959 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500020
+W0519 02:21:09.729972 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500021
+W0519 02:21:09.729985 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500022
+W0519 02:21:09.730003 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500023
+I0519 02:21:11.636018 155055552 NetServer.cpp:55] accept io...127.0.0.1:60732
+I0519 02:21:11.638324 237457408 GameServerThread.cpp:146] bind one connect: 127.0.0.1:60732
+I0519 02:21:11.655841 237457408 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:60732
+I0519 04:21:29.916949 155055552 NetServer.cpp:88] delete io...127.0.0.1:60732
+W0519 04:21:29.941489 237457408 ServerMgr.cpp:67] remove one proxy server, id: 30
+W0519 04:21:29.953080 237457408 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0519 04:21:29.991993 237457408 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0519 04:21:31.405395 155055552 NetModule.cpp:723] ready reconnect server, server id: 993
+W0519 04:21:31.405740 155055552 NetModule.cpp:723] ready reconnect server, server id: 993
+I0519 04:21:31.405869 155055552 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0519 04:21:31.405882 237457408 GameServerThread.cpp:113] connect to db server succ!
+I0519 04:21:31.405902 155055552 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0519 04:21:31.407763 237457408 GameServerThread.cpp:109] connect to center server succ!
+W0519 04:21:31.448602 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500016
+W0519 04:21:31.448688 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500017
+W0519 04:21:31.448724 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500018
+W0519 04:21:31.448752 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500019
+W0519 04:21:31.448782 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500020
+W0519 04:21:31.448809 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500021
+W0519 04:21:31.448837 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500022
+W0519 04:21:31.448865 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500023
+I0519 04:21:33.428823 155055552 NetServer.cpp:55] accept io...127.0.0.1:60864
+I0519 04:21:33.428975 237457408 GameServerThread.cpp:146] bind one connect: 127.0.0.1:60864
+I0519 04:21:33.446362 237457408 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:60864
+W0519 06:21:41.776832 237457408 ServerMgr.cpp:67] remove one proxy server, id: 30
+I0519 06:21:41.787168 155055552 NetServer.cpp:88] delete io...127.0.0.1:60864
+W0519 06:21:41.798898 237457408 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0519 06:21:41.813910 237457408 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0519 06:21:43.264904 155055552 NetModule.cpp:723] ready reconnect server, server id: 993
+W0519 06:21:43.266098 155055552 NetModule.cpp:723] ready reconnect server, server id: 993
+I0519 06:21:43.266273 155055552 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0519 06:21:43.266341 155055552 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0519 06:21:43.268400 237457408 GameServerThread.cpp:113] connect to db server succ!
+I0519 06:21:43.268651 237457408 GameServerThread.cpp:109] connect to center server succ!
+W0519 06:21:43.303182 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500016
+W0519 06:21:43.303282 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500017
+W0519 06:21:43.303318 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500018
+W0519 06:21:43.303349 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500019
+W0519 06:21:43.303376 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500020
+W0519 06:21:43.303454 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500021
+W0519 06:21:43.303481 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500022
+W0519 06:21:43.303503 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500023
+I0519 06:21:45.277247 155055552 NetServer.cpp:55] accept io...127.0.0.1:60914
+I0519 06:21:45.279515 237457408 GameServerThread.cpp:146] bind one connect: 127.0.0.1:60914
+I0519 06:21:45.279556 237457408 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:60914
+I0519 08:21:54.779243 155055552 NetServer.cpp:88] delete io...127.0.0.1:60914
+W0519 08:21:54.779381 237457408 ServerMgr.cpp:67] remove one proxy server, id: 30
+W0519 08:21:54.784723 237457408 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0519 08:21:54.841415 237457408 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0519 08:21:56.276577 155055552 NetModule.cpp:723] ready reconnect server, server id: 993
+W0519 08:21:56.276844 155055552 NetModule.cpp:723] ready reconnect server, server id: 993
+I0519 08:21:56.276934 155055552 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0519 08:21:56.276957 155055552 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0519 08:21:56.276998 237457408 GameServerThread.cpp:113] connect to db server succ!
+I0519 08:21:56.277045 237457408 GameServerThread.cpp:109] connect to center server succ!
+W0519 08:21:56.325598 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500016
+W0519 08:21:56.325687 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500017
+W0519 08:21:56.325722 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500018
+W0519 08:21:56.325753 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500019
+W0519 08:21:56.325783 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500020
+W0519 08:21:56.325810 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500021
+W0519 08:21:56.325882 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500022
+W0519 08:21:56.325925 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500023
+I0519 08:21:58.296751 155055552 NetServer.cpp:55] accept io...127.0.0.1:60973
+I0519 08:21:58.298022 237457408 GameServerThread.cpp:146] bind one connect: 127.0.0.1:60973
+I0519 08:21:58.321736 237457408 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:60973
+W0519 08:45:05.889544 237457408 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0519 08:45:05.898933 237457408 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0519 08:45:05.899050 237457408 ServerMgr.cpp:67] remove one proxy server, id: 30
+I0519 08:45:05.931484 155055552 NetServer.cpp:88] delete io...127.0.0.1:60973
+W0519 08:45:07.364395 155055552 NetModule.cpp:723] ready reconnect server, server id: 993
+W0519 08:45:07.364703 155055552 NetModule.cpp:723] ready reconnect server, server id: 993
+I0519 08:45:07.364846 155055552 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0519 08:45:07.364879 155055552 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0519 08:45:07.366225 237457408 GameServerThread.cpp:113] connect to db server succ!
+I0519 08:45:07.366359 237457408 GameServerThread.cpp:109] connect to center server succ!
+W0519 08:45:07.399247 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500016
+W0519 08:45:07.399402 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500017
+W0519 08:45:07.399456 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500018
+W0519 08:45:07.399498 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500019
+W0519 08:45:07.399538 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500020
+W0519 08:45:07.399576 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500021
+W0519 08:45:07.399616 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500022
+W0519 08:45:07.399654 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500023
+I0519 08:45:09.298488 155055552 NetServer.cpp:55] accept io...127.0.0.1:61035
+I0519 08:45:09.300436 237457408 GameServerThread.cpp:146] bind one connect: 127.0.0.1:61035
+I0519 08:45:09.325830 237457408 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:61035
+I0519 10:21:36.668320 155055552 NetServer.cpp:88] delete io...127.0.0.1:61035
+W0519 10:21:36.670303 237457408 ServerMgr.cpp:67] remove one proxy server, id: 30
+W0519 10:21:36.670400 237457408 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0519 10:21:36.702692 237457408 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0519 10:21:38.160128 155055552 NetModule.cpp:723] ready reconnect server, server id: 993
+W0519 10:21:38.161119 155055552 NetModule.cpp:723] ready reconnect server, server id: 993
+I0519 10:21:38.161216 155055552 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0519 10:21:38.161240 155055552 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0519 10:21:38.163769 237457408 GameServerThread.cpp:113] connect to db server succ!
+I0519 10:21:38.163914 237457408 GameServerThread.cpp:109] connect to center server succ!
+W0519 10:21:38.212049 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500016
+W0519 10:21:38.212172 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500017
+W0519 10:21:38.212205 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500018
+W0519 10:21:38.212234 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500019
+W0519 10:21:38.212260 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500020
+W0519 10:21:38.212287 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500021
+W0519 10:21:38.212314 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500022
+W0519 10:21:38.212342 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500023
+I0519 10:21:40.167155 155055552 NetServer.cpp:55] accept io...127.0.0.1:61093
+I0519 10:21:40.169800 237457408 GameServerThread.cpp:146] bind one connect: 127.0.0.1:61093
+I0519 10:21:40.183991 237457408 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:61093
+I0519 23:45:01.722107 155055552 NetServer.cpp:88] delete io...127.0.0.1:61093
+W0519 23:45:01.722921 237457408 ServerMgr.cpp:67] remove one proxy server, id: 30
+W0519 23:45:01.722957 237457408 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0519 23:45:01.722980 237457408 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0519 23:45:03.214684 155055552 NetModule.cpp:723] ready reconnect server, server id: 993
+W0519 23:45:03.215857 155055552 NetModule.cpp:723] ready reconnect server, server id: 993
+I0519 23:45:03.215958 155055552 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0519 23:45:03.215982 155055552 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0519 23:45:03.216550 237457408 GameServerThread.cpp:113] connect to db server succ!
+I0519 23:45:03.216614 237457408 GameServerThread.cpp:109] connect to center server succ!
+W0519 23:45:03.243815 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500016
+W0519 23:45:03.243906 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500017
+W0519 23:45:03.243934 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500018
+W0519 23:45:03.243958 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500019
+W0519 23:45:03.243983 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500020
+W0519 23:45:03.244005 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500021
+W0519 23:45:03.244029 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500022
+W0519 23:45:03.244052 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500023
+W0520 10:13:13.803278 237457408 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0520 10:13:13.803917 237457408 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+I0520 10:13:14.042095 155055552 NetServer.cpp:55] accept io...127.0.0.1:61169
+I0520 10:13:14.042287 237457408 GameServerThread.cpp:146] bind one connect: 127.0.0.1:61169
+I0520 10:13:14.073340 237457408 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:61169
+W0520 10:13:15.178055 155055552 NetModule.cpp:723] ready reconnect server, server id: 993
+W0520 10:13:15.178638 155055552 NetModule.cpp:723] ready reconnect server, server id: 993
+I0520 10:13:15.178696 155055552 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0520 10:13:15.178709 155055552 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0520 10:13:15.179991 237457408 GameServerThread.cpp:113] connect to db server succ!
+I0520 10:13:15.180395 237457408 GameServerThread.cpp:109] connect to center server succ!
+W0520 10:13:15.209704 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500016
+W0520 10:13:15.248076 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500017
+W0520 10:13:15.248117 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500018
+W0520 10:13:15.248142 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500019
+W0520 10:13:15.248163 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500020
+W0520 10:13:15.248186 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500021
+W0520 10:13:15.248208 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500022
+W0520 10:13:15.248227 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500023
+I0520 22:08:14.128183 155055552 NetServer.cpp:88] delete io...127.0.0.1:61169
+W0520 22:08:14.129406 237457408 ServerMgr.cpp:67] remove one proxy server, id: 30
+W0520 22:08:14.135113 237457408 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0520 22:08:14.135143 237457408 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0520 22:08:15.620559 155055552 NetModule.cpp:723] ready reconnect server, server id: 993
+W0520 22:08:15.620908 155055552 NetModule.cpp:723] ready reconnect server, server id: 993
+I0520 22:08:15.621074 155055552 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0520 22:08:15.621114 155055552 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0520 22:08:15.623425 237457408 GameServerThread.cpp:113] connect to db server succ!
+I0520 22:08:15.623551 237457408 GameServerThread.cpp:109] connect to center server succ!
+W0520 22:08:15.671854 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500016
+W0520 22:08:15.671981 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500017
+W0520 22:08:15.672032 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500018
+W0520 22:08:15.672075 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500019
+W0520 22:08:15.672114 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500020
+W0520 22:08:15.672155 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500021
+W0520 22:08:15.672195 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500022
+W0520 22:08:15.672237 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500023
+I0520 22:08:17.630882 155055552 NetServer.cpp:55] accept io...127.0.0.1:54306
+I0520 22:08:17.632664 237457408 GameServerThread.cpp:146] bind one connect: 127.0.0.1:54306
+I0520 22:08:17.635773 237457408 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:54306
+I0520 23:00:05.155234 155055552 NetServer.cpp:88] delete io...127.0.0.1:54306
+W0520 23:00:05.156639 237457408 ServerMgr.cpp:67] remove one proxy server, id: 30
+W0520 23:00:05.165669 237457408 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0520 23:00:05.165729 237457408 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0520 23:00:06.642892 155055552 NetModule.cpp:723] ready reconnect server, server id: 993
+W0520 23:00:06.643184 155055552 NetModule.cpp:723] ready reconnect server, server id: 993
+I0520 23:00:06.643306 155055552 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0520 23:00:06.643339 155055552 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0520 23:00:06.645021 237457408 GameServerThread.cpp:113] connect to db server succ!
+I0520 23:00:06.645139 237457408 GameServerThread.cpp:109] connect to center server succ!
+W0520 23:00:06.688812 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500016
+W0520 23:00:06.688944 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500017
+W0520 23:00:06.688997 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500018
+W0520 23:00:06.689041 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500019
+W0520 23:00:06.689083 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500020
+W0520 23:00:06.689177 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500021
+W0520 23:00:06.689215 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500022
+W0520 23:00:06.689254 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500023
+I0520 23:00:08.661394 155055552 NetServer.cpp:55] accept io...127.0.0.1:54410
+I0520 23:00:08.662577 237457408 GameServerThread.cpp:146] bind one connect: 127.0.0.1:54410
+I0520 23:00:08.674794 237457408 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:54410
+I0521 01:00:12.694638 155055552 NetServer.cpp:88] delete io...127.0.0.1:54410
+W0521 01:00:12.695767 237457408 ServerMgr.cpp:67] remove one proxy server, id: 30
+W0521 01:00:12.699367 237457408 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0521 01:00:12.715919 237457408 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0521 01:00:14.173036 155055552 NetModule.cpp:723] ready reconnect server, server id: 993
+W0521 01:00:14.174228 155055552 NetModule.cpp:723] ready reconnect server, server id: 993
+I0521 01:00:14.174319 155055552 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0521 01:00:14.174342 155055552 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0521 01:00:14.174811 237457408 GameServerThread.cpp:113] connect to db server succ!
+I0521 01:00:14.175230 237457408 GameServerThread.cpp:109] connect to center server succ!
+W0521 01:00:14.198204 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500016
+W0521 01:00:14.198266 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500017
+W0521 01:00:14.198293 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500018
+W0521 01:00:14.198318 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500019
+W0521 01:00:14.198341 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500020
+W0521 01:00:14.198364 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500021
+W0521 01:00:14.198385 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500022
+W0521 01:00:14.198426 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500023
+I0521 01:00:16.212421 155055552 NetServer.cpp:55] accept io...127.0.0.1:54461
+I0521 01:00:16.215340 237457408 GameServerThread.cpp:146] bind one connect: 127.0.0.1:54461
+I0521 01:00:16.242419 237457408 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:54461
+I0521 03:00:26.470860 155055552 NetServer.cpp:88] delete io...127.0.0.1:54461
+W0521 03:00:26.539476 237457408 ServerMgr.cpp:67] remove one proxy server, id: 30
+W0521 03:00:26.583384 237457408 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0521 03:00:26.589784 237457408 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0521 03:00:27.923053 155055552 NetModule.cpp:723] ready reconnect server, server id: 993
+W0521 03:00:27.924657 155055552 NetModule.cpp:723] ready reconnect server, server id: 993
+I0521 03:00:27.924768 155055552 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0521 03:00:27.924793 155055552 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0521 03:00:27.927670 237457408 GameServerThread.cpp:113] connect to db server succ!
+I0521 03:00:27.929273 237457408 GameServerThread.cpp:109] connect to center server succ!
+W0521 03:00:27.970187 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500016
+W0521 03:00:27.970278 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500017
+W0521 03:00:27.970335 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500018
+W0521 03:00:27.970358 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500019
+W0521 03:00:27.970381 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500020
+W0521 03:00:27.970402 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500021
+W0521 03:00:27.970427 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500022
+W0521 03:00:27.970448 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500023
+I0521 03:00:29.938400 155055552 NetServer.cpp:55] accept io...127.0.0.1:54548
+I0521 03:00:29.940327 237457408 GameServerThread.cpp:146] bind one connect: 127.0.0.1:54548
+I0521 03:00:29.963150 237457408 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:54548
+I0521 05:00:40.275645 155055552 NetServer.cpp:88] delete io...127.0.0.1:54548
+W0521 05:00:40.276170 237457408 ServerMgr.cpp:67] remove one proxy server, id: 30
+W0521 05:00:40.279834 237457408 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0521 05:00:40.285533 237457408 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0521 05:00:41.761018 155055552 NetModule.cpp:723] ready reconnect server, server id: 993
+W0521 05:00:41.761360 155055552 NetModule.cpp:723] ready reconnect server, server id: 993
+I0521 05:00:41.761507 155055552 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0521 05:00:41.761544 155055552 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0521 05:00:41.762826 237457408 GameServerThread.cpp:113] connect to db server succ!
+I0521 05:00:41.763018 237457408 GameServerThread.cpp:109] connect to center server succ!
+W0521 05:00:41.822190 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500016
+W0521 05:00:41.822325 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500017
+W0521 05:00:41.822377 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500018
+W0521 05:00:41.822441 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500019
+W0521 05:00:41.822481 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500020
+W0521 05:00:41.822525 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500021
+W0521 05:00:41.822564 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500022
+W0521 05:00:41.822607 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500023
+I0521 05:00:43.784165 155055552 NetServer.cpp:55] accept io...127.0.0.1:54623
+I0521 05:00:43.785687 237457408 GameServerThread.cpp:146] bind one connect: 127.0.0.1:54623
+I0521 05:00:43.790825 237457408 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:54623
+I0521 07:00:54.319538 155055552 NetServer.cpp:88] delete io...127.0.0.1:54623
+W0521 07:00:54.320318 237457408 ServerMgr.cpp:67] remove one proxy server, id: 30
+W0521 07:00:54.324226 237457408 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0521 07:00:54.325731 237457408 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0521 07:00:55.821367 155055552 NetModule.cpp:723] ready reconnect server, server id: 993
+W0521 07:00:55.821528 155055552 NetModule.cpp:723] ready reconnect server, server id: 993
+I0521 07:00:55.821599 155055552 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0521 07:00:55.821620 155055552 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0521 07:00:55.823598 237457408 GameServerThread.cpp:113] connect to db server succ!
+I0521 07:00:55.824404 237457408 GameServerThread.cpp:109] connect to center server succ!
+W0521 07:00:55.835882 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500016
+W0521 07:00:55.835983 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500017
+W0521 07:00:55.836014 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500018
+W0521 07:00:55.836038 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500019
+W0521 07:00:55.836061 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500020
+W0521 07:00:55.836083 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500021
+W0521 07:00:55.836107 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500022
+W0521 07:00:55.836129 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500023
+I0521 07:00:57.833039 155055552 NetServer.cpp:55] accept io...127.0.0.1:54689
+I0521 07:00:57.835948 237457408 GameServerThread.cpp:146] bind one connect: 127.0.0.1:54689
+I0521 07:00:57.854737 237457408 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:54689
+I0521 08:09:18.272680 155055552 NetServer.cpp:88] delete io...127.0.0.1:54689
+W0521 08:09:18.272927 237457408 ServerMgr.cpp:67] remove one proxy server, id: 30
+W0521 08:09:18.312288 237457408 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0521 08:09:18.312717 237457408 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0521 08:09:19.762866 155055552 NetModule.cpp:723] ready reconnect server, server id: 993
+W0521 08:09:19.764585 155055552 NetModule.cpp:723] ready reconnect server, server id: 993
+I0521 08:09:19.764685 155055552 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0521 08:09:19.764709 155055552 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0521 08:09:19.766201 237457408 GameServerThread.cpp:113] connect to db server succ!
+I0521 08:09:19.766304 237457408 GameServerThread.cpp:109] connect to center server succ!
+W0521 08:09:19.808660 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500016
+W0521 08:09:19.808790 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500017
+W0521 08:09:19.808827 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500018
+W0521 08:09:19.808856 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500019
+W0521 08:09:19.808883 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500020
+W0521 08:09:19.808909 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500021
+W0521 08:09:19.808936 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500022
+W0521 08:09:19.808962 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500023
+I0521 08:09:21.767067 155055552 NetServer.cpp:55] accept io...127.0.0.1:54749
+I0521 08:09:21.769557 237457408 GameServerThread.cpp:146] bind one connect: 127.0.0.1:54749
+I0521 08:09:21.783824 237457408 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:54749
+I0521 08:30:05.350654 155055552 NetServer.cpp:88] delete io...127.0.0.1:54749
+W0521 08:30:05.354266 237457408 ServerMgr.cpp:67] remove one proxy server, id: 30
+W0521 08:30:05.393273 237457408 GameServerThread.cpp:131] center server is disconnect, after 1s will be reconnect!
+W0521 08:30:05.393796 237457408 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0521 08:30:06.815829 155055552 NetModule.cpp:723] ready reconnect server, server id: 993
+W0521 08:30:06.816951 155055552 NetModule.cpp:723] ready reconnect server, server id: 993
+I0521 08:30:06.817090 155055552 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0521 08:30:06.817114 155055552 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0521 08:30:06.817514 237457408 GameServerThread.cpp:113] connect to db server succ!
+I0521 08:30:06.817585 237457408 GameServerThread.cpp:109] connect to center server succ!
+W0521 08:30:06.843914 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500016
+W0521 08:30:06.844048 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500017
+W0521 08:30:06.844108 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500018
+W0521 08:30:06.844166 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500019
+W0521 08:30:06.844216 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500020
+W0521 08:30:06.844278 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500021
+W0521 08:30:06.844327 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500022
+W0521 08:30:06.844379 237457408 GroupMgr.cpp:19] insert group repeat? group id: 500023
+I0521 10:06:23.732726 155055552 NetServer.cpp:55] accept io...127.0.0.1:54806

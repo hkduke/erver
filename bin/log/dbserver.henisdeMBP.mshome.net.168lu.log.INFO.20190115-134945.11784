@@ -1,0 +1,85 @@
+Log file created at: 2019/01/15 13:49:45
+Running on machine: henisdeMBP.mshome.net
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0115 13:49:45.045037 304235968 DBBufferServer.cpp:55] 正在启动DB服务器...
+I0115 13:49:45.047379 304235968 DBBufferServer.cpp:31] start build db thread...
+W0115 13:49:45.047433 105091072 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+I0115 13:49:45.048935 304235968 NetModule.h:71] Init NetModule Finished.
+I0115 13:49:55.064108 304235968 NetModule.h:78] start work thread 0...
+I0115 13:49:55.277789 304235968 NetModule.h:78] start work thread 1...
+I0115 13:49:55.491098 304235968 NetModule.h:78] start work thread 2...
+I0115 13:49:55.703917 304235968 NetModule.h:78] start work thread 3...
+I0115 13:49:55.703946 304235968 NetModule.cpp:69] Start Run NetModule...
+I0115 13:49:55.703995 304235968 NetModule.cpp:88] NetModule Already Startover.
+I0115 13:49:55.704003 304235968 NetModule.cpp:136] Create one server...
+I0115 13:49:56.823837 304235968 NetServer.cpp:55] accept io...127.0.0.1:49608
+I0115 13:49:56.824574 105627648 DBThread.cpp:104] bind one connect: 127.0.0.1:49608
+I0115 13:49:56.842008 304235968 NetServer.cpp:55] accept io...127.0.0.1:49610
+W0115 13:49:57.566381 105627648 DBThread.cpp:209] main db server set time ok!
+I0115 13:49:57.566437 105627648 DBThread.cpp:234] init db server succ!
+I0115 13:49:57.566447 105627648 DBThread.cpp:104] bind one connect: 127.0.0.1:49610
+I0115 13:49:59.026367 304235968 NetServer.cpp:55] accept io...127.0.0.1:49621
+I0115 13:50:26.855381 105627648 DBThread.cpp:104] bind one connect: 127.0.0.1:49621
+W0115 13:52:11.441823 106164224 DBThread.cpp:6917] get record db handle fail.
+W0115 13:52:22.844149 106164224 DBThread.cpp:6623] get record db handle fail.
+I0115 14:09:34.960137 304235968 NetServer.cpp:88] delete io...127.0.0.1:49610
+I0115 14:09:39.122040 304235968 NetServer.cpp:55] accept io...127.0.0.1:54508
+I0115 14:09:39.122695 105627648 DBThread.cpp:104] bind one connect: 127.0.0.1:54508
+I0115 14:14:44.027830 304235968 NetServer.cpp:88] delete io...127.0.0.1:54508
+I0115 14:14:48.014156 304235968 NetServer.cpp:55] accept io...127.0.0.1:55791
+I0115 14:14:48.015615 105627648 DBThread.cpp:104] bind one connect: 127.0.0.1:55791
+I0115 14:24:54.063194 304235968 NetServer.cpp:88] delete io...127.0.0.1:55791
+I0115 14:24:58.522152 304235968 NetServer.cpp:55] accept io...127.0.0.1:58329
+I0115 14:24:59.297785 105627648 DBThread.cpp:104] bind one connect: 127.0.0.1:58329
+I0115 14:25:43.756070 304235968 NetServer.cpp:88] delete io...127.0.0.1:58329
+I0115 14:25:48.694602 304235968 NetServer.cpp:55] accept io...127.0.0.1:58543
+I0115 14:25:48.696389 105627648 DBThread.cpp:104] bind one connect: 127.0.0.1:58543
+I0115 14:27:01.916267 304235968 NetServer.cpp:88] delete io...127.0.0.1:58543
+I0115 14:27:36.246722 304235968 NetServer.cpp:55] accept io...127.0.0.1:58992
+I0115 14:27:36.248282 105627648 DBThread.cpp:104] bind one connect: 127.0.0.1:58992
+I0115 14:35:27.322736 304235968 NetServer.cpp:88] delete io...127.0.0.1:58992
+I0115 14:35:32.707031 304235968 NetServer.cpp:55] accept io...127.0.0.1:60977
+W0115 14:36:23.843447 105627648 DBThread.cpp:2733] insert stat_machine_online fail,machine types: 2, statValue:0, error no: -1, error msg: mysql not opened yet!
+I0115 14:36:25.654850 105627648 DBThread.cpp:104] bind one connect: 127.0.0.1:60977
+W0115 14:38:35.374464 107237376 DBThread.cpp:6925] update score change info fail. errno: -1, error: mysql not opened yet!
+I0115 14:38:57.632072 304235968 NetServer.cpp:88] delete io...127.0.0.1:60977
+I0115 14:39:01.735491 304235968 NetServer.cpp:55] accept io...127.0.0.1:61856
+I0115 14:39:01.736214 105627648 DBThread.cpp:104] bind one connect: 127.0.0.1:61856
+I0115 14:40:16.291695 304235968 NetServer.cpp:88] delete io...127.0.0.1:61856
+I0115 14:44:22.391773 304235968 NetServer.cpp:55] accept io...127.0.0.1:63187
+I0115 14:44:22.393757 105627648 DBThread.cpp:104] bind one connect: 127.0.0.1:63187
+I0115 14:44:25.150055 304235968 NetServer.cpp:88] delete io...127.0.0.1:63187
+I0115 14:44:33.085001 304235968 NetServer.cpp:55] accept io...127.0.0.1:63240
+I0115 14:44:33.086796 105627648 DBThread.cpp:104] bind one connect: 127.0.0.1:63240
+I0115 14:45:05.085517 304235968 NetServer.cpp:88] delete io...127.0.0.1:63240
+I0115 14:45:13.678438 304235968 NetServer.cpp:55] accept io...127.0.0.1:63418
+I0115 14:45:13.679504 105627648 DBThread.cpp:104] bind one connect: 127.0.0.1:63418
+I0115 14:46:16.068087 304235968 NetServer.cpp:88] delete io...127.0.0.1:63418
+I0115 14:47:52.455768 304235968 NetServer.cpp:55] accept io...127.0.0.1:64074
+I0115 14:47:52.457499 105627648 DBThread.cpp:104] bind one connect: 127.0.0.1:64074
+W0115 14:49:49.449360 105091072 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+I0115 14:51:24.399196 304235968 NetServer.cpp:88] delete io...127.0.0.1:64074
+I0115 14:51:29.514046 304235968 NetServer.cpp:55] accept io...127.0.0.1:64984
+I0115 14:51:29.514320 105627648 DBThread.cpp:104] bind one connect: 127.0.0.1:64984
+I0115 14:52:42.377606 304235968 NetServer.cpp:88] delete io...127.0.0.1:64984
+I0115 14:52:57.088794 304235968 NetServer.cpp:55] accept io...127.0.0.1:65352
+I0115 14:52:57.089793 105627648 DBThread.cpp:104] bind one connect: 127.0.0.1:65352
+I0115 14:57:48.290289 304235968 NetServer.cpp:88] delete io...127.0.0.1:65352
+I0115 14:57:52.045797 304235968 NetServer.cpp:55] accept io...127.0.0.1:50199
+I0115 14:57:52.048245 105627648 DBThread.cpp:104] bind one connect: 127.0.0.1:50199
+I0115 14:57:53.380820 304235968 NetServer.cpp:88] delete io...127.0.0.1:50199
+I0115 14:57:59.839700 304235968 NetServer.cpp:55] accept io...127.0.0.1:50236
+I0115 14:57:59.839748 105627648 DBThread.cpp:104] bind one connect: 127.0.0.1:50236
+W0115 15:00:37.711535 106700800 DBThread.cpp:4633] INSERT wealth_god_data fail, errno: 1062, error: Duplicate entry '6-1-2-363' for key 'PRIMARY'
+I0115 15:02:41.939642 304235968 NetServer.cpp:88] delete io...127.0.0.1:50236
+I0115 15:02:53.133126 304235968 NetServer.cpp:55] accept io...127.0.0.1:51454
+I0115 15:02:53.135155 105627648 DBThread.cpp:104] bind one connect: 127.0.0.1:51454
+I0115 15:12:16.245718 304235968 NetServer.cpp:88] delete io...127.0.0.1:51454
+I0115 15:12:27.990053 304235968 NetServer.cpp:55] accept io...127.0.0.1:53847
+I0115 15:12:27.992177 105627648 DBThread.cpp:104] bind one connect: 127.0.0.1:53847
+I0115 15:13:24.637253 304235968 NetServer.cpp:88] delete io...127.0.0.1:53847
+I0115 15:13:58.981380 304235968 NetServer.cpp:55] accept io...127.0.0.1:54235
+I0115 15:13:58.983232 105627648 DBThread.cpp:104] bind one connect: 127.0.0.1:54235
+W0115 15:17:00.068754 107237376 DBThread.cpp:7532] insert playback record fail, error = -1, error info: mysql not opened yet!, draw id: 45905214
+I0115 15:19:18.710801 304235968 NetServer.cpp:88] delete io...127.0.0.1:54235
+I0115 15:21:21.860915 304235968 NetServer.cpp:55] accept io...127.0.0.1:56073

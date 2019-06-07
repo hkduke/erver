@@ -1,0 +1,30 @@
+Log file created at: 2019/05/29 18:40:34
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0529 18:40:34.048588 113403328 GameServer.cpp:45] 正在启动游戏服务器...
+I0529 18:40:34.051023 113403328 NetModule.h:71] Init NetModule Finished.
+I0529 18:40:34.051250 113403328 NetModule.h:78] start work thread 0...
+I0529 18:40:34.051261 113403328 NetModule.cpp:69] Start Run NetModule...
+I0529 18:40:34.051277 113403328 NetModule.cpp:88] NetModule Already Startover.
+I0529 18:40:34.051290 113403328 NetModule.cpp:220] add one connector: 127.0.0.1:5001 succeed...
+I0529 18:40:34.051295 113403328 NetModule.cpp:220] add one connector: 127.0.0.1:6001 succeed...
+I0529 18:40:34.051301 113403328 NetModule.cpp:136] Create one server...
+I0529 18:40:34.552393 113403328 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0529 18:40:34.552443 113403328 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0529 18:40:34.554597 189296640 GameServerThread.cpp:113] connect to db server succ!
+I0529 18:40:36.670683 189296640 AndroidUserMgr.cpp:943] set active android count: 0
+I0529 18:40:36.670727 189296640 AndroidUserMgr.cpp:943] set active android count: 4
+I0529 18:40:36.947124 113403328 NetServer.cpp:55] accept io...127.0.0.1:53482
+I0529 18:40:37.303578 189296640 GameServerThread.cpp:1990] load benefit config succ!
+I0529 18:40:37.983048 189296640 GameServerThread.cpp:1910] load android parameter succ, android count : 30
+W0529 18:40:38.110288 189296640 GameTableManager.cpp:613] update br game server black list, server id: 10001
+I0529 18:40:38.110630 189296640 GameServerThread.cpp:1564] init server succ!
+I0529 18:40:38.110693 189296640 GameServerThread.cpp:146] bind one connect: 127.0.0.1:53482
+I0529 18:40:38.110705 189296640 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:53482
+W0529 18:40:59.368566 189296640 AndroidUserMgr.cpp:290] need android count: 4
+W0529 18:41:40.242242 189296640 AndroidUserMgr.cpp:290] need android count: 4
+W0529 18:41:43.314429 189296640 AndroidUserMgr.cpp:290] need android count: 4
+W0529 18:41:44.810155 189296640 AndroidUserMgr.cpp:290] need android count: 4
+W0529 18:41:46.338423 189296640 AndroidUserMgr.cpp:290] need android count: 4
+W0529 18:41:49.341070 189296640 AndroidUserMgr.cpp:290] need android count: 4
+I0529 18:42:21.523061 113403328 NetServer.cpp:88] delete io...127.0.0.1:53482

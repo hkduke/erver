@@ -1,0 +1,1276 @@
+Log file created at: 2019/04/05 15:38:41
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0405 15:38:41.835232 361432512 CenterServer.cpp:32] 正在启动中心服务器...
+I0405 15:38:41.838157 361432512 NetModule.h:71] Init NetModule Finished.
+I0405 15:38:41.838320 361432512 NetModule.h:78] start work thread 0...
+I0405 15:38:41.838335 361432512 NetModule.cpp:69] Start Run NetModule...
+I0405 15:38:41.838354 361432512 NetModule.cpp:88] NetModule Already Startover.
+I0405 15:38:41.838364 361432512 NetModule.cpp:220] add one connector: 0.0.0.0:6001 succeed...
+I0405 15:38:41.838371 361432512 NetModule.cpp:136] Create one server...
+I0405 15:38:42.159435 361432512 NetServer.cpp:55] accept io...127.0.0.1:54090
+I0405 15:38:42.178787 254099456 ServerMgr.cpp:187] register one game server: 127.0.0.1:54090
+I0405 15:38:42.339853 361432512 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0405 15:38:42.341557 254099456 CenterThread.cpp:92] connect to db server succ!
+I0405 15:38:43.976706 361432512 NetServer.cpp:55] accept io...127.0.0.1:54093
+I0405 15:38:43.988819 254099456 ServerMgr.cpp:54] register one proxy server: 127.0.0.1:54093
+I0405 15:38:45.529618 361432512 NetServer.cpp:88] delete io...127.0.0.1:54093
+W0405 15:38:45.530184 254099456 ServerMgr.cpp:889] remove one proxy server, id:30
+I0405 15:38:46.514575 361432512 NetServer.cpp:55] accept io...127.0.0.1:54094
+I0405 15:38:46.541222 254099456 ServerMgr.cpp:54] register one proxy server: 127.0.0.1:54094
+I0405 15:38:50.730682 361432512 NetServer.cpp:55] accept io...127.0.0.1:54098
+I0405 15:38:50.755147 254099456 ServerMgr.cpp:492] register one login server: 127.0.0.1:54098
+W0405 15:39:16.080878 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 15:39:17.323328 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 15:39:18.522294 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 15:39:19.740813 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 15:39:20.970059 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 15:39:22.195778 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 15:39:23.396869 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 15:39:24.628844 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 15:39:25.826367 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 15:39:27.047703 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 15:39:28.277863 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 15:39:29.507829 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 15:39:30.724231 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+I0405 15:39:34.052049 361432512 NetServer.cpp:88] delete io...127.0.0.1:54090
+W0405 15:39:34.053154 254099456 ServerMgr.cpp:850] remove one game server, id:993
+W0405 15:39:42.897975 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 32
+W0405 15:39:42.898135 254099456 DuoBaoMgr.cpp:175] load duo bao data finish.
+W0405 15:39:43.702065 254099456 ConfigOption.cpp:1009] set chat upload url: http://test.upload.lerengu.com
+I0405 15:39:56.217351 361432512 NetServer.cpp:55] accept io...127.0.0.1:54109
+I0405 15:39:57.369923 254099456 ServerMgr.cpp:187] register one game server: 127.0.0.1:54109
+W0405 15:40:14.146025 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 15:40:15.616402 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 15:40:15.617452 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 15:40:17.119124 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 15:40:17.121491 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 15:40:18.622460 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 15:40:18.624554 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 15:40:20.124907 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 15:40:20.126044 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 15:40:21.628105 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 15:40:21.630539 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 15:40:23.136267 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 15:40:23.137208 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 15:40:24.638973 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 15:40:24.640496 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 15:40:26.143069 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 15:40:26.144629 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 15:40:27.647296 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 15:40:27.649686 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 15:40:29.153836 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 15:40:29.156162 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 15:40:30.658825 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 15:40:30.660840 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 15:40:32.164376 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 15:40:32.166715 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 15:40:33.666206 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 15:40:33.668205 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 15:40:35.169625 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 15:40:35.170351 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 15:40:36.672828 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+I0405 15:40:36.672915 361432512 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0405 15:40:36.675021 254099456 CenterThread.cpp:92] connect to db server succ!
+W0405 15:40:43.928115 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 2
+W0405 15:40:43.928197 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 1
+W0405 15:40:43.928236 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 7
+W0405 15:40:43.928253 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 4
+W0405 15:40:43.928268 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 5
+W0405 15:40:43.928285 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 6
+W0405 15:40:43.928301 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 29
+W0405 15:40:43.928318 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 3
+W0405 15:40:43.928333 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 8
+W0405 15:40:43.928359 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 9
+W0405 15:40:43.928383 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 31
+W0405 15:40:43.928409 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 10
+W0405 15:40:43.928436 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 12
+W0405 15:40:43.928462 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 11
+W0405 15:40:43.928488 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 13
+W0405 15:40:43.928514 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 14
+W0405 15:40:43.928539 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 15
+W0405 15:40:43.928556 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 30
+W0405 15:40:43.928583 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 16
+W0405 15:40:43.928609 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 17
+W0405 15:40:43.928629 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 18
+W0405 15:40:44.375391 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 15:40:45.585227 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 15:40:46.813727 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 15:40:48.066205 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 15:40:49.282964 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 15:40:50.501838 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 15:40:51.721698 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 15:40:52.964450 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 15:40:54.189193 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 15:40:55.430228 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 15:40:56.651142 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 15:40:57.883909 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 15:40:59.095522 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 15:41:00.555371 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 1
+W0405 15:41:00.555477 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 2
+W0405 15:41:00.555533 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 3
+W0405 15:41:00.555557 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 4
+W0405 15:41:00.555577 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 5
+W0405 15:41:00.555598 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 30
+W0405 15:41:00.555619 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 31
+W0405 15:41:00.555640 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 32
+W0405 15:41:00.555660 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 33
+W0405 15:41:11.195935 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 1
+W0405 15:41:11.198385 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 2
+W0405 15:41:11.198411 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 3
+W0405 15:41:11.198431 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 30
+W0405 15:41:11.198452 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 31
+W0405 15:41:11.198468 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 32
+W0405 15:41:11.198484 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 33
+W0405 15:41:11.198508 254099456 DuoBaoMgr.cpp:175] load duo bao data finish.
+W0405 15:41:11.757578 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 20101, value: 5
+W0405 15:41:11.757645 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 20102, value: 5
+W0405 15:41:11.757673 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 20103, value: 5
+W0405 15:41:11.757697 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 20104, value: 5
+W0405 15:41:11.757722 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 30101, value: 5
+W0405 15:41:11.757746 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 30102, value: 5
+W0405 15:41:11.757771 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 30103, value: 5
+W0405 15:41:11.757795 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 40301, value: 5
+W0405 15:41:11.757822 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 40302, value: 5
+W0405 15:41:11.757849 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 40303, value: 5
+W0405 15:41:11.757874 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 50101, value: 5
+W0405 15:41:11.757920 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 50102, value: 5
+W0405 15:41:11.757938 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 50103, value: 5
+W0405 15:41:11.757956 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 60101, value: 5
+W0405 15:41:11.757972 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 60102, value: 5
+W0405 15:41:11.757987 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 60103, value: 5
+W0405 15:41:11.758002 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 80101, value: 10
+W0405 15:41:11.758018 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1000101, value: 10
+W0405 15:41:11.758033 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1000102, value: 10
+W0405 15:41:11.758116 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1000301, value: 10
+W0405 15:41:11.758149 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1000401, value: 10
+W0405 15:41:11.758189 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1680301, value: 10
+W0405 15:41:11.758227 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1680302, value: 10
+W0405 15:41:11.758292 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1680303, value: 10
+W0405 15:41:11.996217 254099456 ConfigOption.cpp:1009] set chat upload url: http://test.upload.lerengu.com
+W0405 16:05:57.000855 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 16:05:58.200626 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 16:05:58.202311 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 16:05:59.704177 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 16:05:59.706365 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 16:06:01.207262 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 16:06:01.209055 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 16:06:02.712460 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 16:06:02.714869 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 16:06:04.215618 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 16:06:04.217991 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 16:06:05.717977 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 16:06:05.719044 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 16:06:07.224815 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 16:06:07.225994 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 16:06:08.727357 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 16:06:08.728214 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 16:06:10.229028 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 16:06:10.231257 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 16:06:11.738144 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 16:06:11.740541 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 16:06:13.241950 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 16:06:13.242244 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 16:06:14.744491 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 16:06:14.744863 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 16:06:16.249068 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 16:06:16.250424 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 16:06:17.752359 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 16:06:17.754247 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 16:06:19.257243 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 16:06:19.257655 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 16:06:20.758992 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 16:06:20.760330 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 16:06:22.263636 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 16:06:22.263839 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 16:06:23.771437 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 16:06:23.771862 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 16:06:25.274763 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+I0405 16:06:25.274922 361432512 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0405 16:06:25.276130 254099456 CenterThread.cpp:92] connect to db server succ!
+W0405 16:06:32.820667 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 2
+W0405 16:06:32.820804 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 1
+W0405 16:06:32.820827 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 7
+W0405 16:06:32.820845 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 4
+W0405 16:06:32.820873 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 5
+W0405 16:06:32.820889 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 6
+W0405 16:06:32.820904 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 29
+W0405 16:06:32.820919 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 3
+W0405 16:06:32.820935 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 8
+W0405 16:06:32.820950 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 9
+W0405 16:06:32.820963 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 31
+W0405 16:06:32.820978 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 10
+W0405 16:06:32.820993 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 12
+W0405 16:06:32.821059 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 11
+W0405 16:06:32.821089 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 13
+W0405 16:06:32.821105 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 14
+W0405 16:06:32.821120 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 15
+W0405 16:06:32.821135 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 30
+W0405 16:06:32.821149 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 16
+W0405 16:06:32.821164 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 17
+W0405 16:06:32.821179 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 18
+W0405 16:06:33.275810 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 16:06:34.528803 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 16:06:35.769115 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 16:06:37.018057 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 16:06:38.259743 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 16:06:39.500201 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+I0405 16:06:39.561322 361432512 NetServer.cpp:88] delete io...127.0.0.1:54109
+W0405 16:06:39.561363 254099456 ServerMgr.cpp:850] remove one game server, id:993
+W0405 16:06:40.741839 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 16:06:42.005872 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+I0405 16:06:42.294850 361432512 NetServer.cpp:55] accept io...127.0.0.1:54696
+W0405 16:06:43.251772 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 16:06:44.514631 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 16:06:45.747776 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 16:06:47.003159 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 16:06:48.259574 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 16:06:49.831007 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 1
+W0405 16:06:49.831073 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 2
+W0405 16:06:49.831090 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 3
+W0405 16:06:49.831106 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 4
+W0405 16:06:49.831122 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 5
+W0405 16:06:49.831138 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 30
+W0405 16:06:49.831176 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 31
+W0405 16:06:49.831192 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 32
+W0405 16:06:49.831207 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 33
+I0405 16:06:55.936872 361432512 NetServer.cpp:88] delete io...127.0.0.1:54696
+W0405 16:07:00.795079 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 1
+W0405 16:07:00.795228 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 2
+W0405 16:07:00.795330 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 3
+W0405 16:07:00.795385 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 30
+W0405 16:07:00.795445 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 31
+W0405 16:07:00.795500 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 32
+W0405 16:07:00.795549 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 33
+W0405 16:07:00.795603 254099456 DuoBaoMgr.cpp:175] load duo bao data finish.
+W0405 16:07:01.348670 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 20101, value: 5
+W0405 16:07:01.348796 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 20102, value: 5
+W0405 16:07:01.348850 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 20103, value: 5
+W0405 16:07:01.348893 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 20104, value: 5
+W0405 16:07:01.348939 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 30101, value: 5
+W0405 16:07:01.348982 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 30102, value: 5
+W0405 16:07:01.349026 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 30103, value: 5
+W0405 16:07:01.349069 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 40301, value: 5
+W0405 16:07:01.349115 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 40302, value: 5
+W0405 16:07:01.349161 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 40303, value: 5
+W0405 16:07:01.349206 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 50101, value: 5
+W0405 16:07:01.349251 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 50102, value: 5
+W0405 16:07:01.349299 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 50103, value: 5
+W0405 16:07:01.349345 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 60101, value: 5
+W0405 16:07:01.349388 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 60102, value: 5
+W0405 16:07:01.349433 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 60103, value: 5
+W0405 16:07:01.349478 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 80101, value: 10
+W0405 16:07:01.349522 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1000101, value: 10
+W0405 16:07:01.349567 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1000102, value: 10
+W0405 16:07:01.349613 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1000301, value: 10
+W0405 16:07:01.349869 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1000401, value: 10
+W0405 16:07:01.349921 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1680301, value: 10
+W0405 16:07:01.349953 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1680302, value: 10
+W0405 16:07:01.349982 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1680303, value: 10
+W0405 16:07:01.560386 254099456 ConfigOption.cpp:1009] set chat upload url: http://test.upload.lerengu.com
+I0405 16:07:05.079543 361432512 NetServer.cpp:55] accept io...127.0.0.1:54701
+I0405 16:07:06.248447 254099456 ServerMgr.cpp:187] register one game server: 127.0.0.1:54701
+I0405 16:09:34.759855 361432512 NetServer.cpp:88] delete io...127.0.0.1:54701
+W0405 16:09:34.761067 254099456 ServerMgr.cpp:850] remove one game server, id:993
+I0405 16:09:36.967512 361432512 NetServer.cpp:55] accept io...127.0.0.1:54714
+I0405 16:09:38.151644 254099456 ServerMgr.cpp:187] register one game server: 127.0.0.1:54714
+I0405 16:17:58.386725 361432512 NetServer.cpp:88] delete io...127.0.0.1:54714
+W0405 16:17:58.387287 254099456 ServerMgr.cpp:850] remove one game server, id:993
+I0405 16:18:00.459379 361432512 NetServer.cpp:55] accept io...127.0.0.1:54757
+I0405 16:18:01.604740 254099456 ServerMgr.cpp:187] register one game server: 127.0.0.1:54757
+I0405 16:35:08.528829 361432512 NetServer.cpp:88] delete io...127.0.0.1:54757
+W0405 16:35:08.530124 254099456 ServerMgr.cpp:850] remove one game server, id:993
+I0405 16:35:10.632652 361432512 NetServer.cpp:55] accept io...127.0.0.1:54868
+I0405 16:35:11.776094 254099456 ServerMgr.cpp:187] register one game server: 127.0.0.1:54868
+W0405 16:55:29.514360 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 16:55:30.844079 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 16:55:30.846371 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 16:55:32.349129 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 16:55:32.351301 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 16:55:33.849831 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 16:55:33.850605 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 16:55:35.352102 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 16:55:35.354238 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 16:55:36.857808 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+I0405 16:55:36.857929 361432512 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0405 16:55:36.860199 254099456 CenterThread.cpp:92] connect to db server succ!
+W0405 16:55:44.399727 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 2
+W0405 16:55:44.399873 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 1
+W0405 16:55:44.399937 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 7
+W0405 16:55:44.399993 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 4
+W0405 16:55:44.400049 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 5
+W0405 16:55:44.400105 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 6
+W0405 16:55:44.400162 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 29
+W0405 16:55:44.400219 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 3
+W0405 16:55:44.400277 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 8
+W0405 16:55:44.400338 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 9
+W0405 16:55:44.400403 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 31
+W0405 16:55:44.400465 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 10
+W0405 16:55:44.400524 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 12
+W0405 16:55:44.400583 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 11
+W0405 16:55:44.400643 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 13
+W0405 16:55:44.400713 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 14
+W0405 16:55:44.400775 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 15
+W0405 16:55:44.400818 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 30
+W0405 16:55:44.400853 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 16
+W0405 16:55:44.400913 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 17
+W0405 16:55:44.400950 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 18
+W0405 16:55:44.835305 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 16:55:45.083031 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 16:55:46.375861 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 16:55:46.376344 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 16:55:47.877550 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 16:55:47.879638 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 16:55:49.380003 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 16:55:49.381880 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 16:55:50.884593 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 16:55:50.886001 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 16:55:52.390669 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+I0405 16:55:52.390803 361432512 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0405 16:55:52.392750 254099456 CenterThread.cpp:92] connect to db server succ!
+W0405 16:55:58.750361 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 2
+W0405 16:55:58.750468 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 1
+W0405 16:55:58.750494 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 7
+W0405 16:55:58.750514 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 4
+W0405 16:55:58.750566 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 5
+W0405 16:55:58.750583 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 6
+W0405 16:55:58.750600 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 29
+W0405 16:55:58.750617 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 3
+W0405 16:55:58.750634 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 8
+W0405 16:55:58.750651 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 9
+W0405 16:55:58.750669 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 31
+W0405 16:55:58.750684 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 10
+W0405 16:55:58.750701 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 12
+W0405 16:55:58.750717 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 11
+W0405 16:55:58.750993 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 13
+W0405 16:55:58.751025 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 14
+W0405 16:55:58.751044 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 15
+W0405 16:55:58.751060 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 30
+W0405 16:55:58.751076 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 16
+W0405 16:55:58.751092 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 17
+W0405 16:55:58.751109 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 18
+W0405 16:55:59.196298 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 16:56:00.438840 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 16:56:01.696861 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 16:56:02.961979 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 16:56:04.200768 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 16:56:05.454922 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 16:56:06.688499 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 16:56:07.947357 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 16:56:09.208051 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 16:56:10.452031 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 16:56:11.695631 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 16:56:12.949736 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 16:56:14.212365 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 16:56:15.698518 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 1
+W0405 16:56:15.698578 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 2
+W0405 16:56:15.698597 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 3
+W0405 16:56:15.698614 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 4
+W0405 16:56:15.698632 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 5
+W0405 16:56:15.698648 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 30
+W0405 16:56:15.698664 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 31
+W0405 16:56:15.698681 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 32
+W0405 16:56:15.698698 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 33
+I0405 16:56:17.917265 361432512 NetServer.cpp:88] delete io...127.0.0.1:54868
+W0405 16:56:17.917948 254099456 ServerMgr.cpp:850] remove one game server, id:993
+I0405 16:56:23.800094 361432512 NetServer.cpp:55] accept io...127.0.0.1:54965
+I0405 16:56:25.853282 254099456 ServerMgr.cpp:187] register one game server: 127.0.0.1:54965
+W0405 16:56:26.540277 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 1
+W0405 16:56:26.540410 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 2
+W0405 16:56:26.540437 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 3
+W0405 16:56:26.540459 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 30
+W0405 16:56:26.540482 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 31
+W0405 16:56:26.540505 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 32
+W0405 16:56:26.540529 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 33
+W0405 16:56:26.540552 254099456 DuoBaoMgr.cpp:175] load duo bao data finish.
+W0405 16:56:27.116173 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 20101, value: 5
+W0405 16:56:27.116302 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 20102, value: 5
+W0405 16:56:27.116356 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 20103, value: 5
+W0405 16:56:27.116402 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 20104, value: 5
+W0405 16:56:27.116449 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 30101, value: 5
+W0405 16:56:27.116495 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 30102, value: 5
+W0405 16:56:27.116539 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 30103, value: 5
+W0405 16:56:27.116583 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 40301, value: 5
+W0405 16:56:27.116626 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 40302, value: 5
+W0405 16:56:27.116672 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 40303, value: 5
+W0405 16:56:27.116717 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 50101, value: 5
+W0405 16:56:27.116768 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 50102, value: 5
+W0405 16:56:27.116845 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 50103, value: 5
+W0405 16:56:27.116870 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 60101, value: 5
+W0405 16:56:27.116925 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 60102, value: 5
+W0405 16:56:27.116976 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 60103, value: 5
+W0405 16:56:27.117000 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 80101, value: 10
+W0405 16:56:27.117110 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1000101, value: 10
+W0405 16:56:27.117144 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1000102, value: 10
+W0405 16:56:27.117169 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1000301, value: 10
+W0405 16:56:27.117193 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1000401, value: 10
+W0405 16:56:27.117216 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1680301, value: 10
+W0405 16:56:27.117236 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1680302, value: 10
+W0405 16:56:27.117255 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1680303, value: 10
+W0405 16:56:27.348178 254099456 ConfigOption.cpp:1009] set chat upload url: http://test.upload.lerengu.com
+I0405 17:14:19.892980 361432512 NetServer.cpp:88] delete io...127.0.0.1:54965
+W0405 17:14:19.893203 254099456 ServerMgr.cpp:850] remove one game server, id:993
+I0405 17:14:32.288797 361432512 NetServer.cpp:55] accept io...127.0.0.1:55035
+I0405 17:14:34.690798 254099456 ServerMgr.cpp:187] register one game server: 127.0.0.1:55035
+I0405 17:15:52.718286 361432512 NetServer.cpp:88] delete io...127.0.0.1:55035
+W0405 17:15:52.720469 254099456 ServerMgr.cpp:850] remove one game server, id:993
+I0405 17:16:30.373733 361432512 NetServer.cpp:55] accept io...127.0.0.1:55049
+I0405 17:16:30.383316 254099456 ServerMgr.cpp:187] register one game server: 127.0.0.1:55049
+I0405 17:28:11.005457 361432512 NetServer.cpp:88] delete io...127.0.0.1:55049
+W0405 17:28:11.005570 254099456 ServerMgr.cpp:850] remove one game server, id:993
+I0405 17:28:14.706084 361432512 NetServer.cpp:55] accept io...127.0.0.1:55086
+I0405 17:28:16.803155 254099456 ServerMgr.cpp:187] register one game server: 127.0.0.1:55086
+I0405 17:31:52.889376 361432512 NetServer.cpp:88] delete io...127.0.0.1:55086
+W0405 17:31:52.890149 254099456 ServerMgr.cpp:850] remove one game server, id:993
+I0405 17:34:10.561722 361432512 NetServer.cpp:55] accept io...127.0.0.1:55106
+I0405 17:34:12.760347 254099456 ServerMgr.cpp:187] register one game server: 127.0.0.1:55106
+I0405 17:42:47.197314 361432512 NetServer.cpp:88] delete io...127.0.0.1:55106
+W0405 17:42:47.199288 254099456 ServerMgr.cpp:850] remove one game server, id:993
+I0405 17:42:52.535035 361432512 NetServer.cpp:55] accept io...127.0.0.1:55136
+I0405 17:42:53.695582 254099456 ServerMgr.cpp:187] register one game server: 127.0.0.1:55136
+W0405 17:43:04.353948 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 17:43:05.629664 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 17:43:05.631425 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 17:43:07.132630 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 17:43:07.134104 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 17:43:08.634634 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 17:43:08.636922 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 17:43:10.137480 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 17:43:10.140142 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 17:43:11.640705 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 17:43:11.643157 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 17:43:13.149677 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 17:43:13.151888 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 17:43:14.651782 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 17:43:14.652196 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 17:43:16.153447 361432512 NetConnector.cpp:287] open connect: 0.0.0.0:6001 fail.
+W0405 17:43:16.153594 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 17:43:16.155165 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 17:43:17.655717 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 17:43:17.657660 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 17:43:19.159526 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 17:43:19.161250 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 17:43:20.661944 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+I0405 17:43:20.662051 361432512 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0405 17:43:20.664213 254099456 CenterThread.cpp:92] connect to db server succ!
+W0405 17:43:28.248826 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 2
+W0405 17:43:28.248883 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 1
+W0405 17:43:28.248901 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 7
+W0405 17:43:28.248919 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 4
+W0405 17:43:28.248934 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 5
+W0405 17:43:28.248950 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 6
+W0405 17:43:28.248966 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 29
+W0405 17:43:28.248982 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 3
+W0405 17:43:28.248998 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 8
+W0405 17:43:28.253034 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 9
+W0405 17:43:28.253108 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 31
+W0405 17:43:28.253137 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 10
+W0405 17:43:28.253159 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 12
+W0405 17:43:28.253182 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 11
+W0405 17:43:28.253206 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 13
+W0405 17:43:28.253229 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 14
+W0405 17:43:28.253250 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 15
+W0405 17:43:28.253268 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 30
+W0405 17:43:28.253283 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 16
+W0405 17:43:28.253299 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 17
+W0405 17:43:28.253314 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 18
+W0405 17:43:28.688805 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 17:43:29.921416 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 17:43:31.147624 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 17:43:32.379973 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 17:43:33.598575 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 17:43:34.842306 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 17:43:36.075448 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 17:43:37.284153 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 17:43:38.550094 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 17:43:39.781333 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 17:43:41.018421 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 17:43:42.274144 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 17:43:43.504932 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 17:43:44.968674 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 1
+W0405 17:43:44.968747 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 2
+W0405 17:43:44.968821 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 3
+W0405 17:43:44.968847 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 4
+W0405 17:43:44.968873 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 5
+W0405 17:43:44.968899 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 30
+W0405 17:43:44.968925 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 31
+W0405 17:43:44.968953 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 32
+W0405 17:43:44.968982 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 33
+W0405 17:43:55.668870 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 1
+W0405 17:43:55.668954 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 2
+W0405 17:43:55.668975 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 3
+W0405 17:43:55.668992 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 30
+W0405 17:43:55.669009 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 31
+W0405 17:43:55.669025 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 32
+W0405 17:43:55.669041 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 33
+W0405 17:43:55.669059 254099456 DuoBaoMgr.cpp:175] load duo bao data finish.
+W0405 17:43:56.217478 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 20101, value: 5
+W0405 17:43:56.217571 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 20102, value: 5
+W0405 17:43:56.217597 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 20103, value: 5
+W0405 17:43:56.217614 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 20104, value: 5
+W0405 17:43:56.217631 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 30101, value: 5
+W0405 17:43:56.217648 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 30102, value: 5
+W0405 17:43:56.217664 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 30103, value: 5
+W0405 17:43:56.217680 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 40301, value: 5
+W0405 17:43:56.217697 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 40302, value: 5
+W0405 17:43:56.217715 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 40303, value: 5
+W0405 17:43:56.217730 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 50101, value: 5
+W0405 17:43:56.217747 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 50102, value: 5
+W0405 17:43:56.217809 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 50103, value: 5
+W0405 17:43:56.217897 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 60101, value: 5
+W0405 17:43:56.217916 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 60102, value: 5
+W0405 17:43:56.217931 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 60103, value: 5
+W0405 17:43:56.217945 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 80101, value: 10
+W0405 17:43:56.217959 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1000101, value: 10
+W0405 17:43:56.217973 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1000102, value: 10
+W0405 17:43:56.217988 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1000301, value: 10
+W0405 17:43:56.218003 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1000401, value: 10
+W0405 17:43:56.218016 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1680301, value: 10
+W0405 17:43:56.218030 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1680302, value: 10
+W0405 17:43:56.218045 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1680303, value: 10
+W0405 17:43:56.440328 254099456 ConfigOption.cpp:1009] set chat upload url: http://test.upload.lerengu.com
+W0405 17:46:30.324345 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 17:46:31.707059 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+I0405 17:46:31.707168 361432512 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0405 17:46:31.709450 254099456 CenterThread.cpp:92] connect to db server succ!
+W0405 17:46:36.769735 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 2
+W0405 17:46:36.769852 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 1
+W0405 17:46:36.769896 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 7
+W0405 17:46:36.769932 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 4
+W0405 17:46:36.769968 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 5
+W0405 17:46:36.770001 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 6
+W0405 17:46:36.770038 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 29
+W0405 17:46:36.770073 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 3
+W0405 17:46:36.770110 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 8
+W0405 17:46:36.770146 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 9
+W0405 17:46:36.770182 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 31
+W0405 17:46:36.770218 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 10
+W0405 17:46:36.770254 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 12
+W0405 17:46:36.770359 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 11
+W0405 17:46:36.770421 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 13
+W0405 17:46:36.770458 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 14
+W0405 17:46:36.770493 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 15
+W0405 17:46:36.770526 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 30
+W0405 17:46:36.770560 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 16
+W0405 17:46:36.770594 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 17
+W0405 17:46:36.770628 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 18
+W0405 17:46:37.206251 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 17:46:38.422986 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 17:46:39.654696 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 17:46:40.888401 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 17:46:42.115697 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 17:46:43.331212 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 17:46:44.555829 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 17:46:45.781913 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 17:46:47.001149 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 17:46:48.220242 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 17:46:49.426337 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 17:46:50.729604 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 17:46:51.947290 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 17:46:53.407763 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 1
+W0405 17:46:53.407887 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 2
+W0405 17:46:53.407940 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 3
+W0405 17:46:53.407982 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 4
+W0405 17:46:53.408028 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 5
+W0405 17:46:53.408186 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 30
+W0405 17:46:53.408246 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 31
+W0405 17:46:53.408316 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 32
+W0405 17:46:53.408352 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 33
+W0405 17:47:04.132834 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 1
+W0405 17:47:04.132896 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 2
+W0405 17:47:04.132915 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 3
+W0405 17:47:04.132930 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 30
+W0405 17:47:04.132946 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 31
+W0405 17:47:04.132962 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 32
+W0405 17:47:04.132978 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 33
+W0405 17:47:04.132994 254099456 DuoBaoMgr.cpp:175] load duo bao data finish.
+W0405 17:47:04.677760 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 20101, value: 5
+W0405 17:47:04.677844 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 20102, value: 5
+W0405 17:47:04.677875 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 20103, value: 5
+W0405 17:47:04.677901 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 20104, value: 5
+W0405 17:47:04.677927 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 30101, value: 5
+W0405 17:47:04.677951 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 30102, value: 5
+W0405 17:47:04.677975 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 30103, value: 5
+W0405 17:47:04.677999 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 40301, value: 5
+W0405 17:47:04.678023 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 40302, value: 5
+W0405 17:47:04.678048 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 40303, value: 5
+W0405 17:47:04.678073 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 50101, value: 5
+W0405 17:47:04.678099 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 50102, value: 5
+W0405 17:47:04.678124 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 50103, value: 5
+W0405 17:47:04.678176 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 60101, value: 5
+W0405 17:47:04.678221 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 60102, value: 5
+W0405 17:47:04.678249 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 60103, value: 5
+W0405 17:47:04.678299 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 80101, value: 10
+W0405 17:47:04.678323 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1000101, value: 10
+W0405 17:47:04.678349 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1000102, value: 10
+W0405 17:47:04.678373 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1000301, value: 10
+W0405 17:47:04.678398 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1000401, value: 10
+W0405 17:47:04.678422 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1680301, value: 10
+W0405 17:47:04.678447 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1680302, value: 10
+W0405 17:47:04.678469 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1680303, value: 10
+W0405 17:47:04.905228 254099456 ConfigOption.cpp:1009] set chat upload url: http://test.upload.lerengu.com
+W0405 17:48:17.433107 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 17:48:18.539108 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+I0405 17:48:18.539489 361432512 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0405 17:48:18.541028 254099456 CenterThread.cpp:92] connect to db server succ!
+W0405 18:01:47.878762 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 18:01:49.320739 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+I0405 18:01:49.321259 361432512 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0405 18:01:49.321548 254099456 CenterThread.cpp:92] connect to db server succ!
+W0405 18:03:35.833631 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 18:03:37.117368 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+I0405 18:03:37.117552 361432512 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0405 18:03:37.117856 254099456 CenterThread.cpp:92] connect to db server succ!
+W0405 18:06:17.013556 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 18:06:18.598167 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 18:06:18.599202 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 18:06:20.102989 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 18:06:20.104061 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 18:06:21.607841 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 18:06:21.609902 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 18:06:23.112336 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 18:06:23.114787 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 18:06:24.614720 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 18:06:24.614949 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 18:06:26.119904 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 18:06:26.120832 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 18:06:27.623764 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 18:06:27.623994 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 18:06:29.127646 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 18:06:29.129585 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 18:06:30.636533 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 18:06:30.637784 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 18:06:32.141911 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+I0405 18:06:32.142127 361432512 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0405 18:06:32.144110 254099456 CenterThread.cpp:92] connect to db server succ!
+W0405 18:06:39.037968 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 2
+W0405 18:06:39.038045 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 1
+W0405 18:06:39.038072 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 7
+W0405 18:06:39.038089 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 4
+W0405 18:06:39.038106 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 5
+W0405 18:06:39.038122 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 6
+W0405 18:06:39.038166 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 29
+W0405 18:06:39.038188 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 3
+W0405 18:06:39.038210 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 8
+W0405 18:06:39.038231 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 9
+W0405 18:06:39.038254 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 31
+W0405 18:06:39.038275 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 10
+W0405 18:06:39.038298 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 12
+W0405 18:06:39.038316 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 11
+W0405 18:06:39.038337 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 13
+W0405 18:06:39.038359 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 14
+W0405 18:06:39.038381 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 15
+W0405 18:06:39.038399 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 30
+W0405 18:06:39.038421 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 16
+W0405 18:06:39.038444 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 17
+W0405 18:06:39.038497 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 18
+W0405 18:06:39.491302 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:06:40.712632 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:06:41.936276 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:06:43.175181 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:06:44.386914 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:06:45.620086 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:06:46.838289 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:06:48.068547 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:06:49.311678 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:06:50.533021 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:06:51.766957 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:06:53.010892 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:06:54.228734 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:06:55.695935 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 1
+W0405 18:06:55.695999 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 2
+W0405 18:06:55.696027 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 3
+W0405 18:06:55.696051 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 4
+W0405 18:06:55.696076 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 5
+W0405 18:06:55.696101 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 30
+W0405 18:06:55.696130 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 31
+W0405 18:06:55.696157 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 32
+W0405 18:06:55.696202 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 33
+W0405 18:07:06.404271 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 1
+W0405 18:07:06.404412 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 2
+W0405 18:07:06.404471 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 3
+W0405 18:07:06.404521 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 30
+W0405 18:07:06.404572 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 31
+W0405 18:07:06.404686 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 32
+W0405 18:07:06.404734 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 33
+W0405 18:07:06.404781 254099456 DuoBaoMgr.cpp:175] load duo bao data finish.
+W0405 18:07:06.960903 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 20101, value: 5
+W0405 18:07:06.960986 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 20102, value: 5
+W0405 18:07:06.961019 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 20103, value: 5
+W0405 18:07:06.961040 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 20104, value: 5
+W0405 18:07:06.961060 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 30101, value: 5
+W0405 18:07:06.961078 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 30102, value: 5
+W0405 18:07:06.961098 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 30103, value: 5
+W0405 18:07:06.961117 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 40301, value: 5
+W0405 18:07:06.961136 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 40302, value: 5
+W0405 18:07:06.961155 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 40303, value: 5
+W0405 18:07:06.961174 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 50101, value: 5
+W0405 18:07:06.961194 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 50102, value: 5
+W0405 18:07:06.961211 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 50103, value: 5
+W0405 18:07:06.961230 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 60101, value: 5
+W0405 18:07:06.961248 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 60102, value: 5
+W0405 18:07:06.961267 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 60103, value: 5
+W0405 18:07:06.961287 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 80101, value: 10
+W0405 18:07:06.961304 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1000101, value: 10
+W0405 18:07:06.961323 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1000102, value: 10
+W0405 18:07:06.961501 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1000301, value: 10
+W0405 18:07:06.961566 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1000401, value: 10
+W0405 18:07:06.961589 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1680301, value: 10
+W0405 18:07:06.961608 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1680302, value: 10
+W0405 18:07:06.961627 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1680303, value: 10
+W0405 18:07:07.186285 254099456 ConfigOption.cpp:1009] set chat upload url: http://test.upload.lerengu.com
+W0405 18:09:54.425676 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 18:09:55.709764 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 18:09:55.712157 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 18:09:57.216742 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 18:09:57.219075 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 18:09:58.718698 361432512 NetConnector.cpp:287] open connect: 0.0.0.0:6001 fail.
+W0405 18:09:58.718961 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 18:09:58.719142 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 18:10:00.222769 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+I0405 18:10:00.223098 361432512 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0405 18:10:00.224964 254099456 CenterThread.cpp:92] connect to db server succ!
+W0405 18:10:08.059901 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 2
+W0405 18:10:08.059993 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 1
+W0405 18:10:08.060035 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 7
+W0405 18:10:08.060052 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 4
+W0405 18:10:08.060067 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 5
+W0405 18:10:08.060081 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 6
+W0405 18:10:08.060096 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 29
+W0405 18:10:08.060111 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 3
+W0405 18:10:08.060123 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 8
+W0405 18:10:08.060137 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 9
+W0405 18:10:08.060153 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 31
+W0405 18:10:08.060166 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 10
+W0405 18:10:08.060212 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 12
+W0405 18:10:08.060238 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 11
+W0405 18:10:08.060254 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 13
+W0405 18:10:08.060268 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 14
+W0405 18:10:08.060282 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 15
+W0405 18:10:08.060297 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 30
+W0405 18:10:08.060310 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 16
+W0405 18:10:08.060324 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 17
+W0405 18:10:08.060338 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 18
+W0405 18:10:08.502873 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:10:09.744148 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:10:10.964205 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:10:12.209862 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:10:13.422607 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:10:14.654808 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:10:15.892429 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:10:17.115774 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:10:18.348378 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:10:19.572705 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:10:20.802291 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:10:22.041299 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:10:23.288645 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:10:24.748699 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 1
+W0405 18:10:24.748824 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 2
+W0405 18:10:24.748867 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 3
+W0405 18:10:24.748904 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 4
+W0405 18:10:24.748942 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 5
+W0405 18:10:24.748981 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 30
+W0405 18:10:24.749022 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 31
+W0405 18:10:24.749063 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 32
+W0405 18:10:24.749100 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 33
+W0405 18:10:35.500255 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 1
+W0405 18:10:35.500401 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 2
+W0405 18:10:35.500437 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 3
+W0405 18:10:35.500468 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 30
+W0405 18:10:35.500495 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 31
+W0405 18:10:35.500524 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 32
+W0405 18:10:35.500552 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 33
+W0405 18:10:35.500584 254099456 DuoBaoMgr.cpp:175] load duo bao data finish.
+W0405 18:10:36.053655 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 20101, value: 5
+W0405 18:10:36.053748 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 20102, value: 5
+W0405 18:10:36.053782 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 20103, value: 5
+W0405 18:10:36.053812 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 20104, value: 5
+W0405 18:10:36.053840 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 30101, value: 5
+W0405 18:10:36.053869 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 30102, value: 5
+W0405 18:10:36.053898 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 30103, value: 5
+W0405 18:10:36.053927 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 40301, value: 5
+W0405 18:10:36.053956 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 40302, value: 5
+W0405 18:10:36.053984 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 40303, value: 5
+W0405 18:10:36.054014 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 50101, value: 5
+W0405 18:10:36.054045 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 50102, value: 5
+W0405 18:10:36.054077 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 50103, value: 5
+W0405 18:10:36.054225 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 60101, value: 5
+W0405 18:10:36.054281 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 60102, value: 5
+W0405 18:10:36.054313 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 60103, value: 5
+W0405 18:10:36.054342 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 80101, value: 10
+W0405 18:10:36.054373 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1000101, value: 10
+W0405 18:10:36.054402 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1000102, value: 10
+W0405 18:10:36.054431 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1000301, value: 10
+W0405 18:10:36.054461 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1000401, value: 10
+W0405 18:10:36.054697 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1680301, value: 10
+W0405 18:10:36.054752 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1680302, value: 10
+W0405 18:10:36.054785 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1680303, value: 10
+W0405 18:10:36.298910 254099456 ConfigOption.cpp:1009] set chat upload url: http://test.upload.lerengu.com
+W0405 18:11:53.954119 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 18:11:55.058567 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+I0405 18:11:55.058689 361432512 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0405 18:11:55.059309 254099456 CenterThread.cpp:92] connect to db server succ!
+W0405 18:12:14.772871 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 2
+W0405 18:12:14.773036 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 1
+W0405 18:12:14.773097 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 7
+W0405 18:12:14.773149 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 4
+W0405 18:12:14.773200 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 5
+W0405 18:12:14.773249 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 6
+W0405 18:12:14.773308 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 29
+W0405 18:12:14.773360 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 3
+W0405 18:12:14.773412 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 8
+W0405 18:12:14.773466 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 9
+W0405 18:12:14.773519 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 31
+W0405 18:12:14.773573 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 10
+W0405 18:12:14.773627 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 12
+W0405 18:12:14.773679 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 11
+W0405 18:12:14.773730 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 13
+W0405 18:12:14.773779 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 14
+W0405 18:12:14.773830 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 15
+W0405 18:12:14.773902 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 30
+W0405 18:12:14.773937 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 16
+W0405 18:12:14.774108 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 17
+W0405 18:12:14.774166 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 18
+W0405 18:12:15.225106 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:12:16.472200 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:12:17.707680 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:12:18.929013 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:12:20.168354 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:12:21.409914 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:12:22.630724 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:12:23.872210 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:12:25.112534 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:12:26.349666 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:12:27.586763 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:12:28.829468 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:12:30.056255 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:12:31.534674 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 1
+W0405 18:12:31.534780 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 2
+W0405 18:12:31.534819 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 3
+W0405 18:12:31.534854 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 4
+W0405 18:12:31.534888 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 5
+W0405 18:12:31.534921 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 30
+W0405 18:12:31.534955 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 31
+W0405 18:12:31.534989 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 32
+W0405 18:12:31.535024 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 33
+W0405 18:12:42.271924 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 1
+W0405 18:12:42.273005 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 2
+W0405 18:12:42.273082 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 3
+W0405 18:12:42.273138 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 30
+W0405 18:12:42.273186 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 31
+W0405 18:12:42.273243 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 32
+W0405 18:12:42.273293 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 33
+W0405 18:12:42.273346 254099456 DuoBaoMgr.cpp:175] load duo bao data finish.
+W0405 18:12:42.846248 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 20101, value: 5
+W0405 18:12:42.846385 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 20102, value: 5
+W0405 18:12:42.846443 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 20103, value: 5
+W0405 18:12:42.846493 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 20104, value: 5
+W0405 18:12:42.846544 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 30101, value: 5
+W0405 18:12:42.846597 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 30102, value: 5
+W0405 18:12:42.846647 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 30103, value: 5
+W0405 18:12:42.846698 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 40301, value: 5
+W0405 18:12:42.846750 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 40302, value: 5
+W0405 18:12:42.846801 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 40303, value: 5
+W0405 18:12:42.846855 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 50101, value: 5
+W0405 18:12:42.846906 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 50102, value: 5
+W0405 18:12:42.846957 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 50103, value: 5
+W0405 18:12:42.847007 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 60101, value: 5
+W0405 18:12:42.847057 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 60102, value: 5
+W0405 18:12:42.847108 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 60103, value: 5
+W0405 18:12:42.847159 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 80101, value: 10
+W0405 18:12:42.847209 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1000101, value: 10
+W0405 18:12:42.847288 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1000102, value: 10
+W0405 18:12:42.847443 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1000301, value: 10
+W0405 18:12:42.847502 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1000401, value: 10
+W0405 18:12:42.847580 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1680301, value: 10
+W0405 18:12:42.847615 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1680302, value: 10
+W0405 18:12:42.847649 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1680303, value: 10
+W0405 18:12:43.075600 254099456 ConfigOption.cpp:1009] set chat upload url: http://test.upload.lerengu.com
+W0405 18:32:14.472447 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 18:32:15.554080 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+I0405 18:32:15.554332 361432512 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0405 18:32:15.554574 254099456 CenterThread.cpp:92] connect to db server succ!
+W0405 18:33:53.426888 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 2
+W0405 18:33:53.427101 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 1
+W0405 18:33:53.427161 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 7
+W0405 18:33:53.427213 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 4
+W0405 18:33:53.427265 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 5
+W0405 18:33:53.427315 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 6
+W0405 18:33:53.427366 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 29
+W0405 18:33:53.427418 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 3
+W0405 18:33:53.427470 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 8
+W0405 18:33:53.427529 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 9
+W0405 18:33:53.427582 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 31
+W0405 18:33:53.427634 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 10
+W0405 18:33:53.427685 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 12
+W0405 18:33:53.427734 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 11
+W0405 18:33:53.427785 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 13
+W0405 18:33:53.427845 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 14
+W0405 18:33:53.427906 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 15
+W0405 18:33:53.427938 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 30
+W0405 18:33:53.427971 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 16
+W0405 18:33:53.428074 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 17
+W0405 18:33:53.428115 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 18
+W0405 18:33:53.884280 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:33:55.119997 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:33:56.361722 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:33:57.623571 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:33:58.861276 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:34:00.101644 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:34:01.329542 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:34:02.586971 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:34:03.803892 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:34:05.040107 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:34:06.286623 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:34:07.532672 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:34:08.782644 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:34:10.250267 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 1
+W0405 18:34:10.251281 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 2
+W0405 18:34:10.251323 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 3
+W0405 18:34:10.251346 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 4
+W0405 18:34:10.251369 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 5
+W0405 18:34:10.251391 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 30
+W0405 18:34:10.251413 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 31
+W0405 18:34:10.251435 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 32
+W0405 18:34:10.251458 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 33
+W0405 18:34:21.047224 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 1
+W0405 18:34:21.047323 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 2
+W0405 18:34:21.047356 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 3
+W0405 18:34:21.047384 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 30
+W0405 18:34:21.047407 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 31
+W0405 18:34:21.047432 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 32
+W0405 18:34:21.047456 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 33
+W0405 18:34:21.047482 254099456 DuoBaoMgr.cpp:175] load duo bao data finish.
+W0405 18:34:21.632622 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 20101, value: 5
+W0405 18:34:21.632691 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 20102, value: 5
+W0405 18:34:21.632725 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 20103, value: 5
+W0405 18:34:21.632752 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 20104, value: 5
+W0405 18:34:21.632779 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 30101, value: 5
+W0405 18:34:21.632805 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 30102, value: 5
+W0405 18:34:21.632829 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 30103, value: 5
+W0405 18:34:21.632853 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 40301, value: 5
+W0405 18:34:21.632876 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 40302, value: 5
+W0405 18:34:21.632900 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 40303, value: 5
+W0405 18:34:21.632925 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 50101, value: 5
+W0405 18:34:21.632951 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 50102, value: 5
+W0405 18:34:21.632975 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 50103, value: 5
+W0405 18:34:21.632998 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 60101, value: 5
+W0405 18:34:21.633021 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 60102, value: 5
+W0405 18:34:21.633045 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 60103, value: 5
+W0405 18:34:21.633069 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 80101, value: 10
+W0405 18:34:21.633093 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1000101, value: 10
+W0405 18:34:21.633116 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1000102, value: 10
+W0405 18:34:21.633139 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1000301, value: 10
+W0405 18:34:21.633286 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1000401, value: 10
+W0405 18:34:21.633330 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1680301, value: 10
+W0405 18:34:21.633358 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1680302, value: 10
+W0405 18:34:21.633383 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1680303, value: 10
+W0405 18:34:21.842294 254099456 ConfigOption.cpp:1009] set chat upload url: http://test.upload.lerengu.com
+W0405 18:56:55.404283 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 18:56:56.580008 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 18:56:56.581674 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 18:56:58.084241 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 18:56:58.085892 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 18:56:59.588973 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+I0405 18:56:59.589099 361432512 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0405 18:56:59.591035 254099456 CenterThread.cpp:92] connect to db server succ!
+W0405 18:57:20.056368 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 18:57:21.145977 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 18:57:21.147487 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 18:57:22.647676 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 18:57:22.648128 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 18:57:24.155167 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+W0405 18:57:24.157620 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0405 18:57:25.659387 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+I0405 18:57:25.659516 361432512 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0405 18:57:25.660712 254099456 CenterThread.cpp:92] connect to db server succ!
+I0405 18:57:28.927258 361432512 NetServer.cpp:88] delete io...127.0.0.1:55136
+W0405 18:57:28.927501 254099456 ServerMgr.cpp:850] remove one game server, id:993
+W0405 18:57:31.586742 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 2
+W0405 18:57:31.587858 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 1
+W0405 18:57:31.587944 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 7
+W0405 18:57:31.587999 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 4
+W0405 18:57:31.588049 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 5
+W0405 18:57:31.588097 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 6
+W0405 18:57:31.588148 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 29
+W0405 18:57:31.588199 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 3
+W0405 18:57:31.588253 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 8
+W0405 18:57:31.588306 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 9
+W0405 18:57:31.588356 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 31
+W0405 18:57:31.588405 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 10
+W0405 18:57:31.588455 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 12
+W0405 18:57:31.588503 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 11
+W0405 18:57:31.588552 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 13
+W0405 18:57:31.588600 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 14
+W0405 18:57:31.588649 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 15
+W0405 18:57:31.588860 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 30
+W0405 18:57:31.588951 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 16
+W0405 18:57:31.588989 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 17
+W0405 18:57:31.589022 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 18
+W0405 18:57:32.032819 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:57:33.269217 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+I0405 18:57:34.435698 361432512 NetServer.cpp:55] accept io...127.0.0.1:55416
+W0405 18:57:34.502341 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:57:35.765592 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+I0405 18:57:36.574187 254099456 ServerMgr.cpp:187] register one game server: 127.0.0.1:55416
+W0405 18:57:36.997005 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:57:38.227604 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:57:39.469736 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:57:40.710716 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:57:41.948479 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:57:43.192206 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:57:44.444531 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:57:45.665956 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:57:46.920048 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0405 18:57:48.370582 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 1
+W0405 18:57:48.370723 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 2
+W0405 18:57:48.370852 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 3
+W0405 18:57:48.370913 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 4
+W0405 18:57:48.370966 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 5
+W0405 18:57:48.371021 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 30
+W0405 18:57:48.371076 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 31
+W0405 18:57:48.371135 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 32
+W0405 18:57:48.371188 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 33
+W0405 18:57:59.168617 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 1
+W0405 18:57:59.168778 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 2
+W0405 18:57:59.168834 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 3
+W0405 18:57:59.168884 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 30
+W0405 18:57:59.168934 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 31
+W0405 18:57:59.168984 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 32
+W0405 18:57:59.169034 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 33
+W0405 18:57:59.169086 254099456 DuoBaoMgr.cpp:175] load duo bao data finish.
+W0405 18:57:59.704813 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 20101, value: 5
+W0405 18:57:59.704949 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 20102, value: 5
+W0405 18:57:59.705009 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 20103, value: 5
+W0405 18:57:59.705061 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 20104, value: 5
+W0405 18:57:59.705112 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 30101, value: 5
+W0405 18:57:59.705163 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 30102, value: 5
+W0405 18:57:59.705214 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 30103, value: 5
+W0405 18:57:59.705265 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 40301, value: 5
+W0405 18:57:59.705317 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 40302, value: 5
+W0405 18:57:59.705368 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 40303, value: 5
+W0405 18:57:59.705421 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 50101, value: 5
+W0405 18:57:59.705476 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 50102, value: 5
+W0405 18:57:59.705528 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 50103, value: 5
+W0405 18:57:59.705580 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 60101, value: 5
+W0405 18:57:59.705632 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 60102, value: 5
+W0405 18:57:59.705685 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 60103, value: 5
+W0405 18:57:59.705737 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 80101, value: 10
+W0405 18:57:59.705803 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1000101, value: 10
+W0405 18:57:59.705868 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1000102, value: 10
+W0405 18:57:59.706008 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1000301, value: 10
+W0405 18:57:59.706068 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1000401, value: 10
+W0405 18:57:59.706105 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1680301, value: 10
+W0405 18:57:59.706140 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1680302, value: 10
+W0405 18:57:59.706176 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1680303, value: 10
+W0405 18:57:59.939317 254099456 ConfigOption.cpp:1009] set chat upload url: http://test.upload.lerengu.com
+I0405 19:02:40.446919 361432512 NetServer.cpp:88] delete io...127.0.0.1:55416
+W0405 19:02:40.447405 254099456 ServerMgr.cpp:850] remove one game server, id:993
+I0405 19:02:49.152812 361432512 NetServer.cpp:55] accept io...127.0.0.1:55434
+I0405 19:02:51.174796 254099456 ServerMgr.cpp:187] register one game server: 127.0.0.1:55434
+I0405 19:09:30.140007 361432512 NetServer.cpp:88] delete io...127.0.0.1:55434
+W0405 19:09:30.142410 254099456 ServerMgr.cpp:850] remove one game server, id:993
+I0405 19:09:39.120127 361432512 NetServer.cpp:55] accept io...127.0.0.1:55459
+I0405 19:09:41.220825 254099456 ServerMgr.cpp:187] register one game server: 127.0.0.1:55459
+I0405 19:16:52.378811 361432512 NetServer.cpp:88] delete io...127.0.0.1:55459
+W0405 19:16:52.380184 254099456 ServerMgr.cpp:850] remove one game server, id:993
+I0405 19:17:01.571866 361432512 NetServer.cpp:55] accept io...127.0.0.1:55508
+I0405 19:17:03.671715 254099456 ServerMgr.cpp:187] register one game server: 127.0.0.1:55508
+I0405 19:23:14.418105 361432512 NetServer.cpp:88] delete io...127.0.0.1:55508
+W0405 19:23:14.418819 254099456 ServerMgr.cpp:850] remove one game server, id:993
+I0405 19:23:18.833595 361432512 NetServer.cpp:55] accept io...127.0.0.1:55533
+I0405 19:23:20.927042 254099456 ServerMgr.cpp:187] register one game server: 127.0.0.1:55533
+I0405 19:27:07.508396 361432512 NetServer.cpp:88] delete io...127.0.0.1:55533
+W0405 19:27:07.509948 254099456 ServerMgr.cpp:850] remove one game server, id:993
+I0405 19:27:16.488327 361432512 NetServer.cpp:55] accept io...127.0.0.1:55557
+I0405 19:27:18.628160 254099456 ServerMgr.cpp:187] register one game server: 127.0.0.1:55557
+I0405 19:41:41.127799 361432512 NetServer.cpp:88] delete io...127.0.0.1:55557
+W0405 19:41:41.128962 254099456 ServerMgr.cpp:850] remove one game server, id:993
+I0405 19:41:51.594979 361432512 NetServer.cpp:55] accept io...127.0.0.1:55594
+I0405 19:41:53.654137 254099456 ServerMgr.cpp:187] register one game server: 127.0.0.1:55594
+I0405 19:46:23.176292 361432512 NetServer.cpp:88] delete io...127.0.0.1:55594
+W0405 19:46:23.178086 254099456 ServerMgr.cpp:850] remove one game server, id:993
+I0405 19:46:28.839485 361432512 NetServer.cpp:55] accept io...127.0.0.1:55622
+I0405 19:46:31.275732 254099456 ServerMgr.cpp:187] register one game server: 127.0.0.1:55622
+I0405 20:16:37.317680 361432512 NetServer.cpp:88] delete io...127.0.0.1:55622
+W0405 20:16:37.318347 254099456 ServerMgr.cpp:850] remove one game server, id:993
+I0405 20:16:45.900594 361432512 NetServer.cpp:55] accept io...127.0.0.1:55706
+I0405 20:16:48.114758 254099456 ServerMgr.cpp:187] register one game server: 127.0.0.1:55706
+I0405 20:30:40.968595 361432512 NetServer.cpp:88] delete io...127.0.0.1:55706
+W0405 20:30:40.968869 254099456 ServerMgr.cpp:850] remove one game server, id:993
+I0405 20:30:45.196370 361432512 NetServer.cpp:55] accept io...127.0.0.1:55735
+I0405 20:30:47.424134 254099456 ServerMgr.cpp:187] register one game server: 127.0.0.1:55735
+I0405 20:31:33.557919 361432512 NetServer.cpp:88] delete io...127.0.0.1:55735
+W0405 20:31:33.559155 254099456 ServerMgr.cpp:850] remove one game server, id:993
+I0405 20:32:53.465489 361432512 NetServer.cpp:55] accept io...127.0.0.1:55745
+I0405 20:32:55.885448 254099456 ServerMgr.cpp:187] register one game server: 127.0.0.1:55745
+I0405 20:40:31.673588 361432512 NetServer.cpp:88] delete io...127.0.0.1:55745
+W0405 20:40:31.675658 254099456 ServerMgr.cpp:850] remove one game server, id:993
+I0405 20:41:28.159216 361432512 NetServer.cpp:55] accept io...127.0.0.1:55773
+I0405 20:41:30.329200 254099456 ServerMgr.cpp:187] register one game server: 127.0.0.1:55773
+I0405 20:46:32.587548 361432512 NetServer.cpp:88] delete io...127.0.0.1:55773
+W0405 20:46:32.587863 254099456 ServerMgr.cpp:850] remove one game server, id:993
+I0405 20:46:37.179297 361432512 NetServer.cpp:55] accept io...127.0.0.1:55789
+I0405 20:46:39.330869 254099456 ServerMgr.cpp:187] register one game server: 127.0.0.1:55789
+I0405 20:47:26.039927 361432512 NetServer.cpp:88] delete io...127.0.0.1:55789
+W0405 20:47:26.041772 254099456 ServerMgr.cpp:850] remove one game server, id:993
+I0405 20:47:30.258432 361432512 NetServer.cpp:55] accept io...127.0.0.1:55798
+I0405 20:47:32.453336 254099456 ServerMgr.cpp:187] register one game server: 127.0.0.1:55798
+I0405 20:48:36.360270 361432512 NetServer.cpp:88] delete io...127.0.0.1:55798
+W0405 20:48:36.360874 254099456 ServerMgr.cpp:850] remove one game server, id:993
+I0405 20:48:40.646605 361432512 NetServer.cpp:55] accept io...127.0.0.1:55806
+I0405 20:48:42.873230 254099456 ServerMgr.cpp:187] register one game server: 127.0.0.1:55806
+I0405 20:51:22.697160 361432512 NetServer.cpp:88] delete io...127.0.0.1:55806
+W0405 20:51:22.698982 254099456 ServerMgr.cpp:850] remove one game server, id:993
+I0405 20:51:33.652171 361432512 NetServer.cpp:55] accept io...127.0.0.1:55819
+I0405 20:51:35.749668 254099456 ServerMgr.cpp:187] register one game server: 127.0.0.1:55819
+I0405 20:58:59.286751 361432512 NetServer.cpp:88] delete io...127.0.0.1:55819
+W0405 20:58:59.287029 254099456 ServerMgr.cpp:850] remove one game server, id:993
+I0405 20:59:30.655709 361432512 NetServer.cpp:55] accept io...127.0.0.1:55851
+I0405 20:59:32.775620 254099456 ServerMgr.cpp:187] register one game server: 127.0.0.1:55851
+W0406 00:00:08.511818 254099456 CenterThread.cpp:321] center server is across day.
+I0406 10:11:15.793412 361432512 NetServer.cpp:88] delete io...127.0.0.1:55851
+W0406 10:11:15.795724 254099456 ServerMgr.cpp:850] remove one game server, id:991
+I0406 10:11:29.609501 361432512 NetServer.cpp:55] accept io...127.0.0.1:56677
+I0406 10:11:31.794833 254099456 ServerMgr.cpp:187] register one game server: 127.0.0.1:56677
+I0406 10:12:34.580157 361432512 NetServer.cpp:88] delete io...127.0.0.1:56677
+W0406 10:12:34.581717 254099456 ServerMgr.cpp:850] remove one game server, id:991
+I0406 10:12:44.439386 361432512 NetServer.cpp:55] accept io...127.0.0.1:56692
+I0406 10:12:46.564788 254099456 ServerMgr.cpp:187] register one game server: 127.0.0.1:56692
+I0406 10:37:58.376052 361432512 NetServer.cpp:55] accept io...127.0.0.1:56758
+I0406 10:37:59.543500 254099456 ServerMgr.cpp:187] register one game server: 127.0.0.1:56758
+I0406 11:02:33.746454 361432512 NetServer.cpp:88] delete io...127.0.0.1:56692
+W0406 11:02:33.746477 254099456 ServerMgr.cpp:850] remove one game server, id:991
+I0406 11:02:38.345242 361432512 NetServer.cpp:55] accept io...127.0.0.1:56845
+I0406 11:02:40.729964 254099456 ServerMgr.cpp:187] register one game server: 127.0.0.1:56845
+I0406 11:03:22.219924 361432512 NetServer.cpp:88] delete io...127.0.0.1:56845
+W0406 11:03:22.221698 254099456 ServerMgr.cpp:850] remove one game server, id:991
+I0406 11:03:34.973584 361432512 NetServer.cpp:55] accept io...127.0.0.1:56855
+I0406 11:03:37.303755 254099456 ServerMgr.cpp:187] register one game server: 127.0.0.1:56855
+I0406 11:25:45.197553 361432512 NetServer.cpp:88] delete io...127.0.0.1:56855
+W0406 11:25:45.199857 254099456 ServerMgr.cpp:850] remove one game server, id:993
+I0406 13:56:14.869195 361432512 NetServer.cpp:55] accept io...127.0.0.1:57150
+I0406 13:56:17.058295 254099456 ServerMgr.cpp:187] register one game server: 127.0.0.1:57150
+I0406 14:17:55.151618 361432512 NetServer.cpp:88] delete io...127.0.0.1:57150
+W0406 14:17:55.153945 254099456 ServerMgr.cpp:850] remove one game server, id:993
+I0406 14:18:06.146340 361432512 NetServer.cpp:55] accept io...127.0.0.1:57205
+I0406 14:18:08.270529 254099456 ServerMgr.cpp:187] register one game server: 127.0.0.1:57205
+W0407 00:00:20.188519 254099456 CenterThread.cpp:321] center server is across day.
+I0407 15:39:05.113373 361432512 NetServer.cpp:88] delete io...127.0.0.1:57205
+W0407 15:39:05.115623 254099456 ServerMgr.cpp:850] remove one game server, id:993
+I0407 15:39:05.120482 361432512 NetServer.cpp:88] delete io...127.0.0.1:56758
+I0407 15:39:05.120767 361432512 NetServer.cpp:88] delete io...127.0.0.1:54094
+I0407 15:39:05.120801 361432512 NetServer.cpp:88] delete io...127.0.0.1:54098
+W0407 15:39:05.120805 254099456 ServerMgr.cpp:850] remove one game server, id:11
+W0407 15:39:05.120895 254099456 ServerMgr.cpp:889] remove one proxy server, id:30
+W0407 15:39:05.120936 254099456 ServerMgr.cpp:866] remove one login server, id:10
+W0407 15:39:05.123069 254099456 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0407 15:39:06.592538 361432512 NetModule.cpp:723] ready reconnect server, server id: 0
+I0407 15:39:06.592624 361432512 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0407 15:39:06.592756 361432512 NetServer.cpp:55] accept io...127.0.0.1:60513
+I0407 15:39:06.592826 361432512 NetServer.cpp:55] accept io...127.0.0.1:60514
+I0407 15:39:06.594523 254099456 CenterThread.cpp:92] connect to db server succ!
+I0407 15:39:06.599112 254099456 ServerMgr.cpp:187] register one game server: 127.0.0.1:60513
+I0407 15:39:06.605039 254099456 ServerMgr.cpp:187] register one game server: 127.0.0.1:60514
+I0407 15:39:08.604969 361432512 NetServer.cpp:55] accept io...127.0.0.1:60527
+I0407 15:39:08.613641 254099456 ServerMgr.cpp:54] register one proxy server: 127.0.0.1:60527
+I0407 15:39:15.638377 361432512 NetServer.cpp:55] accept io...127.0.0.1:60539
+I0407 15:39:15.647024 254099456 ServerMgr.cpp:492] register one login server: 127.0.0.1:60539
+W0407 15:40:37.238915 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 2
+W0407 15:40:37.240108 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 1
+W0407 15:40:37.240173 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 7
+W0407 15:40:37.240219 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 4
+W0407 15:40:37.240262 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 5
+W0407 15:40:37.240301 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 6
+W0407 15:40:37.240341 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 29
+W0407 15:40:37.240381 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 3
+W0407 15:40:37.240420 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 8
+W0407 15:40:37.240459 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 9
+W0407 15:40:37.240502 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 31
+W0407 15:40:37.240543 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 10
+W0407 15:40:37.240583 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 12
+W0407 15:40:37.240622 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 11
+W0407 15:40:37.240662 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 13
+W0407 15:40:37.240705 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 14
+W0407 15:40:37.240744 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 15
+W0407 15:40:37.240783 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 30
+W0407 15:40:37.240972 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 16
+W0407 15:40:37.241045 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 17
+W0407 15:40:37.241096 254099456 ActivityMgr.cpp:37] insert wealth god coming cfg fail. repeated cfg! id: 18
+W0407 15:40:37.689875 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0407 15:40:38.943392 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0407 15:40:40.195539 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0407 15:40:41.433414 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0407 15:40:42.674419 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0407 15:40:43.921113 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0407 15:40:45.184506 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0407 15:40:46.420584 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0407 15:40:47.654129 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0407 15:40:48.901171 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0407 15:40:50.134872 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0407 15:40:51.395521 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0407 15:40:52.642168 254099456 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0407 15:40:54.106966 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 1
+W0407 15:40:54.107182 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 2
+W0407 15:40:54.107254 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 3
+W0407 15:40:54.107300 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 4
+W0407 15:40:54.107340 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 5
+W0407 15:40:54.107379 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 30
+W0407 15:40:54.107419 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 31
+W0407 15:40:54.107456 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 32
+W0407 15:40:54.107496 254099456 DuoBaoMgr.cpp:34] insert duo bao cfg fail. repeated cfg! id: 33
+W0407 15:41:04.963409 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 1
+W0407 15:41:04.963920 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 2
+W0407 15:41:04.963989 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 3
+W0407 15:41:04.964035 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 30
+W0407 15:41:04.964076 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 31
+W0407 15:41:04.964115 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 32
+W0407 15:41:04.964155 254099456 DuoBaoMgr.cpp:94] has the same doing data? id: 33
+W0407 15:41:04.964198 254099456 DuoBaoMgr.cpp:175] load duo bao data finish.
+W0407 15:41:05.527241 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 20101, value: 5
+W0407 15:41:05.527338 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 20102, value: 5
+W0407 15:41:05.527386 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 20103, value: 5
+W0407 15:41:05.527428 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 20104, value: 5
+W0407 15:41:05.527469 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 30101, value: 5
+W0407 15:41:05.527509 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 30102, value: 5
+W0407 15:41:05.527549 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 30103, value: 5
+W0407 15:41:05.527588 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 40301, value: 5
+W0407 15:41:05.527629 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 40302, value: 5
+W0407 15:41:05.527668 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 40303, value: 5
+W0407 15:41:05.527709 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 50101, value: 5
+W0407 15:41:05.527748 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 50102, value: 5
+W0407 15:41:05.527794 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 50103, value: 5
+W0407 15:41:05.527834 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 60101, value: 5
+W0407 15:41:05.527874 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 60102, value: 5
+W0407 15:41:05.527915 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 60103, value: 5
+W0407 15:41:05.527953 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 80101, value: 10
+W0407 15:41:05.527993 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1000101, value: 10
+W0407 15:41:05.528033 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1000102, value: 10
+W0407 15:41:05.528074 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1000301, value: 10
+W0407 15:41:05.528307 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1000401, value: 10
+W0407 15:41:05.528378 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1680301, value: 10
+W0407 15:41:05.528422 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1680302, value: 10
+W0407 15:41:05.528462 254099456 RedPacketMgr.cpp:120] update red packet room cfg, game index 1680303, value: 10
+W0407 15:41:05.748049 254099456 ConfigOption.cpp:1009] set chat upload url: http://test.upload.lerengu.com
+W0408 00:00:34.688518 254099456 CenterThread.cpp:321] center server is across day.
+I0408 10:09:03.911236 361432512 NetServer.cpp:88] delete io...127.0.0.1:60513
+W0408 10:09:03.913337 254099456 ServerMgr.cpp:850] remove one game server, id:993
+I0408 10:09:18.758067 361432512 NetServer.cpp:55] accept io...127.0.0.1:61621
+I0408 10:09:21.120095 254099456 ServerMgr.cpp:187] register one game server: 127.0.0.1:61621
+I0408 10:17:09.519385 361432512 NetServer.cpp:88] delete io...127.0.0.1:61621
+W0408 10:17:09.521312 254099456 ServerMgr.cpp:850] remove one game server, id:993
+I0408 10:17:20.536845 361432512 NetServer.cpp:55] accept io...127.0.0.1:61674
+I0408 10:17:22.966178 254099456 ServerMgr.cpp:187] register one game server: 127.0.0.1:61674
+I0408 10:17:44.086882 361432512 NetServer.cpp:88] delete io...127.0.0.1:61674
+W0408 10:17:44.088346 254099456 ServerMgr.cpp:850] remove one game server, id:993
+I0408 10:17:56.134984 361432512 NetServer.cpp:55] accept io...127.0.0.1:61683
+I0408 10:17:58.472175 254099456 ServerMgr.cpp:187] register one game server: 127.0.0.1:61683
+I0408 10:18:29.319514 361432512 NetServer.cpp:88] delete io...127.0.0.1:61683
+W0408 10:18:29.321285 254099456 ServerMgr.cpp:850] remove one game server, id:993
+I0408 10:18:37.087054 361432512 NetServer.cpp:55] accept io...127.0.0.1:61693
+I0408 10:18:39.457432 254099456 ServerMgr.cpp:187] register one game server: 127.0.0.1:61693
+I0408 10:19:32.047997 361432512 NetServer.cpp:88] delete io...127.0.0.1:61693
+W0408 10:19:32.048267 254099456 ServerMgr.cpp:850] remove one game server, id:993
+I0408 10:27:14.420629 361432512 NetServer.cpp:55] accept io...127.0.0.1:61720
+I0408 10:27:16.677537 254099456 ServerMgr.cpp:187] register one game server: 127.0.0.1:61720
+I0408 11:17:36.851289 361432512 NetServer.cpp:88] delete io...127.0.0.1:61720

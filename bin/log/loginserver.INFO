@@ -1,0 +1,32 @@
+Log file created at: 2019/06/03 10:35:09
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0603 10:35:09.688138 274265536 LoginServer.cpp:45] 正在启动登录服务器...
+I0603 10:35:09.692353 274265536 NetModule.h:71] Init NetModule Finished.
+I0603 10:35:09.694164 274265536 NetModule.h:78] start work thread 0...
+I0603 10:35:09.694178 274265536 NetModule.cpp:69] Start Run NetModule...
+I0603 10:35:09.694198 274265536 NetModule.cpp:88] NetModule Already Startover.
+W0603 10:35:09.694588 274265536 LoginServer.cpp:65] listen at: 0.0.0.0:7001
+I0603 10:35:09.694928 274265536 NetModule.cpp:136] Create one server...
+I0603 10:35:09.695017 274265536 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I0603 10:35:10.145560 274265536 NetServer.cpp:55] accept io...127.0.0.1:49423
+I0603 10:35:10.147521 216952832 LoginServerThread.cpp:198] bind one connect: 127.0.0.1:49423
+I0603 10:35:10.157435 216952832 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:49423
+I0603 10:35:11.403565 216952832 LoginServerThread.cpp:7914] load game kind succ!
+I0603 10:35:11.519269 216952832 LoginServerThread.cpp:8025] load game room kind succ!
+I0603 10:35:12.084425 216952832 LoginServerThread.cpp:8407] load system status succ!
+I0603 10:35:12.195963 216952832 LoginServerThread.cpp:8094] load vip config succ!
+I0603 10:35:12.307489 216952832 LoginServerThread.cpp:8126] load vip2 config succ!
+I0603 10:35:12.422461 216952832 LoginServerThread.cpp:8432] load channel show exchange succ!
+I0603 10:35:12.534824 216952832 LoginServerThread.cpp:8462] load exchange info succ!
+I0603 10:35:12.648555 216952832 LoginServerThread.cpp:8489] load channel prsent score succ!
+I0603 10:35:12.761734 216952832 LoginServerThread.cpp:8513] load channel register mail succ!
+I0603 10:35:12.873351 216952832 LoginServerThread.cpp:8154] load benefit config succ!
+I0603 10:35:12.984822 216952832 LoginServerThread.cpp:8221] load game version succ!
+W0603 10:35:13.320044 216952832 LoginServerThread.cpp:336] loginserver start succ.
+W0604 00:00:48.095800 216952832 LoginServerThread.cpp:547] login server is across day.
+W0604 20:16:18.955890 217489408 LoginRecordThread.cpp:101] insert user login record fail. errno: -1, error msg: mysql not opened yet!
+W0605 00:00:01.501375 216952832 LoginServerThread.cpp:547] login server is across day.
+W0605 10:14:45.589007 217489408 LoginRecordThread.cpp:101] insert user login record fail. errno: -1, error msg: mysql not opened yet!
+W0606 00:00:17.765096 216952832 LoginServerThread.cpp:547] login server is across day.
+W0607 00:00:31.559806 216952832 LoginServerThread.cpp:547] login server is across day.

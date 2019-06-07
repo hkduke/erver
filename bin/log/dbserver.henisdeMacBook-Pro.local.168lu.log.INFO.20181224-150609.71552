@@ -1,0 +1,26 @@
+Log file created at: 2018/12/24 15:06:09
+Running on machine: henisdeMacBook-Pro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1224 15:06:09.878793 213685696 DBBufferServer.cpp:55] 正在启动DB服务器...
+I1224 15:06:09.880043 213685696 DBBufferServer.cpp:31] start build db thread...
+W1224 15:06:09.880074 69861376 BuildDBThread.cpp:294] CBuildDBThread run, begin build database ..
+I1224 15:06:09.881090 213685696 NetModule.h:71] Init NetModule Finished.
+I1224 15:06:09.881271 213685696 NetModule.h:77] start work thread 0...
+I1224 15:06:09.881280 213685696 NetModule.cpp:64] Start Run NetModule...
+I1224 15:06:09.881299 213685696 NetModule.cpp:76] NetModule Already Startover.
+I1224 15:06:09.881304 213685696 NetModule.cpp:118] Create one server...
+I1224 15:06:09.948905 213685696 NetServer.cpp:55] accept io...127.0.0.1:57597
+I1224 15:06:09.951220 70397952 DBThread.cpp:100] bind one connect: 127.0.0.1:57597
+I1224 15:06:10.998764 213685696 NetServer.cpp:55] accept io...127.0.0.1:57599
+I1224 15:06:11.697351 213685696 NetServer.cpp:55] accept io...127.0.0.1:57600
+W1224 15:06:20.770830 70397952 DBThread.cpp:205] main db server set time ok!
+I1224 15:06:20.770905 70397952 DBThread.cpp:230] init db server succ!
+I1224 15:06:20.770916 70397952 DBThread.cpp:100] bind one connect: 127.0.0.1:57599
+I1224 15:06:55.106698 70397952 DBThread.cpp:100] bind one connect: 127.0.0.1:57600
+I1224 15:13:59.443837 213685696 NetServer.cpp:88] delete io...127.0.0.1:57597
+I1224 15:14:09.014497 213685696 NetServer.cpp:55] accept io...127.0.0.1:57627
+I1224 15:14:09.014528 70397952 DBThread.cpp:100] bind one connect: 127.0.0.1:57627
+I1224 15:18:32.986790 213685696 NetServer.cpp:88] delete io...127.0.0.1:57627
+I1224 15:18:38.001129 213685696 NetServer.cpp:55] accept io...127.0.0.1:57655
+I1224 15:18:38.002843 70397952 DBThread.cpp:100] bind one connect: 127.0.0.1:57655
+W1224 15:41:22.184613 70397952 DBThread.cpp:7524] insert playback record fail, error = -1, error info: mysql not opened yet!, draw id: 13997623

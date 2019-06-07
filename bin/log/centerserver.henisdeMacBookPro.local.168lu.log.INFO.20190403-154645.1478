@@ -1,0 +1,153 @@
+Log file created at: 2019/04/03 15:46:45
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0403 15:46:45.114013 385299904 CenterServer.cpp:32] 正在启动中心服务器...
+I0403 15:46:45.119051 385299904 NetModule.h:71] Init NetModule Finished.
+I0403 15:46:45.120223 385299904 NetModule.h:78] start work thread 0...
+I0403 15:46:45.120256 385299904 NetModule.cpp:69] Start Run NetModule...
+I0403 15:46:45.120292 385299904 NetModule.cpp:88] NetModule Already Startover.
+I0403 15:46:45.120311 385299904 NetModule.cpp:220] add one connector: 0.0.0.0:6001 succeed...
+I0403 15:46:45.120321 385299904 NetModule.cpp:136] Create one server...
+I0403 15:46:45.620798 385299904 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0403 15:46:45.623085 208277504 CenterThread.cpp:92] connect to db server succ!
+I0403 15:46:48.608260 385299904 NetServer.cpp:55] accept io...127.0.0.1:49414
+I0403 15:46:48.632534 208277504 ServerMgr.cpp:54] register one proxy server: 127.0.0.1:49414
+I0403 15:46:51.768280 385299904 NetServer.cpp:55] accept io...127.0.0.1:49416
+I0403 15:46:51.793617 208277504 ServerMgr.cpp:492] register one login server: 127.0.0.1:49416
+W0403 15:46:59.632638 208277504 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0403 15:47:00.873790 208277504 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0403 15:47:02.088654 208277504 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0403 15:47:03.313868 208277504 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0403 15:47:04.557554 208277504 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0403 15:47:05.787328 208277504 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0403 15:47:06.999132 208277504 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0403 15:47:08.222441 208277504 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0403 15:47:09.456259 208277504 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0403 15:47:10.664675 208277504 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0403 15:47:11.911762 208277504 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0403 15:47:13.115718 208277504 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+W0403 15:47:14.361941 208277504 CenterThread.cpp:3582] OnSubLoadWealthGodHistoryData: 10
+I0403 15:47:15.914484 385299904 NetServer.cpp:55] accept io...127.0.0.1:49426
+I0403 15:47:18.808555 208277504 ServerMgr.cpp:187] register one game server: 127.0.0.1:49426
+W0403 15:47:26.507948 208277504 DuoBaoMgr.cpp:175] load duo bao data finish.
+W0403 15:47:27.300868 208277504 ConfigOption.cpp:1009] set chat upload url: http://test.upload.lerengu.com
+I0403 18:55:48.743358 385299904 NetServer.cpp:88] delete io...127.0.0.1:49426
+W0403 18:55:48.745362 208277504 ServerMgr.cpp:850] remove one game server, id:991
+I0403 21:35:08.681130 385299904 NetServer.cpp:88] delete io...127.0.0.1:49414
+I0403 21:35:08.681274 385299904 NetServer.cpp:88] delete io...127.0.0.1:49416
+W0403 21:35:08.690620 208277504 ServerMgr.cpp:889] remove one proxy server, id:30
+W0403 21:35:08.690696 208277504 ServerMgr.cpp:866] remove one login server, id:10
+W0403 21:35:08.714730 208277504 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0403 21:35:10.162685 385299904 NetModule.cpp:723] ready reconnect server, server id: 0
+I0403 21:35:10.163100 385299904 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0403 21:35:10.165064 208277504 CenterThread.cpp:92] connect to db server succ!
+I0403 21:35:12.184612 385299904 NetServer.cpp:55] accept io...127.0.0.1:50529
+I0403 21:35:12.204890 208277504 ServerMgr.cpp:54] register one proxy server: 127.0.0.1:50529
+I0403 21:35:19.214582 385299904 NetServer.cpp:55] accept io...127.0.0.1:50531
+I0403 21:35:19.238095 208277504 ServerMgr.cpp:492] register one login server: 127.0.0.1:50531
+I0403 23:35:21.971616 385299904 NetServer.cpp:88] delete io...127.0.0.1:50531
+I0403 23:35:21.971714 385299904 NetServer.cpp:88] delete io...127.0.0.1:50529
+W0403 23:35:21.973453 208277504 ServerMgr.cpp:866] remove one login server, id:10
+W0403 23:35:21.973497 208277504 ServerMgr.cpp:889] remove one proxy server, id:30
+W0403 23:35:21.973518 208277504 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0403 23:35:23.456156 385299904 NetModule.cpp:723] ready reconnect server, server id: 0
+I0403 23:35:23.456281 385299904 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0403 23:35:23.458837 208277504 CenterThread.cpp:92] connect to db server succ!
+I0403 23:35:25.467485 385299904 NetServer.cpp:55] accept io...127.0.0.1:50560
+I0403 23:35:25.495450 208277504 ServerMgr.cpp:54] register one proxy server: 127.0.0.1:50560
+I0403 23:35:32.008116 385299904 NetServer.cpp:55] accept io...127.0.0.1:50566
+I0403 23:35:32.038782 208277504 ServerMgr.cpp:492] register one login server: 127.0.0.1:50566
+W0404 01:35:43.955876 208277504 CenterThread.cpp:321] center server is across day.
+I0404 01:35:43.972365 385299904 NetServer.cpp:88] delete io...127.0.0.1:50566
+I0404 01:35:43.972435 385299904 NetServer.cpp:88] delete io...127.0.0.1:50560
+W0404 01:35:43.979910 208277504 ServerMgr.cpp:866] remove one login server, id:10
+W0404 01:35:43.989545 208277504 ServerMgr.cpp:889] remove one proxy server, id:30
+W0404 01:35:43.991677 208277504 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0404 01:35:45.455608 385299904 NetModule.cpp:723] ready reconnect server, server id: 0
+I0404 01:35:45.455672 385299904 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0404 01:35:45.457666 208277504 CenterThread.cpp:92] connect to db server succ!
+I0404 01:35:47.469694 385299904 NetServer.cpp:55] accept io...127.0.0.1:50604
+I0404 01:35:47.475738 208277504 ServerMgr.cpp:54] register one proxy server: 127.0.0.1:50604
+I0404 01:35:54.517915 385299904 NetServer.cpp:55] accept io...127.0.0.1:50626
+I0404 01:35:54.541079 208277504 ServerMgr.cpp:492] register one login server: 127.0.0.1:50626
+I0404 02:15:02.988880 385299904 NetServer.cpp:88] delete io...127.0.0.1:50604
+I0404 02:15:02.988924 385299904 NetServer.cpp:88] delete io...127.0.0.1:50626
+W0404 02:15:02.990567 208277504 ServerMgr.cpp:889] remove one proxy server, id:30
+W0404 02:15:02.990634 208277504 ServerMgr.cpp:866] remove one login server, id:10
+W0404 02:15:02.990669 208277504 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0404 02:15:04.475296 385299904 NetModule.cpp:723] ready reconnect server, server id: 0
+I0404 02:15:04.475358 385299904 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0404 02:15:04.477439 208277504 CenterThread.cpp:92] connect to db server succ!
+I0404 02:15:06.481689 385299904 NetServer.cpp:55] accept io...127.0.0.1:50654
+I0404 02:15:06.492230 208277504 ServerMgr.cpp:54] register one proxy server: 127.0.0.1:50654
+I0404 02:15:13.013859 385299904 NetServer.cpp:55] accept io...127.0.0.1:50740
+I0404 02:15:13.020646 208277504 ServerMgr.cpp:492] register one login server: 127.0.0.1:50740
+I0404 04:15:10.434444 385299904 NetServer.cpp:88] delete io...127.0.0.1:50654
+W0404 04:15:10.437196 208277504 ServerMgr.cpp:889] remove one proxy server, id:30
+I0404 04:15:10.585055 385299904 NetServer.cpp:88] delete io...127.0.0.1:50740
+W0404 04:15:10.865204 208277504 ServerMgr.cpp:866] remove one login server, id:10
+W0404 04:15:11.049921 208277504 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0404 04:15:12.402626 385299904 NetModule.cpp:723] ready reconnect server, server id: 0
+I0404 04:15:12.402701 385299904 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0404 04:15:12.403219 208277504 CenterThread.cpp:92] connect to db server succ!
+I0404 04:15:14.408186 385299904 NetServer.cpp:55] accept io...127.0.0.1:50797
+I0404 04:15:14.438964 208277504 ServerMgr.cpp:54] register one proxy server: 127.0.0.1:50797
+I0404 04:15:21.462690 385299904 NetServer.cpp:55] accept io...127.0.0.1:50803
+I0404 04:15:21.471132 208277504 ServerMgr.cpp:492] register one login server: 127.0.0.1:50803
+I0404 06:15:23.112520 385299904 NetServer.cpp:88] delete io...127.0.0.1:50803
+W0404 06:15:23.117805 208277504 ServerMgr.cpp:866] remove one login server, id:10
+W0404 06:15:23.135736 208277504 ServerMgr.cpp:889] remove one proxy server, id:30
+I0404 06:15:23.137643 385299904 NetServer.cpp:88] delete io...127.0.0.1:50797
+W0404 06:15:23.159358 208277504 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0404 06:15:24.603472 385299904 NetModule.cpp:723] ready reconnect server, server id: 0
+I0404 06:15:24.604316 385299904 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0404 06:15:24.605788 208277504 CenterThread.cpp:92] connect to db server succ!
+I0404 06:15:26.601413 385299904 NetServer.cpp:55] accept io...127.0.0.1:50846
+I0404 06:15:26.609525 208277504 ServerMgr.cpp:54] register one proxy server: 127.0.0.1:50846
+I0404 06:15:33.642026 385299904 NetServer.cpp:55] accept io...127.0.0.1:50848
+I0404 06:15:33.646816 208277504 ServerMgr.cpp:492] register one login server: 127.0.0.1:50848
+I0404 08:15:34.918346 385299904 NetServer.cpp:88] delete io...127.0.0.1:50846
+W0404 08:15:34.936691 208277504 ServerMgr.cpp:889] remove one proxy server, id:30
+W0404 08:15:34.942379 208277504 ServerMgr.cpp:866] remove one login server, id:10
+I0404 08:15:34.942749 385299904 NetServer.cpp:88] delete io...127.0.0.1:50848
+W0404 08:15:34.944851 208277504 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0404 08:15:36.390902 385299904 NetModule.cpp:723] ready reconnect server, server id: 0
+I0404 08:15:36.391185 385299904 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0404 08:15:36.391604 208277504 CenterThread.cpp:92] connect to db server succ!
+I0404 08:15:38.405583 385299904 NetServer.cpp:55] accept io...127.0.0.1:50897
+I0404 08:15:38.435746 208277504 ServerMgr.cpp:54] register one proxy server: 127.0.0.1:50897
+I0404 08:15:45.448678 385299904 NetServer.cpp:55] accept io...127.0.0.1:50907
+I0404 08:15:45.460070 208277504 ServerMgr.cpp:492] register one login server: 127.0.0.1:50907
+W0404 08:45:04.886199 208277504 ServerMgr.cpp:866] remove one login server, id:10
+I0404 08:45:04.886926 385299904 NetServer.cpp:88] delete io...127.0.0.1:50907
+I0404 08:45:04.889178 385299904 NetServer.cpp:88] delete io...127.0.0.1:50897
+W0404 08:45:04.889191 208277504 ServerMgr.cpp:889] remove one proxy server, id:30
+W0404 08:45:04.952463 208277504 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0404 08:45:06.362424 385299904 NetModule.cpp:723] ready reconnect server, server id: 0
+I0404 08:45:06.362536 385299904 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0404 08:45:06.363308 208277504 CenterThread.cpp:92] connect to db server succ!
+I0404 08:45:08.387553 385299904 NetServer.cpp:55] accept io...127.0.0.1:50962
+I0404 08:45:08.417929 208277504 ServerMgr.cpp:54] register one proxy server: 127.0.0.1:50962
+I0404 09:32:47.929450 385299904 NetServer.cpp:55] accept io...127.0.0.1:50972
+I0404 09:32:47.946764 385299904 NetServer.cpp:88] delete io...127.0.0.1:50962
+W0404 09:32:47.966749 208277504 ServerMgr.cpp:889] remove one proxy server, id:30
+W0404 09:32:47.966873 208277504 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+I0404 09:32:47.966903 208277504 ServerMgr.cpp:492] register one login server: 127.0.0.1:50972
+W0404 09:32:49.432787 385299904 NetModule.cpp:723] ready reconnect server, server id: 0
+I0404 09:32:49.432848 385299904 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0404 09:32:49.435173 208277504 CenterThread.cpp:92] connect to db server succ!
+I0404 09:32:51.437957 385299904 NetServer.cpp:55] accept io...127.0.0.1:51001
+I0404 09:32:51.458202 208277504 ServerMgr.cpp:54] register one proxy server: 127.0.0.1:51001
+I0404 10:58:33.158098 385299904 NetServer.cpp:88] delete io...127.0.0.1:51001
+I0404 10:58:33.158260 385299904 NetServer.cpp:88] delete io...127.0.0.1:50972
+W0404 10:58:33.159827 208277504 ServerMgr.cpp:889] remove one proxy server, id:30
+W0404 10:58:33.160113 208277504 ServerMgr.cpp:866] remove one login server, id:10
+W0404 10:58:33.160141 208277504 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!
+W0404 10:58:34.638234 385299904 NetModule.cpp:723] ready reconnect server, server id: 0
+I0404 10:58:34.638303 385299904 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0404 10:58:34.639508 208277504 CenterThread.cpp:92] connect to db server succ!
+I0404 10:58:36.646869 385299904 NetServer.cpp:55] accept io...127.0.0.1:51076
+I0404 10:58:36.658386 208277504 ServerMgr.cpp:54] register one proxy server: 127.0.0.1:51076
+I0404 10:58:43.659859 385299904 NetServer.cpp:55] accept io...127.0.0.1:51084
+I0404 10:58:43.681483 208277504 ServerMgr.cpp:492] register one login server: 127.0.0.1:51084
+W0404 14:26:34.351742 208277504 CenterThread.cpp:125] db server is disconnect, after 1s will be reconnect!

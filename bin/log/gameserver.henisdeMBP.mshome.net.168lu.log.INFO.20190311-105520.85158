@@ -1,0 +1,25 @@
+Log file created at: 2019/03/11 10:55:20
+Running on machine: henisdeMBP.mshome.net
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0311 10:55:20.383955 197977536 GameServer.cpp:45] 正在启动游戏服务器...
+I0311 10:55:20.386039 197977536 NetModule.h:71] Init NetModule Finished.
+I0311 10:55:20.386253 197977536 NetModule.h:78] start work thread 0...
+I0311 10:55:20.386265 197977536 NetModule.cpp:69] Start Run NetModule...
+I0311 10:55:20.386281 197977536 NetModule.cpp:88] NetModule Already Startover.
+I0311 10:55:20.386293 197977536 NetModule.cpp:220] add one connector: 127.0.0.1:5001 succeed...
+I0311 10:55:20.386299 197977536 NetModule.cpp:220] add one connector: 127.0.0.1:6001 succeed...
+I0311 10:55:20.386306 197977536 NetModule.cpp:136] Create one server...
+I0311 10:55:20.888233 197977536 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0311 10:55:20.888334 73666560 GameServerThread.cpp:113] connect to db server succ!
+I0311 10:55:20.888430 197977536 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0311 10:55:22.760926 73666560 AndroidUserMgr.cpp:832] set active android count: 0
+I0311 10:55:22.761008 73666560 AndroidUserMgr.cpp:832] set active android count: 70
+I0311 10:55:22.905167 197977536 NetServer.cpp:55] accept io...127.0.0.1:60025
+I0311 10:55:23.082110 73666560 GameServerThread.cpp:1910] load benefit config succ!
+I0311 10:55:23.718506 73666560 GameServerThread.cpp:1830] load android parameter succ, android count : 40
+W0311 10:55:23.845273 73666560 GameTableManager.cpp:564] update br game server black list, server id: 991
+I0311 10:55:23.846056 73666560 GameServerThread.cpp:1484] init server succ!
+I0311 10:55:23.846086 73666560 GameServerThread.cpp:146] bind one connect: 127.0.0.1:60025
+I0311 10:55:23.846137 73666560 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:60025
+I0311 11:02:00.812865 197977536 NetServer.cpp:88] delete io...127.0.0.1:60025
+W0311 11:04:31.140748 73666560 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!

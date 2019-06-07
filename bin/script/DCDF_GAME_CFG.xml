@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--0=鼓：SCATTER，免费游戏图标，前3列连续出现将触发免费游戏。
+	1=福：WILD，百搭图标，可代替其他普通图标进行赔付。
+	2=金狮
+	3=金船
+	4=金摇钱树
+	5=金元宝
+	6=金币
+	7=A
+	8=k
+	9=Q
+	10=J 
+	11=10
+	12=9-->
+<Root>
+	// 旋转最小等待时间（单位：秒）
+	<spinInterval>1</spinInterval>
+	// 赔率表
+	<iconPayTable>
+		<item iconID="0" three="440" four="880" five="4400" />		//!-- 鼓：SCATTER，免费游戏 -->
+		<item iconID="1" three="0" four="0" five="0" />		//!-- 福：WILD -->
+		<item iconID="2" three="100" four="200" five="800" /> //!-- 金狮 -->
+		<item iconID="3" three="50" four="100" five="400" /> 	//!-- 金船 -->
+		<item iconID="4" three="30" four="75" five="200" /> 	//!-- 金摇钱树 -->
+		<item iconID="5" three="25" four="50" five="150" /> 	//!-- 金元宝 -->
+		<item iconID="6" three="15" four="25" five="100" />   //!-- 金币 -->
+		<item iconID="7" three="5" four="10" five="20" /> 	//!-- A -->
+		<item iconID="8" three="5" four="10" five="20" /> 	//!-- K -->
+		<item iconID="9" three="5" four="10" five="20" /> 	//!-- Q -->
+		<item iconID="10" three="5" four="10" five="15" /> 	//!-- J -->
+		<item iconID="10" three="5" four="10" five="15" /> 	//!-- 10 -->
+		<item iconID="10" three="5" four="10" five="15" /> 	//!-- 9 -->
+	</iconPayTable>
+	//押注底分 与 底分总押注
+	<stakeTable baseStake='1' totalStake='88'>		// 押注底分 与 底分总押注
+		<!-- betIndex,押注索引;betMultiplier,押注底分倍数;betBaseStake,押注底分;betTotalStake,总押注 -->
+		<item betIndex='0' betMultiplier='1' betBaseStake='1' betTotalStake='88' />
+		<item betIndex='1' betMultiplier='2' betBaseStake='2' betTotalStake='176' />
+		<item betIndex='2' betMultiplier='3' betBaseStake='3' betTotalStake='264' />
+		<item betIndex='3' betMultiplier='5' betBaseStake='5' betTotalStake='440' />
+		<item betIndex='4' betMultiplier='6' betBaseStake='6' betTotalStake='528' />
+		<item betIndex='5' betMultiplier='10' betBaseStake='10' betTotalStake='880' />
+		<item betIndex='6' betMultiplier='15' betBaseStake='15' betTotalStake='1320' />
+		<item betIndex='7' betMultiplier='25' betBaseStake='25' betTotalStake='2200' />
+		<item betIndex='8' betMultiplier='50' betBaseStake='50' betTotalStake='4400' />
+		<item betIndex='9' betMultiplier='100' betBaseStake='100' betTotalStake='8800' />
+		<item betIndex='10' betMultiplier='150' betBaseStake='150' betTotalStake='13200' />
+		<item betIndex='11' betMultiplier='250' betBaseStake='250' betTotalStake='22000' />
+		<item betIndex='12' betMultiplier='500' betBaseStake='500' betTotalStake='44000' />
+		<item betIndex='13' betMultiplier='1000' betBaseStake='1000' betTotalStake='88000' />
+		<item betIndex='14' betMultiplier='1500' betBaseStake='1500' betTotalStake='132000' />
+	</stakeTable>
+	// 赔率反馈表
+	<payNotify>
+		<level id="0" desc="赢奖" payoutMin="1" payOutMax="50" />
+		<level id="1" desc="大赢奖" payoutMin="50" payOutMax="100" />
+		<level id="2" desc="超级赢奖" payoutMin="100" payOutMax="200" />
+		<level id="3" desc="超级大赢奖" payoutMin="200" payOutMax="300" />
+		<level id="4" desc="无敌大赢奖" payoutMin="300" payOutMax="10000" />
+	</payNotify>
+	<!--集福聚宝玩法：baseStake,基础底分赌注;baseTotalStake,单次总赌注-->
+	<!--jackpotIndex,彩金索引;jackpotName,彩金名称;baseValue,基础奖金;plusValue,押注88时彩金增益值 -->
+	<!--不同的押注,其彩金池奖金与增益值均根据押注的倍数做倍乘处理 -->
+	<bonusJackpot baseStake='1' baseTotalStake='88'>
+		<item jackpotIndex='0' jackpotName='MINI' baseValue='800' plusValue='1' />
+		<item jackpotIndex='1' jackpotName='MINOR' baseValue='1000' plusValue='1' />
+		<item jackpotIndex='2' jackpotName='MAJOR' baseValue='10000' plusValue='0.5' />
+		<item jackpotIndex='3' jackpotName='GRAND' baseValue='50000' plusValue='0.25' />
+	</bonusJackpot>
+
+	<!--	collectCounts是指需要集福的个数,即单档押注下所有玩家旋转结果至少需要出现福的次数;
+			triggerProb是指集福次数达标后，以后每次旋转有概率开启聚宝盆的概率（万分比）
+			triggerWeight是指各彩金类型开奖的万分比概率
+			isBless 开奖时是否需要结果中有福图片-->
+	<bonusActive collectCounts='0' isBless='1' triggerProb='25'>
+		<item jackpotIndex='0' triggerWeight='7700' />
+		<item jackpotIndex='1' triggerWeight='2200' />
+		<item jackpotIndex='2' triggerWeight='95' />
+		<item jackpotIndex='3' triggerWeight='5' />
+	</bonusActive>
+
+	// 免费游戏类型配置
+	 <!--en_Error_Type       = 0,    //错误类型
+    en_3X5_15		    = 1,    //15次[3×5]免费游戏
+    en_4X5_10		    = 2,    //10次[4×5]免费游戏
+    en_5X5_5		    = 3,    //5次[5×5]免费游戏
+    en_6X5_3		    = 4,    //3次[6×5]免费游戏
+    en_Sys_Rand         = 5,    //神秘精选（系统随机选中前4种组合的免费次数和框格大小，再组合成免费奖励）-->
+	<freeGameTypeCfg>
+		<item cbFreeGameType="1" cbRows="3" dwFreeGameTimes="15" />		//!-- en_3X5_15		    = 1,    15次[3×5]免费游戏 -->
+		<item cbFreeGameType="2" cbRows="4" dwFreeGameTimes="10" />		//!-- en_4X5_10		    = 2,    10次[4×5]免费游戏 -->
+		<item cbFreeGameType="3" cbRows="5" dwFreeGameTimes="5" />		//!-- en_5X5_5		    = 3,    5次[5×5]免费游戏 -->
+		<item cbFreeGameType="4" cbRows="6" dwFreeGameTimes="3" />		//!-- en_6X5_3		    = 4,    3次[6×5]免费游戏 -->
+	</freeGameTypeCfg>
+	//!-- en_Sys_Rand         = 5,    神秘精选（系统随机选中前4种组合的免费次数和框格大小，再组合成免费奖励）-->
+	<freeGameMysteryPick>
+		<itemRows cbRows='3' wProba='25'>	//!-- 3行		    概率：3行4行5行6行每行的概率之和必须等于100% -->
+			<item cbTimes='15' fProba = '80'/>
+			<item cbTimes='10' fProba = '10'/>  //!-- 10次	    	概率：15，10，5，3次的概率之和必须等于100% -->
+			<item cbTimes='5' fProba = '7.5'/>
+			<item cbTimes='3' fProba = '2.5'/>
+		</itemRows>
+		<itemRows cbRows='4' wProba='25'>	//!-- 4行		    概率：3行4行5行6行每行的概率之和必须等于100% -->
+			<item cbTimes='15' fProba = '10'/>
+			<item cbTimes='10' fProba = '80'/>
+			<item cbTimes='5' fProba = '5'/>	//!-- 5次	    	概率：15，10，5，3次的概率之和必须等于100% -->
+			<item cbTimes='3' fProba = '5'/>
+		</itemRows>
+		<itemRows cbRows='5' wProba='25'>	//!-- 5行		    概率：3行4行5行6行每行的概率之和必须等于100% -->
+			<item cbTimes='15' fProba = '0.5'/>	//!-- 15次	    	概率：15，10，5，3次的概率之和必须等于100% -->
+			<item cbTimes='10' fProba = '2.5'/>
+			<item cbTimes='5' fProba = '85'/>
+			<item cbTimes='3' fProba = '12'/>
+		</itemRows>
+		<itemRows cbRows='6' wProba='25'>	//!-- 6行		    概率：3行4行5行6行每行的概率之和必须等于100% -->
+			<item cbTimes='15' fProba = '0.2'/>
+			<item cbTimes='10' fProba = '1.8'/>	//!-- 10次	    	概率：15，10，5，3次的概率之和必须等于100% -->
+			<item cbTimes='5' fProba = '8'/>
+			<item cbTimes='3' fProba = '90'/>
+		</itemRows>
+	</freeGameMysteryPick>
+	///主游戏配置
+	<!--reelIndex,转轴索引0,主游戏，1-4为免费游戏;  rows,转轴盘面行数; columns,转轴盘面列数 -->
+	<gameIconCfg>
+		<gameItem reelIndex='0' rows='3' columns='5'>
+			<item StripColumnID = '0' indexCounts='60' iconReelInfo='3;10;12;6;5;5;3;12;3;3;3;4;12;6;6;6;9;4;4;4;6;0;2;2;2;0;3;3;5;6;8;5;9;6;6;7;3;6;11;3;5;7;6;4;4;5;5;5;6;2;10;4;5;6;4;5;3;6;4;5;3;10' />
+			<item StripColumnID = '1' indexCounts='60' iconReelInfo='5;6;6;0;2;2;2;0;4;4;4;5;5;5;1;2;6;6;4;4;10;2;2;3;3;3;6;6;6;11;5;11;6;9;8;5;9;11;6;6;10;4;8;5;7;6;6;1;4;4;8;6;11;2;4;12;5;4;6;4;5;6' />
+			<item StripColumnID = '2' indexCounts='61' iconReelInfo='1;10;5;4;12;5;4;5;6;5;5;5;0;2;3;8;6;1;4;11;0;5;5;4;4;4;11;2;4;4;6;5;8;6;0;5;12;6;7;4;6;6;6;9;2;1;5;10;3;3;3;2;2;0;5;9;4;0;6;4;5;1;10' />
+			<item StripColumnID = '3' indexCounts='60' iconReelInfo='11;9;5;5;5;0;2;6;6;6;7;10;1;9;6;6;8;4;4;4;12;5;5;11;7;3;12;1;6;8;4;11;3;3;3;12;0;2;2;2;7;8;4;6;12;3;7;6;6;10;5;12;10;3;12;9;4;12;6;6;11;9' />
+			<item StripColumnID = '4' indexCounts='60' iconReelInfo='8;5;9;7;5;9;3;3;3;12;11;0;2;2;2;0;10;4;11;2;4;12;7;3;10;7;2;11;9;6;6;6;12;7;2;8;11;3;9;8;5;5;5;7;4;4;4;7;6;8;4;10;6;2;10;12;6;2;8;5;8;5' />
+		</gameItem>
+		<gameItem reelIndex='1' rows='3' columns='5'>
+			<item StripColumnID='0' indexCounts='45' iconReelInfo='6;10;6;5;6;11;5;9;6;6;6;5;0;6;6;6;4;5;5;0;4;6;6;6;0;2;2;2;6;6;12;5;6;6;3;3;3;6;5;8;6;6;6;4;7;6;10' />
+			<item StripColumnID='1' indexCounts='60' iconReelInfo='9;6;6;0;5;5;11;6;6;2;2;0;12;4;11;1;6;10;3;5;6;5;10;6;6;6;3;12;6;5;4;4;4;2;6;7;2;1;6;6;3;3;3;6;5;8;6;6;7;1;11;6;8;0;6;6;7;2;6;9;9;6' />
+			<item StripColumnID='2' indexCounts='61' iconReelInfo='0;5;7;3;8;6;6;10;0;6;6;1;2;5;11;6;6;8;1;2;6;10;4;4;12;6;2;5;11;6;5;7;3;3;3;6;7;4;4;10;6;6;9;2;1;2;6;6;0;12;2;7;6;6;6;6;7;2;7;6;8;0;5' />
+			<item StripColumnID='3' indexCounts='60' iconReelInfo='7;5;7;6;9;0;6;5;2;6;9;2;1;7;5;6;8;3;6;9;9;2;6;11;2;11;1;6;2;8;6;8;0;6;6;12;1;2;6;6;5;7;6;2;10;4;6;7;0;6;10;5;10;6;3;3;4;4;12;4;7;5' />
+			<item StripColumnID='4' indexCounts='59' iconReelInfo='6;9;2;6;4;7;6;4;7;4;0;6;6;6;0;10;4;4;7;2;2;6;11;3;3;6;10;6;6;5;7;6;12;5;12;4;8;3;8;6;9;9;6;7;3;2;9;3;6;8;4;2;2;4;10;6;5;5;8;6;9' />
+		</gameItem>
+		<gameItem reelIndex='2' rows='4' columns='5'>
+			<item StripColumnID='0' indexCounts='60' iconReelInfo='6;2;5;5;5;6;6;5;5;8;3;3;3;4;4;4;9;5;7;3;5;5;10;5;5;4;4;3;6;6;0;11;6;2;4;0;2;6;6;3;4;4;4;6;6;3;4;6;2;2;2;6;0;2;4;6;6;6;12;5;6;2;5' />
+			<item StripColumnID='1' indexCounts='80' iconReelInfo='5;6;3;7;5;5;5;0;5;5;4;12;6;8;5;0;5;5;7;1;8;6;6;7;3;9;6;6;9;2;2;2;3;3;3;12;2;6;3;11;4;6;2;8;4;6;3;9;2;4;5;10;6;4;3;7;6;4;2;11;6;5;11;1;12;4;4;4;6;0;6;2;2;10;1;10;3;4;6;2;5;6;3' />
+			<item StripColumnID='2' indexCounts='81' iconReelInfo='8;3;2;12;6;6;6;9;5;5;5;6;6;7;3;3;5;7;1;8;5;5;4;4;4;10;3;6;6;12;4;3;6;9;2;3;4;8;6;6;2;11;1;12;4;4;6;6;2;0;5;6;9;4;4;6;5;7;1;12;4;6;3;3;10;2;11;4;5;6;10;2;0;3;12;2;2;10;6;0;11;8;3;2' />
+			<item StripColumnID='3' indexCounts='78' iconReelInfo='3;6;2;7;6;4;2;5;5;5;0;6;2;4;6;6;4;8;1;8;6;6;4;9;1;9;3;2;5;6;6;6;0;4;10;2;2;2;4;6;10;1;11;3;3;3;6;2;5;0;6;3;5;12;6;4;5;10;3;3;5;11;4;4;4;8;6;2;11;3;3;12;6;4;5;5;5;10;3;6;2' />
+			<item StripColumnID='4' indexCounts='78' iconReelInfo='3;3;5;8;4;2;2;7;5;6;4;4;7;3;5;5;8;6;4;3;0;2;2;2;8;5;3;10;6;6;6;9;3;5;6;6;5;3;3;11;5;5;5;4;4;2;11;4;3;2;7;5;6;2;9;3;6;4;10;2;5;6;12;2;0;4;4;4;5;3;6;12;4;3;2;6;4;9;3;3;5' />
+		</gameItem>
+		<gameItem reelIndex='3' rows='5' columns='5'>
+			<item StripColumnID='0' indexCounts='75' iconReelInfo='3;5;10;6;12;6;6;6;8;3;3;11;4;12;6;6;6;9;4;4;4;8;0;2;2;2;8;3;2;3;0;6;3;5;9;3;5;8;6;5;11;3;5;0;3;6;5;5;5;4;10;6;4;5;10;4;5;3;6;6;5;7;7;2;2;2;5;5;2;3;12;6;3;5;9;3;5;10;6' />
+			<item StripColumnID='1' indexCounts='100' iconReelInfo='6;6;6;5;5;2;2;2;10;6;6;6;5;5;5;9;1;10;4;4;4;11;6;8;6;2;3;3;11;6;6;9;1;11;5;6;5;5;6;5;11;1;8;4;6;5;2;7;1;8;4;4;5;5;6;4;12;1;7;6;6;2;6;6;3;3;3;6;6;6;7;5;11;6;9;9;5;5;6;11;5;10;4;8;6;5;2;7;1;8;4;4;5;12;6;4;12;5;7;4;6;6;6;5' />
+			<item StripColumnID='2' indexCounts='102' iconReelInfo='6;6;2;5;10;1;12;4;6;6;6;10;5;5;5;4;6;11;1;8;5;6;6;5;10;4;4;4;10;3;4;4;11;5;8;6;7;5;12;6;7;3;6;6;6;4;9;1;10;6;4;4;3;2;2;10;1;9;6;2;7;1;11;5;5;6;4;4;7;1;8;3;3;10;4;5;5;5;12;4;7;3;6;6;6;9;4;4;2;10;4;4;3;3;2;2;2;9;6;7;5;5;6;6;2;5' />
+			<item StripColumnID='3' indexCounts='96' iconReelInfo='6;7;7;5;5;5;10;3;8;6;6;6;9;1;11;11;5;8;4;4;4;12;5;5;5;7;3;12;1;8;6;4;11;3;3;3;12;1;7;2;2;10;1;10;4;3;10;1;8;6;2;5;12;1;10;3;12;4;6;6;6;7;5;5;11;11;3;6;8;4;11;3;3;3;2;2;7;7;2;4;10;10;3;7;7;6;10;5;5;10;3;12;12;4;6;6;6;7;7;5' />
+			<item StripColumnID='4' indexCounts='94' iconReelInfo='10;10;4;9;9;6;2;9;9;2;11;11;2;6;2;0;10;2;11;11;5;5;7;2;10;0;2;11;11;6;6;6;12;12;3;3;11;11;3;8;8;5;5;7;7;4;4;7;7;5;4;7;7;5;2;10;10;5;8;8;5;8;8;3;10;10;5;11;6;6;6;12;12;3;3;3;8;8;5;5;7;7;4;4;7;5;8;4;7;7;5;3;3;9;10;10;4;9' />
+		</gameItem>
+		<gameItem reelIndex='4' rows='6' columns='5'>
+			<item StripColumnID='0' indexCounts='79' iconReelInfo='6;6;10;6;12;6;6;6;8;3;3;11;4;12;6;6;6;9;4;4;4;8;0;2;2;2;8;3;2;3;0;6;3;5;9;3;5;8;6;5;11;3;5;0;3;6;5;5;5;4;10;6;4;5;10;4;5;3;6;6;5;7;7;2;2;2;5;5;2;3;12;6;3;5;9;3;5;10;6;6;6;6;10;6' />
+			<item StripColumnID='1' indexCounts='98' iconReelInfo='4;6;6;5;5;2;2;2;10;6;6;6;5;5;5;9;1;10;4;4;4;11;6;8;6;2;3;3;11;6;6;9;1;11;5;6;5;5;6;5;11;0;8;4;6;5;2;7;8;4;4;5;5;6;4;12;1;7;6;6;2;6;6;3;3;3;6;6;6;7;5;11;6;9;9;5;5;6;11;5;10;4;8;6;5;2;7;1;8;4;4;5;12;6;4;12;5;7;4;6;6;5;5' />
+			<item StripColumnID='2' indexCounts='98' iconReelInfo='5;5;2;5;10;1;12;4;6;6;6;10;5;5;5;4;6;11;1;8;5;6;6;5;10;4;4;4;10;3;4;4;11;5;8;6;7;5;12;6;7;3;6;6;6;4;9;10;6;4;4;3;2;2;10;1;9;6;2;7;10;0;5;5;6;4;4;7;1;8;3;3;10;4;5;5;5;12;4;7;3;6;6;6;9;4;4;2;10;4;4;3;3;2;2;2;9;6;7;5;5;2;5' />
+			<item StripColumnID='3' indexCounts='95' iconReelInfo='7;10;7;5;5;5;10;3;8;6;6;6;9;0;11;11;5;8;4;4;4;12;5;5;5;7;3;12;1;8;6;4;11;3;3;3;12;1;7;2;2;10;10;4;3;10;1;8;6;2;5;12;10;3;12;4;6;6;1;7;5;5;11;11;3;12;12;6;8;4;11;3;3;3;2;2;7;7;2;4;10;10;3;7;7;6;10;5;5;10;3;4;6;6;6;7;10;7;5;5' />
+			<item StripColumnID='4' indexCounts='99' iconReelInfo='5;8;4;9;9;6;2;9;9;2;11;11;2;6;2;0;10;2;11;11;5;5;7;2;10;0;2;11;11;6;6;6;12;12;3;3;11;11;3;8;8;5;5;7;7;4;4;7;7;5;4;7;7;5;2;10;10;5;8;8;5;8;8;3;10;10;5;11;6;6;6;12;12;3;3;11;11;3;8;8;5;5;7;7;4;4;7;5;8;4;7;7;5;2;10;10;5;8;8;5;8;4;9;9' />
+		</gameItem>
+	</gameIconCfg>
+</Root>

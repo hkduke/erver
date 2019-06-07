@@ -1,0 +1,30 @@
+Log file created at: 2019/05/30 19:31:03
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0530 19:31:03.038761 273941952 GameServer.cpp:45] 正在启动游戏服务器...
+I0530 19:31:03.041916 273941952 NetModule.h:71] Init NetModule Finished.
+I0530 19:31:03.042171 273941952 NetModule.h:78] start work thread 0...
+I0530 19:31:03.042181 273941952 NetModule.cpp:69] Start Run NetModule...
+I0530 19:31:03.042197 273941952 NetModule.cpp:88] NetModule Already Startover.
+I0530 19:31:03.042212 273941952 NetModule.cpp:220] add one connector: 127.0.0.1:5001 succeed...
+I0530 19:31:03.042217 273941952 NetModule.cpp:220] add one connector: 127.0.0.1:6001 succeed...
+I0530 19:31:03.042222 273941952 NetModule.cpp:136] Create one server...
+I0530 19:31:03.543419 273941952 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0530 19:31:03.543488 273941952 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0530 19:31:03.545588 84307968 GameServerThread.cpp:114] connect to db server succ!
+I0530 19:31:05.692451 84307968 AndroidUserMgr.cpp:945] set active android count: 0
+I0530 19:31:05.692489 84307968 AndroidUserMgr.cpp:945] set active android count: 7
+I0530 19:31:05.762750 273941952 NetServer.cpp:55] accept io...127.0.0.1:58517
+I0530 19:31:06.290807 84307968 GameServerThread.cpp:1991] load benefit config succ!
+I0530 19:31:06.974864 84307968 GameServerThread.cpp:1911] load android parameter succ, android count : 30
+W0530 19:31:07.098359 84307968 GameTableManager.cpp:613] update br game server black list, server id: 10001
+I0530 19:31:07.098800 84307968 GameServerThread.cpp:1565] init server succ!
+I0530 19:31:07.098860 84307968 GameServerThread.cpp:147] bind one connect: 127.0.0.1:58517
+I0530 19:31:07.098873 84307968 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:58517
+W0530 19:31:10.935515 84307968 AndroidUserMgr.cpp:292] need android count: 1
+W0530 19:31:29.318243 84307968 AndroidUserMgr.cpp:292] need android count: 2
+W0530 19:31:49.811300 84307968 AndroidUserMgr.cpp:292] need android count: 2
+W0530 19:32:08.971501 84307968 AndroidUserMgr.cpp:292] need android count: 5
+W0530 19:32:29.166443 84307968 AndroidUserMgr.cpp:292] need android count: 6
+W0530 19:32:50.093304 84307968 AndroidUserMgr.cpp:292] need android count: 2
+W0530 19:33:09.873885 84307968 AndroidUserMgr.cpp:292] need android count: 5

@@ -1,0 +1,25 @@
+Log file created at: 2018/12/14 11:25:41
+Running on machine: henisdeMacBook-Pro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1214 11:25:41.791525 303990208 DBBufferServer.cpp:55] 正在启动DB服务器...
+I1214 11:25:41.792704 303990208 DBBufferServer.cpp:31] start build db thread...
+W1214 11:25:41.792748 196120576 BuildDBThread.cpp:295] CBuildDBThread run, begin build database ..
+I1214 11:25:41.793988 303990208 NetModule.h:71] Init NetModule Finished.
+I1214 11:25:41.794209 303990208 NetModule.h:77] start work thread 0...
+I1214 11:25:41.794220 303990208 NetModule.cpp:64] Start Run NetModule...
+I1214 11:25:41.794241 303990208 NetModule.cpp:76] NetModule Already Startover.
+I1214 11:25:41.794250 303990208 NetModule.cpp:118] Create one server...
+W1214 11:25:43.805291 196120576 BuildDBThread.cpp:133] open :127.0.0.1:3306 record_score root root123321@mysql error!errno: -1error: mysql not opened yet!
+W1214 11:25:43.805815 196120576 BuildDBThread.cpp:218] open :127.0.0.1:3306@mysql error!
+I1214 11:25:45.666736 303990208 NetServer.cpp:55] accept io...127.0.0.1:49440
+I1214 11:25:45.668745 196657152 DBThread.cpp:100] bind one connect: 127.0.0.1:49440
+W1214 11:25:45.670382 196657152 DBThread.cpp:5142] get platform db handle fail.
+W1214 11:25:45.670428 196657152 DBThread.cpp:205] main db server set time ok!
+I1214 11:25:45.670451 196657152 DBThread.cpp:230] init db server succ!
+W1214 11:25:45.675951 196657152 DBThread.cpp:1617] get platform db handle fail.
+I1214 11:25:48.615517 303990208 NetServer.cpp:55] accept io...127.0.0.1:49446
+I1214 11:25:48.617581 196657152 DBThread.cpp:100] bind one connect: 127.0.0.1:49446
+I1214 11:25:56.615942 303990208 NetServer.cpp:55] accept io...127.0.0.1:49451
+I1214 11:25:56.617620 196657152 DBThread.cpp:100] bind one connect: 127.0.0.1:49451
+I1214 11:25:56.627436 303990208 NetServer.cpp:88] delete io...127.0.0.1:49451
+I1214 11:26:19.935325 303990208 NetServer.cpp:55] accept io...127.0.0.1:49458

@@ -1,0 +1,76 @@
+Log file created at: 2019/03/21 18:36:47
+Running on machine: henisdeMBP.mshome.net
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0321 18:36:47.363147 212342208 LoginServer.cpp:45] 正在启动登录服务器...
+I0321 18:36:47.367519 212342208 NetModule.h:71] Init NetModule Finished.
+I0321 18:36:47.369462 212342208 NetModule.h:78] start work thread 0...
+I0321 18:36:47.369475 212342208 NetModule.cpp:69] Start Run NetModule...
+I0321 18:36:47.369494 212342208 NetModule.cpp:88] NetModule Already Startover.
+W0321 18:36:47.370025 212342208 LoginServer.cpp:65] listen at: 0.0.0.0:7001
+I0321 18:36:47.370594 212342208 NetModule.cpp:136] Create one server...
+I0321 18:36:47.370678 212342208 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I0321 18:36:47.677034 212342208 NetServer.cpp:55] accept io...127.0.0.1:49341
+I0321 18:36:47.679267 212697088 LoginServerThread.cpp:199] bind one connect: 127.0.0.1:49341
+I0321 18:36:47.681752 212697088 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:49341
+I0321 18:36:49.068816 212697088 LoginServerThread.cpp:7867] load game kind succ!
+I0321 18:36:49.181493 212697088 LoginServerThread.cpp:7978] load game room kind succ!
+I0321 18:36:49.629000 212697088 LoginServerThread.cpp:8345] load system status succ!
+I0321 18:36:49.741926 212697088 LoginServerThread.cpp:8047] load vip config succ!
+I0321 18:36:49.853521 212697088 LoginServerThread.cpp:8079] load vip2 config succ!
+I0321 18:36:49.967921 212697088 LoginServerThread.cpp:8370] load channel show exchange succ!
+I0321 18:36:50.079772 212697088 LoginServerThread.cpp:8400] load exchange info succ!
+I0321 18:36:50.193181 212697088 LoginServerThread.cpp:8427] load channel prsent score succ!
+I0321 18:36:50.305475 212697088 LoginServerThread.cpp:8451] load channel register mail succ!
+I0321 18:36:50.418103 212697088 LoginServerThread.cpp:8107] load benefit config succ!
+I0321 18:36:50.530200 212697088 LoginServerThread.cpp:8174] load game version succ!
+W0321 18:36:50.865015 212697088 LoginServerThread.cpp:337] loginserver start succ.
+W0322 00:00:04.049243 212697088 LoginServerThread.cpp:548] login server is across day.
+W0322 10:17:18.510581 212697088 LoginServerThread.cpp:5772] select earn score fail. errno: 2003, err msg: Can't connect to MySQL server on '58.82.239.150' (60)
+W0322 10:17:19.955931 212697088 LoginServerThread.cpp:5160] QueryGamePlayData info fail, user id : 85572952, errno: 1140, error msg: In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'record.src_user_today.gameIndex'; this is incompatible with sql_mode=only_full_group_by
+W0322 10:57:44.894601 212697088 LoginServerThread.cpp:5160] QueryGamePlayData info fail, user id : 85539866, errno: 1140, error msg: In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'record.src_user_today.gameIndex'; this is incompatible with sql_mode=only_full_group_by
+W0322 14:17:06.339252 213233664 LoginRecordThread.cpp:101] insert user login record fail. errno: -1, error msg: mysql not opened yet!
+W0322 16:42:25.812515 212697088 LoginServerThread.cpp:5160] QueryGamePlayData info fail, user id : 85572248, errno: 1140, error msg: In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'record.src_user_today.gameIndex'; this is incompatible with sql_mode=only_full_group_by
+W0323 00:00:17.310173 212697088 LoginServerThread.cpp:548] login server is across day.
+W0323 10:16:37.370625 212697088 LoginServerThread.cpp:5160] QueryGamePlayData info fail, user id : 85572952, errno: 1140, error msg: In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'record.src_user_today.gameIndex'; this is incompatible with sql_mode=only_full_group_by
+W0323 14:09:51.683434 212697088 LoginServerThread.cpp:5160] QueryGamePlayData info fail, user id : 85539866, errno: 1140, error msg: In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'record.src_user_today.gameIndex'; this is incompatible with sql_mode=only_full_group_by
+I0323 17:43:19.494807 212342208 NetServer.cpp:88] delete io...127.0.0.1:49341
+I0323 17:43:22.987572 212342208 NetServer.cpp:55] accept io...127.0.0.1:59751
+I0323 18:34:59.525658 212342208 NetServer.cpp:88] delete io...127.0.0.1:59751
+I0323 18:35:03.023350 212342208 NetServer.cpp:55] accept io...127.0.0.1:59794
+I0323 22:34:53.537140 212342208 NetServer.cpp:88] delete io...127.0.0.1:59794
+I0323 22:34:57.039175 212342208 NetServer.cpp:55] accept io...127.0.0.1:59830
+W0323 22:34:57.421542 212697088 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0323 22:34:57.421700 212697088 LoginServerThread.cpp:189] center server is disconnect, after 10s will be reconnect!
+W0323 22:34:57.421779 212697088 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0323 22:34:57.421842 212697088 ServerMgr.cpp:88] remove one proxy server, id: 30
+I0323 22:34:57.421895 212697088 LoginServerThread.cpp:199] bind one connect: 127.0.0.1:59830
+I0323 22:34:57.421912 212697088 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:59830
+W0323 22:35:07.593084 212342208 NetModule.cpp:723] ready reconnect server, server id: 0
+I0323 22:35:07.593528 212342208 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+W0324 09:45:01.597177 212697088 LoginServerThread.cpp:548] login server is across day.
+I0324 09:45:01.617851 212342208 NetServer.cpp:88] delete io...127.0.0.1:59830
+I0324 09:45:05.184329 212342208 NetServer.cpp:55] accept io...127.0.0.1:59904
+W0324 09:45:59.930927 212697088 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0324 09:45:59.931197 212697088 LoginServerThread.cpp:189] center server is disconnect, after 10s will be reconnect!
+I0324 09:45:59.931299 212697088 LoginServerThread.cpp:199] bind one connect: 127.0.0.1:59904
+I0324 09:45:59.931334 212697088 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:59904
+W0324 09:46:10.517850 212342208 NetModule.cpp:723] ready reconnect server, server id: 0
+I0324 09:46:10.518389 212342208 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I0324 21:57:43.847654 212342208 NetServer.cpp:88] delete io...127.0.0.1:59904
+W0324 21:57:43.847719 212697088 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0324 21:57:43.872737 212697088 LoginServerThread.cpp:189] center server is disconnect, after 10s will be reconnect!
+I0324 21:57:47.342373 212342208 NetServer.cpp:55] accept io...127.0.0.1:59969
+I0324 21:57:47.344028 212697088 LoginServerThread.cpp:199] bind one connect: 127.0.0.1:59969
+I0324 21:57:47.346362 212697088 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:59969
+W0324 21:57:54.372468 212342208 NetModule.cpp:723] ready reconnect server, server id: 0
+I0324 21:57:54.372997 212342208 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+W0325 09:49:58.140528 212697088 LoginServerThread.cpp:548] login server is across day.
+I0325 09:49:58.162075 212342208 NetServer.cpp:88] delete io...127.0.0.1:59969
+I0325 09:50:01.652604 212342208 NetServer.cpp:55] accept io...127.0.0.1:60025
+W0325 09:50:56.955834 212697088 ServerMgr.cpp:88] remove one proxy server, id: 30
+W0325 09:50:56.957216 212697088 LoginServerThread.cpp:189] center server is disconnect, after 10s will be reconnect!
+I0325 09:50:56.957335 212697088 LoginServerThread.cpp:199] bind one connect: 127.0.0.1:60025
+I0325 09:50:56.957370 212697088 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:60025
+W0325 09:51:07.482348 212342208 NetModule.cpp:723] ready reconnect server, server id: 0
+I0325 09:51:07.482923 212342208 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+W0325 10:01:47.754173 212697088 LoginServerThread.cpp:5160] QueryGamePlayData info fail, user id : 85572952, errno: 1140, error msg: In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'record.src_user_today.gameIndex'; this is incompatible with sql_mode=only_full_group_by

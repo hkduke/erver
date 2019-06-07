@@ -1,0 +1,256 @@
+Log file created at: 2019/05/23 10:11:00
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0523 10:11:00.801309 366503360 CenterServer.cpp:32] 正在启动中心服务器...
+I0523 10:11:00.804154 366503360 NetModule.h:71] Init NetModule Finished.
+I0523 10:11:00.804324 366503360 NetModule.h:78] start work thread 0...
+I0523 10:11:00.804335 366503360 NetModule.cpp:69] Start Run NetModule...
+I0523 10:11:00.804353 366503360 NetModule.cpp:88] NetModule Already Startover.
+I0523 10:11:00.804363 366503360 NetModule.cpp:220] add one connector: 0.0.0.0:6001 succeed...
+I0523 10:11:00.804369 366503360 NetModule.cpp:136] Create one server...
+W0523 10:11:01.304950 115097600 CenterThread.cpp:133] db server is disconnect, after 1s will be reconnect!
+W0523 10:11:02.807562 366503360 NetModule.cpp:723] ready reconnect server, server id: 0
+W0523 10:11:02.808363 115097600 CenterThread.cpp:133] db server is disconnect, after 1s will be reconnect!
+W0523 10:11:04.310575 366503360 NetModule.cpp:723] ready reconnect server, server id: 0
+I0523 10:11:04.310689 366503360 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0523 10:11:04.312608 115097600 CenterThread.cpp:98] connect to db server succ!
+I0523 10:11:07.215663 366503360 NetServer.cpp:55] accept io...127.0.0.1:57195
+I0523 10:11:07.240254 115097600 ServerMgr.cpp:54] register one proxy server: 127.0.0.1:57195
+I0523 10:11:10.231011 366503360 NetServer.cpp:55] accept io...127.0.0.1:57199
+I0523 10:11:10.255729 115097600 ServerMgr.cpp:498] register one login server: 127.0.0.1:57199
+W0523 10:11:13.769328 115097600 CenterThread.cpp:3788] OnSubLoadWealthGodHistoryData: 10
+W0523 10:11:15.063200 115097600 CenterThread.cpp:3788] OnSubLoadWealthGodHistoryData: 10
+W0523 10:11:16.325511 115097600 CenterThread.cpp:3788] OnSubLoadWealthGodHistoryData: 10
+W0523 10:11:17.602032 115097600 CenterThread.cpp:3788] OnSubLoadWealthGodHistoryData: 10
+I0523 10:11:18.837929 366503360 NetServer.cpp:55] accept io...127.0.0.1:57207
+W0523 10:11:18.885741 115097600 CenterThread.cpp:3788] OnSubLoadWealthGodHistoryData: 10
+W0523 10:11:20.143780 115097600 CenterThread.cpp:3788] OnSubLoadWealthGodHistoryData: 10
+I0523 10:11:20.835662 115097600 ServerMgr.cpp:193] register one game server: 127.0.0.1:57207
+W0523 10:11:21.406625 115097600 CenterThread.cpp:3788] OnSubLoadWealthGodHistoryData: 10
+W0523 10:11:22.688267 115097600 CenterThread.cpp:3788] OnSubLoadWealthGodHistoryData: 10
+W0523 10:11:23.941313 115097600 CenterThread.cpp:3788] OnSubLoadWealthGodHistoryData: 10
+W0523 10:11:25.204833 115097600 CenterThread.cpp:3788] OnSubLoadWealthGodHistoryData: 10
+W0523 10:11:26.469722 115097600 CenterThread.cpp:3788] OnSubLoadWealthGodHistoryData: 10
+W0523 10:11:27.737426 115097600 CenterThread.cpp:3788] OnSubLoadWealthGodHistoryData: 10
+W0523 10:11:29.005576 115097600 CenterThread.cpp:3788] OnSubLoadWealthGodHistoryData: 10
+W0523 10:11:41.497310 115097600 DuoBaoMgr.cpp:175] load duo bao data finish.
+W0523 10:11:42.424425 115097600 ConfigOption.cpp:1009] set chat upload url: http://test.upload.lerengu.com
+W0523 10:11:44.033366 115097600 Group.cpp:77] group userid : 85538140, parent userid : 0
+W0523 10:11:44.033449 115097600 Group.cpp:77] group userid : 85554667, parent userid : 0
+W0523 10:11:44.033478 115097600 Group.cpp:77] group userid : 85594166, parent userid : 85554667
+W0523 10:11:44.033507 115097600 Group.cpp:89] insert dir user: 85554667, 85594166
+W0523 10:11:44.033531 115097600 Group.cpp:77] group userid : 85537039, parent userid : 85594166
+W0523 10:11:44.033553 115097600 Group.cpp:89] insert dir user: 85594166, 85537039
+W0523 10:11:44.033574 115097600 Group.cpp:97] insert sub user: 85554667, 85537039
+W0523 10:11:44.033597 115097600 Group.cpp:77] group userid : 85542857, parent userid : 85554667
+W0523 10:11:44.033619 115097600 Group.cpp:89] insert dir user: 85554667, 85542857
+W0523 10:11:44.033643 115097600 Group.cpp:77] group userid : 85528213, parent userid : 85594166
+W0523 10:11:44.033663 115097600 Group.cpp:89] insert dir user: 85594166, 85528213
+W0523 10:11:44.033684 115097600 Group.cpp:97] insert sub user: 85554667, 85528213
+W0523 10:11:44.033706 115097600 Group.cpp:77] group userid : 85534097, parent userid : 85537039
+W0523 10:11:44.033727 115097600 Group.cpp:89] insert dir user: 85537039, 85534097
+W0523 10:11:44.033748 115097600 Group.cpp:97] insert sub user: 85594166, 85534097
+W0523 10:11:44.033768 115097600 Group.cpp:97] insert sub user: 85554667, 85534097
+W0523 10:11:44.033792 115097600 Group.cpp:77] group userid : 85574983, parent userid : 85542857
+W0523 10:11:44.033813 115097600 Group.cpp:89] insert dir user: 85542857, 85574983
+W0523 10:11:44.033833 115097600 Group.cpp:97] insert sub user: 85554667, 85574983
+W0523 10:11:44.033854 115097600 Group.cpp:77] group userid : 85520320, parent userid : 85528213
+W0523 10:11:44.033876 115097600 Group.cpp:89] insert dir user: 85528213, 85520320
+W0523 10:11:44.033897 115097600 Group.cpp:97] insert sub user: 85594166, 85520320
+W0523 10:11:44.033917 115097600 Group.cpp:97] insert sub user: 85554667, 85520320
+W0523 10:11:44.033941 115097600 Group.cpp:77] group userid : 85556082, parent userid : 85554667
+W0523 10:11:44.033962 115097600 Group.cpp:89] insert dir user: 85554667, 85556082
+W0523 10:11:44.033984 115097600 Group.cpp:77] group userid : 85566616, parent userid : 85554667
+W0523 10:11:44.034029 115097600 Group.cpp:89] insert dir user: 85554667, 85566616
+W0523 10:11:44.034051 115097600 Group.cpp:77] group userid : 85540952, parent userid : 85554667
+W0523 10:11:44.034068 115097600 Group.cpp:89] insert dir user: 85554667, 85540952
+W0523 10:11:44.034087 115097600 Group.cpp:77] group userid : 85520033, parent userid : 85574983
+W0523 10:11:44.034106 115097600 Group.cpp:89] insert dir user: 85574983, 85520033
+W0523 10:11:44.034122 115097600 Group.cpp:97] insert sub user: 85542857, 85520033
+W0523 10:11:44.034138 115097600 Group.cpp:97] insert sub user: 85554667, 85520033
+W0523 10:11:44.034157 115097600 Group.cpp:77] group userid : 85530648, parent userid : 85574983
+W0523 10:11:44.034173 115097600 Group.cpp:89] insert dir user: 85574983, 85530648
+W0523 10:11:44.034189 115097600 Group.cpp:97] insert sub user: 85542857, 85530648
+W0523 10:11:44.034204 115097600 Group.cpp:97] insert sub user: 85554667, 85530648
+W0523 10:11:44.034225 115097600 Group.cpp:77] group userid : 85572952, parent userid : 0
+W0523 10:11:44.034245 115097600 Group.cpp:77] group userid : 85559569, parent userid : 0
+W0523 10:11:44.034265 115097600 Group.cpp:77] group userid : 85507484, parent userid : 85559569
+W0523 10:11:44.034282 115097600 Group.cpp:89] insert dir user: 85559569, 85507484
+W0523 10:11:44.034307 115097600 Group.cpp:77] group userid : 85542226, parent userid : 85559569
+W0523 10:11:44.034324 115097600 Group.cpp:89] insert dir user: 85559569, 85542226
+W0523 10:11:44.034344 115097600 Group.cpp:77] group userid : 85564167, parent userid : 0
+W0523 10:11:44.034364 115097600 Group.cpp:77] group userid : 85556901, parent userid : 85564167
+W0523 10:11:44.034381 115097600 Group.cpp:89] insert dir user: 85564167, 85556901
+W0523 10:11:44.034430 115097600 Group.cpp:77] group userid : 85528916, parent userid : 85564167
+W0523 10:11:44.034449 115097600 Group.cpp:89] insert dir user: 85564167, 85528916
+W0523 10:11:44.034469 115097600 Group.cpp:77] group userid : 85601936, parent userid : 85556901
+W0523 10:11:44.034487 115097600 Group.cpp:89] insert dir user: 85556901, 85601936
+W0523 10:11:44.034503 115097600 Group.cpp:97] insert sub user: 85564167, 85601936
+W0523 10:11:44.034521 115097600 Group.cpp:77] group userid : 85526950, parent userid : 85564167
+W0523 10:11:44.034538 115097600 Group.cpp:89] insert dir user: 85564167, 85526950
+W0523 10:11:44.034559 115097600 Group.cpp:77] group userid : 85509708, parent userid : 0
+W0523 10:11:44.034579 115097600 Group.cpp:77] group userid : 85568895, parent userid : 85509708
+W0523 10:11:44.034595 115097600 Group.cpp:89] insert dir user: 85509708, 85568895
+W0523 10:11:44.034615 115097600 Group.cpp:77] group userid : 85562067, parent userid : 85568895
+W0523 10:11:44.034632 115097600 Group.cpp:89] insert dir user: 85568895, 85562067
+W0523 10:11:44.034649 115097600 Group.cpp:97] insert sub user: 85509708, 85562067
+W0523 10:11:44.034668 115097600 Group.cpp:77] group userid : 85522524, parent userid : 85509708
+W0523 10:11:44.034685 115097600 Group.cpp:89] insert dir user: 85509708, 85522524
+I0523 10:47:01.185668 366503360 NetServer.cpp:88] delete io...127.0.0.1:57207
+W0523 10:47:01.188140 115097600 ServerMgr.cpp:876] remove one game server, id:11
+I0523 10:47:16.679563 366503360 NetServer.cpp:55] accept io...127.0.0.1:57267
+I0523 10:47:16.701614 115097600 ServerMgr.cpp:193] register one game server: 127.0.0.1:57267
+I0523 10:48:25.240749 366503360 NetServer.cpp:88] delete io...127.0.0.1:57267
+W0523 10:48:25.242471 115097600 ServerMgr.cpp:876] remove one game server, id:11
+I0523 10:48:39.858290 366503360 NetServer.cpp:55] accept io...127.0.0.1:57275
+I0523 10:48:42.013223 115097600 ServerMgr.cpp:193] register one game server: 127.0.0.1:57275
+I0523 10:51:11.540956 366503360 NetServer.cpp:88] delete io...127.0.0.1:57275
+W0523 10:51:11.541149 115097600 ServerMgr.cpp:876] remove one game server, id:11
+I0523 10:51:20.338511 366503360 NetServer.cpp:55] accept io...127.0.0.1:57296
+I0523 10:51:22.374349 115097600 ServerMgr.cpp:193] register one game server: 127.0.0.1:57296
+I0523 11:24:34.982607 366503360 NetServer.cpp:88] delete io...127.0.0.1:57296
+W0523 11:24:34.983373 115097600 ServerMgr.cpp:876] remove one game server, id:11
+I0523 11:24:44.663208 366503360 NetServer.cpp:55] accept io...127.0.0.1:57351
+I0523 11:24:46.815693 115097600 ServerMgr.cpp:193] register one game server: 127.0.0.1:57351
+I0523 11:33:42.491318 366503360 NetServer.cpp:88] delete io...127.0.0.1:57351
+W0523 11:33:42.491786 115097600 ServerMgr.cpp:876] remove one game server, id:11
+I0523 11:33:53.288259 366503360 NetServer.cpp:55] accept io...127.0.0.1:57411
+I0523 11:33:55.462643 115097600 ServerMgr.cpp:193] register one game server: 127.0.0.1:57411
+I0523 12:02:21.106259 366503360 NetServer.cpp:88] delete io...127.0.0.1:57411
+W0523 12:02:21.106791 115097600 ServerMgr.cpp:876] remove one game server, id:11
+I0523 12:02:25.192073 366503360 NetServer.cpp:55] accept io...127.0.0.1:57451
+I0523 12:02:27.190479 115097600 ServerMgr.cpp:193] register one game server: 127.0.0.1:57451
+I0523 12:30:06.083477 366503360 NetServer.cpp:88] delete io...127.0.0.1:57451
+W0523 12:30:06.083638 115097600 ServerMgr.cpp:876] remove one game server, id:11
+I0523 12:30:10.770476 366503360 NetServer.cpp:55] accept io...127.0.0.1:57495
+I0523 12:30:13.001003 115097600 ServerMgr.cpp:193] register one game server: 127.0.0.1:57495
+I0523 12:45:05.387975 366503360 NetServer.cpp:88] delete io...127.0.0.1:57495
+W0523 12:45:05.388744 115097600 ServerMgr.cpp:876] remove one game server, id:11
+I0523 12:45:16.544425 366503360 NetServer.cpp:55] accept io...127.0.0.1:57520
+I0523 12:45:18.722400 115097600 ServerMgr.cpp:193] register one game server: 127.0.0.1:57520
+I0523 12:54:16.338878 366503360 NetServer.cpp:88] delete io...127.0.0.1:57520
+W0523 12:54:16.341250 115097600 ServerMgr.cpp:876] remove one game server, id:11
+I0523 12:54:26.342739 366503360 NetServer.cpp:55] accept io...127.0.0.1:57541
+I0523 12:54:28.434865 115097600 ServerMgr.cpp:193] register one game server: 127.0.0.1:57541
+I0523 12:57:11.890024 366503360 NetServer.cpp:88] delete io...127.0.0.1:57541
+W0523 12:57:11.891981 115097600 ServerMgr.cpp:876] remove one game server, id:11
+I0523 12:58:16.925156 366503360 NetServer.cpp:55] accept io...127.0.0.1:57587
+I0523 12:58:18.863191 115097600 ServerMgr.cpp:193] register one game server: 127.0.0.1:57587
+I0523 14:52:27.153733 366503360 NetServer.cpp:88] delete io...127.0.0.1:57587
+W0523 14:52:27.153882 115097600 ServerMgr.cpp:876] remove one game server, id:11
+I0523 14:52:57.453704 366503360 NetServer.cpp:55] accept io...127.0.0.1:58184
+I0523 14:52:59.415886 115097600 ServerMgr.cpp:193] register one game server: 127.0.0.1:58184
+I0523 14:53:16.943629 366503360 NetServer.cpp:88] delete io...127.0.0.1:58184
+W0523 14:53:16.945981 115097600 ServerMgr.cpp:876] remove one game server, id:11
+I0523 14:54:46.211879 366503360 NetServer.cpp:55] accept io...127.0.0.1:58193
+I0523 14:54:48.376149 115097600 ServerMgr.cpp:193] register one game server: 127.0.0.1:58193
+I0523 15:11:03.814628 366503360 NetServer.cpp:88] delete io...127.0.0.1:58193
+W0523 15:11:03.816136 115097600 ServerMgr.cpp:876] remove one game server, id:11
+I0523 15:11:08.001662 366503360 NetServer.cpp:55] accept io...127.0.0.1:58229
+I0523 15:11:10.033035 115097600 ServerMgr.cpp:193] register one game server: 127.0.0.1:58229
+I0523 15:49:14.339799 366503360 NetServer.cpp:88] delete io...127.0.0.1:58229
+W0523 15:49:14.339886 115097600 ServerMgr.cpp:876] remove one game server, id:11
+I0523 16:07:57.507061 366503360 NetServer.cpp:55] accept io...127.0.0.1:58374
+I0523 16:07:59.490743 115097600 ServerMgr.cpp:193] register one game server: 127.0.0.1:58374
+I0523 16:09:46.122617 366503360 NetServer.cpp:88] delete io...127.0.0.1:58374
+W0523 16:09:46.124500 115097600 ServerMgr.cpp:876] remove one game server, id:11
+I0523 16:10:31.277587 366503360 NetServer.cpp:55] accept io...127.0.0.1:58390
+I0523 16:10:33.409410 115097600 ServerMgr.cpp:193] register one game server: 127.0.0.1:58390
+I0523 16:22:31.043238 366503360 NetServer.cpp:88] delete io...127.0.0.1:58390
+W0523 16:22:31.043318 115097600 ServerMgr.cpp:876] remove one game server, id:11
+I0523 16:22:42.173943 366503360 NetServer.cpp:55] accept io...127.0.0.1:58435
+I0523 16:22:44.350376 115097600 ServerMgr.cpp:193] register one game server: 127.0.0.1:58435
+I0523 16:30:57.617732 366503360 NetServer.cpp:88] delete io...127.0.0.1:58435
+W0523 16:30:57.619407 115097600 ServerMgr.cpp:876] remove one game server, id:11
+I0523 16:31:07.988194 366503360 NetServer.cpp:55] accept io...127.0.0.1:58456
+I0523 16:31:10.001058 115097600 ServerMgr.cpp:193] register one game server: 127.0.0.1:58456
+I0523 16:44:55.705868 366503360 NetServer.cpp:88] delete io...127.0.0.1:58456
+W0523 16:44:55.706485 115097600 ServerMgr.cpp:876] remove one game server, id:11
+I0523 16:45:05.889452 366503360 NetServer.cpp:55] accept io...127.0.0.1:58566
+I0523 16:45:07.990221 115097600 ServerMgr.cpp:193] register one game server: 127.0.0.1:58566
+I0523 16:46:16.343478 366503360 NetServer.cpp:88] delete io...127.0.0.1:58566
+W0523 16:46:16.345481 115097600 ServerMgr.cpp:876] remove one game server, id:11
+I0523 16:46:21.484169 366503360 NetServer.cpp:55] accept io...127.0.0.1:58580
+I0523 16:46:23.477619 115097600 ServerMgr.cpp:193] register one game server: 127.0.0.1:58580
+I0523 17:00:22.221827 366503360 NetServer.cpp:55] accept io...127.0.0.1:58608
+I0523 17:00:23.424190 115097600 ServerMgr.cpp:193] register one game server: 127.0.0.1:58608
+I0523 17:04:35.045192 366503360 NetServer.cpp:88] delete io...127.0.0.1:58580
+W0523 17:04:35.047246 115097600 ServerMgr.cpp:876] remove one game server, id:11
+I0523 17:05:37.044720 366503360 NetServer.cpp:55] accept io...127.0.0.1:58624
+I0523 17:06:06.516468 366503360 NetServer.cpp:88] delete io...127.0.0.1:58624
+I0523 17:06:17.677006 366503360 NetServer.cpp:55] accept io...127.0.0.1:58630
+I0523 17:06:19.833567 115097600 ServerMgr.cpp:193] register one game server: 127.0.0.1:58630
+I0523 17:09:04.853464 366503360 NetServer.cpp:88] delete io...127.0.0.1:58630
+W0523 17:09:04.855546 115097600 ServerMgr.cpp:876] remove one game server, id:11
+I0523 17:09:18.460382 366503360 NetServer.cpp:55] accept io...127.0.0.1:58648
+I0523 17:09:20.625512 115097600 ServerMgr.cpp:193] register one game server: 127.0.0.1:58648
+I0523 17:17:25.142213 366503360 NetServer.cpp:88] delete io...127.0.0.1:58648
+W0523 17:17:25.144662 115097600 ServerMgr.cpp:876] remove one game server, id:11
+I0523 17:17:33.025171 366503360 NetServer.cpp:55] accept io...127.0.0.1:58679
+I0523 17:17:33.043859 115097600 ServerMgr.cpp:193] register one game server: 127.0.0.1:58679
+I0523 17:17:46.094836 366503360 NetServer.cpp:88] delete io...127.0.0.1:58679
+W0523 17:17:46.096701 115097600 ServerMgr.cpp:876] remove one game server, id:11
+I0523 17:17:55.369204 366503360 NetServer.cpp:55] accept io...127.0.0.1:58685
+I0523 17:17:57.388939 115097600 ServerMgr.cpp:193] register one game server: 127.0.0.1:58685
+I0523 17:21:21.498008 366503360 NetServer.cpp:88] delete io...127.0.0.1:58685
+W0523 17:21:21.500495 115097600 ServerMgr.cpp:876] remove one game server, id:11
+I0523 17:21:55.110999 366503360 NetServer.cpp:55] accept io...127.0.0.1:58707
+I0523 17:21:57.152815 115097600 ServerMgr.cpp:193] register one game server: 127.0.0.1:58707
+I0523 17:22:17.107120 366503360 NetServer.cpp:88] delete io...127.0.0.1:58707
+W0523 17:22:17.109153 115097600 ServerMgr.cpp:876] remove one game server, id:11
+I0523 17:22:26.151965 366503360 NetServer.cpp:55] accept io...127.0.0.1:58718
+I0523 17:22:28.189066 115097600 ServerMgr.cpp:193] register one game server: 127.0.0.1:58718
+I0523 17:22:37.182040 366503360 NetServer.cpp:88] delete io...127.0.0.1:58718
+W0523 17:22:37.184192 115097600 ServerMgr.cpp:876] remove one game server, id:11
+I0523 17:22:50.236513 366503360 NetServer.cpp:55] accept io...127.0.0.1:58726
+I0523 17:22:52.267269 115097600 ServerMgr.cpp:193] register one game server: 127.0.0.1:58726
+I0523 17:40:35.424831 366503360 NetServer.cpp:88] delete io...127.0.0.1:58726
+W0523 17:40:35.424981 115097600 ServerMgr.cpp:876] remove one game server, id:11
+I0523 17:57:02.463085 366503360 NetServer.cpp:55] accept io...127.0.0.1:58825
+I0523 17:57:02.489809 115097600 ServerMgr.cpp:193] register one game server: 127.0.0.1:58825
+I0523 18:04:30.510285 366503360 NetServer.cpp:88] delete io...127.0.0.1:58825
+W0523 18:04:30.510331 115097600 ServerMgr.cpp:876] remove one game server, id:11
+I0523 18:04:40.704565 366503360 NetServer.cpp:55] accept io...127.0.0.1:58849
+I0523 18:04:42.789311 115097600 ServerMgr.cpp:193] register one game server: 127.0.0.1:58849
+I0523 19:04:00.776993 366503360 NetServer.cpp:88] delete io...127.0.0.1:58849
+W0523 19:04:00.778682 115097600 ServerMgr.cpp:876] remove one game server, id:11
+I0523 19:04:11.645153 366503360 NetServer.cpp:55] accept io...127.0.0.1:58979
+I0523 19:04:13.680744 115097600 ServerMgr.cpp:193] register one game server: 127.0.0.1:58979
+I0523 19:04:44.475327 366503360 NetServer.cpp:88] delete io...127.0.0.1:58979
+W0523 19:04:44.475705 115097600 ServerMgr.cpp:876] remove one game server, id:11
+I0523 19:04:54.122575 366503360 NetServer.cpp:55] accept io...127.0.0.1:58991
+I0523 19:04:56.204800 115097600 ServerMgr.cpp:193] register one game server: 127.0.0.1:58991
+W0524 00:00:46.465481 115097600 CenterThread.cpp:340] center server is across day.
+I0524 10:13:46.639102 366503360 NetServer.cpp:88] delete io...127.0.0.1:58991
+W0524 10:13:46.639199 115097600 ServerMgr.cpp:876] remove one game server, id:11
+I0524 10:14:33.246704 366503360 NetServer.cpp:55] accept io...127.0.0.1:60301
+I0524 10:14:35.168828 115097600 ServerMgr.cpp:193] register one game server: 127.0.0.1:60301
+I0524 11:30:19.628938 366503360 NetServer.cpp:88] delete io...127.0.0.1:60301
+W0524 11:30:19.631428 115097600 ServerMgr.cpp:876] remove one game server, id:11
+I0524 11:30:30.545809 366503360 NetServer.cpp:55] accept io...127.0.0.1:60410
+I0524 11:30:32.558642 115097600 ServerMgr.cpp:193] register one game server: 127.0.0.1:60410
+I0524 21:02:24.605885 366503360 NetServer.cpp:55] accept io...127.0.0.1:49878
+I0524 21:02:25.750555 115097600 ServerMgr.cpp:193] register one game server: 127.0.0.1:49878
+W0525 00:00:00.852459 115097600 CenterThread.cpp:340] center server is across day.
+I0525 16:33:58.743093 366503360 NetServer.cpp:55] accept io...127.0.0.1:52901
+I0525 16:33:58.767817 115097600 ServerMgr.cpp:559] register one dip server: 127.0.0.1:52901
+I0525 16:34:09.574815 366503360 NetServer.cpp:88] delete io...127.0.0.1:52901
+W0525 16:34:09.577288 115097600 ServerMgr.cpp:923] remove one dip server, id:1000
+I0525 16:34:40.562856 366503360 NetServer.cpp:55] accept io...127.0.0.1:52904
+I0525 16:35:35.961493 366503360 NetServer.cpp:88] delete io...127.0.0.1:52904
+I0525 16:35:37.827219 366503360 NetServer.cpp:55] accept io...127.0.0.1:52908
+I0525 16:38:43.511554 366503360 NetServer.cpp:88] delete io...127.0.0.1:60410
+W0525 16:38:43.513928 115097600 ServerMgr.cpp:876] remove one game server, id:11
+I0525 16:44:49.094033 366503360 NetServer.cpp:55] accept io...127.0.0.1:52933
+I0525 16:44:51.280046 115097600 ServerMgr.cpp:193] register one game server: 127.0.0.1:52933
+I0525 16:45:43.338001 366503360 NetServer.cpp:88] delete io...127.0.0.1:52933
+W0525 16:45:43.338717 115097600 ServerMgr.cpp:876] remove one game server, id:11
+I0525 16:45:47.061974 366503360 NetServer.cpp:88] delete io...127.0.0.1:49878
+W0525 16:45:47.064409 115097600 ServerMgr.cpp:876] remove one game server, id:993
+I0525 16:45:54.805619 366503360 NetServer.cpp:55] accept io...127.0.0.1:52946
+I0525 16:46:08.676713 366503360 NetServer.cpp:88] delete io...127.0.0.1:52908
+I0525 16:46:10.889034 366503360 NetServer.cpp:55] accept io...127.0.0.1:52949
+I0525 16:46:25.517300 366503360 NetServer.cpp:88] delete io...127.0.0.1:52946
+I0525 16:46:26.888478 366503360 NetServer.cpp:55] accept io...127.0.0.1:52954
+I0525 16:46:28.061065 115097600 ServerMgr.cpp:193] register one game server: 127.0.0.1:52954
+I0525 16:51:33.352828 366503360 NetServer.cpp:88] delete io...127.0.0.1:52954

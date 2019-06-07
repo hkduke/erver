@@ -1,0 +1,1923 @@
+Log file created at: 2018/12/29 21:15:47
+Running on machine: henisdeMacBook-Pro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1229 21:15:47.055815 374080960 ProxyServer.cpp:45] 正在启动代理服务器...
+I1229 21:15:47.059603 374080960 NetModule.h:71] Init NetModule Finished.
+I1229 21:15:47.059695 374080960 NetModule.h:77] start work thread 0...
+I1229 21:15:47.059707 374080960 NetModule.cpp:64] Start Run NetModule...
+I1229 21:15:47.059734 374080960 NetModule.cpp:76] NetModule Already Startover.
+I1229 21:15:47.060451 374080960 NetModule.cpp:118] Create one server...
+I1229 21:15:47.060642 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1229 21:15:47.060668 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1229 21:15:47.071569 208146432 ProxyThread.cpp:66] connect to center server succ.
+I1229 21:15:47.071599 208146432 ProxyThread.cpp:92] connect to db server succ
+I1229 21:15:47.090749 208146432 ProxyThread.cpp:538] get game server list finish!
+I1229 21:15:47.090790 208146432 ProxyThread.cpp:509] get login server list finish!
+I1229 21:15:47.090800 208146432 ProxyThread.cpp:567] get customer server list finish!
+I1229 21:16:01.432835 208146432 NetModule.cpp:200] add one connector: 0.0.0.0:7003 succeed...
+W1229 21:16:01.432862 208146432 ServerMgr.cpp:78] add login server, login server id:10
+I1229 21:16:01.590867 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I1229 21:16:01.592401 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I1229 21:16:07.519511 208146432 NetModule.cpp:200] add one connector: 127.0.0.1:11001 succeed...
+W1229 21:16:07.519546 208146432 ServerMgr.cpp:40] add game server, game server id:1101
+I1229 21:16:07.606212 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I1229 21:16:07.608155 208146432 ProxyThread.cpp:86] connect to game server succ, server id:1101
+I1229 21:16:15.583164 374080960 NetServer.cpp:55] accept io...192.168.10.122:61283
+W1229 21:16:51.199124 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 1101
+I1229 21:16:51.205224 374080960 NetServer.cpp:88] delete io...192.168.10.122:61283
+W1229 21:16:51.206403 208146432 ServerMgr.cpp:135] remove one game server, game server id:1101
+I1229 21:16:51.375712 374080960 NetServer.cpp:55] accept io...192.168.10.122:61284
+W1229 21:16:54.202589 208146432 ServerMgr.cpp:333] disconnect login or game server is remove or register again, no server reconnect...
+I1229 21:17:21.461938 208146432 NetModule.cpp:200] add one connector: 127.0.0.1:11001 succeed...
+W1229 21:17:21.461990 208146432 ServerMgr.cpp:40] add game server, game server id:1101
+I1229 21:17:21.816426 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I1229 21:17:21.818620 208146432 ProxyThread.cpp:86] connect to game server succ, server id:1101
+W1229 21:17:28.806605 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 1101
+W1229 21:17:28.832784 208146432 ServerMgr.cpp:135] remove one game server, game server id:1101
+W1229 21:17:31.832713 208146432 ServerMgr.cpp:333] disconnect login or game server is remove or register again, no server reconnect...
+I1229 21:17:35.871259 208146432 NetModule.cpp:200] add one connector: 127.0.0.1:11001 succeed...
+W1229 21:17:35.871295 208146432 ServerMgr.cpp:40] add game server, game server id:1101
+I1229 21:17:36.351044 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I1229 21:17:36.351603 208146432 ProxyThread.cpp:86] connect to game server succ, server id:1101
+W1229 21:18:03.858459 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 1101
+I1229 21:18:03.873320 374080960 NetServer.cpp:88] delete io...192.168.10.122:61284
+W1229 21:18:03.875694 208146432 ServerMgr.cpp:135] remove one game server, game server id:1101
+I1229 21:18:04.091085 374080960 NetServer.cpp:55] accept io...192.168.10.122:61285
+W1229 21:18:06.929481 208146432 ServerMgr.cpp:333] disconnect login or game server is remove or register again, no server reconnect...
+I1229 21:18:32.688858 208146432 NetModule.cpp:200] add one connector: 127.0.0.1:11001 succeed...
+W1229 21:18:32.688915 208146432 ServerMgr.cpp:40] add game server, game server id:1101
+I1229 21:18:33.021104 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I1229 21:18:33.023257 208146432 ProxyThread.cpp:86] connect to game server succ, server id:1101
+W1229 21:19:22.997807 208146432 ServerMgr.cpp:130] remove game server, but the link is alive, game server id:1101
+W1229 21:19:22.997942 208146432 ServerMgr.cpp:135] remove one game server, game server id:1101
+I1229 21:23:04.250432 208146432 NetModule.cpp:200] add one connector: 127.0.0.1:11001 succeed...
+W1229 21:23:04.250563 208146432 ServerMgr.cpp:40] add game server, game server id:1101
+I1229 21:23:04.266284 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I1229 21:23:04.268165 208146432 ProxyThread.cpp:86] connect to game server succ, server id:1101
+W1229 21:24:23.047605 208146432 ServerMgr.cpp:130] remove game server, but the link is alive, game server id:1101
+W1229 21:24:23.047741 208146432 ServerMgr.cpp:135] remove one game server, game server id:1101
+I1229 21:26:59.281325 208146432 NetModule.cpp:200] add one connector: 127.0.0.1:11001 succeed...
+W1229 21:26:59.281383 208146432 ServerMgr.cpp:40] add game server, game server id:1101
+I1229 21:26:59.443821 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I1229 21:26:59.445811 208146432 ProxyThread.cpp:86] connect to game server succ, server id:1101
+W1229 21:27:53.080812 208146432 ServerMgr.cpp:130] remove game server, but the link is alive, game server id:1101
+W1229 21:27:53.080989 208146432 ServerMgr.cpp:135] remove one game server, game server id:1101
+I1229 21:33:28.627148 374080960 NetServer.cpp:88] delete io...192.168.10.122:61285
+I1229 21:33:35.447520 374080960 NetServer.cpp:55] accept io...192.168.10.122:61286
+I1229 21:34:06.913018 208146432 NetModule.cpp:200] add one connector: 127.0.0.1:11001 succeed...
+W1229 21:34:06.913141 208146432 ServerMgr.cpp:40] add game server, game server id:1101
+I1229 21:34:07.132589 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I1229 21:34:07.134450 208146432 ProxyThread.cpp:86] connect to game server succ, server id:1101
+I1229 21:35:03.390699 374080960 NetServer.cpp:88] delete io...192.168.10.122:61286
+I1229 21:35:03.588461 374080960 NetServer.cpp:55] accept io...192.168.10.122:61287
+I1229 21:35:03.601053 374080960 NetServer.cpp:88] delete io...192.168.10.122:61287
+I1229 21:35:03.798385 374080960 NetServer.cpp:55] accept io...192.168.10.122:61288
+W1229 21:35:04.045696 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 656
+W1229 21:35:04.045774 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 695
+W1229 21:35:04.045807 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 682
+W1229 21:35:04.045904 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 650
+W1229 21:35:04.376724 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 660
+W1229 21:35:05.639006 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 656
+W1229 21:35:05.639148 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 695
+W1229 21:35:05.639207 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 682
+W1229 21:35:05.639258 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 650
+W1229 21:35:05.975178 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 660
+W1229 21:35:06.477768 208146432 ProxyThread.cpp:845] client socket not found, main id: 7, sub id: 7105
+W1229 21:35:06.477900 208146432 ProxyThread.cpp:845] client socket not found, main id: 7, sub id: 7107
+W1229 21:35:06.477941 208146432 ProxyThread.cpp:845] client socket not found, main id: 7, sub id: 7109
+W1229 21:35:06.477977 208146432 ProxyThread.cpp:845] client socket not found, main id: 8, sub id: 2001
+W1229 21:35:07.205866 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 656
+W1229 21:35:07.206010 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 695
+W1229 21:35:07.206102 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 682
+W1229 21:35:07.206151 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 650
+W1229 21:35:07.533103 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 660
+W1229 21:35:08.636692 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 695
+W1229 21:35:08.636744 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 682
+W1229 21:35:08.636770 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 650
+W1229 21:35:08.997566 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 660
+W1229 21:35:10.130899 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 695
+W1229 21:35:10.131039 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 682
+W1229 21:35:10.131098 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 650
+W1229 21:35:10.444427 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 660
+W1229 21:35:11.596743 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 695
+W1229 21:35:11.596880 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 682
+W1229 21:35:11.596938 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 650
+W1229 21:35:11.912995 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 660
+I1229 21:36:41.261857 374080960 NetServer.cpp:88] delete io...192.168.10.122:61288
+W1229 22:16:18.698323 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W1229 22:16:18.705765 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 1101
+W1229 22:16:18.705862 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W1229 22:16:18.705904 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W1229 22:16:21.806857 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W1229 22:16:21.812680 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W1229 22:16:21.815891 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+W1229 22:16:21.816005 374080960 NetModule.cpp:703] ready reconnect server, server id: 1101
+I1229 22:16:21.816108 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1229 22:16:21.816129 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I1229 22:16:21.816140 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1229 22:16:21.816155 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I1229 22:16:21.817404 208146432 ProxyThread.cpp:66] connect to center server succ.
+I1229 22:16:21.817457 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I1229 22:16:21.817467 208146432 ProxyThread.cpp:92] connect to db server succ
+I1229 22:16:21.817492 208146432 ProxyThread.cpp:86] connect to game server succ, server id:1101
+W1229 22:16:21.848053 208146432 ServerMgr.cpp:17] repeated add game server, game server id:1101
+I1229 22:16:21.848105 208146432 ProxyThread.cpp:538] get game server list finish!
+I1229 22:16:21.848112 208146432 ProxyThread.cpp:509] get login server list finish!
+I1229 22:16:21.848117 208146432 ProxyThread.cpp:567] get customer server list finish!
+W1229 22:16:28.872076 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W1229 22:52:42.214146 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 1101
+W1229 22:52:42.216562 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W1229 22:52:42.216620 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W1229 22:52:42.216683 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W1229 22:52:45.706526 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W1229 22:52:45.706631 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W1229 22:52:45.706708 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+W1229 22:52:45.706781 374080960 NetModule.cpp:703] ready reconnect server, server id: 1101
+I1229 22:52:45.706835 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1229 22:52:45.706862 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I1229 22:52:45.706871 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1229 22:52:45.706878 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I1229 22:52:45.709458 208146432 ProxyThread.cpp:66] connect to center server succ.
+I1229 22:52:45.709477 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I1229 22:52:45.709484 208146432 ProxyThread.cpp:92] connect to db server succ
+I1229 22:52:45.709494 208146432 ProxyThread.cpp:86] connect to game server succ, server id:1101
+W1229 22:52:45.750494 208146432 ServerMgr.cpp:17] repeated add game server, game server id:1101
+I1229 22:52:45.750550 208146432 ProxyThread.cpp:538] get game server list finish!
+I1229 22:52:45.750558 208146432 ProxyThread.cpp:509] get login server list finish!
+I1229 22:52:45.750564 208146432 ProxyThread.cpp:567] get customer server list finish!
+W1229 22:52:52.777606 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W1229 23:57:45.241266 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 1101
+W1229 23:57:45.241367 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W1229 23:57:45.241403 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W1229 23:57:45.249214 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W1229 23:57:48.745764 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W1229 23:57:48.745872 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W1229 23:57:48.745957 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+W1229 23:57:48.746034 374080960 NetModule.cpp:703] ready reconnect server, server id: 1101
+I1229 23:57:48.746101 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1229 23:57:48.746114 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I1229 23:57:48.746124 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1229 23:57:48.746132 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I1229 23:57:48.748210 208146432 ProxyThread.cpp:66] connect to center server succ.
+I1229 23:57:48.748246 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I1229 23:57:48.748256 208146432 ProxyThread.cpp:92] connect to db server succ
+I1229 23:57:48.748271 208146432 ProxyThread.cpp:86] connect to game server succ, server id:1101
+W1229 23:57:48.786428 208146432 ServerMgr.cpp:17] repeated add game server, game server id:1101
+I1229 23:57:48.786473 208146432 ProxyThread.cpp:538] get game server list finish!
+I1229 23:57:48.786480 208146432 ProxyThread.cpp:509] get login server list finish!
+I1229 23:57:48.786486 208146432 ProxyThread.cpp:567] get customer server list finish!
+W1229 23:57:55.791335 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W1230 01:02:48.281149 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W1230 01:02:48.281213 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 1101
+W1230 01:02:48.281240 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W1230 01:02:48.281265 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W1230 01:02:51.786157 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W1230 01:02:51.786275 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W1230 01:02:51.786365 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+W1230 01:02:51.786451 374080960 NetModule.cpp:703] ready reconnect server, server id: 1101
+I1230 01:02:51.786520 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1230 01:02:51.786535 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I1230 01:02:51.786545 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1230 01:02:51.786553 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I1230 01:02:51.786726 208146432 ProxyThread.cpp:66] connect to center server succ.
+I1230 01:02:51.786738 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I1230 01:02:51.786746 208146432 ProxyThread.cpp:92] connect to db server succ
+I1230 01:02:51.786756 208146432 ProxyThread.cpp:86] connect to game server succ, server id:1101
+W1230 01:02:51.799880 208146432 ServerMgr.cpp:17] repeated add game server, game server id:1101
+I1230 01:02:51.799932 208146432 ProxyThread.cpp:538] get game server list finish!
+I1230 01:02:51.799940 208146432 ProxyThread.cpp:509] get login server list finish!
+I1230 01:02:51.799945 208146432 ProxyThread.cpp:567] get customer server list finish!
+W1230 01:02:58.835453 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W1230 01:47:53.303392 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W1230 01:47:53.303505 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 1101
+W1230 01:47:53.303540 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W1230 01:47:53.303570 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W1230 01:47:56.794695 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W1230 01:47:56.794795 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W1230 01:47:56.794870 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+W1230 01:47:56.794939 374080960 NetModule.cpp:703] ready reconnect server, server id: 1101
+I1230 01:47:56.795006 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1230 01:47:56.795018 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I1230 01:47:56.795027 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1230 01:47:56.795034 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I1230 01:47:56.797646 208146432 ProxyThread.cpp:66] connect to center server succ.
+I1230 01:47:56.797663 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I1230 01:47:56.797669 208146432 ProxyThread.cpp:92] connect to db server succ
+I1230 01:47:56.797677 208146432 ProxyThread.cpp:86] connect to game server succ, server id:1101
+W1230 01:47:56.846046 208146432 ServerMgr.cpp:17] repeated add game server, game server id:1101
+I1230 01:47:56.846107 208146432 ProxyThread.cpp:538] get game server list finish!
+I1230 01:47:56.846114 208146432 ProxyThread.cpp:509] get login server list finish!
+I1230 01:47:56.846120 208146432 ProxyThread.cpp:567] get customer server list finish!
+W1230 01:48:03.375581 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W1230 02:52:56.312137 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W1230 02:52:56.312374 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 1101
+W1230 02:52:56.312417 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W1230 02:52:56.315462 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W1230 02:52:59.804376 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W1230 02:52:59.804472 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W1230 02:52:59.804539 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+W1230 02:52:59.804610 374080960 NetModule.cpp:703] ready reconnect server, server id: 1101
+I1230 02:52:59.804657 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1230 02:52:59.804668 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I1230 02:52:59.804677 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1230 02:52:59.804685 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I1230 02:52:59.806558 208146432 ProxyThread.cpp:66] connect to center server succ.
+I1230 02:52:59.806668 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I1230 02:52:59.806727 208146432 ProxyThread.cpp:92] connect to db server succ
+I1230 02:52:59.806736 208146432 ProxyThread.cpp:86] connect to game server succ, server id:1101
+W1230 02:52:59.815183 208146432 ServerMgr.cpp:17] repeated add game server, game server id:1101
+I1230 02:52:59.815244 208146432 ProxyThread.cpp:538] get game server list finish!
+I1230 02:52:59.815251 208146432 ProxyThread.cpp:509] get login server list finish!
+I1230 02:52:59.815258 208146432 ProxyThread.cpp:567] get customer server list finish!
+W1230 02:53:06.891641 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W1230 03:57:59.330991 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W1230 03:57:59.331068 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 1101
+W1230 03:57:59.331099 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W1230 03:57:59.333186 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W1230 03:58:02.830060 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W1230 03:58:02.830201 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W1230 03:58:02.830279 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+W1230 03:58:02.830358 374080960 NetModule.cpp:703] ready reconnect server, server id: 1101
+I1230 03:58:02.830446 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1230 03:58:02.830461 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I1230 03:58:02.830469 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1230 03:58:02.830478 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I1230 03:58:02.832993 208146432 ProxyThread.cpp:66] connect to center server succ.
+I1230 03:58:02.833004 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I1230 03:58:02.833011 208146432 ProxyThread.cpp:92] connect to db server succ
+I1230 03:58:02.833017 208146432 ProxyThread.cpp:86] connect to game server succ, server id:1101
+W1230 03:58:02.878327 208146432 ServerMgr.cpp:17] repeated add game server, game server id:1101
+I1230 03:58:02.878381 208146432 ProxyThread.cpp:538] get game server list finish!
+I1230 03:58:02.878387 208146432 ProxyThread.cpp:509] get login server list finish!
+I1230 03:58:02.878393 208146432 ProxyThread.cpp:567] get customer server list finish!
+W1230 03:58:09.901818 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W1230 05:03:02.387043 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W1230 05:03:02.387099 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W1230 05:03:02.387131 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 1101
+W1230 05:03:02.387199 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W1230 05:03:05.876356 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W1230 05:03:05.876466 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W1230 05:03:05.876547 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+W1230 05:03:05.876622 374080960 NetModule.cpp:703] ready reconnect server, server id: 1101
+I1230 05:03:05.876673 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1230 05:03:05.876685 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I1230 05:03:05.876696 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1230 05:03:05.876706 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I1230 05:03:05.879259 208146432 ProxyThread.cpp:66] connect to center server succ.
+I1230 05:03:05.879281 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I1230 05:03:05.879292 208146432 ProxyThread.cpp:92] connect to db server succ
+I1230 05:03:05.879299 208146432 ProxyThread.cpp:86] connect to game server succ, server id:1101
+W1230 05:03:05.914813 208146432 ServerMgr.cpp:17] repeated add game server, game server id:1101
+I1230 05:03:05.914866 208146432 ProxyThread.cpp:538] get game server list finish!
+I1230 05:03:05.914875 208146432 ProxyThread.cpp:509] get login server list finish!
+I1230 05:03:05.914880 208146432 ProxyThread.cpp:567] get customer server list finish!
+W1230 05:03:12.429013 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W1230 06:08:02.653458 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W1230 06:08:02.659011 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W1230 06:08:02.659054 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 1101
+W1230 06:08:02.659082 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W1230 06:08:06.140857 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W1230 06:08:06.140965 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W1230 06:08:06.141043 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+W1230 06:08:06.141125 374080960 NetModule.cpp:703] ready reconnect server, server id: 1101
+I1230 06:08:06.141193 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1230 06:08:06.141206 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I1230 06:08:06.141216 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1230 06:08:06.141224 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I1230 06:08:06.143399 208146432 ProxyThread.cpp:66] connect to center server succ.
+I1230 06:08:06.143415 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I1230 06:08:06.143422 208146432 ProxyThread.cpp:92] connect to db server succ
+I1230 06:08:06.143429 208146432 ProxyThread.cpp:86] connect to game server succ, server id:1101
+W1230 06:08:06.166433 208146432 ServerMgr.cpp:17] repeated add game server, game server id:1101
+I1230 06:08:06.166487 208146432 ProxyThread.cpp:538] get game server list finish!
+I1230 06:08:06.166494 208146432 ProxyThread.cpp:509] get login server list finish!
+I1230 06:08:06.166501 208146432 ProxyThread.cpp:567] get customer server list finish!
+W1230 06:08:13.250152 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W1230 06:40:35.665740 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W1230 06:40:35.665801 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 1101
+W1230 06:40:35.665822 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W1230 06:40:35.665839 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W1230 06:40:39.156142 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W1230 06:40:39.156366 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W1230 06:40:39.156553 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+W1230 06:40:39.156736 374080960 NetModule.cpp:703] ready reconnect server, server id: 1101
+I1230 06:40:39.156874 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1230 06:40:39.156906 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I1230 06:40:39.156927 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1230 06:40:39.156947 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I1230 06:40:39.158568 208146432 ProxyThread.cpp:66] connect to center server succ.
+I1230 06:40:39.158598 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I1230 06:40:39.158608 208146432 ProxyThread.cpp:92] connect to db server succ
+I1230 06:40:39.158624 208146432 ProxyThread.cpp:86] connect to game server succ, server id:1101
+W1230 06:40:39.177198 208146432 ServerMgr.cpp:17] repeated add game server, game server id:1101
+I1230 06:40:39.177265 208146432 ProxyThread.cpp:538] get game server list finish!
+I1230 06:40:39.177274 208146432 ProxyThread.cpp:509] get login server list finish!
+I1230 06:40:39.177280 208146432 ProxyThread.cpp:567] get customer server list finish!
+W1230 06:40:45.719347 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W1230 06:49:30.871615 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W1230 06:49:30.873987 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W1230 06:49:30.879022 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W1230 06:49:30.879065 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 1101
+W1230 06:49:34.363574 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W1230 06:49:34.363708 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W1230 06:49:34.363781 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+W1230 06:49:34.363852 374080960 NetModule.cpp:703] ready reconnect server, server id: 1101
+I1230 06:49:34.363915 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1230 06:49:34.363926 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I1230 06:49:34.363936 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1230 06:49:34.363945 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I1230 06:49:34.366477 208146432 ProxyThread.cpp:66] connect to center server succ.
+I1230 06:49:34.366492 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I1230 06:49:34.366499 208146432 ProxyThread.cpp:92] connect to db server succ
+I1230 06:49:34.366505 208146432 ProxyThread.cpp:86] connect to game server succ, server id:1101
+W1230 06:49:34.413516 208146432 ServerMgr.cpp:17] repeated add game server, game server id:1101
+I1230 06:49:34.413558 208146432 ProxyThread.cpp:538] get game server list finish!
+I1230 06:49:34.413565 208146432 ProxyThread.cpp:509] get login server list finish!
+I1230 06:49:34.413571 208146432 ProxyThread.cpp:567] get customer server list finish!
+W1230 06:49:44.155982 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W1230 07:36:30.715086 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W1230 07:36:30.717584 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W1230 07:36:30.717613 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 1101
+W1230 07:36:30.717634 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W1230 07:36:34.214097 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W1230 07:36:34.214293 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W1230 07:36:34.214542 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+W1230 07:36:34.214752 374080960 NetModule.cpp:703] ready reconnect server, server id: 1101
+I1230 07:36:34.214893 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1230 07:36:34.214922 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I1230 07:36:34.214941 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I1230 07:36:34.214960 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I1230 07:36:34.215291 208146432 ProxyThread.cpp:66] connect to center server succ.
+I1230 07:36:34.215322 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I1230 07:36:34.215333 208146432 ProxyThread.cpp:92] connect to db server succ
+I1230 07:36:34.215345 208146432 ProxyThread.cpp:86] connect to game server succ, server id:1101
+W1230 07:36:34.259508 208146432 ServerMgr.cpp:17] repeated add game server, game server id:1101
+I1230 07:36:34.259610 208146432 ProxyThread.cpp:538] get game server list finish!
+I1230 07:36:34.259624 208146432 ProxyThread.cpp:509] get login server list finish!
+I1230 07:36:34.259635 208146432 ProxyThread.cpp:567] get customer server list finish!
+W1230 07:36:41.259150 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W1230 08:41:34.380373 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W1230 08:41:34.380460 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 1101
+W1230 08:41:34.380482 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W1230 08:41:34.380501 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W1230 08:41:37.867739 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W1230 08:41:37.868016 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W1230 08:41:37.868248 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+W1230 08:41:37.868540 374080960 NetModule.cpp:703] ready reconnect server, server id: 1101
+I1230 08:41:37.868647 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1230 08:41:37.868669 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I1230 08:41:37.868686 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1230 08:41:37.868702 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I1230 08:41:37.870543 208146432 ProxyThread.cpp:66] connect to center server succ.
+I1230 08:41:37.870601 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I1230 08:41:37.870628 208146432 ProxyThread.cpp:92] connect to db server succ
+I1230 08:41:37.870656 208146432 ProxyThread.cpp:86] connect to game server succ, server id:1101
+W1230 08:41:37.884930 208146432 ServerMgr.cpp:17] repeated add game server, game server id:1101
+I1230 08:41:37.885069 208146432 ProxyThread.cpp:538] get game server list finish!
+I1230 08:41:37.885089 208146432 ProxyThread.cpp:509] get login server list finish!
+I1230 08:41:37.885105 208146432 ProxyThread.cpp:567] get customer server list finish!
+W1230 08:41:44.955288 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W1230 09:45:02.385200 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W1230 09:45:02.385344 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 1101
+W1230 09:45:02.388180 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W1230 09:45:02.388238 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W1230 09:45:05.872709 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W1230 09:45:05.873003 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W1230 09:45:05.873270 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+W1230 09:45:05.873500 374080960 NetModule.cpp:703] ready reconnect server, server id: 1101
+I1230 09:45:05.873627 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1230 09:45:05.873651 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I1230 09:45:05.873667 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1230 09:45:05.873684 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I1230 09:45:05.875371 208146432 ProxyThread.cpp:66] connect to center server succ.
+I1230 09:45:05.875418 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I1230 09:45:05.875437 208146432 ProxyThread.cpp:92] connect to db server succ
+I1230 09:45:05.875478 208146432 ProxyThread.cpp:86] connect to game server succ, server id:1101
+W1230 09:45:05.916573 208146432 ServerMgr.cpp:17] repeated add game server, game server id:1101
+I1230 09:45:05.916707 208146432 ProxyThread.cpp:538] get game server list finish!
+I1230 09:45:05.916720 208146432 ProxyThread.cpp:509] get login server list finish!
+I1230 09:45:05.916730 208146432 ProxyThread.cpp:567] get customer server list finish!
+W1230 09:45:12.467105 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W1230 11:45:04.404834 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W1230 11:45:04.409710 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W1230 11:45:04.409752 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 1101
+W1230 11:45:04.409788 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W1230 11:45:07.897764 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W1230 11:45:07.897920 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W1230 11:45:07.898036 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+W1230 11:45:07.898123 374080960 NetModule.cpp:703] ready reconnect server, server id: 1101
+I1230 11:45:07.898185 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1230 11:45:07.898200 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I1230 11:45:07.898211 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1230 11:45:07.898219 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I1230 11:45:07.900230 208146432 ProxyThread.cpp:66] connect to center server succ.
+I1230 11:45:07.900254 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I1230 11:45:07.900264 208146432 ProxyThread.cpp:92] connect to db server succ
+I1230 11:45:07.900280 208146432 ProxyThread.cpp:86] connect to game server succ, server id:1101
+W1230 11:45:07.907189 208146432 ServerMgr.cpp:17] repeated add game server, game server id:1101
+I1230 11:45:07.907239 208146432 ProxyThread.cpp:538] get game server list finish!
+I1230 11:45:07.907248 208146432 ProxyThread.cpp:509] get login server list finish!
+I1230 11:45:07.907253 208146432 ProxyThread.cpp:567] get customer server list finish!
+W1230 11:45:14.488997 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W1230 12:50:44.414718 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W1230 12:50:44.415271 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W1230 12:50:44.415335 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 1101
+W1230 12:50:44.415367 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W1230 12:50:47.897418 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W1230 12:50:47.897684 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W1230 12:50:47.897910 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+W1230 12:50:47.898188 374080960 NetModule.cpp:703] ready reconnect server, server id: 1101
+I1230 12:50:47.898336 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1230 12:50:47.898358 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I1230 12:50:47.898375 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1230 12:50:47.898392 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I1230 12:50:47.900260 208146432 ProxyThread.cpp:66] connect to center server succ.
+I1230 12:50:47.900300 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I1230 12:50:47.900319 208146432 ProxyThread.cpp:92] connect to db server succ
+I1230 12:50:47.900364 208146432 ProxyThread.cpp:86] connect to game server succ, server id:1101
+W1230 12:50:47.934643 208146432 ServerMgr.cpp:17] repeated add game server, game server id:1101
+I1230 12:50:47.934782 208146432 ProxyThread.cpp:538] get game server list finish!
+I1230 12:50:47.934803 208146432 ProxyThread.cpp:509] get login server list finish!
+I1230 12:50:47.934816 208146432 ProxyThread.cpp:567] get customer server list finish!
+W1230 12:50:54.969210 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W1230 13:56:24.433780 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 1101
+W1230 13:56:24.434280 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W1230 13:56:24.434304 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W1230 13:56:24.434322 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W1230 13:56:27.905961 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W1230 13:56:27.906278 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W1230 13:56:27.906538 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+W1230 13:56:27.906774 374080960 NetModule.cpp:703] ready reconnect server, server id: 1101
+I1230 13:56:27.906872 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1230 13:56:27.906895 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I1230 13:56:27.906913 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1230 13:56:27.906929 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I1230 13:56:27.908704 208146432 ProxyThread.cpp:66] connect to center server succ.
+I1230 13:56:27.908766 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I1230 13:56:27.908783 208146432 ProxyThread.cpp:92] connect to db server succ
+I1230 13:56:27.908803 208146432 ProxyThread.cpp:86] connect to game server succ, server id:1101
+W1230 13:56:27.933995 208146432 ServerMgr.cpp:17] repeated add game server, game server id:1101
+I1230 13:56:27.934129 208146432 ProxyThread.cpp:538] get game server list finish!
+I1230 13:56:27.934150 208146432 ProxyThread.cpp:509] get login server list finish!
+I1230 13:56:27.934165 208146432 ProxyThread.cpp:567] get customer server list finish!
+W1230 13:56:34.969915 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W1230 15:02:04.417320 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 1101
+W1230 15:02:04.417984 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W1230 15:02:04.418013 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W1230 15:02:04.418275 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W1230 15:02:07.906522 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W1230 15:02:07.906818 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W1230 15:02:07.907073 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+W1230 15:02:07.907316 374080960 NetModule.cpp:703] ready reconnect server, server id: 1101
+I1230 15:02:07.907438 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1230 15:02:07.907461 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I1230 15:02:07.907479 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1230 15:02:07.907495 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I1230 15:02:07.909273 208146432 ProxyThread.cpp:66] connect to center server succ.
+I1230 15:02:07.909312 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I1230 15:02:07.909324 208146432 ProxyThread.cpp:92] connect to db server succ
+I1230 15:02:07.909337 208146432 ProxyThread.cpp:86] connect to game server succ, server id:1101
+W1230 15:02:07.950980 208146432 ServerMgr.cpp:17] repeated add game server, game server id:1101
+I1230 15:02:07.951120 208146432 ProxyThread.cpp:538] get game server list finish!
+I1230 15:02:07.951141 208146432 ProxyThread.cpp:509] get login server list finish!
+I1230 15:02:07.951156 208146432 ProxyThread.cpp:567] get customer server list finish!
+W1230 15:02:14.467239 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W1230 16:07:45.420295 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 1101
+W1230 16:07:45.421324 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W1230 16:07:45.421355 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W1230 16:07:45.421375 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W1230 16:07:48.911525 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W1230 16:07:48.911799 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W1230 16:07:48.912107 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+W1230 16:07:48.912345 374080960 NetModule.cpp:703] ready reconnect server, server id: 1101
+I1230 16:07:48.912467 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1230 16:07:48.912492 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I1230 16:07:48.912508 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1230 16:07:48.912524 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I1230 16:07:48.914393 208146432 ProxyThread.cpp:66] connect to center server succ.
+I1230 16:07:48.914432 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I1230 16:07:48.914444 208146432 ProxyThread.cpp:92] connect to db server succ
+I1230 16:07:48.914469 208146432 ProxyThread.cpp:86] connect to game server succ, server id:1101
+W1230 16:07:48.955623 208146432 ServerMgr.cpp:17] repeated add game server, game server id:1101
+I1230 16:07:48.955809 208146432 ProxyThread.cpp:538] get game server list finish!
+I1230 16:07:48.955835 208146432 ProxyThread.cpp:509] get login server list finish!
+I1230 16:07:48.955852 208146432 ProxyThread.cpp:567] get customer server list finish!
+W1230 16:07:55.971487 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W1230 17:13:26.417160 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 1101
+W1230 17:13:26.417459 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W1230 17:13:26.424695 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W1230 17:13:26.424741 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W1230 17:13:29.906170 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W1230 17:13:29.906440 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W1230 17:13:29.906673 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+W1230 17:13:29.906949 374080960 NetModule.cpp:703] ready reconnect server, server id: 1101
+I1230 17:13:29.907059 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1230 17:13:29.907081 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I1230 17:13:29.907099 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1230 17:13:29.907115 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I1230 17:13:29.907130 208146432 ProxyThread.cpp:66] connect to center server succ.
+I1230 17:13:29.907162 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I1230 17:13:29.907173 208146432 ProxyThread.cpp:92] connect to db server succ
+I1230 17:13:29.907186 208146432 ProxyThread.cpp:86] connect to game server succ, server id:1101
+W1230 17:13:29.936774 208146432 ServerMgr.cpp:17] repeated add game server, game server id:1101
+I1230 17:13:29.936913 208146432 ProxyThread.cpp:538] get game server list finish!
+I1230 17:13:29.936933 208146432 ProxyThread.cpp:509] get login server list finish!
+I1230 17:13:29.936949 208146432 ProxyThread.cpp:567] get customer server list finish!
+W1230 17:13:36.964910 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W1230 18:19:06.411746 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W1230 18:19:06.411845 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W1230 18:19:06.411878 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 1101
+W1230 18:19:06.411903 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W1230 18:19:09.918239 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W1230 18:19:09.918535 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W1230 18:19:09.918794 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+W1230 18:19:09.919052 374080960 NetModule.cpp:703] ready reconnect server, server id: 1101
+I1230 18:19:09.919165 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1230 18:19:09.919188 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I1230 18:19:09.919224 208146432 ProxyThread.cpp:66] connect to center server succ.
+I1230 18:19:09.919230 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1230 18:19:09.919263 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I1230 18:19:09.919319 208146432 ProxyThread.cpp:92] connect to db server succ
+I1230 18:19:09.919319 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I1230 18:19:09.919339 208146432 ProxyThread.cpp:86] connect to game server succ, server id:1101
+W1230 18:19:09.933490 208146432 ServerMgr.cpp:17] repeated add game server, game server id:1101
+I1230 18:19:09.933629 208146432 ProxyThread.cpp:538] get game server list finish!
+I1230 18:19:09.933650 208146432 ProxyThread.cpp:509] get login server list finish!
+I1230 18:19:09.933665 208146432 ProxyThread.cpp:567] get customer server list finish!
+W1230 18:19:16.988871 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W1230 19:24:47.420881 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W1230 19:24:47.421008 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 1101
+W1230 19:24:47.421034 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W1230 19:24:47.421061 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W1230 19:24:50.922371 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W1230 19:24:50.922667 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W1230 19:24:50.922914 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+W1230 19:24:50.923166 374080960 NetModule.cpp:703] ready reconnect server, server id: 1101
+I1230 19:24:50.923310 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1230 19:24:50.923331 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I1230 19:24:50.923348 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1230 19:24:50.923365 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I1230 19:24:50.924880 208146432 ProxyThread.cpp:66] connect to center server succ.
+I1230 19:24:50.924916 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I1230 19:24:50.924928 208146432 ProxyThread.cpp:92] connect to db server succ
+I1230 19:24:50.924940 208146432 ProxyThread.cpp:86] connect to game server succ, server id:1101
+W1230 19:24:50.970794 208146432 ServerMgr.cpp:17] repeated add game server, game server id:1101
+I1230 19:24:50.970930 208146432 ProxyThread.cpp:538] get game server list finish!
+I1230 19:24:50.970952 208146432 ProxyThread.cpp:509] get login server list finish!
+I1230 19:24:50.970965 208146432 ProxyThread.cpp:567] get customer server list finish!
+W1230 19:24:57.965037 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W1230 20:01:11.421674 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W1230 20:01:11.421789 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W1230 20:01:11.421813 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W1230 20:01:11.421831 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 1101
+W1230 20:01:14.916810 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W1230 20:01:14.917138 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W1230 20:01:14.917415 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+W1230 20:01:14.917686 374080960 NetModule.cpp:703] ready reconnect server, server id: 1101
+I1230 20:01:14.917804 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1230 20:01:14.917826 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I1230 20:01:14.917843 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1230 20:01:14.917860 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I1230 20:01:14.919591 208146432 ProxyThread.cpp:66] connect to center server succ.
+I1230 20:01:14.919628 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I1230 20:01:14.919641 208146432 ProxyThread.cpp:92] connect to db server succ
+I1230 20:01:14.919653 208146432 ProxyThread.cpp:86] connect to game server succ, server id:1101
+W1230 20:01:14.962623 208146432 ServerMgr.cpp:17] repeated add game server, game server id:1101
+I1230 20:01:14.962762 208146432 ProxyThread.cpp:538] get game server list finish!
+I1230 20:01:14.962793 208146432 ProxyThread.cpp:509] get login server list finish!
+I1230 20:01:14.962810 208146432 ProxyThread.cpp:567] get customer server list finish!
+W1230 20:01:21.970037 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W1230 21:06:14.425806 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W1230 21:06:14.425899 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 1101
+W1230 21:06:14.425935 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W1230 21:06:14.425966 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W1230 21:06:17.914312 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W1230 21:06:17.914589 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W1230 21:06:17.914837 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+W1230 21:06:17.915082 374080960 NetModule.cpp:703] ready reconnect server, server id: 1101
+I1230 21:06:17.915217 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1230 21:06:17.915241 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I1230 21:06:17.915259 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1230 21:06:17.915275 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I1230 21:06:17.917155 208146432 ProxyThread.cpp:66] connect to center server succ.
+I1230 21:06:17.917197 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I1230 21:06:17.917222 208146432 ProxyThread.cpp:92] connect to db server succ
+I1230 21:06:17.917256 208146432 ProxyThread.cpp:86] connect to game server succ, server id:1101
+W1230 21:06:17.959309 208146432 ServerMgr.cpp:17] repeated add game server, game server id:1101
+I1230 21:06:17.959447 208146432 ProxyThread.cpp:538] get game server list finish!
+I1230 21:06:17.959467 208146432 ProxyThread.cpp:509] get login server list finish!
+I1230 21:06:17.959483 208146432 ProxyThread.cpp:567] get customer server list finish!
+W1230 21:06:24.957924 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W1230 22:11:54.426028 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W1230 22:11:54.426187 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W1230 22:11:54.426225 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 1101
+W1230 22:11:54.426256 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W1230 22:11:57.914894 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W1230 22:11:57.915005 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W1230 22:11:57.915074 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+W1230 22:11:57.915139 374080960 NetModule.cpp:703] ready reconnect server, server id: 1101
+I1230 22:11:57.915194 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1230 22:11:57.915205 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I1230 22:11:57.915213 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1230 22:11:57.915221 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I1230 22:11:57.916831 208146432 ProxyThread.cpp:66] connect to center server succ.
+I1230 22:11:57.916844 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I1230 22:11:57.916851 208146432 ProxyThread.cpp:92] connect to db server succ
+I1230 22:11:57.916857 208146432 ProxyThread.cpp:86] connect to game server succ, server id:1101
+W1230 22:11:57.960091 208146432 ServerMgr.cpp:17] repeated add game server, game server id:1101
+I1230 22:11:57.960135 208146432 ProxyThread.cpp:538] get game server list finish!
+I1230 22:11:57.960141 208146432 ProxyThread.cpp:509] get login server list finish!
+I1230 22:11:57.960146 208146432 ProxyThread.cpp:567] get customer server list finish!
+W1230 22:12:04.979629 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W1230 23:17:45.433440 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 1101
+W1230 23:17:45.433519 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W1230 23:17:45.433626 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W1230 23:17:45.433655 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W1230 23:17:48.926170 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W1230 23:17:48.926441 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W1230 23:17:48.926672 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+W1230 23:17:48.926931 374080960 NetModule.cpp:703] ready reconnect server, server id: 1101
+I1230 23:17:48.927048 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1230 23:17:48.927073 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I1230 23:17:48.927091 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1230 23:17:48.927107 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I1230 23:17:48.928526 208146432 ProxyThread.cpp:66] connect to center server succ.
+I1230 23:17:48.928562 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I1230 23:17:48.928575 208146432 ProxyThread.cpp:92] connect to db server succ
+I1230 23:17:48.928588 208146432 ProxyThread.cpp:86] connect to game server succ, server id:1101
+W1230 23:17:48.961854 208146432 ServerMgr.cpp:17] repeated add game server, game server id:1101
+I1230 23:17:48.962005 208146432 ProxyThread.cpp:538] get game server list finish!
+I1230 23:17:48.962028 208146432 ProxyThread.cpp:509] get login server list finish!
+I1230 23:17:48.962043 208146432 ProxyThread.cpp:567] get customer server list finish!
+W1230 23:17:55.490835 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W1231 00:23:42.439739 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W1231 00:23:42.439869 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W1231 00:23:42.439894 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W1231 00:23:42.439918 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 1101
+W1231 00:23:45.934514 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W1231 00:23:45.934621 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W1231 00:23:45.934700 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+W1231 00:23:45.934809 374080960 NetModule.cpp:703] ready reconnect server, server id: 1101
+I1231 00:23:45.934854 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1231 00:23:45.934865 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I1231 00:23:45.934875 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1231 00:23:45.934882 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I1231 00:23:45.935473 208146432 ProxyThread.cpp:66] connect to center server succ.
+I1231 00:23:45.935487 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I1231 00:23:45.935494 208146432 ProxyThread.cpp:92] connect to db server succ
+I1231 00:23:45.935500 208146432 ProxyThread.cpp:86] connect to game server succ, server id:1101
+W1231 00:23:52.453222 208146432 ServerMgr.cpp:17] repeated add game server, game server id:1101
+I1231 00:23:52.453385 208146432 ProxyThread.cpp:538] get game server list finish!
+I1231 00:23:52.453405 208146432 ProxyThread.cpp:509] get login server list finish!
+I1231 00:23:52.453421 208146432 ProxyThread.cpp:567] get customer server list finish!
+W1231 00:23:53.029266 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W1231 01:29:22.433099 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 1101
+W1231 01:29:22.439815 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W1231 01:29:22.439882 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W1231 01:29:22.439916 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W1231 01:29:25.929281 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W1231 01:29:25.929554 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W1231 01:29:25.929785 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+W1231 01:29:25.930037 374080960 NetModule.cpp:703] ready reconnect server, server id: 1101
+I1231 01:29:25.930155 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1231 01:29:25.930178 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I1231 01:29:25.930196 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1231 01:29:25.930212 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I1231 01:29:25.932008 208146432 ProxyThread.cpp:66] connect to center server succ.
+I1231 01:29:25.932060 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I1231 01:29:25.932080 208146432 ProxyThread.cpp:92] connect to db server succ
+I1231 01:29:25.932097 208146432 ProxyThread.cpp:86] connect to game server succ, server id:1101
+W1231 01:29:25.946589 208146432 ServerMgr.cpp:17] repeated add game server, game server id:1101
+I1231 01:29:25.946729 208146432 ProxyThread.cpp:538] get game server list finish!
+I1231 01:29:25.946751 208146432 ProxyThread.cpp:509] get login server list finish!
+I1231 01:29:25.946766 208146432 ProxyThread.cpp:567] get customer server list finish!
+W1231 01:29:32.515242 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W1231 02:35:03.436362 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 1101
+W1231 02:35:03.436419 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W1231 02:35:03.436441 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W1231 02:35:03.441201 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W1231 02:35:06.931505 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W1231 02:35:06.931800 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W1231 02:35:06.932070 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+W1231 02:35:06.932301 374080960 NetModule.cpp:703] ready reconnect server, server id: 1101
+I1231 02:35:06.932396 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1231 02:35:06.932418 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I1231 02:35:06.932436 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1231 02:35:06.932452 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I1231 02:35:06.934260 208146432 ProxyThread.cpp:66] connect to center server succ.
+I1231 02:35:06.934295 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I1231 02:35:06.934309 208146432 ProxyThread.cpp:92] connect to db server succ
+I1231 02:35:06.934320 208146432 ProxyThread.cpp:86] connect to game server succ, server id:1101
+W1231 02:35:06.956714 208146432 ServerMgr.cpp:17] repeated add game server, game server id:1101
+I1231 02:35:06.956801 208146432 ProxyThread.cpp:538] get game server list finish!
+I1231 02:35:06.956812 208146432 ProxyThread.cpp:509] get login server list finish!
+I1231 02:35:06.956820 208146432 ProxyThread.cpp:567] get customer server list finish!
+W1231 02:35:14.019574 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W1231 03:40:43.436636 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 1101
+W1231 03:40:43.436720 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W1231 03:40:43.436743 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W1231 03:40:43.436764 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W1231 03:40:46.933475 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W1231 03:40:46.934721 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W1231 03:40:46.934870 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+W1231 03:40:46.935006 374080960 NetModule.cpp:703] ready reconnect server, server id: 1101
+I1231 03:40:46.935129 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1231 03:40:46.935168 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I1231 03:40:46.935191 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1231 03:40:46.935205 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I1231 03:40:46.935263 208146432 ProxyThread.cpp:66] connect to center server succ.
+I1231 03:40:46.935323 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I1231 03:40:46.935348 208146432 ProxyThread.cpp:92] connect to db server succ
+I1231 03:40:46.935360 208146432 ProxyThread.cpp:86] connect to game server succ, server id:1101
+W1231 03:40:46.960080 208146432 ServerMgr.cpp:17] repeated add game server, game server id:1101
+I1231 03:40:46.960227 208146432 ProxyThread.cpp:538] get game server list finish!
+I1231 03:40:46.960261 208146432 ProxyThread.cpp:509] get login server list finish!
+I1231 03:40:46.960288 208146432 ProxyThread.cpp:567] get customer server list finish!
+W1231 03:40:54.017529 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W1231 04:46:24.438442 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W1231 04:46:24.438525 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W1231 04:46:24.438560 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 1101
+W1231 04:46:24.440687 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W1231 04:46:27.946910 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W1231 04:46:27.947191 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W1231 04:46:27.947428 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+W1231 04:46:27.947690 374080960 NetModule.cpp:703] ready reconnect server, server id: 1101
+I1231 04:46:27.947829 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1231 04:46:27.947852 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I1231 04:46:27.947870 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1231 04:46:27.947886 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I1231 04:46:27.949743 208146432 ProxyThread.cpp:66] connect to center server succ.
+I1231 04:46:27.949782 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I1231 04:46:27.949796 208146432 ProxyThread.cpp:92] connect to db server succ
+I1231 04:46:27.949810 208146432 ProxyThread.cpp:86] connect to game server succ, server id:1101
+W1231 04:46:27.997931 208146432 ServerMgr.cpp:17] repeated add game server, game server id:1101
+I1231 04:46:27.998059 208146432 ProxyThread.cpp:538] get game server list finish!
+I1231 04:46:27.998081 208146432 ProxyThread.cpp:509] get login server list finish!
+I1231 04:46:27.998096 208146432 ProxyThread.cpp:567] get customer server list finish!
+W1231 04:46:35.006258 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W1231 05:52:04.438935 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 1101
+W1231 05:52:04.439040 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W1231 05:52:04.439069 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W1231 05:52:04.441421 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W1231 05:52:07.939543 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W1231 05:52:07.939875 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W1231 05:52:07.940196 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+W1231 05:52:07.940387 374080960 NetModule.cpp:703] ready reconnect server, server id: 1101
+I1231 05:52:07.940481 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1231 05:52:07.940502 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I1231 05:52:07.940520 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1231 05:52:07.940536 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I1231 05:52:07.942224 208146432 ProxyThread.cpp:66] connect to center server succ.
+I1231 05:52:07.942256 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I1231 05:52:07.942270 208146432 ProxyThread.cpp:92] connect to db server succ
+I1231 05:52:07.942281 208146432 ProxyThread.cpp:86] connect to game server succ, server id:1101
+W1231 05:52:07.979773 208146432 ServerMgr.cpp:17] repeated add game server, game server id:1101
+I1231 05:52:07.979912 208146432 ProxyThread.cpp:538] get game server list finish!
+I1231 05:52:07.979933 208146432 ProxyThread.cpp:509] get login server list finish!
+I1231 05:52:07.979946 208146432 ProxyThread.cpp:567] get customer server list finish!
+W1231 05:52:15.008023 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W1231 06:57:45.444638 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W1231 06:57:45.445004 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W1231 06:57:45.445040 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 1101
+W1231 06:57:45.445070 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W1231 06:57:48.935286 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W1231 06:57:48.935554 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W1231 06:57:48.935786 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+W1231 06:57:48.936046 374080960 NetModule.cpp:703] ready reconnect server, server id: 1101
+I1231 06:57:48.936172 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1231 06:57:48.936194 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I1231 06:57:48.936213 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1231 06:57:48.936228 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I1231 06:57:48.938020 208146432 ProxyThread.cpp:66] connect to center server succ.
+I1231 06:57:48.938060 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I1231 06:57:48.938072 208146432 ProxyThread.cpp:92] connect to db server succ
+I1231 06:57:48.938084 208146432 ProxyThread.cpp:86] connect to game server succ, server id:1101
+W1231 06:57:48.978639 208146432 ServerMgr.cpp:17] repeated add game server, game server id:1101
+I1231 06:57:48.978776 208146432 ProxyThread.cpp:538] get game server list finish!
+I1231 06:57:48.978797 208146432 ProxyThread.cpp:509] get login server list finish!
+I1231 06:57:48.978814 208146432 ProxyThread.cpp:567] get customer server list finish!
+W1231 06:57:56.001818 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W1231 08:03:27.446336 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 1101
+W1231 08:03:27.448669 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W1231 08:03:27.448711 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W1231 08:03:27.448742 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W1231 08:03:30.944588 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W1231 08:03:30.944861 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W1231 08:03:30.945091 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+W1231 08:03:30.945327 374080960 NetModule.cpp:703] ready reconnect server, server id: 1101
+I1231 08:03:30.945456 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1231 08:03:30.945477 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I1231 08:03:30.945495 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1231 08:03:30.945513 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I1231 08:03:30.947384 208146432 ProxyThread.cpp:66] connect to center server succ.
+I1231 08:03:30.947419 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I1231 08:03:30.947432 208146432 ProxyThread.cpp:92] connect to db server succ
+I1231 08:03:30.947444 208146432 ProxyThread.cpp:86] connect to game server succ, server id:1101
+W1231 08:03:30.983213 208146432 ServerMgr.cpp:17] repeated add game server, game server id:1101
+I1231 08:03:30.983280 208146432 ProxyThread.cpp:538] get game server list finish!
+I1231 08:03:30.983290 208146432 ProxyThread.cpp:509] get login server list finish!
+I1231 08:03:30.983296 208146432 ProxyThread.cpp:567] get customer server list finish!
+W1231 08:03:37.982029 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W1231 09:09:07.448807 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W1231 09:09:07.450960 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W1231 09:09:07.451145 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 1101
+W1231 09:09:07.451268 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W1231 09:09:10.935915 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W1231 09:09:10.936190 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W1231 09:09:10.936427 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+W1231 09:09:10.936676 374080960 NetModule.cpp:703] ready reconnect server, server id: 1101
+I1231 09:09:10.936825 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1231 09:09:10.936847 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I1231 09:09:10.936864 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1231 09:09:10.936882 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I1231 09:09:10.938277 208146432 ProxyThread.cpp:66] connect to center server succ.
+I1231 09:09:10.938336 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I1231 09:09:10.938349 208146432 ProxyThread.cpp:92] connect to db server succ
+I1231 09:09:10.938362 208146432 ProxyThread.cpp:86] connect to game server succ, server id:1101
+W1231 09:09:10.970926 208146432 ServerMgr.cpp:17] repeated add game server, game server id:1101
+I1231 09:09:10.971055 208146432 ProxyThread.cpp:538] get game server list finish!
+I1231 09:09:10.971074 208146432 ProxyThread.cpp:509] get login server list finish!
+I1231 09:09:10.971089 208146432 ProxyThread.cpp:567] get customer server list finish!
+W1231 09:09:18.011845 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W1231 09:49:46.466166 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 1101
+W1231 09:49:46.466253 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W1231 09:49:46.466282 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W1231 09:49:46.466305 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W1231 09:49:49.954625 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W1231 09:49:49.954753 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W1231 09:49:49.954843 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+W1231 09:49:49.954947 374080960 NetModule.cpp:703] ready reconnect server, server id: 1101
+I1231 09:49:49.955022 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1231 09:49:49.955036 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I1231 09:49:49.955049 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1231 09:49:49.955060 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I1231 09:49:49.955996 208146432 ProxyThread.cpp:66] connect to center server succ.
+I1231 09:49:49.956014 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I1231 09:49:49.956024 208146432 ProxyThread.cpp:92] connect to db server succ
+I1231 09:49:49.956032 208146432 ProxyThread.cpp:86] connect to game server succ, server id:1101
+W1231 09:49:49.979887 208146432 ServerMgr.cpp:17] repeated add game server, game server id:1101
+I1231 09:49:49.979990 208146432 ProxyThread.cpp:538] get game server list finish!
+I1231 09:49:49.980005 208146432 ProxyThread.cpp:509] get login server list finish!
+I1231 09:49:49.980015 208146432 ProxyThread.cpp:567] get customer server list finish!
+W1231 09:49:57.008867 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+I1231 09:56:04.850680 374080960 NetServer.cpp:55] accept io...192.168.10.122:61379
+I1231 10:16:03.356835 374080960 NetServer.cpp:88] delete io...192.168.10.122:61379
+I1231 10:16:21.275656 374080960 NetServer.cpp:55] accept io...192.168.10.122:61388
+W1231 10:37:10.493883 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 1101
+W1231 10:37:10.503096 208146432 ServerMgr.cpp:135] remove one game server, game server id:1101
+W1231 10:37:13.594584 208146432 ServerMgr.cpp:333] disconnect login or game server is remove or register again, no server reconnect...
+I1231 10:38:25.826532 208146432 NetModule.cpp:200] add one connector: 127.0.0.1:11001 succeed...
+W1231 10:38:25.826588 208146432 ServerMgr.cpp:40] add game server, game server id:1101
+I1231 10:38:26.123947 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I1231 10:38:26.125739 208146432 ProxyThread.cpp:86] connect to game server succ, server id:1101
+I1231 10:45:35.523459 374080960 NetServer.cpp:88] delete io...192.168.10.122:61388
+I1231 11:31:27.479877 374080960 NetServer.cpp:55] accept io...192.168.10.122:61395
+I1231 11:33:34.209965 374080960 NetServer.cpp:88] delete io...192.168.10.122:61395
+I1231 11:33:34.396409 374080960 NetServer.cpp:55] accept io...192.168.10.122:61396
+I1231 11:33:34.409781 374080960 NetServer.cpp:88] delete io...192.168.10.122:61396
+I1231 11:33:34.627133 374080960 NetServer.cpp:55] accept io...192.168.10.122:61397
+W1231 11:33:34.892194 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 695
+W1231 11:33:34.893234 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 682
+W1231 11:33:34.893293 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 650
+W1231 11:33:35.203508 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 660
+W1231 11:33:36.558647 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 695
+W1231 11:33:36.558786 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 682
+W1231 11:33:36.558845 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 650
+W1231 11:33:36.893754 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 660
+W1231 11:33:38.020208 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 695
+W1231 11:33:38.020346 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 682
+W1231 11:33:38.020406 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 650
+W1231 11:33:38.363087 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 660
+W1231 11:33:39.514294 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 695
+W1231 11:33:39.514436 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 682
+W1231 11:33:39.514497 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 650
+W1231 11:33:39.847364 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 660
+W1231 11:33:40.948995 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 695
+W1231 11:33:40.949069 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 682
+W1231 11:33:40.949093 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 650
+W1231 11:33:41.284497 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 660
+W1231 11:33:42.428056 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 695
+W1231 11:33:42.428203 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 682
+W1231 11:33:42.428263 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 650
+W1231 11:33:42.742331 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 660
+W1231 11:33:43.886701 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 695
+W1231 11:33:43.886826 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 682
+W1231 11:33:43.886878 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 650
+W1231 11:33:44.271111 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 660
+W1231 11:33:45.379523 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 695
+W1231 11:33:45.379650 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 682
+W1231 11:33:45.379700 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 650
+W1231 11:33:45.710386 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 660
+W1231 11:48:16.390012 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 1101
+W1231 11:48:16.392900 208146432 ServerMgr.cpp:135] remove one game server, game server id:1101
+W1231 11:48:19.468377 208146432 ServerMgr.cpp:333] disconnect login or game server is remove or register again, no server reconnect...
+I1231 11:48:46.287575 208146432 NetModule.cpp:200] add one connector: 127.0.0.1:11001 succeed...
+W1231 11:48:46.287593 208146432 ServerMgr.cpp:40] add game server, game server id:1101
+I1231 11:48:46.402923 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I1231 11:48:46.403127 208146432 ProxyThread.cpp:86] connect to game server succ, server id:1101
+I1231 12:11:47.711091 374080960 NetServer.cpp:88] delete io...192.168.10.122:61397
+W1231 12:17:31.234709 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 1101
+W1231 12:17:31.254565 208146432 ServerMgr.cpp:135] remove one game server, game server id:1101
+W1231 12:17:34.334431 208146432 ServerMgr.cpp:333] disconnect login or game server is remove or register again, no server reconnect...
+I1231 12:17:40.593374 208146432 NetModule.cpp:200] add one connector: 127.0.0.1:11001 succeed...
+W1231 12:17:40.593417 208146432 ServerMgr.cpp:40] add game server, game server id:1101
+I1231 12:17:40.900501 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I1231 12:17:40.902705 208146432 ProxyThread.cpp:86] connect to game server succ, server id:1101
+I1231 12:17:51.053151 374080960 NetServer.cpp:55] accept io...192.168.10.122:61410
+I1231 12:29:05.671648 374080960 NetServer.cpp:88] delete io...192.168.10.122:61410
+I1231 12:29:05.836086 374080960 NetServer.cpp:55] accept io...192.168.10.122:61413
+I1231 14:06:19.242558 374080960 NetServer.cpp:88] delete io...192.168.10.122:61413
+I1231 14:07:11.840642 374080960 NetServer.cpp:55] accept io...192.168.10.122:61414
+I1231 14:12:09.276696 374080960 NetServer.cpp:88] delete io...192.168.10.122:61414
+I1231 14:13:51.907305 374080960 NetServer.cpp:55] accept io...192.168.10.122:61532
+I1231 14:53:17.719913 374080960 NetServer.cpp:88] delete io...192.168.10.122:61532
+W1231 14:56:00.378760 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 1101
+W1231 14:56:00.390741 208146432 ServerMgr.cpp:135] remove one game server, game server id:1101
+W1231 14:56:03.470468 208146432 ServerMgr.cpp:333] disconnect login or game server is remove or register again, no server reconnect...
+I1231 14:56:23.791714 208146432 NetModule.cpp:200] add one connector: 127.0.0.1:11001 succeed...
+W1231 14:56:23.791754 208146432 ServerMgr.cpp:40] add game server, game server id:1101
+I1231 14:56:23.980142 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I1231 14:56:23.980901 208146432 ProxyThread.cpp:86] connect to game server succ, server id:1101
+W1231 15:04:43.409466 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 1101
+W1231 15:04:43.431183 208146432 ServerMgr.cpp:135] remove one game server, game server id:1101
+W1231 15:04:46.434303 208146432 ServerMgr.cpp:333] disconnect login or game server is remove or register again, no server reconnect...
+I1231 15:04:53.522924 208146432 NetModule.cpp:200] add one connector: 127.0.0.1:11001 succeed...
+W1231 15:04:53.522950 208146432 ServerMgr.cpp:40] add game server, game server id:1101
+I1231 15:04:53.930824 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I1231 15:04:53.931632 208146432 ProxyThread.cpp:86] connect to game server succ, server id:1101
+I1231 15:05:02.871064 374080960 NetServer.cpp:55] accept io...192.168.10.122:61692
+I1231 15:05:36.559749 374080960 NetServer.cpp:88] delete io...192.168.10.122:61692
+I1231 15:05:44.753617 374080960 NetServer.cpp:55] accept io...192.168.10.122:61698
+W1231 15:06:16.782387 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 695
+W1231 15:06:16.782590 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 682
+W1231 15:06:16.782660 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 650
+W1231 15:06:17.127573 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 660
+I1231 15:06:19.048035 374080960 NetServer.cpp:88] delete io...192.168.10.122:61698
+I1231 15:06:19.301867 374080960 NetServer.cpp:55] accept io...192.168.10.122:61699
+I1231 15:06:19.314052 374080960 NetServer.cpp:88] delete io...192.168.10.122:61699
+W1231 15:06:19.315948 208146432 ProxyThread.cpp:2006] get remote ip fail.
+I1231 15:06:19.515942 374080960 NetServer.cpp:55] accept io...192.168.10.122:61700
+W1231 15:06:19.707515 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 695
+W1231 15:06:19.707584 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 682
+W1231 15:06:19.707617 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 650
+W1231 15:06:20.046852 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 660
+W1231 15:22:56.680784 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 1101
+W1231 15:22:56.685431 208146432 ServerMgr.cpp:135] remove one game server, game server id:1101
+W1231 15:22:59.771638 208146432 ServerMgr.cpp:333] disconnect login or game server is remove or register again, no server reconnect...
+I1231 15:23:15.868479 208146432 NetModule.cpp:200] add one connector: 127.0.0.1:11001 succeed...
+W1231 15:23:15.868517 208146432 ServerMgr.cpp:40] add game server, game server id:1101
+I1231 15:23:16.339382 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I1231 15:23:16.341441 208146432 ProxyThread.cpp:86] connect to game server succ, server id:1101
+I1231 15:42:10.129083 374080960 NetServer.cpp:88] delete io...192.168.10.122:61700
+I1231 16:05:21.216326 374080960 NetServer.cpp:55] accept io...192.168.10.122:62152
+I1231 16:05:47.193430 374080960 NetServer.cpp:88] delete io...192.168.10.122:62152
+W1231 16:05:59.879623 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 660
+I1231 16:23:55.391798 374080960 NetServer.cpp:55] accept io...192.168.10.122:62261
+W1231 16:24:02.256134 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 1101
+W1231 16:24:02.270468 208146432 ServerMgr.cpp:135] remove one game server, game server id:1101
+W1231 16:24:05.342839 208146432 ServerMgr.cpp:333] disconnect login or game server is remove or register again, no server reconnect...
+I1231 16:24:49.050372 208146432 NetModule.cpp:200] add one connector: 0.0.0.0:9100 succeed...
+W1231 16:24:49.050431 208146432 ServerMgr.cpp:40] add game server, game server id:100
+I1231 16:24:49.073336 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:9100 success! 
+I1231 16:24:49.075119 208146432 ProxyThread.cpp:86] connect to game server succ, server id:100
+W1231 16:27:07.939869 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 100
+W1231 16:27:07.953721 208146432 ServerMgr.cpp:135] remove one game server, game server id:100
+I1231 16:27:07.954923 374080960 NetServer.cpp:88] delete io...192.168.10.122:62261
+I1231 16:27:08.133213 374080960 NetServer.cpp:55] accept io...192.168.10.122:62270
+W1231 16:27:11.002480 208146432 ServerMgr.cpp:333] disconnect login or game server is remove or register again, no server reconnect...
+I1231 16:27:15.539922 208146432 NetModule.cpp:200] add one connector: 0.0.0.0:9100 succeed...
+W1231 16:27:15.539978 208146432 ServerMgr.cpp:40] add game server, game server id:100
+I1231 16:27:15.933634 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:9100 success! 
+I1231 16:27:15.934036 208146432 ProxyThread.cpp:86] connect to game server succ, server id:100
+I1231 16:30:56.620828 374080960 NetServer.cpp:88] delete io...192.168.10.122:62270
+I1231 16:30:56.634505 374080960 NetServer.cpp:55] accept io...192.168.10.122:62276
+I1231 16:33:50.067215 374080960 NetServer.cpp:88] delete io...192.168.10.122:62276
+I1231 16:33:50.071954 374080960 NetServer.cpp:55] accept io...192.168.10.122:62277
+I1231 16:33:50.087302 374080960 NetServer.cpp:88] delete io...192.168.10.122:62277
+I1231 16:33:50.121359 374080960 NetServer.cpp:55] accept io...192.168.10.122:62278
+I1231 16:35:40.380043 374080960 NetServer.cpp:88] delete io...192.168.10.122:62278
+I1231 16:35:48.031116 374080960 NetServer.cpp:55] accept io...192.168.10.122:62284
+I1231 16:40:21.781700 374080960 NetServer.cpp:88] delete io...192.168.10.122:62284
+I1231 16:40:21.785292 374080960 NetServer.cpp:55] accept io...192.168.10.122:62291
+I1231 16:51:22.992270 374080960 NetServer.cpp:88] delete io...192.168.10.122:62291
+I1231 16:51:22.998131 374080960 NetServer.cpp:55] accept io...192.168.10.122:62292
+I1231 16:51:23.053596 374080960 NetServer.cpp:88] delete io...192.168.10.122:62292
+I1231 16:51:23.207626 374080960 NetServer.cpp:55] accept io...192.168.10.122:62293
+W1231 16:51:36.967770 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 695
+W1231 16:51:36.968911 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 682
+W1231 16:51:36.969015 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 650
+W1231 16:52:04.486974 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 660
+W1231 16:52:39.477545 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 100
+W1231 16:52:39.493899 208146432 ServerMgr.cpp:135] remove one game server, game server id:100
+W1231 16:52:42.503859 208146432 ServerMgr.cpp:333] disconnect login or game server is remove or register again, no server reconnect...
+I1231 16:53:37.397837 208146432 NetModule.cpp:200] add one connector: 127.0.0.1:11001 succeed...
+W1231 16:53:37.397945 208146432 ServerMgr.cpp:40] add game server, game server id:1101
+I1231 16:53:37.858435 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I1231 16:53:37.859760 208146432 ProxyThread.cpp:86] connect to game server succ, server id:1101
+W1231 18:14:37.157023 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 1101
+W1231 18:14:37.171059 208146432 ServerMgr.cpp:135] remove one game server, game server id:1101
+W1231 18:14:40.252933 208146432 ServerMgr.cpp:333] disconnect login or game server is remove or register again, no server reconnect...
+I1231 18:15:06.827373 208146432 NetModule.cpp:200] add one connector: 0.0.0.0:9100 succeed...
+W1231 18:15:06.827405 208146432 ServerMgr.cpp:40] add game server, game server id:100
+I1231 18:15:06.859633 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:9100 success! 
+I1231 18:15:06.861572 208146432 ProxyThread.cpp:86] connect to game server succ, server id:100
+I1231 18:59:26.327422 374080960 NetServer.cpp:88] delete io...192.168.10.122:62293
+W1231 22:20:39.409430 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W1231 22:20:39.409968 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 100
+W1231 22:20:39.412397 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W1231 22:20:39.412479 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W1231 22:20:42.615519 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W1231 22:20:42.615694 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W1231 22:20:42.615809 374080960 NetModule.cpp:703] ready reconnect server, server id: 100
+W1231 22:20:42.615911 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+I1231 22:20:42.616000 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1231 22:20:42.616020 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I1231 22:20:42.616034 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:9100 success! 
+I1231 22:20:42.616050 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1231 22:20:42.617724 208146432 ProxyThread.cpp:66] connect to center server succ.
+I1231 22:20:42.617758 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I1231 22:20:42.617769 208146432 ProxyThread.cpp:86] connect to game server succ, server id:100
+I1231 22:20:42.617779 208146432 ProxyThread.cpp:92] connect to db server succ
+W1231 22:20:42.652848 208146432 ServerMgr.cpp:17] repeated add game server, game server id:100
+I1231 22:20:42.652904 208146432 ProxyThread.cpp:538] get game server list finish!
+I1231 22:20:42.652925 208146432 ProxyThread.cpp:509] get login server list finish!
+I1231 22:20:42.652930 208146432 ProxyThread.cpp:567] get customer server list finish!
+W1231 22:20:49.713623 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W1231 23:25:42.943181 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W1231 23:25:42.943246 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 100
+W1231 23:25:42.948472 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W1231 23:25:42.951257 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W1231 23:25:46.428815 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W1231 23:25:46.429988 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W1231 23:25:46.430111 374080960 NetModule.cpp:703] ready reconnect server, server id: 100
+W1231 23:25:46.430202 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+I1231 23:25:46.430270 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I1231 23:25:46.430285 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I1231 23:25:46.430299 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:9100 success! 
+I1231 23:25:46.430306 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I1231 23:25:46.430373 208146432 ProxyThread.cpp:66] connect to center server succ.
+I1231 23:25:46.430898 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I1231 23:25:46.431388 208146432 ProxyThread.cpp:86] connect to game server succ, server id:100
+I1231 23:25:46.431402 208146432 ProxyThread.cpp:92] connect to db server succ
+W1231 23:25:46.480054 208146432 ServerMgr.cpp:17] repeated add game server, game server id:100
+I1231 23:25:46.480110 208146432 ProxyThread.cpp:538] get game server list finish!
+I1231 23:25:46.480118 208146432 ProxyThread.cpp:509] get login server list finish!
+I1231 23:25:46.480123 208146432 ProxyThread.cpp:567] get customer server list finish!
+W1231 23:25:53.013159 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W0101 00:30:45.975266 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 100
+W0101 00:30:45.975442 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W0101 00:30:45.975499 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W0101 00:30:45.975534 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W0101 00:30:49.476016 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W0101 00:30:49.476124 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W0101 00:30:49.476214 374080960 NetModule.cpp:703] ready reconnect server, server id: 100
+W0101 00:30:49.477325 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+I0101 00:30:49.477391 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I0101 00:30:49.477403 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I0101 00:30:49.477428 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:9100 success! 
+I0101 00:30:49.477447 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0101 00:30:49.478289 208146432 ProxyThread.cpp:66] connect to center server succ.
+I0101 00:30:49.478308 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I0101 00:30:49.478319 208146432 ProxyThread.cpp:86] connect to game server succ, server id:100
+I0101 00:30:49.478325 208146432 ProxyThread.cpp:92] connect to db server succ
+W0101 00:31:05.996309 208146432 ServerMgr.cpp:17] repeated add game server, game server id:100
+I0101 00:31:05.996400 208146432 ProxyThread.cpp:538] get game server list finish!
+I0101 00:31:05.996418 208146432 ProxyThread.cpp:509] get login server list finish!
+I0101 00:31:05.996431 208146432 ProxyThread.cpp:567] get customer server list finish!
+W0101 00:31:05.996444 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W0101 00:31:06.016201 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W0101 00:31:09.544476 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+I0101 00:31:09.544665 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I0101 00:31:09.547312 208146432 ProxyThread.cpp:66] connect to center server succ.
+W0101 00:31:09.572608 208146432 ServerMgr.cpp:17] repeated add game server, game server id:100
+I0101 00:31:09.572703 208146432 ProxyThread.cpp:538] get game server list finish!
+W0101 00:31:09.572722 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+I0101 00:31:09.572768 208146432 ProxyThread.cpp:509] get login server list finish!
+I0101 00:31:09.572782 208146432 ProxyThread.cpp:567] get customer server list finish!
+W0101 01:35:48.999596 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W0101 01:35:48.999701 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 100
+W0101 01:35:48.999732 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W0101 01:35:48.999756 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W0101 01:35:52.496816 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W0101 01:35:52.496922 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W0101 01:35:52.497018 374080960 NetModule.cpp:703] ready reconnect server, server id: 100
+W0101 01:35:52.497098 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+I0101 01:35:52.497156 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0101 01:35:52.497169 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I0101 01:35:52.497179 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:9100 success! 
+I0101 01:35:52.497189 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0101 01:35:52.498741 208146432 ProxyThread.cpp:66] connect to center server succ.
+I0101 01:35:52.498766 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I0101 01:35:52.498780 208146432 ProxyThread.cpp:86] connect to game server succ, server id:100
+I0101 01:35:52.498788 208146432 ProxyThread.cpp:92] connect to db server succ
+W0101 01:35:52.548691 208146432 ServerMgr.cpp:17] repeated add game server, game server id:100
+I0101 01:35:52.548746 208146432 ProxyThread.cpp:538] get game server list finish!
+I0101 01:35:52.548754 208146432 ProxyThread.cpp:509] get login server list finish!
+I0101 01:35:52.548760 208146432 ProxyThread.cpp:567] get customer server list finish!
+W0101 01:35:59.540295 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W0101 02:40:52.015733 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W0101 02:40:52.021626 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 100
+W0101 02:40:52.021667 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W0101 02:40:52.024164 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W0101 02:40:55.512430 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W0101 02:40:55.512547 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W0101 02:40:55.512632 374080960 NetModule.cpp:703] ready reconnect server, server id: 100
+W0101 02:40:55.512717 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+I0101 02:40:55.512773 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I0101 02:40:55.512786 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I0101 02:40:55.512796 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:9100 success! 
+I0101 02:40:55.512805 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0101 02:40:55.512936 208146432 ProxyThread.cpp:66] connect to center server succ.
+I0101 02:40:55.512949 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I0101 02:40:55.512966 208146432 ProxyThread.cpp:86] connect to game server succ, server id:100
+I0101 02:40:55.512974 208146432 ProxyThread.cpp:92] connect to db server succ
+W0101 02:40:55.526948 208146432 ServerMgr.cpp:17] repeated add game server, game server id:100
+I0101 02:40:55.526988 208146432 ProxyThread.cpp:538] get game server list finish!
+I0101 02:40:55.526995 208146432 ProxyThread.cpp:509] get login server list finish!
+I0101 02:40:55.527001 208146432 ProxyThread.cpp:567] get customer server list finish!
+W0101 02:41:02.552515 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W0101 03:45:55.036345 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W0101 03:45:55.043897 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 100
+W0101 03:45:55.043957 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W0101 03:45:55.043993 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W0101 03:45:58.527815 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W0101 03:45:58.527918 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W0101 03:45:58.529004 374080960 NetModule.cpp:703] ready reconnect server, server id: 100
+W0101 03:45:58.529166 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+I0101 03:45:58.529230 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I0101 03:45:58.529248 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I0101 03:45:58.529260 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:9100 success! 
+I0101 03:45:58.529270 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0101 03:45:58.530726 208146432 ProxyThread.cpp:66] connect to center server succ.
+I0101 03:45:58.530747 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I0101 03:45:58.530759 208146432 ProxyThread.cpp:86] connect to game server succ, server id:100
+I0101 03:45:58.530766 208146432 ProxyThread.cpp:92] connect to db server succ
+W0101 03:45:58.565764 208146432 ServerMgr.cpp:17] repeated add game server, game server id:100
+I0101 03:45:58.565802 208146432 ProxyThread.cpp:538] get game server list finish!
+I0101 03:45:58.565810 208146432 ProxyThread.cpp:509] get login server list finish!
+I0101 03:45:58.565816 208146432 ProxyThread.cpp:567] get customer server list finish!
+W0101 03:46:05.116386 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W0101 04:50:58.056777 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W0101 04:50:58.063674 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W0101 04:50:58.063714 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W0101 04:50:58.063743 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 100
+W0101 04:51:01.550215 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W0101 04:51:01.550312 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W0101 04:51:01.550387 374080960 NetModule.cpp:703] ready reconnect server, server id: 100
+W0101 04:51:01.550472 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+I0101 04:51:01.550524 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I0101 04:51:01.550540 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I0101 04:51:01.550554 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:9100 success! 
+I0101 04:51:01.550565 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0101 04:51:01.551908 208146432 ProxyThread.cpp:66] connect to center server succ.
+I0101 04:51:01.551924 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I0101 04:51:01.551934 208146432 ProxyThread.cpp:86] connect to game server succ, server id:100
+I0101 04:51:01.551939 208146432 ProxyThread.cpp:92] connect to db server succ
+W0101 04:51:01.583760 208146432 ServerMgr.cpp:17] repeated add game server, game server id:100
+I0101 04:51:01.583809 208146432 ProxyThread.cpp:538] get game server list finish!
+I0101 04:51:01.583815 208146432 ProxyThread.cpp:509] get login server list finish!
+I0101 04:51:01.583820 208146432 ProxyThread.cpp:567] get customer server list finish!
+W0101 04:51:08.136696 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W0101 05:56:01.084869 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W0101 05:56:01.085517 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 100
+W0101 05:56:01.085695 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W0101 05:56:01.085726 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W0101 05:56:04.579731 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W0101 05:56:04.579830 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W0101 05:56:04.579910 374080960 NetModule.cpp:703] ready reconnect server, server id: 100
+W0101 05:56:04.579987 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+I0101 05:56:04.580049 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I0101 05:56:04.580061 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I0101 05:56:04.580071 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:9100 success! 
+I0101 05:56:04.580080 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0101 05:56:04.581753 208146432 ProxyThread.cpp:66] connect to center server succ.
+I0101 05:56:04.581769 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I0101 05:56:04.581777 208146432 ProxyThread.cpp:86] connect to game server succ, server id:100
+I0101 05:56:04.581784 208146432 ProxyThread.cpp:92] connect to db server succ
+W0101 05:56:04.589471 208146432 ServerMgr.cpp:17] repeated add game server, game server id:100
+I0101 05:56:04.589510 208146432 ProxyThread.cpp:538] get game server list finish!
+I0101 05:56:04.589519 208146432 ProxyThread.cpp:509] get login server list finish!
+I0101 05:56:04.589524 208146432 ProxyThread.cpp:567] get customer server list finish!
+W0101 05:56:11.658151 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W0101 07:01:04.092576 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W0101 07:01:04.092741 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 100
+W0101 07:01:04.092778 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W0101 07:01:04.092811 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W0101 07:01:07.582252 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W0101 07:01:07.582357 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W0101 07:01:07.582433 374080960 NetModule.cpp:703] ready reconnect server, server id: 100
+W0101 07:01:07.582507 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+I0101 07:01:07.582568 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I0101 07:01:07.582581 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I0101 07:01:07.583566 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:9100 success! 
+I0101 07:01:07.583598 208146432 ProxyThread.cpp:66] connect to center server succ.
+I0101 07:01:07.583608 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I0101 07:01:07.583606 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0101 07:01:07.583619 208146432 ProxyThread.cpp:86] connect to game server succ, server id:100
+I0101 07:01:07.583643 208146432 ProxyThread.cpp:92] connect to db server succ
+W0101 07:01:07.608155 208146432 ServerMgr.cpp:17] repeated add game server, game server id:100
+I0101 07:01:07.608213 208146432 ProxyThread.cpp:538] get game server list finish!
+I0101 07:01:07.608222 208146432 ProxyThread.cpp:509] get login server list finish!
+I0101 07:01:07.608227 208146432 ProxyThread.cpp:567] get customer server list finish!
+W0101 07:01:14.651670 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W0101 08:06:07.122741 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 100
+W0101 08:06:07.128943 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W0101 08:06:07.129000 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W0101 08:06:07.129032 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W0101 08:06:10.626761 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W0101 08:06:10.626878 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W0101 08:06:10.626956 374080960 NetModule.cpp:703] ready reconnect server, server id: 100
+W0101 08:06:10.627068 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+I0101 08:06:10.627127 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0101 08:06:10.627144 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I0101 08:06:10.627157 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:9100 success! 
+I0101 08:06:10.627171 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0101 08:06:10.629683 208146432 ProxyThread.cpp:66] connect to center server succ.
+I0101 08:06:10.629701 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I0101 08:06:10.629719 208146432 ProxyThread.cpp:86] connect to game server succ, server id:100
+I0101 08:06:10.629725 208146432 ProxyThread.cpp:92] connect to db server succ
+W0101 08:06:10.679082 208146432 ServerMgr.cpp:17] repeated add game server, game server id:100
+I0101 08:06:10.679134 208146432 ProxyThread.cpp:538] get game server list finish!
+I0101 08:06:10.679142 208146432 ProxyThread.cpp:509] get login server list finish!
+I0101 08:06:10.679147 208146432 ProxyThread.cpp:567] get customer server list finish!
+W0101 08:06:17.173431 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W0101 09:11:10.147944 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W0101 09:11:10.148144 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 100
+W0101 09:11:10.148175 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W0101 09:11:10.148202 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W0101 09:11:13.647617 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W0101 09:11:13.647716 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W0101 09:11:13.647799 374080960 NetModule.cpp:703] ready reconnect server, server id: 100
+W0101 09:11:13.647876 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+I0101 09:11:13.647935 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I0101 09:11:13.647948 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I0101 09:11:13.647958 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:9100 success! 
+I0101 09:11:13.647967 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0101 09:11:13.648016 208146432 ProxyThread.cpp:66] connect to center server succ.
+I0101 09:11:13.648028 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I0101 09:11:13.648036 208146432 ProxyThread.cpp:86] connect to game server succ, server id:100
+I0101 09:11:13.648041 208146432 ProxyThread.cpp:92] connect to db server succ
+W0101 09:11:13.673450 208146432 ServerMgr.cpp:17] repeated add game server, game server id:100
+I0101 09:11:13.673508 208146432 ProxyThread.cpp:538] get game server list finish!
+I0101 09:11:13.673516 208146432 ProxyThread.cpp:509] get login server list finish!
+I0101 09:11:13.673522 208146432 ProxyThread.cpp:567] get customer server list finish!
+W0101 09:11:20.221276 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W0101 09:46:05.691462 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W0101 09:46:05.691555 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 100
+W0101 09:46:05.691594 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W0101 09:46:05.694039 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W0101 09:46:09.181502 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W0101 09:46:09.181715 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W0101 09:46:09.181854 374080960 NetModule.cpp:703] ready reconnect server, server id: 100
+W0101 09:46:09.181978 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+I0101 09:46:09.182060 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I0101 09:46:09.182080 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I0101 09:46:09.182097 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:9100 success! 
+I0101 09:46:09.182111 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0101 09:46:09.182813 208146432 ProxyThread.cpp:66] connect to center server succ.
+I0101 09:46:09.182832 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I0101 09:46:09.182852 208146432 ProxyThread.cpp:86] connect to game server succ, server id:100
+I0101 09:46:09.182862 208146432 ProxyThread.cpp:92] connect to db server succ
+W0101 09:46:09.211272 208146432 ServerMgr.cpp:17] repeated add game server, game server id:100
+I0101 09:46:09.211336 208146432 ProxyThread.cpp:538] get game server list finish!
+I0101 09:46:09.211346 208146432 ProxyThread.cpp:509] get login server list finish!
+I0101 09:46:09.211354 208146432 ProxyThread.cpp:567] get customer server list finish!
+W0101 09:46:16.219934 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W0101 09:51:11.369896 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 100
+W0101 09:51:11.370486 208146432 ServerMgr.cpp:135] remove one game server, game server id:100
+W0101 09:51:14.470311 208146432 ServerMgr.cpp:333] disconnect login or game server is remove or register again, no server reconnect...
+I0101 09:51:33.878161 208146432 NetModule.cpp:200] add one connector: 127.0.0.1:11001 succeed...
+W0101 09:51:33.878226 208146432 ServerMgr.cpp:40] add game server, game server id:1101
+I0101 09:51:34.131029 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I0101 09:51:34.131769 208146432 ProxyThread.cpp:86] connect to game server succ, server id:1101
+I0101 09:51:39.472523 374080960 NetServer.cpp:55] accept io...192.168.10.122:62935
+I0101 10:07:11.130592 374080960 NetServer.cpp:88] delete io...192.168.10.122:62935
+I0101 10:16:01.298036 374080960 NetServer.cpp:55] accept io...192.168.10.122:62938
+I0101 10:23:15.971386 374080960 NetServer.cpp:88] delete io...192.168.10.122:62938
+I0101 10:29:09.708498 374080960 NetServer.cpp:55] accept io...192.168.10.124:49940
+I0101 10:31:19.280617 374080960 NetServer.cpp:88] delete io...192.168.10.124:49940
+I0101 10:52:24.909487 374080960 NetServer.cpp:55] accept io...192.168.10.150:50441
+W0101 10:52:46.974416 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 1101
+W0101 10:52:46.998845 208146432 ServerMgr.cpp:135] remove one game server, game server id:1101
+I0101 10:52:47.019388 374080960 NetServer.cpp:55] accept io...192.168.10.124:49944
+W0101 10:52:50.066673 208146432 ServerMgr.cpp:333] disconnect login or game server is remove or register again, no server reconnect...
+I0101 10:53:13.460011 374080960 NetServer.cpp:55] accept io...192.168.10.122:62959
+I0101 10:54:09.228080 208146432 NetModule.cpp:200] add one connector: 0.0.0.0:9100 succeed...
+W0101 10:54:09.228147 208146432 ServerMgr.cpp:40] add game server, game server id:100
+I0101 10:54:09.424319 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:9100 success! 
+I0101 10:54:09.424957 208146432 ProxyThread.cpp:86] connect to game server succ, server id:100
+I0101 10:55:02.163368 374080960 NetServer.cpp:88] delete io...192.168.10.122:62959
+W0101 10:55:26.083189 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 695
+W0101 10:55:26.083235 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 682
+W0101 10:55:26.083256 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 650
+W0101 10:55:26.413326 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 660
+I0101 10:55:26.852478 374080960 NetServer.cpp:88] delete io...192.168.10.150:50441
+I0101 10:55:27.090723 374080960 NetServer.cpp:55] accept io...192.168.10.150:50448
+I0101 10:55:27.104291 374080960 NetServer.cpp:88] delete io...192.168.10.150:50448
+I0101 10:55:27.353394 374080960 NetServer.cpp:55] accept io...192.168.10.150:50449
+W0101 10:55:27.509618 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 695
+W0101 10:55:27.509678 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 682
+W0101 10:55:27.509697 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 650
+W0101 10:55:27.843360 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 660
+I0101 10:55:28.319504 374080960 NetServer.cpp:88] delete io...192.168.10.124:49944
+I0101 10:55:28.535324 374080960 NetServer.cpp:55] accept io...192.168.10.124:49946
+I0101 10:55:28.548993 374080960 NetServer.cpp:88] delete io...192.168.10.124:49946
+I0101 10:55:28.874816 374080960 NetServer.cpp:55] accept io...192.168.10.124:49947
+W0101 10:55:28.966116 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 695
+W0101 10:55:28.966182 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 682
+W0101 10:55:28.966199 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 650
+W0101 10:55:29.287252 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 660
+W0101 10:55:30.408974 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 695
+W0101 10:55:30.409016 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 682
+W0101 10:55:30.409032 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 650
+W0101 10:55:30.720891 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 660
+W0101 10:55:31.835717 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 695
+W0101 10:55:31.835760 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 682
+W0101 10:55:31.835777 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 650
+W0101 10:55:32.165608 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 660
+W0101 10:55:33.247992 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 695
+W0101 10:55:33.248054 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 682
+W0101 10:55:33.248087 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 650
+W0101 10:55:33.578160 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 660
+W0101 10:55:34.857612 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 695
+W0101 10:55:34.857663 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 682
+W0101 10:55:34.857682 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 650
+W0101 10:55:35.469399 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 660
+W0101 10:55:35.675066 208146432 ProxyThread.cpp:899] can not find hall user!, user id: 85598984, main id: 23, sub id: 23049
+W0101 10:55:35.675115 208146432 ProxyThread.cpp:899] can not find hall user!, user id: 85598984, main id: 23, sub id: 23050
+W0101 10:55:35.675134 208146432 ProxyThread.cpp:899] can not find hall user!, user id: 85598984, main id: 25, sub id: 25050
+W0101 10:55:35.675151 208146432 ProxyThread.cpp:899] can not find hall user!, user id: 85598984, main id: 25, sub id: 25060
+W0101 10:55:35.675168 208146432 ProxyThread.cpp:899] can not find hall user!, user id: 85598984, main id: 25, sub id: 25053
+W0101 10:55:35.675184 208146432 ProxyThread.cpp:899] can not find hall user!, user id: 85598984, main id: 25, sub id: 25061
+W0101 10:55:35.675200 208146432 ProxyThread.cpp:899] can not find hall user!, user id: 85598984, main id: 26, sub id: 26054
+W0101 10:55:36.443524 208146432 ProxyThread.cpp:899] can not find hall user!, user id: 83564819, main id: 23, sub id: 23049
+W0101 10:55:36.443665 208146432 ProxyThread.cpp:899] can not find hall user!, user id: 83564819, main id: 23, sub id: 23050
+W0101 10:55:36.443722 208146432 ProxyThread.cpp:899] can not find hall user!, user id: 83564819, main id: 25, sub id: 25050
+W0101 10:55:36.443774 208146432 ProxyThread.cpp:899] can not find hall user!, user id: 83564819, main id: 25, sub id: 25060
+W0101 10:55:36.443825 208146432 ProxyThread.cpp:899] can not find hall user!, user id: 83564819, main id: 25, sub id: 25053
+W0101 10:55:36.443873 208146432 ProxyThread.cpp:899] can not find hall user!, user id: 83564819, main id: 25, sub id: 25061
+W0101 10:55:36.443923 208146432 ProxyThread.cpp:899] can not find hall user!, user id: 83564819, main id: 26, sub id: 26054
+W0101 10:55:37.328140 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 695
+W0101 10:55:37.328181 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 682
+W0101 10:55:37.328199 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 650
+W0101 10:55:37.651590 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 660
+W0101 10:55:38.770511 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 695
+W0101 10:55:38.770550 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 682
+W0101 10:55:38.770565 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 650
+W0101 10:55:39.105126 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 660
+W0101 10:55:40.219153 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 695
+W0101 10:55:40.219280 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 682
+W0101 10:55:40.219331 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 650
+W0101 10:55:40.532616 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 660
+W0101 10:55:41.628504 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 695
+W0101 10:55:41.628630 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 682
+W0101 10:55:41.628681 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 650
+W0101 10:55:41.964113 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 660
+W0101 10:55:43.080724 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 695
+W0101 10:55:43.080765 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 682
+W0101 10:55:43.080783 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 650
+W0101 10:55:43.392900 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 660
+W0101 10:55:44.504344 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 695
+W0101 10:55:44.504470 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 682
+W0101 10:55:44.504519 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 650
+W0101 10:55:44.847719 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 660
+W0101 10:55:45.982780 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 695
+W0101 10:55:45.982867 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 682
+W0101 10:55:45.982901 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 650
+W0101 10:55:46.306730 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 660
+I0101 11:07:28.489738 374080960 NetServer.cpp:55] accept io...192.168.10.122:63125
+I0101 11:07:42.130136 374080960 NetServer.cpp:88] delete io...192.168.10.124:49947
+I0101 11:07:42.321072 374080960 NetServer.cpp:55] accept io...192.168.10.124:49949
+I0101 11:07:42.338802 374080960 NetServer.cpp:88] delete io...192.168.10.124:49949
+I0101 11:07:42.653159 374080960 NetServer.cpp:55] accept io...192.168.10.124:49950
+W0101 11:07:42.777323 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 695
+W0101 11:07:42.778146 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 682
+W0101 11:07:42.778172 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 650
+W0101 11:07:43.112607 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 660
+I0101 11:07:43.558034 374080960 NetServer.cpp:88] delete io...192.168.10.150:50449
+I0101 11:07:43.759404 374080960 NetServer.cpp:55] accept io...192.168.10.150:50482
+I0101 11:07:43.778024 374080960 NetServer.cpp:88] delete io...192.168.10.150:50482
+W0101 11:07:43.778847 208146432 ProxyThread.cpp:2006] get remote ip fail.
+I0101 11:07:44.044704 374080960 NetServer.cpp:55] accept io...192.168.10.150:50483
+W0101 11:07:44.227196 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 695
+W0101 11:07:44.227329 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 682
+W0101 11:07:44.227401 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 650
+W0101 11:07:44.554618 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 660
+W0101 11:07:45.672904 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 695
+W0101 11:07:45.673043 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 682
+W0101 11:07:45.673104 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 650
+W0101 11:07:46.014854 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 660
+W0101 11:07:47.127629 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 695
+W0101 11:07:47.127712 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 682
+W0101 11:07:47.127753 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 650
+W0101 11:07:47.451565 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 660
+W0101 11:07:48.575886 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 695
+W0101 11:07:48.576031 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 682
+W0101 11:07:48.576092 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 650
+W0101 11:07:48.888154 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 660
+W0101 11:07:50.014832 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 695
+W0101 11:07:50.014933 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 682
+W0101 11:07:50.014973 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 650
+W0101 11:07:50.260568 208146432 ProxyThread.cpp:899] can not find hall user!, user id: 85598984, main id: 23, sub id: 23049
+W0101 11:07:50.260663 208146432 ProxyThread.cpp:899] can not find hall user!, user id: 85598984, main id: 23, sub id: 23050
+W0101 11:07:50.260701 208146432 ProxyThread.cpp:899] can not find hall user!, user id: 85598984, main id: 25, sub id: 25050
+W0101 11:07:50.260737 208146432 ProxyThread.cpp:899] can not find hall user!, user id: 85598984, main id: 25, sub id: 25060
+W0101 11:07:50.260771 208146432 ProxyThread.cpp:899] can not find hall user!, user id: 85598984, main id: 25, sub id: 25053
+W0101 11:07:50.260804 208146432 ProxyThread.cpp:899] can not find hall user!, user id: 85598984, main id: 25, sub id: 25061
+W0101 11:07:50.260838 208146432 ProxyThread.cpp:899] can not find hall user!, user id: 85598984, main id: 26, sub id: 26054
+W0101 11:07:50.326045 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 660
+W0101 11:07:51.696558 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 695
+W0101 11:07:51.696640 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 682
+W0101 11:07:51.696658 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 650
+W0101 11:07:52.037209 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 660
+W0101 11:07:53.127178 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 695
+W0101 11:07:53.127270 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 682
+W0101 11:07:53.127290 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 650
+W0101 11:07:53.476102 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 660
+W0101 11:07:55.996826 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 695
+W0101 11:07:55.996922 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 682
+W0101 11:07:55.996940 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 650
+W0101 11:07:56.347347 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 660
+W0101 11:07:57.454118 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 695
+W0101 11:07:57.454169 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 682
+W0101 11:07:57.454187 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 650
+W0101 11:07:57.785388 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 660
+I0101 11:07:59.672480 374080960 NetServer.cpp:88] delete io...192.168.10.122:63125
+I0101 11:07:59.831514 374080960 NetServer.cpp:55] accept io...192.168.10.122:63126
+I0101 11:07:59.851282 374080960 NetServer.cpp:88] delete io...192.168.10.122:63126
+I0101 11:08:00.112679 374080960 NetServer.cpp:55] accept io...192.168.10.122:63127
+W0101 11:08:00.337092 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 695
+W0101 11:08:00.337143 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 682
+W0101 11:08:00.337162 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 650
+W0101 11:08:00.655622 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 660
+I0101 11:08:01.103615 374080960 NetServer.cpp:88] delete io...192.168.10.124:49950
+I0101 11:08:01.276876 374080960 NetServer.cpp:55] accept io...192.168.10.124:49951
+I0101 11:08:01.292062 374080960 NetServer.cpp:88] delete io...192.168.10.124:49951
+I0101 11:08:01.580905 374080960 NetServer.cpp:55] accept io...192.168.10.124:49952
+W0101 11:08:01.779821 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 695
+W0101 11:08:01.779919 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 682
+W0101 11:08:01.779938 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 650
+W0101 11:08:02.100482 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 660
+W0101 11:08:04.648870 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 695
+W0101 11:08:04.648929 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 682
+W0101 11:08:04.648948 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 650
+W0101 11:08:05.211853 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 660
+W0101 11:08:06.312538 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 695
+W0101 11:08:06.312589 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 682
+W0101 11:08:06.312608 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 650
+W0101 11:08:06.654317 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 660
+I0101 11:08:11.692395 374080960 NetServer.cpp:55] accept io...192.168.10.122:63128
+I0101 11:08:36.464969 374080960 NetServer.cpp:88] delete io...192.168.10.122:63127
+W0101 11:16:51.158211 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 100
+W0101 11:16:51.159723 208146432 ServerMgr.cpp:135] remove one game server, game server id:100
+I0101 11:16:51.174813 374080960 NetServer.cpp:88] delete io...192.168.10.124:49952
+I0101 11:16:51.413810 374080960 NetServer.cpp:55] accept io...192.168.10.124:49953
+W0101 11:16:54.166908 208146432 ServerMgr.cpp:333] disconnect login or game server is remove or register again, no server reconnect...
+I0101 11:16:59.638990 208146432 NetModule.cpp:200] add one connector: 0.0.0.0:9100 succeed...
+W0101 11:16:59.639024 208146432 ServerMgr.cpp:40] add game server, game server id:100
+I0101 11:16:59.671288 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:9100 success! 
+I0101 11:16:59.673410 208146432 ProxyThread.cpp:86] connect to game server succ, server id:100
+I0101 11:49:46.960711 374080960 NetServer.cpp:88] delete io...192.168.10.122:63128
+I0101 12:00:37.116044 374080960 NetServer.cpp:88] delete io...192.168.10.150:50483
+I0101 13:16:43.558917 374080960 NetServer.cpp:55] accept io...192.168.10.150:50698
+W0101 13:31:49.630776 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 100
+W0101 13:31:49.647503 208146432 ServerMgr.cpp:135] remove one game server, game server id:100
+W0101 13:31:52.713861 208146432 ServerMgr.cpp:333] disconnect login or game server is remove or register again, no server reconnect...
+I0101 13:31:59.439296 208146432 NetModule.cpp:200] add one connector: 0.0.0.0:9100 succeed...
+W0101 13:31:59.439340 208146432 ServerMgr.cpp:40] add game server, game server id:100
+I0101 13:31:59.868788 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:9100 success! 
+I0101 13:31:59.871631 208146432 ProxyThread.cpp:86] connect to game server succ, server id:100
+I0101 13:39:26.744992 374080960 NetServer.cpp:55] accept io...192.168.10.122:63150
+I0101 13:40:57.892009 374080960 NetServer.cpp:88] delete io...192.168.10.122:63150
+I0101 13:40:58.082623 374080960 NetServer.cpp:55] accept io...192.168.10.122:63151
+I0101 13:40:58.094033 374080960 NetServer.cpp:88] delete io...192.168.10.122:63151
+I0101 13:40:58.275710 374080960 NetServer.cpp:55] accept io...192.168.10.122:63152
+W0101 13:40:58.584411 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 695
+W0101 13:40:58.584770 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 682
+W0101 13:40:58.584798 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 650
+W0101 13:40:58.922529 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 660
+W0101 13:41:00.038182 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 695
+W0101 13:41:00.038322 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 682
+W0101 13:41:00.038383 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 650
+W0101 13:41:00.374192 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 660
+W0101 13:41:01.490366 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 695
+W0101 13:41:01.490505 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 682
+W0101 13:41:01.490566 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 650
+W0101 13:41:01.847846 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 660
+W0101 13:41:02.972275 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 695
+W0101 13:41:02.972375 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 682
+W0101 13:41:02.972415 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 650
+W0101 13:41:03.302763 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 660
+W0101 13:41:04.436403 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 695
+W0101 13:41:04.436460 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 682
+W0101 13:41:04.436480 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 650
+W0101 13:41:04.757088 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 660
+W0101 13:41:05.892922 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 695
+W0101 13:41:05.893059 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 682
+W0101 13:41:05.893118 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 650
+W0101 13:41:06.217417 208146432 ProxyThread.cpp:845] client socket not found, main id: 6, sub id: 660
+I0101 13:41:20.273833 374080960 NetServer.cpp:55] accept io...192.168.10.122:63153
+I0101 13:41:20.803300 374080960 NetServer.cpp:88] delete io...192.168.10.122:63152
+W0101 13:46:16.970347 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 100
+I0101 13:46:16.985200 374080960 NetServer.cpp:88] delete io...192.168.10.122:63153
+I0101 13:46:16.985438 374080960 NetServer.cpp:88] delete io...192.168.10.150:50698
+I0101 13:46:16.985481 374080960 NetServer.cpp:88] delete io...192.168.10.124:49953
+W0101 13:46:16.990429 208146432 ServerMgr.cpp:135] remove one game server, game server id:100
+I0101 13:46:17.164454 374080960 NetServer.cpp:55] accept io...192.168.10.124:49956
+I0101 13:46:17.460594 374080960 NetServer.cpp:55] accept io...192.168.10.122:63155
+I0101 13:46:18.570225 374080960 NetServer.cpp:55] accept io...192.168.10.150:50744
+W0101 13:46:20.034766 208146432 ServerMgr.cpp:333] disconnect login or game server is remove or register again, no server reconnect...
+I0101 13:46:38.640095 208146432 NetModule.cpp:200] add one connector: 0.0.0.0:9100 succeed...
+W0101 13:46:38.640125 208146432 ServerMgr.cpp:40] add game server, game server id:100
+I0101 13:46:39.139554 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:9100 success! 
+I0101 13:46:39.141400 208146432 ProxyThread.cpp:86] connect to game server succ, server id:100
+I0101 13:49:22.071336 374080960 NetServer.cpp:88] delete io...192.168.10.150:50744
+I0101 13:49:36.702764 374080960 NetServer.cpp:55] accept io...192.168.10.150:50749
+W0101 13:54:18.653298 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 100
+W0101 13:54:18.670646 208146432 ServerMgr.cpp:135] remove one game server, game server id:100
+W0101 13:54:21.742714 208146432 ServerMgr.cpp:333] disconnect login or game server is remove or register again, no server reconnect...
+I0101 13:54:27.708025 208146432 NetModule.cpp:200] add one connector: 0.0.0.0:9100 succeed...
+W0101 13:54:27.708055 208146432 ServerMgr.cpp:40] add game server, game server id:100
+I0101 13:54:27.940148 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:9100 success! 
+I0101 13:54:27.942256 208146432 ProxyThread.cpp:86] connect to game server succ, server id:100
+W0101 13:59:36.500303 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 100
+W0101 13:59:36.508143 208146432 ServerMgr.cpp:135] remove one game server, game server id:100
+W0101 13:59:39.580190 208146432 ServerMgr.cpp:333] disconnect login or game server is remove or register again, no server reconnect...
+I0101 13:59:46.167778 208146432 NetModule.cpp:200] add one connector: 0.0.0.0:9100 succeed...
+W0101 13:59:46.167809 208146432 ServerMgr.cpp:40] add game server, game server id:100
+I0101 13:59:46.254752 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:9100 success! 
+I0101 13:59:46.256865 208146432 ProxyThread.cpp:86] connect to game server succ, server id:100
+I0101 14:02:38.645543 374080960 NetServer.cpp:88] delete io...192.168.10.124:49956
+I0101 14:08:26.925173 374080960 NetServer.cpp:55] accept io...192.168.10.124:49957
+I0101 15:57:25.055811 374080960 NetServer.cpp:88] delete io...192.168.10.150:50749
+I0101 15:57:26.183548 374080960 NetServer.cpp:55] accept io...192.168.10.150:50942
+I0101 16:09:19.884753 374080960 NetServer.cpp:88] delete io...192.168.10.122:63155
+I0101 16:49:34.033207 374080960 NetServer.cpp:88] delete io...192.168.10.150:50942
+I0101 16:49:37.465755 374080960 NetServer.cpp:88] delete io...192.168.10.124:49957
+I0101 16:52:05.072327 374080960 NetServer.cpp:55] accept io...192.168.10.122:63211
+I0101 16:57:20.254741 374080960 NetServer.cpp:88] delete io...192.168.10.122:63211
+W0101 17:32:56.396955 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W0101 17:32:56.397068 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W0101 17:32:56.413292 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W0101 17:32:56.413372 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 100
+W0101 17:32:59.511668 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W0101 17:32:59.511793 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W0101 17:32:59.511888 374080960 NetModule.cpp:703] ready reconnect server, server id: 100
+W0101 17:32:59.511978 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+I0101 17:32:59.512032 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I0101 17:32:59.512043 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I0101 17:32:59.512054 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:9100 success! 
+I0101 17:32:59.512064 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0101 17:32:59.514482 208146432 ProxyThread.cpp:66] connect to center server succ.
+I0101 17:32:59.514500 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I0101 17:32:59.514510 208146432 ProxyThread.cpp:86] connect to game server succ, server id:100
+I0101 17:32:59.514516 208146432 ProxyThread.cpp:92] connect to db server succ
+W0101 17:32:59.565723 208146432 ServerMgr.cpp:17] repeated add game server, game server id:100
+I0101 17:32:59.565861 208146432 ProxyThread.cpp:538] get game server list finish!
+I0101 17:32:59.565882 208146432 ProxyThread.cpp:509] get login server list finish!
+I0101 17:32:59.565897 208146432 ProxyThread.cpp:567] get customer server list finish!
+W0101 17:33:06.602629 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W0101 18:38:00.851670 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W0101 18:38:00.851744 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 100
+W0101 18:38:00.851766 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W0101 18:38:00.851785 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W0101 18:38:04.351615 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W0101 18:38:04.351732 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W0101 18:38:04.352798 374080960 NetModule.cpp:703] ready reconnect server, server id: 100
+W0101 18:38:04.352900 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+I0101 18:38:04.352967 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I0101 18:38:04.352980 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I0101 18:38:04.352990 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:9100 success! 
+I0101 18:38:04.353018 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0101 18:38:04.354784 208146432 ProxyThread.cpp:66] connect to center server succ.
+I0101 18:38:04.354810 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I0101 18:38:04.354825 208146432 ProxyThread.cpp:86] connect to game server succ, server id:100
+I0101 18:38:04.354831 208146432 ProxyThread.cpp:92] connect to db server succ
+W0101 18:38:04.387215 208146432 ServerMgr.cpp:17] repeated add game server, game server id:100
+I0101 18:38:04.387261 208146432 ProxyThread.cpp:538] get game server list finish!
+I0101 18:38:04.387269 208146432 ProxyThread.cpp:509] get login server list finish!
+I0101 18:38:04.387275 208146432 ProxyThread.cpp:567] get customer server list finish!
+W0101 18:38:10.921875 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W0101 19:43:03.893193 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W0101 19:43:03.893412 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 100
+W0101 19:43:03.893621 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W0101 19:43:03.911559 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W0101 19:43:07.380971 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W0101 19:43:07.381111 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W0101 19:43:07.381212 374080960 NetModule.cpp:703] ready reconnect server, server id: 100
+W0101 19:43:07.381304 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+I0101 19:43:07.381361 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I0101 19:43:07.381373 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I0101 19:43:07.381382 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:9100 success! 
+I0101 19:43:07.383308 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0101 19:43:07.383915 208146432 ProxyThread.cpp:66] connect to center server succ.
+I0101 19:43:07.384439 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I0101 19:43:07.384456 208146432 ProxyThread.cpp:86] connect to game server succ, server id:100
+I0101 19:43:07.384464 208146432 ProxyThread.cpp:92] connect to db server succ
+W0101 19:43:07.423866 208146432 ServerMgr.cpp:17] repeated add game server, game server id:100
+I0101 19:43:07.423925 208146432 ProxyThread.cpp:538] get game server list finish!
+I0101 19:43:07.423933 208146432 ProxyThread.cpp:509] get login server list finish!
+I0101 19:43:07.423938 208146432 ProxyThread.cpp:567] get customer server list finish!
+W0101 19:43:14.465827 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W0101 20:22:31.888168 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W0101 20:22:31.901027 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W0101 20:22:31.901075 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W0101 20:22:31.901119 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 100
+W0101 20:22:35.389845 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W0101 20:22:35.389950 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W0101 20:22:35.390039 374080960 NetModule.cpp:703] ready reconnect server, server id: 100
+W0101 20:22:35.390123 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+I0101 20:22:35.390174 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I0101 20:22:35.390187 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I0101 20:22:35.390197 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:9100 success! 
+I0101 20:22:35.390205 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0101 20:22:35.392267 208146432 ProxyThread.cpp:66] connect to center server succ.
+I0101 20:22:35.392287 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I0101 20:22:35.392297 208146432 ProxyThread.cpp:86] connect to game server succ, server id:100
+I0101 20:22:35.392304 208146432 ProxyThread.cpp:92] connect to db server succ
+W0101 20:22:35.443143 208146432 ServerMgr.cpp:17] repeated add game server, game server id:100
+I0101 20:22:35.443197 208146432 ProxyThread.cpp:538] get game server list finish!
+I0101 20:22:35.443204 208146432 ProxyThread.cpp:509] get login server list finish!
+I0101 20:22:35.443210 208146432 ProxyThread.cpp:567] get customer server list finish!
+W0101 20:22:42.486136 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W0101 21:27:35.909041 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W0101 21:27:35.915680 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W0101 21:27:35.915791 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W0101 21:27:35.918380 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 100
+W0101 21:27:39.406255 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W0101 21:27:39.406350 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W0101 21:27:39.406419 374080960 NetModule.cpp:703] ready reconnect server, server id: 100
+W0101 21:27:39.406486 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+I0101 21:27:39.406528 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I0101 21:27:39.406539 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I0101 21:27:39.406548 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:9100 success! 
+I0101 21:27:39.406555 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0101 21:27:39.407310 208146432 ProxyThread.cpp:66] connect to center server succ.
+I0101 21:27:39.407326 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I0101 21:27:39.407332 208146432 ProxyThread.cpp:86] connect to game server succ, server id:100
+I0101 21:27:39.407337 208146432 ProxyThread.cpp:92] connect to db server succ
+W0101 21:27:39.451767 208146432 ServerMgr.cpp:17] repeated add game server, game server id:100
+I0101 21:27:39.451818 208146432 ProxyThread.cpp:538] get game server list finish!
+I0101 21:27:39.451826 208146432 ProxyThread.cpp:509] get login server list finish!
+I0101 21:27:39.451831 208146432 ProxyThread.cpp:567] get customer server list finish!
+W0101 21:27:46.438894 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W0101 22:32:39.935245 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W0101 22:32:39.936530 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W0101 22:32:39.938670 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 100
+W0101 22:32:39.938710 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W0101 22:32:43.428714 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W0101 22:32:43.428833 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W0101 22:32:43.428915 374080960 NetModule.cpp:703] ready reconnect server, server id: 100
+W0101 22:32:43.429388 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+I0101 22:32:43.429445 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I0101 22:32:43.429457 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I0101 22:32:43.429466 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:9100 success! 
+I0101 22:32:43.429473 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0101 22:32:43.429793 208146432 ProxyThread.cpp:66] connect to center server succ.
+I0101 22:32:43.429805 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I0101 22:32:43.429811 208146432 ProxyThread.cpp:86] connect to game server succ, server id:100
+I0101 22:32:43.429817 208146432 ProxyThread.cpp:92] connect to db server succ
+W0101 22:32:43.467281 208146432 ServerMgr.cpp:17] repeated add game server, game server id:100
+I0101 22:32:43.467324 208146432 ProxyThread.cpp:538] get game server list finish!
+I0101 22:32:43.467330 208146432 ProxyThread.cpp:509] get login server list finish!
+I0101 22:32:43.467335 208146432 ProxyThread.cpp:567] get customer server list finish!
+W0101 22:32:50.503301 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W0101 23:37:42.950042 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W0101 23:37:42.958137 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W0101 23:37:42.960417 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W0101 23:37:42.960450 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 100
+W0101 23:37:46.440508 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W0101 23:37:46.440618 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W0101 23:37:46.441752 374080960 NetModule.cpp:703] ready reconnect server, server id: 100
+W0101 23:37:46.441848 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+I0101 23:37:46.441906 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I0101 23:37:46.441918 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I0101 23:37:46.441928 374080960 NetConnector.cpp:216] connect to: 127.0.0.1:9100 success! 
+I0101 23:37:46.441956 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0101 23:37:46.444022 208146432 ProxyThread.cpp:66] connect to center server succ.
+I0101 23:37:46.444038 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I0101 23:37:46.444054 208146432 ProxyThread.cpp:86] connect to game server succ, server id:100
+I0101 23:37:46.444061 208146432 ProxyThread.cpp:92] connect to db server succ
+W0101 23:37:46.478626 208146432 ServerMgr.cpp:17] repeated add game server, game server id:100
+I0101 23:37:46.478688 208146432 ProxyThread.cpp:538] get game server list finish!
+I0101 23:37:46.478696 208146432 ProxyThread.cpp:509] get login server list finish!
+I0101 23:37:46.478701 208146432 ProxyThread.cpp:567] get customer server list finish!
+W0101 23:37:53.516528 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W0102 00:42:45.980265 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W0102 00:42:45.992643 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W0102 00:42:45.992707 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 100
+W0102 00:42:45.992754 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W0102 00:42:49.468520 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W0102 00:42:49.468641 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W0102 00:42:49.468739 374080960 NetModule.cpp:703] ready reconnect server, server id: 100
+W0102 00:42:49.468830 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+I0102 00:42:49.468889 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I0102 00:42:49.468902 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I0102 00:42:49.468914 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:9100 success! 
+I0102 00:42:49.468924 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0102 00:42:49.471000 208146432 ProxyThread.cpp:66] connect to center server succ.
+I0102 00:42:49.471019 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I0102 00:42:49.471037 208146432 ProxyThread.cpp:86] connect to game server succ, server id:100
+I0102 00:42:49.471043 208146432 ProxyThread.cpp:92] connect to db server succ
+W0102 00:42:56.000638 208146432 ServerMgr.cpp:17] repeated add game server, game server id:100
+I0102 00:42:56.000778 208146432 ProxyThread.cpp:538] get game server list finish!
+I0102 00:42:56.000798 208146432 ProxyThread.cpp:509] get login server list finish!
+I0102 00:42:56.000813 208146432 ProxyThread.cpp:567] get customer server list finish!
+W0102 00:42:57.055480 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W0102 01:47:48.992061 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W0102 01:47:48.992136 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W0102 01:47:48.992159 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W0102 01:47:48.992178 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 100
+W0102 01:47:52.487778 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W0102 01:47:52.487905 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W0102 01:47:52.488000 374080960 NetModule.cpp:703] ready reconnect server, server id: 100
+W0102 01:47:52.488099 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+I0102 01:47:52.488173 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I0102 01:47:52.488191 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I0102 01:47:52.488204 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:9100 success! 
+I0102 01:47:52.488211 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0102 01:47:52.488837 208146432 ProxyThread.cpp:66] connect to center server succ.
+I0102 01:47:52.488852 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I0102 01:47:52.488858 208146432 ProxyThread.cpp:86] connect to game server succ, server id:100
+I0102 01:47:52.488863 208146432 ProxyThread.cpp:92] connect to db server succ
+W0102 01:47:52.531913 208146432 ServerMgr.cpp:17] repeated add game server, game server id:100
+I0102 01:47:52.531966 208146432 ProxyThread.cpp:538] get game server list finish!
+I0102 01:47:52.531975 208146432 ProxyThread.cpp:509] get login server list finish!
+I0102 01:47:52.531980 208146432 ProxyThread.cpp:567] get customer server list finish!
+W0102 01:47:59.536226 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W0102 02:52:52.015141 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 100
+W0102 02:52:52.015236 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W0102 02:52:52.015274 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W0102 02:52:52.015300 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W0102 02:52:55.504701 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W0102 02:52:55.504803 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W0102 02:52:55.504882 374080960 NetModule.cpp:703] ready reconnect server, server id: 100
+W0102 02:52:55.504956 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+I0102 02:52:55.505008 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I0102 02:52:55.505020 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I0102 02:52:55.505030 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:9100 success! 
+I0102 02:52:55.505040 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0102 02:52:55.506796 208146432 ProxyThread.cpp:66] connect to center server succ.
+I0102 02:52:55.506812 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I0102 02:52:55.506820 208146432 ProxyThread.cpp:86] connect to game server succ, server id:100
+I0102 02:52:55.506825 208146432 ProxyThread.cpp:92] connect to db server succ
+W0102 02:52:55.529009 208146432 ServerMgr.cpp:17] repeated add game server, game server id:100
+I0102 02:52:55.529062 208146432 ProxyThread.cpp:538] get game server list finish!
+I0102 02:52:55.529070 208146432 ProxyThread.cpp:509] get login server list finish!
+I0102 02:52:55.529076 208146432 ProxyThread.cpp:567] get customer server list finish!
+W0102 02:53:02.586652 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W0102 03:57:55.063869 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 100
+W0102 03:57:55.064059 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W0102 03:57:55.064091 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W0102 03:57:55.064122 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W0102 03:57:58.534709 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W0102 03:57:58.534816 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W0102 03:57:58.534893 374080960 NetModule.cpp:703] ready reconnect server, server id: 100
+W0102 03:57:58.534970 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+I0102 03:57:58.535048 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I0102 03:57:58.535059 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I0102 03:57:58.535071 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:9100 success! 
+I0102 03:57:58.535080 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0102 03:57:58.537257 208146432 ProxyThread.cpp:66] connect to center server succ.
+I0102 03:57:58.537284 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I0102 03:57:58.537297 208146432 ProxyThread.cpp:86] connect to game server succ, server id:100
+I0102 03:57:58.537304 208146432 ProxyThread.cpp:92] connect to db server succ
+W0102 03:57:58.566095 208146432 ServerMgr.cpp:17] repeated add game server, game server id:100
+I0102 03:57:58.566140 208146432 ProxyThread.cpp:538] get game server list finish!
+I0102 03:57:58.566148 208146432 ProxyThread.cpp:509] get login server list finish!
+I0102 03:57:58.566154 208146432 ProxyThread.cpp:567] get customer server list finish!
+W0102 03:58:05.592720 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W0102 05:02:58.074379 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W0102 05:02:58.074895 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W0102 05:02:58.074921 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 100
+W0102 05:02:58.074940 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W0102 05:03:01.562505 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W0102 05:03:01.562624 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W0102 05:03:01.562726 374080960 NetModule.cpp:703] ready reconnect server, server id: 100
+W0102 05:03:01.562829 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+I0102 05:03:01.562896 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I0102 05:03:01.562911 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I0102 05:03:01.562922 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:9100 success! 
+I0102 05:03:01.562930 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0102 05:03:01.564601 208146432 ProxyThread.cpp:66] connect to center server succ.
+I0102 05:03:01.564623 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I0102 05:03:01.564635 208146432 ProxyThread.cpp:86] connect to game server succ, server id:100
+I0102 05:03:01.564640 208146432 ProxyThread.cpp:92] connect to db server succ
+W0102 05:03:01.587218 208146432 ServerMgr.cpp:17] repeated add game server, game server id:100
+I0102 05:03:01.587263 208146432 ProxyThread.cpp:538] get game server list finish!
+I0102 05:03:01.587271 208146432 ProxyThread.cpp:509] get login server list finish!
+I0102 05:03:01.587276 208146432 ProxyThread.cpp:567] get customer server list finish!
+W0102 05:03:08.608053 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W0102 06:08:01.097501 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W0102 06:08:01.098032 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W0102 06:08:01.098070 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W0102 06:08:01.098139 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 100
+W0102 06:08:04.584889 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W0102 06:08:04.584993 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W0102 06:08:04.585060 374080960 NetModule.cpp:703] ready reconnect server, server id: 100
+W0102 06:08:04.585124 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+I0102 06:08:04.585165 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I0102 06:08:04.585175 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I0102 06:08:04.585184 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:9100 success! 
+I0102 06:08:04.585192 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0102 06:08:04.585916 208146432 ProxyThread.cpp:66] connect to center server succ.
+I0102 06:08:04.585952 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I0102 06:08:04.585958 208146432 ProxyThread.cpp:86] connect to game server succ, server id:100
+I0102 06:08:04.585963 208146432 ProxyThread.cpp:92] connect to db server succ
+W0102 06:08:04.633973 208146432 ServerMgr.cpp:17] repeated add game server, game server id:100
+I0102 06:08:04.634037 208146432 ProxyThread.cpp:538] get game server list finish!
+I0102 06:08:04.634045 208146432 ProxyThread.cpp:509] get login server list finish!
+I0102 06:08:04.634050 208146432 ProxyThread.cpp:567] get customer server list finish!
+W0102 06:08:11.636103 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W0102 07:13:04.126932 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 100
+W0102 07:13:04.127398 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W0102 07:13:04.127468 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W0102 07:13:04.127491 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W0102 07:13:07.610060 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W0102 07:13:07.610179 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W0102 07:13:07.610252 374080960 NetModule.cpp:703] ready reconnect server, server id: 100
+W0102 07:13:07.610332 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+I0102 07:13:07.610380 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I0102 07:13:07.610391 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I0102 07:13:07.610400 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:9100 success! 
+I0102 07:13:07.610409 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0102 07:13:07.612890 208146432 ProxyThread.cpp:66] connect to center server succ.
+I0102 07:13:07.612931 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I0102 07:13:07.612965 208146432 ProxyThread.cpp:86] connect to game server succ, server id:100
+I0102 07:13:07.612987 208146432 ProxyThread.cpp:92] connect to db server succ
+W0102 07:13:07.624074 208146432 ServerMgr.cpp:17] repeated add game server, game server id:100
+I0102 07:13:07.624119 208146432 ProxyThread.cpp:538] get game server list finish!
+I0102 07:13:07.624125 208146432 ProxyThread.cpp:509] get login server list finish!
+I0102 07:13:07.624131 208146432 ProxyThread.cpp:567] get customer server list finish!
+W0102 07:13:14.693874 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W0102 08:18:07.143946 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W0102 08:18:07.144469 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W0102 08:18:07.144587 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 100
+W0102 08:18:07.144626 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W0102 08:18:10.623723 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W0102 08:18:10.623837 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W0102 08:18:10.623915 374080960 NetModule.cpp:703] ready reconnect server, server id: 100
+W0102 08:18:10.623991 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+I0102 08:18:10.624065 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I0102 08:18:10.624078 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I0102 08:18:10.624089 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:9100 success! 
+I0102 08:18:10.624097 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0102 08:18:10.626125 208146432 ProxyThread.cpp:66] connect to center server succ.
+I0102 08:18:10.626142 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I0102 08:18:10.626150 208146432 ProxyThread.cpp:86] connect to game server succ, server id:100
+I0102 08:18:10.626157 208146432 ProxyThread.cpp:92] connect to db server succ
+W0102 08:18:10.679208 208146432 ServerMgr.cpp:17] repeated add game server, game server id:100
+I0102 08:18:10.679262 208146432 ProxyThread.cpp:538] get game server list finish!
+I0102 08:18:10.679270 208146432 ProxyThread.cpp:509] get login server list finish!
+I0102 08:18:10.679275 208146432 ProxyThread.cpp:567] get customer server list finish!
+W0102 08:18:17.681721 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W0102 09:23:10.161346 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W0102 09:23:10.174371 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W0102 09:23:10.174430 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W0102 09:23:10.174465 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 100
+W0102 09:23:13.665227 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W0102 09:23:13.665360 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W0102 09:23:13.665441 374080960 NetModule.cpp:703] ready reconnect server, server id: 100
+W0102 09:23:13.665526 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+I0102 09:23:13.665587 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I0102 09:23:13.665599 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I0102 09:23:13.665609 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:9100 success! 
+I0102 09:23:13.665618 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0102 09:23:13.667068 208146432 ProxyThread.cpp:66] connect to center server succ.
+I0102 09:23:13.667084 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I0102 09:23:13.667093 208146432 ProxyThread.cpp:86] connect to game server succ, server id:100
+I0102 09:23:13.667098 208146432 ProxyThread.cpp:92] connect to db server succ
+W0102 09:23:13.686058 208146432 ServerMgr.cpp:17] repeated add game server, game server id:100
+I0102 09:23:13.696801 208146432 ProxyThread.cpp:538] get game server list finish!
+I0102 09:23:13.696812 208146432 ProxyThread.cpp:509] get login server list finish!
+I0102 09:23:13.696818 208146432 ProxyThread.cpp:567] get customer server list finish!
+W0102 09:23:20.720257 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W0102 09:57:23.501096 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W0102 09:57:23.501487 208146432 ProxyThread.cpp:114] center server is disconnect, after 3s will be reconnect!
+W0102 09:57:23.501519 208146432 ProxyThread.cpp:133] login server is disconnect, after 3s will be reconnect!, server id: 10
+W0102 09:57:23.501543 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 100
+W0102 09:57:26.976563 374080960 NetModule.cpp:703] ready reconnect server, server id: 0
+W0102 09:57:26.976673 374080960 NetModule.cpp:703] ready reconnect server, server id: 10
+W0102 09:57:26.976752 374080960 NetModule.cpp:703] ready reconnect server, server id: 100
+W0102 09:57:26.976881 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+I0102 09:57:26.976939 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I0102 09:57:26.976953 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:7003 success! 
+I0102 09:57:26.976963 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:9100 success! 
+I0102 09:57:26.976972 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0102 09:57:26.979014 208146432 ProxyThread.cpp:66] connect to center server succ.
+I0102 09:57:26.979032 208146432 ProxyThread.cpp:76] connect to login server succ, server id:10
+I0102 09:57:26.979039 208146432 ProxyThread.cpp:86] connect to game server succ, server id:100
+I0102 09:57:26.979045 208146432 ProxyThread.cpp:92] connect to db server succ
+W0102 09:57:27.002965 208146432 ServerMgr.cpp:17] repeated add game server, game server id:100
+I0102 09:57:27.003041 208146432 ProxyThread.cpp:538] get game server list finish!
+I0102 09:57:27.003049 208146432 ProxyThread.cpp:509] get login server list finish!
+I0102 09:57:27.003057 208146432 ProxyThread.cpp:567] get customer server list finish!
+W0102 09:57:34.010269 208146432 ServerMgr.cpp:60] repeated add login server, login server id:10
+W0102 09:58:09.148234 208146432 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W0102 09:58:12.602581 374080960 NetModule.cpp:703] ready reconnect server, server id: 1
+I0102 09:58:12.602696 374080960 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0102 09:58:12.602978 208146432 ProxyThread.cpp:92] connect to db server succ
+W0102 10:27:09.189810 208146432 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 100
+W0102 10:27:09.200461 208146432 ServerMgr.cpp:135] remove one game server, game server id:100
+W0102 10:27:12.270038 208146432 ServerMgr.cpp:333] disconnect login or game server is remove or register again, no server reconnect...
+I0102 10:27:50.612471 208146432 NetModule.cpp:200] add one connector: 127.0.0.1:11001 succeed...

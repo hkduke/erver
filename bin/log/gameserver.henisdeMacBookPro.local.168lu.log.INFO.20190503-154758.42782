@@ -1,0 +1,29 @@
+Log file created at: 2019/05/03 15:47:58
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0503 15:47:58.755678 318985664 GameServer.cpp:45] 正在启动游戏服务器...
+I0503 15:47:58.758354 318985664 NetModule.h:71] Init NetModule Finished.
+I0503 15:47:58.758587 318985664 NetModule.h:78] start work thread 0...
+I0503 15:47:58.758615 318985664 NetModule.cpp:69] Start Run NetModule...
+I0503 15:47:58.758633 318985664 NetModule.cpp:88] NetModule Already Startover.
+I0503 15:47:58.758646 318985664 NetModule.cpp:220] add one connector: 127.0.0.1:5001 succeed...
+I0503 15:47:58.758652 318985664 NetModule.cpp:220] add one connector: 127.0.0.1:6001 succeed...
+I0503 15:47:58.758657 318985664 NetModule.cpp:136] Create one server...
+I0503 15:47:59.261508 318985664 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0503 15:47:59.261582 318985664 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0503 15:47:59.263437 168755200 GameServerThread.cpp:113] connect to db server succ!
+I0503 15:48:00.475543 168755200 AndroidUserMgr.cpp:832] set active android count: 0
+I0503 15:48:00.475574 168755200 AndroidUserMgr.cpp:832] set active android count: 0
+I0503 15:48:00.626020 318985664 NetServer.cpp:55] accept io...127.0.0.1:59585
+I0503 15:48:00.963521 168755200 GameServerThread.cpp:1933] load benefit config succ!
+I0503 15:48:01.685976 168755200 GameServerThread.cpp:1853] load android parameter succ, android count : 0
+W0503 15:48:01.805186 168755200 GameTableManager.cpp:566] update br game server black list, server id: 11
+I0503 15:48:01.805460 168755200 GameServerThread.cpp:1507] init server succ!
+I0503 15:48:01.805470 168755200 GameServerThread.cpp:146] bind one connect: 127.0.0.1:59585
+I0503 15:48:01.805480 168755200 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:59585
+W0503 18:45:24.590826 168755200 GameServerThread.cpp:2571] can not enter room, in other room, user id: 85501464
+W0503 18:45:26.024978 168755200 GameServerThread.cpp:2571] can not enter room, in other room, user id: 85501464
+W0503 19:08:01.464221 168755200 GameServerThread.cpp:2571] can not enter room, in other room, user id: 85501464
+W0503 19:08:10.056565 168755200 GameServerThread.cpp:2571] can not enter room, in other room, user id: 85501464
+W0503 19:08:10.864562 168755200 GameServerThread.cpp:2571] can not enter room, in other room, user id: 85501464
+W0503 19:08:34.325361 168755200 TableFrameForScore.cpp:1814] delete user online info fail, userid:85538002

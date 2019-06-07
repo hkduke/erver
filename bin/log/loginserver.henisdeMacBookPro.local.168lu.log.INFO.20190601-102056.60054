@@ -1,0 +1,37 @@
+Log file created at: 2019/06/01 10:20:56
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0601 10:20:56.860847 250189248 LoginServer.cpp:45] 正在启动登录服务器...
+I0601 10:20:56.865003 250189248 NetModule.h:71] Init NetModule Finished.
+I0601 10:20:56.867059 250189248 NetModule.h:78] start work thread 0...
+I0601 10:20:56.867079 250189248 NetModule.cpp:69] Start Run NetModule...
+I0601 10:20:56.867101 250189248 NetModule.cpp:88] NetModule Already Startover.
+W0601 10:20:56.868840 250189248 LoginServer.cpp:65] listen at: 0.0.0.0:7001
+I0601 10:20:56.869385 250189248 NetModule.cpp:136] Create one server...
+I0601 10:20:56.869702 250189248 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I0601 10:20:56.923665 250189248 NetServer.cpp:55] accept io...127.0.0.1:51821
+I0601 10:20:56.925843 169590784 LoginServerThread.cpp:198] bind one connect: 127.0.0.1:51821
+I0601 10:20:56.930505 169590784 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:51821
+I0601 10:20:58.587119 169590784 LoginServerThread.cpp:7914] load game kind succ!
+I0601 10:20:58.709678 169590784 LoginServerThread.cpp:8025] load game room kind succ!
+I0601 10:20:59.287169 169590784 LoginServerThread.cpp:8407] load system status succ!
+I0601 10:20:59.399924 169590784 LoginServerThread.cpp:8094] load vip config succ!
+I0601 10:20:59.512189 169590784 LoginServerThread.cpp:8126] load vip2 config succ!
+I0601 10:20:59.634938 169590784 LoginServerThread.cpp:8432] load channel show exchange succ!
+I0601 10:20:59.747619 169590784 LoginServerThread.cpp:8462] load exchange info succ!
+I0601 10:20:59.863524 169590784 LoginServerThread.cpp:8489] load channel prsent score succ!
+I0601 10:20:59.977720 169590784 LoginServerThread.cpp:8513] load channel register mail succ!
+I0601 10:21:00.089627 169590784 LoginServerThread.cpp:8154] load benefit config succ!
+I0601 10:21:00.201387 169590784 LoginServerThread.cpp:8221] load game version succ!
+W0601 10:21:00.537099 169590784 LoginServerThread.cpp:336] loginserver start succ.
+I0601 10:21:00.644804 250189248 NetServer.cpp:88] delete io...127.0.0.1:51821
+W0601 10:21:01.436522 169590784 ServerMgr.cpp:88] remove one proxy server, id: 30
+I0601 10:21:02.103950 250189248 NetServer.cpp:55] accept io...127.0.0.1:51832
+I0601 10:21:02.104480 169590784 LoginServerThread.cpp:198] bind one connect: 127.0.0.1:51832
+I0601 10:21:02.129791 169590784 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:51832
+I0601 10:23:55.665563 250189248 NetServer.cpp:88] delete io...127.0.0.1:51832
+W0601 10:23:55.666512 169590784 ServerMgr.cpp:88] remove one proxy server, id: 30
+I0601 10:24:05.377359 250189248 NetServer.cpp:55] accept io...127.0.0.1:51848
+I0601 10:24:05.379487 169590784 LoginServerThread.cpp:198] bind one connect: 127.0.0.1:51848
+I0601 10:24:05.400550 169590784 ServerMgr.cpp:54] bind one proxy server, ip:127.0.0.1:51848
+I0601 10:59:01.029304 250189248 NetServer.cpp:88] delete io...127.0.0.1:51848

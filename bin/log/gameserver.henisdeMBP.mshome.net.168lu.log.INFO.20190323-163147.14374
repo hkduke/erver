@@ -1,0 +1,28 @@
+Log file created at: 2019/03/23 16:31:47
+Running on machine: henisdeMBP.mshome.net
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0323 16:31:47.216164 232519104 GameServer.cpp:45] 正在启动游戏服务器...
+I0323 16:31:47.218019 232519104 NetModule.h:71] Init NetModule Finished.
+I0323 16:31:47.218219 232519104 NetModule.h:78] start work thread 0...
+I0323 16:31:47.218227 232519104 NetModule.cpp:69] Start Run NetModule...
+I0323 16:31:47.218245 232519104 NetModule.cpp:88] NetModule Already Startover.
+I0323 16:31:47.218255 232519104 NetModule.cpp:220] add one connector: 127.0.0.1:5001 succeed...
+I0323 16:31:47.218261 232519104 NetModule.cpp:220] add one connector: 127.0.0.1:6001 succeed...
+I0323 16:31:47.218266 232519104 NetModule.cpp:136] Create one server...
+I0323 16:31:47.720252 232519104 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0323 16:31:47.720297 232519104 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0323 16:31:47.722465 44523520 GameServerThread.cpp:113] connect to db server succ!
+I0323 16:31:49.736459 44523520 AndroidUserMgr.cpp:832] set active android count: 0
+I0323 16:31:49.736507 44523520 AndroidUserMgr.cpp:832] set active android count: 70
+I0323 16:31:49.946553 232519104 NetServer.cpp:55] accept io...127.0.0.1:59620
+I0323 16:31:50.222615 44523520 GameServerThread.cpp:1933] load benefit config succ!
+I0323 16:31:50.906317 44523520 GameServerThread.cpp:1853] load android parameter succ, android count : 40
+W0323 16:31:51.037031 44523520 GameTableManager.cpp:566] update br game server black list, server id: 991
+I0323 16:31:51.037330 44523520 GameServerThread.cpp:1507] init server succ!
+I0323 16:31:51.037343 44523520 GameServerThread.cpp:146] bind one connect: 127.0.0.1:59620
+I0323 16:31:51.037353 44523520 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:59620
+W0323 16:33:46.787734 44523520 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!
+W0323 16:33:47.915153 232519104 NetModule.cpp:723] ready reconnect server, server id: 991
+I0323 16:33:47.915304 232519104 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0323 16:33:47.915359 44523520 GameServerThread.cpp:113] connect to db server succ!
+W0323 16:38:28.894556 44523520 GameServerThread.cpp:136] db server is disconnect, after 1s will be reconnect!

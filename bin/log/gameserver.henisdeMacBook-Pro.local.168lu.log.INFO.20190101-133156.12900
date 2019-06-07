@@ -1,0 +1,25 @@
+Log file created at: 2019/01/01 13:31:56
+Running on machine: henisdeMacBook-Pro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0101 13:31:56.479054 470463936 GameServer.cpp:45] 正在启动游戏服务器...
+I0101 13:31:56.481623 470463936 NetModule.h:71] Init NetModule Finished.
+I0101 13:31:56.481824 470463936 NetModule.h:77] start work thread 0...
+I0101 13:31:56.481834 470463936 NetModule.cpp:64] Start Run NetModule...
+I0101 13:31:56.481849 470463936 NetModule.cpp:76] NetModule Already Startover.
+I0101 13:31:56.481860 470463936 NetModule.cpp:200] add one connector: 0.0.0.0:5001 succeed...
+I0101 13:31:56.481868 470463936 NetModule.cpp:200] add one connector: 0.0.0.0:6001 succeed...
+I0101 13:31:56.481875 470463936 NetModule.cpp:118] Create one server...
+I0101 13:31:56.982177 470463936 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0101 13:31:56.982214 470463936 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0101 13:31:56.984341 199315456 GameServerThread.cpp:113] connect to db server succ!
+I0101 13:31:59.432312 199315456 AndroidUserMgr.cpp:693] set active android count: 0
+I0101 13:31:59.432364 199315456 AndroidUserMgr.cpp:693] set active android count: 0
+I0101 13:31:59.868758 470463936 NetServer.cpp:55] accept io...127.0.0.1:61381
+I0101 13:31:59.901335 199315456 GameServerThread.cpp:1884] load benefit config succ!
+I0101 13:32:00.702464 199315456 GameServerThread.cpp:1804] load android parameter succ, android count : 687
+I0101 13:32:00.702498 199315456 GameServerThread.cpp:1813] SET DDZ AI TIMER.
+W0101 13:32:00.823583 199315456 GameTableManager.cpp:561] update br game server black list, server id: 100
+I0101 13:32:00.823988 199315456 GameServerThread.cpp:1458] init server succ!
+I0101 13:32:00.824002 199315456 GameServerThread.cpp:146] bind one connect: 127.0.0.1:61381
+I0101 13:32:00.824019 199315456 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:61381
+W0101 13:42:01.240264 199315456 TableFrameForScore.cpp:1637] game process message fail? subid: 1

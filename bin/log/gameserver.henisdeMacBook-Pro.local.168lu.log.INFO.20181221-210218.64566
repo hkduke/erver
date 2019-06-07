@@ -1,0 +1,25 @@
+Log file created at: 2018/12/21 21:02:18
+Running on machine: henisdeMacBook-Pro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1221 21:02:18.732177 235427264 GameServer.cpp:45] 正在启动游戏服务器...
+I1221 21:02:18.734171 235427264 NetModule.h:71] Init NetModule Finished.
+I1221 21:02:18.734393 235427264 NetModule.h:77] start work thread 0...
+I1221 21:02:18.734405 235427264 NetModule.cpp:64] Start Run NetModule...
+I1221 21:02:18.734422 235427264 NetModule.cpp:76] NetModule Already Startover.
+I1221 21:02:18.734433 235427264 NetModule.cpp:200] add one connector: 127.0.0.1:5001 succeed...
+I1221 21:02:18.734438 235427264 NetModule.cpp:200] add one connector: 127.0.0.1:6001 succeed...
+I1221 21:02:18.734443 235427264 NetModule.cpp:118] Create one server...
+I1221 21:02:19.235340 235427264 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I1221 21:02:19.235388 235427264 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I1221 21:02:19.237546 58601472 GameServerThread.cpp:113] connect to db server succ!
+I1221 21:02:31.433547 58601472 AndroidUserMgr.cpp:693] set active android count: 0
+I1221 21:02:31.433583 58601472 AndroidUserMgr.cpp:693] set active android count: 2
+I1221 21:02:31.922648 235427264 NetServer.cpp:55] accept io...127.0.0.1:52482
+I1221 21:02:31.924866 58601472 GameServerThread.cpp:1884] load benefit config succ!
+I1221 21:02:32.585474 58601472 GameServerThread.cpp:1804] load android parameter succ, android count : 24
+W1221 21:02:32.702508 58601472 GameTableManager.cpp:561] update br game server black list, server id: 1101
+I1221 21:02:32.702778 58601472 GameServerThread.cpp:1458] init server succ!
+I1221 21:02:32.702788 58601472 GameServerThread.cpp:146] bind one connect: 127.0.0.1:52482
+I1221 21:02:32.702800 58601472 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:52482
+W1221 21:02:44.903350 58601472 GameServerThread.cpp:853] User ready enter room. user id: 83516815
+W1221 21:03:12.405097 58601472 TableFrameForScore.cpp:1637] game process message fail? subid: 2

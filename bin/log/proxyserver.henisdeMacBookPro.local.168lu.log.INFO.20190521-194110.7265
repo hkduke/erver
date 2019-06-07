@@ -1,0 +1,542 @@
+Log file created at: 2019/05/21 19:41:10
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0521 19:41:10.812045 38106560 ProxyServer.cpp:45] 正在启动代理服务器...
+I0521 19:41:10.815567 38106560 NetModule.h:71] Init NetModule Finished.
+I0521 19:41:10.815651 38106560 NetModule.h:78] start work thread 0...
+I0521 19:41:10.815660 38106560 NetModule.cpp:69] Start Run NetModule...
+I0521 19:41:10.815680 38106560 NetModule.cpp:88] NetModule Already Startover.
+I0521 19:41:10.816179 38106560 NetModule.cpp:136] Create one server...
+I0521 19:41:10.816282 38106560 NetConnector.cpp:216] connect to: 0.0.0.0:5001 success! 
+I0521 19:41:10.816298 38106560 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0521 19:41:10.826153 143781888 ProxyThread.cpp:66] connect to center server succ.
+I0521 19:41:10.826186 143781888 ProxyThread.cpp:92] connect to db server succ
+I0521 19:41:10.851075 143781888 ProxyThread.cpp:543] get game server list finish!
+I0521 19:41:10.851125 143781888 NetModule.cpp:220] add one connector: 0.0.0.0:7001 succeed...
+W0521 19:41:10.851136 143781888 ServerMgr.cpp:79] add login server, login server id:10
+I0521 19:41:10.851641 143781888 ProxyThread.cpp:514] get login server list finish!
+I0521 19:41:10.851655 143781888 ProxyThread.cpp:572] get customer server list finish!
+I0521 19:41:11.316251 38106560 NetConnector.cpp:216] connect to: 0.0.0.0:7001 success! 
+I0521 19:41:11.318135 143781888 ProxyThread.cpp:76] connect to login server succ, server id:10
+I0521 19:41:13.887311 38106560 NetServer.cpp:55] accept io...192.168.10.102:56140
+W0521 19:41:24.076421 143781888 ProxyThread.cpp:138] db server is disconnect, after 3s will be reconnect!
+W0521 19:41:27.361513 38106560 NetModule.cpp:723] ready reconnect server, server id: 1
+I0521 19:41:27.361701 38106560 NetConnector.cpp:216] connect to: 0.0.0.0:6001 success! 
+I0521 19:41:27.363775 143781888 ProxyThread.cpp:92] connect to db server succ
+I0521 19:47:47.192193 143781888 NetModule.cpp:220] add one connector: 127.0.0.1:10001 succeed...
+W0521 19:47:47.192247 143781888 ServerMgr.cpp:40] add game server, game server id:10001
+I0521 19:47:47.388200 38106560 NetConnector.cpp:216] connect to: 127.0.0.1:10001 success! 
+I0521 19:47:47.390413 143781888 ProxyThread.cpp:86] connect to game server succ, server id:10001
+W0521 19:48:36.531371 143781888 ServerMgr.cpp:140] remove game server, but the link is alive, game server id:10001
+W0521 19:48:36.531481 143781888 ServerMgr.cpp:145] remove one game server, game server id:10001
+I0521 19:49:11.632622 143781888 NetModule.cpp:220] add one connector: 127.0.0.1:10001 succeed...
+W0521 19:49:11.632679 143781888 ServerMgr.cpp:40] add game server, game server id:10001
+I0521 19:49:12.127702 38106560 NetConnector.cpp:216] connect to: 127.0.0.1:10001 success! 
+I0521 19:49:12.129467 143781888 ProxyThread.cpp:86] connect to game server succ, server id:10001
+W0521 19:49:53.242094 143781888 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 10001
+W0521 19:49:53.254274 143781888 ServerMgr.cpp:145] remove one game server, game server id:10001
+W0521 19:49:56.328174 143781888 ServerMgr.cpp:354] disconnect login or game server is remove or register again, no server reconnect...
+I0521 19:50:00.536533 143781888 NetModule.cpp:220] add one connector: 127.0.0.1:10001 succeed...
+W0521 19:50:00.536556 143781888 ServerMgr.cpp:40] add game server, game server id:10001
+I0521 19:50:00.786942 38106560 NetConnector.cpp:216] connect to: 127.0.0.1:10001 success! 
+I0521 19:50:00.789227 143781888 ProxyThread.cpp:86] connect to game server succ, server id:10001
+W0521 19:50:46.555032 143781888 ServerMgr.cpp:140] remove game server, but the link is alive, game server id:10001
+W0521 19:50:46.555096 143781888 ServerMgr.cpp:145] remove one game server, game server id:10001
+I0521 19:51:06.569203 143781888 NetModule.cpp:220] add one connector: 127.0.0.1:10001 succeed...
+W0521 19:51:06.569229 143781888 ServerMgr.cpp:40] add game server, game server id:10001
+I0521 19:51:06.954572 38106560 NetConnector.cpp:216] connect to: 127.0.0.1:10001 success! 
+I0521 19:51:06.956387 143781888 ProxyThread.cpp:86] connect to game server succ, server id:10001
+W0521 19:52:46.571565 143781888 ServerMgr.cpp:140] remove game server, but the link is alive, game server id:10001
+W0521 19:52:46.571679 143781888 ServerMgr.cpp:145] remove one game server, game server id:10001
+I0521 19:54:17.324375 143781888 NetModule.cpp:220] add one connector: 127.0.0.1:10001 succeed...
+W0521 19:54:17.324611 143781888 ServerMgr.cpp:40] add game server, game server id:10001
+I0521 19:54:17.451759 38106560 NetConnector.cpp:216] connect to: 127.0.0.1:10001 success! 
+I0521 19:54:17.454041 143781888 ProxyThread.cpp:86] connect to game server succ, server id:10001
+W0521 19:54:34.897428 143781888 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 10001
+W0521 19:54:34.914531 143781888 ServerMgr.cpp:145] remove one game server, game server id:10001
+W0521 19:54:37.929482 143781888 ServerMgr.cpp:354] disconnect login or game server is remove or register again, no server reconnect...
+I0521 20:13:47.700042 143781888 NetModule.cpp:220] add one connector: 127.0.0.1:11001 succeed...
+W0521 20:13:47.700101 143781888 ServerMgr.cpp:40] add game server, game server id:11
+I0521 20:13:47.875555 38106560 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I0521 20:13:47.877159 143781888 ProxyThread.cpp:86] connect to game server succ, server id:11
+I0521 20:13:53.388645 38106560 NetServer.cpp:55] accept io...192.168.10.171:54307
+I0521 20:14:33.513873 38106560 NetServer.cpp:55] accept io...192.168.10.127:54405
+W0521 20:19:20.161144 143781888 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 11
+I0521 20:19:20.166131 38106560 NetServer.cpp:88] delete io...192.168.10.171:54307
+I0521 20:19:20.166211 38106560 NetServer.cpp:88] delete io...192.168.10.102:56140
+I0521 20:19:20.166244 38106560 NetServer.cpp:88] delete io...192.168.10.127:54405
+W0521 20:19:20.168635 143781888 ServerMgr.cpp:145] remove one game server, game server id:11
+I0521 20:19:20.365965 38106560 NetServer.cpp:55] accept io...192.168.10.102:56142
+I0521 20:19:20.366101 38106560 NetServer.cpp:55] accept io...192.168.10.171:54308
+I0521 20:19:20.386054 38106560 NetServer.cpp:55] accept io...192.168.10.127:54408
+W0521 20:19:23.232513 143781888 ServerMgr.cpp:354] disconnect login or game server is remove or register again, no server reconnect...
+I0521 20:19:35.845968 143781888 NetModule.cpp:220] add one connector: 127.0.0.1:9903 succeed...
+W0521 20:19:35.845988 143781888 ServerMgr.cpp:40] add game server, game server id:993
+I0521 20:19:35.864400 38106560 NetConnector.cpp:216] connect to: 127.0.0.1:9903 success! 
+I0521 20:19:35.866088 143781888 ProxyThread.cpp:86] connect to game server succ, server id:993
+I0521 20:20:45.763347 38106560 NetServer.cpp:88] delete io...192.168.10.171:54308
+W0521 20:22:06.854210 143781888 ServerMgr.cpp:140] remove game server, but the link is alive, game server id:993
+W0521 20:22:06.854401 143781888 ServerMgr.cpp:145] remove one game server, game server id:993
+I0521 20:23:07.285650 38106560 NetServer.cpp:55] accept io...192.168.10.171:54309
+I0521 20:24:47.271131 38106560 NetServer.cpp:88] delete io...192.168.10.171:54309
+I0521 20:24:51.998873 38106560 NetServer.cpp:55] accept io...192.168.10.171:54310
+I0521 20:25:02.262122 143781888 NetModule.cpp:220] add one connector: 127.0.0.1:9903 succeed...
+W0521 20:25:02.262145 143781888 ServerMgr.cpp:40] add game server, game server id:993
+I0521 20:25:02.292275 38106560 NetConnector.cpp:216] connect to: 127.0.0.1:9903 success! 
+I0521 20:25:02.294234 143781888 ProxyThread.cpp:86] connect to game server succ, server id:993
+W0521 20:25:42.506757 143781888 ProxyThread.cpp:880] client socket not found, main id: 6, sub id: 662
+W0521 20:25:43.002885 143781888 ProxyThread.cpp:934] can not find hall user!, user id: 85505405, main id: 7, sub id: 7129
+W0521 20:25:43.131880 143781888 ProxyThread.cpp:880] client socket not found, main id: 6, sub id: 662
+W0521 20:25:43.251912 143781888 ProxyThread.cpp:880] client socket not found, main id: 6, sub id: 677
+W0521 20:34:27.587828 143781888 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 993
+W0521 20:34:27.605067 143781888 ServerMgr.cpp:145] remove one game server, game server id:993
+W0521 20:34:30.686166 143781888 ServerMgr.cpp:354] disconnect login or game server is remove or register again, no server reconnect...
+I0521 20:35:10.019965 143781888 NetModule.cpp:220] add one connector: 127.0.0.1:9903 succeed...
+W0521 20:35:10.020007 143781888 ServerMgr.cpp:40] add game server, game server id:993
+I0521 20:35:10.051604 38106560 NetConnector.cpp:216] connect to: 127.0.0.1:9903 success! 
+I0521 20:35:10.052378 143781888 ProxyThread.cpp:86] connect to game server succ, server id:993
+I0521 20:35:38.494156 38106560 NetServer.cpp:88] delete io...192.168.10.171:54310
+I0521 20:36:56.295120 38106560 NetServer.cpp:55] accept io...192.168.10.171:54311
+I0521 20:37:08.801456 38106560 NetServer.cpp:88] delete io...192.168.10.171:54311
+I0521 20:37:15.011848 38106560 NetServer.cpp:55] accept io...192.168.10.171:54312
+W0521 20:37:32.508718 143781888 ProxyThread.cpp:880] client socket not found, main id: 6, sub id: 660
+W0521 20:37:32.875301 143781888 ProxyThread.cpp:880] client socket not found, main id: 6, sub id: 660
+W0521 20:37:33.278303 143781888 ProxyThread.cpp:880] client socket not found, main id: 6, sub id: 660
+I0521 20:37:57.743326 38106560 NetServer.cpp:88] delete io...192.168.10.171:54312
+I0521 20:38:01.956305 38106560 NetServer.cpp:55] accept io...192.168.10.171:54313
+I0521 20:40:22.040058 38106560 NetServer.cpp:88] delete io...192.168.10.171:54313
+I0521 20:40:27.207764 38106560 NetServer.cpp:55] accept io...192.168.10.171:54314
+I0521 20:41:41.352067 38106560 NetServer.cpp:88] delete io...192.168.10.171:54314
+I0521 20:42:36.343529 38106560 NetServer.cpp:55] accept io...192.168.10.171:54321
+I0521 20:44:31.392994 38106560 NetServer.cpp:88] delete io...192.168.10.171:54321
+I0521 20:45:27.907163 38106560 NetServer.cpp:55] accept io...192.168.10.171:54325
+I0521 20:46:21.412225 38106560 NetServer.cpp:88] delete io...192.168.10.171:54325
+W0521 20:52:18.200403 143781888 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 993
+W0521 20:52:18.215760 143781888 ServerMgr.cpp:145] remove one game server, game server id:993
+W0521 20:52:21.246381 143781888 ServerMgr.cpp:354] disconnect login or game server is remove or register again, no server reconnect...
+I0521 20:58:43.148452 143781888 NetModule.cpp:220] add one connector: 127.0.0.1:10001 succeed...
+W0521 20:58:43.148528 143781888 ServerMgr.cpp:40] add game server, game server id:10001
+I0521 20:58:43.462268 38106560 NetConnector.cpp:216] connect to: 127.0.0.1:10001 success! 
+I0521 20:58:43.463189 143781888 ProxyThread.cpp:86] connect to game server succ, server id:10001
+W0521 20:58:50.590881 143781888 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 10001
+W0521 20:58:50.595849 143781888 ServerMgr.cpp:145] remove one game server, game server id:10001
+W0521 20:58:53.626344 143781888 ServerMgr.cpp:354] disconnect login or game server is remove or register again, no server reconnect...
+I0521 21:03:26.086933 143781888 NetModule.cpp:220] add one connector: 127.0.0.1:10001 succeed...
+W0521 21:03:26.086984 143781888 ServerMgr.cpp:40] add game server, game server id:10001
+I0521 21:03:26.264036 38106560 NetConnector.cpp:216] connect to: 127.0.0.1:10001 success! 
+I0521 21:03:26.266248 143781888 ProxyThread.cpp:86] connect to game server succ, server id:10001
+W0521 21:04:07.204933 143781888 ServerMgr.cpp:140] remove game server, but the link is alive, game server id:10001
+W0521 21:04:07.205096 143781888 ServerMgr.cpp:145] remove one game server, game server id:10001
+I0521 21:04:31.839198 143781888 NetModule.cpp:220] add one connector: 127.0.0.1:10001 succeed...
+W0521 21:04:31.839223 143781888 ServerMgr.cpp:40] add game server, game server id:10001
+I0521 21:04:31.927870 38106560 NetConnector.cpp:216] connect to: 127.0.0.1:10001 success! 
+I0521 21:04:31.929765 143781888 ProxyThread.cpp:86] connect to game server succ, server id:10001
+W0521 21:05:07.211686 143781888 ServerMgr.cpp:140] remove game server, but the link is alive, game server id:10001
+W0521 21:05:07.211828 143781888 ServerMgr.cpp:145] remove one game server, game server id:10001
+I0521 21:07:59.383055 143781888 NetModule.cpp:220] add one connector: 127.0.0.1:10001 succeed...
+W0521 21:07:59.383134 143781888 ServerMgr.cpp:40] add game server, game server id:10001
+I0521 21:07:59.543964 38106560 NetConnector.cpp:216] connect to: 127.0.0.1:10001 success! 
+I0521 21:07:59.544883 143781888 ProxyThread.cpp:86] connect to game server succ, server id:10001
+W0521 21:08:12.609390 143781888 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 10001
+W0521 21:08:12.611748 143781888 ServerMgr.cpp:145] remove one game server, game server id:10001
+W0521 21:08:15.640858 143781888 ServerMgr.cpp:354] disconnect login or game server is remove or register again, no server reconnect...
+I0521 21:08:19.824962 143781888 NetModule.cpp:220] add one connector: 127.0.0.1:10001 succeed...
+W0521 21:08:19.825009 143781888 ServerMgr.cpp:40] add game server, game server id:10001
+I0521 21:08:20.092936 38106560 NetConnector.cpp:216] connect to: 127.0.0.1:10001 success! 
+I0521 21:08:20.094765 143781888 ProxyThread.cpp:86] connect to game server succ, server id:10001
+W0521 21:08:39.107017 143781888 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 10001
+W0521 21:08:39.117259 143781888 ServerMgr.cpp:145] remove one game server, game server id:10001
+W0521 21:08:42.204644 143781888 ServerMgr.cpp:354] disconnect login or game server is remove or register again, no server reconnect...
+I0521 21:08:53.943161 143781888 NetModule.cpp:220] add one connector: 127.0.0.1:10001 succeed...
+W0521 21:08:53.943183 143781888 ServerMgr.cpp:40] add game server, game server id:10001
+I0521 21:08:54.215639 38106560 NetConnector.cpp:216] connect to: 127.0.0.1:10001 success! 
+I0521 21:08:54.217912 143781888 ProxyThread.cpp:86] connect to game server succ, server id:10001
+W0521 21:09:00.394966 143781888 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 10001
+W0521 21:09:00.407528 143781888 ServerMgr.cpp:145] remove one game server, game server id:10001
+W0521 21:09:03.409754 143781888 ServerMgr.cpp:354] disconnect login or game server is remove or register again, no server reconnect...
+I0521 21:11:32.714072 143781888 NetModule.cpp:220] add one connector: 127.0.0.1:10001 succeed...
+W0521 21:11:32.714152 143781888 ServerMgr.cpp:40] add game server, game server id:10001
+I0521 21:11:33.165983 38106560 NetConnector.cpp:216] connect to: 127.0.0.1:10001 success! 
+I0521 21:11:33.167672 143781888 ProxyThread.cpp:86] connect to game server succ, server id:10001
+W0521 21:12:17.263489 143781888 ServerMgr.cpp:140] remove game server, but the link is alive, game server id:10001
+W0521 21:12:17.263577 143781888 ServerMgr.cpp:145] remove one game server, game server id:10001
+I0521 21:12:26.992099 143781888 NetModule.cpp:220] add one connector: 127.0.0.1:10001 succeed...
+W0521 21:12:26.992122 143781888 ServerMgr.cpp:40] add game server, game server id:10001
+I0521 21:12:27.306682 38106560 NetConnector.cpp:216] connect to: 127.0.0.1:10001 success! 
+I0521 21:12:27.308770 143781888 ProxyThread.cpp:86] connect to game server succ, server id:10001
+I0521 21:21:44.657064 38106560 NetServer.cpp:88] delete io...192.168.10.127:54408
+I0521 21:21:45.881861 38106560 NetServer.cpp:88] delete io...192.168.10.102:56142
+W0522 10:04:03.718966 143781888 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 10001
+W0522 10:04:03.728610 143781888 ServerMgr.cpp:145] remove one game server, game server id:10001
+W0522 10:04:06.753115 143781888 ServerMgr.cpp:354] disconnect login or game server is remove or register again, no server reconnect...
+I0522 10:04:13.127509 143781888 NetModule.cpp:220] add one connector: 127.0.0.1:10001 succeed...
+W0522 10:04:13.127560 143781888 ServerMgr.cpp:40] add game server, game server id:10001
+I0522 10:04:13.392886 38106560 NetConnector.cpp:216] connect to: 127.0.0.1:10001 success! 
+I0522 10:04:13.395136 143781888 ProxyThread.cpp:86] connect to game server succ, server id:10001
+W0522 10:16:07.136641 143781888 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 10001
+W0522 10:16:07.150900 143781888 ServerMgr.cpp:145] remove one game server, game server id:10001
+W0522 10:16:10.209936 143781888 ServerMgr.cpp:354] disconnect login or game server is remove or register again, no server reconnect...
+I0522 10:16:14.308424 143781888 NetModule.cpp:220] add one connector: 127.0.0.1:10001 succeed...
+W0522 10:16:14.308444 143781888 ServerMgr.cpp:40] add game server, game server id:10001
+I0522 10:16:14.557623 38106560 NetConnector.cpp:216] connect to: 127.0.0.1:10001 success! 
+I0522 10:16:14.559926 143781888 ProxyThread.cpp:86] connect to game server succ, server id:10001
+W0522 10:16:57.717680 143781888 ServerMgr.cpp:140] remove game server, but the link is alive, game server id:10001
+W0522 10:16:57.718777 143781888 ServerMgr.cpp:145] remove one game server, game server id:10001
+I0522 10:18:12.362691 143781888 NetModule.cpp:220] add one connector: 127.0.0.1:10001 succeed...
+W0522 10:18:12.362771 143781888 ServerMgr.cpp:40] add game server, game server id:10001
+I0522 10:18:12.387423 38106560 NetConnector.cpp:216] connect to: 127.0.0.1:10001 success! 
+I0522 10:18:12.389473 143781888 ProxyThread.cpp:86] connect to game server succ, server id:10001
+I0522 10:25:55.564004 38106560 NetServer.cpp:55] accept io...192.168.10.171:54365
+I0522 10:31:27.266469 38106560 NetServer.cpp:88] delete io...192.168.10.171:54365
+I0522 10:38:20.742446 38106560 NetServer.cpp:55] accept io...192.168.10.127:54745
+I0522 10:40:38.158649 38106560 NetServer.cpp:88] delete io...192.168.10.127:54745
+I0522 10:40:38.286731 38106560 NetServer.cpp:55] accept io...192.168.10.127:54748
+W0522 10:40:55.800925 143781888 ProxyThread.cpp:880] client socket not found, main id: 6, sub id: 695
+W0522 10:40:55.801708 143781888 ProxyThread.cpp:880] client socket not found, main id: 6, sub id: 682
+W0522 10:40:55.801764 143781888 ProxyThread.cpp:880] client socket not found, main id: 6, sub id: 650
+W0522 10:40:56.131774 143781888 ProxyThread.cpp:880] client socket not found, main id: 6, sub id: 660
+W0522 10:40:56.154600 143781888 ProxyThread.cpp:880] client socket not found, main id: 6, sub id: 695
+W0522 10:40:56.154734 143781888 ProxyThread.cpp:880] client socket not found, main id: 6, sub id: 682
+W0522 10:40:56.154783 143781888 ProxyThread.cpp:880] client socket not found, main id: 6, sub id: 650
+W0522 10:40:56.488024 143781888 ProxyThread.cpp:880] client socket not found, main id: 6, sub id: 660
+W0522 10:40:56.488157 143781888 ProxyThread.cpp:880] client socket not found, main id: 6, sub id: 695
+W0522 10:40:56.488214 143781888 ProxyThread.cpp:880] client socket not found, main id: 6, sub id: 682
+W0522 10:40:56.488258 143781888 ProxyThread.cpp:880] client socket not found, main id: 6, sub id: 650
+W0522 10:40:56.827697 143781888 ProxyThread.cpp:880] client socket not found, main id: 6, sub id: 660
+W0522 10:40:56.827838 143781888 ProxyThread.cpp:880] client socket not found, main id: 6, sub id: 695
+W0522 10:40:56.827888 143781888 ProxyThread.cpp:880] client socket not found, main id: 6, sub id: 682
+W0522 10:40:56.827927 143781888 ProxyThread.cpp:880] client socket not found, main id: 6, sub id: 650
+W0522 10:40:57.156848 143781888 ProxyThread.cpp:880] client socket not found, main id: 6, sub id: 660
+I0522 10:46:28.892266 38106560 NetServer.cpp:88] delete io...192.168.10.127:54748
+I0522 10:47:09.972681 38106560 NetServer.cpp:55] accept io...192.168.10.127:54839
+I0522 10:52:23.298708 38106560 NetServer.cpp:88] delete io...192.168.10.127:54839
+I0522 10:53:03.861325 38106560 NetServer.cpp:55] accept io...192.168.10.127:54924
+I0522 10:53:54.855007 38106560 NetServer.cpp:88] delete io...192.168.10.127:54924
+I0522 10:54:35.411397 38106560 NetServer.cpp:55] accept io...192.168.10.127:55010
+I0522 11:00:35.854456 38106560 NetServer.cpp:88] delete io...192.168.10.127:55010
+I0522 11:01:16.324242 38106560 NetServer.cpp:55] accept io...192.168.10.127:55098
+I0522 11:03:04.749147 38106560 NetServer.cpp:88] delete io...192.168.10.127:55098
+I0522 11:03:46.035928 38106560 NetServer.cpp:55] accept io...192.168.10.127:55188
+I0522 11:08:37.242338 38106560 NetServer.cpp:88] delete io...192.168.10.127:55188
+I0522 11:09:18.128306 38106560 NetServer.cpp:55] accept io...192.168.10.127:55277
+W0522 11:15:57.960355 143781888 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 10001
+I0522 11:15:57.963987 38106560 NetServer.cpp:88] delete io...192.168.10.127:55277
+W0522 11:15:57.985034 143781888 ServerMgr.cpp:145] remove one game server, game server id:10001
+I0522 11:15:58.179752 38106560 NetServer.cpp:55] accept io...192.168.10.127:55280
+W0522 11:16:01.038367 143781888 ServerMgr.cpp:354] disconnect login or game server is remove or register again, no server reconnect...
+I0522 11:16:14.095223 143781888 NetModule.cpp:220] add one connector: 127.0.0.1:10001 succeed...
+W0522 11:16:14.095268 143781888 ServerMgr.cpp:40] add game server, game server id:10001
+I0522 11:16:14.164429 38106560 NetConnector.cpp:216] connect to: 127.0.0.1:10001 success! 
+I0522 11:16:14.164469 143781888 ProxyThread.cpp:86] connect to game server succ, server id:10001
+I0522 11:16:30.246372 38106560 NetServer.cpp:88] delete io...192.168.10.127:55280
+W0522 11:16:44.745862 143781888 ProxyThread.cpp:880] client socket not found, main id: 6, sub id: 660
+I0522 11:17:10.610355 38106560 NetServer.cpp:55] accept io...192.168.10.127:55359
+I0522 11:28:36.473412 38106560 NetServer.cpp:88] delete io...192.168.10.127:55359
+I0522 11:29:17.462961 38106560 NetServer.cpp:55] accept io...192.168.10.127:55451
+I0522 11:30:08.332517 38106560 NetServer.cpp:88] delete io...192.168.10.127:55451
+W0522 11:30:11.472858 143781888 ProxyThread.cpp:880] client socket not found, main id: 6, sub id: 660
+I0522 14:23:14.887567 38106560 NetServer.cpp:55] accept io...192.168.10.102:56502
+I0522 14:27:38.415854 38106560 NetServer.cpp:55] accept io...192.168.10.127:55565
+W0522 14:33:16.751235 143781888 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 10001
+I0522 14:33:16.754035 38106560 NetServer.cpp:88] delete io...192.168.10.102:56502
+I0522 14:33:16.754132 38106560 NetServer.cpp:88] delete io...192.168.10.127:55565
+W0522 14:33:16.755790 143781888 ServerMgr.cpp:145] remove one game server, game server id:10001
+I0522 14:33:17.462177 38106560 NetServer.cpp:55] accept io...192.168.10.127:55568
+I0522 14:33:17.609226 38106560 NetServer.cpp:55] accept io...192.168.10.102:56509
+W0522 14:33:19.789034 143781888 ServerMgr.cpp:354] disconnect login or game server is remove or register again, no server reconnect...
+I0522 14:33:29.464242 143781888 NetModule.cpp:220] add one connector: 127.0.0.1:10001 succeed...
+W0522 14:33:29.464273 143781888 ServerMgr.cpp:40] add game server, game server id:10001
+I0522 14:33:29.570677 38106560 NetConnector.cpp:216] connect to: 127.0.0.1:10001 success! 
+I0522 14:33:29.572417 143781888 ProxyThread.cpp:86] connect to game server succ, server id:10001
+W0522 14:34:55.993235 143781888 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 10001
+I0522 14:34:56.004088 38106560 NetServer.cpp:88] delete io...192.168.10.102:56509
+W0522 14:34:56.020231 143781888 ServerMgr.cpp:145] remove one game server, game server id:10001
+I0522 14:34:56.427239 38106560 NetServer.cpp:55] accept io...192.168.10.102:56513
+W0522 14:34:59.028694 143781888 ServerMgr.cpp:354] disconnect login or game server is remove or register again, no server reconnect...
+I0522 14:35:09.103058 143781888 NetModule.cpp:220] add one connector: 127.0.0.1:10001 succeed...
+W0522 14:35:09.103087 143781888 ServerMgr.cpp:40] add game server, game server id:10001
+I0522 14:35:09.366585 38106560 NetConnector.cpp:216] connect to: 127.0.0.1:10001 success! 
+I0522 14:35:09.369046 143781888 ProxyThread.cpp:86] connect to game server succ, server id:10001
+I0522 14:36:55.542009 38106560 NetServer.cpp:88] delete io...192.168.10.102:56513
+I0522 14:44:20.932286 38106560 NetServer.cpp:55] accept io...192.168.10.102:56532
+I0522 14:44:46.524955 38106560 NetServer.cpp:88] delete io...192.168.10.102:56532
+I0522 14:44:52.913523 38106560 NetServer.cpp:55] accept io...192.168.10.102:56613
+W0522 14:45:22.836490 143781888 ProxyThread.cpp:880] client socket not found, main id: 6, sub id: 660
+I0522 14:46:38.871301 38106560 NetServer.cpp:88] delete io...192.168.10.102:56613
+I0522 14:46:48.040102 38106560 NetServer.cpp:88] delete io...192.168.10.127:55568
+W0522 14:47:11.511960 143781888 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 10001
+W0522 14:47:11.519667 143781888 ServerMgr.cpp:145] remove one game server, game server id:10001
+W0522 14:47:14.527632 143781888 ServerMgr.cpp:354] disconnect login or game server is remove or register again, no server reconnect...
+I0522 14:47:18.531124 38106560 NetServer.cpp:55] accept io...192.168.10.102:56881
+I0522 14:47:25.154306 143781888 NetModule.cpp:220] add one connector: 127.0.0.1:10001 succeed...
+W0522 14:47:25.154345 143781888 ServerMgr.cpp:40] add game server, game server id:10001
+I0522 14:47:25.407058 38106560 NetConnector.cpp:216] connect to: 127.0.0.1:10001 success! 
+I0522 14:47:25.407351 143781888 ProxyThread.cpp:86] connect to game server succ, server id:10001
+I0522 14:48:07.312837 38106560 NetServer.cpp:88] delete io...192.168.10.102:56881
+I0522 14:48:27.812594 38106560 NetServer.cpp:55] accept io...192.168.10.102:56968
+W0522 14:48:55.855163 143781888 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 10001
+I0522 14:48:55.867127 38106560 NetServer.cpp:88] delete io...192.168.10.102:56968
+W0522 14:48:55.875690 143781888 ServerMgr.cpp:145] remove one game server, game server id:10001
+I0522 14:48:56.315001 38106560 NetServer.cpp:55] accept io...192.168.10.102:56972
+W0522 14:48:58.909478 143781888 ServerMgr.cpp:354] disconnect login or game server is remove or register again, no server reconnect...
+I0522 14:49:07.491398 143781888 NetModule.cpp:220] add one connector: 127.0.0.1:10001 succeed...
+W0522 14:49:07.491421 143781888 ServerMgr.cpp:40] add game server, game server id:10001
+I0522 14:49:07.683181 38106560 NetConnector.cpp:216] connect to: 127.0.0.1:10001 success! 
+I0522 14:49:07.684481 143781888 ProxyThread.cpp:86] connect to game server succ, server id:10001
+I0522 14:50:12.504878 38106560 NetServer.cpp:55] accept io...192.168.10.127:55569
+W0522 14:50:37.107473 143781888 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 10001
+W0522 14:50:37.123502 143781888 ServerMgr.cpp:145] remove one game server, game server id:10001
+I0522 14:50:37.125587 38106560 NetServer.cpp:88] delete io...192.168.10.127:55569
+I0522 14:50:37.405082 38106560 NetServer.cpp:55] accept io...192.168.10.127:55571
+W0522 14:50:40.163183 143781888 ServerMgr.cpp:354] disconnect login or game server is remove or register again, no server reconnect...
+I0522 14:52:02.437731 143781888 NetModule.cpp:220] add one connector: 127.0.0.1:10001 succeed...
+W0522 14:52:02.437783 143781888 ServerMgr.cpp:40] add game server, game server id:10001
+I0522 14:52:02.683776 38106560 NetConnector.cpp:216] connect to: 127.0.0.1:10001 success! 
+I0522 14:52:02.685034 143781888 ProxyThread.cpp:86] connect to game server succ, server id:10001
+W0522 14:53:51.838713 143781888 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 10001
+W0522 14:53:51.846190 143781888 ServerMgr.cpp:145] remove one game server, game server id:10001
+I0522 14:53:51.859781 38106560 NetServer.cpp:88] delete io...192.168.10.127:55571
+I0522 14:53:51.859933 38106560 NetServer.cpp:88] delete io...192.168.10.102:56972
+I0522 14:53:52.342192 38106560 NetServer.cpp:55] accept io...192.168.10.102:56976
+I0522 14:53:53.525733 38106560 NetServer.cpp:88] delete io...192.168.10.102:56976
+W0522 14:53:54.924540 143781888 ServerMgr.cpp:354] disconnect login or game server is remove or register again, no server reconnect...
+I0522 14:53:59.739331 38106560 NetServer.cpp:55] accept io...192.168.10.127:55572
+I0522 14:54:03.214155 143781888 NetModule.cpp:220] add one connector: 127.0.0.1:10001 succeed...
+W0522 14:54:03.214174 143781888 ServerMgr.cpp:40] add game server, game server id:10001
+I0522 14:54:03.512938 38106560 NetConnector.cpp:216] connect to: 127.0.0.1:10001 success! 
+I0522 14:54:03.514961 143781888 ProxyThread.cpp:86] connect to game server succ, server id:10001
+I0522 14:54:13.143121 38106560 NetServer.cpp:55] accept io...192.168.10.102:57054
+I0522 14:54:18.769296 38106560 NetServer.cpp:88] delete io...192.168.10.102:57054
+I0522 14:55:01.702791 38106560 NetServer.cpp:55] accept io...192.168.10.102:57055
+I0522 14:55:21.006222 38106560 NetServer.cpp:88] delete io...192.168.10.127:55572
+I0522 14:56:59.376971 38106560 NetServer.cpp:55] accept io...192.168.10.127:56032
+I0522 14:58:14.331889 38106560 NetServer.cpp:88] delete io...192.168.10.127:56032
+I0522 14:58:56.849262 38106560 NetServer.cpp:55] accept io...192.168.10.127:56115
+I0522 15:01:35.371872 143781888 NetModule.cpp:220] add one connector: 127.0.0.1:9903 succeed...
+W0522 15:01:35.371994 143781888 ServerMgr.cpp:40] add game server, game server id:993
+I0522 15:01:35.776770 38106560 NetConnector.cpp:216] connect to: 127.0.0.1:9903 success! 
+I0522 15:01:35.778628 143781888 ProxyThread.cpp:86] connect to game server succ, server id:993
+I0522 15:02:58.258168 38106560 NetServer.cpp:88] delete io...192.168.10.127:56115
+I0522 15:04:17.772676 38106560 NetServer.cpp:55] accept io...192.168.10.127:56196
+I0522 15:04:26.986129 38106560 NetServer.cpp:88] delete io...192.168.10.127:56196
+W0522 15:05:06.580193 143781888 ProxyThread.cpp:880] client socket not found, main id: 6, sub id: 660
+I0522 15:05:11.687371 38106560 NetServer.cpp:88] delete io...192.168.10.102:57055
+I0522 15:05:16.883301 38106560 NetServer.cpp:55] accept io...192.168.10.127:56200
+I0522 15:05:19.175130 38106560 NetServer.cpp:55] accept io...192.168.10.102:57331
+W0522 15:07:52.757577 143781888 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 10001
+I0522 15:07:52.777704 38106560 NetServer.cpp:88] delete io...192.168.10.127:56200
+I0522 15:07:52.777773 38106560 NetServer.cpp:88] delete io...192.168.10.102:57331
+W0522 15:07:52.782688 143781888 ServerMgr.cpp:145] remove one game server, game server id:10001
+I0522 15:07:53.019098 38106560 NetServer.cpp:55] accept io...192.168.10.102:57332
+I0522 15:07:53.056382 38106560 NetServer.cpp:55] accept io...192.168.10.127:56204
+W0522 15:07:55.796819 143781888 ServerMgr.cpp:354] disconnect login or game server is remove or register again, no server reconnect...
+I0522 15:08:36.191556 143781888 NetModule.cpp:220] add one connector: 127.0.0.1:10001 succeed...
+W0522 15:08:36.191607 143781888 ServerMgr.cpp:40] add game server, game server id:10001
+I0522 15:08:36.509034 38106560 NetConnector.cpp:216] connect to: 127.0.0.1:10001 success! 
+I0522 15:08:36.511160 143781888 ProxyThread.cpp:86] connect to game server succ, server id:10001
+W0522 15:09:40.989037 143781888 ServerMgr.cpp:140] remove game server, but the link is alive, game server id:10001
+W0522 15:09:40.989111 143781888 ServerMgr.cpp:145] remove one game server, game server id:10001
+I0522 15:11:14.594921 143781888 NetModule.cpp:220] add one connector: 127.0.0.1:10001 succeed...
+W0522 15:11:14.594976 143781888 ServerMgr.cpp:40] add game server, game server id:10001
+I0522 15:11:14.914170 38106560 NetConnector.cpp:216] connect to: 127.0.0.1:10001 success! 
+I0522 15:11:14.915254 143781888 ProxyThread.cpp:86] connect to game server succ, server id:10001
+W0522 15:13:15.386207 143781888 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 10001
+I0522 15:13:15.395423 38106560 NetServer.cpp:88] delete io...192.168.10.127:56204
+I0522 15:13:15.395519 38106560 NetServer.cpp:88] delete io...192.168.10.102:57332
+W0522 15:13:15.405140 143781888 ServerMgr.cpp:145] remove one game server, game server id:10001
+I0522 15:13:15.561599 38106560 NetServer.cpp:55] accept io...192.168.10.127:56205
+I0522 15:13:15.570550 38106560 NetServer.cpp:55] accept io...192.168.10.102:57336
+W0522 15:13:18.475564 143781888 ServerMgr.cpp:354] disconnect login or game server is remove or register again, no server reconnect...
+I0522 15:13:22.351474 143781888 NetModule.cpp:220] add one connector: 127.0.0.1:10001 succeed...
+W0522 15:13:22.351495 143781888 ServerMgr.cpp:40] add game server, game server id:10001
+I0522 15:13:22.771754 38106560 NetConnector.cpp:216] connect to: 127.0.0.1:10001 success! 
+I0522 15:13:22.773998 143781888 ProxyThread.cpp:86] connect to game server succ, server id:10001
+I0522 15:27:05.437885 38106560 NetServer.cpp:88] delete io...192.168.10.102:57336
+I0522 15:27:05.438129 38106560 NetServer.cpp:88] delete io...192.168.10.127:56205
+W0522 15:27:05.468958 143781888 ProxyThread.cpp:880] client socket not found, main id: 7, sub id: 7109
+I0522 15:27:55.923166 38106560 NetServer.cpp:55] accept io...192.168.10.102:57350
+I0522 15:27:55.957706 38106560 NetServer.cpp:55] accept io...192.168.10.127:56207
+I0522 15:29:38.414371 38106560 NetServer.cpp:88] delete io...192.168.10.102:57350
+W0522 15:29:45.506531 143781888 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 10001
+I0522 15:29:45.523433 38106560 NetServer.cpp:88] delete io...192.168.10.127:56207
+W0522 15:29:45.528400 143781888 ServerMgr.cpp:145] remove one game server, game server id:10001
+I0522 15:29:45.663800 38106560 NetServer.cpp:55] accept io...192.168.10.127:56208
+W0522 15:29:48.511654 143781888 ServerMgr.cpp:354] disconnect login or game server is remove or register again, no server reconnect...
+I0522 15:29:57.977912 38106560 NetServer.cpp:55] accept io...192.168.10.102:57429
+I0522 15:31:42.938215 38106560 NetServer.cpp:88] delete io...192.168.10.102:57429
+I0522 15:31:50.832020 143781888 NetModule.cpp:220] add one connector: 127.0.0.1:10001 succeed...
+W0522 15:31:50.832044 143781888 ServerMgr.cpp:40] add game server, game server id:10001
+I0522 15:31:50.919195 38106560 NetConnector.cpp:216] connect to: 127.0.0.1:10001 success! 
+I0522 15:31:50.919888 143781888 ProxyThread.cpp:86] connect to game server succ, server id:10001
+I0522 15:32:02.498420 38106560 NetServer.cpp:55] accept io...192.168.10.102:57510
+I0522 15:32:07.000703 38106560 NetServer.cpp:88] delete io...192.168.10.102:57510
+I0522 15:33:21.021575 38106560 NetServer.cpp:88] delete io...192.168.10.127:56208
+I0522 15:33:32.224676 38106560 NetServer.cpp:55] accept io...192.168.10.127:56491
+I0522 15:33:45.014122 38106560 NetServer.cpp:55] accept io...192.168.10.102:57511
+W0522 15:36:06.921644 143781888 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 10001
+I0522 15:36:06.926034 38106560 NetServer.cpp:88] delete io...192.168.10.102:57511
+I0522 15:36:06.926127 38106560 NetServer.cpp:88] delete io...192.168.10.127:56491
+W0522 15:36:06.932699 143781888 ServerMgr.cpp:145] remove one game server, game server id:10001
+I0522 15:36:07.162891 38106560 NetServer.cpp:55] accept io...192.168.10.127:56494
+I0522 15:36:07.179093 38106560 NetServer.cpp:55] accept io...192.168.10.102:57512
+W0522 15:36:09.967506 143781888 ServerMgr.cpp:354] disconnect login or game server is remove or register again, no server reconnect...
+I0522 15:36:18.857136 143781888 NetModule.cpp:220] add one connector: 127.0.0.1:10001 succeed...
+W0522 15:36:18.857170 143781888 ServerMgr.cpp:40] add game server, game server id:10001
+I0522 15:36:19.200394 38106560 NetConnector.cpp:216] connect to: 127.0.0.1:10001 success! 
+I0522 15:36:19.202589 143781888 ProxyThread.cpp:86] connect to game server succ, server id:10001
+I0522 15:36:22.386629 38106560 NetServer.cpp:88] delete io...192.168.10.127:56494
+I0522 15:37:03.216310 38106560 NetServer.cpp:55] accept io...192.168.10.127:56573
+I0522 15:37:05.052824 38106560 NetServer.cpp:88] delete io...192.168.10.127:56573
+I0522 15:37:14.628634 38106560 NetServer.cpp:55] accept io...192.168.10.127:56577
+I0522 15:37:46.572723 38106560 NetServer.cpp:88] delete io...192.168.10.102:57512
+I0522 15:37:54.157480 38106560 NetServer.cpp:55] accept io...192.168.10.102:57781
+W0522 15:46:06.542937 143781888 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 10001
+I0522 15:46:06.542981 38106560 NetServer.cpp:88] delete io...192.168.10.102:57781
+I0522 15:46:06.543114 38106560 NetServer.cpp:88] delete io...192.168.10.127:56577
+W0522 15:46:06.567833 143781888 ServerMgr.cpp:145] remove one game server, game server id:10001
+I0522 15:46:06.734668 38106560 NetServer.cpp:55] accept io...192.168.10.102:57788
+I0522 15:46:06.734731 38106560 NetServer.cpp:55] accept io...192.168.10.127:56580
+W0522 15:46:09.622184 143781888 ServerMgr.cpp:354] disconnect login or game server is remove or register again, no server reconnect...
+I0522 15:46:14.134451 143781888 NetModule.cpp:220] add one connector: 127.0.0.1:10001 succeed...
+W0522 15:46:14.134475 143781888 ServerMgr.cpp:40] add game server, game server id:10001
+I0522 15:46:14.375106 38106560 NetConnector.cpp:216] connect to: 127.0.0.1:10001 success! 
+I0522 15:46:14.375346 143781888 ProxyThread.cpp:86] connect to game server succ, server id:10001
+I0522 15:47:18.587711 38106560 NetServer.cpp:88] delete io...192.168.10.102:57788
+I0522 15:47:38.464058 38106560 NetServer.cpp:55] accept io...192.168.10.102:57866
+I0522 15:56:13.757758 38106560 NetServer.cpp:88] delete io...192.168.10.102:57866
+W0522 16:05:21.200172 143781888 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 10001
+I0522 16:05:21.208604 38106560 NetServer.cpp:88] delete io...192.168.10.127:56580
+W0522 16:05:21.221854 143781888 ServerMgr.cpp:145] remove one game server, game server id:10001
+I0522 16:05:21.376268 38106560 NetServer.cpp:55] accept io...192.168.10.127:56581
+W0522 16:05:24.225555 143781888 ServerMgr.cpp:354] disconnect login or game server is remove or register again, no server reconnect...
+I0522 16:05:33.377280 143781888 NetModule.cpp:220] add one connector: 127.0.0.1:10001 succeed...
+W0522 16:05:33.377308 143781888 ServerMgr.cpp:40] add game server, game server id:10001
+I0522 16:05:33.650810 38106560 NetConnector.cpp:216] connect to: 127.0.0.1:10001 success! 
+I0522 16:05:33.651672 143781888 ProxyThread.cpp:86] connect to game server succ, server id:10001
+I0522 17:01:21.644335 38106560 NetServer.cpp:88] delete io...192.168.10.127:56581
+I0522 17:01:23.337450 38106560 NetServer.cpp:55] accept io...192.168.10.127:56589
+I0522 17:02:53.056740 38106560 NetServer.cpp:88] delete io...192.168.10.127:56589
+I0522 17:21:45.060801 38106560 NetServer.cpp:55] accept io...192.168.10.102:58431
+I0522 18:25:07.301746 38106560 NetServer.cpp:88] delete io...192.168.10.102:58431
+W0522 19:43:27.347775 143781888 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 10001
+W0522 19:43:27.368650 143781888 ServerMgr.cpp:145] remove one game server, game server id:10001
+W0522 19:43:30.438380 143781888 ServerMgr.cpp:354] disconnect login or game server is remove or register again, no server reconnect...
+I0522 19:43:47.550688 143781888 NetModule.cpp:220] add one connector: 127.0.0.1:11001 succeed...
+W0522 19:43:47.550710 143781888 ServerMgr.cpp:40] add game server, game server id:11
+I0522 19:43:47.868235 38106560 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I0522 19:43:47.870262 143781888 ProxyThread.cpp:86] connect to game server succ, server id:11
+I0522 19:43:59.284773 38106560 NetServer.cpp:55] accept io...192.168.10.171:55479
+I0522 19:44:21.043519 38106560 NetServer.cpp:55] accept io...192.168.10.127:57431
+I0522 19:44:25.143579 38106560 NetServer.cpp:55] accept io...192.168.10.102:58482
+I0522 19:45:18.899579 38106560 NetServer.cpp:88] delete io...192.168.10.102:58482
+I0522 19:45:24.233376 38106560 NetServer.cpp:55] accept io...192.168.10.102:58483
+I0522 19:45:41.121701 38106560 NetServer.cpp:88] delete io...192.168.10.102:58483
+I0522 19:45:46.758544 38106560 NetServer.cpp:55] accept io...192.168.10.102:58484
+I0522 19:48:17.083863 38106560 NetServer.cpp:88] delete io...192.168.10.102:58484
+W0522 19:48:17.282915 143781888 ProxyThread.cpp:880] client socket not found, main id: 8, sub id: 103
+W0522 19:48:17.307266 143781888 ProxyThread.cpp:880] client socket not found, main id: 8, sub id: 104
+I0522 19:48:23.027431 38106560 NetServer.cpp:55] accept io...192.168.10.102:58485
+I0522 19:48:41.659124 38106560 NetServer.cpp:88] delete io...192.168.10.102:58485
+I0522 19:49:22.527220 38106560 NetServer.cpp:55] accept io...192.168.10.102:58760
+I0522 19:50:54.984488 38106560 NetServer.cpp:88] delete io...192.168.10.102:58760
+I0522 19:51:14.965196 38106560 NetServer.cpp:55] accept io...192.168.10.102:58847
+W0522 19:51:24.014873 143781888 ServerMgr.cpp:140] remove game server, but the link is alive, game server id:11
+W0522 19:51:24.014966 143781888 ServerMgr.cpp:145] remove one game server, game server id:11
+I0522 19:51:35.458761 143781888 NetModule.cpp:220] add one connector: 127.0.0.1:11001 succeed...
+W0522 19:51:35.458843 143781888 ServerMgr.cpp:40] add game server, game server id:11
+I0522 19:51:35.827217 38106560 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I0522 19:51:35.828378 143781888 ProxyThread.cpp:86] connect to game server succ, server id:11
+I0522 19:52:11.082083 38106560 NetServer.cpp:88] delete io...192.168.10.127:57431
+I0522 19:52:25.725378 38106560 NetServer.cpp:55] accept io...192.168.10.127:57440
+I0522 19:52:52.459796 38106560 NetServer.cpp:88] delete io...192.168.10.171:55479
+I0522 19:53:03.517088 38106560 NetServer.cpp:55] accept io...192.168.10.171:55481
+W0522 20:08:34.199241 143781888 ServerMgr.cpp:140] remove game server, but the link is alive, game server id:11
+W0522 20:08:34.199398 143781888 ServerMgr.cpp:145] remove one game server, game server id:11
+I0522 20:10:08.296735 143781888 NetModule.cpp:220] add one connector: 127.0.0.1:11001 succeed...
+W0522 20:10:08.296818 143781888 ServerMgr.cpp:40] add game server, game server id:11
+I0522 20:10:08.321781 38106560 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I0522 20:10:08.323333 143781888 ProxyThread.cpp:86] connect to game server succ, server id:11
+I0522 20:10:11.214566 38106560 NetServer.cpp:88] delete io...192.168.10.171:55481
+I0522 20:10:15.513358 38106560 NetServer.cpp:88] delete io...192.168.10.127:57440
+I0522 20:10:20.946369 38106560 NetServer.cpp:55] accept io...192.168.10.171:55482
+I0522 20:10:31.187533 38106560 NetServer.cpp:55] accept io...192.168.10.127:57447
+I0522 20:10:31.796160 38106560 NetServer.cpp:88] delete io...192.168.10.102:58847
+I0522 20:10:37.026149 38106560 NetServer.cpp:55] accept io...192.168.10.102:58860
+W0522 20:16:44.276301 143781888 ServerMgr.cpp:140] remove game server, but the link is alive, game server id:11
+W0522 20:16:44.276386 143781888 ServerMgr.cpp:145] remove one game server, game server id:11
+I0522 20:17:59.399101 143781888 NetModule.cpp:220] add one connector: 127.0.0.1:11001 succeed...
+W0522 20:17:59.399199 143781888 ServerMgr.cpp:40] add game server, game server id:11
+I0522 20:17:59.793387 38106560 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I0522 20:17:59.795162 143781888 ProxyThread.cpp:86] connect to game server succ, server id:11
+W0522 20:39:27.779186 143781888 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 11
+W0522 20:39:27.795363 143781888 ServerMgr.cpp:145] remove one game server, game server id:11
+W0522 20:39:30.822129 143781888 ServerMgr.cpp:354] disconnect login or game server is remove or register again, no server reconnect...
+I0522 20:39:40.430886 38106560 NetServer.cpp:88] delete io...192.168.10.127:57447
+I0522 20:39:40.950521 143781888 NetModule.cpp:220] add one connector: 127.0.0.1:11001 succeed...
+W0522 20:39:40.950542 143781888 ServerMgr.cpp:40] add game server, game server id:11
+I0522 20:39:41.314394 38106560 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I0522 20:39:41.314548 143781888 ProxyThread.cpp:86] connect to game server succ, server id:11
+I0522 20:39:42.375774 38106560 NetServer.cpp:88] delete io...192.168.10.171:55482
+I0522 20:39:49.438099 38106560 NetServer.cpp:55] accept io...192.168.10.127:57451
+I0522 20:39:52.247344 38106560 NetServer.cpp:55] accept io...192.168.10.171:55483
+I0522 20:40:00.453667 38106560 NetServer.cpp:88] delete io...192.168.10.102:58860
+I0522 20:40:04.796133 38106560 NetServer.cpp:55] accept io...192.168.10.102:58870
+W0522 20:41:04.505525 143781888 ServerMgr.cpp:140] remove game server, but the link is alive, game server id:11
+W0522 20:41:04.505656 143781888 ServerMgr.cpp:145] remove one game server, game server id:11
+I0522 20:41:16.791134 143781888 NetModule.cpp:220] add one connector: 127.0.0.1:11001 succeed...
+W0522 20:41:16.791167 143781888 ServerMgr.cpp:40] add game server, game server id:11
+I0522 20:41:17.102677 38106560 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I0522 20:41:17.103054 143781888 ProxyThread.cpp:86] connect to game server succ, server id:11
+W0522 20:41:40.777206 143781888 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 11
+W0522 20:41:40.788817 143781888 ServerMgr.cpp:145] remove one game server, game server id:11
+W0522 20:41:43.846652 143781888 ServerMgr.cpp:354] disconnect login or game server is remove or register again, no server reconnect...
+I0522 20:41:45.146158 38106560 NetServer.cpp:88] delete io...192.168.10.127:57451
+I0522 20:41:46.496145 38106560 NetServer.cpp:88] delete io...192.168.10.171:55483
+I0522 20:41:46.671229 38106560 NetServer.cpp:88] delete io...192.168.10.102:58870
+I0522 20:41:47.379663 143781888 NetModule.cpp:220] add one connector: 127.0.0.1:11001 succeed...
+W0522 20:41:47.379686 143781888 ServerMgr.cpp:40] add game server, game server id:11
+I0522 20:41:47.683432 38106560 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I0522 20:41:47.684494 143781888 ProxyThread.cpp:86] connect to game server succ, server id:11
+I0522 20:41:50.781707 38106560 NetServer.cpp:55] accept io...192.168.10.102:58871
+I0522 20:41:54.406250 38106560 NetServer.cpp:55] accept io...192.168.10.127:57455
+I0522 20:41:55.610556 38106560 NetServer.cpp:55] accept io...192.168.10.171:55484
+W0522 20:42:44.550345 143781888 ServerMgr.cpp:140] remove game server, but the link is alive, game server id:11
+W0522 20:42:44.550580 143781888 ServerMgr.cpp:145] remove one game server, game server id:11
+I0522 20:43:03.994880 38106560 NetServer.cpp:88] delete io...192.168.10.127:57455
+I0522 20:43:05.329346 38106560 NetServer.cpp:88] delete io...192.168.10.102:58871
+I0522 20:43:05.726680 143781888 NetModule.cpp:220] add one connector: 127.0.0.1:11001 succeed...
+W0522 20:43:05.726716 143781888 ServerMgr.cpp:40] add game server, game server id:11
+I0522 20:43:05.903937 38106560 NetConnector.cpp:216] connect to: 127.0.0.1:11001 success! 
+I0522 20:43:05.904955 143781888 ProxyThread.cpp:86] connect to game server succ, server id:11
+I0522 20:43:06.949017 38106560 NetServer.cpp:88] delete io...192.168.10.171:55484
+I0522 20:43:11.275605 38106560 NetServer.cpp:55] accept io...192.168.10.102:58875
+I0522 20:43:14.156672 38106560 NetServer.cpp:55] accept io...192.168.10.127:57459
+I0522 20:43:15.491118 38106560 NetServer.cpp:55] accept io...192.168.10.171:55485
+I0522 20:55:29.072305 38106560 NetServer.cpp:88] delete io...192.168.10.102:58875
+I0522 21:00:26.969961 38106560 NetServer.cpp:55] accept io...192.168.10.102:58883
+I0522 21:02:23.086755 38106560 NetServer.cpp:88] delete io...192.168.10.102:58883
+I0522 21:04:56.083914 38106560 NetServer.cpp:55] accept io...192.168.10.102:58961
+I0522 21:07:55.992339 38106560 NetServer.cpp:88] delete io...192.168.10.102:58961
+I0522 21:09:26.425215 38106560 NetServer.cpp:55] accept io...192.168.10.102:58965
+I0522 21:13:07.710964 38106560 NetServer.cpp:88] delete io...192.168.10.102:58965
+I0522 21:13:12.025199 38106560 NetServer.cpp:55] accept io...192.168.10.102:58966
+I0522 21:13:18.056779 38106560 NetServer.cpp:88] delete io...192.168.10.102:58966
+I0522 21:13:21.817112 38106560 NetServer.cpp:55] accept io...192.168.10.102:58973
+I0522 21:20:39.267660 38106560 NetServer.cpp:88] delete io...192.168.10.171:55485
+I0522 21:21:07.285683 38106560 NetServer.cpp:55] accept io...192.168.10.171:55610
+I0522 21:24:31.668887 38106560 NetServer.cpp:88] delete io...192.168.10.171:55610
+I0522 21:24:34.128151 38106560 NetServer.cpp:88] delete io...192.168.10.127:57459
+I0522 21:24:43.646405 38106560 NetServer.cpp:88] delete io...192.168.10.102:58973
+I0523 10:07:12.081877 38106560 NetServer.cpp:55] accept io...192.168.10.102:58981
+I0523 10:07:50.585073 38106560 NetServer.cpp:55] accept io...192.168.10.171:55681
+I0523 10:08:18.144137 38106560 NetServer.cpp:55] accept io...192.168.10.127:57746
+W0523 10:08:49.763725 143781888 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 11
+I0523 10:08:49.777057 38106560 NetServer.cpp:88] delete io...192.168.10.171:55681
+I0523 10:08:49.777189 38106560 NetServer.cpp:88] delete io...192.168.10.127:57746
+I0523 10:08:49.777225 38106560 NetServer.cpp:88] delete io...192.168.10.102:58981
+W0523 10:08:49.783218 143781888 ServerMgr.cpp:145] remove one game server, game server id:11
+I0523 10:08:49.986805 38106560 NetServer.cpp:55] accept io...192.168.10.171:55682
+I0523 10:08:50.036392 38106560 NetServer.cpp:55] accept io...192.168.10.102:58982
+I0523 10:08:50.044553 38106560 NetServer.cpp:55] accept io...192.168.10.127:57748
+W0523 10:08:52.868291 143781888 ServerMgr.cpp:354] disconnect login or game server is remove or register again, no server reconnect...
+W0523 10:10:50.570152 143781888 ProxyThread.cpp:133] game server is disconnect, after 3s will be reconnect!, server id: 993

@@ -1,0 +1,25 @@
+Log file created at: 2019/05/28 16:36:10
+Running on machine: henisdeMacBookPro.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0528 16:36:10.740399 414938560 GameServer.cpp:45] 正在启动游戏服务器...
+I0528 16:36:10.743147 414938560 NetModule.h:71] Init NetModule Finished.
+I0528 16:36:10.743410 414938560 NetModule.h:78] start work thread 0...
+I0528 16:36:10.743422 414938560 NetModule.cpp:69] Start Run NetModule...
+I0528 16:36:10.743438 414938560 NetModule.cpp:88] NetModule Already Startover.
+I0528 16:36:10.743450 414938560 NetModule.cpp:220] add one connector: 127.0.0.1:5001 succeed...
+I0528 16:36:10.743455 414938560 NetModule.cpp:220] add one connector: 127.0.0.1:6001 succeed...
+I0528 16:36:10.743460 414938560 NetModule.cpp:136] Create one server...
+I0528 16:36:11.245259 414938560 NetConnector.cpp:216] connect to: 127.0.0.1:6001 success! 
+I0528 16:36:11.245285 414938560 NetConnector.cpp:216] connect to: 127.0.0.1:5001 success! 
+I0528 16:36:11.247521 220467200 GameServerThread.cpp:113] connect to db server succ!
+I0528 16:36:13.223033 220467200 AndroidUserMgr.cpp:845] set active android count: 0
+I0528 16:36:13.223070 220467200 AndroidUserMgr.cpp:845] set active android count: 7
+I0528 16:36:13.435899 414938560 NetServer.cpp:55] accept io...127.0.0.1:63625
+I0528 16:36:13.844111 220467200 GameServerThread.cpp:1990] load benefit config succ!
+I0528 16:36:14.529390 220467200 GameServerThread.cpp:1910] load android parameter succ, android count : 30
+W0528 16:36:14.652480 220467200 GameTableManager.cpp:613] update br game server black list, server id: 10001
+I0528 16:36:14.652770 220467200 GameServerThread.cpp:1564] init server succ!
+I0528 16:36:14.652854 220467200 GameServerThread.cpp:146] bind one connect: 127.0.0.1:63625
+I0528 16:36:14.652866 220467200 ServerMgr.cpp:33] bind one proxy server, ip:127.0.0.1:63625
+W0528 16:45:39.449128 220467200 TableFrameForScore.cpp:1781] game process message fail? subid: 1
+W0528 16:47:42.364871 220467200 TableFrameForScore.cpp:1781] game process message fail? subid: 1
